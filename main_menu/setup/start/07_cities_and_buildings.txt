@@ -66,9 +66,10 @@ locations={
 	candia = { rank = town 			town_setup = greek_town_port }
 	corinth = { rank = town 		town_setup = greek_town_port }
 	ioannina = { rank = town 		town_setup = balkan_town }
-	kalamata = { rank = town 		town_setup = greek_town_port }
+	#kalamata = { rank = town 		town_setup = greek_town_port }
 	larissa = { rank = town 		town_setup = balkan_town }
 	rodos = { rank = town 			town_setup = greek_town_port }
+	mystras = { rank = town 		town_setup = greek_town_port }
 	
 	# albania
 	durres = { rank = town 			town_setup = greek_town_port }
@@ -77,6 +78,7 @@ locations={
 	constantinople = { rank = city 	town_setup = greek_city_port }
 	edirne = { rank = town 			town_setup = balkan_town }
 	gallipoli = { rank = town 		town_setup = greek_town_port }
+	canakkale = { rank = town 		town_setup = greek_town_port }
 	
 	# bulgaria
 	tarnovo = { rank = town 		town_setup = balkan_town }
@@ -4797,6 +4799,22 @@ building_manager = {
 
 
 #Villages
+	market_village = { tag = ACH level = 1 location = kalamata }
+	market_village = { tag = CAS level = 1 location = calatayud }
+	market_village = { tag = CAS level = 1 location = castellon_de_la_plana }
+	market_village = { tag = CAS level = 1 location = ciudad_rodrigo }
+	market_village = { tag = CAS level = 1 location = viseu }
+	market_village = { tag = CAS level = 1 location = medina_del_campo }
+	market_village = { tag = CAS level = 1 location = morella }
+	market_village = { tag = CAS level = 1 location = salamanca }
+	market_village = { tag = CAS level = 1 location = segovia }
+	market_village = { tag = CAS level = 1 location = teruel }
+	market_village = { tag = CAS level = 1 location = tudela }
+	market_village = { tag = BYZ level = 1 location = ladik_pontus }
+	market_village = { tag = BYZ level = 1 location = niksar }
+	market_village = { tag = BYZ level = 1 location = marash }
+	market_village = { tag = BYZ level = 1 location = soldaia }
+	market_village = { tag = BYZ level = 1 location = vosporo }
 	market_village = { tag = THE level = 1 location = rentina }
 	market_village = { tag = BUL level = 1 location = sozopol }
 	forest_village = { tag = BUL level = 1 location = stanimaka }
