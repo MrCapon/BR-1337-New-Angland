@@ -176,26 +176,26 @@
  mudurnu.greek_language: "Módra"
  mugla.greek_language: "Mógola" #Changed to a more formal alternate spelling
  mut.greek_language: "Klavdioúpolis Kilikías" #Altered romanization
- nalli.greek_language: "Vasilaíon" #The name Milia is somewhat contested
+ nalli.greek_language: "Milía"
  nazilli.greek_language: "Mástavra" #Altered romanization
  nevsehir.greek_language: "Moschára" #This was the contemporary Greek name and the Turkish name was actually also Muşkara
  nicosia_cyp.greek_language: "Lefkosía" #Altered romanization and spelling
  nigde.greek_language: "Nígdi"
  niksar.greek_language: "Neokaisáreia" 
  obruk.greek_language: "Sávatra"
- paphos.greek_language: "Páfos" #Altered romanization
+ paphos.greek_language: "Páphos"
  pirloganda.greek_language: "Isavrópolis"
  polatli.greek_language: "Górdion"
  rize.greek_language: "Rizaíon" 
  sabanozu.greek_language: "Sabanós" #Klossama's location is not the same and its also not attested since the classical period, changed to Hellenization of Turkish name
  safranbolu.greek_language: "Theodoroúpolis" #Saphrámpolis and Safranbolu are anachronistic and not used until centuries later, Turkish name should be Borli
  samsun.greek_language: "Amisós"
- sandikli.greek_language: "Ierápolis" #Altered romanization
+ sandikli.greek_language: "Hierápolis"
  sariyahsi.greek_language: "Nýssa"
  sarkikaraagac.greek_language: "Adrianoúpolis Pisidías"
  sarkisla.greek_language: "Malandará"
  selinti.greek_language: "Selinoús"
- seydisehir.greek_language: "Vásada" #Closer settlement
+ seydisehir.greek_language: "Ámblada"
  seyhli.greek_language: "Evméneia" 
  seyitgazi.greek_language: "Nakóleia"
  silifke.greek_language: "Seleúkia"
@@ -226,7 +226,7 @@
  tire.greek_language: "Theíra"
  tokat.greek_language: "Dókeia"
  tomarza.greek_language: "Tomárza"
- tosya.greek_language: "Theodosía Paflagonías" #Altered romanization
+ tosya.greek_language: "Theodosía Paphlagonías"
  turgut.greek_language: "Kláneos" #Fixed accent placement
  trebizond.greek_language: "Trapezoús"
  ulnia.greek_language: "Oulnía"
@@ -240,9 +240,9 @@
  yahyali.greek_language: "Fárasa" #Farasa was rather important for Cappadocian Greek culture
  yalvac.greek_language: "Antiócheia Pisidías" 
  yenicepazari.greek_language: "Néa Pazári" #Calque of Turkish name meaning New Bazaar
- yuksekkum.greek_language: "Kávnos" #Altered romanization
+ yuksekkum.greek_language: "Kaúnos"
  zara.greek_language: "Zára"
- zile.greek_language: "Zíla" #Altered romanization
+ zile.greek_language: "Zêla"
  
  #Greece
  ahtopol.greek_language: "Agathoúpolis"
@@ -258,8 +258,8 @@
  atalanti.greek_language: "Atalánti"
  athens.greek_language: "Athínai" #Gave it the older, formal form while retaining modern/medieval Romanization
  avlonya.greek_language: "Avlónas"
- bodonitsa.greek_language: "Vodonítsa" #Altered romanization
- butrint.greek_language: "Vouthrotón" #Altered romanization
+ bodonitsa.greek_language: "Bodonítsa"
+ butrint.greek_language: "Bouthrōtón"
  candia.greek_language: "Chándax"
  catalca.greek_language: "Métrai"
  cephalonia.greek_language: "Kefaloniá" #Kefallinía also works
@@ -436,7 +436,7 @@
  perperek.greek_language: "Perperikón"
  pirot.greek_language: "Pýrgos" #Was called Pýrgos in Greek which has the same meaning as Turres in Latin
  pleven.greek_language: "Plévna" #Attested Greek name for Pleven
- plovdiv.greek_language: "Filippoúpolis" #Altered romanization and spelling
+ plovdiv.greek_language: "Philippópolis"
  prilep.greek_language: "Prílapos"
  prokuplje.greek_language: "Prokopía" #More contemporary name
  prosek.greek_language: "Prosákon" #More contemporary name
@@ -447,7 +447,7 @@
  shtip.greek_language: "Astívos" #Astívos seems to be the more common Greek name
  shumen.greek_language: "Symeonís" #Altered spelling
  skopje.greek_language: "Skoúpoi" #Altered Spelling
- sliven.greek_language: "Sílymnos" #Altered romanization
+ sliven.greek_language: "Sêlymnos"
  sozopol.greek_language: "Sozópolis" #It should be pretty obvious that the Bulgarian name was based on a contemporary Greek name
  sredets.greek_language: "Serdikí" #Triáditza would also work here
  stanimaka.greek_language: "Stenímachos"
@@ -478,7 +478,7 @@
  
  #West Balkans
  arilje.greek_language: "Árilia"
- ballsh.greek_language: "Výllis" #Altered romanization
+ ballsh.greek_language: "Býllis"
  bar_cg.greek_language: "Antivárion"
  belgrad.greek_language: "Velégrada" #Siggidónon is wildly anachronistic when there are multiple known Byzantine Greek names for Belgrade
  berat.greek_language: "Vellégrada" #Berat was known as Belgrad in Greek in this period due to the Slavic name for the city
@@ -504,7 +504,7 @@
  durres.greek_language: "Dyrráchion" #Altered romanization
  elbasan.greek_language: "Tzernikón" #Both Skampis and Elbasan are anachronistic in opposite directions and the Albanian name should be Çermenikë which is equivalent to Greek Tzernikón
  gacko.greek_language: "Gátsko"
- gjakova.greek_language: "Tzakóvitsa" #Altered romanization
+ gjakova.greek_language: "Tzakóbitsa"
  glamoc.greek_language: "Viográdon" #Biograd was the contemporary Slavic name, and what I based the Hellenization on
  glaz.greek_language: "Glázi"
  gorizia.greek_language: "Gorítsia" #Altered spelling
@@ -518,7 +518,7 @@
  jajce.greek_language: "Giáitsa" #Changed to a Hellenization of the Slavic name
  karlovac.greek_language: "Karoloúpolis" #Left the same, good name
  kaseg.greek_language: "Kaséki" #Hellenization of Slavic name
- kavaje.greek_language: "Kavágia" #Altered romanization
+ kavaje.greek_language: "Kabágia"
  kljuc.greek_language: "Kloútzi" #hellenized
  knin.greek_language: "Tenín" #Changed to a name attested in De Administrando Imperii
  koman.greek_language: "Kománi" #Added accent mark
