@@ -12897,6 +12897,7 @@ countries = {
 					feudal_de_jure_law = by_blood
 					administrative_system = pronoia_system
 					patriarchate_law = state_patriarchate_policy
+					bureaucracy_law = centralized_bureaucracy_policy
 				}
 			}
 			#Setup to accurately portray the starting situation
@@ -13572,17 +13573,20 @@ countries = {
 				cervera balaguer flix lleida montblanc tarragona tarrega tortosa villafranca_del_penedes
 				seu_durgell agramunt cardona talarn
 				huesca ainsa almudevar anso barbastro benabarre ejea_de_los_caballeros fraga jaca monzon sarinena sos
-				teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
-				zaragoza ariza belchite carinena caspe calatayud daroca pina_de_ebro tarazona zuera
-				castellon_de_la_plana ares_del_maestre llucena morella peniscola
+				zuera
+				caspe
+				pina_de_ebro
 			}
 			own_control_conquered = {
 			}
 			
 			our_cores_conquered_by_others = {
 				puigcerda prades montpellier perpignan
-				palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
 				vielha
+				zaragoza ariza belchite carinena calatayud daroca tarazona
+				palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
+				castellon_de_la_plana ares_del_maestre llucena morella peniscola
+				teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
 			}
 			
 			starting_technology_level = 3
@@ -13677,8 +13681,9 @@ countries = {
 				ruler = random
 			}
 		}
+
 		MLL = {
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
 			}
 			
@@ -13720,7 +13725,7 @@ countries = {
 				avila arevalo villatoro #Avila
 				segovia cuellar fuentiduena pedraza sepulveda
 				valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
-				zamora alba_de_aliste fermoselle toro villalpando
+				alba_de_aliste fermoselle toro villalpando
 				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 				palencia palenzuela aranda_de_duero
 				sto_domingo_silos
@@ -13921,18 +13926,6 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
-				#Castilla
-				avila arevalo villatoro #Avila
-				segovia cuellar fuentiduena pedraza sepulveda
-				valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
-				palencia palenzuela aranda_de_duero
-				#Portugual
-				feira #Beira Litoral
-				lamego meda pinhel trancoso viseu #Beira Alta
-				porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo #Minho
-				braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real #Tras-os-Montes
-				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
-				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 			}
 			
 			starting_technology_level = 3
@@ -14298,7 +14291,6 @@ countries = {
 			dynasty = de_evreux_dynasty
 			
 		}
-		
 		
 		#----------------------------- France -------------------------------
 		
@@ -18062,6 +18054,7 @@ countries = {
 		KNI = { #Knights Hospitaller
 			own_control_core = {
 				malta
+				ciudadela_de_menorca
 			}
 			our_cores_conquered_by_others = {
 				rodos kos
@@ -52731,9 +52724,227 @@ countries = {
         }
 		
 
+		###Iberia additions
+		AD0 = { #BR addition
+			own_control_core = {
+				zamora
+			}
+			
+			our_cores_conquered_by_others = {
+				avila arevalo villatoro #Avila
+				alba_de_aliste fermoselle toro villalpando
+				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes
 
 
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "iberian_monarchy_no_auxilium"
+			
+			government = {
+				type = monarchy
+				heir_selection = oligarchic_elective
+				ruler = random
+				
 
+				privilege = {
+					#Nobles
+					
+					#Clergy
+					freedom_of_interpretation
+					
+					#Burghers
+					formal_guilds
+					building_rights
+					market_fairs
+					land_of_commerce
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
+					allow_trade_center_sponsorship
+					
+					#Peasants
+					partial_yield
+					peasants_free_peasantry
+					
+					#Dhimmi
+					dhimmi_land_rights
+					dhimmi_administrative_posts
+					dhimmi_abrahamic_communities
+					dhimmi_pact_of_umar
+					dhimmi_military_service
+					dhimmi_traditions
+					dharmic_dhimmi_communities
+					dhimmi_promote_tolerance
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
+					
+				}
+				
+				centralization_vs_decentralization = -50
+				aristocracy_vs_plutocracy = 50
+				serfdom_vs_free_subjects = 25
+				traditionalist_vs_innovative = 50
+				spiritualist_vs_humanist = 80
+				mercantilism_vs_free_trade = 35
+				offensive_vs_defensive = 50
+				land_vs_naval = -20
+				quality_vs_quantity = -30
+				belligerent_vs_conciliatory = 50
+				capital_economy_vs_traditional_economy = -60
+				individualism_vs_communalism = -20
+				outward_vs_inward = -60
+				mysticism_vs_jurisprudence = 50
+				
+
+				laws = {
+					sharia_law = maliki_policy
+				}
+			}
+
+			court_language = maghrebi_dialect
+			religious_school = maliki_school
+			
+			country_rank = rank_county
+			capital = zamora
+			
+			accepted_cultures = {
+				sephardi
+			}
+		}
+		
+		
+		AD1 = { #BR addition
+			own_control_core = {
+				zaragoza
+				ariza belchite carinena calatayud daroca tarazona
+				castellon_de_la_plana ares_del_maestre llucena morella peniscola
+				teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
+			}
+			
+			our_cores_conquered_by_others = {
+				zuera
+				caspe
+				pina_de_ebro
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "iberian_monarchy_no_auxilium"
+			
+			government = {
+				type = monarchy
+				heir_selection = oligarchic_elective
+				ruler = random
+				
+
+				privilege = {
+					#Nobles
+					
+					#Clergy
+					freedom_of_interpretation
+					
+					#Burghers
+					formal_guilds
+					building_rights
+					market_fairs
+					land_of_commerce
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
+					allow_trade_center_sponsorship
+					
+					#Peasants
+					partial_yield
+					peasants_free_peasantry
+					
+					#Dhimmi
+					dhimmi_land_rights
+					dhimmi_administrative_posts
+					dhimmi_abrahamic_communities
+					dhimmi_pact_of_umar
+					dhimmi_military_service
+					dhimmi_traditions
+					dharmic_dhimmi_communities
+					dhimmi_promote_tolerance
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
+					
+				}
+				
+				centralization_vs_decentralization = -50
+				aristocracy_vs_plutocracy = 50
+				serfdom_vs_free_subjects = 25
+				traditionalist_vs_innovative = 50
+				spiritualist_vs_humanist = 80
+				mercantilism_vs_free_trade = 35
+				offensive_vs_defensive = 50
+				land_vs_naval = -20
+				quality_vs_quantity = -30
+				belligerent_vs_conciliatory = 50
+				capital_economy_vs_traditional_economy = -60
+				individualism_vs_communalism = -20
+				outward_vs_inward = -60
+				mysticism_vs_jurisprudence = 50
+				
+				laws = {
+					sharia_law = maliki_policy
+				}
+			}
+
+			court_language = maghrebi_dialect
+			religious_school = maliki_school
+			
+			country_rank = rank_duchy
+			capital = zamora
+			
+			accepted_cultures = {
+				sephardi
+			}
+			
+		}
+
+		AD2 = {
+			own_control_core = {
+				palma ibiza manacor pollensa
+			}
+			our_cores_conquered_by_others = {
+				ciudadela_de_menorca
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "iberian_monarchy"
+			
+			country_rank = rank_duchy
+			capital = palma
+			government = {
+
+			}
+			
+			tolerated_cultures = {
+				mozarabic
+			}
+			
+		}
+		
 
 
 
