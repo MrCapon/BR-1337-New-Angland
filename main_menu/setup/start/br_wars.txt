@@ -104,6 +104,86 @@ war_manager = {
 		}
 	}
 
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "ARA"
+			}
+			SECOND = {
+				name="AD1"
+			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = zaragoza
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = ARA
+			request = {
+				reason = Instigator
+			}
+		}
+		#Team 2
+		defender = {
+			country = AD1
+			request = {
+				reason = Target
+			}
+		}
+	}
+
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "KNI"
+			}
+			SECOND = {
+				name="AD2"
+			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = palma
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = KNI
+			request = {
+				reason = Instigator
+			}
+		}
+		attacker = {
+			country = ARA
+			request = {
+				caller = KNI
+				reason = Scripted
+				which = alliance
+			}
+		}
+		#Team 2
+		defender = {
+			country = AD2
+			request = {
+				reason = Target
+			}
+		}
+	}
+
 	truce = { 
 		attacker = NOR
 		#
