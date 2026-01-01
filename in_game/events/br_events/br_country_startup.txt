@@ -202,6 +202,14 @@ br_country_startup.2 = {
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
+		c:ARA = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
 
 	}
 
