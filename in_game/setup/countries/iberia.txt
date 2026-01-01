@@ -22,7 +22,7 @@ ARA = {
 	unit_color1 = red
 	unit_color2 = yellow
 
-	culture_definition = catalan
+	culture_definition = aragonese
 	religion_definition = catholic
 
 	description_category = administrative
@@ -177,3 +177,24 @@ ADU = { #BR Addition
 #	culture_definition = galician
 #	religion_definition = catholic
 #}
+
+AD0 = { #BR Addition
+    color = rgb { 16 141 175 }
+
+    culture_definition = andalusi
+    religion_definition = sunni
+}
+
+AD1 = { #BR Addition
+    color = rgb { 136 141 102 }
+
+    culture_definition = andalusi
+    religion_definition = sunni
+}
+
+AD2 = { #BR Addition
+    color = rgb { 36 141 202 }
+
+    culture_definition = andalusi
+    religion_definition = sunni
+}
