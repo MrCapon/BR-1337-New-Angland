@@ -953,10 +953,10 @@ locations={
 	bayramlu = { rank = town		town_setup = anatolian_town }
 	lazkiye = { rank = town		town_setup = anatolian_town }
 	#ladik_pontus = { rank = town		town_setup = anatolian_town }
-	balikesir = { rank = town		town_setup = anatolian_town }
+	#balikesir = { rank = town		town_setup = anatolian_town }
 	milas = { rank = town		town_setup = greek_town_port }
 	karahisar_i_sahib = { rank = town		town_setup = anatolian_town }
-	manisa = { rank = town		town_setup = anatolian_town }
+	#manisa = { rank = town		town_setup = anatolian_town }
 	#niksar = { rank = town		town_setup = anatolian_town }
 	antalya = { rank = town		town_setup = greek_town_port }
 	alasehir = { rank = town		town_setup = anatolian_town }
@@ -1744,7 +1744,7 @@ building_manager = {
 	cathedral 	= { tag = CAS level = 1 location = mondonedo } #Cathedral of the Virgin of the Assumption, established in 1246   #BR edit
 	cathedral 	= { tag = CAS level = 1 location = ourense } #Saint Martin Cathedral, established in 1188   #BR edit
 	cathedral 	= { tag = CAS level = 1 location = oviedo } #Cathedral of the Holy Saviour, established in 821   #BR edit
-	cathedral 	= { tag = MLL level = 1 location = palma } #Saint Mary Cathedral, established in 1229
+	cathedral 	= { tag = AD2 level = 1 location = palma } #Saint Mary Cathedral, established in 1229
 	cathedral 	= { tag = NAV level = 1 location = pamplona } #Saint Mary Cathedral, established in 1127
 	cathedral 	= { tag = POR level = 1 location = porto } #Porto Cathedral, established in 1110
 	cathedral 	= { tag = CAS level = 1 location = salamanca } #Saint Mary Cathedral, established in 1236   #BR edit
@@ -4226,7 +4226,7 @@ building_manager = {
 	forest_village = { tag = BYZ level = 1 location = akcasehir }
 	sand_pit = { tag = BYZ level = 1 location = izmit }
 	sand_pit = { tag = BYZ level = 1 location = uskudar }
-	sand_pit = { tag = BYZ level = 2 location = constantinople }
+	sand_pit = { tag = BYZ level = 4 location = constantinople }
 	sand_pit = { tag = BYZ level = 1 location = bursa }
 	sand_pit = { tag = A1G level = 1 location = molyvos }
 	sand_pit = { tag = AON level = 1 location = ankara }
@@ -4560,7 +4560,7 @@ building_manager = {
 	pirate_haven = { tag = KIP level = 1 location = susaco }
 
 	#Mediterranean
-	pirate_haven = { tag = MLL level = 1 location = ciudadela_de_menorca }
+	pirate_haven = { tag = AD2 level = 1 location = ciudadela_de_menorca }
 	pirate_haven = { tag = TLE level = 1 location = algiers }
 	pirate_haven = { tag = TLE level = 1 location = bejaia }
 	pirate_haven = { tag = TUN level = 1 location = ajim }
@@ -4681,6 +4681,9 @@ building_manager = {
 	slave_market = { tag = ADU level = 1 location = jativa }
 	slave_market = { tag = ADU level = 1 location = santarem }
 
+	madrasa = { tag = AD0 level = 1 location = zamora }
+	madrasa = { tag = AD1 level = 1 location = zaragoza }
+
 	#Prominant Jewish districts
 
 	jewish_district = { tag = BYZ level = 1 location = constantinople }
@@ -4799,6 +4802,19 @@ building_manager = {
 
 
 #Villages
+	market_village = { tag = BYZ level = 1 location = luleburgaz }
+	forest_village = { tag = BYZ level = 1 location = luleburgaz }
+	market_village = { tag = BYZ level = 1 location = balikesir }
+	farming_village = { tag = BYZ level = 1 location = balikesir }
+	market_village = { tag = BYZ level = 1 location = manisa }
+	farming_village = { tag = BYZ level = 1 location = manisa }
+	market_village = { tag = BYZ level = 1 location = emirdag }
+	farming_village = { tag = BYZ level = 1 location = emirdag }
+	market_village = { tag = BYZ level = 1 location = sultanonu }
+	farming_village = { tag = BYZ level = 1 location = sultanonu }
+	forest_village = { tag = BYZ level = 1 location = adranos }
+	forest_village = { tag = BYZ level = 1 location = dursunbey }
+
 	market_village = { tag = ACH level = 1 location = kalamata }
 	market_village = { tag = CAS level = 1 location = calatayud }
 	market_village = { tag = CAS level = 1 location = castellon_de_la_plana }
@@ -5392,9 +5408,14 @@ building_manager = {
 	order_stronghold = { tag = CAS level = 1	location = salamanca } # BR added
 	order_stronghold = { tag = CAS level = 1	location = medina_del_campo } # BR added
 	order_stronghold = { tag = POR level = 1	location = porto } # BR added
-	order_stronghold = { tag = ARA level = 1	location = teruel } # BR added
-	order_stronghold = { tag = ARA level = 1	location = castellon_de_la_plana } # BR added
-	order_stronghold = { tag = ARA level = 1	location = morella } # BR added
+
+	order_stronghold = { tag = ARA level = 1	location = tortosa } # BR added
+	order_stronghold = { tag = ARA level = 1	location = caspe } # BR added
+	order_stronghold = { tag = ARA level = 1	location = zuera } # BR added
+	order_stronghold = { tag = ARA level = 1	location = huesca } # BR added
+	order_stronghold = { tag = NAV level = 1	location = tudela } # BR added
+	order_stronghold = { tag = LON level = 1	location = burgos } # BR added
+	order_stronghold = { tag = LON level = 1	location = leon } # BR added
 
 	order_commandery = { tag = KNI level = 1 location = valladolid } #BR added
 	order_commandery = { tag = KNI level = 1 location = porto } #BR added
