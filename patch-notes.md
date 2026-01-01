@@ -1,4 +1,68 @@
 
+# 0.9 rough notes
+
+# Added 
+Added Trebuchets as generic age one unit
+Viking Longship Unit for vinland
+
+Added a second option when forming Elysium that keeps current culture and capitol.
+
+Adjusted Iberia's pops, development, cities, buildings and countries.
+
+## Balnace
+- Increased Roman and Elysian assimilation unique advances from 25 to 50%
+More starting units for some countries
+Baltic pops made mostly pagan, eventual plan to rework region.
+Added Italian republics with 3 locations or less as HRE free cities
+Cities now require 45k population to found and towns 15k
+Gave Order Strongholds a Fort
+added development to Elysia and Vinland, few other adjustments
+Diplomacy adjustments
+kaffa downgraded to town
+Added market villages to every location I removed a town from.
+Made March subjects annexable
+fixed Venice having art is shouldent
+Gave aragon some starting trebs
+Added in three new Andalusi tags
+
+Removed the meritocracy institution from  outside of asia but gave the countries it was intended for the meritocracy tech instead.
+
+two more roman advances
+ roman_pronoial_administration: "Pronoial Administration"
+ roman_pronoial_administration_desc: "The empire formalizes the granting of pronoiai, codifying the rights and obligations of landholders who rule in the Emperor’s name. By binding local rulers to Roman law, service, and fiscal oversight, the state strengthens loyalty while preserving flexibility in provincial governance."
+
+ roman_akritic_reforms: "Akritic Reforms"
+ roman_akritic_reforms_desc: "The empire restores the military theme system along its frontiers, uniting civil authority, land grants, and permanent military service under imperial command. Soldier-settlers are bound to their districts by law and obligation, ensuring that the borderlands remain defended, governed, and unmistakably Roman."
+
+Fixed the following ERE subject ranks
+ country_rank_br_exarchate: "Exarchate"
+ country_rank_br_katapanate: "Katepaníkion"
+ country_rank_br_apoikia: "Apoikía"
+
+Fixed the following ERE subject ranks
+ country_rank_br_exarchate: "Exarchate"
+ country_rank_br_katapanate: "Katepaníkion"
+ country_rank_br_apoikia: "Apoikía"
+
+
+## Fixes
+fixed Bulgaria estate law being available to everyone
+Fixed Varangian building
+
+
+Removed the base localization file
+
+
+
+
+
+
+
+
+
+
+
+
 # Hotfix 0.8.1
 
 ## Fixes
