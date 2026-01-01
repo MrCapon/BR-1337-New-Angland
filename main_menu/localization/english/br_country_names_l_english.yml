@@ -56,6 +56,22 @@
  GTC: "Genonese Trade Guild"
  GTC_ADJ: "Genonese Guild"
 
+ S1C: "Sikelia"
+ S1C_ADJ: "Sikelanoi"
+ S1C_LONG: "Despotaton tōn Sikelēnōn"
+ S2C: "Longobardías"
+ S2C_ADJ: "Longobardías"
+ S3C: "Kalavrías"
+ S3C_ADJ: "Kalavrías"
+ BNV: "Benevento"
+ BNV_ADJ: "Benevento"
+ N1P: "Salerno"
+ N1P_ADJ: "Salerno"
+ N2P: "Capua"
+ N2P_ADJ: "Capua"
+ N3P: "Neápolis"
+ N3P_ADJ: "Neápolis"
+
  #Armenia and Georgia
  DER: "Terzn"
  DER_ADJ: "Terzn"
@@ -74,6 +90,12 @@
  LON: "Asturias"
  LON_ADJ: "Asturias"
  LON_LONG: "Crown of $LON$"
+ AD0: "Zamūra"
+ AD0_ADJ: "Zamūra"
+ AD1: "Saraqusta"
+ AD1_ADJ: "Saraqusta"
+ AD2: "Mayūrqa"
+ AD2_ADJ: "Mayūrqa"
  
  # British Isles
  AGL: "Anglia"

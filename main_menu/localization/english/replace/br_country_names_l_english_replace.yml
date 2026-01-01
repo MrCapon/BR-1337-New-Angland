@@ -22,7 +22,7 @@
  CRT: "Krētē"
  CYP: "Kýpros"
  CIL: "Kilikía"
- TRE: "Trapezoús"
+ TRE: "Khladia"
  NEG: "Euboia"
  FEO: "Khersonēsos"
 
@@ -36,21 +36,7 @@
  RMN: "Danubia" #ERE would never allow them to call themselves Romania in this timeline other options are Dacia, Carpathia or United Principalities.
  RMN_ADJ: "Danubian"
 
- S1C: "Sikelia"
- S1C_ADJ: "Sikelanoi"
- S1C_LONG: "Despotaton tōn Sikelēnōn"
- S2C: "Longobardías"
- S2C_ADJ: "Longobardías"
- S3C: "Kalavrías"
- S3C_ADJ: "Kalavrías"
- BNV: "Benevento"
- BNV_ADJ: "Benevento"
- N1P: "Salerno"
- N1P_ADJ: "Salerno"
- N2P: "Capua"
- N2P_ADJ: "Capua"
- N3P: "Neápolis"
- N3P_ADJ: "Neápolis"
+
 
 #Other
 
