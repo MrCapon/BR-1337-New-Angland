@@ -35,7 +35,8 @@ br_on_game_start = {
 			research_advance = advance_type:organized_religion
 			research_advance = advance_type:scholasticism
 			research_advance = advance_type:diplomatic_capacity_traditions
-			byz_historiography_advance
+			research_advance = advance_type:byz_historiography_advance
+			research_advance = advance_type:bureaucracy_law_advance
 		}
 
         #BR added Trade Company
@@ -45,6 +46,7 @@ br_on_game_start = {
             if = {
                 limit = { NOT = { has_advance = trade_companies_advance } }
                 research_advance = advance_type:trade_companies_advance
+				research_advance = advance_type:guilds
             }
         }
 		every_country = {
@@ -68,7 +70,6 @@ br_on_game_start = {
 				research_advance = advance_type:deus_vult
 			    research_advance = advance_type:organized_religion
 		    	research_advance = advance_type:scholasticism
-		    	research_advance = advance_type:diplomatic_capacity_traditions
             }
         }
 		#Trying to encourage new world tag to colonize
@@ -91,6 +92,8 @@ br_on_game_start = {
 			research_advance = advance_type:unlock_m_galley_advance
 			research_advance = advance_type:unlock_barque_advance
 			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
         }
 		c:RIC = {
 			research_advance = advance_type:unlock_barque_advance
@@ -155,6 +158,21 @@ br_on_game_start = {
 			research_advance = advance_type:safe_exploration_techniques_advance
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+		c:ADU = {
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
+		}
+		c:MAM = {
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
+		}
+		c:A1A = {
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
 		}
      #	c:E1Y = {
 	#		research_advance = advance_type:colonial_tradition
