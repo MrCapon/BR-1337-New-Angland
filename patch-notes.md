@@ -34,6 +34,7 @@
 - Adjusted diplomacy values across multiple regions
 - Removed the Meritocracy institution outside of Asia  
   - Intended countries now start with the Meritocracy tech instead
+- New flag for Asturias, thanks to Capon doing the work on this.
 
 ## Roman / ERE Changes
 - Fixed ERE subject rank localizations:
@@ -44,7 +45,7 @@
 ## Fixes
 - Fixed Bulgaria estate law being available to all countries
 - Fixed Varangian building issues
-- Fixed Venice using incorrect art assets
+- Fixed Venice having art it shoulden't.
 
 ## Technical & Cleanup
 - Removed the base localization file

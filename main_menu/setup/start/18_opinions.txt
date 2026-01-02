@@ -1,12 +1,19 @@
 diplomacy_manager = {
 
-	opinion = { first = DAN second = SWE type = border_aggression }
-	opinion = { first = SKE second = SWE type = opinion_bad_monarch } #Scania will invite danish monarc back in 1340
-	# trust = { first = DAN second = SWE type = border_aggression }		#can set trust as well..
-
 	#Naples first = country that has the modifier, second = country that is loved/hated by first, type = modifier name
 	#opinion = { first = NAP second = SIC type = recent_conflict_lost }
 	#opinion = { first = NAP second = ARA type = recent_conflict_lost }
+	opinion = { first = ADU second = ARA type = border_aggression }
+	opinion = { first = ADU second = CAS type = border_aggression }
+	opinion = { first = ADU second = POR type = border_aggression }
+	opinion = { first = ADU second = LON type = border_aggression }
+	opinion = { first = ARA second = TOU type = opinion_sent_help }
+	opinion = { first = TOU second = ARA type = opinion_good_relations }
+	opinion = { first = LON second = AQN type = opinion_sent_help }
+	opinion = { first = AQN second = LON type = opinion_good_relations }
+	opinion = { first = NAV second = AQN type = opinion_sent_help }
+	opinion = { first = AQN second = NAV type = opinion_good_relations }
+
 
 	opinion = { first = BNV second = PAP type = opinion_good_relations }
 	opinion = { first = PAP second = BNV type = opinion_good_relations }
