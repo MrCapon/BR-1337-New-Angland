@@ -46,6 +46,7 @@ elysium.1 = {
 					years = 25
 					mode = add_and_extend
 				}
+				# figure out how to set vegetation = farmland
  			}
 			add_country_modifier = {
 				modifier = br_elysium_formed
