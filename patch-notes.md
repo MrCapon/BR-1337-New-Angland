@@ -1,65 +1,53 @@
 
-# 0.9 rough notes
 
-# Added 
-Added Trebuchets as generic age one unit
-Viking Longship Unit for vinland
+# Version 0.9 Ennéa
 
-Added a second option when forming Elysium that keeps current culture and capitol.
+## Added
+- Added Age One artillery units:
+  - **Ballistai**  
+    An evolution of classical Roman siegecraft adapted for the battlefield. These torsion-powered engines hurl bolts and stones to break enemy cohesion, favoring open ground and disciplined support from infantry formations.
+  - **Trebuchets**  
+    Large counterweight-driven siege engines designed to batter fortifications and undermine enemy morale. Trebuchets are powerful but slow to deploy, requiring secure positions and extensive logistical support to operate effectively.
+- Added Viking Longship unit as an early light ship for Vinland
+- Added a second formation option for Elysium that preserves current culture and capital
+- Added Italian republics with three locations or fewer as HRE Free Cities
+- Added three new Andalusi tags
+- Added development to Elysia and Vinland, with additional regional adjustments
+- Added forts to Order Strongholds
+- Rebalanced towns in Iberia and Anatolia
+- Added market villages to every location where a town was removed
+- Added two new Roman advances:
+  - **Pronoial Administration**  
+    The empire formalizes the granting of pronoiai, codifying the rights and obligations of landholders who rule in the Emperor’s name. By binding local rulers to Roman law, service, and fiscal oversight, the state strengthens loyalty while preserving flexibility in provincial governance.
+  - **Akritic Reforms**  
+    The empire restores the military theme system along its frontiers, uniting civil authority, land grants, and permanent military service under imperial command. Soldier-settlers are bound to their districts by law and obligation, ensuring that the borderlands remain defended, governed, and unmistakably Roman.
 
-Adjusted Iberia's pops, development, cities, buildings and countries.
+## Balance & Gameplay Changes
+- Increased Roman and Elysian assimilation unique advances from 25% to 50%
+- Added more starting units for several countries
+- Adjusted Iberian pops, development, cities, buildings, and country setups
+- Set Baltic pops to mostly pagan (region planned for future rework)
+- Cities now require 45k population; towns require 15k
+- March subjects are now annexable
+- Downgraded Kaffa to a town
+- Aragon now starts with trebuchets
+- Adjusted diplomacy values across multiple regions
+- Removed the Meritocracy institution outside of Asia  
+  - Intended countries now start with the Meritocracy tech instead
 
-## Balnace
-- Increased Roman and Elysian assimilation unique advances from 25 to 50%
-More starting units for some countries
-Baltic pops made mostly pagan, eventual plan to rework region.
-Added Italian republics with 3 locations or less as HRE free cities
-Cities now require 45k population to found and towns 15k
-Gave Order Strongholds a Fort
-added development to Elysia and Vinland, few other adjustments
-Diplomacy adjustments
-kaffa downgraded to town
-Added market villages to every location I removed a town from.
-Made March subjects annexable
-fixed Venice having art is shouldent
-Gave aragon some starting trebs
-Added in three new Andalusi tags
-
-Removed the meritocracy institution from  outside of asia but gave the countries it was intended for the meritocracy tech instead.
-
-two more roman advances
- roman_pronoial_administration: "Pronoial Administration"
- roman_pronoial_administration_desc: "The empire formalizes the granting of pronoiai, codifying the rights and obligations of landholders who rule in the Emperor’s name. By binding local rulers to Roman law, service, and fiscal oversight, the state strengthens loyalty while preserving flexibility in provincial governance."
-
- roman_akritic_reforms: "Akritic Reforms"
- roman_akritic_reforms_desc: "The empire restores the military theme system along its frontiers, uniting civil authority, land grants, and permanent military service under imperial command. Soldier-settlers are bound to their districts by law and obligation, ensuring that the borderlands remain defended, governed, and unmistakably Roman."
-
-Fixed the following ERE subject ranks
- country_rank_br_exarchate: "Exarchate"
- country_rank_br_katapanate: "Katepaníkion"
- country_rank_br_apoikia: "Apoikía"
-
-Fixed the following ERE subject ranks
- country_rank_br_exarchate: "Exarchate"
- country_rank_br_katapanate: "Katepaníkion"
- country_rank_br_apoikia: "Apoikía"
-
+## Roman / ERE Changes
+- Fixed ERE subject rank localizations:
+  - Exarchate
+  - Katepaníkion
+  - Apoikía
 
 ## Fixes
-fixed Bulgaria estate law being available to everyone
-Fixed Varangian building
+- Fixed Bulgaria estate law being available to all countries
+- Fixed Varangian building issues
+- Fixed Venice using incorrect art assets
 
-
-Removed the base localization file
-
-
-
-
-
-
-
-
-
+## Technical & Cleanup
+- Removed the base localization file
 
 
 

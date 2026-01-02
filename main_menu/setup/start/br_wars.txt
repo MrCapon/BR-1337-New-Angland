@@ -167,14 +167,6 @@ war_manager = {
 				reason = Instigator
 			}
 		}
-		attacker = {
-			country = ARA
-			request = {
-				caller = KNI
-				reason = Scripted
-				which = alliance
-			}
-		}
 		#Team 2
 		defender = {
 			country = AD2

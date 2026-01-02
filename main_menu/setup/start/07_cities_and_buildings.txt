@@ -936,7 +936,7 @@ locations={
 	smyrna = { rank = city 		town_setup = greek_city_port }
 	tarsus = { rank = town 		town_setup = greek_town_port}
 	trebizond = { rank = city 	town_setup = greek_city_port }
-	van = { rank = city 		town_setup = anatolian_city }
+	van = { rank = town 		town_setup = anatolian_town }
 	
 	bergama = { rank = town		town_setup = greek_town_port }
 	birgi = { rank = town		town_setup = anatolian_town }
@@ -963,6 +963,7 @@ locations={
 
 	sebinkarahisar = { rank = town		town_setup = anatolian_town }
 	mus = { rank = town		town_setup = anatolian_town }
+	erzurum = { rank = town		town_setup = anatolian_town }
 
 	#Central Asia
 	bukhara = { rank = city town_setup = central_asian_city }
@@ -994,7 +995,7 @@ locations={
 	kabul = { rank = town town_setup = levant_city }
 
 	ganja = { rank = town town_setup = levant_city }
-	ani = { rank = city town_setup = levant_city } #BR edit
+	ani = { rank = city town_setup = anatolian_city } #BR edit
 	astarabad = { rank = town town_setup = levant_city }
 	siraf = { rank = town town_setup = levant_city }
 	rasht = { rank = town town_setup = levant_city }
@@ -4545,7 +4546,7 @@ building_manager = {
 	#coastal_fort  = { tag = FEO level = 1 location = theodoro }
 	lazaretto = { tag = AOI level = 1 location = antioch }
 	lazaretto = { tag = TRP level = 1 location = tripoli }
-	funduq = { tag = TRP level = 1 location = tripoli }
+	#funduq = { tag = TRP level = 1 location = tripoli }
 	#coastal_fort  = { tag = VEN level = 1 location = split }
 	lazaretto = { tag = RAG level = 1 location = dubrovnik }
 	#coastal_fort  = { tag = RAG level = 1 location = dubrovnik }
@@ -4890,8 +4891,10 @@ building_manager = {
 	sand_pit = { tag = NEG level = 1 location = negroponte }
 	market_village = { tag = ATH level = 1 location = thebes }
 	market_village = { tag = ATH level = 1 location = megara }
+	farming_village = { tag = ATH level = 1 location = megara }
+	farming_village = { tag = BYZ level = 1 location = uskudar }
 	market_village = { tag = M0E level = 1 location = tripolitsa }
-	market_village = { tag = M0E level = 1 location = mystras }
+	#market_village = { tag = M0E level = 1 location = mystras }
 	market_village = { tag = M0E level = 1 location = nafplio }
 	market_village = { tag = ACH level = 1 location = andravida }
 	market_village = { tag = BYZ level = 1 location = bozan }
@@ -4935,9 +4938,17 @@ building_manager = {
 	market_village = { tag = ARM level = 1 location = tercan }
 	market_village = { tag = ARM level = 1 location = surmali }
 	market_village = { tag = ARM level = 2 location = yerevan }
+	farming_village = { tag = ARM level = 1 location = yerevan }
+	charcoal_maker = { tag = ARM level = 1 location = yerevan }
+	charcoal_maker = { tag = ARM level = 1 location = tercan }
+	farming_village = { tag = ARM level = 1 location = amberd }
+	farming_village = { tag = ARM level = 1 location = kumayri }
+	farming_village = { tag = ARM level = 1 location = artashavan }
+	forest_village = { tag = ARM level = 1 location = kagizman }
 	market_village = { tag = ARM level = 1 location = hasankale }
 	forest_village = { tag = ARM level = 1 location = bayazit }
-	market_village = { tag = DER level = 2 location = mus }
+	market_village = { tag = DER level = 1 location = malazgirt }
+	farming_village = { tag = DER level = 1 location = malazgirt }
 	market_village = { tag = KCN level = 1 location = gandzasar }
 	market_village = { tag = SYU level = 1 location = kapan_armenia }
 	market_village = { tag = ATZ level = 1 location = maku }
@@ -5741,7 +5752,7 @@ building_manager = {
 	trade_office = { tag = VTC level = 4 location = acre }
 	trade_office = { tag = VTC level = 10 location = alexandria }
 	trade_office = { tag = VTC level = 1 location = mahdia }
-	trade_office = { tag = VTC level = 1 location = kalamata }
+	overseas_trading_post = { tag = VTC level = 1 location = kalamata }
 	trade_office = { tag = VTC level = 2 location = thessaloniki }
 	trade_office = { tag = VTC level = 2 location = gallipoli }
 	trade_office = { tag = VTC level = 1 location = izmit }
@@ -5761,7 +5772,7 @@ building_manager = {
 	overseas_trading_post = { tag = VTC level = 1 location = bandirma }
 	overseas_trading_post = { tag = VTC level = 1 location = andravida }
 	overseas_trading_post = { tag = VTC level = 1 location = cephalonia }
-	overseas_trading_post = { tag = VTC level = 1 location = mystras }
+	trade_office = { tag = VTC level = 2 location = mystras }
 	overseas_trading_post = { tag = VTC level = 1 location = naxos }
 	trade_office = { tag = VTC level = 1 location = rodos }
 
