@@ -1,17 +1,18 @@
 ﻿l_english:
- #Anatolia
+
+ # Anatolia – standardized Byzantine Greek transliteration
  adana.greek_language: "Ádana"
  adranos.greek_language: "Adrianoí"
- akcasehir.greek_language: "Dióspolis" 
+ akcasehir.greek_language: "Dióspolis"
  akdagmadeni.greek_language: "Argyríōn"
  akhisar.greek_language: "Thyáteira"
- akkus.greek_language: "Karakoús" #My Hellenized name for it was erroneously used for Kahta below, also the Turkish name in this time should be Karakuş
+ akkus.greek_language: "Karakoús"
  aksaray.greek_language: "Kolóneia"
- aksehir.greek_language: "Philomêlion"
+ aksehir.greek_language: "Philomḗlion"
  akyazi.greek_language: "Társeia"
- alaiye.greek_language: "Kalonóros" #More recent name
- alasehir.greek_language: "Philadélphia"
- altinekin.greek_language: "Kóngoustos" 
+ alaiye.greek_language: "Kalonóros"
+ alasehir.greek_language: "Philadélpheia"
+ altinekin.greek_language: "Kóngoustos"
  altintas.greek_language: "Sóa"
  amasra.greek_language: "Ámastris"
  amasya.greek_language: "Amáseia"
@@ -19,231 +20,231 @@
  anavarza.greek_language: "Anázarbos"
  ankara.greek_language: "Ánkyra"
  antalya.greek_language: "Attáleia"
- arac.greek_language: "Arátzi" #Not sure where the name Otreia is from, but I replaced it with a Hellenization of the Turkish name
- aslanapa.greek_language: "Kyriakoí" #Aslanapa is an anachronistic name, it should be Giregi which is based on the contemporary Greek Kyriakoí
- atpazari.greek_language: "Sangários" # I haven't found any good sources for Agrilion, and Tarsia was on the other side of the river closer to Akyazi
+ arac.greek_language: "Arátzi"
+ aslanapa.greek_language: "Kyriakoí"
+ atpazari.greek_language: "Sangários"
  ayas.greek_language: "Aigaí"
  ayasuluk.greek_language: "Ágios Theológos"
- aydincik.greek_language: "Palaiochórion" #Aydincik is anachronistic and should be Eskiköy, with Palaiochórion being a calque meaning Old village 
+ aydincik.greek_language: "Palaiochórion"
  ayvacik.greek_language: "Ássos"
- bafra.greek_language: "Pávra" #Gadilôn is a bit of a bizarre choice because Bafra is taken from the contemporary Greek Pávra
- bahcesaray.greek_language: "Móxos" #Bahçesaray is also anachrostic and should be Müküs in Turkish
- balat.greek_language: "Mílitos" #Altered romanization
+ bafra.greek_language: "Pávra"
+ bahcesaray.greek_language: "Móxos"
+ balat.greek_language: "Mílētos"
  balikesir.greek_language: "Palaiókastron"
- baliseyh.greek_language: "Palisaíon" #Changed to Hellenization of Turkish name
- balya.greek_language: "Palaía" #Not sure where Argýreia is from but Balya is named after contemporary Greek Palaía according to Nişanyan
- banaz.greek_language: "Panásion" 
- bandirma.greek_language: "Pánormos Kyzíkou" #I just added Kyzíkou to distinguish from Panormos in Sicily, AKA Palermo
+ baliseyh.greek_language: "Palisaíon"
+ balya.greek_language: "Palaía"
+ banaz.greek_language: "Panásion"
+ bandirma.greek_language: "Pánormos Kyzíkou"
  bartin.greek_language: "Parthénios"
- bayat.greek_language: "Ximéni" #Didn't change the name but the Turkish name is probably anachronistic and should be Saray-ı Katar
+ bayat.greek_language: "Ximéni"
  bayramic.greek_language: "Sképsis"
  bayramlu.greek_language: "Kotýora"
- bekarlar.greek_language: "Nazianzós" #Didn't change the name but the Turkish name is anachronistic and should be Nenezi
+ bekarlar.greek_language: "Nazianzós"
  bergama.greek_language: "Pérgamon"
  beypazari.greek_language: "Lagánia"
  beysehir.greek_language: "Místheia"
  biga.greek_language: "Pēgaí"
  bigadic.greek_language: "Pigádia"
- bilecik.greek_language: "Bēlokômē"
+ bilecik.greek_language: "Bēlokōmē"
  birgi.greek_language: "Pyrgíon"
- bodrum.greek_language: "Stróvilos" #While Alikarnassós could technically work, I changed it to historical Stróvilos because the Turkish name should be İsravalos rather than Bodrum, which hasn't been founded
+ bodrum.greek_language: "Stróbylos"
  bogazliyan.greek_language: "Charsianón"
- bolu.greek_language: "Klavdioúpolis" #The settlement was more well known as Claudiopolis, not Bythinion
- bolvadin.greek_language: "Polývotos" #Altered romanization and spelling
- bor_tur.greek_language: "Póros" #Tyana had been in ruins for centuries at this point, and Turkish Bor is named after Greek Póros
+ bolu.greek_language: "Klaudioupolis"
+ bolvadin.greek_language: "Polýbotos"
+ bor_tur.greek_language: "Póros"
  boyabat.greek_language: "Ámnia"
- bozan.greek_language: "Témvros" #Potamós just means river, I just changed it to the actual name of the adjacent river
+ bozan.greek_language: "Témvros"
  bozok.greek_language: "Távia"
- burdur.greek_language: "Praitória" #Wikipedia's name Polydorion for Burdur is not well sourced, and I trust Nişanyan's Praitória more
- bursa.greek_language: "Proúsa" #Added accent mark
- can.greek_language: "Kalí Péfki"
- canakkale.greek_language: "Abydos" #Dardanéllia
- candir.greek_language: "Évaissa"
- candir_cil.greek_language: "Papyríon" #Altered spelling
+ burdur.greek_language: "Praitōria"
+ bursa.greek_language: "Prousa"
+ can.greek_language: "Kalí Péphkē"
+ canakkale.greek_language: "Ábydos"
+ candir.greek_language: "Éuaissa"
+ candir_cil.greek_language: "Papyríon"
  cankiri.greek_language: "Gángra"
- caxud.greek_language: "Augoústa"
- celtik.greek_language: "Tolastochóra"
- cerkes.greek_language: "Antonioúpolis"
+ caxud.greek_language: "Augousta"
+ celtik.greek_language: "Tolastochōra"
+ cerkes.greek_language: "Antonioupolis"
  cesme.greek_language: "Erythraí"
- cine.greek_language: "Alávanda" #Altered romanization
+ cine.greek_language: "Alábanda"
  comana_cil.greek_language: "Kómana"
- corum.greek_language: "Efcháneia"
- corycus.greek_language: "Kórykos" #Altered romanization
- cubuk.greek_language: "Tsiboúki" #Changed to a Hellenization of the Turkish name because Ikotarion's location is unknown, and isn't attested since the 300s
- cumra.greek_language: "Tsoúrma" #Changed to a Hellenization of the Turkish name because Korna was in a different location
+ corum.greek_language: "Eucháneia"
+ corycus.greek_language: "Kórykos"
+ cubuk.greek_language: "Tsiboúki"
+ cumra.greek_language: "Tsoúrma"
  darende.greek_language: "Táranta"
  dasmenda.greek_language: "Dasméndron"
  deliktash.greek_language: "Kángara"
- demirci.greek_language: "Sidiróporta" #Aríandos isn't quite in the same location and not attested since the 300s, so I changed it to a name found in an Ottoman era Greek map with similar meaning to the Turkish name
+ demirci.greek_language: "Sidēróporta"
  develi.greek_language: "Kýzistra"
  devrekani.greek_language: "Devletháni"
- dinar.greek_language: "Apámeia" #Didn't change the name but the Turkish name is anachronistic and should be Geyikler
- dinek_keskin.greek_language: "Saniána" #Changed to a Byzantine era fortress in this area
- domanic.greek_language: "Chisárkia" #The Turkish name for the actual settlement was Hisarköyü, and I based the Greek name on that
- dursunbey.greek_language: "Adriáneia" #Altered romanization and spelling
+ dinar.greek_language: "Apámeia"
+ dinek_keskin.greek_language: "Saniána"
+ domanic.greek_language: "Chisárkia"
+ dursunbey.greek_language: "Adriáneia"
  edremit.greek_language: "Adramýttion"
- egirdir.greek_language: "Akrotírion" #Altered romanization and spelling
- elmali.greek_language: "Akarassós" 
- emet.greek_language: "Akrokós" #Byzantine era Akrokós is closer to the actual location
+ egirdir.greek_language: "Akrotḗrion"
+ elmali.greek_language: "Akarassós"
+ emet.greek_language: "Akrokós"
  emirdag.greek_language: "Amórion"
- eregli.greek_language: "Irákleia Pontikí" #Altered romanization
- eregli_kar.greek_language: "Irákleia Kyvístra"
+ eregli.greek_language: "Hērákleia Pontikḗ"
+ eregli_kar.greek_language: "Hērákleia Kyvístra"
  ermenek.greek_language: "Germanikópolis"
- eskil.greek_language: "Taskiliá" #Hellenization based on other Cappadocian placenames
- eynegol.greek_language: "Angelókomi" #Altered spelling
- famagusta.greek_language: "Ammóchostos" #Altered romanization
+ eskil.greek_language: "Taskiliá"
+ eynegol.greek_language: "Angelókomē"
+ famagusta.greek_language: "Ammóchostos"
  finike.greek_language: "Phoínix"
- foca.greek_language: "Phôkaia"
- gadegara.greek_language: "Neoklavdioúpolis" #Not sure about Theacliodiópolis but this was near the site of Neoclaudiopolis
+ foca.greek_language: "Phōkaia"
+ gadegara.greek_language: "Neoklaudioupolis"
  gediz.greek_language: "Kádoi"
  gemerek.greek_language: "Ármaxa"
  gerede.greek_language: "Krateía"
  gerze.greek_language: "Karoúsa"
  giresun.greek_language: "Kerasoús"
  gokabat.greek_language: "Ídyma"
- golhisar.greek_language: "Kívyra" 
- gonen.greek_language: "Arteméa" #Changed to the shorthand name
+ golhisar.greek_language: "Kíbyra"
+ gonen.greek_language: "Arteméa"
  gordes.greek_language: "Górdos"
  gorele.greek_language: "Kóralla"
- goynuk.greek_language: "Melángeia" #Changed to a Byzantine town or district name in this area
+ goynuk.greek_language: "Melángeia"
  gumus.greek_language: "Diákopa"
  gumushane.greek_language: "Tzántzakon"
  gurun.greek_language: "Gávraina"
- guzelhisar.greek_language: "Trálleis" 
- hacibektas.greek_language: "Andídon" #Not sure about Salánda but Andídon was an attested name for Hacıbektaş
+ guzelhisar.greek_language: "Trálleis"
+ hacibektas.greek_language: "Andídon"
  hafik.greek_language: "Kámisa"
- hargan.greek_language: "Chatziénis" #Attested Greek form of the Armenian name
- harmancik.greek_language: "Chirmentzíki" #Based on “Chirménkia,” the Byzantine name for nearby Harmanköy
+ hargan.greek_language: "Chatziénis"
+ harmancik.greek_language: "Chirmentzíki"
  hatunsaray.greek_language: "Lýstra"
  haymana.greek_language: "Chamaniní"
- honaz.greek_language: "Chónai" #Fixed accent mark placement
- huseyinabad.greek_language: "Stavroúpolis" #Technically Stavroúpolis exact location is unknown, but its a more recently attested name
- ilgin.greek_language: "Lágeina" #Idk where Tyraíon comes from
- inebolu.greek_language: "Ionópolis" #Altered romanization
+ honaz.greek_language: "Chōnai"
+ huseyinabad.greek_language: "Stauroúpōlis"
+ ilgin.greek_language: "Lágeina"
+ inebolu.greek_language: "Ionópolis"
  inonu.greek_language: "Basiliká"
- insuyu.greek_language: "Pillitokómi"
- iskilip.greek_language: "Asklipieíon"
- isparta.greek_language: "Váris"
+ insuyu.greek_language: "Pillitokōmē"
+ iskilip.greek_language: "Asklēpieíon"
+ isparta.greek_language: "Báris"
  istanoz.greek_language: "Ísinda"
- izmit.greek_language: "Nikomêdeia"
+ izmit.greek_language: "Nikomēdeia"
  iznik.greek_language: "Nikaía"
  kalecik.greek_language: "Malós"
- kapan.greek_language: "Kokoúsos"
- karahisar_i_sahib.greek_language: "Akroïnón" #The Byzantine city was more often called Akroinon than Nicopolis
- karahisar_i_teke.greek_language: "Primoúpolis" #The later name and Christian bishopric was called Primoúpolis
- karakecili.greek_language: "Karakátsilis" #Because Aspona wasn't very close to Karakeçili, changed to a Hellenization of the Turkish name
- karapinar.greek_language: "Karapounár" #The association of Thebasa with Karapinar has been rejected by modern scholars
- kars_armenia.greek_language: "Flavioúpolis"
- kas.greek_language: "Antífellos" #Altered romanization
- kastamonu.greek_language: "Kastamôn"
- kaymaz.greek_language: "Troknáda" #I'm guessing Trónka is an alternate spelling but regardless I changed to the well known Troknáda
+ kapan.greek_language: "Kokýssos"
+ karahisar_i_sahib.greek_language: "Akroïnón"
+ karahisar_i_teke.greek_language: "Primoúpōlis"
+ karakecili.greek_language: "Karakátsilēs"
+ karapinar.greek_language: "Karapounár"
+ kars_armenia.greek_language: "Flavioupolis"
+ kas.greek_language: "Antíphēllos"
+ kastamonu.greek_language: "Kastamōn"
+ kaymaz.greek_language: "Troknáda"
  kayseri.greek_language: "Kaisáreia"
- khupati.greek_language: "Chópa" #Changed to Chópa 
- kibrus.greek_language: "Kyparissós" #Changed to a better attested name
- kirsehir.greek_language: "Ioustinianoúpolis"
+ khupati.greek_language: "Chópa"
+ kibrus.greek_language: "Kyparissós"
+ kirsehir.greek_language: "Ioustinianoupolis"
  kizilca.greek_language: "Kokkinothérmai"
  kochisar.greek_language: "Parnassós"
- konrapa.greek_language: "Proúsa prós toú Yppíou" #Altered romanization
- konya.greek_language: "Ikónion" 
+ konrapa.greek_language: "Prousa pròs toû Hyppíou"
+ konya.greek_language: "Ikónion"
  koyulhisar.greek_language: "Nikópolis Armenías"
- kula.greek_language: "Koulás" #Name found in Nişanyan Yeradları
+ kula.greek_language: "Koulás"
  kulu_turkey.greek_language: "Kínna"
  kure_i_mamure.greek_language: "Kýtoron"
  kursunlu.greek_language: "Anadýnata"
  kutahya.greek_language: "Kotýaion"
  kyrenia.greek_language: "Kerýneia"
- ladik.greek_language: "Laodíkeia Kekavméni" #Burnt Laodicea was a much more enduring name, and the name of the bishopric 
- ladik_pontus.greek_language: "Laodíkeia Pontikí"
- lapseki.greek_language: "Lámpsakos" #Altered spelling
+ ladik.greek_language: "Laodíkeia Kekavménē"
+ ladik_pontus.greek_language: "Laodíkeia Pontikḗ"
+ lapseki.greek_language: "Lámpsakos"
  larende.greek_language: "Láranda"
  larnaca.greek_language: "Lárnaka"
- lazkiye.greek_language: "Laodíkeia prós toú Lýkou" #Changed to more famous name, could be simplified to Laodíkeia Lýkou
+ lazkiye.greek_language: "Laodíkeia pròs toû Lýkou"
  limassol.greek_language: "Lemesós"
- manavgat.greek_language: "Sídi" #Altered romanization
- manisa.greek_language: "Magnisía" #Altered spelling
- manyas.greek_language: "Poimaninós" #Altered romanization and spelling
- marmaris.greek_language: "Marmarís" #Altered spelling
- megri.greek_language: "Mákri" #Altered romanization
- menemen.greek_language: "Maineméni"
+ manavgat.greek_language: "Síde"
+ manisa.greek_language: "Magnēsía"
+ manyas.greek_language: "Poimanēnós"
+ marmaris.greek_language: "Marmarís"
+ megri.greek_language: "Mákri"
+ menemen.greek_language: "Maineménē"
  mengen.greek_language: "Timónion"
- merzifon.greek_language: "Myrsyfôn"
- mesudiye.greek_language: "Melétios" #Mesudiye is also anachronistic and should be Hamidiye in Turkish
+ merzifon.greek_language: "Myrsyphōn"
+ mesudiye.greek_language: "Melétios"
  mihalic.greek_language: "Militópolis"
  mihaliccik.greek_language: "Michalítsa"
  milas.greek_language: "Mýlasa"
- molevon.greek_language: "Meloúos" #This name is attested in Nişanyan Yeradları
+ molevon.greek_language: "Meloúos"
  morphou.greek_language: "Mórphou"
  mudurnu.greek_language: "Módra"
- mugla.greek_language: "Mógola" #Changed to a more formal alternate spelling
- mut.greek_language: "Klavdioúpolis Kilikías" #Altered romanization
+ mugla.greek_language: "Mógola"
+ mut.greek_language: "Klaudioupolis Kilikías"
  nalli.greek_language: "Milía"
- nazilli.greek_language: "Mástavra" #Altered romanization
- nevsehir.greek_language: "Moschára" #This was the contemporary Greek name and the Turkish name was actually also Muşkara
- nicosia_cyp.greek_language: "Lefkosía" #Altered romanization and spelling
- nigde.greek_language: "Nígdi"
- niksar.greek_language: "Neokaisáreia" 
- obruk.greek_language: "Sávatra"
+ nazilli.greek_language: "Mástavra"
+ nevsehir.greek_language: "Mouschára"
+ nicosia_cyp.greek_language: "Leukōsía"
+ nigde.greek_language: "Nígdē"
+ niksar.greek_language: "Neokaisáreia"
+ obruk.greek_language: "Sábatra"
  paphos.greek_language: "Páphos"
- pirloganda.greek_language: "Isavrópolis"
+ pirloganda.greek_language: "Isaurópolis"
  polatli.greek_language: "Górdion"
- rize.greek_language: "Rizaíon" 
- sabanozu.greek_language: "Sabanós" #Klossama's location is not the same and its also not attested since the classical period, changed to Hellenization of Turkish name
- safranbolu.greek_language: "Theodoroúpolis" #Saphrámpolis and Safranbolu are anachronistic and not used until centuries later, Turkish name should be Borli
+ rize.greek_language: "Rizaíon"
+ sabanozu.greek_language: "Sabanós"
+ safranbolu.greek_language: "Theodoroupolis"
  samsun.greek_language: "Amisós"
  sandikli.greek_language: "Hierápolis"
  sariyahsi.greek_language: "Nýssa"
- sarkikaraagac.greek_language: "Adrianoúpolis Pisidías"
+ sarkikaraagac.greek_language: "Adrianoupolis Pisidías"
  sarkisla.greek_language: "Malandará"
  selinti.greek_language: "Selinoús"
  seydisehir.greek_language: "Ámblada"
- seyhli.greek_language: "Evméneia" 
+ seyhli.greek_language: "Euméneia"
  seyitgazi.greek_language: "Nakóleia"
- silifke.greek_language: "Seleúkia"
- silli.greek_language: "Chílai" #Altered romanization and spelling, although Chílaita works too
+ silifke.greek_language: "Seleúkeia"
+ silli.greek_language: "Chílai"
  simav.greek_language: "Sýnaos"
- sinop.greek_language: "Sinôpē"
+ sinop.greek_language: "Sinōpē"
  sis.greek_language: "Sísion"
- sivas.greek_language: "Sevásteia"
+ sivas.greek_language: "Sebásteia"
  sivrihisar.greek_language: "Spaleía"
- smyrna.greek_language: "Smýrni"
+ smyrna.greek_language: "Smýrnē"
  sogut.greek_language: "Thēbásion"
  soma.greek_language: "Apollōnía"
- sonisa.greek_language: "Annísa" #Better attested name
- sorgun.greek_language: "Evagína"
- stefani.greek_language: "Stefánion" #Should be Istefani in Turkish
+ sonisa.greek_language: "Annísa"
+ sorgun.greek_language: "Euagína"
+ stefani.greek_language: "Stephánion"
  suhut.greek_language: "Sýnnada"
- sultanonu.greek_language: "Dorýlaion"
- suluklu.greek_language: "Vetissós" #Closer settlement attested into the Byzantine period
- sulusaray.greek_language: "Sevastoúpolis" #More recent name
- sungurlu.greek_language: "Verinoúpolis"
+ sultanonu.greek_language: "Dorylaion"
+ suluklu.greek_language: "Betissós"
+ sulusaray.greek_language: "Sebastoúpōlis"
+ sungurlu.greek_language: "Berinoúpōlis"
  surmene.greek_language: "Soúrmena"
  susurluk.greek_language: "Mékestos"
- tarsus.greek_language: "Tarsós" #Tarsus is the more relevant name since the rise of Christianity
- taskopru.greek_language: "Pompiioúpolis" #Altered romanization
- tavas.greek_language: "Távai" #Altered romanization and accent placement
- tavsanli.greek_language: "Kounélion" #Calque of Tuskish name, meaning rabbit place
+ tarsus.greek_language: "Tarsós"
+ taskopru.greek_language: "Pompeioupolis"
+ tavas.greek_language: "Távai"
+ tavsanli.greek_language: "Kounélion"
  terme.greek_language: "Thérmai"
  tire.greek_language: "Theíra"
  tokat.greek_language: "Dókeia"
  tomarza.greek_language: "Tomárza"
  tosya.greek_language: "Theodosía Paphlagonías"
- turgut.greek_language: "Kláneos" #Fixed accent placement
+ turgut.greek_language: "Kláneos"
  trebizond.greek_language: "Trapezoús"
  ulnia.greek_language: "Oulnía"
- uluborlu.greek_language: "Sozópolis Pisidías" #Added geographic qualifier to distinguish from Sozopolis in Thrace
- ulus.greek_language: "Oloús" #Added accent mark
- unye.greek_language: "Oinói" #Altered romanization
+ uluborlu.greek_language: "Sōzópolis Pisidías"
+ ulus.greek_language: "Oloús"
+ unye.greek_language: "Oinoí"
  urgup.greek_language: "Ágios Prokópios"
- urla.greek_language: "Vourlá" #The Turkish name Urla comes from the late Byzantine Greek name Vourlá, from earlier Vrioúla
- usak.greek_language: "Timenothýrai" #Altered spelling
- uskudar.greek_language: "Skoutárion" #Üsküdar was the more important settlement for the timeframe of this game
- yahyali.greek_language: "Fárasa" #Farasa was rather important for Cappadocian Greek culture
- yalvac.greek_language: "Antiócheia Pisidías" 
- yenicepazari.greek_language: "Néa Pazári" #Calque of Turkish name meaning New Bazaar
+ urla.greek_language: "Bourlá"
+ usak.greek_language: "Timenothýrai"
+ uskudar.greek_language: "Skoutárion"
+ yahyali.greek_language: "Fárasa"
+ yalvac.greek_language: "Antiócheia Pisidías"
+ yenicepazari.greek_language: "Néa Pazári"
  yuksekkum.greek_language: "Kaúnos"
  zara.greek_language: "Zára"
- zile.greek_language: "Zêla"
- 
+ zile.greek_language: "Zḗla"
+
  #Greece
  ahtopol.greek_language: "Agathoúpolis"
  amorgos.greek_language: "Amorgós"
@@ -1531,9 +1532,9 @@
  navisink.greek_language: "Nysia"
 
 #Province Manhattan
-manhattan.greek_language: "Nea Athenae" #IMPORTANT CITY
-nochpeem.greek_language: "Pequana"
-tappan.greek_language: "Tappanum"
+ manhattan.greek_language: "Nea Athenae" #IMPORTANT CITY
+ nochpeem.greek_language: "Pequana"
+ tappan.greek_language: "Tappanum"
 
 #Province Montauk
  massapequa.greek_language: "Terrapluvialis"
