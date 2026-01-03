@@ -245,26 +245,25 @@
  zara.greek_language: "Zára"
  zile.greek_language: "Zḗla"
 
- #Greece
  ahtopol.greek_language: "Agathoúpolis"
  amorgos.greek_language: "Amorgós"
- andravida.greek_language: "Andravída"
+ andravida.greek_language: "Andrabída"
  andritsaina.greek_language: "Andrítsaina"
  andros.greek_language: "Ándros"
- angelokastron.greek_language: "Angelókastron" #Added final N to make more formal and less demotic
+ angelokastron.greek_language: "Angelókastron"
  argos.greek_language: "Árgos"
- argyrokastro.greek_language: "Argyrókastron" #Added final N to make more formal and less demotic
+ argyrokastro.greek_language: "Argyrókastron"
  arta.greek_language: "Árta"
  astros.greek_language: "Ástros"
  atalanti.greek_language: "Atalánti"
- athens.greek_language: "Athínai" #Gave it the older, formal form while retaining modern/medieval Romanization
- avlonya.greek_language: "Avlónas"
+ athens.greek_language: "Athēnai"
+ avlonya.greek_language: "Ablōnas"
  bodonitsa.greek_language: "Bodonítsa"
  butrint.greek_language: "Bouthrōtón"
  candia.greek_language: "Chándax"
  catalca.greek_language: "Métrai"
- cephalonia.greek_language: "Kefaloniá" #Kefallinía also works
- chalandritsa.greek_language: "Chalandrítsa" #Changed accent placement
+ cephalonia.greek_language: "Kephaloniá"
+ chalandritsa.greek_language: "Chalandrítsa"
  chania.greek_language: "Chaniá"
  chios.greek_language: "Chíos"
  constantinople.greek_language: "Konstantinoúpolis"
@@ -272,31 +271,31 @@
  corfu.greek_language: "Kérkyra"
  corlu.greek_language: "Tzouroulós"
  damala.greek_language: "Damalá"
- demetrias.greek_language: "Gólos" #Demetrias had heavily decline by this time and was largely replaced by nearby Volos, then known as Golos
+ demetrias.greek_language: "Gólos"
  demotica.greek_language: "Didymóteichon"
  drama.greek_language: "Dráma"
- edessa.greek_language: "Vodená" #Edessa was the ancient name which was revived by the Modern Greek government, Medieval Greeks used the Slavic name
+ edessa.greek_language: "Bodená"
  edirne.greek_language: "Adrianoúpolis"
- elassona.greek_language: "Elassón"
- elounda.greek_language: "Eloús" #Altered romanization
+ elassona.greek_language: "Elassōn"
+ elounda.greek_language: "Eloús"
  enez.greek_language: "Aínos"
- eretreia.greek_language: "Erétria" #Spelling mistake
+ eretreia.greek_language: "Erétria"
  ermioni.greek_language: "Ermióni"
- farsala.greek_language: "Fársala"
+ farsala.greek_language: "Phársala"
  gallipoli.greek_language: "Kallípolis"
  gergeri.greek_language: "Gérgeri"
- giannitsa.greek_language: "Vardárion" #Giannitsa is a Modern Greek hellenization of the Turkish name Yenice
- gravia.greek_language: "Graviá"
- grevena.greek_language: "Grevená"
- gynaikokastro.greek_language: "Gynaikókastron" #Added final N to make more formal and less demotic
- hagios_pavlos.greek_language: "Katsivelianá" #Greek wikipedia page for Agios Pavlos says it was called “Katsivelianá” until 1957.
- hatera.greek_language: "Aikateríni" #The town was commonly called Saint Catherine which is what it was also called in Turkish and Slavic languages
+ giannitsa.greek_language: "Bardárion"
+ gravia.greek_language: "Grabiá"
+ grevena.greek_language: "Grebená"
+ gynaikokastro.greek_language: "Gynaikókastron"
+ hagios_pavlos.greek_language: "Katsibelianá"
+ hatera.greek_language: "Aikaterínē"
  hayrabolu.greek_language: "Charioúpolis"
- ikaria.greek_language: "Ikaría" #Fixed accent placement
- imbros.greek_language: "Ímvros" #Altered romanization
- ioannina.greek_language: "Ioánnina" #Added accent mark
+ ikaria.greek_language: "Ikaría"
+ imbros.greek_language: "Ímbros"
+ ioannina.greek_language: "Ioánnina"
  kalamata.greek_language: "Kalamáta"
- kalavryta.greek_language: "Kalávryta"
+ kalavryta.greek_language: "Kalábryta"
  karditsa.greek_language: "Kardítsa"
  karytaina.greek_language: "Karýtaina"
  kassandreia.greek_language: "Kassándreia"
@@ -304,81 +303,81 @@
  karpathos.greek_language: "Kárpathos"
  karpenisi.greek_language: "Karpenísion"
  karystos.greek_language: "Kárystos"
- kavala.greek_language: "Kavála"
- kesan.greek_language: "Roúsion" #Didn't change but the correct Turkish name for EU5 would be Rusköy not Keşan
- kilkis.greek_language: "Kallikós" #Kilkis is an Ottoman era corruption of Kallikós
- kirklareli.greek_language: "Saránta Ekklisíai" #Changed to the more formal plural ending
- kiyikoy.greek_language: "Mídeia" #Didn't change but the Turkish name in this period was Midye not Kidikoy
+ kavala.greek_language: "Kabála"
+ kesan.greek_language: "Roúsion"
+ kilkis.greek_language: "Kallikós"
+ kirklareli.greek_language: "Saránta Ekklēsíai"
+ kiyikoy.greek_language: "Mídeia"
  kleisoura.greek_language: "Kleisoúra"
- kleisoura_epirus.greek_language: "Kleisoúrai" #Changed to the more formal plural ending, also to distinguish from the one in Euboea
- kyparissia.greek_language: "Arkadía" #Kyparissia was referred to as Arcadia in both Greek and western languages during the Middle Ages.
- kythira.greek_language: "Kýthira"
- kythnos.greek_language: "Thermiá" #Thermia was the Byzantine- and Ottoman-era name, and source of the Turkish name
+ kleisoura_epirus.greek_language: "Kleisoúrai"
+ kyparissia.greek_language: "Arkadía"
+ kythira.greek_language: "Kýthēra"
+ kythnos.greek_language: "Thermiá"
  komotini.greek_language: "Komotiní"
  konitsa.greek_language: "Kónitsa"
  kos.greek_language: "Kós"
  kymi.greek_language: "Kými"
- larissa.greek_language: "Lárisa" #Larissa only has one sigma or s in Greek
- lemnos.greek_language: "Límnos" #Altered romanization
- leukas.greek_language: "Lefkás" #Ágia Mávra also works and is the source of the Albanian and Italian names
- leuktron.greek_language: "Léfktron" #Altered romanization
- livadeia.greek_language: "Livadeiá"
- loidoriki.greek_language: "Loidoríkion" #More formal ending
+ larissa.greek_language: "Lárisa"
+ lemnos.greek_language: "Límnos"
+ leukas.greek_language: "Leukás"
+ leuktron.greek_language: "Léuktron"
+ livadeia.greek_language: "Libadeiá"
+ loidoriki.greek_language: "Loidoríkion"
  luleburgaz.greek_language: "Arkadioúpolis"
  malgara.greek_language: "Málgara"
  megara.greek_language: "Mégara"
  milos.greek_language: "Mílos"
- mitilene.greek_language: "Mytilíni" #Altered romanization
- modon.greek_language: "Methóni"
- molyvos.greek_language: "Mólyvos"
- monemvasia.greek_language: "Monemvasía"
+ mitilene.greek_language: "Mytilēnē"
+ modon.greek_language: "Methōnē"
+ molyvos.greek_language: "Mólybos"
+ monemvasia.greek_language: "Monembasía"
  mount_athos.greek_language: "Ágion Óros"
  mykonos.greek_language: "Mýkonos"
- mystras.greek_language: "Mystrás" #Myzithrás also works, source of the Ottoman Turkish name
+ mystras.greek_language: "Mystrás"
  nafpaktos.greek_language: "Náfpaktos"
  nafplio.greek_language: "Náfplion"
  naxos.greek_language: "Náxos"
- negroponte.greek_language: "Évripos" #Chalcis was called Évripos in the middle ages, which was later corrupted into Venetian Negroponte, and was also corrupted into the Turkish name for the whole island, Eğriboz
- neopatras.greek_language: "Néai Pátrai" #Fixed spelling mistake
- oitylo.greek_language: "Oítylon" #Added final N, Voítylon also works
+ negroponte.greek_language: "Éuripos"
+ neopatras.greek_language: "Néai Pátrai"
+ oitylo.greek_language: "Oítylon"
  oreos.greek_language: "Oreós"
- ostrovo.greek_language: "Óstrovon" #Added final N to make more formal and less demotic
+ ostrovo.greek_language: "Óstrobōn"
  parga.greek_language: "Párga"
- patras.greek_language: "Pátrai" #Changed to the more formal plural ending
+ patras.greek_language: "Pátrai"
  polygyros.greek_language: "Polýgyros"
- pontikokastro.greek_language: "Pontikókastron" #Added final N to make more formal and less demotic
- preveza.greek_language: "Préveza"
- pyli.greek_language: "Pýli"
+ pontikokastro.greek_language: "Pontikókastron"
+ preveza.greek_language: "Prébeza"
+ pyli.greek_language: "Pýlē"
  rentina.greek_language: "Rentína"
- rethymno.greek_language: "Réthymnon" #Added final N to make more formal and less demotic
+ rethymno.greek_language: "Réthymnon"
  rodos.greek_language: "Ródos"
  rodoscuk.greek_language: "Raidestós"
- salona.greek_language: "Sálona"
+ salona.greek_language: "Sálōna"
  samos.greek_language: "Sámos"
- serres.greek_language: "Sérrai" #Changed to the more formal plural ending
- servia.greek_language: "Sérvia"
+ serres.greek_language: "Sérrai"
+ servia.greek_language: "Sérbia"
  siatista.greek_language: "Siátista"
- silivri.greek_language: "Silymvría"
+ silivri.greek_language: "Sēlymbría"
  siteia.greek_language: "Siteía"
  sporades.greek_language: "Sporádes"
- stomio.greek_language: "Moní Komnineíou" #Stomio is anachronistic
+ stomio.greek_language: "Moní Komninēíou"
  thasos.greek_language: "Thásos"
- thebes.greek_language: "Thívai" #Altered spelling, more formal
- thessaloniki.greek_language: "Thessaloníki"
+ thebes.greek_language: "Thēbai"
+ thessaloniki.greek_language: "Thessaloníkē"
  traianopolis.greek_language: "Traïanoúpolis"
  trikala.greek_language: "Tríkala"
- tripolitsa.greek_language: "Drobolitzá" #More archaic name
- tyrnavos.greek_language: "Týrnavos"
- veligosti.greek_language: "Veligostí"
- veria.greek_language: "Véroia"
- viannos.greek_language: "Viánnos" #Ano Viannos means Upper Viannos, simplified to just Viánnos
- vize.greek_language: "Vizýi"
- vonitsa.greek_language: "Vónitsa"
- vostitsa.greek_language: "Vostítsa"
- xanthia.greek_language: "Xántheia" #Altered romanization
- xylokastro.greek_language: "Xylókastron" #Added final N to make more formal and less demotic
+ tripolitsa.greek_language: "Drobolitzá"
+ tyrnavos.greek_language: "Týrnabos"
+ veligosti.greek_language: "Beligostí"
+ veria.greek_language: "Béroia"
+ viannos.greek_language: "Biánnos"
+ vize.greek_language: "Bizýē"
+ vonitsa.greek_language: "Bónitsa"
+ vostitsa.greek_language: "Bostítsa"
+ xanthia.greek_language: "Xántheia"
+ xylokastro.greek_language: "Xylókastron"
  zakynthos.greek_language: "Zákynthos"
- zetounion.greek_language: "Zitoúnion" #Altered romanization
+ zetounion.greek_language: "Zitoúnion"
  
  #East Balkans
  anhialo.greek_language: "Anchíalos"
