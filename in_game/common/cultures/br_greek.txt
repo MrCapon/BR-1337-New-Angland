@@ -264,3 +264,20 @@ rhos_culture = {
 	use_patronym = yes
 	
 }
+
+boulgaroi = { 
+	language = boulgaroi_dialect
+	
+	color = rgb { 125 155 98 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		bulgarian = positive
+		greek_culture = positive
+	}
+	culture_groups = {
+		roman_group
+		south_slavic_group
+	}
+}
