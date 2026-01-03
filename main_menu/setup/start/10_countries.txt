@@ -4120,7 +4120,7 @@ countries = {
 					legacy_of_genghis
 				}
 				privilege = {
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					ghazi_privilege
 					urban_development_grants
 
@@ -13147,7 +13147,7 @@ countries = {
 					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					gradozadanje_and_gradobljudenlje_rights
@@ -13373,33 +13373,34 @@ countries = {
 		
 		BUL = {
 			own_control_core = {
-				sredets samokov plovdiv stipon ovech
+				plovdiv kran strelcha svrljig tsepina kostenets stipon
+				
+				ovech
+
 				hiambouli rusokastro lardeja boruy
-				tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran
+				tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven
 				lovech nikopol pleven vratsa kutlovitsa vidin oryahovo bozhenitsa hotalich tryavna
-				anhialo varna karvuna pangalia kaliakra
-				tulcea harsova
-				archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
-				babadag cernavoda constanta enisala isaccea
-				visesav kozelj svrljig pirot tsaribrod
-				zemlungrad dupnitsa
-				dospat bansko krupnik melnik nevrokop
-				tsepina
-				beden haskovo perperek smolyan stanimaka
+				anhialo varna
+				archar lom gigen dobrolak ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
+				visesav kozelj
+				sredets svoge dupnitsa samokov zemlungrad tsaribrod pirot
+				
+				haskovo perperek smolyan stanimaka
 				burgas sozopol
-				#SER
-				stalac
-				velbuzd
-				ravno kucevo branicevo
-				nis glubocica vranje
-				ohrid bitola prilep florina kicevo tetovo
-				prosek shtip kocani strumica skopje kumanovo veles kratovo
-			}
-			own_control_conquered = {
+				dospat bansko krupnik melnik nevrokop beden
+				karvuna pangalia kaliakra
+				babadag cernavoda constanta enisala isaccea
+				tulcea harsova
 			}
 			own_control_integrated = {
+				stalac
+				ravno kucevo branicevo
+				nis glubocica
 			}
 			our_cores_conquered_by_others = {
+				vranje velbuzd 
+				ohrid bitola prilep florina kicevo tetovo
+				prosek shtip kocani strumica skopje kumanovo veles kratovo
 				bukelon ustra
 			}
 			
@@ -13435,7 +13436,7 @@ countries = {
 					#nobles
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					boyarski_voiski
 					#burghers
 					#peasants
@@ -13485,6 +13486,7 @@ countries = {
 			dynasty = sratsimir_dynasty
 		}
 		
+
 		#----------------------------- Iberia -------------------------------
 		
 		
@@ -14095,7 +14097,7 @@ countries = {
 					#Nobles
 					elaborate_court_ceremonies
 					noble_sponsored_navy
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					
 					#Clergy
 					clergy_literacy_rights
@@ -21755,7 +21757,7 @@ countries = {
 					#Nobles
 					elaborate_court_ceremonies
 					banal_lordship
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					ghazi_privilege
 					noble_sponsored_navy
 					auxilium_et_consilium
@@ -31270,7 +31272,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -31979,7 +31981,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -32067,7 +32069,7 @@ countries = {
 					#Nobles
 					elaborate_court_ceremonies
 					ghazi_privilege
-					joint_assembly_decrees
+					#joint_assembly_decrees
 
 					#Clergy
 					clergy_literacy_rights
@@ -46572,7 +46574,7 @@ countries = {
 					#nobles
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					
 					#Clergy
 					clergy_literacy_rights
@@ -48549,7 +48551,7 @@ countries = {
 					#nobles
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -50498,7 +50500,7 @@ countries = {
 					elaborate_court_ceremonies
 					ghazi_privilege
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 
 					#Clergy
 					clergy_literacy_rights
@@ -51085,6 +51087,7 @@ countries = {
 				berat ballsh kavaje durres
 			}
 			our_cores_conquered_by_others = {
+				elbasan kruje tirana
 			}
 			
 			starting_technology_level = 3
@@ -51103,6 +51106,19 @@ countries = {
 					autocracy
 					theme_system
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = -35
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -25
+				capital_economy_vs_traditional_economy = 25
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			tolerated_cultures = {
@@ -51114,7 +51130,224 @@ countries = {
 			
 			capital = durres
 		}
+
+		B0L = {
+			our_cores_conquered_by_others = {
+				karvuna pangalia kaliakra
+				babadag cernavoda constanta enisala isaccea
+				tulcea harsova
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+
+				ruler = ser_yoan_komnin_asen
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					primacy_of_nobility
+					peasants_allowed_weapons_privilege
+				}
+			}
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				wallachian
+			}
+
+			dynasty = sratsimir_dynasty
+			liturgical_language = church_slavonic_language
+			
+			capital = constanta
+		}
 		
+		B1L = {
+			own_control_core = {
+				ohrid bitola prilep florina kicevo tetovo
+				prosek shtip kocani strumica skopje kumanovo veles kratovo
+				vranje velbuzd
+			}
+			our_cores_conquered_by_others = {
+				debar
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+
+				ruler = ser_yoan_komnin_asen
+				
+				regnal_numbers = {
+					name_peter = 2
+					Ivan_Asen = 3
+					name_michael = 3
+					name_constantine = 1
+					name_george = 2
+					name_theodore = 1
+					name_john.name_stephen = 1
+					name_john.name_alexander = 1
+				}
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					primacy_of_nobility
+					peasants_allowed_weapons_privilege
+				}
+			}
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				serbian
+			}
+			liturgical_language = church_slavonic_language
+			
+			dynasty = sratsimir_dynasty
+			capital = skopje
+		}
+		
+		B2L = {
+			our_cores_conquered_by_others = {
+				dospat bansko krupnik melnik nevrokop beden
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_county
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					primacy_of_nobility
+					peasants_allowed_weapons_privilege
+				}
+			}
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				serbian
+			}
+			liturgical_language = church_slavonic_language
+			
+			capital = melnik
+		}
+		
+		B3L = {
+			our_cores_conquered_by_others = {
+				sredets svoge dupnitsa samokov zemlungrad tsaribrod pirot
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_county
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					primacy_of_nobility
+					peasants_allowed_weapons_privilege
+				}
+			}
+			accepted_cultures = {
+				bulgarian
+			}
+			liturgical_language = khoine_dialect
+			
+			capital = sredets
+		}
+		
+		B4L = {
+			our_cores_conquered_by_others = {
+				plovdiv kran strelcha tsepina kostenets stipon
+				beden stanimaka
+				constantia_bul boruy sliven
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					primacy_of_nobility
+					peasants_allowed_weapons_privilege
+				}
+			}
+			accepted_cultures = {
+				bulgarian
+			}
+			liturgical_language = khoine_dialect
+			
+			capital = plovdiv
+		}
+		
+		B5L = {
+			our_cores_conquered_by_others = {
+				ohrid bitola prilep florina kicevo tetovo
+				prosek shtip kocani strumica skopje kumanovo veles kratovo
+				vranje velbuzd
+				debar
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					primacy_of_nobility
+					peasants_allowed_weapons_privilege
+				}
+			}
+			accepted_cultures = {
+				bulgarian
+			}
+			liturgical_language = khoine_dialect
+			
+			capital = skopje
+		}
+		
+
 
 		#Anatolian Tags
 
@@ -51148,12 +51381,25 @@ countries = {
 					#nobles
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					akritai_privilege
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -25
+				serfdom_vs_free_subjects = 25
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = 50
+				quality_vs_quantity = -45
+				offensive_vs_defensive = 100
+				land_vs_naval = -50
+				capital_economy_vs_traditional_economy = 25
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			accepted_cultures = {
@@ -51170,6 +51416,7 @@ countries = {
 				date = 1340.1.1
 				size = 1
 			}
+			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
 			capital = antioch
 		}
@@ -51239,6 +51486,7 @@ countries = {
 			}
 			accepted_cultures = { armenian_culture }
 			
+			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
 			capital = marash
 
@@ -51308,6 +51556,7 @@ countries = {
 			}
 			accepted_cultures = { armenian_culture }
 			
+			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
 			capital = costa
 
@@ -51375,8 +51624,8 @@ countries = {
 				centralization_vs_decentralization = -75
 				aristocracy_vs_plutocracy = -45
 				serfdom_vs_free_subjects = -50
-				traditionalist_vs_innovative = -65
-				spiritualist_vs_humanist = -75
+				traditionalist_vs_innovative = -85
+				spiritualist_vs_humanist = -100
 				offensive_vs_defensive = 75
 				land_vs_naval = -100
 				quality_vs_quantity = -50
@@ -51391,6 +51640,7 @@ countries = {
 			}
 			accepted_cultures = { gothic_culture }
 			
+			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
 			capital = qirq_yer
 
@@ -51481,7 +51731,7 @@ countries = {
 					#nobles
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					akritai_privilege
 					#burghers
 					#peasants
@@ -51497,6 +51747,7 @@ countries = {
 				cappadocian_greek_culture
 				armenian_culture
 			}
+			liturgical_language = khoine_dialect
 			capital = konya
 		}
 		
@@ -51542,12 +51793,25 @@ countries = {
 					
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					akritai_privilege
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = 15
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_duchy
@@ -51559,6 +51823,7 @@ countries = {
 				armenian_culture
 			}
 
+			liturgical_language = khoine_dialect
 			capital = konya
 		}
 		
@@ -51606,11 +51871,24 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = 15
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_duchy
@@ -51622,6 +51900,7 @@ countries = {
 				armenian_culture
 			}
 
+			liturgical_language = khoine_dialect
 			capital = ankara
 		}
 		
@@ -51668,11 +51947,26 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -95
+				serfdom_vs_free_subjects = 25
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
+
 			}
 			
 			country_rank = rank_duchy
@@ -51683,6 +51977,7 @@ countries = {
 				armenian_culture
 			}
 			
+			liturgical_language = khoine_dialect
 			capital = kayseri
 		}
 		
@@ -51721,11 +52016,26 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = -35
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -25
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
+
 			}
 			
 			country_rank = rank_duchy
@@ -51736,6 +52046,7 @@ countries = {
 				armenian_culture
 			}
 			
+			liturgical_language = khoine_dialect
 			capital = kastamonu
 		}
 		
@@ -51774,11 +52085,26 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+
+				centralization_vs_decentralization = -50
+				traditionalist_vs_innovative = -50
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -50
+				serfdom_vs_free_subjects = -35
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = -75
+				quality_vs_quantity = -25
+				offensive_vs_defensive = -50
+				land_vs_naval = 100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = -10
+				outward_vs_inward = -75
+
 			}
 			
 			country_rank = rank_duchy
@@ -51789,6 +52115,7 @@ countries = {
 				armenian_culture
 			}
 			
+			liturgical_language = khoine_dialect
 			capital = antalya
 		}
 
@@ -51799,7 +52126,8 @@ countries = {
 			}
 
 			our_cores_conquered_by_others = {
-				komotini ustra
+				komotini ustra smolyan
+				dospat bansko krupnik melnik nevrokop
 			}
 			
 			starting_technology_level = 3
@@ -51825,6 +52153,19 @@ countries = {
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = -35
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_county
@@ -51835,7 +52176,8 @@ countries = {
 				bulgarian
 			}
 			
-			capital = rentina
+			liturgical_language = khoine_dialect
+			capital = serres
 		}
 
 		B0R = {
@@ -51866,6 +52208,19 @@ countries = {
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = -35
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_county
@@ -51876,6 +52231,7 @@ countries = {
 				arvanite
 			}
 			
+			liturgical_language = khoine_dialect
 			capital = ostrovo
 		}
 
@@ -51915,6 +52271,19 @@ countries = {
 					#peasants
 					peasants_allowed_weapons_privilege
 				}
+				centralization_vs_decentralization = 35
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = -35
+				mercantilism_vs_free_trade = -75
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = -25
+				offensive_vs_defensive = 75
+				land_vs_naval = 100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_county
@@ -51925,6 +52294,7 @@ countries = {
 				arvanite
 			}
 			
+			liturgical_language = khoine_dialect
 			capital = ostrovo
 		}
 
@@ -51952,7 +52322,7 @@ countries = {
 					#nobles
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -51991,7 +52361,7 @@ countries = {
 					
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -52034,7 +52404,7 @@ countries = {
 					
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -52073,7 +52443,7 @@ countries = {
 					
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -52111,7 +52481,7 @@ countries = {
 					
 					primacy_of_nobility
 					auxilium_et_consilium
-					joint_assembly_decrees
+					#joint_assembly_decrees
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege

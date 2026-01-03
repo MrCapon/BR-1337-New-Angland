@@ -171,6 +171,48 @@
 				type = paved_road
 			}
 		}
+		location:constantinople = {
+			add_road_to = {
+				target = location:rusokastro
+				type = gravel_road
+			}
+		}
+		location:rentina = {
+			add_road_to = {
+				target = location:melnik
+				type = gravel_road
+			}
+		}
+		location:melnik = {
+			add_road_to = {
+				target = location:velbuzd
+				type = gravel_road
+			}
+		}
+		location:edirne = {
+			add_road_to = {
+				target = location:traianopolis
+				type = gravel_road
+			}
+		}
+		location:vize = {
+			add_road_to = {
+				target = location:kiyikoy
+				type = gravel_road
+			}
+		}
+		location:rodoscuk = {
+			add_road_to = {
+				target = location:gallipoli
+				type = gravel_road
+			}
+		}
+		location:ohrid = {
+			add_road_to = {
+				target = location:veles
+				type = gravel_road
+			}
+		}
 
 		#Iberia
 		location:cordoba = {
@@ -406,8 +448,14 @@
 		}
 		location:izmit = {
 			add_road_to = {
-				target = location:bandirma
+				target = location:bursa
 				type = paved_road
+			}
+		}
+		location:bursa = {
+			add_road_to = {
+				target = location:bandirma
+				type = gravel_road
 			}
 		}
 		location:bergama = {
@@ -676,6 +724,54 @@
 		location:urfa = {
 			add_road_to = {
 				target = location:gerger
+				type = gravel_road
+			}
+		}
+		location:mus = {
+			add_road_to = {
+				target = location:tutak
+				type = gravel_road
+			}
+		}
+		location:mus = {
+			add_road_to = {
+				target = location:van
+				type = gravel_road
+			}
+		}
+		location:tutak = {
+			add_road_to = {
+				target = location:khor_virap
+				type = gravel_road
+			}
+		}
+		location:tutak = {
+			add_road_to = {
+				target = location:van
+				type = gravel_road
+			}
+		}
+		location:erzurum = {
+			add_road_to = {
+				target = location:ardahan
+				type = gravel_road
+			}
+		}
+		location:ardahan = {
+			add_road_to = {
+				target = location:akhaltsikhe
+				type = gravel_road
+			}
+		}
+		location:malatya = {
+			add_road_to = {
+				target = location:genc
+				type = gravel_road
+			}
+		}
+		location:deir_ez_zor = {
+			add_road_to = {
+				target = location:mardin
 				type = gravel_road
 			}
 		}

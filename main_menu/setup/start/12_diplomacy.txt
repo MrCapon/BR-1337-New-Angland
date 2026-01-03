@@ -343,7 +343,7 @@ diplomacy_manager = {
     #Sub dependencies
     dependency = { first = THE second = S1Y subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = THE second = B0R subject_type = vassal } # Pronoïakon Ktéma
-    dependency = { first = EPI second = DYR subject_type = vassal } # Autonomia
+    dependency = { first = EPI second = DYR subject_type = march } # Thema
 
     #Patiachate dependencies
     #dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
@@ -465,12 +465,13 @@ diplomacy_manager = {
     dependency = { first = HUN second = CRO subject_type = fiefdom }
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
     dependency = { first = HUN second = WAL subject_type = tributary } #BR ADDED
-    scripted_mutual = { first = EPI second = DYR type = alliance }
     scripted_mutual = { first = EPI second = S2C type = alliance }
-    dependency = { first = DYR second = ANT subject_type = vassal } #BR EDIT
-    dependency = { first = DYR second = THP subject_type = vassal } #BR EDIT
-    dependency = { first = DYR second = MTR subject_type = vassal } #BR EDIT
-    dependency = { first = DYR second = MZK subject_type = vassal } #BR EDIT
+    #Bulgaria
+    dependency = { first = BUL second = B1L subject_type = fiefdom }
+    dependency = { first = B1L second = MZK subject_type = vassal }
+    dependency = { first = B1L second = ANT subject_type = vassal } #BR EDIT
+    dependency = { first = B1L second = THP subject_type = vassal } #BR EDIT
+    dependency = { first = B1L second = MTR subject_type = vassal } #BR EDIT
     
 
     #Persia/Mesopotamia

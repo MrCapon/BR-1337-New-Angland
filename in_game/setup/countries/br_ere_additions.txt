@@ -115,12 +115,55 @@ GAN = { #BR addition
 	religion_definition = miaphysite
 }
 
+#Balkans
+B0L = {
+	color = rgb { 23 169 115 }
+
+	culture_definition = bulgarian
+	religion_definition = orthodox
+}
+
+B1L = {
+	color = rgb { 53 129 55 }
+
+	culture_definition = bulgarian
+	religion_definition = orthodox
+}
+
+B2L = {
+	color = rgb { 73 109 75 }
+
+	culture_definition = bulgarian
+	religion_definition = orthodox
+}
+
+B3L = {
+	color = rgb { 123 79 65 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+B4L = {
+	color = rgb { 63 69 95 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+B5L = {
+	color = rgb { 113 49 95 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
 #Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible
 	color = rgb { 75 175 125 }
 
-	culture_definition = romanyoti #Might get roasted but inspired a CK2 event.
-	religion_definition = orthodox #judaism 
+	culture_definition = romanyoti #inspired by a classic CK2 event.
+	religion_definition = judaism 
 }
 
 MKB = { #Makrembolitēs

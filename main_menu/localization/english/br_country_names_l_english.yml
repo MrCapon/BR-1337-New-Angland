@@ -124,7 +124,19 @@
  ZEA: "Zealand"
  ZEA_ADJ: "Zealander"
 
- 
+ #Balkans
+ B0L: "Dobrudja"
+ B0L_ADJ: "Dobrudja"
+ B1L: "Skopje–Ohrid"
+ B1L_ADJ: "Skopje"
+ B2L: "Melnik"
+ B2L_ADJ: "Melnik"
+ B3L: "Serdika"
+ B3L_ADJ: "Serdika"
+ B4L: "Philippópolis"
+ B4L_ADJ: "Philippópolis"
+ B5L: "Boulgaría"
+ B5L_ADJ: "Boulgaría"
 
  # France
  AUS: "Austrasia"

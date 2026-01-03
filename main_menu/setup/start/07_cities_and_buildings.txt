@@ -4276,7 +4276,7 @@ building_manager = {
 	weapon_guild = { tag = BUL level = 4 location = tarnovo }
 	weapon_guild = { tag = HUN level = 4 location = buda }
 
-	bailiff = { tag = PAF level = 1 location = bayat }
+	bailiff = { tag = AON level = 1 location = cankiri }
 	bailiff = { tag = PAF level = 1 location = gumus }
 
 	bailiff = { tag = ANA level = 1 location = bozok }
@@ -4447,7 +4447,7 @@ building_manager = {
 	nobles_recruitment_center = { tag = CIL level = 1 location = alaiye }
 	nobles_recruitment_center = { tag = AOI level = 1 location = antioch }
 	nobles_recruitment_center = { tag = PAF level = 1 location = sinop }
-	nobles_recruitment_center = { tag = PAF level = 1 location = bayat }
+	nobles_recruitment_center = { tag = PAF level = 1 location = cankiri }
 	nobles_recruitment_center = { tag = PAF level = 1 location = gumus }
 	nobles_recruitment_center = { tag = TRE level = 1 location = niksar }
 	nobles_recruitment_center = { tag = TRE level = 1 location = bayramlu }
@@ -4803,8 +4803,19 @@ building_manager = {
 
 
 #Villages
-	market_village = { tag = BYZ level = 1 location = luleburgaz }
-	forest_village = { tag = BYZ level = 1 location = luleburgaz }
+	market_village = { tag = BUL level = 2 location = burgas }
+	fishing_village = { tag = BUL level = 1 location = burgas }
+	fishing_village = { tag = BUL level = 1 location = anhialo }
+	farming_village = { tag = BUL level = 1 location = sozopol }
+	farming_village = { tag = BUL level = 1 location = karvuna }
+	forest_village = { tag = BUL level = 1 location = sozopol }
+	forest_village = { tag = BUL level = 1 location = elhovo }
+
+	market_village = { tag = AON level = 2 location = cankiri }
+	forest_village = { tag = AON level = 2 location = cankiri }
+
+	market_village = { tag = BYZ level = 2 location = luleburgaz }
+	forest_village = { tag = BYZ level = 2 location = luleburgaz }
 	market_village = { tag = BYZ level = 1 location = balikesir }
 	farming_village = { tag = BYZ level = 1 location = balikesir }
 	market_village = { tag = BYZ level = 1 location = manisa }
@@ -4832,7 +4843,9 @@ building_manager = {
 	market_village = { tag = BYZ level = 1 location = marash }
 	market_village = { tag = BYZ level = 1 location = soldaia }
 	market_village = { tag = BYZ level = 1 location = vosporo }
-	market_village = { tag = THE level = 1 location = rentina }
+	farming_village = { tag = THE level = 1 location = rentina }
+	farming_village = { tag = THE level = 1 location = drama }
+	market_village = { tag = THE level = 1 location = serres }
 	market_village = { tag = BUL level = 1 location = sozopol }
 	forest_village = { tag = BUL level = 1 location = stanimaka }
 	farming_village = { tag = BUL level = 1 location = tryavna }
@@ -5263,7 +5276,7 @@ building_manager = {
 	noble_villa = { tag = BYZ level = 1 location = bandirma }
 	noble_villa = { tag = BYZ level = 1 location = yuksekkum }
 	noble_villa = { tag = BYZ level = 1 location = mengen }
-	noble_villa = { tag = PAF level = 1 location = bayat }
+	noble_villa = { tag = PAF level = 1 location = cankiri }
 	noble_villa = { tag = PAF level = 1 location = gumus }
 	noble_villa = { tag = TRE level = 1 location = gorele }
 	noble_villa = { tag = ANA level = 1 location = eregli_kar }
@@ -5368,7 +5381,7 @@ building_manager = {
 	stockade = { tag = BYZ level = 1 location = akcasehir }
 	stockade = { tag = BYZ level = 1 location = demotica }
 	stockade = { tag = BYZ level = 1 location = edessa }
-	stockade = { tag = BYZ level = 1 location = rentina }
+	stockade = { tag = BYZ level = 1 location = serres }
 	stockade = { tag = BYZ level = 1 location = manavgat }
 	stockade = { tag = BYZ level = 1 location = mengen }
 	stockade = { tag = BYZ level = 1 location = gallipoli }
