@@ -481,135 +481,135 @@
 
  
  #West Balkans
- arilje.greek_language: "Árilia"
- ballsh.greek_language: "Výllis" #Altered romanization
+  arilje.greek_language: "Árilia"
+ ballsh.greek_language: "Býllis"
  bar_cg.greek_language: "Antivárion"
- belgrad.greek_language: "Velégrada" #Siggidónon is wildly anachronistic when there are multiple known Byzantine Greek names for Belgrade
- berat.greek_language: "Vellégrada" #Berat was known as Belgrad in Greek in this period due to the Slavic name for the city
- bihac.greek_language: "Vichátza" #Not sure what the point of including a Latin name in the Greek list is, but I changed it to a Hellenization of the Hungarian
- bjelovar.greek_language: "Vellovárion" #Changed to a different Hellenization that's similar to other Byzantine Hellenizations of Slavic toponyms
- borac.greek_language: "Vóratzi" #Changed to a Hellenization of the Slavic name
- brac.greek_language: "Vrátzis" #Elaphoússa is outdated and anachronistic, the name Vrátzis is attested in De Administrando Imperii
- branicevo.greek_language: "Vranítzova" #Altered romanization
- brskovo.greek_language: "Vrýskova"
+ belgrad.greek_language: "Belégrada"
+ berat.greek_language: "Bellégrada"
+ bihac.greek_language: "Bichátza"
+ bjelovar.greek_language: "Bellovárion"
+ borac.greek_language: "Bóratzi"
+ brac.greek_language: "Brátzis"
+ branicevo.greek_language: "Branítzova"
+ brskovo.greek_language: "Brýskova"
  brvenik.greek_language: "Préveniki"
- budimlja.greek_language: "Voúdimla"
- buzet.greek_language: "Pikouénton" #Changed to a Hellenization of the Latin name
- celje.greek_language: "Kéleia" 
- crikvenica.greek_language: "Tzerkvénitsa" #Changed to a Hellenization of the Italian and Slavic name
- debar.greek_language: "Dívri" #Changed to the attested Byzantine era name
+ budimlja.greek_language: "Boúdimla"
+ buzet.greek_language: "Pikouénton"
+ celje.greek_language: "Kéleia"
+ crikvenica.greek_language: "Tzerkvénitsa"
+ debar.greek_language: "Dívri"
  debrc.greek_language: "Deprítsa"
  devol.greek_language: "Deávolis"
  doboj.greek_language: "Dobói"
- drijeva.greek_language: "Narénta" #Hellenized the Latin name
- dubica.greek_language: "Doúbitsa" #Changed to a Hellenization of the Slavic name
+ drijeva.greek_language: "Narénta"
+ dubica.greek_language: "Doúbitsa"
  dubrovnik.greek_language: "Raoúsion"
  dukagjini.greek_language: "Doukaginí"
- durres.greek_language: "Dyrráchion" #Altered romanization
- elbasan.greek_language: "Tzernikón" #Both Skampis and Elbasan are anachronistic in opposite directions and the Albanian name should be Çermenikë which is equivalent to Greek Tzernikón
+ durres.greek_language: "Dyrráchion"
+ elbasan.greek_language: "Tzernikón"
  gacko.greek_language: "Gátsko"
- gjakova.greek_language: "Tzakóvitsa" #Altered romanization
- glamoc.greek_language: "Viográdon" #Biograd was the contemporary Slavic name, and what I based the Hellenization on
+ gjakova.greek_language: "Tzakóvitsa"
+ glamoc.greek_language: "Biográdon"
  glaz.greek_language: "Glázi"
- gorizia.greek_language: "Gorítsia" #Altered spelling
+ gorizia.greek_language: "Gorítsia"
  gradac.greek_language: "Gradáki"
  gradina.greek_language: "Gradína"
- gradiski_brod.greek_language: "Servítion" #Used the Greek version of the Latin name
+ gradiski_brod.greek_language: "Servítion"
  has.greek_language: "Chasikón"
- ilirska_bistrica.greek_language: "Bistrítsa" #Fixed spelling
- ilok.greek_language: "Kókkion" # Cuccium
- jagodina.greek_language: "Iagodína" #Changed to a Hellenization of the Slavic name
- jajce.greek_language: "Giáitsa" #Changed to a Hellenization of the Slavic name
- karlovac.greek_language: "Karoloúpolis" #Left the same, good name
- kaseg.greek_language: "Kaséki" #Hellenization of Slavic name
- kavaje.greek_language: "Kavágia" #Altered romanization
- kljuc.greek_language: "Kloútzi" #hellenized
- knin.greek_language: "Tenín" #Changed to a name attested in De Administrando Imperii
- koman.greek_language: "Kománi" #Added accent mark
+ ilirska_bistrica.greek_language: "Bistrítsa"
+ ilok.greek_language: "Kókkion"
+ jagodina.greek_language: "Iagodína"
+ jajce.greek_language: "Giáitsa"
+ karlovac.greek_language: "Karoloúpolis"
+ kaseg.greek_language: "Kaséki"
+ kavaje.greek_language: "Kavágia"
+ kljuc.greek_language: "Kloútzi"
+ knin.greek_language: "Tenín"
+ koman.greek_language: "Kománi"
  konjic.greek_language: "Konítsa"
- koprivnica.greek_language: "Koprívnitsa" #Altered romanization
- kotor.greek_language: "Dekatéra" #Added accent mark
+ koprivnica.greek_language: "Koprívnitsa"
+ kotor.greek_language: "Dekatéra"
  kozara.greek_language: "Kozára"
- kranj.greek_language: "Kránion" #Altered romanization and spelling
+ kranj.greek_language: "Kránion"
  krk.greek_language: "Kýrikon"
  krupanj.greek_language: "Kroupáni"
  kruje.greek_language: "Kroaí"
  krusevac.greek_language: "Kroúsevatsi"
  kucevo.greek_language: "Koutséva"
- kutina.greek_language: "Koutína" #Hellenization of Slavic name
- lezha.greek_language: "Alésion" #Changed to more contemporary name
- livno.greek_language: "Chlevéna" #Changed to a name attested in De Administrando Imperii
- ljubljana.greek_language: "Lyplianés" #Changed to a name attested in De Administrando Imperii
- makarska.greek_language: "Mokrós" #Changed to a name attested in De Administrando Imperii
- medveda.greek_language: "Medvétza" #Hellenization of Slavic name
- metkovic.greek_language: "Naróna" #Added accent mark
- mitrovica.greek_language: "Ágios Dimítrios" #Altered romanization
+ kutina.greek_language: "Koutína"
+ lezha.greek_language: "Alésion"
+ livno.greek_language: "Chlevéna"
+ ljubljana.greek_language: "Lyplianés"
+ makarska.greek_language: "Mokrós"
+ medveda.greek_language: "Medvétza"
+ metkovic.greek_language: "Naróna"
+ mitrovica.greek_language: "Ágios Dimítrios"
  mostar.greek_language: "Mostári"
  nevesinje.greek_language: "Nevesínia"
- novigrad.greek_language: "Nóvigradon" #Hellenization of Slavic name
- novo_brdo.greek_language: "Novópridon" #Attested Byzantine or Ottoman era Greek name for Novo Brdo
+ novigrad.greek_language: "Nóvigradon"
+ novo_brdo.greek_language: "Novópridon"
  novo_mesto.greek_language: "Novomésto"
- olovo.greek_language: "Ólova" #Hellenization of Slavic name
- onogost.greek_language: "Anagáston" #Attested in De Administrando Imperii
- osijek.greek_language: "Ossékion" #Hellenization of Slavic name
- otocac.greek_language: "Ottótzion" #Hellenization of Slavic name, taking inspiration from the Italian version
+ olovo.greek_language: "Ólova"
+ onogost.greek_language: "Anagáston"
+ osijek.greek_language: "Ossékion"
+ otocac.greek_language: "Ottótzion"
  pag.greek_language: "Págos"
- pakrac.greek_language: "Pakrátzi" #Hellenization of Slavic name
+ pakrac.greek_language: "Pakrátzi"
  pazin.greek_language: "Pétina"
- peja.greek_language: "Péskion" #Why use a name in a completely different language when there are multiple contemporary Greek names available
+ peja.greek_language: "Péskion"
  petrinja.greek_language: "Pétrinia"
- petrovaradin.greek_language: "Petrikón" #Altered spelling
- pljevlja.greek_language: "Plévlia" #Hellenization of Slavic name
- podgorica.greek_language: "Diokleía" #Fixed spelling mistake
+ petrovaradin.greek_language: "Petrikón"
+ pljevlja.greek_language: "Plévlia"
+ podgorica.greek_language: "Diokleía"
  pola.greek_language: "Póla"
  postojna.greek_language: "Postónia"
- pozega.greek_language: "Posséga" #Added accent mark
+ pozega.greek_language: "Posséga"
  prijepolje.greek_language: "Priepólia"
- pristina.greek_language: "Prístina" #Come on, guys
- prizren.greek_language: "Prisdiána" #Attested in De Administrando Imperii
- ptuj.greek_language: "Poitóvion" #Altered spelling
+ pristina.greek_language: "Prístina"
+ prizren.greek_language: "Prisdiána"
+ ptuj.greek_language: "Poitóvion"
  ravno.greek_language: "Rávenitza"
- rijeka.greek_language: "Vitoúpolis" #Altered spelling
+ rijeka.greek_language: "Vitoúpolis"
  rudnik.greek_language: "Routníki"
- rovinj.greek_language: "Rygínion" #Changed to attested Greek
+ rovinj.greek_language: "Rygínion"
  sabac.greek_language: "Sabátzi"
- senj.greek_language: "Sénia" #Hellenization of Slavic name, inspired by Italian version 
+ senj.greek_language: "Sénia"
  shkoder.greek_language: "Skódra"
- sibenik.greek_language: "Sibéniki" #Hellenization of Slavic name
- sinj.greek_language: "Sínia" #Hellenization of Slavic name, inspired by Italian version 
+ sibenik.greek_language: "Sibéniki"
+ sinj.greek_language: "Sínia"
  sisak.greek_language: "Siskía"
  sjenica.greek_language: "Senítsa"
  skofja_loka.greek_language: "Skófia Lóka"
  slano.greek_language: "Slános"
  slovenj_gradec.greek_language: "Sklavikí Gradétsi"
- slunj.greek_language: "Slóvini" #Hellenization based on Medieval Latin name
+ slunj.greek_language: "Slóvini"
  smederevo.greek_language: "Semendría"
  soko_grad.greek_language: "Sókogradon"
  soli.greek_language: "Salínes"
- split.greek_language: "Spálathos" #Both Spálathos and Aspálathos are attested, chose the former because it's more similar to other languages at this time
+ split.greek_language: "Spálathos"
  srb.greek_language: "Sérvos"
- srebrenica.greek_language: "Sebrénitsa" #Hellenization of the Slavic name
+ srebrenica.greek_language: "Sebrénitsa"
  srebrenik.greek_language: "Sebreníki"
  sremska_mitrovica.greek_language: "Sírmion"
  stalac.greek_language: "Stalátsi"
  teocak.greek_language: "Teotsáki"
  tirana.greek_language: "Týrana"
- trebinje.greek_language: "Tervoúnia" #Altered romanization
+ trebinje.greek_language: "Tervoúnia"
  trgoviste_SER.greek_language: "Rásos"
  ustikolina.greek_language: "Ekvolí Kolínas"
- uzice.greek_language: "Oúzitsa" #Hellenization of Slavic name
- valjevo.greek_language: "Valiéva"
- varazdin.greek_language: "Varasdína" #Hellenization of Slavic name, inspired by the Italian name
- vaska.greek_language: "Váska" #Altered romanization
- virovitica.greek_language: "Virovitítsa" #Altered romanization
- visegrad.greek_language: "Vísegrada"
- vrhbosna.greek_language: "Vósona" #Attested name
- vukovar.greek_language: "Voúkova" #Hellenization of Slavic name
- zadar.greek_language: "Iadóra" #More contemporary name
- zagreb.greek_language: "Zagrávia" #Hellenization of Slavic name, inspired by the Italian name
- zenica.greek_language: "Zenítsa" #Hellenization of Slavic name
+ uzice.greek_language: "Oúzitsa"
+ valjevo.greek_language: "Balíeva"
+ varazdin.greek_language: "Barasdína"
+ vaska.greek_language: "Báska"
+ virovitica.greek_language: "Birovitítsa"
+ visegrad.greek_language: "Bísegrada"
+ vrhbosna.greek_language: "Bósona"
+ vukovar.greek_language: "Boúkova"
+ zadar.greek_language: "Iadóra"
+ zagreb.greek_language: "Zagrávia"
+ zenica.greek_language: "Zenítsa"
  zica.greek_language: "Moní Zítsa"
- 
+
  #Armenian Highlands
  adakli.greek_language: "Artaléson" #Better attested form
  ahlat.greek_language: "Chaláta" 
