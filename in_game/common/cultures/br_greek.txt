@@ -274,7 +274,7 @@ boulgaroi = {
 
 	opinions = {
 		bulgarian = positive
-		greek_culture = positive
+		greek_culture = kindred
 	}
 	culture_groups = {
 		roman_group

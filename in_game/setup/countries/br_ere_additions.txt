@@ -140,21 +140,28 @@ B2L = {
 B3L = {
 	color = rgb { 123 79 65 }
 
-	culture_definition = greek_culture
+	culture_definition = boulgaroi
 	religion_definition = orthodox
 }
 
 B4L = {
 	color = rgb { 63 69 95 }
 
-	culture_definition = greek_culture
+	culture_definition = boulgaroi
 	religion_definition = orthodox
 }
 
 B5L = {
 	color = rgb { 113 49 95 }
 
-	culture_definition = greek_culture
+	culture_definition = boulgaroi
+	religion_definition = orthodox
+}
+
+B6L = {
+	color = rgb { 133 79 95 }
+
+	culture_definition = boulgaroi
 	religion_definition = orthodox
 }
 
