@@ -382,102 +382,103 @@
  
  #East Balkans
  anhialo.greek_language: "Anchíalos"
- archar.greek_language: "Mikrá Velégrada" #Archar is an anachronistic name, it should be Belograd
+ archar.greek_language: "Mikrá Velégrada"
  aytos.greek_language: "Aetós"
- babadag.greek_language: "Ividaí" #Slightly closer and more recently attested
- bansko.greek_language: "Razlógi" #Monix recommended Razlog as a replacement for Bansko on the grounds that it was larger and more important
- beden.greek_language: "Védeni"
- bitola.greek_language: "Vitólia" #Just changed the accent mark
- boruy.greek_language: "Verói" #The settlement was known as Eirinoúpolis in Greek in the early Middle Ages, but was better known as Verói aka Beroe, from which Bulgarian Boruy derives
+ babadag.greek_language: "Ividaí"
+ bansko.greek_language: "Razlógi"
+ beden.greek_language: "Bédeni"
+ bitola.greek_language: "Bitólia"
+ boruy.greek_language: "Berói"
  bozhenitsa.greek_language: "Vozenítsa"
- bukelon.greek_language: "Voukélon"
+ bukelon.greek_language: "Boukélon"
  burgas.greek_language: "Pýrgos"
  cernavoda.greek_language: "Axioúpolis"
  cherven.greek_language: "Tzervéni"
- constanta.greek_language: "Konstántia" # from De Administrando Imperio
+ constanta.greek_language: "Konstántia"
  constantia_bul.greek_language: "Konstántsia"
  dobrolak.greek_language: "Dobroláki"
  dospat.greek_language: "Despáti"
  drastar.greek_language: "Douróstoron"
- dupnitsa.greek_language: "Doúpla" #More contemporary attested name
- elhovo.greek_language: "Gianitsá" #Elhovo is a very modern name, the older Bulgarian name was Yanitsa.
- enisala.greek_language: "Irákleia" #Romanian Wikipedia has this settlement as Herakleia in Greek
- florina.greek_language: "Chlérinon" #Flórina also works
- gigen.greek_language: "Oískos" #Oescus in roman/latin
+ dupnitsa.greek_language: "Doúpla"
+ elhovo.greek_language: "Gianitsá"
+ enisala.greek_language: "Irákleia"
+ florina.greek_language: "Chlérinon"
+ gigen.greek_language: "Oískos"
  glubocica.greek_language: "Globotzítsa"
- harsova.greek_language: "Chýrsova" #Hellenization of Slavic name
+ harsova.greek_language: "Chýrsova"
  haskovo.greek_language: "Mársa"
- hiambouli.greek_language: "Diámpolis" #Chlérinon also works
- hotalich.greek_language: "Chotélion" #Hotalich is the Turkified version of Hotel which was the medieval Bulgarian name
- isaccea.greek_language: "Sáktzas" #Changed to an attested contemporary name
- kaliakra.greek_language: "Kaliákra" #Altered romanization and spelling 
- karvuna.greek_language: "Karvoúna" #Changed to an attested name equivalent to the Slavic name
- kicevo.greek_language: "Kítzavis" #Altered romanization
+ hiambouli.greek_language: "Diámpolis"
+ hotalich.greek_language: "Chotélion"
+ isaccea.greek_language: "Sáktzas"
+ kaliakra.greek_language: "Kaliákra"
+ karvuna.greek_language: "Karvoúna"
+ kicevo.greek_language: "Kítzavis"
  kladentsi.greek_language: "Kladéntsi"
- kocani.greek_language: "Kótsani" #Altered romanization
+ kocani.greek_language: "Kótsani"
  kostenets.greek_language: "Kostenítza"
  kozelj.greek_language: "Kozéli"
- kran.greek_language: "Krýni" #Changed to a more contemporary name
- kratovo.greek_language: "Krátovon" #Changed to a more contemporary name
+ kran.greek_language: "Krýni"
+ kratovo.greek_language: "Krátovon"
  krupnik.greek_language: "Kroúpniki"
  ktenia.greek_language: "Kténia"
- kumanovo.greek_language: "Koumánova" #Please don't use Latin names
- kutlovitsa.greek_language: "Koutlovítsa" #Hellenization of Slavic name
- lardeja.greek_language: "Lardéa" #Altered spelling
- lom.greek_language: "Álmos" #Changed to Roman era name which is a little more recent
- lovech.greek_language: "Lovítsa" #The name Hisaria comes from Ottoman Turkish, and is for a different settlement anyway 
+ kumanovo.greek_language: "Koumánova"
+ kutlovitsa.greek_language: "Koutlovítsa"
+ lardeja.greek_language: "Lardéa"
+ lom.greek_language: "Álmos"
+ lovech.greek_language: "Lovítsa"
  lyaskovets.greek_language: "Liaskovétzion"
- melnik.greek_language: "Melénikon" #Altered spelling 
+ melnik.greek_language: "Melénikon"
  nevrokop.greek_language: "Nevrokópi"
  nikopol.greek_language: "Nikópolis"
  nis.greek_language: "Nysós"
  ohrid.greek_language: "Áchrida"
  ormenio.greek_language: "Orménion"
- oryahovo.greek_language: "Ráchova" #Hellenization of Slavic name, taking inspiration from the Turkish and Romanian versions
- ovech.greek_language: "Próvaton" #Provat seems to be an incomplete version of Próvaton
+ oryahovo.greek_language: "Ráchova"
+ ovech.greek_language: "Próvaton"
  pangalia.greek_language: "Pangalía"
  perperek.greek_language: "Perperikón"
- pirot.greek_language: "Pýrgos" #Was called Pýrgos in Greek which has the same meaning as Turres in Latin
- pleven.greek_language: "Plévna" #Attested Greek name for Pleven
+ pirot.greek_language: "Pýrgos"
+ pleven.greek_language: "Plévna"
  plovdiv.greek_language: "Philippópolis"
  prilep.greek_language: "Prílapos"
- prokuplje.greek_language: "Prokopía" #More contemporary name
- prosek.greek_language: "Prosákon" #More contemporary name
- razgrad.greek_language: "Chrýzgradon" #Changed to a Hellenization of the Old Slavonic name
- ruse.greek_language: "Roúsa" #Changed to attested Greek
+ prokuplje.greek_language: "Prokopía"
+ prosek.greek_language: "Prosákon"
+ razgrad.greek_language: "Chrýzgradon"
+ ruse.greek_language: "Roúsa"
  rusokastro.greek_language: "Rousókastron"
- samokov.greek_language: "Samákova" #Samákovon also works
- shtip.greek_language: "Astívos" #Astívos seems to be the more common Greek name
- shumen.greek_language: "Symeonís" #Altered spelling
- skopje.greek_language: "Skoúpoi" #Altered Spelling
- sliven.greek_language: "Sílymnos" #Altered romanization
- sozopol.greek_language: "Sozópolis" #It should be pretty obvious that the Bulgarian name was based on a contemporary Greek name
- sredets.greek_language: "Triáditza" #Serdikí would also work here
+ samokov.greek_language: "Samákova"
+ shtip.greek_language: "Astívos"
+ shumen.greek_language: "Symeonís"
+ skopje.greek_language: "Skoúpoi"
+ sliven.greek_language: "Sílymnos"
+ sozopol.greek_language: "Sozópolis"
+ sredets.greek_language: "Triáditza"
  stanimaka.greek_language: "Stenímachos"
  stipon.greek_language: "Stipón"
  strelcha.greek_language: "Stréltsa"
- strumica.greek_language: "Strómnitsa" #Older, more formal name
- smolyan.greek_language: "Podvísdos" #Monix mentions that Smolyan is an anachronistic name, and suggests Podvis fortress as a replacement
+ strumica.greek_language: "Strómnitsa"
+ smolyan.greek_language: "Podvísdos"
  svoge.greek_language: "Svóga"
  svrljig.greek_language: "Sfelígovos"
- targoviste_BUL.greek_language: "Sporísta" #Targovishte is the modern name that replaced the Ottoman name Eski Cuma/Eski Dzhumaya, which itself replaced the late medieval Bulgarian name Sborishte
+ targoviste_BUL.greek_language: "Sporísta"
  tarnovo.greek_language: "Týrnovon"
  tetovo.greek_language: "Tétovon"
- tsaribrod.greek_language: "Tzáribroda" #Hellenization of Slavic name
+ tsaribrod.greek_language: "Tzáribroda"
  tsepina.greek_language: "Tzépaina"
  tryavna.greek_language: "Triávna"
- tulcea.greek_language: "Lykóstomos" #More recent name, the name of a Genoese colony but derived from Greek
- tutrakan.greek_language: "Tourtoukaïá" #Hellenization of Slavic name, inspired by the Romanian and Turkish names
+ tulcea.greek_language: "Lykóstomos"
+ tutrakan.greek_language: "Tourtoukaïá"
  ustra.greek_language: "Oústra"
- varna.greek_language: "Várna" #It was also just called Varna in Medieval Greek
- velbuzd.greek_language: "Velévousda" #Attested Byzantine name
- veles.greek_language: "Velissós" #Better attested name
- veliki_preslav.greek_language: "Megáli Presthláva" #Name attested in the Alexiad
- vidin.greek_language: "Vidýni" #Altered romanization
+ varna.greek_language: "Várna"
+ velbuzd.greek_language: "Velévousda"
+ veles.greek_language: "Velissós"
+ veliki_preslav.greek_language: "Megáli Presthláva"
+ vidin.greek_language: "Vidýni"
  visesav.greek_language: "Výsesava"
  vranje.greek_language: "Vranéas"
  vratsa.greek_language: "Vrátsa"
  zemlungrad.greek_language: "Zemýgradon"
+
  
  #West Balkans
  arilje.greek_language: "Árilia"
