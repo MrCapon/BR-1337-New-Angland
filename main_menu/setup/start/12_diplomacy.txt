@@ -16,7 +16,6 @@ diplomacy_manager = {
 	# Scotland
 	dependency = { first = SCO second = ROS subject_type = vassal }
 	dependency = { first = SCO second = MOY subject_type = vassal }
-	dependency = { first = SBL second = LOI subject_type = vassal }
 	
 	# Wales
 	dependency = { first = POS second = AUD subject_type = vassal }
@@ -46,7 +45,8 @@ diplomacy_manager = {
 	dependency = { first = NOR second = DAN subject_type = fiefdom }
 	dependency = { first = DAN second = ZEA subject_type = vassal }
     dependency = { first = NOR second = LOI subject_type = vassal }
-	dependency = { first = NOR second = MNN subject_type = vassal }
+	dependency = { first = LOI second = MNN subject_type = vassal }
+    dependency = { first = LOI second = GLS subject_type = vassal }
     dependency = { first = NOR second = HBA subject_type = tributary }
 	
 	dependency = { first = TEU second = LIV subject_type = vassal }

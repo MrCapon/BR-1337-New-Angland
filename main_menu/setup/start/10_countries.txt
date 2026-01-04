@@ -4558,10 +4558,9 @@ countries = {
 			own_control_core = {
 				glasgow paisley dumbarton aberdeen dunbar banff dunfermline st_andrews dundee buchan mar inverurie stonehaven clackmannan aberfeldy irvine
 				oban inverary cowal forfar arbroath arran selkirk scone
-				dornoch durness tongue
 			}
 			own_control_conquered = {
-				thurso
+				thurso dornoch durness tongue
 			}
 			
 			our_cores_conquered_by_others = {
@@ -4712,12 +4711,12 @@ countries = {
 		SBL = {
 			# Balliol Pretender
 			own_control_core = {
-				kirkcudbright kenmure stranraer ayr perth edinburgh stirling roxburgh linlithgow duns dumfries lanark
+				perth edinburgh stirling roxburgh linlithgow duns dumfries lanark
 				strathearn cupar
 			}
 			our_cores_conquered_by_others = {
 				glasgow paisley dumbarton aberdeen dunbar elgin banff dunfermline st_andrews dundee buchan mar inverurie stonehaven clackmannan aberfeldy irvine dornoch durness tongue
-				oban inverary cowal forfar arbroath arran selkirk scone
+				oban inverary cowal forfar arbroath selkirk scone
 				
 				#Ross
 				dingwall gairloch ullapool
@@ -4797,14 +4796,18 @@ countries = {
 			own_control_core = {
 				# Western Isles
 				uist lewis mull islay harris
+				skye
+				arran
 			}
 			own_control_conquered = {
 				# Scotland
 				ardtornish kintyre
+				thurso dornoch durness tongue
+				kirkcudbright kenmure stranraer ayr 
 			}
 			
 			our_cores_conquered_by_others = {
-				mann skye
+				mann
 			}
 			
 			tolerated_cultures = { highland }
@@ -4839,10 +4842,6 @@ countries = {
 			# Ross
 			own_control_core = {
 				dingwall gairloch ullapool urquhart
-			}
-			own_control_conquered = {
-				# Bishop of the Isles
-				skye
 			}
 			government = {
 				type = monarchy
