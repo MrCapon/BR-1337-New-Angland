@@ -61,8 +61,9 @@ locations={
 	sligo = { rank = town 			town_setup = british_town_port}
 	
 	# greece
-	athens  = { rank = city			town_setup = greek_town_port }
-	thessaloniki = { rank = city 	town_setup = greek_town_port }
+	thebes  = { rank = town			town_setup = greek_town_port }
+	athens  = { rank = town			town_setup = greek_town_port }
+	thessaloniki = { rank = city 	town_setup = greek_city_port }
 	candia = { rank = town 			town_setup = greek_town_port }
 	corinth = { rank = town 		town_setup = greek_town_port }
 	ioannina = { rank = town 		town_setup = balkan_town }
@@ -82,11 +83,11 @@ locations={
 	
 	# bulgaria
 	tarnovo = { rank = town 		town_setup = balkan_town }
-	cherven = { rank = town 		town_setup = balkan_town }
+	#cherven = { rank = town 		town_setup = balkan_town }
 	drastar = { rank = town 		town_setup = balkan_town }
 	plovdiv = { rank = city 		town_setup = balkan_town }
-	ruse = { rank = town 			town_setup = balkan_town }	
-	shumen = { rank = town 			town_setup = balkan_town }
+	#ruse = { rank = town 			town_setup = balkan_town }	
+	#shumen = { rank = town 		town_setup = balkan_town }
 	sliven = { rank = town 			town_setup = balkan_town }
 	sredets = { rank = town 		town_setup = balkan_town }
 	targoviste_BUL = { rank = town 	town_setup = balkan_town }
@@ -446,7 +447,7 @@ locations={
 	bratislava = { rank = town 			town_setup = carpathian_town }
 	bucharest = { rank = town 			town_setup = carpathian_town }
 	buda = { rank = city 				town_setup = carpathian_town }
-	campulung_muscel = { rank = town	town_setup = carpathian_town  }
+	#campulung_muscel = { rank = town	town_setup = carpathian_town  }
 	cluj = { rank = town	town_setup = carpathian_town  }
 	constanta = { rank = town	town_setup = carpathian_town  }
 	pecs = { rank = town 				town_setup = carpathian_town }
@@ -941,16 +942,16 @@ locations={
 	bergama = { rank = town		town_setup = greek_town_port }
 	birgi = { rank = town		town_setup = anatolian_town }
 	iznik = { rank = town		town_setup = greek_town_port }
-	alaiye = { rank = town		town_setup = greek_town_port }
+	silifke = { rank = town		town_setup = greek_town_port }
 	mardin = { rank = town		town_setup = anatolian_town }
-	bafra = { rank = town		town_setup = anatolian_town }
-	kastamonu = { rank = town		town_setup = anatolian_town }
+	samsun = { rank = town		town_setup = anatolian_town }
+	#kastamonu = { rank = town		town_setup = anatolian_town }
 	sinop = { rank = town		town_setup = greek_town_port } #BR EDIT
 	#kozluk = { rank = town		town_setup = anatolian_town }
 	#elbistan = { rank = town		town_setup = anatolian_town }
 	kutahya = { rank = town		town_setup = anatolian_town }
-	uluborlu = { rank = town		town_setup = anatolian_town }
-	bayramlu = { rank = town		town_setup = anatolian_town }
+	#uluborlu = { rank = town		town_setup = anatolian_town }
+	#bayramlu = { rank = town		town_setup = anatolian_town }
 	lazkiye = { rank = town		town_setup = anatolian_town }
 	#ladik_pontus = { rank = town		town_setup = anatolian_town }
 	#balikesir = { rank = town		town_setup = anatolian_town }
@@ -964,6 +965,8 @@ locations={
 	sebinkarahisar = { rank = town		town_setup = anatolian_town }
 	mus = { rank = town		town_setup = anatolian_town }
 	erzurum = { rank = town		town_setup = anatolian_town }
+	aksaray = { rank = town		town_setup = anatolian_town }
+	inonu = { rank = town		town_setup = anatolian_town }
 
 	#Central Asia
 	bukhara = { rank = city town_setup = central_asian_city }
@@ -4240,8 +4243,8 @@ building_manager = {
 	lumber_mill = { tag = AOI level = 1 location = arsuz }
 	lumber_mill = { tag = AOI level = 1 location = arsuz }
 	lumber_mill = { tag = AON level = 1 location = ankara }
-	lumber_mill = { tag = FEO level = 1 location = kastamonu }
-	fiber_crops_farm = { tag = FEO level = 1 location = uskudar }
+	lumber_mill = { tag = PAF level = 1 location = kastamonu }
+	fiber_crops_farm = { tag = BYZ level = 1 location = uskudar }
 	horse_breeders = { tag = THS level = 1 location = larissa }
 
 	farming_village = { tag = BYZ level = 1 location = silivri }
@@ -4393,14 +4396,14 @@ building_manager = {
 	thema_headquarters = { tag = BYZ level = 1 location = antalya }
 	thema_headquarters = { tag = BYZ level = 1 location = milas }
 	thema_headquarters = { tag = BYZ level = 1 location = bergama }
-	thema_headquarters = { tag = BYZ level = 1 location = uluborlu }
+	thema_headquarters = { tag = BYZ level = 1 location = inonu }
 	thema_headquarters = { tag = AON level = 1 location = ankara }
 	thema_headquarters = { tag = AON level = 1 location = amasya }
 	thema_headquarters = { tag = ICO level = 1 location = konya }
 	thema_headquarters = { tag = KAP level = 1 location = kayseri }
 	thema_headquarters = { tag = CIL level = 1 location = tarsus }
 	thema_headquarters = { tag = AOI level = 1 location = antioch }
-	thema_headquarters = { tag = PAF level = 1 location = kastamonu}
+	thema_headquarters = { tag = PAF level = 1 location = sinop}
 	thema_headquarters = { tag = TRE level = 1 location = trebizond }
 	thema_headquarters = { tag = CYP level = 1 location = nicosia_cyp }
 	thema_headquarters = { tag = KAP level = 1 location = sivas }
@@ -4813,6 +4816,26 @@ building_manager = {
 
 	market_village = { tag = AON level = 2 location = cankiri }
 	forest_village = { tag = AON level = 2 location = cankiri }
+	market_village = { tag = PAF level = 2 location = kastamonu }
+	forest_village = { tag = PAF level = 2 location = kastamonu }
+	market_village = { tag = PAF level = 1 location = bafra }
+	farming_village = { tag = PAF level = 2 location = bafra }
+	market_village = { tag = TRE level = 2 location = bayramlu }
+	forest_village = { tag = TRE level = 2 location = bayramlu }
+	sand_pit = { tag = TRE level = 1 location = bayramlu }
+	sand_pit = { tag = TRE level = 1 location = samsun }
+	sand_pit = { tag = PAF level = 1 location = sinop }
+	lumber_mill = { tag = PAF level = 1 location = sinop }
+	clay_pit = { tag = TRE level = 1 location = samsun }
+	clay_pit = { tag = TRE level = 1 location = trebizond }
+	lumber_mill = { tag = TRE level = 1 location = trebizond }
+	market_village = { tag = BYZ level = 2 location = uluborlu }
+	forest_village = { tag = BYZ level = 1 location = uluborlu }
+	market_village = { tag = BYZ level = 1 location = honaz }
+	forest_village = { tag = BYZ level = 1 location = honaz }
+	tar_kiln = { tag = PAF level = 1 location = sinop }
+	sand_pit = { tag = GTC level = 1 location = amasra }
+	lumber_mill = { tag = GTC level = 1 location = amasra }
 
 	market_village = { tag = BYZ level = 2 location = luleburgaz }
 	forest_village = { tag = BYZ level = 2 location = luleburgaz }
@@ -4879,8 +4902,18 @@ building_manager = {
 	rural_clothmaker = { tag = BOS level = 1 location = zenica }
 	rural_clothmaker = { tag = BOS level = 1 location = doboj }
 	market_village = { tag = BOS level = 1 location = mostar }
+
+	market_village = { tag = BUL level = 1 location = cherven }
+	farming_village = { tag = BUL level = 1 location = cherven }
 	market_village = { tag = BUL level = 1 location = nikopol }
+	market_village = { tag = BUL level = 1 location = ruse }
+	lumber_mill = { tag = BUL level = 1 location = ruse }
+	market_village = { tag = BUL level = 1 location = shumen }
+	forest_village = { tag = BUL level = 1 location = shumen }
 	market_village = { tag = BUL level = 1 location = pleven }
+	farming_village = { tag = BUL level = 1 location = pleven }
+	market_village = { tag = WAL level = 1 location = campulung_muscel }
+	forest_village = { tag = WAL level = 1 location = campulung_muscel }
 	forest_village = { tag = BYZ level = 1 location = akyazi }
 	forest_village = { tag = BUL level = 1 location = melnik }
 	forest_village = { tag = BUL level = 1 location = melnik }
@@ -4902,8 +4935,7 @@ building_manager = {
 	tar_kiln = { tag = NEG level = 1 location = negroponte }
 	rural_clothmaker = { tag = NEG level = 1 location = negroponte }
 	sand_pit = { tag = NEG level = 1 location = negroponte }
-	market_village = { tag = ATH level = 1 location = thebes }
-	market_village = { tag = ATH level = 1 location = megara }
+	market_village = { tag = ATH level = 2 location = megara }
 	farming_village = { tag = ATH level = 1 location = megara }
 	farming_village = { tag = BYZ level = 1 location = uskudar }
 	market_village = { tag = M0E level = 1 location = tripolitsa }
@@ -4926,9 +4958,9 @@ building_manager = {
 	market_village = { tag = CIL level = 2 location = adana }
 	tar_kiln = { tag = CIL level = 1 location = adana }
 	rural_clothmaker = { tag = CIL level = 1 location = sis }
-	market_village = { tag = CIL level = 1 location = silifke }
+	market_village = { tag = CIL level = 1 location = alaiye }
 	market_village = { tag = ANA level = 1 location = eregli_kar }
-	market_village = { tag = ANA level = 1 location = aksaray }
+	market_village = { tag = ANA level = 1 location = inonu }
 	market_village = { tag = ANA level = 1 location = kirsehir }
 	market_village = { tag = ANA level = 1 location = sungurlu }
 	market_village = { tag = BYZ level = 1 location = yuksekkum }
@@ -4979,7 +5011,7 @@ building_manager = {
 	forest_village = { tag = GEO level = 1 location = omalo }
 	forest_village = { tag = GEO level = 1 location = qakh }
 	fishing_village = { tag = TRE level = 1 location = gerze }
-	fishing_village = { tag = TRE level = 1 location = samsun }
+	fishing_village = { tag = TRE level = 1 location = bafra }
 	fishing_village = { tag = TRE level = 1 location = unye }
 	fishing_village = { tag = TRE level = 1 location = giresun }
 	fishing_village = { tag = TRE level = 1 location = rize }
@@ -5286,7 +5318,7 @@ building_manager = {
 	noble_villa = { tag = ANA level = 1 location = bozok }
 	noble_villa = { tag = ANA level = 1 location = sungurlu }
 	noble_villa = { tag = ANA level = 1 location = zile }
-	noble_villa = { tag = CIL level = 1 location = silifke }
+	noble_villa = { tag = CIL level = 1 location = alaiye }
 	noble_villa = { tag = CIL level = 1 location = adana }
 	noble_villa = { tag = CIL level = 1 location = sis }
 	noble_villa = { tag = CYP level = 1 location = limassol }
@@ -5372,7 +5404,7 @@ building_manager = {
 	castle = { tag = BYZ level = 1 location = thessaloniki }
 	stockade = { tag = BYZ level = 1 location = karahisar_i_sahib }
 	stockade = { tag = BYZ level = 1 location = antalya }
-	stockade = { tag = BYZ level = 1 location = uluborlu }
+	nobility_fortifications = { tag = BYZ level = 1 location = uluborlu }
 	stockade = { tag = BYZ level = 1 location = iznik }
 	stockade = { tag = BYZ level = 1 location = bursa }
 	stockade = { tag = BYZ level = 1 location = izmit }
@@ -5399,11 +5431,11 @@ building_manager = {
 	stockade = { tag = ATH level = 1 location = athens }
 	stockade = { tag = ATH level = 1 location = corinth }
 	stockade = { tag = PAF level = 1 location = sinop }
-	stockade = { tag = CIL level = 1 location = alaiye }
+	nobility_fortifications = { tag = CIL level = 1 location = alaiye }
 	stockade = { tag = CIL level = 1 location = kars_armenia }
 	stockade = { tag = CIL level = 1 location = mut }
-	stockade = { tag = TRE level = 1 location = kastamonu }
-	stockade = { tag = TRE level = 1 location = bafra }
+	nobility_fortifications = { tag = TRE level = 1 location = kastamonu }
+	nobility_fortifications = { tag = TRE level = 1 location = bafra }
 	stockade = { tag = TRE level = 1 location = amasya }
 	stockade = { tag = TRE level = 1 location = niksar }
 	stockade = { tag = CEP level = 1 location = cephalonia }
@@ -5499,9 +5531,9 @@ building_manager = {
 	orthodox_order_commandery = { tag = SGO level = 1 location = tbilisi }
 	orthodox_order_commandery = { tag = SGO level = 1 location = trebizond }
 	orthodox_order_commandery = { tag = SGO level = 1 location = tana }
-	orthodox_order_commandery = { tag = SGO level = 1 location = bayramlu }
+	orthodox_order_commandery = { tag = SGO level = 1 location = sebinkarahisar }
 	orthodox_order_commandery = { tag = SGO level = 1 location = sinop }
-	orthodox_order_commandery = { tag = SGO level = 1 location = bafra }
+	orthodox_order_commandery = { tag = SGO level = 1 location = samsun }
 
 	order_headquarters = { tag = RH0 level = 1 location = qirq_yer }
 	order_stronghold = { tag = RH0 level = 1 location = qirq_yer }
@@ -5517,7 +5549,7 @@ building_manager = {
 	orthodox_order_commandery = { tag = RH0 level = 1 location = chernihiv }
 	orthodox_order_commandery = { tag = RH0 level = 1 location = polotsk }
 	orthodox_order_commandery = { tag = RH0 level = 1 location = theodoro }
-	orthodox_order_commandery = { tag = RH0 level = 1 location = drastar }
+	#orthodox_order_commandery = { tag = RH0 level = 1 location = drastar }
 	orthodox_order_commandery = { tag = RH0 level = 1 location = vidin }
 	orthodox_order_commandery = { tag = RH0 level = 1 location = bucharest }
 	orthodox_order_commandery = { tag = RH0 level = 1 location = suceava }
@@ -5679,7 +5711,7 @@ building_manager = {
 	overseas_trading_post = { tag = GTC level = 1 location = chios }
 	overseas_trading_post = { tag = GTC level = 1 location = susaco }
 	overseas_trading_post = { tag = GTC level = 1 location = batumi }
-	overseas_trading_post = { tag = GTC level = 1 location = samsun }
+	trade_office = { tag = GTC level = 1 location = samsun }
 	overseas_trading_post = { tag = GTC level = 1 location = eregli }
 	overseas_trading_post = { tag = GTC level = 1 location = burgas }
 	overseas_trading_post = { tag = GTC level = 1 location = tripoli_syria }
@@ -5702,8 +5734,8 @@ building_manager = {
 	trade_office = { tag = GEN level = 4 location = tana }	
 	trade_office = { tag = GTC level = 4 location = trebizond }
 	trade_office = { tag = GTC level = 2 location = sinop }
-	trade_office = { tag = GTC level = 1 location = bafra }
-	trade_office = { tag = GTC level = 1 location = bayramlu }
+	trade_office = { tag = GTC level = 1 location = samsun }
+	overseas_trading_post = { tag = GTC level = 1 location = bayramlu }
 	trade_office = { tag = GTC level = 2 location = theodoro }
 	trade_office = { tag = GTC level = 4 location = kaffa }
 	trade_office = { tag = GTC level = 2 location = tbilisi }
@@ -5713,7 +5745,7 @@ building_manager = {
 	overseas_trading_post = { tag = GTC level = 1 location = chios }
 	overseas_trading_post = { tag = GTC level = 1 location = susaco }
 	overseas_trading_post = { tag = GTC level = 1 location = batumi }
-	overseas_trading_post = { tag = GTC level = 1 location = samsun }
+	overseas_trading_post = { tag = GTC level = 1 location = bafra }
 	overseas_trading_post = { tag = GTC level = 1 location = eregli }
 	overseas_trading_post = { tag = GTC level = 1 location = burgas }
 	overseas_trading_post = { tag = GTC level = 1 location = tripoli_syria }
