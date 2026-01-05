@@ -19,6 +19,10 @@ government = {
 	individualism_vs_communalism = 25
 	outward_vs_inward = -25
 
+	parliament = {
+		parliament_type = estate_parliament
+	}
+
 	privilege = {
 		#nobles
 		nobles_land_rights
