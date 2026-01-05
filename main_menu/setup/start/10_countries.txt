@@ -51799,10 +51799,8 @@ countries = {
 		ICO = {
 			own_control_core = {
 				#KAR
-				aksaray kochisar insuyu
-				nevsehir sariyahsi
-				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
-				bekarlar bor_tur nigde
+				insuyu
+				konya celtik eskil hatunsaray karapinar ladik larende pirloganda
 				beysehir aksehir bolvadin sarkikaraagac seydisehir
 				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
 				#HMD
@@ -51877,18 +51875,14 @@ countries = {
 				beypazari kizilca
 				ankara cubuk haymana kalecik polatli karakecili
 				bozok baliseyh candir dinek_keskin sorgun
-				hacibektas
 				corum huseyinabad sungurlu
-				akdagmadeni aydincik koyulhisar sulusaray tokat zile
-				kirsehir
 			}
 			
 			own_control_integrated = {
 				cankiri bayat cerkes kursunlu tosya sabanozu
 				iskilip gumus
-				amasya merzifon
-				niksar sonisa
-				gadegara ladik_pontus
+				akdagmadeni aydincik
+				amasya merzifon sonisa gadegara ladik_pontus
 			}
 			
 			our_cores_conquered_by_others = {
@@ -51951,23 +51945,18 @@ countries = {
 		
 		KAP = {
 			own_control_core = {
-				#ERE
 				kayseri develi tomarza yahyali bogazliyan
-				urgup
-				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara divrigi
-				hargan comana_cil
+				urgup kirsehir hacibektas
+				aksaray kochisar nevsehir sariyahsi
+				bekarlar bor_tur nigde
+				eregli_kar
 			}
 			
-			own_control_integrated = {
-				elbistan goksun afsin
-			}
 			
 			our_cores_conquered_by_others = {
-				nigde bor_tur bekarlar
-				eregli_kar
-				hacibektas
-				nevsehir
-				aksaray
+				hargan comana_cil
+				elbistan goksun afsin
+				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara divrigi
 			}
 			
 			starting_technology_level = 3
@@ -52343,6 +52332,245 @@ countries = {
 			capital = ostrovo
 		}
 
+		AN0 = {
+			own_control_core = {
+				sivas dasmenda deliktash gemerek hafik sarkisla zara divrigi
+				sulusaray tokat zile
+				sebinkarahisar niksar koyulhisar
+				siran ilic egin
+				darende gurun
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+				akdagmadeni aydincik
+				amasya merzifon sonisa gadegara ladik_pontus
+
+				
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = amasya
+		}
+		
+		AN1 = {
+			own_control_core = {
+				hargan comana_cil
+				elbistan goksun afsin
+				darende gurun
+			}
+			
+			own_control_integrated = {	
+			}
+			
+			our_cores_conquered_by_others = {
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					#nobles
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					#joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = afsin
+		}
+		
+		AN2 = {
+			own_control_core = {
+				
+			}
+	
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+				ilic egin zara
+				sivas dasmenda deliktash gemerek hafik sarkisla divrigi
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = sivas
+		}
+		
+		AN3 = {
+			own_control_core = {
+				
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+				siran ilic tokat
+				sebinkarahisar 
+				koyulhisar niksar
+				zara
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = sebinkarahisar
+		}
+		
+
 		#Armenian Tags
 		DER = {
 			own_control_core = {
@@ -52383,14 +52611,12 @@ countries = {
 		
 		KOG = {
 			own_control_core = {
-				bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+				bayburt erzincan ilic kelkit kemah siran
 				erzurum tercan
 			}
 			
-			own_control_integrated = {
-			}
-			
 			our_cores_conquered_by_others = {
+				sebinkarahisar
 			}
 			
 			starting_technology_level = 3
@@ -52403,7 +52629,6 @@ countries = {
 				
 				privilege = {
 					#nobles
-					
 					primacy_of_nobility
 					auxilium_et_consilium
 					#joint_assembly_decrees
@@ -52417,7 +52642,7 @@ countries = {
 			tolerated_cultures = {
 			}
 			
-			capital = palu
+			capital = erzurum
 		}
 		
 		MES = {

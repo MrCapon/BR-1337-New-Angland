@@ -133,12 +133,22 @@
  B2L_ADJ: "Melnik"
  B3L: "Serdika"
  B3L_ADJ: "Serdika"
- B4L: "Philippópolis"
+ B4L: "Philippópolis" #or Macedonia 
  B4L_ADJ: "Philippópolis"
  B5L: "Boulgaría"
  B5L_ADJ: "Boulgaría"
- B6L: "Paristrion"
+ B6L: "Paristrion" #or Moesia
  B6L_ADJ: "Paristrion"
+
+ 
+ AN0: "Armenikon"
+ AN0_ADJ: "Armenikon"
+ AN1: "Lykándou"
+ AN1_ADJ: "Lykándou"
+ AN2: "Sebasteia"
+ AN2_ADJ: "Sebasteia"
+ AN3: "Kolonia"
+ AN3_ADJ: "Kolonia"
 
  # France
  AUS: "Austrasia"
