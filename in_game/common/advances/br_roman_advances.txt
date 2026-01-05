@@ -93,7 +93,7 @@ roman_pronoial_administration = {
 			culture = { has_culture_group = culture_group:greek_group }
 		}
 	}
-	requires = codified_laws
+	requires = roman_codified_custom
 
 	subject_loyalty = 5
 	diplomatic_annexation_cost = -0.05
