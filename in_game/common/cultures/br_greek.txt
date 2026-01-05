@@ -9,6 +9,7 @@ REPLACE_OR_CREATE:cappadocian_greek_culture = {
 		greek_culture = kindred
 		pontic_greek_culture = positive
 		anatolian_greek_culture = positive #BR EDIT
+		armenikon_greek_culture = positive
 		kilikioi_greek_culture = positive
 		syrenikoi_greek_culture = positive
 	}
@@ -32,6 +33,7 @@ REPLACE_OR_CREATE:greek_culture = {
 		cappadocian_greek_culture = positive
 		kilikioi_greek_culture = positive
 		syrenikoi_greek_culture = positive
+		armenikon_greek_culture = positive
 	}	
 	
 	culture_groups = {
@@ -70,6 +72,7 @@ REPLACE_OR_CREATE:pontic_greek_culture = {
 		anatolian_greek_culture = positive
 		gothic_culture = positive
 		laz_culture = positive
+		armenikon_greek_culture = positive
 	}
 	
 	culture_groups = {
@@ -106,6 +109,7 @@ anatolian_greek_culture = { #BR addition
 	opinions = {
 		greek_culture = kindred
 		cappadocian_greek_culture = kindred
+		armenikon_greek_culture = kindred
 		pontic_greek_culture = positive
 		kilikioi_greek_culture = positive
 		syrenikoi_greek_culture = positive
@@ -120,7 +124,7 @@ varangian = {
 	language = constantinopolitan_dialect
 	color = rgb { 121 86 138 }
 	
-	tags = { norwegian_gfx western_european_gfx european_gfx }
+	tags = { norwegian_gfx east_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
 	
 	opinions = {
 		greek_culture = kindred
@@ -226,13 +230,14 @@ illyrikoi_greek_culture = {
 
 kilikioi_greek_culture = {
 	language = kilikioi_dialect
-	color = rgb { 135 85 105 }
+	color = rgb { 135 75 115 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
 		greek_culture = kindred
 		syrenikoi_greek_culture = kindred
+		armenikon_greek_culture = positive
 		cappadocian_greek_culture = positive
 		anatolian_greek_culture = positive
 	}	
@@ -279,5 +284,25 @@ boulgaroi = {
 	culture_groups = {
 		roman_group
 		south_slavic_group
+	}
+}
+
+armenikon_greek_culture = { #BR addition
+	language = cappadocian_dialect
+	color = rgb { 175 38 75 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = kindred
+		cappadocian_greek_culture = kindred
+		anatolian_greek_culture = kindred
+		pontic_greek_culture = kindred
+		kilikioi_greek_culture = positive
+		syrenikoi_greek_culture = positive
+	}
+	
+	culture_groups = {
+		greek_group caucasian_group roman_group
 	}
 }

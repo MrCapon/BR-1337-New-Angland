@@ -11,15 +11,20 @@
  illyrikoi_greek_culture: "Illyrikoi"
  kilikioi_greek_culture: "Kilikioi"
  rhos_culture: "Rhôs" # Other name options that don't have the (rough breathing “h”) without looking funny Rōssian / Rōssioi
+ boulgaroi: "Boulgaroí"
+ armenikon_greek_culture: "Armenikónoi"
+
  #Possible Eperiote
  #Possible Morean
+
+
+
  roman_group: "Romaiokratía" #Roman Commonwealth
  roman_group_desc: "Cultures linked through the evolving legacy of the Roman Commonwealth, shaped by centuries of shared institutions, law, and governance. Though diverse in language and heritage, these societies reflect traditions formed under Roman influence, separate from but often adjacent to the older Hellenic world."
  egypt_group: "Egyptian"
  egypt_group_desc: "Cultures linked through a shared regional heritage shaped by the Nile, the eastern Mediterranean, and millennia of continuous settlement. Drawing from native Egyptian traditions, Greco-Roman administration, and later Arab influences, these societies developed layered identities rooted in long-standing institutions, trade networks, and religious diversity."
  syria_group: "Syrian"
  syria_group_desc: "Cultures linked through a shared regional heritage formed at the crossroads of Anatolia, Mesopotamia, and the eastern Mediterranean. Influenced by indigenous Levantine traditions, Roman-era institutions, and Arab cultural continuity, these societies reflect enduring urban life, commercial exchange, and religious plurality."
- boulgaroi: "Boulgaroí"
 
 
  #Anglo-Norse Cultures
