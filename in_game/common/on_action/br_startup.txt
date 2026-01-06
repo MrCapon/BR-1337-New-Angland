@@ -27,6 +27,7 @@ br_on_game_start = {
 			research_advance = advance_type:educated_bureaucrats
 			research_advance = advance_type:efficient_bureaucracy
             research_advance = advance_type:efficient_logistics
+			research_advance = advance_type:abacus_advance
             research_advance = advance_type:power_projection_advance_1
             research_advance = advance_type:non_inheritable_offices
 			research_advance = advance_type:province_governors
@@ -47,6 +48,8 @@ br_on_game_start = {
                 limit = { NOT = { has_advance = trade_companies_advance } }
                 research_advance = advance_type:trade_companies_advance
 				research_advance = advance_type:guilds
+				research_advance = advance_type:abacus_advance
+				research_advance = advance_type:ledgers_double_checking
             }
         }
 		every_country = {
@@ -57,6 +60,8 @@ br_on_game_start = {
                 research_advance = advance_type:banking_advance
 				research_advance = advance_type:merchants_and_trade
 				research_advance = advance_type:trade_range_advance_age_2
+				research_advance = advance_type:abacus_advance
+				research_advance = advance_type:ledgers_double_checking
             }
         }
 		every_country = {
@@ -107,6 +112,8 @@ br_on_game_start = {
 			research_advance = advance_type:rudimentary_coastal_ship_repair
 			research_advance = advance_type:send_people_to_colonial_charter_advance
 			research_advance = advance_type:chartered_companies
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
 		}
 		c:VTC = {
 			research_advance = advance_type:unlock_barque_advance
@@ -118,6 +125,8 @@ br_on_game_start = {
 			research_advance = advance_type:merchants_and_trade
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
 		}
 		c:GTC = {
 			research_advance = advance_type:unlock_barque_advance
@@ -129,6 +138,8 @@ br_on_game_start = {
 			research_advance = advance_type:merchants_and_trade
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
 		}
 		c:VEN = {
 			research_advance = advance_type:merchants_and_trade
@@ -161,16 +172,22 @@ br_on_game_start = {
 		}
 		c:ADU = {
             research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
 			research_advance = advance_type:organized_religion
 			research_advance = advance_type:scholasticism
 		}
 		c:MAM = {
             research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
 			research_advance = advance_type:organized_religion
 			research_advance = advance_type:scholasticism
 		}
 		c:A1A = {
             research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
 			research_advance = advance_type:organized_religion
 			research_advance = advance_type:scholasticism
 		}
