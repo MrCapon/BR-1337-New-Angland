@@ -193,6 +193,14 @@ AN3 = {
 	religion_definition = orthodox
 }
 
+AN4 = { #BR addition
+	color = rgb { 155 45 75 }
+
+	culture_definition = anatolian_greek_culture
+	religion_definition = orthodox
+}
+
+
 #Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible
 	color = rgb { 75 175 125 }

@@ -145,10 +145,12 @@
  AN0_ADJ: "Armenikon"
  AN1: "Lykándou"
  AN1_ADJ: "Lykándou"
- AN2: "Sebasteia"
- AN2_ADJ: "Sebasteia"
- AN3: "Kolonia"
- AN3_ADJ: "Kolonia"
+ AN2: "Sebásteia"
+ AN2_ADJ: "Sebásteia"
+ AN3: "Koloneia"
+ AN3_ADJ: "Koloneia"
+ AN4: "Kharsianon"
+ AN4_ADJ: "Kharsianon"
 
  # France
  AUS: "Austrasia"

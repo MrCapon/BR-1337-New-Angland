@@ -1352,6 +1352,7 @@ countries = {
 			own_control_core = {
 				meissen sayda freiberg dresden
 				pirna annaburg
+				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -1785,7 +1786,6 @@ countries = {
 				budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
 				bechyne jicin podebrady caslav nachod nemecky_brod
 				chrudim hradec_kralove klodzko litomysl trebon
-				bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
 			}
 			
 			starting_technology_level = 3
@@ -31251,7 +31251,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
-				hargan comana_cil
+				hargan
 				alaiye selinti
 			}
 			
@@ -31913,14 +31913,6 @@ countries = {
 			own_control_core = {
 				trebizond giresun gorele gumushane surmene
 				bayramlu unye
-				#HCI
-				mesudiye
-				#TDJ
-				akkus terme
-				#KBD
-				samsun
-				#BFR
-				bafra gerze
 				rize khupati
 			}
 			
@@ -31929,14 +31921,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
-				khupati
-				#GLH
-				lusta soldaia
-				amasya merzifon
-				niksar sonisa
-				gadegara ladik_pontus
-				#GAZ
-				tana kaffa vosporo
+				gerze bafra samsun terme akkus mesudiye
 			}
 			
 			starting_technology_level = 3
@@ -51808,10 +51793,10 @@ countries = {
 			}
 			
 			own_control_integrated = {
+				aksaray kochisar sariyahsi eregli_kar
 			}
 			
 			our_cores_conquered_by_others = {
-				kirsehir
 			}
 			
 			starting_technology_level = 3
@@ -51874,18 +51859,17 @@ countries = {
 			own_control_core = {
 				beypazari kizilca
 				ankara cubuk haymana kalecik polatli karakecili
-				bozok baliseyh candir dinek_keskin sorgun
 				corum huseyinabad sungurlu
+				baliseyh
 			}
 			
 			own_control_integrated = {
 				cankiri bayat cerkes kursunlu tosya sabanozu
-				iskilip gumus
-				akdagmadeni aydincik
-				amasya merzifon sonisa gadegara ladik_pontus
+				iskilip
 			}
 			
 			our_cores_conquered_by_others = {
+				bozok candir dinek_keskin sorgun
 			}
 			
 			starting_technology_level = 3
@@ -51945,18 +51929,19 @@ countries = {
 		
 		KAP = {
 			own_control_core = {
-				kayseri develi tomarza yahyali bogazliyan
-				urgup kirsehir hacibektas
-				aksaray kochisar nevsehir sariyahsi
+				kayseri develi tomarza yahyali 
+				urgup nevsehir
 				bekarlar bor_tur nigde
-				eregli_kar
+				hargan
 			}
 			
 			
 			our_cores_conquered_by_others = {
-				hargan comana_cil
+				comana_cil
 				elbistan goksun afsin
-				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara divrigi
+				dasmenda gemerek
+				bogazliyan kirsehir hacibektas
+				aksaray kochisar sariyahsi eregli_kar
 			}
 			
 			starting_technology_level = 3
@@ -52334,21 +52319,20 @@ countries = {
 
 		AN0 = {
 			own_control_core = {
-				sivas dasmenda deliktash gemerek hafik sarkisla zara divrigi
+				#sivas dasmenda deliktash gemerek hafik sarkisla zara divrigi
 				sulusaray tokat zile
-				sebinkarahisar niksar koyulhisar
-				siran ilic egin
+				niksar
 				darende gurun
+				gumus
+				amasya merzifon sonisa gadegara ladik_pontus
+				akdagmadeni aydincik
+				gerze bafra samsun terme akkus
 			}
 			
 			own_control_integrated = {
 			}
 			
 			our_cores_conquered_by_others = {
-				akdagmadeni aydincik
-				amasya merzifon sonisa gadegara ladik_pontus
-
-				
 			}
 			
 			starting_technology_level = 3
@@ -52397,7 +52381,7 @@ countries = {
 		
 		AN1 = {
 			own_control_core = {
-				hargan comana_cil
+				comana_cil
 				elbistan goksun afsin
 				darende gurun
 			}
@@ -52406,6 +52390,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
+				hargan enguzud kapan ulnia
 			}
 			
 			starting_technology_level = 3
@@ -52456,15 +52441,15 @@ countries = {
 		
 		AN2 = {
 			own_control_core = {
-				
+				sivas dasmenda deliktash gemerek hafik sarkisla divrigi
+				zara
 			}
 	
 			own_control_integrated = {
 			}
 			
 			our_cores_conquered_by_others = {
-				ilic egin zara
-				sivas dasmenda deliktash gemerek hafik sarkisla divrigi
+				ilic egin
 			}
 			
 			starting_technology_level = 3
@@ -52513,7 +52498,8 @@ countries = {
 		
 		AN3 = {
 			own_control_core = {
-				
+				sebinkarahisar
+				mesudiye koyulhisar
 			}
 			
 			own_control_integrated = {
@@ -52521,9 +52507,65 @@ countries = {
 			
 			our_cores_conquered_by_others = {
 				siran ilic tokat
-				sebinkarahisar 
-				koyulhisar niksar
+				niksar
 				zara
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = sebinkarahisar
+		}
+		
+		AN4 = {
+			own_control_core = {
+				bozok candir dinek_keskin sorgun
+				bogazliyan kirsehir hacibektas
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+				baliseyh
 			}
 			
 			starting_technology_level = 3
