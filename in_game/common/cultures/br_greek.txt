@@ -61,7 +61,7 @@ REPLACE_OR_CREATE:griko_culture = {
 
 REPLACE_OR_CREATE:pontic_greek_culture = {
 	language = trapezuntine_dialect
-	color = rgb { 165 55 138 }
+	color = rgb { 145 85 148 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
@@ -176,7 +176,7 @@ aegyptian_greek_culture = {
 
 syrenikoi_greek_culture = {
 	language = syrenikoi_dialect
-	color = rgb { 160 75 95 }
+	color = rgb { 160 68 95 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx middle_east_gfx }
 
