@@ -4213,6 +4213,24 @@ building_manager = {
 	bridge_infrastructure = { tag = BYZ level = 1 location = goynuk }
 	bridge_infrastructure = { tag = BYZ level = 1 location = sogut }
 	bridge_infrastructure = { tag = BYZ level = 1 location = bursa }
+	bridge_infrastructure = { tag = BYZ level = 1 location = bozan }
+	bridge_infrastructure = { tag = BYZ level = 1 location = inonu }
+	bridge_infrastructure = { tag = BYZ level = 1 location = kutahya }
+	bridge_infrastructure = { tag = BYZ level = 1 location = manisa }
+
+	bridge_infrastructure = { tag = THE level = 1 location = gynaikokastro }
+	bridge_infrastructure = { tag = THE level = 1 location = thessaloniki }
+
+	bridge_infrastructure = { tag = BUL level = 1 location = plovdiv }
+	bridge_infrastructure = { tag = BUL level = 1 location = drastar }
+	bridge_infrastructure = { tag = BUL level = 1 location = nikopol }
+	bridge_infrastructure = { tag = BUL level = 1 location = vidin }
+	bridge_infrastructure = { tag = BUL level = 1 location = ohrid }
+	bridge_infrastructure = { tag = BUL level = 1 location = skopje }
+	bridge_infrastructure = { tag = BUL level = 1 location = velbuzd }
+
+	bridge_infrastructure = { tag = MAM level = 1 location = cairo }
+	bridge_infrastructure = { tag = MAM level = 1 location = alexandria }
 
 	tar_kiln = { tag = BYZ level = 1 location = izmit }
 	tar_kiln = { tag = BYZ level = 1 location = uskudar }
