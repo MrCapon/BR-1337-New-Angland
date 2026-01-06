@@ -152,8 +152,6 @@ REPLACE_OR_CREATE:country_base_values = {
 	burghers_estate_allowed_leading_military = yes
 	peasants_estate_allowed_leading_military = yes
 	dhimmi_estate_allowed_leading_military = yes
-	
-	global_tribal_promotion = -1.0 #br added
 
 	allow_male_leader = yes
 	allow_male_cabinet = yes
