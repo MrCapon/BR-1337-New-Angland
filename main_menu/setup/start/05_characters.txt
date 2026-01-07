@@ -6399,7 +6399,7 @@ character_db={
 		mother = byz_anna_of_savoy
 		dynasty = palaiologos_dynasty
 		tag = BYZ
-		child_trait = child_idiot
+		child_trait = child_slow #child_idiot #bit much eh? 
 	}
 	
 	#Heir's Brother
@@ -6407,7 +6407,7 @@ character_db={
 		first_name = { name = name_michael }
 		culture = greek_culture
 		religion = orthodox
-		adm = 1 dip = 1 mil = 0
+		adm = 1 dip = 1 mil = 5
 		birth_date = 1337.1.1
 		birth = constantinople
 		father = byz_andronikos_iii_palaiologos
