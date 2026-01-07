@@ -142,6 +142,16 @@ br_country_startup.1 = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 			}
 		}
+		c:A1G = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+			}
+		}
 	}
 
 	option = {

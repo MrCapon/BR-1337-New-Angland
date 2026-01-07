@@ -5169,6 +5169,7 @@ building_manager = {
 	fishing_village = { tag = A1G level = 1 location = mitilene }
 	market_village = { tag = GTC level = 1 location = foca }
 	fishing_village = { tag = GTC level = 2 location = foca }
+	tar_kiln= { tag = GTC level = 1 location = foca }
 	market_village = { tag = GTC level = 1 location = amasra }
 	fishing_village = { tag = GTC level = 2 location = amasra }
 	market_village = { tag = CRT level = 1 location = chania }
