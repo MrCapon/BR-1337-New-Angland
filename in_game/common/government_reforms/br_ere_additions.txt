@@ -1,0 +1,24 @@
+﻿br_naval_akritai_reform = {
+    age = age_1_traditions
+    potential = {
+        OR = {
+            has_or_had_tag = A1G
+            has_or_had_tag = K1B
+        }
+    }
+    allow = {
+    }
+    country_modifier = {
+        monthly_towards_naval = societal_value_monthly_move
+		monthly_towards_belligerent = societal_value_minor_monthly_move
+
+		army_disembark_speed = 0.1
+		navy_galley_build_cost_modifier = -0.5
+		allow_privateers_slave_raid = yes
+		navy_maintenance_cost = -0.25
+        global_sailors_modifier = 0.25
+		expected_navy_size_modifier = 1.0
+		global_navy_levy_size_modifier = 1.0
+    }
+    years = 2
+}

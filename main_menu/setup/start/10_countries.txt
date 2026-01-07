@@ -52093,7 +52093,7 @@ countries = {
 				ruler = random
 				
 				reforms = {
-					autocracy
+					br_naval_akritai_reform
 					theme_system
 				}
 				privilege = {
@@ -52253,6 +52253,7 @@ countries = {
 
 		A1G = {
 			own_control_core = {
+				canakkale
 				thasos sporades lemnos imbros molyvos mitilene
 			}
 
@@ -52278,7 +52279,7 @@ countries = {
 				ruler = random
 				
 				reforms = {
-					autocracy
+					br_naval_akritai_reform
 					theme_system
 				}
 				privilege = {
@@ -52311,7 +52312,7 @@ countries = {
 			}
 			
 			liturgical_language = khoine_dialect
-			capital = ostrovo
+			capital = canakkale
 		}
 
 		AN0 = {
