@@ -12876,6 +12876,7 @@ countries = {
 					sponsor_maritime_contracts
 					control_over_monetary_policy
 					control_over_the_coinage
+					br_latin_trade_naval_reliance
 					#consolidated_corruption_of_the_burghers #BR EDIT
 					
 					#Commoners

@@ -8,4 +8,7 @@
  br_special_trade_companies: "Chartered Trade Companies"
  br_special_trade_companies_desc: "By granting expansive privileges to powerful trade companies, the state entrusts overseas commerce and naval logistics to mercantile elites. In return, these companies sustain trade dominance, expand maritime reach, and shoulder much of the burden of naval upkeep."
 
+ br_latin_trade_naval_reliance: "Latin Maritime Reliance"
+ br_latin_trade_naval_reliance_desc: "Imperial naval administration has grown dependent upon Latin merchant fleets and their capital. In return for sustained access to ships and maritime expertise, the state has granted extensive commercial privileges, shifting naval costs outward while eroding native levies, sailors, and imperial control of the seas."
+
 
