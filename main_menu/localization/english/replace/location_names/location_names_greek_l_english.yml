@@ -1,5 +1,7 @@
 ﻿l_english:
 
+ #
+
  # Anatolia – standardized Byzantine Greek transliteration
  adana.greek_language: "Ádana"
  adranos.greek_language: "Adrianoí"
@@ -259,8 +261,8 @@
  atalanti.greek_language: "Atalánti"
  athens.greek_language: "Athínai" #Gave it the older, formal form while retaining modern/medieval Romanization
  avlonya.greek_language: "Avlónas"
- bodonitsa.greek_language: "Vodonítsa" #Altered romanization
- butrint.greek_language: "Vouthrotón" #Altered romanization
+ bodonitsa.greek_language: "Bodonítsa" #Altered romanization
+ butrint.greek_language: "Bouthrotón" #Altered romanization
  candia.greek_language: "Chándax"
  catalca.greek_language: "Métrai"
  cephalonia.greek_language: "Kephaloniá"
@@ -481,7 +483,7 @@
 
  
  #West Balkans
-  arilje.greek_language: "Árilia"
+ arilje.greek_language: "Árilia"
  ballsh.greek_language: "Býllis"
  bar_cg.greek_language: "Antivárion"
  belgrad.greek_language: "Belégrada"
@@ -621,7 +623,7 @@
  bargiri.greek_language: "Pérkri" #Altered spelling
  baskale.greek_language: "Alouáka"
  bayazit.greek_language: "Arsakaoún" #Hellenization of Armenian name
- bayburt.greek_language: "Vaivérdon" #Altered romanization
+ bayburt.greek_language: "Baivérdon" #Altered romanization
  bingol.greek_language: "Romanoúpolis" #Altered romanization
  bitlis.greek_language: "Valaleíson" #Altered romanization
  bjni.greek_language: "Petzní"
@@ -786,12 +788,12 @@
  ariano.greek_language: "Arianó"
  atri.greek_language: "Adría"
  avellino.greek_language: "Avéllinon"
- bari.greek_language: "Várion" #Altered romanization
- barletta.greek_language: "Várdoulos" #Altered romanization
- benevento.greek_language: "Veneventós" #Not sure where Malieís comes from but there are Byzantine era names for Benevento
- bojano.greek_language: "Vouíanon" #Altered romanization
- bovino.greek_language: "Vouínon" #Vouínon is attested in De Administrando Imperii, also please don't use Latin names for Greek dynamic names
- brindisi.greek_language: "Vrentísion" #Altered romanization
+ bari.greek_language: "Bárion" #Altered romanization
+ barletta.greek_language: "Bárdoulos" #Altered romanization
+ benevento.greek_language: "Beneventós" #Not sure where Malieís comes from but there are Byzantine era names for Benevento
+ bojano.greek_language: "Bouíanon" #Altered romanization
+ bovino.greek_language: "Bouínon" #Vouínon is attested in De Administrando Imperii, also please don't use Latin names for Greek dynamic names
+ brindisi.greek_language: "Brentísion" #Altered romanization
  campagna.greek_language: "Kampanía"
  caserta.greek_language: "Kazérta" #Changed to the Hellenization of Caserta
  cassano.greek_language: "Kassánon" #Not sure where Thoúrioi comes from but it should be Kassánon
@@ -856,10 +858,10 @@
  arezzo.greek_language: "Arrétion"
  assisi.greek_language: "Asísion"
  bastia.greek_language: "Kárdo" # The name of Bastia comes from a Genoese fortress built around 50 years after game start. Previously the town was called Cardu, or Cardo in Italian.
- bitti.greek_language: "Vítzi"
- bonifacio.greek_language: "Vonifákion"
- bosa.greek_language: "Vósa"
- bracciano.greek_language: "Vrachiánon"
+ bitti.greek_language: "Bítzi"
+ bonifacio.greek_language: "Bonifákion"
+ bosa.greek_language: "Bósa"
+ bracciano.greek_language: "Brachiánon"
  cagliari.greek_language: "Káralis"
  calvi.greek_language: "Kalví"
  camerino.greek_language: "Kamerínon"
@@ -949,17 +951,17 @@
  arona.greek_language: "Aróna"
  asola.greek_language: "Ázoula"
  asti.greek_language: "Ásti"
- bardi.greek_language: "Várdion"
- bassano.greek_language: "Vassánon"
+ bardi.greek_language: "Bárdion"
+ bassano.greek_language: "Bassánon"
  bellinzona.greek_language: "Belintzóna"
  belluno.greek_language: "Belloúnos"
  berceto.greek_language: "Bertzéton"
- bergamo.greek_language: "Vérgomon" #Altered romanization
+ bergamo.greek_language: "Bérgomon" #Altered romanization
  biella.greek_language: "Biéla"
  bobbio.greek_language: "Bóbion"
  bologna.greek_language: "Volonía" #Changed to a Byzantine era name attested in De Administrando Imperii
  bormio.greek_language: "Bórmion"
- brescia.greek_language: "Vréssia"
+ brescia.greek_language: "Bréssia"
  breno.greek_language: "Brénon"
  carmagnola.greek_language: "Karmanióla"
  casale.greek_language: "Momferráton"
@@ -1067,7 +1069,7 @@
  #Syria
  acre.greek_language: "Ákra" #More recent name
  afrin.greek_language: "Éffrenos" #More recent name
- afsin.greek_language: "Aravissós" #Altered romanization
+ afsin.greek_language: "Lýkandos" #Altered romanization
  al_bab.greek_language: "Vátnai" #Altered romanization
  al_quwayrah.greek_language: "Kouaḯra" #Hellenization of Arabic name
  aleppo.greek_language: "Chalépion" #More recent name
@@ -1081,13 +1083,13 @@
  ayntab.greek_language: "Antiócheia Távrou" #Altered romanization
  azraq.greek_language: "Azrákion" #Hellenization of Arabic name
  baalbek.greek_language: "Ilioúpolis Syrías" #Altered romanization
- baniyas.greek_language: "Valanéa" #Altered romanization and spelling
- beersheba.greek_language: "Virossáva" #Altered romanization
- beirut.greek_language: "Virytós" #Laodíkeia en tē Phoiníkē is very anachronistic
+ baniyas.greek_language: "Balanéa" #Altered romanization and spelling
+ beersheba.greek_language: "Birossáva" #Altered romanization
+ beirut.greek_language: "Birytós" #Laodíkeia en tē Phoiníkē is very anachronistic
  besni.greek_language: "Skasoúson" #Not sure where Býsson comes from the Greek name I found for Besni was Skasoúson
- birecik.greek_language: "Víthra"
- bosra.greek_language: "Vóstra" #Spelling should include the t in Greek
- burraq.greek_language: "Vérroka" #Not sure where Aenos is from, but Vérroka is an attested name
+ birecik.greek_language: "Bíthra"
+ bosra.greek_language: "Bóstra" #Spelling should include the t in Greek
+ burraq.greek_language: "Bérroka" #Not sure where Aenos is from, but Vérroka is an attested name
  busayrah.greek_language: "Kirkísion"
  cermik.greek_language: "Zérmion"
  dabiq.greek_language: "Davikón" #Changed to an attested name
@@ -1099,7 +1101,7 @@
  el_arish.greek_language: "Rinokóroura" 
  el_tor.greek_language: "Raïthó" #Altered romanization and spelling
  elbistan.greek_language: "Plásta"
- enguzud.greek_language: "Lýkandos" 
+ enguzud.greek_language: "Adata" 
  faran.greek_language: "Farán" #Altered romanization
  gaza.greek_language: "Gáza" #Not really worth using a Hellenistic name when Gaza was also used in Greek
  gerger.greek_language: "Kárkaron" #Kárkaron is an attested name based on the Armenian name
@@ -1182,12 +1184,12 @@
  atfih.greek_language: "Afroditópolis" #Altered romanization
  awjila.greek_language: "Ávgila"
  bahariyya.greek_language: "Óasis Mikrí" #Altered romanization
- barca.greek_language: "Várki" #Altered romanization
+ barca.greek_language: "Bárki" #Altered romanization
  baris.greek_language: "Kýsis"
- benghazi.greek_language: "Vereníki" #Changed to Berenice which is a little closer to contemporary
+ benghazi.greek_language: "Bereníki" #Changed to Berenice which is a little closer to contemporary
  beni_suef.greek_language: "Irakleoúpolis"
  bilbeis.greek_language: "Félvis" #Altered romanization
- busir_quridis.greek_language: "Voúsiris" #Altered romanization
+ busir_quridis.greek_language: "Boúsiris" #Altered romanization
  cairo.greek_language: "Karéa" #Changed to an attested Byzantine name for Kairo rather than the ancient name
  dakahla.greek_language: "Dákala" #Hellenization of Arabic name
  damanhur.greek_language: "Ermoúpolis Mikrá" #Altered romanization
@@ -1259,11 +1261,11 @@
  anah.greek_language: "Ánatho" # Ancient name
  ar_rabb.greek_language: "Arávion"
  ayn_tamr.greek_language: "Setáta" # From Aramaic name
- baghdad.greek_language: "Vagdátion"
+ baghdad.greek_language: "Bagdátion"
  balad.greek_language: "Palátion" #Hellenization of Arabic name
- bara_iraq.greek_language: "Vará"
- barqaid.greek_language: "Varkáïdon" #Hellenization of Arabic name
- basra.greek_language: "Vasóra"
+ bara_iraq.greek_language: "Bará"
+ barqaid.greek_language: "Barkáïdon" #Hellenization of Arabic name
+ basra.greek_language: "Basóra"
  cizre.greek_language: "Gazárta"
  daquq.greek_language: "Takoúkon"
  duhok.greek_language: "Vithnoádra" #Hellenization of Syriac Beth Nohadra
@@ -1444,7 +1446,7 @@
  arges.greek_language: "Ártzes"
  braila.greek_language: "Bréila"
  bucharest.greek_language: "Voukourésti"
- bukov.greek_language: "Voúkovon"
+ bukov.greek_language: "Boúkovon"
  buzau.greek_language: "Bouzó"
  calafat.greek_language: "Kalafáti"
  campulung_muscel.greek_language: "Makropédion"
