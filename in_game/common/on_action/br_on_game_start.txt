@@ -615,6 +615,12 @@
 				type = paved_road
 			}
 		}
+		location:uluborlu = {
+			add_road_to = {
+				target = location:hatunsaray
+				type = gravel_road
+			}
+		}
 
 		#Levant
 
