@@ -23,10 +23,7 @@
 					country_rank = country_rank:rank_duchy
 					country_rank = country_rank:rank_county
 				}
-				OR = {
-					is_subject_type = vassal
-					is_subject_type = fiefdom
-				}
+				is_subject_type = vassal
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }
@@ -76,6 +73,22 @@
 			OR = {
 				is_subject_type = colonial_nation
 				is_subject_type = trade_company
+			}
+			overlord ?= {
+				culture = { has_culture_group = culture_group:greek_group }
+			}
+		}
+	}
+
+	text = {
+		localization_key = country_rank_br_eparchia
+		trigger = {
+			AND = {
+				OR = {
+					country_rank = country_rank:rank_duchy
+					country_rank = country_rank:rank_county
+				}
+					is_subject_type = fiefdom
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }
