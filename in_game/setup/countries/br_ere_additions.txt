@@ -200,6 +200,13 @@ AN4 = { #BR addition
 	religion_definition = orthodox
 }
 
+AN5 = { #BR addition
+	color = rgb { 155 45 145 }
+
+	culture_definition = kilikioi_greek_culture
+	religion_definition = orthodox
+}
+
 
 #Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible

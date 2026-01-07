@@ -12210,6 +12210,10 @@ countries = {
 				#SAO
 				salona
 			}
+			our_cores_conquered_by_others = {
+				loidoriki nafpaktos neopatras zetounion
+				negroponte kleisoura karystos kymi oreos eretreia
+			}
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -12494,14 +12498,10 @@ countries = {
 		
 		THS = { #BR EDITED
 			own_control_core = {
-				#BYZ
 				demetrias farsala elassona larissa stomio trikala tyrnavos karditsa
-				#NEO
 				neopatras zetounion
 			}
 			our_cores_conquered_by_others = {
-				loidoriki grevena siatista
-				bodonitsa gravia
 			}
 			
 			starting_technology_level = 3
@@ -12550,7 +12550,7 @@ countries = {
 				
 			}
 			
-			tolerated_cultures = {
+			accepted_cultures = {
 				aromanian
 			}
 			
@@ -12562,19 +12562,16 @@ countries = {
 		
 		M0E = { #BR ADDED
 			own_control_core = {
-				#BYZ
 				tripolitsa veligosti karytaina
 				monemvasia mystras oitylo leuktron astros
-				
-				#ARG
 				argos nafplio
 				
 			}
 			our_cores_conquered_by_others = {
-				#ACH
 				damala ermioni kalamata kyparissia
 				andritsaina pontikokastro andravida corinth
 				chalandritsa patras vostitsa kalavryta xylokastro
+				kythira modon
 			}
 			
 			starting_technology_level = 3
@@ -12619,8 +12616,7 @@ countries = {
 				alaiye selinti
 				
 				#TUR
-				kibrus
-				bolu akcasehir akyazi konrapa gerede mengen mudurnu
+				akcasehir akyazi konrapa mudurnu
 				bursa adranos iznik
 				izmit atpazari
 				domanic
@@ -12632,7 +12628,6 @@ countries = {
 				dursunbey harmancik
 				
 				#GRM
-				mihaliccik sivrihisar bozan kaymaz
 				altintas emirdag seyitgazi
 				kutahya aslanapa emet simav tavsanli
 				usak banaz gediz seyhli
@@ -12671,6 +12666,9 @@ countries = {
 			
 			}
 			our_cores_conquered_by_others = {
+				bozan kaymaz
+				bolu gerede mengen
+				kibrus mihaliccik sivrihisar
 				thasos sporades lemnos imbros molyvos mitilene
 				bodrum gokabat marmaris megri yuksekkum
 				antalya elmali karahisar_i_teke kas istanoz
@@ -31247,12 +31245,10 @@ countries = {
 				adana ayas kars_armenia iskenderun
 				anavarza sis caxud
 				tarsus corycus candir_cil molevon
-				silifke anamur mut ermenek
 			}
 			
 			our_cores_conquered_by_others = {
 				hargan
-				alaiye selinti
 			}
 			
 			starting_technology_level = 3
@@ -51859,17 +51855,16 @@ countries = {
 			own_control_core = {
 				beypazari kizilca
 				ankara cubuk haymana kalecik polatli karakecili
-				corum huseyinabad sungurlu
-				baliseyh
+				kibrus mihaliccik sivrihisar bozan kaymaz
+				bolu gerede mengen
+
 			}
 			
 			own_control_integrated = {
-				cankiri bayat cerkes kursunlu tosya sabanozu
-				iskilip
+				
 			}
 			
 			our_cores_conquered_by_others = {
-				bozok candir dinek_keskin sorgun
 			}
 			
 			starting_technology_level = 3
@@ -52006,10 +52001,11 @@ countries = {
 				bartin
 				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
 				safranbolu ulus yenicepazari
+				cankiri bayat cerkes kursunlu tosya sabanozu
 			}
 
 			our_cores_conquered_by_others = {
-				cankiri bayat cerkes kursunlu tosya sabanozu
+				amasra mengen gerede
 				iskilip gumus
 			}
 			
@@ -52322,11 +52318,11 @@ countries = {
 				#sivas dasmenda deliktash gemerek hafik sarkisla zara divrigi
 				sulusaray tokat zile
 				niksar
-				darende gurun
 				gumus
 				amasya merzifon sonisa gadegara ladik_pontus
 				akdagmadeni aydincik
 				gerze bafra samsun terme akkus
+				iskilip corum
 			}
 			
 			own_control_integrated = {
@@ -52557,15 +52553,15 @@ countries = {
 		
 		AN4 = {
 			own_control_core = {
-				bozok candir dinek_keskin sorgun
+				bozok candir dinek_keskin sorgun baliseyh
 				bogazliyan kirsehir hacibektas
+				huseyinabad sungurlu
 			}
 			
 			own_control_integrated = {
 			}
 			
 			our_cores_conquered_by_others = {
-				baliseyh
 			}
 			
 			starting_technology_level = 3
@@ -52609,7 +52605,60 @@ countries = {
 			}
 
 			liturgical_language = khoine_dialect
-			capital = sebinkarahisar
+			capital = kirsehir
+		}
+		
+		AN5 = {
+			own_control_core = {
+				silifke anamur mut ermenek
+			}
+			
+			our_cores_conquered_by_others = {
+				selinti
+			}
+
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 75
+				individualism_vs_communalism = 25
+
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = silifke
 		}
 		
 

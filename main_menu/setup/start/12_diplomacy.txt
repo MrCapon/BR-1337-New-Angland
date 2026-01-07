@@ -328,10 +328,11 @@ diplomacy_manager = {
     dependency = { first = ATH second = M0E subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma
 
-    dependency = { first = BYZ second = A1G subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = A1G subject_type = fiefdom } # Pronoïakon Ktéma
     dependency = { first = BYZ second = AN4 subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = AN5 subject_type = vassal } # Pronoïakon Ktéma
 
-    dependency = { first = BYZ second = AON subject_type = vassal } # Thema
+    dependency = { first = BYZ second = AON subject_type = fiefdom } # Thema
     dependency = { first = BYZ second = ICO subject_type = vassal } # Thema
     dependency = { first = BYZ second = PAF subject_type = vassal } # Thema
     dependency = { first = BYZ second = KAP subject_type = march } # Thema

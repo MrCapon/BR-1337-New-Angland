@@ -15,10 +15,10 @@
  AOI_ADJ: "Antiochéios"
  OHS: "Hagion Taphon" # Real Greek endonym for Holy Sepulchre
  OHS_ADJ: "Hagiotaphitós" 
- AON: "Anatolikōn" # Stylized endonym for general Anatolian region
- AON_ADJ: "Anatolikós"
- ICO: "Ikonión" # Endonym: Greek name for Iconium
- ICO_ADJ: "Ikoniéus"
+ AON: "Boukellárion" # Stylized endonym for general Anatolian region
+ AON_ADJ: "Boukellárion"
+ ICO: "Anatolikōn" # Endonym: Ikonión Greek name for Iconium
+ ICO_ADJ: "Anatolikós" #Ikoniéus
  BNK: "Bankaropoulos" # Fun stylized Greek-style endonym
  BNK_ADJ: "Bankaropoulakós"
  MKB: "Makrembolitēs" # Greek name for Makrembolites (historic/family-based state)
@@ -151,6 +151,8 @@
  AN3_ADJ: "Koloneia"
  AN4: "Kharsianon"
  AN4_ADJ: "Kharsianon"
+ AN5: "Seleukeía"
+ AN5_ADJ: "Seleukeía"
 
  # France
  AUS: "Austrasia"
