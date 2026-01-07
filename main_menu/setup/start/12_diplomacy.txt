@@ -329,6 +329,7 @@ diplomacy_manager = {
     dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma
 
     dependency = { first = BYZ second = A1G subject_type = fiefdom } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = K1B subject_type = fiefdom } # Pronoïakon Ktéma
     dependency = { first = BYZ second = AN4 subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = CIL second = AN5 subject_type = vassal } # Pronoïakon Ktéma
 

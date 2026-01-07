@@ -4205,6 +4205,9 @@ building_manager = {
 
 	#Anatolia
 	dock = { tag = BYZ level = 1 location = smyrna }
+	dock = { tag = A1G level = 1 location = canakkale }
+	dock = { tag = K1B level = 1 location = antalya }
+	dock = { tag = MAM level = 1 location = suez }
 	wharf = { tag = BYZ level = 1 location = smyrna }
 	cathedral = { tag = BYZ level = 1 location = smyrna }
 	marketplace	= { tag = BYZ level = 5 location = smyrna }

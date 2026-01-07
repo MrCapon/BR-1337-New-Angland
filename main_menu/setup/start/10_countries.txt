@@ -12378,7 +12378,6 @@ countries = {
 			own_control_core = {
 				nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
 				argyrokastro avlonya karpenisi konitsa
-				#BYZ
 				pyli
 				#SAO
 				loidoriki
@@ -12608,56 +12607,41 @@ countries = {
 				ormenio
 				traianopolis demotica
 				komotini
-
-				bodrum  gokabat marmaris megri yuksekkum
-				antalya elmali karahisar_i_teke kas istanoz
-				manavgat finike
-				rodos kos karpathos
-				alaiye selinti
-				
 				#TUR
+				kibrus mihaliccik sivrihisar bozan kaymaz
+				bolu gerede mengen
 				akcasehir akyazi konrapa mudurnu
 				bursa adranos iznik
 				izmit atpazari
 				domanic
 				sultanonu bilecik goynuk eynegol inonu nalli sogut
-				
 				#KRD
 				balikesir balya edremit manyas mihalic susurluk
-				ayvacik bandirma bayramic can canakkale gonen lapseki
+				bandirma can gonen
 				dursunbey harmancik
-				
 				#GRM
 				altintas emirdag seyitgazi
 				kutahya aslanapa emet simav tavsanli
 				usak banaz gediz seyhli
-				
 				#SRU
 				manisa akhisar demirci gordes kula
 				bergama bigadic soma
-				
 				#AYD
 				smyrna ayasuluk cesme menemen urla
 				tire balat birgi guzelhisar nazilli
-
 				#MEN
 				milas
 				mugla cine
-				
 				#TVS
 				tavas
-				
 				#INA
 				honaz lazkiye
-				
 				#SHP
 				karahisar_i_sahib sandikli suhut
-				
 				#HMD
 				isparta burdur dinar egirdir uluborlu
 				golhisar stefani
-				
-
+				megri yuksekkum bodrum gokabat
 			}
 			own_control_integrated = {
 				bukelon ustra
@@ -12666,11 +12650,11 @@ countries = {
 			
 			}
 			our_cores_conquered_by_others = {
-				bozan kaymaz
-				bolu gerede mengen
-				kibrus mihaliccik sivrihisar
+				lapseki bayramic ayvacik
+				alaiye selinti
+				canakkale
 				thasos sporades lemnos imbros molyvos mitilene
-				bodrum gokabat marmaris megri yuksekkum
+				marmaris  
 				antalya elmali karahisar_i_teke kas istanoz
 				manavgat finike
 				rodos kos karpathos
@@ -51780,13 +51764,14 @@ countries = {
 		
 		ICO = {
 			own_control_core = {
-				#KAR
-				insuyu
-				konya celtik eskil hatunsaray karapinar ladik larende pirloganda
-				beysehir aksehir bolvadin sarkikaraagac seydisehir
-				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
-				#HMD
+				konya eskil hatunsaray karapinar ladik larende pirloganda
+				beysehir sarkikaraagac seydisehir
+				obruk altinekin cumra
 				yalvac
+
+				insuyu kulu_turkey
+				bolvadin ilgin aksehir
+				turgut suluklu celtik
 			}
 			
 			own_control_integrated = {
@@ -51856,9 +51841,6 @@ countries = {
 			own_control_core = {
 				beypazari kizilca
 				ankara cubuk haymana kalecik polatli karakecili
-				kibrus mihaliccik sivrihisar bozan kaymaz
-				bolu gerede mengen
-
 			}
 			
 			own_control_integrated = {
@@ -51866,6 +51848,8 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
+				kibrus mihaliccik sivrihisar bozan kaymaz
+				bolu gerede mengen
 			}
 			
 			starting_technology_level = 3
@@ -52068,15 +52052,16 @@ countries = {
 		
 		K1B = {
 			own_control_core = {
-			}
-
-			our_cores_conquered_by_others = {
-				bodrum  gokabat marmaris megri yuksekkum
+				marmaris
 				antalya elmali karahisar_i_teke kas istanoz
 				manavgat finike
 				rodos kos karpathos
 				alaiye selinti
-				golhisar mugla tavas milas cine
+			}
+
+			our_cores_conquered_by_others = {
+				megri yuksekkum bodrum gokabat
+				#golhisar tavas mugla milas cine
 			}
 			
 			starting_technology_level = 3
@@ -52255,6 +52240,7 @@ countries = {
 			own_control_core = {
 				canakkale
 				thasos sporades lemnos imbros molyvos mitilene
+				lapseki bayramic ayvacik
 			}
 
 			our_cores_conquered_by_others = {

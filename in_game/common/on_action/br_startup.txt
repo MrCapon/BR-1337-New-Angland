@@ -197,6 +197,12 @@ br_on_game_start = {
 			research_advance = advance_type:unlock_hulk_advance
 			research_advance = advance_type:rudimentary_coastal_ship_repair
 		}
+		c:K1B = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
      #	c:E1Y = {
 	#		research_advance = advance_type:colonial_tradition
 	#		research_advance = advance_type:colonial_heritage

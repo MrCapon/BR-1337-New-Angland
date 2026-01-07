@@ -144,12 +144,38 @@ br_country_startup.1 = {
 		}
 		c:A1G = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+			}
+		}
+		c:K1B = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit_of_category = sub_unit_category:navy_galley
 			}
 		}
 	}
