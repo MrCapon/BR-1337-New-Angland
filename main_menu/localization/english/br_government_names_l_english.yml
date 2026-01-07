@@ -39,8 +39,8 @@
  country_rank_br_apoikia_ruler_male: "Domestikos"
  country_rank_br_apoikia_ruler_female: "Domestika"
 
- country_rank_br_eparchia: "Eparchía"
- country_rank_br_eparchia_ADJ: "Eparchiakós"
+ country_rank_br_eparchia: "Dioíkēsis" #Eparchía
+ country_rank_br_eparchia_ADJ: "Dioikētikós" #Eparchiakós
  #country_rank_br_eparchia_ruler_male: "Eparchos"
  #country_rank_br_eparchia_ruler_female: "Eparchissa"
 
