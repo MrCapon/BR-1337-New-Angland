@@ -328,6 +328,7 @@ elysian_colonial_charters = {
 	global_integration_speed_modifier = 0.1
 	global_migration_speed_modifier = 0.1
 	rural_migration_attraction = 0.1
+	global_population_growth = 0.0002
 }
 
 # age_2_renaissance

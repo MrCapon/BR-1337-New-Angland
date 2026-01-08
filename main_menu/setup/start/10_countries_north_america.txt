@@ -728,6 +728,8 @@ countries = {
 				tappahanna
 				minguannan
 			}
+			own_control_colony = {
+			}
 			
 			capital = patapsco
 			include = "elysian_foothold"
