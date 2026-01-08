@@ -1,4 +1,57 @@
 
+# 0.10
+
+## New countries
+### Balkans
+- B1L: Skopje–Ohrid
+- Bulgarian Releasables
+  - B0L: "Dobrudja"
+  - B2L: "Melnik"
+- Roman Bulgarian Releasables
+  - B3L: "Serdika"
+  - B4L: "Philippópolis"
+  - B5L: "Boulgaría"
+
+### Anatolia
+- AN0: "Armenikon"
+- AN1: "Lykándou"
+- AN2: "Sebásteia"
+- AN3: "Koloneia"
+- AN4: "Kharsianon"
+- AN5: "Seleukeía"
+
+### Previously Releaseable now on map at start
+- K1B: Kibyrrhaiōtai
+
+## New Estate Privleges
+- The following flavored naval debuff has been given to the Basileia Romaion in place of the base game's Burgher Corruption privilege.
+  - Latin Maritime Reliance: "Imperial naval administration has grown dependent upon Latin merchant fleets and their capital. In return for sustained access to ships and maritime expertise, the state has granted extensive commercial privileges, shifting naval costs outward while eroding native levies, sailors, and imperial control of the seas."
+
+## New Country Ranks:
+- 'Dioíkēsis' replacing fiefdoms in the ERE.
+- 'Nautikē Strategía' rank, ruled by a Strategós unless using the overlord’s ruler, for Kibyrrhaiōtai and Aigaíon Pélagos.
+- 'Hetaireía' for certain trade company tags and any new ones that are subjects of a Hellenic culture. They are ruled by a Logothétēs.
+
+# Government reform
+- Kibyrrhaiōtai and Aigaíon Pélagos have been given the following naval-themed government reform, which boosts their naval potential.
+  - Naval Theme Administration: "Coastal and island districts are organized into naval themes, where land, service, and fleet obligation are bound together. Through regulated levies and permanent maritime infrastructure, the state sustains large galley forces, rapid embarkation, and disciplined control of the frontier seas."
+
+# Balance changes
+- Anatolia and the Balkans have had various border adjustments.
+- Changed the starting towns in Bulgaria and Anatolia.
+- Anatolian and Balkan population adjustments.
+- Anatolian and Balkan building adjustments.
+- Skopje–Ohrid set as a Bulgarian subject.
+- Albanian tags moved to being subjects under Skopje–Ohrid.
+- Given extra ships at game start:
+  - Kibyrrhaiōtai given 20 galleys.
+  - Aigaíon Pélagos given 10 galleys.
+- Added 7 random characters to the ERE in its naval subjects.
+- Added 26 random female characters to the three main tags in Elysium.
+- Adjusted island country sizes.
+
+# Localization changes
+- Changed many Greek location names to be more based on historic spelling and less on phonetics.
 
 # Version 0.9 Ennéa
 
