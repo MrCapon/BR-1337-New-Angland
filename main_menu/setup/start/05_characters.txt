@@ -98914,4 +98914,501 @@ adm = 31 dip = 34 mil = 24
 		dynasty = kaimana_dynasty
 		tag = KAM
 	}
+
+	#NEW BR Characters
+
+	#ERE
+	br_ere_rdm_character_00 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		birth_date = 1301.1.1
+		birth = canakkale
+		adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = A1G
+		admiral_trait = accomplished_sailor
+	}
+
+	br_ere_rdm_character_01 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		birth_date = 1301.1.1
+		birth = antalya
+		adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1B
+		admiral_trait = naval_showman
+	}
+
+	br_ere_rdm_character_02 = {
+		first_name = "random"
+		culture = varangian
+		religion = orthodox
+		birth_date = 1301.1.1
+		birth = constantinople
+		adm = 33 dip = 33 mil = 100
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = BYZ
+		admiral_trait = accomplished_sailor
+	}
+	br_ere_rdm_character_03 = {
+		first_name = "random"
+		culture = varangian
+		religion = orthodox
+		birth_date = 1301.1.1
+		birth = constantinople
+		adm = 33 dip = 33 mil = 100
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = BYZ
+		general_trait = glory_seeker
+	}
+
+	br_ere_rdm_character_04 = {
+		first_name = "random"
+		culture = latinoi
+		religion = catholic
+		estate = burghers_estate
+		birth_date = 1301.1.1
+		birth = constantinople
+		adm = 44 dip = 66 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = BYZ
+		admiral_trait = level_headed
+	}
+
+	br_ere_rdm_character_05 = {
+		first_name = "random"
+		culture = latinoi
+		religion = catholic
+		estate = burghers_estate
+		birth_date = 1301.1.1
+		birth = constantinople
+		adm = 44 dip = 66 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = BYZ
+		admiral_trait = ironside
+	}
+
+	br_ere_rdm_character_06 = {
+		first_name = "random"
+		culture = latinoi
+		religion = catholic
+		estate = burghers_estate
+		birth_date = 1301.1.1
+		birth = canakkale
+		adm = 44 dip = 66 mil = 100
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = A1G
+		admiral_trait = level_headed
+	}
+
+	br_ere_rdm_character_07 = {
+		first_name = "random"
+		culture = latinoi
+		religion = catholic
+		estate = burghers_estate
+		birth_date = 1301.1.1
+		birth = antalya
+		adm = 44 dip = 66 mil = 100
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1B
+		admiral_trait = ironside
+	}
+
+	#Elysium
+
+	#E1Y
+	br_ely_rdm_character_00 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1316.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_01 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1316.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_02 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_03 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_04 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1319.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_05 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		birth_date = 1319.1.1
+		birth = patapsco
+		female = yes
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_06 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1316.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_07 = {
+		first_name = "random"
+		culture = aureliani
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1316.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_08 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_09 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	br_ely_rdm_character_10 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1319.1.1
+		birth = patapsco
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E1Y
+	}
+
+	#E2Y
+	br_ely_rdm_character_11 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		female = yes
+		birth_date = 1316.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_12 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		female = yes
+		birth_date = 1316.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_13 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		female = yes
+		birth_date = 1317.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_14 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		female = yes
+		birth_date = 1317.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_15 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		female = yes
+		birth_date = 1319.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_16 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		birth_date = 1319.1.1
+		birth = nansemond
+		female = yes
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_17 = {
+		first_name = "random"
+		culture = photianoi
+		religion = orthodox
+		female = yes
+		birth_date = 1316.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_18 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1316.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_19 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1317.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	br_ely_rdm_character_20 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1317.1.1
+		birth = nansemond
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = E2Y
+	}
+
+	#K1K
+	br_ely_rdm_character_21 = {
+		first_name = "random"
+		culture = kykladian_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = abacoa
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1K
+	}
+	br_ely_rdm_character_22 = {
+		first_name = "random"
+		culture = kykladian_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = abacoa
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1K
+	}
+	br_ely_rdm_character_23 = {
+		first_name = "random"
+		culture = kykladian_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = abacoa
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1K
+	}
+	br_ely_rdm_character_24 = {
+		first_name = "random"
+		culture = kykladian_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = abacoa
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1K
+	}
+	br_ely_rdm_character_25 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = abacoa
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1K
+	}
+	br_ely_rdm_character_26 = {
+		first_name = "random"
+		culture = elyrics_culture
+		religion = hellenism_religion
+		female = yes
+		birth_date = 1317.1.1
+		birth = abacoa
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		#dynasty = "random"
+		tag = K1K
+	}
+
 }
