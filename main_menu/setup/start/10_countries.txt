@@ -10443,7 +10443,7 @@ countries = {
 			dynasty = visconti_dynasty
 			country_rank = rank_duchy
 			currency_data = {
-				gold = 1500
+				gold = 2500
 				prestige = 50
 				stability = 50
 			}
@@ -11242,6 +11242,9 @@ countries = {
 				ruler_term = { character = rav_guido_novello_polenta start_date = 1316.6.22 end_date = 1322.9.20 regnal_number = 0 }
 				ruler_term = { character = rav_ostasio_i_polenta start_date = 1322.9.20 regnal_number = 0 }
 				
+			}
+			currency_data = {
+				gold = 1500
 			}
 			
 			tolerated_cultures = {
@@ -12204,14 +12207,10 @@ countries = {
 			own_control_core = {
 				athens megara thebes atalanti livadeia
 				corinth damala ermioni xylokastro
-				gravia
-				#BOD
-				bodonitsa
-				#SAO
-				salona
+				gravia bodonitsa neopatras zetounion
+				salona loidoriki nafpaktos 
 			}
 			our_cores_conquered_by_others = {
-				loidoriki nafpaktos neopatras zetounion
 				negroponte kleisoura karystos kymi oreos eretreia
 			}
 			
@@ -12234,6 +12233,7 @@ countries = {
 			}
 			
 			tolerated_cultures = {
+				latinoi
 			}
 			
 			country_rank = rank_duchy
@@ -12376,17 +12376,14 @@ countries = {
 		
 		EPI = { #BR EDITED
 			own_control_core = {
-				nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
+				angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
 				argyrokastro avlonya karpenisi konitsa
 				pyli
-				#SAO
-				loidoriki
+				
 			}
 			our_cores_conquered_by_others = {
-				#CEP
 				zakynthos leukas cephalonia
-				#SAO
-				salona
+				salona nafpaktos loidoriki
 			}
 			
 			starting_technology_level = 3
@@ -12446,7 +12443,7 @@ countries = {
 		THE = {
 			own_control_core = {
 				hatera veria edessa kassandreia polygyros thessaloniki
-				kilkis giannitsa gynaikokastro mount_athos 
+				kilkis giannitsa gynaikokastro mount_athos rentina
 			}
 			our_cores_conquered_by_others = {
 			
@@ -12498,9 +12495,9 @@ countries = {
 		THS = { #BR EDITED
 			own_control_core = {
 				demetrias farsala elassona larissa stomio trikala tyrnavos karditsa
-				neopatras zetounion
 			}
 			our_cores_conquered_by_others = {
+				neopatras zetounion
 			}
 			
 			starting_technology_level = 3
@@ -12606,7 +12603,6 @@ countries = {
 				chios vize
 				ormenio
 				traianopolis demotica
-				komotini
 				#TUR
 				kibrus mihaliccik sivrihisar bozan kaymaz
 				bolu gerede mengen
@@ -12644,12 +12640,13 @@ countries = {
 				megri yuksekkum bodrum gokabat
 			}
 			own_control_integrated = {
-				bukelon ustra
+				bukelon
 			}
 			own_control_conquered = {
 			
 			}
 			our_cores_conquered_by_others = {
+				komotini
 				lapseki bayramic ayvacik
 				alaiye selinti
 				canakkale
@@ -12824,17 +12821,17 @@ countries = {
 				ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
 				ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
 				
-				centralization_vs_decentralization = 20
+				centralization_vs_decentralization = 25
 				traditionalist_vs_innovative = -50
 				spiritualist_vs_humanist = -50
 				aristocracy_vs_plutocracy = -50
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -70
+				serfdom_vs_free_subjects = -25
+				mercantilism_vs_free_trade = -75
 				belligerent_vs_conciliatory = -20
 				quality_vs_quantity = -25
 				offensive_vs_defensive = 50
-				land_vs_naval = 20
-				capital_economy_vs_traditional_economy = 60
+				land_vs_naval = -25
+				capital_economy_vs_traditional_economy = 25
 				individualism_vs_communalism = -10
 				outward_vs_inward = 70
 				
@@ -12886,10 +12883,10 @@ countries = {
 			currency_data = {
 				gold = 300
 				stability = -5
-				prestige = 20
+				prestige = 45
 				government_power = 10
 				inflation = 0.1
-				war_exhaustion = 5
+				war_exhaustion = 8
 			}
 
 			tolerated_cultures = {
@@ -13423,6 +13420,7 @@ countries = {
 				}
 			}
 			accepted_cultures = {
+				boulgaroi
 				greek_culture
 			}
 			tolerated_cultures = {
@@ -13454,6 +13452,9 @@ countries = {
 				}
 			}
 			
+			accepted_cultures = {
+				boulgaroi
+			}
 			tolerated_cultures = {
 				wallachian
 			}
@@ -51085,6 +51086,7 @@ countries = {
 			
 			tolerated_cultures = {
 				latinoi
+				albanian
 			}
 			
 			country_rank = rank_duchy
@@ -51119,6 +51121,7 @@ countries = {
 				}
 			}
 			accepted_cultures = {
+				boulgaroi
 				greek_culture
 			}
 			tolerated_cultures = {
@@ -51171,6 +51174,7 @@ countries = {
 				}
 			}
 			accepted_cultures = {
+				boulgaroi
 				greek_culture
 			}
 			tolerated_cultures = {
@@ -51204,6 +51208,7 @@ countries = {
 				}
 			}
 			accepted_cultures = {
+				boulgaroi
 				greek_culture
 			}
 			tolerated_cultures = {
@@ -51419,6 +51424,9 @@ countries = {
 			
 			tolerated_cultures = {
 				syriac_culture
+			}
+			currency_data = {
+				gold = 850
 			}
 			
 			timed_modifier = {
@@ -52107,6 +52115,9 @@ countries = {
 				outward_vs_inward = -75
 
 			}
+			currency_data = {
+				gold = 850
+			}
 			
 			country_rank = rank_duchy
 			accepted_cultures = {
@@ -52122,12 +52133,13 @@ countries = {
 
 		S1Y = {
 			own_control_core = {
-				rentina kavala drama serres
+				kavala drama serres
 				xanthia
+				ustra komotini
 			}
 
 			our_cores_conquered_by_others = {
-				komotini ustra smolyan
+				smolyan
 				dospat bansko krupnik melnik nevrokop
 			}
 			
@@ -52187,7 +52199,7 @@ countries = {
 			}
 
 			our_cores_conquered_by_others = {
-
+				florina
 			}
 			
 			starting_technology_level = 3
@@ -53260,6 +53272,7 @@ countries = {
             country_rank = rank_kingdom
             capital = metz
 			currency_data = {
+				gold = 1500
 				prestige = 75
 				stability = 50
 			}

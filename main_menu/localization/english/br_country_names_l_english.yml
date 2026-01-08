@@ -45,16 +45,16 @@
  #India
  INK: "Indikē" # Greek-flavored endonym for India
  INK_ADJ: "Indikós"
- RIC: "Hetaireía Indikēs" # Stylized endonym for Emporikē Hetaireia tēs Indikēs
+ RIC: "Indikēs" # Stylized endonym for Emporikē Hetaireía tēs Indikēs
  RIC_ADJ: "Indikēís"
  S0K: "Sōkōtría"
  S0K_ADJ: "Sōkōtría"
 
  #Italy
- VTC: "Venice Trade League"
- VTC_ADJ: "Venice League"
- GTC: "Genonese Trade Guild"
- GTC_ADJ: "Genonese Guild"
+ VTC: "Arcipelago"
+ VTC_ADJ: "Arcipelago"
+ GTC: "Mare Maggiore" #Genonese Trade Guild
+ GTC_ADJ: "Mare Maggiore"
 
  S1C: "Sikelia"
  S1C_ADJ: "Sikelanoi"

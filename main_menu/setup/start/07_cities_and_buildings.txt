@@ -4280,6 +4280,21 @@ building_manager = {
 	farming_village = { tag = AON level = 1 location = cubuk }
 	farming_village = { tag = THE level = 1 location = giannitsa }
 
+	fishing_village = { tag = K1B level = 1 location = marmaris }
+	fishing_village = { tag = K1B level = 1 location = kos }
+	fishing_village = { tag = K1B level = 1 location = alaiye }
+	forest_village = { tag = K1B level = 1 location = selinti }
+	charcoal_maker = { tag = K1B level = 1 location = karahisar_i_teke }
+	farming_village = { tag = K1B level = 1 location = karahisar_i_teke }
+	forest_village = { tag = K1B level = 1 location = istanoz }
+
+	farming_village = { tag = CYP level = 2 location = famagusta }
+	forest_village = { tag = CYP level = 1 location = kyrenia }
+	charcoal_maker = { tag = CYP level = 1 location = kyrenia }
+	tar_kiln = { tag = CYP level = 1 location = kyrenia }
+	fishing_village = { tag = CYP level = 1 location = paphos }
+	fiber_crops_farm = { tag = CYP level = 1 location = nicosia_cyp }
+
 
 	bailiff = { tag = BYZ level = 1 location = bozan }
 	bailiff = { tag = BYZ level = 1 location = akcasehir }
@@ -4320,89 +4335,6 @@ building_manager = {
 
 	bailiff = { tag = ARM level = 1 location = yerevan }
 	bailiff = { tag = KAP level = 1 location = hargan }
-
-	bailiff = { tag = ADU level = 1 location = aracena }
-	bailiff = { tag = ADU level = 1 location = ciudad_real }
-	bailiff = { tag = ADU level = 1 location = tangier }
-	market_village = { tag = ADU level = 1 location = aracena }
-	market_village = { tag = ADU level = 2 location = ciudad_real }
-	market_village = { tag = ADU level = 2 location = tangier }
-	castle = { tag = ADU level = 1 location = tangier }
-	counting_house = { tag = ADU level = 1 location = sevilla }
-	counting_house = { tag = ADU level = 1 location = cordoba }
-	market_village = { tag = ADU level = 1 location = alicante }
-	fishing_village = { tag = ADU level = 1 location = alicante }
-	market_village = { tag = ADU level = 2 location = cartagena }
-	fishing_village = { tag = ADU level = 2 location = cartagena }
-	market_village = { tag = ADU level = 1 location = gibraltar }
-	fishing_village = { tag = ADU level = 1 location = gibraltar }
-	market_village = { tag = ADU level = 1 location = algeciras }
-	fishing_village = { tag = ADU level = 1 location = algeciras }
-	fishing_village = { tag = ADU level = 1 location = tarifa }
-	market_village = { tag = ADU level = 2 location = cadiz }
-	fishing_village = { tag = ADU level = 2 location = cadiz }
-	fishing_village = { tag = ADU level = 1 location = sanlucar }
-	fishing_village = { tag = ADU level = 1 location = huelva }
-	fishing_village = { tag = ADU level = 1 location = ayamonte }
-	fishing_village = { tag = ADU level = 1 location = tavira }
-	fishing_village = { tag = ADU level = 1 location = silves }
-	fishing_village = { tag = ADU level = 1 location = lagos }
-	market_village = { tag = ADU level = 1 location = alcacer_do_sal }
-	fishing_village = { tag = ADU level = 1 location = alcacer_do_sal }
-	market_village = { tag = ADU level = 1 location = setubal }
-	fishing_village = { tag = ADU level = 1 location = setubal }
-	market_village = { tag = ADU level = 1 location = figueira }
-	fishing_village = { tag = ADU level = 1 location = figueira }
-	market_village = { tag = ADU level = 1 location = ourique }
-	market_village = { tag = ADU level = 1 location = aracena }
-	market_village = { tag = ADU level = 1 location = seia }
-	market_village = { tag = ADU level = 1 location = covilha }
-	market_village = { tag = ADU level = 1 location = plasencia }
-	market_village = { tag = ADU level = 1 location = adrada }
-	market_village = { tag = ADU level = 1 location = siguenza }
-	market_village = { tag = ADU level = 1 location = ocana }
-	market_village = { tag = ADU level = 1 location = san_clemente }
-	market_village = { tag = ADU level = 1 location = alcaraz }
-	#market_village = { tag = ADU level = 1 location = albecete }
-	market_village = { tag = ADU level = 1 location = cieza }
-	fishing_village = { tag = TUN level = 2 location = bizerte }
-	fishing_village = { tag = TUN level = 1 location = tabarka }
-	fishing_village = { tag = TUN level = 2 location = hammamet }
-	fishing_village = { tag = TUN level = 1 location = sousse }
-	fishing_village = { tag = TUN level = 1 location = monastir }
-	fishing_village = { tag = TUN level = 2 location = sfaqes }
-	fishing_village = { tag = TUN level = 1 location = ajim }
-	fishing_village = { tag = TLE level = 2 location = mostaganem }
-	fishing_village = { tag = TLE level = 1 location = arzew }
-	fishing_village = { tag = MOR level = 2 location = melilla }
-	fishing_village = { tag = MOR level = 1 location = tetouan }
-	market_village = { tag = ADU level = 1 location = ceuta }
-	fishing_village = { tag = ADU level = 1 location = ceuta }
-	fishing_village = { tag = ADU level = 2 location = tangier }
-	fishing_village = { tag = MOR level = 1 location = larache }
-	wharf = { tag = MOR level = 1 location = rabat }
-	tar_kiln = { tag = MOR level = 1 location = rabat }
-	wharf = { tag = TLE level = 1 location = oran }
-	wharf = { tag = TLE level = 1 location = algiers }
-	tar_kiln = { tag = TLE level = 1 location = algiers }
-	wharf = { tag = TUN level = 1 location = bejaia }
-	wharf = { tag = TLE level = 1 location = cherchell }
-	wharf = { tag = TUN level = 1 location = annaba }
-	wharf = { tag = TUN level = 1 location = tunis }
-	dry_dock = { tag = TUN level = 1 location = tunis }
-	tar_kiln = { tag = TUN level = 1 location = tunis }
-	wharf = { tag = TUN level = 1 location = mahdia }
-	wharf = { tag = TRP level = 1 location = tripoli }
-	tar_kiln = { tag = TRP level = 1 location = tripoli }
-	wharf = { tag = MAM level = 1 location = alexandria }
-	tar_kiln = { tag = MAM level = 1 location = alexandria }
-	wharf = { tag = MAM level = 1 location = damietta }
-	wharf = { tag = MAM level = 1 location = acre }
-	wharf = { tag = MEC level = 1 location = jeddah }
-	wharf = { tag = YEM level = 1 location = adan }
-	tar_kiln = { tag = YEM level = 1 location = adan }
-	wharf = { tag = ORM level = 1 location = hormuz }
-	wharf = { tag = FAL level = 1 location = siraf }
 
 	#Manpower buildings added
 	#Anatolia
@@ -4705,6 +4637,90 @@ building_manager = {
 	slave_market = { tag = ADU level = 1 location = orihuela }
 	slave_market = { tag = ADU level = 1 location = jativa }
 	slave_market = { tag = ADU level = 1 location = santarem }
+
+	bailiff = { tag = ADU level = 1 location = aracena }
+	bailiff = { tag = ADU level = 1 location = ciudad_real }
+	bailiff = { tag = ADU level = 1 location = tangier }
+	market_village = { tag = ADU level = 1 location = aracena }
+	market_village = { tag = ADU level = 2 location = ciudad_real }
+	market_village = { tag = ADU level = 2 location = tangier }
+	castle = { tag = ADU level = 1 location = tangier }
+	counting_house = { tag = ADU level = 1 location = sevilla }
+	counting_house = { tag = ADU level = 1 location = cordoba }
+	market_village = { tag = ADU level = 1 location = alicante }
+	fishing_village = { tag = ADU level = 1 location = alicante }
+	market_village = { tag = ADU level = 2 location = cartagena }
+	fishing_village = { tag = ADU level = 2 location = cartagena }
+	market_village = { tag = ADU level = 1 location = gibraltar }
+	fishing_village = { tag = ADU level = 1 location = gibraltar }
+	market_village = { tag = ADU level = 1 location = algeciras }
+	fishing_village = { tag = ADU level = 1 location = algeciras }
+	fishing_village = { tag = ADU level = 1 location = tarifa }
+	market_village = { tag = ADU level = 2 location = cadiz }
+	fishing_village = { tag = ADU level = 2 location = cadiz }
+	fishing_village = { tag = ADU level = 1 location = sanlucar }
+	fishing_village = { tag = ADU level = 1 location = huelva }
+	fishing_village = { tag = ADU level = 1 location = ayamonte }
+	fishing_village = { tag = ADU level = 1 location = tavira }
+	fishing_village = { tag = ADU level = 1 location = silves }
+	fishing_village = { tag = ADU level = 1 location = lagos }
+	market_village = { tag = ADU level = 1 location = alcacer_do_sal }
+	fishing_village = { tag = ADU level = 1 location = alcacer_do_sal }
+	market_village = { tag = ADU level = 1 location = setubal }
+	fishing_village = { tag = ADU level = 1 location = setubal }
+	market_village = { tag = ADU level = 1 location = figueira }
+	fishing_village = { tag = ADU level = 1 location = figueira }
+	market_village = { tag = ADU level = 1 location = ourique }
+	market_village = { tag = ADU level = 1 location = aracena }
+	market_village = { tag = ADU level = 1 location = seia }
+	market_village = { tag = ADU level = 1 location = covilha }
+	market_village = { tag = ADU level = 1 location = plasencia }
+	market_village = { tag = ADU level = 1 location = adrada }
+	market_village = { tag = ADU level = 1 location = siguenza }
+	market_village = { tag = ADU level = 1 location = ocana }
+	market_village = { tag = ADU level = 1 location = san_clemente }
+	market_village = { tag = ADU level = 1 location = alcaraz }
+	#market_village = { tag = ADU level = 1 location = albecete }
+	market_village = { tag = ADU level = 1 location = cieza }
+	fishing_village = { tag = TUN level = 2 location = bizerte }
+	fishing_village = { tag = TUN level = 1 location = tabarka }
+	fishing_village = { tag = TUN level = 2 location = hammamet }
+	fishing_village = { tag = TUN level = 1 location = sousse }
+	fishing_village = { tag = TUN level = 1 location = monastir }
+	fishing_village = { tag = TUN level = 2 location = sfaqes }
+	fishing_village = { tag = TUN level = 1 location = ajim }
+	fishing_village = { tag = TLE level = 2 location = mostaganem }
+	fishing_village = { tag = TLE level = 1 location = arzew }
+	fishing_village = { tag = MOR level = 2 location = melilla }
+	fishing_village = { tag = MOR level = 1 location = tetouan }
+	market_village = { tag = ADU level = 1 location = ceuta }
+	fishing_village = { tag = ADU level = 1 location = ceuta }
+	fishing_village = { tag = ADU level = 2 location = tangier }
+	fishing_village = { tag = MOR level = 1 location = larache }
+	wharf = { tag = MOR level = 1 location = rabat }
+	tar_kiln = { tag = MOR level = 1 location = rabat }
+	wharf = { tag = TLE level = 1 location = oran }
+	wharf = { tag = TLE level = 1 location = algiers }
+	tar_kiln = { tag = TLE level = 1 location = algiers }
+	wharf = { tag = TUN level = 1 location = bejaia }
+	wharf = { tag = TLE level = 1 location = cherchell }
+	wharf = { tag = TUN level = 1 location = annaba }
+	wharf = { tag = TUN level = 1 location = tunis }
+	dry_dock = { tag = TUN level = 1 location = tunis }
+	tar_kiln = { tag = TUN level = 1 location = tunis }
+	wharf = { tag = TUN level = 1 location = mahdia }
+	wharf = { tag = TRP level = 1 location = tripoli }
+	tar_kiln = { tag = TRP level = 1 location = tripoli }
+	wharf = { tag = MAM level = 1 location = alexandria }
+	tar_kiln = { tag = MAM level = 1 location = alexandria }
+	wharf = { tag = MAM level = 1 location = damietta }
+	wharf = { tag = MAM level = 1 location = acre }
+	wharf = { tag = MEC level = 1 location = jeddah }
+	wharf = { tag = YEM level = 1 location = adan }
+	tar_kiln = { tag = YEM level = 1 location = adan }
+	wharf = { tag = ORM level = 1 location = hormuz }
+	wharf = { tag = FAL level = 1 location = siraf }
+
 
 	madrasa = { tag = AD0 level = 1 location = zamora }
 	madrasa = { tag = AD1 level = 1 location = zaragoza }

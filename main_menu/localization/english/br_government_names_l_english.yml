@@ -41,8 +41,17 @@
 
  country_rank_br_eparchia: "Dioíkēsis" #Eparchía
  country_rank_br_eparchia_ADJ: "Dioikētikós" #Eparchiakós
- #country_rank_br_eparchia_ruler_male: "Eparchos"
- #country_rank_br_eparchia_ruler_female: "Eparchissa"
+ country_rank_br_eparchia_ruler_male: "Domestikos" #Eparchos
+ country_rank_br_eparchia_ruler_female: "Domestika" #Eparchissa
 
+ country_rank_br_naval_theme: "Nautikē Strategía"
+ country_rank_br_naval_theme_ADJ: "Nautikós"
+ country_rank_br_naval_theme_ruler_male: "Strategós"
+ country_rank_br_naval_theme_ruler_female: "Strategissa"
+
+ country_rank_br_hetaireia: "Hetaireía"
+ country_rank_br_hetaireia_ADJ: "Hetaireiakós"
+ country_rank_br_hetaireia_ruler_male: "Logothetēs" #other options Proedros or Archōn tēs Hetaireías
+ country_rank_br_hetaireia_ruler_female: "Logothetēs"
 
 

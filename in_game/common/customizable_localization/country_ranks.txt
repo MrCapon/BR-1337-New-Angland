@@ -72,11 +72,32 @@
 		trigger = {
 			OR = {
 				is_subject_type = colonial_nation
-				is_subject_type = trade_company
+				#is_subject_type = trade_company
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }
 			}
+		}
+	}
+
+	text = {
+		localization_key = country_rank_br_hetaireia
+		trigger = {
+			is_subject_type = trade_company
+			overlord ?= {
+				culture = { has_culture_group = culture_group:greek_group }
+			}
+		}
+	}
+	text = {
+		localization_key = country_rank_br_hetaireia
+		trigger = {
+			OR = {
+				tag = RIC
+				tag = VTC
+				tag = GTC
+			}
+			
 		}
 	}
 
@@ -88,7 +109,31 @@
 					country_rank = country_rank:rank_duchy
 					country_rank = country_rank:rank_county
 				}
+				is_subject_type = fiefdom
+			}
+			NOT = {
+				tag = A1G
+				tag = K1B
+			}
+			overlord ?= {
+				culture = { has_culture_group = culture_group:greek_group }
+			}
+		}
+	}
+
+	text = {
+		localization_key = country_rank_br_naval_theme
+		trigger = {
+			AND = {
+				OR = {
+					tag = A1G
+					tag = K1B
+				}
+				OR = {
+					is_subject_type = vassal
 					is_subject_type = fiefdom
+					is_subject_type = march
+				}
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }

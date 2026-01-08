@@ -323,10 +323,8 @@ diplomacy_manager = {
     dependency = { first = BYZ second = FEO subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = THE subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = THS subject_type = vassal } # Pronoïakon Ktéma
-
     dependency = { first = BYZ second = ATH subject_type = vassal } # Pronoïakon Ktéma
-    dependency = { first = ATH second = M0E subject_type = vassal } # Pronoïakon Ktéma
-    dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = S1Y subject_type = fiefdom } # Pronoïakon Ktéma
 
     dependency = { first = BYZ second = A1G subject_type = fiefdom } # Pronoïakon Ktéma
     dependency = { first = BYZ second = K1B subject_type = fiefdom } # Pronoïakon Ktéma
@@ -344,14 +342,15 @@ diplomacy_manager = {
     dependency = { first = BYZ second = AN0 subject_type = march } # Thema
     dependency = { first = BYZ second = AN1 subject_type = march } # Thema
     dependency = { first = BYZ second = AN2 subject_type = march } # Thema
-    dependency = { first = TRE second = AN3 subject_type = march } # Thema
-
+   
     dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
 
     #Sub dependencies
-    dependency = { first = THE second = S1Y subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = ATH second = M0E subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = THE second = B0R subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = EPI second = DYR subject_type = march } # Thema
+    dependency = { first = TRE second = AN3 subject_type = march } # Thema
 
     #Patiachate dependencies
     #dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
