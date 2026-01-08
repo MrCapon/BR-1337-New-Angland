@@ -16,6 +16,7 @@ REPLACE_OR_CREATE:inverse_control = {
 	local_levy_size_modifier = -0.50 #BR edit was -1
 	local_manpower_modifier = -0.75 #BR edit was -1
 	local_sailors_modifier = -0.75 #BR edit was -1
+	local_tribal_promotion = -0.75 #br added
 	monthly_rebel_growth = 0.001 #BR added
 
 }

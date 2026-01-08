@@ -8,7 +8,7 @@ REPLACE:city = {
 		local_nobles_desired_pop = 0.05
 		local_clergy_desired_pop = 0.1
 	
-		local_max_control = 0.1
+		local_max_control = 0.15 #increased from 0.1
 		local_population_capacity = 100
 		local_population_capacity_modifier = 0.25
 		
@@ -61,7 +61,7 @@ REPLACE:town = {
 		local_nobles_desired_pop = 0.025
 		local_clergy_desired_pop = 0.05
 		
-		local_max_control = 0.05
+		local_max_control = 0.1 #Increased from 0.05
 		local_population_capacity = 20
 		local_population_capacity_modifier = 0.10
 		local_food_capacity = 250
@@ -76,7 +76,7 @@ REPLACE:town = {
 	}
 	
 	allow = {
-		population >= 15 #was 5
+		population >= 10 #was 5
 		modifier:cannot_upgrade_location = no
 	}
 	
@@ -97,9 +97,9 @@ REPLACE:rural_settlement = {
 		local_monthly_food_modifier = 0.1
 		
 		local_population_growth = 0.001
-		local_pop_assimilation_speed_modifier = -0.5 #br added
-		local_pop_conversion_speed_modifier = -0.5 #br added
-		local_tribal_promotion = -0.75 #br added
+		local_pop_assimilation_speed_modifier = -0.25 #br added
+		local_pop_conversion_speed_modifier = -0.25 #br added
+		local_tribal_promotion = -0.25 #br added
 	}
 	
 	country_modifier = {
