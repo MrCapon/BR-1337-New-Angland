@@ -31984,7 +31984,8 @@ countries = {
 				zanjan mahneshan sarcham sojas
 				bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
 				mosul qayyarah tal_afar
-
+				hashtrud malekan miandoab sain ujan
+				qazvin rey karaj savojbolagh
 				#ERE
 				damavand eyvanekey khwar rahimabad razeqan varamin
 				abhar avaj qeydar sagzabad takestan
@@ -31992,9 +31993,10 @@ countries = {
 				rudbar shahrestan_sofla shamiram sirdan
 			}
 			
-			our_cores_conquered_by_others = {
+			own_control_integrated = {
+				
 			}
-			
+
 			starting_technology_level = 3
 			include = "expl_middle_east"
 			include = "expl_mongols"
@@ -32251,7 +32253,7 @@ countries = {
 		
 		#Hasbani - HBN
 		HBN = {
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				hashtrud malekan miandoab sain ujan
 			}
 			
@@ -47222,11 +47224,9 @@ countries = {
 		BDS = { #Baduspanids
 			own_control_core = {
 				kojur chalus tonekabon
-				rey karaj savojbolagh
 			}
-			
-			own_control_integrated = {
-				qazvin
+			our_cores_conquered_by_others = {
+				rey karaj savojbolagh
 			}
 			
 			include = "expl_middle_east"
