@@ -75,6 +75,7 @@ br_on_game_start = {
 				research_advance = advance_type:deus_vult
 			    research_advance = advance_type:organized_religion
 		    	research_advance = advance_type:scholasticism
+				research_advance = advance_type:aristocracy
             }
         }
 		#Trying to encourage new world tag to colonize
@@ -225,6 +226,10 @@ br_on_game_start = {
 			research_advance = advance_type:bashi_bazouks
 			research_advance = advance_type:there_shall_be_no_grass
 			research_advance = advance_type:akinji_cavalry
+		}
+
+		c:LOT = {
+			research_advance = advance_type:aristocracy
 		}
 
     }
