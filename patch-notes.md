@@ -1,6 +1,8 @@
 
 # 0.10
 
+
+
 ## New countries
 ### Balkans
 - B1L: Skopje–Ohrid
@@ -32,11 +34,13 @@
 - 'Nautikē Strategía' rank, ruled by a Strategós unless using the overlord’s ruler, for Kibyrrhaiōtai and Aigaíon Pélagos.
 - 'Hetaireía' for certain trade company tags and any new ones that are subjects of a Hellenic culture. They are ruled by a Logothétēs.
 
-# Government reform
+## Government reform
 - Kibyrrhaiōtai and Aigaíon Pélagos have been given the following naval-themed government reform, which boosts their naval potential.
   - Naval Theme Administration: "Coastal and island districts are organized into naval themes, where land, service, and fleet obligation are bound together. Through regulated levies and permanent maritime infrastructure, the state sustains large galley forces, rapid embarkation, and disciplined control of the frontier seas."
 
-# Balance changes
+- Steppe Tolerance: "Ruling over a vast and diverse steppe realm, the state governs through pragmatism rather than enforced unity. Customs, faiths, and peoples are permitted to coexist so long as tribute flows and order is maintained. This tolerance eases cultural administration but slows efforts at assimilation and religious conversion."
+
+## Balance changes
 - Anatolia and the Balkans have had various border adjustments.
 - Changed the starting towns in Bulgaria and Anatolia.
 - Anatolian and Balkan population adjustments.
@@ -48,10 +52,18 @@
   - Aigaíon Pélagos given 10 galleys.
 - Added 7 random characters to the ERE in its naval subjects.
 - Added 26 random female characters to the three main tags in Elysium.
-- Adjusted island country sizes.
+- Adjusted isles country size.
+- small pop growth increase for elysium
+- Gave mamluks light ships in the red sea to hopefully pull more trade toward egypt
 
-# Localization changes
+## Localization changes
 - Changed many Greek location names to be more based on historic spelling and less on phonetics.
+
+## Bug and compatibility fixes
+- changed the country base value edits to INJECT instead of replace to make it more compatible with other mods that add effects to the base country values.
+- Fixed tribal promotion bug I introduced.
+- Last updated I increased the amount of pops required for towns and cities this was my attempt to balance AI turning everything into towns and cities.   Anyway I have decreased towns to 10k required pops from 15 and cities to 40k from 45k.
+- Increased town and city control bonus from 0.05 to 0.1 and from 0.1 to 0.15.
 
 # Version 0.9 Ennéa
 
