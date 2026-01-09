@@ -14,6 +14,15 @@
     - Barracks
     - etc
 - Building based themata that work similar to the Shogunate.
+- Advances
+    - Restoration of the Imperial Polis
+    - Revival of the Logos 
+    - Restore Thematic Order
+    - Pronoia Reform
+    - Tagmata Modernization
+    - Nautikón Reform
+    - Restoration of Imperial Unity
+    -
 
 ## Patriachate tags
 - landless building based.

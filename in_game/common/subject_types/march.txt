@@ -79,7 +79,7 @@
 	can_change_heir_selection = yes
 
 	#BR added for testing
-	will_join_independence_wars = yes
+	#will_join_independence_wars = yes
 
 	minimum_opinion_for_offer = 150
 

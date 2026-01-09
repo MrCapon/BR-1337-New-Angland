@@ -8,6 +8,8 @@
 #can_invite_settlers = yes
 #global_fur_output_modifier = 0.1
 #global_wild_game_output_modifier = 0.1
+#local_separatism =  0.1
+#global_separatism = 0.1
 
 # to-do balance diversify icons
 

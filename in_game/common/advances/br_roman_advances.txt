@@ -114,6 +114,7 @@ roman_akritic_reforms = {
 	requires = roman_pronoial_administration
 
 	unlock_subject_type = march
+	unlock_estate_privilege = peasants_yeomanry
 }
 
 
@@ -172,7 +173,8 @@ roman_thematic_recruitment = {
 	}
 	requires = pike_square
 	#global_manpower_modifier = 0.1
-	global_levy_size_modifier = 0.05
+	#global_levy_size_modifier = 0.05
+	global_army_levy_size_modifier = 0.1
 	levy_recovery_modifier = 0.1
 	global_defensive = 0.1
 }

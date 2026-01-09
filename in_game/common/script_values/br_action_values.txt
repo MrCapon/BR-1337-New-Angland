@@ -1,4 +1,4 @@
-REPLACE:demand_unlawful_territory_cost = {
+﻿REPLACE:demand_unlawful_territory_cost = {
 	desc = "demand_unlawful_territory_cost"
 	value = 1 #was 75
 }

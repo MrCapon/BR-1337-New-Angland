@@ -1,7 +1,5 @@
 
-# 0.10
-
-
+# 0.10 Déka
 
 ## New countries
 ### Balkans
@@ -55,6 +53,7 @@
 - Adjusted isles country size.
 - small pop growth increase for elysium
 - Gave mamluks light ships in the red sea to hopefully pull more trade toward egypt
+- Moved my assimilation decrease to about 25-35% slower than vanilla down from 50% less. Once we get 1.1 from PDX will move the assimilation debuff to Complacency mechanic. 
 
 ## Localization changes
 - Changed many Greek location names to be more based on historic spelling and less on phonetics.
@@ -64,6 +63,8 @@
 - Fixed tribal promotion bug I introduced.
 - Last updated I increased the amount of pops required for towns and cities this was my attempt to balance AI turning everything into towns and cities.   Anyway I have decreased towns to 10k required pops from 15 and cities to 40k from 45k.
 - Increased town and city control bonus from 0.05 to 0.1 and from 0.1 to 0.15.
+
+**Full Changelog**: https://github.com/Basileia-Romaion/BR-1337/compare/0.9...0.10
 
 # Version 0.9 Ennéa
 
