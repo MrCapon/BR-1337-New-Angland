@@ -178,6 +178,44 @@ br_country_startup.1 = {
 				create_sub_unit_of_category = sub_unit_category:navy_galley
 			}
 		}
+		c:MAM = {
+			location:suez = {
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+			}
+		}
+	
 	}
 
 	option = {
