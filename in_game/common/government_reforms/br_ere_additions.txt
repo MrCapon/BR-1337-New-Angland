@@ -1,4 +1,5 @@
-﻿br_naval_akritai_reform = {
+﻿
+br_naval_akritai_reform = {
     age = age_1_traditions
     potential = {
         OR = {
@@ -15,10 +16,31 @@
 		army_disembark_speed = 0.1
 		navy_galley_build_cost_modifier = -0.5
 		allow_privateers_slave_raid = yes
-		navy_maintenance_cost = -0.25
+		#navy_maintenance_cost = -0.25
+        navy_galley_maintenance_cost_modifier = -0.5
         global_sailors_modifier = 0.25
 		expected_navy_size_modifier = 1.0
 		global_navy_levy_size_modifier = 1.0
     }
     years = 2
+}
+
+br_mongol_tolerance = {
+	age = age_1_traditions
+	potential = {
+		has_or_had_tag = GLH
+	}
+	country_modifier = {
+		add_accepted_culture_cost_modifier = -1
+		cultures_capacity = 5
+		tolerance_heathen = 2
+
+        global_pop_assimilation_speed_modifier = -0.85
+        global_pop_conversion_speed_modifier = -0.85
+        #local_tribesmen_migration_allowed = yes
+        #government_reform_slots = 1
+	}
+	major = yes
+	unique = yes
+	years = 2
 }
