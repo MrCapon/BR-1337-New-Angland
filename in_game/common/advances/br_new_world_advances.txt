@@ -54,7 +54,7 @@ br_vinland_naval_tradition = {
     global_maritime_presence_modifier = 0.1
 	#merchant_power_from_maritime_modifier = 0.2
 	#trade_sea_movement_cost_modifier = -0.2
-
+	global_naval_supplies_output_modifier = 0.1
     requires = ship_building_advance
 }
 
@@ -238,7 +238,9 @@ vinlander_new_world_identity = {
 		}
 	}
 	requires = crown_power_advance_revolutions
-	research_speed_modifier = 0.05
+	#research_speed_modifier = 0.05
+	cultures_capacity_modifier = 0.25
+	global_pop_assimilation_speed_modifier = 0.25
 }
 
 vinlander_army_of_the_western_seas = {
@@ -310,8 +312,8 @@ elysian_civic_syncretism = {
 		}
 	}
 	requires = feudalism_advance
-	global_pop_assimilation_speed_modifier = 0.25
-	tolerance_own = 1
+	cultures_capacity_modifier = 0.5
+	global_pop_assimilation_speed_modifier = 0.5
 }
 
 elysian_colonial_charters = {
