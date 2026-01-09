@@ -34,7 +34,7 @@ REPLACE:city = {
 	
 	allow = {
 		location_rank = location_rank:town
-		population >= 45 # was 30
+		population >= 40 # was 30
 		modifier:cannot_upgrade_location = no
 	}
 	max_rank = yes
@@ -99,7 +99,7 @@ REPLACE:rural_settlement = {
 		local_population_growth = 0.001
 		local_pop_assimilation_speed_modifier = -0.25 #br added
 		local_pop_conversion_speed_modifier = -0.25 #br added
-		local_tribal_promotion = -0.25 #br added
+		#local_tribal_promotion = -0.25 #br added
 	}
 	
 	country_modifier = {
