@@ -66,7 +66,8 @@ locations={
 	thessaloniki = { rank = city 	town_setup = greek_city_port }
 	candia = { rank = town 			town_setup = greek_town_port }
 	corinth = { rank = town 		town_setup = greek_town_port }
-	ioannina = { rank = town 		town_setup = balkan_town }
+	#ioannina = { rank = town 		town_setup = balkan_town }
+	arta = { rank = town 			town_setup = greek_town_port }
 	#kalamata = { rank = town 		town_setup = greek_town_port }
 	larissa = { rank = town 		town_setup = balkan_town }
 	rodos = { rank = town 			town_setup = greek_town_port }
@@ -4200,7 +4201,7 @@ building_manager = {
 	sergeantry = { tag = ATH level = 1 location =  athens }
 	sergeantry = { tag = THE level = 1 location =  thessaloniki }
 	sergeantry = { tag = DYR level = 1 location =  durres }
-	sergeantry = { tag = EPI level = 1 location =  ioannina }
+	sergeantry = { tag = EPI level = 1 location =  arta }
 	#hexamilion_wall = { tag = ATH level = 1 location =  corinth }
 
 	#Anatolia
@@ -4367,7 +4368,7 @@ building_manager = {
 
 	#Balkans
 	thema_headquarters = { tag = DYR level = 1 location = durres }
-	thema_headquarters = { tag = EPI level = 1 location = ioannina }
+	thema_headquarters = { tag = EPI level = 1 location = arta }
 	thema_headquarters = { tag = THE level = 1 location = thessaloniki }
 	thema_headquarters = { tag = THS level = 1 location = larissa }
 	thema_headquarters = { tag = ATH level = 1 location = athens }
@@ -4376,7 +4377,7 @@ building_manager = {
 
 
 	#Estate Manpower buildings
-	nobles_recruitment_center = { tag = EPI level = 1 location = arta }
+	nobles_recruitment_center = { tag = EPI level = 1 location = ioannina }
 	nobles_recruitment_center = { tag = EPI level = 1 location = angelokastron }
 	nobles_recruitment_center = { tag = ACH level = 1 location = andravida }
 	nobles_recruitment_center = { tag = ACH level = 1 location = kalamata }
@@ -4965,7 +4966,7 @@ building_manager = {
 	market_village = { tag = THE level = 1 location = edessa }
 	market_village = { tag = THE level = 1 location = kastoria }
 	market_village = { tag = THS level = 1 location = gravia }
-	market_village = { tag = EPI level = 1 location = arta }
+	market_village = { tag = EPI level = 2 location = ioannina }
 	market_village = { tag = EPI level = 1 location = angelokastron }
 	market_village = { tag = EPI level = 1 location = argyrokastro }
 	market_village = { tag = NEG level = 1 location = negroponte }
@@ -5305,7 +5306,7 @@ building_manager = {
 	nobility_fortifications = { tag = THE level = 1 location = edessa }
 	nobility_fortifications = { tag = THE level = 1 location = kastoria }
 	nobility_fortifications = { tag = THS level = 1 location = gravia }
-	nobility_fortifications = { tag = EPI level = 1 location = arta }
+	nobility_fortifications = { tag = EPI level = 1 location = ioannina }
 	nobility_fortifications = { tag = EPI level = 1 location = angelokastron }
 	nobility_fortifications = { tag = EPI level = 1 location = argyrokastro }
 	nobility_fortifications = { tag = NEG level = 1 location = negroponte }
@@ -5326,7 +5327,7 @@ building_manager = {
 	merchants_guild = { tag = CRT level = 1 location = candia }
 	merchants_guild = { tag = DYR level = 1 location = durres }
 	merchants_guild = { tag = CYP level = 1 location = larnaca }
-	noble_villa = { tag = EPI level = 1 location = arta }
+	noble_villa = { tag = EPI level = 1 location = ioannina }
 	parish_church = { tag = M0E level = 1 location = mystras }
 	parish_church = { tag = M0E level = 1 location = tripolitsa }
 	parish_church = { tag = ACH level = 1 location = kalamata }
@@ -5667,7 +5668,7 @@ building_manager = {
 	marketplace	= { tag = CRT level = 3 location = candia }
 	marketplace	= { tag = DYR level = 4 location = durres }
 	marketplace	= { tag = RAG level = 6 location = dubrovnik }
-	marketplace	= { tag = EPI level = 2 location = ioannina }
+	marketplace	= { tag = EPI level = 2 location = arta }
 	marketplace	= { tag = VEN level = 15 location = venice }
 	trading_hub = { tag = VEN level = 1 location =  venice }
 	entrepot = { tag = VEN level = 1 location =  venice }

@@ -12438,7 +12438,7 @@ countries = {
 			country_rank = rank_duchy
 			liturgical_language = khoine_dialect
 			
-			capital = ioannina
+			capital = arta
 		}
 		
 		THE = {
