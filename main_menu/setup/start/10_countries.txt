@@ -4152,6 +4152,7 @@ countries = {
 					sharia_law = hanafi_policy
 				}
 			}
+			
 			capital = sarai_al_jadid
 			religious_school = hanafi_school
 			government = { mysticism_vs_jurisprudence = -15 }
@@ -12377,13 +12378,12 @@ countries = {
 		
 		EPI = { #BR EDITED
 			own_control_core = {
-				angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
-				argyrokastro avlonya karpenisi konitsa
-				pyli
-				
+				angelokastron vonitsa arta preveza parga ioannina pyli karpenisi
+				kleisoura_epirus butrint argyrokastro avlonya konitsa
+
 			}
 			our_cores_conquered_by_others = {
-				zakynthos leukas cephalonia
+				zakynthos leukas cephalonia corfu
 				salona nafpaktos loidoriki
 			}
 			
@@ -51051,7 +51051,8 @@ countries = {
 				berat ballsh kavaje durres
 			}
 			our_cores_conquered_by_others = {
-				elbasan kruje tirana
+				elbasan kruje tirana devol debar
+				kleisoura_epirus avlonya # butrint argyrokastro konitsa 
 			}
 			
 			starting_technology_level = 3
