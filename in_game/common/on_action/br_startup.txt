@@ -58,6 +58,7 @@ br_on_game_start = {
             if = {
                 limit = { NOT = { has_advance = banking_advance } }
                 research_advance = advance_type:banking_advance
+				research_advance = advance_type:meritocracy_advance
 				research_advance = advance_type:merchants_and_trade
 				research_advance = advance_type:trade_range_advance_age_2
 				research_advance = advance_type:abacus_advance
@@ -82,9 +83,10 @@ br_on_game_start = {
 		every_country = {
 			limit = { has_reform = government_reform:br_new_world_colonial_reform }
 
+			research_advance = advance_type:new_world_advance
             research_advance = advance_type:colonial_charters
 			research_advance = advance_type:colonial_policy_advance
-			research_advance = advance_type:send_people_to_the_colonies_advance
+			#research_advance = advance_type:send_people_to_the_colonies_advance
         }
 		every_country = {
 			limit = {
