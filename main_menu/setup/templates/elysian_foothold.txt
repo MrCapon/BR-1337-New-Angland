@@ -40,6 +40,7 @@ government = {
 		#Commoners
 		allow_hunting
 		communal_lands
+		peasants_free_peasantry
 		peasants_allowed_weapons_privilege
 	}
 
@@ -51,6 +52,7 @@ government = {
 		#legal_code_law = byzantine_law
 		distribution_of_power_law = dop_favor_the_ruler
 		feudal_de_jure_law = by_blood
+
 	}
 	
 }
