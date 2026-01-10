@@ -4286,6 +4286,17 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = feo_demetrios_gabras
 				ruler_term = { character = feo_demetrios_gabras start_date = 1337.1.1 regnal_number = 1 }
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
+				}
 			}
 			country_rank = rank_duchy
 			capital = theodoro
@@ -12232,6 +12243,13 @@ countries = {
 					autocracy
 					theme_system
 				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
+				}
 			}
 			
 			tolerated_cultures = {
@@ -12264,6 +12282,18 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+
+				reforms = {
+					autocracy
+					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
+				}
 			}
 			
 			accepted_cultures = {
@@ -12426,6 +12456,13 @@ countries = {
 					autocracy
 					theme_system
 				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
+				}
 			}
 			
 			accepted_cultures = {
@@ -12480,6 +12517,13 @@ countries = {
 				reforms = {
 					autocracy
 					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
 				}
 			}
 			
@@ -12544,6 +12588,13 @@ countries = {
 					autocracy
 					theme_system
 				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
+				}
 				
 			}
 			
@@ -12585,6 +12636,13 @@ countries = {
 				reforms = {
 					autocracy
 					theme_system
+				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
 				}
 			}
 			
@@ -13161,7 +13219,10 @@ countries = {
 				mostar metkovic glamoc
 				vrhbosna konjic srebrenica doboj soli
 				jajce livno drijeva zenica kljuc srebrenik
-				kozara glaz teocak olovo borac nevesinje
+				glaz teocak olovo borac nevesinje
+			}
+			our_cores_conquered_by_others = {
+				kozara
 			}
 			
 			starting_technology_level = 3
@@ -13320,11 +13381,13 @@ countries = {
 				osijek
 				otocac srb bihac
 			}
+			own_control_integrated = {
+				kozara
+			}
 			our_cores_conquered_by_others = {
 				zadar split
 				sibenik kaseg knin novigrad crikvenica senj
 				krk makarska sinj
-				sremska_mitrovica petrovaradin
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -31246,14 +31309,15 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
-					#nobles
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -31940,14 +32004,15 @@ countries = {
 					name_theodora = 1
 					name_basil = 1
 				}
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
-					#nobles
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -51071,6 +51136,13 @@ countries = {
 					autocracy
 					theme_system
 				}
+				privilege = {
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
+					peasants_allowed_weapons_privilege
+				}
 				centralization_vs_decentralization = 35
 				traditionalist_vs_innovative = -75
 				spiritualist_vs_humanist = -75
@@ -51239,7 +51311,10 @@ countries = {
 					theme_system
 				}
 				privilege = {
+					akritai_privilege
 					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -51274,7 +51349,10 @@ countries = {
 					theme_system
 				}
 				privilege = {
+					akritai_privilege
 					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -51310,7 +51388,10 @@ countries = {
 					theme_system
 				}
 				privilege = {
+					akritai_privilege
 					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -51348,9 +51429,13 @@ countries = {
 				
 				reforms = {
 					autocracy
+					theme_system
 				}
 				privilege = {
+					akritai_privilege
 					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -51403,6 +51488,7 @@ countries = {
 					akritai_privilege
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 				centralization_vs_decentralization = 35
@@ -51485,6 +51571,7 @@ countries = {
                     auxilium_et_consilium
                     primacy_of_nobility
 					akritai_privilege
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
                 }
 				
@@ -51555,6 +51642,7 @@ countries = {
                     clergy_literacy_rights
                     auxilium_et_consilium
                     primacy_of_nobility
+					peasants_yeomanry
 					akritai_privilege
                 }
 				
@@ -51639,6 +51727,7 @@ countries = {
                     auxilium_et_consilium
                     primacy_of_nobility
 					akritai_privilege
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
                 }
 				
@@ -51756,6 +51845,7 @@ countries = {
 					akritai_privilege
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 			}
@@ -51817,6 +51907,7 @@ countries = {
 					akritai_privilege
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 				centralization_vs_decentralization = 35
@@ -51887,6 +51978,7 @@ countries = {
 					#joint_assembly_decrees
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 				centralization_vs_decentralization = 35
@@ -51959,6 +52051,7 @@ countries = {
 					#joint_assembly_decrees
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52029,6 +52122,7 @@ countries = {
 					#joint_assembly_decrees
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52099,6 +52193,7 @@ countries = {
 					#joint_assembly_decrees
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52286,6 +52381,7 @@ countries = {
 					#nobles
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 				centralization_vs_decentralization = 35
@@ -52354,6 +52450,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52416,6 +52513,7 @@ countries = {
 					#joint_assembly_decrees
 					#burghers
 					#peasants
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 				traditionalist_vs_innovative = -75
@@ -52471,6 +52569,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52530,6 +52629,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52587,6 +52687,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
@@ -52640,6 +52741,7 @@ countries = {
 					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
+					peasants_yeomanry
 					peasants_allowed_weapons_privilege
 				}
 
