@@ -15,8 +15,8 @@ rotunda_of_galerius_desc: "A monumental domed structure inherited from late anti
 church_of_hagia_sophia_nicaea: "Hagia Sophia of Nikaia"
 church_of_hagia_sophia_nicaea_desc: "The principal church of Nikaia, closely associated with councils, doctrine, and the exercise of imperial authority."
 
-mystras_palace_complex: "Palace of the Despots of the Morea"
-mystras_palace_complex_desc: "The administrative and ceremonial heart of Mystras, reflecting the final court culture of the Roman world through fortified elegance and refined architecture."
+#mystras_palace_complex: "Palace of the Despots of the Morea"
+#mystras_palace_complex_desc: "The administrative and ceremonial heart of Mystras, reflecting the final court culture of the Roman world through fortified elegance and refined architecture."
 
 vladimir_icon_of_mary: "Mother of God of Vladimir"
 vladimir_icon_of_mary_desc: "A revered Constantinopolitan icon celebrated for its emotional depth and enduring influence on Orthodox devotional art."
@@ -168,4 +168,108 @@ bagrati_cathedral_desc: "A royal cathedral symbolizing the spread of Roman archi
 gelati_monastery: "Gelati Monastery"
 gelati_monastery_desc: "A center of learning and art where architecture, scholarship, and sacred imagery converged."
 
+great_palace_of_constantinople: "Méga Palátion"
+great_palace_of_constantinople_desc: "The principal imperial residence and ceremonial heart of the Roman state, comprising audience halls, chapels, residences, and gardens where emperors governed and enacted the rituals of empire."
 
+blachernae_palace: "Blachérnai Palace"
+blachernae_palace_desc: "A later imperial residence near the land walls, favored by emperors for its defensible position and evolving ceremonial functions."
+
+bucoleon_palace: "Boukoléōn Palace"
+bucoleon_palace_desc: "A waterfront palace overlooking the Sea of Marmara, serving as a ceremonial residence and private retreat for the imperial household."
+
+palace_of_the_despots_mystras: "Palace of the Despots of the Morea"
+palace_of_the_despots_mystras_desc: "A dynastic residence and administrative court granted to imperial kin, symbolizing delegated authority within the Roman provincial order."
+
+trebizond_palace: "Imperial Palace of Trebizond"
+trebizond_palace_desc: "A regional imperial residence serving as the ceremonial and administrative center of Roman authority along the eastern Black Sea."
+
+thessaloniki_imperial_palace: "Imperial Palace of Thessaloniki"
+thessaloniki_imperial_palace_desc: "A provincial imperial court reflecting Thessaloniki’s role as a major administrative, military, and ceremonial center."
+
+nicaea_imperial_residence: "Imperial Residence of Nicaea"
+nicaea_imperial_residence_desc: "An administrative palace serving the emperors during periods of extended residence in western Anatolia."
+
+magnaura_palace: "Magnaura Residence"
+magnaura_palace_desc: "An aristocratic residence adjoining the imperial quarter of Constantinople, long associated with learning, diplomacy, and elite instruction. Though not an imperial palace, the Magnaura served as a gathering place for scholars, officials, and foreign envoys."
+
+boukoleon_villa: "Boukoleon Waterfront Villas"
+boukoleon_villa_desc: "A cluster of elite residences overlooking the Sea of Marmara, favored by high-ranking courtiers and members of the imperial household seeking privacy away from the formal ceremonial spaces of the capital."
+
+senatorial_hill_residences: "Senatorial Hill Residences"
+senatorial_hill_residences_desc: "Urban mansions belonging to Constantinople’s ancient senatorial families, reflecting the enduring prestige of Roman civic aristocracy within the imperial capital."
+
+athenian_aristocratic_estates: "Athenian Aristocratic Estates"
+athenian_aristocratic_estates_desc: "Refined residences of Athens’ landed and scholarly elite, blending classical traditions with Roman administrative culture and serving as centers of education and local patronage."
+
+thessaloniki_urban_villas: "Urban Villas of Thessaloniki"
+thessaloniki_urban_villas_desc: "Well-appointed mansions owned by merchant magnates and provincial aristocrats, reflecting Thessaloniki’s role as a major commercial and administrative hub of the Roman world."
+
+ohrid_episcopal_residence: "Episcopal Residence of Ohrid"
+ohrid_episcopal_residence_desc: "A fortified yet refined residence serving both clerical and aristocratic functions, symbolizing Ohrid’s importance as a religious and cultural center of the western Balkans."
+
+nicaea_governors_residence: "Governor’s Residence of Nicaea"
+nicaea_governors_residence_desc: "An elite administrative mansion used by provincial governors and senior officials, reflecting Nicaea’s longstanding role as a center of governance, law, and theology."
+
+cappadocian_estate_villas: "Cappadocian Estate Villas"
+cappadocian_estate_villas_desc: "Rural mansions carved into and built alongside Cappadocia’s distinctive landscape, serving as residences for landed elites, monastic patrons, and military administrators."
+
+latmos_aristocratic_residences: "Latmos Aristocratic Residences"
+latmos_aristocratic_residences_desc: "Secluded elite estates near Mount Latmos, favored by scholars, patrons of monastic communities, and provincial notables seeking retreat and contemplation."
+
+ravenna_court_residences: "Court Residences of Ravenna"
+ravenna_court_residences_desc: "Elegant mansions housing senior officials and courtiers, reflecting Ravenna’s continued importance as an administrative and ceremonial center of Roman authority in Italy."
+
+palatine_aristocratic_houses: "Palatine Aristocratic Houses"
+palatine_aristocratic_houses_desc: "Prestigious residences on and around the Palatine Hill, maintaining the legacy of Rome’s senatorial elite and their enduring claim to ancient civic prestige."
+
+#palermo_court_villas: "Court Villas of Palermo"
+#palermo_court_villas_desc: "Refined villas associated with Sicily’s courtly and administrative elite, blending Roman traditions with local architectural influences."
+
+jerusalem_patriarchal_residence: "Patriarchal Residence of Jerusalem"
+jerusalem_patriarchal_residence_desc: "A distinguished mansion serving the city’s highest clerical authority, combining spiritual prestige with aristocratic refinement in one of the Roman world’s most sacred cities."
+
+alexandrian_scholarly_villas: "Alexandrian Scholarly Villas"
+alexandrian_scholarly_villas_desc: "Residences of philosophers, physicians, and learned elites, continuing Alexandria’s ancient tradition as a center of scholarship, science, and intellectual exchange."
+
+# ==========================================
+# ANATOLIA – ADDITIONAL REGIONAL WORKS
+# ==========================================
+
+icon_of_saint_thekla: "Icon of Saint Thekla"
+icon_of_saint_thekla_desc: "A regional devotional icon venerating Saint Thekla, reflecting local traditions of sanctity and provincial Roman iconographic style."
+
+anatolian_theme_chronicle: "Chronicle of the Anatolian Themes"
+anatolian_theme_chronicle_desc: "A provincial historical account documenting the administration, warfare, and social life of the Roman themes of central Anatolia."
+
+ecclesiastical_liturgical_codex: "Ecclesiastical Liturgical Codex of Iconium"
+ecclesiastical_liturgical_codex_desc: "A cathedral-produced liturgical manuscript preserving regional rites, hymns, and ceremonial practices."
+
+christ_enthroned_iconium: "Christ Enthroned of Iconium"
+christ_enthroned_iconium_desc: "A metropolitan icon depicting Christ in majesty, combining classical compositional balance with regional theological emphasis."
+
+anatolian_ecclesiastical_law: "Anatolian Ecclesiastical Canon Law"
+anatolian_ecclesiastical_law_desc: "A clerical legal treatise compiling canon law traditions adapted to the ecclesiastical realities of Roman Anatolia."
+
+sivas_military_manual: "Military Manual of Sebasteia"
+sivas_military_manual_desc: "A practical military treatise reflecting frontier warfare, logistics, and command traditions of eastern Roman provinces."
+
+armenian_notable_mansion: "Mansion of an Armenian Notable"
+armenian_notable_mansion_desc: "An elite urban residence representing the integration of Armenian provincial elites into Roman administrative and social life."
+
+theotokos_of_tarsus: "Theotokos of Tarsus"
+theotokos_of_tarsus_desc: "A revered Marian icon expressing local devotional culture and the enduring theological traditions of Cilicia."
+
+cilician_court_annals: "Cilician Court Annals"
+cilician_court_annals_desc: "Courtly historical records documenting governance, diplomacy, and elite affairs in the Roman provinces of Cilicia."
+
+antalya_prayer_book: "Antalya Illuminated Prayer Book"
+antalya_prayer_book_desc: "A finely illuminated devotional manuscript blending regional artistic motifs with established Roman liturgical forms."
+
+saint_nicholas_of_tarsus: "Saint Nicholas of Tarsus"
+saint_nicholas_of_tarsus_desc: "A devotional icon emphasizing local traditions surrounding Saint Nicholas and his regional cult."
+
+aphrodisias_temple_church: "Temple-Church of Aphrodisias"
+aphrodisias_temple_church_desc: "A converted monumental structure illustrating the Christian adaptation of classical sacred architecture."
+
+cappadocian_merchant_villas: "Cappadocian Merchant Villas"
+cappadocian_merchant_villas_desc: "Affluent residential complexes reflecting the prosperity of Cappadocian trade networks and urban society."
