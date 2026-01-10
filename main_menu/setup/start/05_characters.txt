@@ -94850,7 +94850,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1110.1.1 #Unknown
 		birth = ani
 		death_date = 1160.1.1 #Unknown
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94862,7 +94862,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1187.1.1 #Exact date unknown
 		father = arm_zakare_i
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94874,7 +94874,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1212.1.1 #Exact date unknown
 		father = arm_sargis
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94886,7 +94886,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1227.1.1 #Exact date unknown
 		father = arm_sargis
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94898,7 +94898,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1250.1.1 #Exact date unknown
 		father = arm_ivane_i
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94910,7 +94910,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1261.1.1 #Exact date unknown
 		father = arm_zakare_ii
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94922,7 +94922,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1261.1.1 #Exact date unknown
 		father = arm_shahnshah
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94934,7 +94934,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1270.1.1 #Unknown
 		father = arm_shahnshah
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94946,7 +94946,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1320.1.1 #Unknown
 		father = arm_ivane_ii
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94957,7 +94957,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1260.1.1 #Unknown
 		birth = ani
 		father = arm_ivane_ii
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94968,7 +94968,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1285.1.1 #Unknown
 		birth = ani
 		father = arm_vahram
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94979,7 +94979,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1305.1.1 #Unknown
 		birth = ani
 		father = arm_zakare_iv
-		dynasty = zakarid_dynasty
+		dynasty = bagrationi_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -98927,7 +98927,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 60 dip = 60 mil = 95
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = kantakouzenos_dynasty
 		tag = A1G
 		admiral_trait = accomplished_sailor
 	}
@@ -98941,7 +98941,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 60 dip = 60 mil = 95
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = synadenos_dynasty
 		tag = K1B
 		admiral_trait = naval_showman
 	}
@@ -98955,7 +98955,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 33 dip = 33 mil = 100
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = erik_dynasty
 		tag = BYZ
 		admiral_trait = accomplished_sailor
 	}
@@ -98968,7 +98968,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 33 dip = 33 mil = 100
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = godwin_dynasty
 		tag = BYZ
 		general_trait = glory_seeker
 	}
@@ -98983,7 +98983,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 44 dip = 66 mil = 95
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = contarini_dynasty
 		tag = BYZ
 		admiral_trait = level_headed
 	}
@@ -98998,7 +98998,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 44 dip = 66 mil = 95
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = doria_dynasty
 		tag = BYZ
 		admiral_trait = ironside
 	}
@@ -99013,7 +99013,7 @@ adm = 31 dip = 34 mil = 24
 		adm = 44 dip = 66 mil = 100
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = correr_dynasty
 		tag = A1G
 		admiral_trait = level_headed
 	}
@@ -99028,9 +99028,49 @@ adm = 31 dip = 34 mil = 24
 		adm = 44 dip = 66 mil = 100
 		#father = 
 		#mother = 
-		#dynasty = "random"
+		dynasty = falier_dynasty
 		tag = K1B
 		admiral_trait = ironside
+	}
+
+	br_ere_rdm_character_08 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1319.1.1
+		birth = constantinople
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		dynasty = apokaukos_dynasty
+		tag = BYZ
+	}
+	br_ere_rdm_character_09 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1319.1.1
+		birth = constantinople
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		dynasty = angelos_dynasty
+		tag = BYZ
+	}
+	br_ere_rdm_character_10 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1319.1.1
+		birth = constantinople
+		#adm = 60 dip = 60 mil = 95
+		#father = 
+		#mother = 
+		dynasty = doukas_dynasty
+		tag = BYZ
 	}
 
 	#Elysium
