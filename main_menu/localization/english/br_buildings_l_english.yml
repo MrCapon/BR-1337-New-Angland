@@ -7,6 +7,11 @@
  br_varangian_recruitment_building: "Varangian Commandery"
  br_varangian_recruitment_building_desc: "Imperial offices and compounds maintained by Roman envoys for the enlistment of hardy foreign warriors from the northern lands. From these offices, seasoned Varangians are inducted into imperial service, pledging their strength, loyalty, and martial skill in return for pay, privilege, and honor under the Emperor’s banner."
 
+ br_great_palace_building: "Méga Palátion"
+ br_great_palace_building_desc: "The principal imperial residence and ceremonial heart of the Roman state, comprising audience halls, chapels, residences, and gardens where emperors governed and enacted the rituals of empire."
+
+ br_hagia_sophia_building: "Hagia Sophia"
+ br_hagia_sophia_building_desc: "$hagia_sophia$ was originally constructed c. 346 during the reign of Emperor Constantius II, burned down during the Nika Revolt in 532, and fully reconstructed and consecrated in 537 by Emperor Justinian, becoming the largest cathedral in Christendom. Designed by Anthemius of Tralles and Isidore of Miletus, it is renowned for its immense dome, innovative engineering, and detailed mosaics that reflect the grandeur of Orthodox Christianity."
 
  #Rural 
  fishing_village_pearl_maintenance: "Pearl Farming"
