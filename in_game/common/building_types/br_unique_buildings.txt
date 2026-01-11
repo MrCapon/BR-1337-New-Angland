@@ -120,3 +120,53 @@ br_varangian_recruitment_building = {
 	}
 	graphical_tags = { small_military }
 }
+
+br_great_palace_building = {
+	is_foreign = no
+	pop_type = nobles
+	max_levels = 1
+	
+	category = cultural_category
+	
+	employment_size = huge_noble_employment
+	
+	rural_settlement = no
+	town = no
+	city = yes
+
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	
+	allow = { always = no }
+
+	expensive = yes
+
+	build_time = large_cultural_building_time
+	
+	modifier = {
+		local_monthly_prosperity = 0.001
+		local_crown_estate_power = 0.5
+	}
+
+	capital_country_modifier = { 
+		#monthly_legitimacy = 0.05
+		diplomatic_reputation = diplomatic_reputation_severe_bonus 
+	}
+	
+	possible_production_methods = {
+		capital_building_maintenance
+	}
+	
+	custom_tags = { unique_palace }
+	construction_demand = capital_building_construction
+}
+
+
+
+
+
+
+
+
+
