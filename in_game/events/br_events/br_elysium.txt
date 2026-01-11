@@ -63,7 +63,7 @@ elysium.1 = {
 		hidden_effect = {
 			scope:target_location = {
 				change_development = development_extreme_bonus
-				change_prosperity = prosperity_extreme_bonus
+				change_prosperity = prosperity_radical_bonus
 				every_pop = {
 					limit = {
 						NOT = { culture = { is_accepted_in = root } }
