@@ -4153,6 +4153,7 @@ building_manager = {
 	sergeantry	= { tag = FRA level = 1 location = metz } #Sergeants at arms
 
 	#Greece and Balkans #BR edited
+	br_great_palace_building = { tag = BYZ level = 1 location =  constantinople } #Great Palace(s) of Constantinople
 	grand_palace = { tag = BYZ level = 1 location =  constantinople } #Great Palace(s) of Constantinople
 	royal_court = { tag = BYZ level = 1 location =  constantinople }
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
