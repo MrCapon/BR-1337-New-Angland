@@ -1,6 +1,6 @@
 diplomacy_manager = {
 	# Anglia
-	dependency = { first = NOR second = AGL subject_type = fiefdom } #Domionions replace the primary culture fiefdom is kinda close but doesn't change culture
+	#dependency = { first = NOR second = AGL subject_type = fiefdom } #Domionions replace the primary culture fiefdom is kinda close but doesn't change culture
 	dependency = { first = AGL second = EAG subject_type = vassal }
 	dependency = { first = AGL second = LSY subject_type = vassal }
 	dependency = { first = AGL second = NOL subject_type = vassal }
@@ -38,12 +38,12 @@ diplomacy_manager = {
 	scripted_mutual = { first = MYO second = UMH type = alliance }
 	
 	# Scandinavia
-	dependency = { first = NOR second = SKE subject_type = fiefdom }
 	dependency = { first = NOR second = ICE subject_type = fiefdom }
 	dependency = { first = NOR second = GRL subject_type = fiefdom }
 	dependency = { first = NOR second = ORK subject_type = vassal }
-	dependency = { first = NOR second = DAN subject_type = fiefdom }
-	dependency = { first = DAN second = ZEA subject_type = vassal }
+	dependency = { first = DAN second = SLV subject_type = vassal }
+    dependency = { first = DAN second = ZEA subject_type = vassal }
+    dependency = { first = DAN second = SKE subject_type = fiefdom }
     dependency = { first = NOR second = LOI subject_type = vassal }
 	dependency = { first = LOI second = MNN subject_type = vassal }
     dependency = { first = LOI second = GLS subject_type = vassal }
@@ -322,7 +322,6 @@ diplomacy_manager = {
     #------ERE/"Byzantium"-------- ###
     dependency = { first = BYZ second = FEO subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = THE subject_type = vassal } # Pronoïakon Ktéma
-    dependency = { first = BYZ second = THS subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = ATH subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = S1Y subject_type = fiefdom } # Pronoïakon Ktéma
 
@@ -349,6 +348,7 @@ diplomacy_manager = {
     dependency = { first = ATH second = M0E subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = THE second = B0R subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = THE second = THS subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = EPI second = DYR subject_type = march } # Thema
     dependency = { first = TRE second = AN3 subject_type = march } # Thema
 
