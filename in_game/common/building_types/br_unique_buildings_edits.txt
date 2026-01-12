@@ -97,3 +97,117 @@ REPLACE_OR_CREATE:order_stronghold = {
 	}
 	construction_demand = order_stronghold_construction
 }
+
+REPLACE_OR_CREATE:venetian_quarter = {
+	is_foreign = yes
+	pop_type = burghers
+	
+	need_good_relation = yes
+	employment_size = large_foreign_trade_employment
+	max_levels = italian_merchant_quarters_max_level
+	category = trade_category
+	town = yes
+	city = yes
+	country_potential = {
+		tag = VEN
+	}
+	location_potential = { this = location:constantinople }
+	allow = { within_naval_range_of = scope:actor }
+	remove_if = {
+		owner = {
+			NOT = { tag = VEN }
+		}
+	}
+	can_destroy = {
+		scope:building.owner = scope:actor
+	}
+	expensive = yes
+	build_time = trade_post_build_time
+	modifier = {
+		merchant_capacity_from_building = 2.50 #1.0
+		building_owner_maritime_presence = 0.1 #0.025
+	}
+	possible_production_methods = {
+		venetian_quarter_maintenance
+	}
+	construction_demand = market_center_building_construction
+}
+
+REPLACE_OR_CREATE:galata = {
+	is_foreign = yes
+	
+	need_good_relation = yes
+	pop_type = burghers
+	employment_size = large_foreign_trade_employment
+	max_levels = italian_merchant_quarters_max_level
+	category = trade_category
+	town = yes
+	city = yes
+	country_potential = {
+		tag = GEN
+	}
+	location_potential = { this = location:constantinople }
+	
+	remove_if = {
+		owner = {
+			NOT = { tag = GEN }
+		}
+	}
+
+	can_destroy = {
+		scope:building.owner = scope:actor
+	}
+
+	allow = { within_naval_range_of = scope:actor }
+	expensive = yes
+	build_time = trade_post_build_time
+	modifier = {
+		merchant_capacity_from_building = 2.50 #1.0
+		building_owner_maritime_presence = 0.1 #0.025
+	}
+	possible_production_methods = {
+		galata_maintenance
+	}
+	construction_demand = market_center_building_construction
+}
+
+REPLACE_OR_CREATE:theodosian_walls = {
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = theodosian_walls_max_level
+	
+	employment_size = theodosian_walls
+	category = defense_category
+	
+	
+	rural_settlement = no
+	town = no
+	city = yes
+	build_time = huge_unique_build_time
+
+	location_potential = {
+		this = location:constantinople
+	}
+	
+	country_potential = {
+		owns = location:constantinople
+	}
+
+	expensive = yes
+	possible_production_methods = {
+		basic_castle_maintenance
+	}
+	construction_demand = castle_construction
+
+	modifier = {
+		local_garrison_size = 2.0
+		local_defensive = 0.5
+		blocks_vision_from_land = yes
+		blocks_vision_from_sea = yes
+	}
+	
+	raw_modifier = {
+		fort_level = 3 #2
+		propagating_zone_of_control = no
+	}
+}

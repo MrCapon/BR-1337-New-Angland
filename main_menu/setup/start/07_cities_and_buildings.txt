@@ -1564,7 +1564,7 @@ building_manager = {
 	university	= { tag = PEA level = 1	location = perugia }
 	university	= { tag = PLE level = 1	location = dublin }
 	university	= { tag = FLO level = 1	location = florence }
-	university	= { tag = BYZ level = 1	location = constantinople } #https://en.wikipedia.org/wiki/University_of_Constantinople
+	#university	= { tag = BYZ level = 1	location = constantinople } #https://en.wikipedia.org/wiki/University_of_Constantinople
 	university	= { tag = ADU level = 1	location = cordoba }
 	university	= { tag = AIA level = 1	location = baghdad }
 	university	= { tag = MAM level = 1	location = alexandria }
@@ -4152,12 +4152,19 @@ building_manager = {
 	royal_court = { tag = FRA level = 1 location = metz }
 	sergeantry	= { tag = FRA level = 1 location = metz } #Sergeants at arms
 
-	## Greece and Balkans #BR edited
+	## Greece and Balkans
 	br_great_palace_building = { tag = BYZ level = 1 location =  constantinople } #Great Palace(s) of Constantinople
 	br_hagia_sophia_building = { tag = BYZ level = 1 location =  constantinople }
-	royal_court = { tag = BYZ level = 1 location =  constantinople }
+	br_senaton_building = { tag = BYZ level = 1 location =  constantinople }
+	br_constantinople_university = { tag = BYZ level = 1 location =  constantinople }
+	br_constantinople_shipyard = { tag = BYZ level = 1 location =  constantinople }
+	#Hippodrome
+	#halls
+	#each resource
+
+	
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
-	chancery = { tag = BYZ level = 1 location =  constantinople } #Senate
+	#chancery = { tag = BYZ level = 1 location =  constantinople } #Senate
 	constantinople_observatory = { tag = BYZ level = 1 location =  constantinople }
 	marketplace	= { tag = BYZ level = 24 location =  constantinople }
 	#merchants_quarters = { tag = BYZ level = 1 location =  constantinople }
@@ -4187,10 +4194,11 @@ building_manager = {
 	castle = { tag = BYZ level = 1 location =  constantinople }
 	theodosian_walls = { tag = BYZ level = 1 location = constantinople }
 	wharf = { tag = BYZ level = 1 location =  constantinople }
-	grand_shipyard = { tag = BYZ level = 1 location = constantinople }
+	#grand_shipyard = { tag = BYZ level = 1 location = constantinople }
 	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
 	#coastal_fort  = { tag = BYZ level = 1 location =  constantinople }
 	construction_center = { tag = BYZ level = 1 location =  constantinople }
+	
 	dock = { tag = THE level = 1 location = thessaloniki }
 	wharf = { tag = THE level = 1 location = thessaloniki }
 	lazaretto = { tag = THE level = 1 location = thessaloniki }

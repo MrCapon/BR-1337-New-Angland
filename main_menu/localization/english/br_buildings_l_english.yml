@@ -13,6 +13,9 @@
  br_hagia_sophia_building: "Hagia Sophia"
  br_hagia_sophia_building_desc: "$hagia_sophia$ was originally constructed c. 346 during the reign of Emperor Constantius II, burned down during the Nika Revolt in 532, and fully reconstructed and consecrated in 537 by Emperor Justinian, becoming the largest cathedral in Christendom. Designed by Anthemius of Tralles and Isidore of Miletus, it is renowned for its immense dome, innovative engineering, and detailed mosaics that reflect the grandeur of Orthodox Christianity."
 
+ br_senaton_building: "The Sénaton"
+ br_senaton_building_desc: "The hall in which the Sýnklētos (Senate) convenes, preserving the unbroken civic tradition of the Roman people from the ancient Republic, through Constantine, and into the present age."
+
  #Rural 
  fishing_village_pearl_maintenance: "Pearl Farming"
  farming_village_wool_maintenance: "Wool Farming"
