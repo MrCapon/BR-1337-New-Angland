@@ -194,10 +194,10 @@ br_hagia_sophia_building = {
 
 
 	unique_production_methods = {
-		cathedral_maintenance = {
-			glass = 0.05
+		br_hagia_sophia_building_maintenance = {
+			glass = 0.1
 			cloth = 0.05
-			fine_cloth = 0.025
+			fine_cloth = 0.05
 			paper = 0.1
 			copper = 0.05
 			tools = 0.05
@@ -211,7 +211,7 @@ br_hagia_sophia_building = {
 	#obsolete = cathedral
 	
 	modifier = {
-		local_clergy_max_literacy = 10
+		local_clergy_max_literacy = 20
 		monthly_prestige = 0.05
 		global_pop_conversion_speed_modifier = 0.25
 	}
@@ -253,12 +253,12 @@ br_senaton_building = {
 	}
 	
 	unique_production_methods = {
-		royal_court_maintenance = {
+		br_senaton_building_maintenance = {
 			furniture = 0.15
 			tools = 0.05
 			glass = 0.1
-			fine_cloth = 0.2
-			books = 0.1
+			fine_cloth = 0.25
+			books = 0.15
 			goods_gold = 0.1
 			marble = 0.1
 				

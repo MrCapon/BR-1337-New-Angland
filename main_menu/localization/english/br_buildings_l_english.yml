@@ -3,18 +3,32 @@
  orthodox_order_commandery: "Order Commandery"
  orthodox_order_commandery_desc: "An $orthodox_order_commandery$ is a building owned by the military orders outside their own territory that serves two purposes: getting revenues from the exploitation of the surrounding lands and drafting new members for the order."
  orthodox_order_commandery_tt: "Owner gives [ShowRelationTypeName('military_sponsorship')] to us"
+ #orthodox_order_commandery_maintenance
 
  br_varangian_recruitment_building: "Varangian Commandery"
  br_varangian_recruitment_building_desc: "Imperial offices and compounds maintained by Roman envoys for the enlistment of hardy foreign warriors from the northern lands. From these offices, seasoned Varangians are inducted into imperial service, pledging their strength, loyalty, and martial skill in return for pay, privilege, and honor under the Emperor’s banner."
+ #br_varangian_recruitment_building_maintenance
 
  br_great_palace_building: "Méga Palátion"
  br_great_palace_building_desc: "The principal imperial residence and ceremonial heart of the Roman state, comprising audience halls, chapels, residences, and gardens where emperors governed and enacted the rituals of empire."
+ #br_great_palace_building_maintenance
 
  br_hagia_sophia_building: "Hagia Sophia"
  br_hagia_sophia_building_desc: "$hagia_sophia$ was originally constructed c. 346 during the reign of Emperor Constantius II, burned down during the Nika Revolt in 532, and fully reconstructed and consecrated in 537 by Emperor Justinian, becoming the largest cathedral in Christendom. Designed by Anthemius of Tralles and Isidore of Miletus, it is renowned for its immense dome, innovative engineering, and detailed mosaics that reflect the grandeur of Orthodox Christianity."
+ br_hagia_sophia_building_maintenance: "Hagia Sophia Maintenance"
 
  br_senaton_building: "The Sénaton"
  br_senaton_building_desc: "The hall in which the Sýnklētos (Senate) convenes, preserving the unbroken civic tradition of the Roman people from the ancient Republic, through Constantine, and into the present age."
+ br_senaton_building_maintenance: "Sénaton Maintenance"
+
+ br_constantinople_university: "Pandidakterion"
+ br_constantinople_university_desc: "Founded to preserve and cultivate the totality of Roman knowledge, the Pandidakterion stands as the foremost center of learning in the empire. Here, law, philosophy, rhetoric, medicine, and theology are taught in an unbroken tradition stretching back to Late Antiquity. Scholars trained within its halls shape the imperial administration, the courts, and the conscience of the Roman world itself."
+ br_constantinople_university_maintenance: "Pandidakterion Maintenance"
+
+ br_constantinople_shipyard: "Kontoskalion & Prosphorion"
+ br_constantinople_shipyard_desc: "The twin harbors of the Queen of Cities, where the lifeblood of the Roman world flows in and out with the tides. From the sheltered basins of the Kontoskalion to the bustling quays of the Prosphorion, grain fleets, merchants, and war galleys alike have sustained Constantinople since its founding. Fortified, regulated, and ceaselessly active, these ports bind the capital to every sea under Roman influence."
+ br_constantinople_shipyard_maintenance: "Kontoskalion & Prosphorion Maintenance"
+
 
  #Rural 
  fishing_village_pearl_maintenance: "Pearl Farming"
