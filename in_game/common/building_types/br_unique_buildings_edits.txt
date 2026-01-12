@@ -124,7 +124,8 @@ REPLACE_OR_CREATE:venetian_quarter = {
 	expensive = yes
 	build_time = trade_post_build_time
 	modifier = {
-		merchant_capacity_from_building = 2.50 #1.0
+		merchant_capacity_from_building = 2.5 #1.0
+		merchant_power_from_building = 2.5 #br added
 		building_owner_maritime_presence = 0.1 #0.025
 	}
 	possible_production_methods = {
@@ -162,7 +163,8 @@ REPLACE_OR_CREATE:galata = {
 	expensive = yes
 	build_time = trade_post_build_time
 	modifier = {
-		merchant_capacity_from_building = 2.50 #1.0
+		merchant_capacity_from_building = 2.5 #1.0
+		merchant_power_from_building = 2.5 #br added
 		building_owner_maritime_presence = 0.1 #0.025
 	}
 	possible_production_methods = {
