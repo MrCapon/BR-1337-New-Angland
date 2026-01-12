@@ -193,6 +193,7 @@ countries = {
 			include = "catholic_monarchy"
 			
 			government = {
+				ruler = br_nse_character_01
 				ruler_term = { character = dan_gorm_the_old start_date = 936.1.1 end_date = 963.1.1 regnal_number = 1 }
 				ruler_term = { character = dan_harald_bluetooth start_date = 963.1.1 end_date = 986.11.1 regnal_number = 1 }
 				ruler_term = { character = eng_sweyn_forkbeard start_date = 986.11.1 end_date = 1014.2.3 regnal_number = 1 }
@@ -319,10 +320,10 @@ countries = {
 				ronneby bregne solvesborg
 				gladsax osby
 				helsingborg lund malmo
+				laholm asbo
 			}
 			
 			our_cores_conquered_by_others = {
-				laholm asbo
 			}
 			
 			
@@ -331,7 +332,7 @@ countries = {
 			include = "catholic_monarchy"
 			include = "expl_scandinavia"
 			
-			country_rank = rank_kingdom
+			country_rank = rank_duchy
 			
 			
 			government = {
@@ -386,7 +387,7 @@ countries = {
 				kirkenes
 			}
 			own_control_conquered = {
-				laholm asbo
+				#laholm asbo
 			}
 			
 			accepted_cultures = {
@@ -396,12 +397,11 @@ countries = {
 			capital = oslo
 			
 			country_rank = rank_kingdom
-			dynasty = siggurson_dynasty
 			
 			include = "catholic_monarchy"
 			include = "expl_scandinavia"
 			government = {
-				ruler = random
+				ruler = br_nse_character_0
 				
 				centralization_vs_decentralization = 40
 				aristocracy_vs_plutocracy = -25
@@ -428,6 +428,8 @@ countries = {
 				
 				
 			}
+
+			dynasty = siggurson_dynasty
 			
 		}
 		
@@ -4359,7 +4361,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = random
+				ruler = br_nse_character_0
 			}
 			
 			accepted_cultures = {
