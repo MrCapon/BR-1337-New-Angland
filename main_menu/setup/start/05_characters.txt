@@ -131,7 +131,7 @@ character_db={
 		birth_date = 1275
 		death_date = 1320
 		birth = oslo
-		dynasty = sudrheimaetten_dynasty
+		dynasty = siggurson_dynasty #sudrheimaetten_dynasty
 		tag = NOR
 	}
 	
@@ -145,7 +145,7 @@ character_db={
 		birth = oslo
 		father = nor_havtore_jonsson
 		mother = nor_agnes
-		dynasty = sudrheimaetten_dynasty
+		dynasty = siggurson_dynasty #sudrheimaetten_dynasty
 		tag = NOR
 	}
 
@@ -158,7 +158,7 @@ character_db={
 		birth = oslo
 		father = nor_havtore_jonsson
 		mother = nor_agnes
-		dynasty = sudrheimaetten_dynasty
+		dynasty = siggurson_dynasty #sudrheimaetten_dynasty
 		tag = NOR
 	}
 	
@@ -337,7 +337,7 @@ character_db={
 		death_date = 1134.6.4
 		birth = stockholm # unknown
 		father = dan_niels
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = SWE
 	}
 
@@ -373,7 +373,7 @@ character_db={
 		death_date = 1161.1.1
 		birth = stockholm # unknown
 		father = dan_henrik_skadelar
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = SWE
 	}
 
@@ -5283,7 +5283,7 @@ character_db={
 		birth_date = 1019.1.1 #Exact date unknown
 		birth = london
 		death_date = 1076.4.28
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		mother = dan_estrid_svensdatter
 		tag = DAN
 	}
@@ -5297,7 +5297,7 @@ character_db={
 		birth = aarhus
 		death_date = 1080.4.17
 		father = dan_sweyn_estridsson
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5310,7 +5310,7 @@ character_db={
 		birth = aarhus
 		death_date = 1086.7.10
 		father = dan_sweyn_estridsson
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5323,7 +5323,7 @@ character_db={
 		birth = aarhus
 		death_date = 1095.8.18
 		father = dan_sweyn_estridsson
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 	
@@ -5336,7 +5336,7 @@ character_db={
 		birth = helsingor
 		death_date = 1103.7.10
 		father = dan_sweyn_estridsson
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5348,7 +5348,7 @@ character_db={
 		birth = helsingor
 		death_date = 1104.1.1 #Exact date unknown
 		father = dan_sweyn_estridsson
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5360,7 +5360,7 @@ character_db={
 		birth = aarhus
 		death_date = 1134.6.25
 		father = dan_sweyn_estridsson
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5372,7 +5372,7 @@ character_db={
 		birth = aarhus
 		death_date = 1134.6.4
 		father = dan_svend_tronkraever
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5384,7 +5384,7 @@ character_db={
 		birth = aarhus
 		death_date = 1162.3.12
 		father = dan_henrik_skadelar
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5396,7 +5396,7 @@ character_db={
 		birth = aarhus
 		death_date = 1167.1.1 #Exact date unknown
 		father = dan_henrik_skadelar
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5409,7 +5409,7 @@ character_db={
 		birth = aarhus
 		death_date = 1137.9.18
 		father = dan_erik_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5421,7 +5421,7 @@ character_db={
 		birth = roskilde
 		death_date = 1131.1.7
 		father = dan_erik_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5434,7 +5434,7 @@ character_db={
 		birth = roskilde
 		death_date = 1140.1.7 #Unknown
 		father = dan_erik_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5447,7 +5447,7 @@ character_db={
 		birth = roskilde
 		death_date = 1146.8.27
 		mother = dan_ragnhild
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5459,7 +5459,7 @@ character_db={
 		birth = roskilde
 		death_date = 1157.10.23
 		father = dan_erik_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5471,7 +5471,7 @@ character_db={
 		birth = roskilde
 		death_date = 1157.10.23
 		father = swe_magnus_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5484,7 +5484,7 @@ character_db={
 		birth = slesvig
 		death_date = 1182.5.12
 		father = dan_canute_lavard
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5496,7 +5496,7 @@ character_db={
 		birth = roskilde
 		death_date = 1173.6.15
 		father = dan_valdemar_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5508,7 +5508,7 @@ character_db={
 		birth = roskilde
 		death_date = 1202.11.12
 		father = dan_valdemar_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5521,7 +5521,7 @@ character_db={
 		birth = ribe
 		death_date = 1241.3.28
 		father = dan_valdemar_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5534,7 +5534,7 @@ character_db={
 		birth = ribe
 		death_date = 1231.11.28
 		father = dan_valdemar_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5547,7 +5547,7 @@ character_db={
 		birth = ribe
 		death_date = 1250.8.10
 		father = dan_valdemar_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5559,7 +5559,7 @@ character_db={
 		birth = ribe
 		death_date = 1252.6.29
 		father = dan_valdemar_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5571,7 +5571,7 @@ character_db={
 		birth = slesvig
 		death_date = 1257.1.1 #Exact date unknown
 		father = dan_abel
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5583,7 +5583,7 @@ character_db={
 		birth = slesvig
 		death_date = 1272.5.27
 		father = dan_abel
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5595,7 +5595,7 @@ character_db={
 		birth = slesvig
 		death_date = 1312.4.30
 		father = dan_erik_schleswig
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5607,7 +5607,7 @@ character_db={
 		birth = ribe
 		death_date = 1259.5.29
 		father = dan_valdemar_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5620,7 +5620,7 @@ character_db={
 		birth = navskov
 		death_date = 1286.11.22
 		father = dan_christopher_i
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5633,7 +5633,7 @@ character_db={
 		birth = navskov
 		death_date = 1319.11.13
 		father = dan_erik_v
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5645,7 +5645,7 @@ character_db={
 		birth = slesvig
 		death_date = 1325.3.12
 		father = dan_valdemar_iv_shleswig
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = SLV
 	}
 	
@@ -5657,7 +5657,7 @@ character_db={
 		birth = slesvig
 		father = dan_erik_ii_schleswig
 		mother = dan_adelaide_holstein
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = SLV
 	}
 
@@ -5669,7 +5669,7 @@ character_db={
 		birth = helsingor
 		death_date = 1332.8.2
 		father = dan_erik_v
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 
@@ -5682,7 +5682,7 @@ character_db={
 		birth = helsingor
 		father = dan_chistopher_ii
 		death_date = 1331.12.1 #Exact date unknown
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 	
@@ -5694,7 +5694,7 @@ character_db={
 		birth_date = 1310.1.1 #Exact date unknown
 		birth = helsingor
 		father = dan_chistopher_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = DAN
 	}
 	
@@ -5706,7 +5706,7 @@ character_db={
 		birth_date = 1320.1.1
 		birth = helsingor
 		father = dan_chistopher_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = UBV
 	}
 
@@ -5720,7 +5720,7 @@ character_db={
 		birth = slesvig
 		father = dan_erik_ii_schleswig
 		mother = dan_adelaide_holstein
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = SLV
 	}
 
@@ -82608,7 +82608,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1305.1.1
 		birth = roskilde
 		father = dan_chistopher_ii
-		dynasty = estrid_dynasty
+		dynasty = siggurson_dynasty #estrid_dynasty
 		tag = BRA
 	}
 
@@ -98913,542 +98913,6 @@ adm = 31 dip = 34 mil = 24
 		birth = kaimana
 		dynasty = kaimana_dynasty
 		tag = KAM
-	}
-
-	#NEW BR Characters
-
-	#ERE
-	br_ere_rdm_character_00 = {
-		first_name = "random"
-		culture = greek_culture
-		religion = orthodox
-		birth_date = 1301.1.1
-		birth = canakkale
-		adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		dynasty = kantakouzenos_dynasty
-		tag = A1G
-		admiral_trait = accomplished_sailor
-	}
-
-	br_ere_rdm_character_01 = {
-		first_name = "random"
-		culture = greek_culture
-		religion = orthodox
-		birth_date = 1301.1.1
-		birth = antalya
-		adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		dynasty = synadenos_dynasty
-		tag = K1B
-		admiral_trait = naval_showman
-	}
-
-	br_ere_rdm_character_02 = {
-		first_name = "random"
-		culture = varangian
-		religion = orthodox
-		birth_date = 1301.1.1
-		birth = constantinople
-		adm = 33 dip = 33 mil = 100
-		#father = 
-		#mother = 
-		dynasty = erik_dynasty
-		tag = BYZ
-		admiral_trait = accomplished_sailor
-	}
-	br_ere_rdm_character_03 = {
-		first_name = "random"
-		culture = varangian
-		religion = orthodox
-		birth_date = 1301.1.1
-		birth = constantinople
-		adm = 33 dip = 33 mil = 100
-		#father = 
-		#mother = 
-		dynasty = godwin_dynasty
-		tag = BYZ
-		general_trait = glory_seeker
-	}
-
-	br_ere_rdm_character_04 = {
-		first_name = "random"
-		culture = latinoi
-		religion = catholic
-		estate = burghers_estate
-		birth_date = 1301.1.1
-		birth = constantinople
-		adm = 44 dip = 66 mil = 95
-		#father = 
-		#mother = 
-		dynasty = contarini_dynasty
-		tag = BYZ
-		admiral_trait = level_headed
-	}
-
-	br_ere_rdm_character_05 = {
-		first_name = "random"
-		culture = latinoi
-		religion = catholic
-		estate = burghers_estate
-		birth_date = 1301.1.1
-		birth = constantinople
-		adm = 44 dip = 66 mil = 95
-		#father = 
-		#mother = 
-		dynasty = doria_dynasty
-		tag = BYZ
-		admiral_trait = ironside
-	}
-
-	br_ere_rdm_character_06 = {
-		first_name = "random"
-		culture = latinoi
-		religion = catholic
-		estate = burghers_estate
-		birth_date = 1301.1.1
-		birth = canakkale
-		adm = 44 dip = 66 mil = 100
-		#father = 
-		#mother = 
-		dynasty = correr_dynasty
-		tag = A1G
-		admiral_trait = level_headed
-	}
-
-	br_ere_rdm_character_07 = {
-		first_name = "random"
-		culture = latinoi
-		religion = catholic
-		estate = burghers_estate
-		birth_date = 1301.1.1
-		birth = antalya
-		adm = 44 dip = 66 mil = 100
-		#father = 
-		#mother = 
-		dynasty = falier_dynasty
-		tag = K1B
-		admiral_trait = ironside
-	}
-
-	br_ere_rdm_character_08 = {
-		first_name = "random"
-		culture = greek_culture
-		religion = orthodox
-		female = yes
-		birth_date = 1319.1.1
-		birth = constantinople
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		dynasty = apokaukos_dynasty
-		tag = BYZ
-	}
-	br_ere_rdm_character_09 = {
-		first_name = "random"
-		culture = greek_culture
-		religion = orthodox
-		female = yes
-		birth_date = 1319.1.1
-		birth = constantinople
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		dynasty = angelos_dynasty
-		tag = BYZ
-	}
-	br_ere_rdm_character_10 = {
-		first_name = "random"
-		culture = greek_culture
-		religion = orthodox
-		female = yes
-		birth_date = 1319.1.1
-		birth = constantinople
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		dynasty = doukas_dynasty
-		tag = BYZ
-	}
-
-	#Elysium
-
-	#E1Y
-	br_ely_rdm_character_00 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1316.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_01 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1316.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_02 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_03 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_04 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1319.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_05 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		birth_date = 1319.1.1
-		birth = patapsco
-		female = yes
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_06 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1316.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_07 = {
-		first_name = "random"
-		culture = aureliani
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1316.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_08 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_09 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	br_ely_rdm_character_10 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1319.1.1
-		birth = patapsco
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E1Y
-	}
-
-	#E2Y
-	br_ely_rdm_character_11 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		female = yes
-		birth_date = 1316.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_12 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		female = yes
-		birth_date = 1316.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_13 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		female = yes
-		birth_date = 1317.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_14 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		female = yes
-		birth_date = 1317.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_15 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		female = yes
-		birth_date = 1319.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_16 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		birth_date = 1319.1.1
-		birth = nansemond
-		female = yes
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_17 = {
-		first_name = "random"
-		culture = photianoi
-		religion = orthodox
-		female = yes
-		birth_date = 1316.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_18 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = orthodox
-		female = yes
-		birth_date = 1316.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_19 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = orthodox
-		female = yes
-		birth_date = 1317.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	br_ely_rdm_character_20 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = orthodox
-		female = yes
-		birth_date = 1317.1.1
-		birth = nansemond
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = E2Y
-	}
-
-	#K1K
-	br_ely_rdm_character_21 = {
-		first_name = "random"
-		culture = kykladian_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = abacoa
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = K1K
-	}
-	br_ely_rdm_character_22 = {
-		first_name = "random"
-		culture = kykladian_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = abacoa
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = K1K
-	}
-	br_ely_rdm_character_23 = {
-		first_name = "random"
-		culture = kykladian_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = abacoa
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = K1K
-	}
-	br_ely_rdm_character_24 = {
-		first_name = "random"
-		culture = kykladian_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = abacoa
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = K1K
-	}
-	br_ely_rdm_character_25 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = abacoa
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = K1K
-	}
-	br_ely_rdm_character_26 = {
-		first_name = "random"
-		culture = elyrics_culture
-		religion = hellenism_religion
-		female = yes
-		birth_date = 1317.1.1
-		birth = abacoa
-		#adm = 60 dip = 60 mil = 95
-		#father = 
-		#mother = 
-		#dynasty = "random"
-		tag = K1K
 	}
 
 }
