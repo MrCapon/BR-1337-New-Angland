@@ -29,6 +29,8 @@
  br_constantinople_shipyard_desc: "The twin harbors of the Queen of Cities, where the lifeblood of the Roman world flows in and out with the tides. From the sheltered basins of the Kontoskalion to the bustling quays of the Prosphorion, grain fleets, merchants, and war galleys alike have sustained Constantinople since its founding. Fortified, regulated, and ceaselessly active, these ports bind the capital to every sea under Roman influence."
  br_constantinople_shipyard_maintenance: "Kontoskalion & Prosphorion Maintenance"
 
+ br_hippodrome_building: "Hippodrome of Constantinople"
+ br_hippodrome_building_desc: "The great arena of the capital, where sport, ceremony, and politics converge before the eyes of the people. More than a place of spectacle, the Hippodrome has long served as a public forum through which popular will, factional rivalry, and imperial authority are expressed. Its crowds have celebrated emperors, condemned ministers, and shaped the rhythm of civic life in the Queen of Cities."
 
  #Rural 
  fishing_village_pearl_maintenance: "Pearl Farming"

@@ -151,7 +151,7 @@ br_great_palace_building = {
 
 	capital_country_modifier = { 
 		monthly_prestige = 0.025
-		cultural_influence_modifier = 0.25
+		#cultural_influence_modifier = 0.25
 		diplomatic_capacity_modifier = 0.25
 		diplomatic_reputation = diplomatic_reputation_severe_bonus
 		monthly_towards_absolutism = societal_value_tiny_monthly_move
@@ -197,8 +197,10 @@ br_hagia_sophia_building = {
 		br_hagia_sophia_building_maintenance = {
 			glass = 0.1
 			cloth = 0.05
+			wine = 0.1
 			fine_cloth = 0.05
-			paper = 0.1
+			books = 0.15
+			paper = 0.15
 			copper = 0.05
 			tools = 0.05
 			category = building_maintenance
@@ -255,9 +257,10 @@ br_senaton_building = {
 	unique_production_methods = {
 		br_senaton_building_maintenance = {
 			furniture = 0.15
-			tools = 0.05
+			tools = 0.1
 			glass = 0.1
 			fine_cloth = 0.25
+			paper = 0.25
 			books = 0.15
 			goods_gold = 0.1
 			marble = 0.1
@@ -300,19 +303,19 @@ br_constantinople_university = {
 		local_clergy_max_literacy = 5
 		local_burghers_max_literacy = 5
 		#local_max_literacy = 5
-		local_cultural_influence = 0.5
+		local_cultural_influence = 1
 		local_monthly_literacy = 0.1
 		local_migration_attraction = 0.05
-		local_pop_promotion_speed = 0.01
+		local_pop_promotion_speed = 0.025
 		local_institution_growth_modifier = 0.33
 	}
 	
 	unique_production_methods = {
 		br_constantinople_university_maintenance = {
-		paper = 0.50 #0.50
-		books = 0.25 #0.25
+		paper = 0.75 #0.50
+		books = 0.5 #0.25
 		glass = 0.25
-		beeswax = 0.05
+		beeswax = 0.1
 	
 		category = building_maintenance
 		}
@@ -371,6 +374,61 @@ br_constantinople_shipyard = {
 	}
 }
 
+br_hippodrome_building = {
+	is_foreign = no
+	pop_type = burghers
+	max_levels = 1
+	
+	category = cultural_category
+	
+	employment_size = huge_foreign_trade_employment #large_burgher_employment
+	
+	rural_settlement = no
+	town = yes
+	city = yes
 
+	
+	location_potential = {
+		this = location:constantinople
+	}
+	
+	allow = { always = no }
+	expensive = yes
 
+	build_time = cultural_building_time
+	
+	modifier = {
+		#local_cultural_tradition = 0.5
+		#local_cultural_influence = 0.5
+		local_unrest = -0.1
+		#local_peasants_estate_power = 0.25 #power of the mob
+	}
+	capital_country_modifier = { 
+		monthly_prestige = 0.025
+		cultural_influence_modifier = 0.25
+		cultural_tradition_modifier = 0.25
+	}
 
+	unique_production_methods = {
+		br_hippodrome_building_maintenance = {
+			furniture = 0.1
+			wheat = 1
+			fish = 0.25
+			fruit = 0.25
+			olives = 0.25
+			livestock = 0.25
+			wine = 1
+			liquor = 0.25
+			tools = 0.1
+			cloth = 0.1
+			glass = 0.1
+			horses = 1
+			lumber = 0.2
+			masonry = 0.25
+			#stone = 0.2
+			#marble = 0.1
+			category = building_maintenance
+		}
+	}
+	construction_demand = university_construction
+}

@@ -4153,16 +4153,14 @@ building_manager = {
 	sergeantry	= { tag = FRA level = 1 location = metz } #Sergeants at arms
 
 	## Greece and Balkans
+	#Unique Buildings - Constantinople
 	br_great_palace_building = { tag = BYZ level = 1 location =  constantinople } #Great Palace(s) of Constantinople
 	br_hagia_sophia_building = { tag = BYZ level = 1 location =  constantinople }
 	br_senaton_building = { tag = BYZ level = 1 location =  constantinople }
 	br_constantinople_university = { tag = BYZ level = 1 location =  constantinople }
 	br_constantinople_shipyard = { tag = BYZ level = 1 location =  constantinople }
-	#Hippodrome
-	#halls
-	#each resource
+	br_hippodrome_building = { tag = BYZ level = 1 location =  constantinople }
 
-	
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
 	#chancery = { tag = BYZ level = 1 location =  constantinople } #Senate
 	constantinople_observatory = { tag = BYZ level = 1 location =  constantinople }
