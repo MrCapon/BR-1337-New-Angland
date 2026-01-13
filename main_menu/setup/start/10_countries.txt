@@ -12259,7 +12259,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			capital = athens
+			capital = thebes
 		}
 		
 		

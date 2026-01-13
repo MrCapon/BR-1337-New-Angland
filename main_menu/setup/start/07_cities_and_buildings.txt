@@ -4205,9 +4205,9 @@ building_manager = {
 	counting_house = { tag = THE level = 1 location = thessaloniki }
 	cathedral = { tag = THE level = 1 location = thessaloniki }
 	marketplace	= { tag = THE level = 5 location = thessaloniki }
-	apothecary = { tag = ATH level = 1 location = athens }
+	#apothecary = { tag = ATH level = 1 location = thebes }
 	sergeantry = { tag = BYZ level = 1 location =  constantinople }
-	sergeantry = { tag = ATH level = 1 location =  athens }
+	sergeantry = { tag = ATH level = 1 location =  thebes }
 	sergeantry = { tag = THE level = 1 location =  thessaloniki }
 	sergeantry = { tag = DYR level = 1 location =  durres }
 	sergeantry = { tag = EPI level = 1 location =  arta }
@@ -4380,7 +4380,7 @@ building_manager = {
 	thema_headquarters = { tag = EPI level = 1 location = arta }
 	thema_headquarters = { tag = THE level = 1 location = thessaloniki }
 	thema_headquarters = { tag = THS level = 1 location = larissa }
-	thema_headquarters = { tag = ATH level = 1 location = athens }
+	thema_headquarters = { tag = ATH level = 1 location = thebes }
 	thema_headquarters = { tag = BUL level = 1 location = plovdiv }
 	sergeantry = { tag = BUL level = 1 location = tarnovo }
 
@@ -5555,7 +5555,7 @@ building_manager = {
 	orthodox_order_commandery = { tag = OHS level = 1 location = constantinople }
 	orthodox_order_commandery = { tag = OHS level = 1 location = edirne }
 	orthodox_order_commandery = { tag = OHS level = 1 location = thessaloniki }
-	orthodox_order_commandery = { tag = OHS level = 1 location = athens }
+	orthodox_order_commandery = { tag = OHS level = 1 location = thebes }
 	orthodox_order_commandery = { tag = OHS level = 1 location = nicosia_cyp }
 	orthodox_order_commandery = { tag = OHS level = 1 location = lazkiye }
 	orthodox_order_commandery = { tag = OHS level = 1 location = kutahya }
