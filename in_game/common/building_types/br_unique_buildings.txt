@@ -174,7 +174,7 @@ br_hagia_sophia_building = {
 
 	category = religious_category
 
-	employment_size = huge_religious_building_employment
+	employment_size = large_religious_building_employment
 
 	rural_settlement = yes
 	town = yes
@@ -280,7 +280,7 @@ br_constantinople_university = {
 	
 	
 	category = cultural_category
-	employment_size = religious_building_employment
+	employment_size = large_religious_building_employment
 	
 	town = yes
 	city = yes
@@ -329,7 +329,7 @@ br_constantinople_shipyard = {
 	
 	obsolete = shipyard
 	
-	employment_size = grand_shipyard_employment
+	employment_size = shipyard_employment
 
 	location_potential = {
 		is_port = yes
