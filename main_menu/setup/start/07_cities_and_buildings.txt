@@ -61,7 +61,7 @@ locations={
 	sligo = { rank = town 			town_setup = british_town_port}
 	
 	# greece
-	thebes  = { rank = town			town_setup = greek_town_port }
+	thebes  = { rank = town			town_setup = greek_city_port }
 	athens  = { rank = town			town_setup = greek_town_port }
 	thessaloniki = { rank = city 	town_setup = greek_city_port }
 	candia = { rank = town 			town_setup = greek_town_port }
@@ -4243,6 +4243,10 @@ building_manager = {
 	bridge_infrastructure = { tag = MAM level = 1 location = cairo }
 	bridge_infrastructure = { tag = MAM level = 1 location = alexandria }
 
+	furniture_guild = { tag = BYZ level = 1 location =  sinop }
+	furniture_guild = { tag = BYZ level = 1 location =  samsun }
+	furniture_guild = { tag = BYZ level = 2 location =  edirne }
+
 	tar_kiln = { tag = BYZ level = 1 location = izmit }
 	tar_kiln = { tag = BYZ level = 1 location = uskudar }
 	tar_kiln = { tag = BYZ level = 1 location = bandirma }
@@ -4533,7 +4537,9 @@ building_manager = {
 	pirate_haven = { tag = MAM level = 1 location = sidon }
 
 	#Mesopotamia
-
+	royal_court = { tag = A1A level = 1 location =  baghdad }
+	royal_garden = { tag = A1A level = 1 location =  baghdad }
+	lumber_mill = { tag = A1A level = 2 location =  baghdad }
 	sergeantry = { tag = TUR level = 1 location =  tabriz }
 	kurultai = { tag = TUR level = 1 location =  mosul }
 	kurultai = { tag = TUR level = 1 location =  diyarbekir }
@@ -4645,6 +4651,22 @@ building_manager = {
 	slave_market = { tag = ADU level = 1 location = orihuela }
 	slave_market = { tag = ADU level = 1 location = jativa }
 	slave_market = { tag = ADU level = 1 location = santarem }
+
+	farming_village = { tag = ADU level = 1 location = merida }
+	farming_village = { tag = ADU level = 1 location = ocana }
+	farming_village = { tag = ADU level = 1 location = ubeda }
+	farming_village = { tag = ADU level = 1 location = pinar }
+	farming_village = { tag = ADU level = 1 location = huescar }
+	farming_village = { tag = ADU level = 1 location = espiel }
+	farming_village = { tag = ADU level = 1 location = lucena }
+	farming_village = { tag = ADU level = 1 location = osuna }
+	farming_village = { tag = ADU level = 1 location = calatrava }
+	farming_village = { tag = ADU level = 1 location = medellin }
+	farming_village = { tag = ADU level = 1 location = azuaga }
+	farming_village = { tag = ADU level = 1 location = llerena }
+	farming_village = { tag = ADU level = 1 location = andujar }
+	farming_village = { tag = ADU level = 1 location = merida }
+
 
 	bailiff = { tag = ADU level = 1 location = aracena }
 	bailiff = { tag = ADU level = 1 location = ciudad_real }
@@ -4947,7 +4969,6 @@ building_manager = {
 	rural_clothmaker = { tag = BOS level = 1 location = zenica }
 	rural_clothmaker = { tag = BOS level = 1 location = doboj }
 	market_village = { tag = BOS level = 1 location = mostar }
-
 	market_village = { tag = BUL level = 1 location = cherven }
 	farming_village = { tag = BUL level = 1 location = cherven }
 	market_village = { tag = BUL level = 1 location = nikopol }
@@ -4957,14 +4978,74 @@ building_manager = {
 	forest_village = { tag = BUL level = 1 location = shumen }
 	market_village = { tag = BUL level = 1 location = pleven }
 	farming_village = { tag = BUL level = 1 location = pleven }
+	farming_village = { tag = BUL level = 1 location = strelcha }
+	farming_village = { tag = BUL level = 1 location = kozelj }
+	farming_village = { tag = BUL level = 1 location = archar }
+	farming_village = { tag = BUL level = 1 location = ravno }
+	farming_village = { tag = BUL level = 1 location = boruy }
+	farming_village = { tag = BUL level = 1 location = ktenia }
+	farming_village = { tag = BUL level = 1 location = dobrolak }
+	farming_village = { tag = BUL level = 1 location = pirot }
+	farming_village = { tag = BUL level = 1 location = pangalia }
+	farming_village = { tag = SER level = 1 location = peja }
+	farming_village = { tag = SER level = 1 location = jagodina }
+	farming_village = { tag = SER level = 1 location = prokuplje }
+	farming_village = { tag = SER level = 1 location = soko_grad }
+	farming_village = { tag = SER level = 1 location = gradac }
+	farming_village = { tag = SER level = 1 location = podgorica }
+	forest_village = { tag = SER level = 1 location = smederevo }
+	forest_village = { tag = SER level = 1 location = novo_brdo }
 	market_village = { tag = WAL level = 1 location = campulung_muscel }
 	forest_village = { tag = WAL level = 1 location = campulung_muscel }
+	farming_village = { tag = BYZ level = 1 location = bozan }
+	farming_village = { tag = BYZ level = 1 location = rodoscuk }
+	farming_village = { tag = CIL level = 2 location = adana }
+	farming_village = { tag = BYZ level = 1 location = guzelhisar }
+	farming_village = { tag = BYZ level = 1 location = seyhli }
+	farming_village = { tag = BYZ level = 1 location = kula }
+	farming_village = { tag = BYZ level = 1 location = marmaris }
+	farming_village = { tag = BYZ level = 1 location = gerze }
+	farming_village = { tag = BYZ level = 1 location = nigde }
+	farming_village = { tag = BYZ level = 1 location = lapseki }
+	farming_village = { tag = BYZ level = 1 location = gemerek }
+	farming_village = { tag = BYZ level = 1 location = niksar }
+	farming_village = { tag = BYZ level = 1 location = taskopru }
+	farming_village = { tag = BYZ level = 1 location = merzifon }
+	farming_village = { tag = BYZ level = 1 location = bogazliyan }
+	farming_village = { tag = BYZ level = 1 location = sungurlu }
+	farming_village = { tag = BYZ level = 1 location = corum }
+	farming_village = { tag = BYZ level = 1 location = finike }
+	farming_village = { tag = BYZ level = 1 location = develi }
+	farming_village = { tag = BYZ level = 1 location = bozok }
+	farming_village = { tag = BYZ level = 1 location = bayat }
+	farming_village = { tag = BYZ level = 1 location = yahyali }
+	farming_village = { tag = BYZ level = 1 location = yalvac }
+	farming_village = { tag = BYZ level = 1 location = celtik }
+	farming_village = { tag = BYZ level = 1 location = giannitsa }
+	farming_village = { tag = BYZ level = 1 location = sorgun }
+	farming_village = { tag = BYZ level = 1 location = ladik_pontus }
+	farming_village = { tag = BYZ level = 1 location = argyrokastro }
+	farming_village = { tag = BYZ level = 1 location = dinek_keskin }
+	farming_village = { tag = BYZ level = 1 location = sulusaray }
+	farming_village = { tag = BYZ level = 1 location = neopatras }
+	farming_village = { tag = BYZ level = 1 location = candir }
+	farming_village = { tag = BYZ level = 1 location = cubuk }
+	farming_village = { tag = BYZ level = 1 location = hafik }
+	farming_village = { tag = BYZ level = 1 location = sariyahsi }
+	farming_village = { tag = BYZ level = 1 location = sarkisla }
 	forest_village = { tag = BYZ level = 1 location = akyazi }
 	forest_village = { tag = BUL level = 1 location = melnik }
 	forest_village = { tag = BUL level = 1 location = melnik }
 	forest_village = { tag = CRO level = 1 location = bihac }
 	forest_village = { tag = BOS level = 1 location = kljuc }
 	forest_village = { tag = BOS level = 1 location = soli }
+	forest_village = { tag = BOS level = 1 location = zenica }
+	forest_village = { tag = BOS level = 1 location = konjic }
+	forest_village = { tag = BOS level = 1 location = vrhbosna }
+	farming_village = { tag = BOS level = 1 location = doboj }
+	farming_village = { tag = BOS level = 1 location = nevesinje }
+	farming_village = { tag = BOS level = 1 location = mostar }
+	farming_village = { tag = BOS level = 1 location = glaz }
 	market_village = { tag = NAX level = 1 location = naxos }
 	rural_clothmaker = { tag = NAX level = 1 location = naxos }
 	sand_pit = { tag = NAX level = 1 location = naxos }
@@ -4977,6 +5058,7 @@ building_manager = {
 	market_village = { tag = EPI level = 1 location = angelokastron }
 	market_village = { tag = EPI level = 1 location = argyrokastro }
 	market_village = { tag = NEG level = 1 location = negroponte }
+	fishing_village = { tag = NEG level = 2 location = negroponte }
 	tar_kiln = { tag = NEG level = 1 location = negroponte }
 	rural_clothmaker = { tag = NEG level = 1 location = negroponte }
 	sand_pit = { tag = NEG level = 1 location = negroponte }
@@ -5037,6 +5119,22 @@ building_manager = {
 	forest_village = { tag = ARM level = 1 location = kagizman }
 	market_village = { tag = ARM level = 1 location = hasankale }
 	forest_village = { tag = ARM level = 1 location = bayazit }
+	farming_village = { tag = ARM level = 1 location = arguvan }
+	farming_village = { tag = ARM level = 1 location = arapgir }
+	farming_village = { tag = ARM level = 1 location = tercan }
+	farming_village = { tag = ARM level = 1 location = kars }
+	farming_village = { tag = ARM level = 1 location = palu }
+	farming_village = { tag = ARM level = 1 location = harput }
+	farming_village = { tag = GEO level = 1 location = rustavi }
+	farming_village = { tag = GEO level = 1 location = akhalkalaki }
+	farming_village = { tag = GEO level = 1 location = kutaisi }
+	farming_village = { tag = GEO level = 1 location = ardahan }
+	farming_village = { tag = GEO level = 1 location = bodbe }
+	forest_village = { tag = GEO level = 1 location = savsat }
+	forest_village = { tag = GEO level = 1 location = poti_caucasus }
+	forest_village = { tag = GEO level = 1 location = khikhani }
+	forest_village = { tag = GEO level = 1 location = anaklia }
+	forest_village = { tag = GEO level = 1 location = batumi }
 	market_village = { tag = DER level = 1 location = malazgirt }
 	farming_village = { tag = DER level = 1 location = malazgirt }
 	market_village = { tag = KCN level = 1 location = gandzasar }
@@ -5073,7 +5171,16 @@ building_manager = {
 	fruit_orchard = { tag = THS level = 1 location = larissa }
 	fruit_orchard = { tag = ATH level = 1 location = thebes }
 	fruit_orchard = { tag = ATH level = 1 location = megara }
-	market_village = { tag = KAP level = 2 location = elbistan }
+	market_village = { tag = AN1 level = 1 location = elbistan }
+	market_village = { tag = AN1 level = 2 location = afsin }
+	nobility_fortifications = { tag = AN1 level = 1 location = afsin }
+	nobility_fortifications = { tag = KAP level = 1 location = hargan }
+	nobility_fortifications = { tag = CIL level = 1 location = molevon }
+	nobility_fortifications = { tag = ICO level = 1 location = pirloganda }
+	nobility_fortifications = { tag = AN5 level = 1 location = ermenek }
+	nobility_fortifications = { tag = ARM level = 1 location = bayazit }
+	nobility_fortifications = { tag = ARM level = 1 location = malazgirt }
+	nobility_fortifications = { tag = ARM level = 1 location = bayazit }
 
 	#Italy
 	library = { tag = RAV level = 1 location = ravenna }
@@ -5288,6 +5395,33 @@ building_manager = {
 	farming_village = { tag = MAM level = 1 location = al_mima }
 	farming_village = { tag = MAM level = 1 location = majdal }
 	farming_village = { tag = MAM level = 1 location = jaffa }
+	farming_village = { tag = MAM level = 1 location = kharibta }
+	farming_village = { tag = MAM level = 1 location = tarrana }
+	farming_village = { tag = MAM level = 1 location = dakahla }
+	farming_village = { tag = MAM level = 1 location = sharuna }
+	farming_village = { tag = MAM level = 1 location = tinnis }
+	farming_village = { tag = MAM level = 1 location = ushmum_tannah }
+	farming_village = { tag = MAM level = 1 location = minya }
+	farming_village = { tag = MAM level = 1 location = ashmunayn }
+	farming_village = { tag = MAM level = 1 location = manfalut }
+	farming_village = { tag = MAM level = 1 location = qena }
+	farming_village = { tag = MAM level = 1 location = el_balyana }
+	farming_village = { tag = MAM level = 1 location = baalbek }
+	farming_village = { tag = MAM level = 1 location = jableh }
+	farming_village = { tag = MAM level = 1 location = hama }
+	farming_village = { tag = MAM level = 1 location = nablus }
+	farming_village = { tag = MAM level = 1 location = safed }
+	farming_village = { tag = MAM level = 1 location = masyaf }
+
+
+	farming_village = { tag = TUR level = 1 location = ukbara }
+	farming_village = { tag = TUR level = 1 location = baqubah }
+	farming_village = { tag = TUR level = 1 location = ar_rabb }
+	farming_village = { tag = TUR level = 1 location = khalis }
+	farming_village = { tag = TUR level = 1 location = tikrit }
+	farming_village = { tag = TUR level = 1 location = qayyarah }
+	farming_village = { tag = TUR level = 1 location = tal_afar }
+
 
 	farming_village = { tag = TUN level = 1 location = el_fahs }
 	farming_village = { tag = TUN level = 1 location = zaghouan }
