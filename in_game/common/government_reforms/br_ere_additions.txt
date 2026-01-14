@@ -35,12 +35,12 @@ br_mongol_tolerance = {
 	country_modifier = {
 		add_accepted_culture_cost_modifier = -1
 		cultures_capacity = 5
-		tolerance_heathen = 2
+		tolerance_heathen = 3
 
         global_pop_assimilation_speed_modifier = -0.85
         global_pop_conversion_speed_modifier = -0.85
         #local_tribesmen_migration_allowed = yes
-        #government_reform_slots = 1
+        government_reform_slots = 1
 	}
 	major = yes
 	unique = yes

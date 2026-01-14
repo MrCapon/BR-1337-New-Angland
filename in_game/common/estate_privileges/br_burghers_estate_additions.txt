@@ -36,16 +36,20 @@ br_latin_trade_naval_reliance = {
 
 	
 	country_modifier = {
-		#trade_efficiency = medium_trade_efficiency_penalty
-		#burghers_estate_max_tax = -0.1
+		trade_efficiency = medium_trade_efficiency_penalty
 		global_burghers_estate_power = 0.25
 		global_burghers_conversion_blocked = yes
+		tolerance_heretic = 1
+		tolerance_own = -1
+
 		#global_maritime_presence_modifier = 0.1
 		global_trade_center_power = 0.1
+
 		navy_maintenance_cost = 0.25
 		ship_build_speed = -0.5
 		expected_navy_size_modifier = -0.5
-		#global_navy_levy_size_modifier = -0.5 #naval levies are useless anyway
 		global_sailors_modifier = -0.5
+
+
 	}
 }
