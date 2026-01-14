@@ -40,9 +40,7 @@ br_mongol_tolerance = {
         global_pop_assimilation_speed_modifier = -0.85
         global_pop_conversion_speed_modifier = -0.85
         #local_tribesmen_migration_allowed = yes
-        government_reform_slots = 1
 	}
-	major = yes
 	unique = yes
 	years = 2
 }
