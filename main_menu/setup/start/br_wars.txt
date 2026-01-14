@@ -176,6 +176,56 @@ war_manager = {
 		}
 	}
 
+	war = {
+		war_name={
+			name="NORMAL_WAR_NAME"
+			ordinal=1
+			first = {
+				name="ATH"
+			}
+			SECOND = {
+				name="NEG"
+			}
+		}
+		
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = negroponte
+		}
+		
+		start_date = 1335.1.1
+		action = 1337.3.1
+		attacker = {
+			country = ATH
+			request = {
+				reason = Instigator
+			}
+		}
+
+		attacker = {
+			country = M0E
+			request = {
+				caller = ATH
+				reason = Subject
+			}
+		}
+		attacker = {
+			country = M0E
+			request = {
+				caller = ACH
+				reason = Subject
+			}
+		}
+
+		defender = {
+			country = NEG
+			request = {
+				reason = Target
+			}
+		}
+	}
+	
 	truce = { 
 		attacker = NOR
 		#
