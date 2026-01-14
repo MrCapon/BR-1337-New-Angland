@@ -1128,7 +1128,6 @@ countries = {
 			own_control_core = {
 				brandenburg berlin teltow potsdam freienwalde herzfelde templin
 				chojna soltyn
-				stendal osterburg salzwedel gardelegen
 				wittenberge pritzwalk treuenbrietzen
 				angermunde prenzlau
 			}
@@ -1389,7 +1388,7 @@ countries = {
 				
 			}
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			capital = meissen
 			dynasty = wettin_dynasty
 			tolerated_cultures = {
@@ -1433,7 +1432,7 @@ countries = {
 			include = "expl_northern_europe"
 			include = "german_principality"
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			capital = eisenach
 			government = {
 				ruler = mei_friedrich_ii_meissen
@@ -36964,7 +36963,7 @@ countries = {
 				angrian
 			}
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			capital = kassel
 			dynasty = hessen_dynasty
 		}
@@ -37924,7 +37923,7 @@ countries = {
 				dannenberg #County of Danneberg
 				luchow #County of Lüchow
 				uelzen #Amt of Bodenteich
-				
+				stendal osterburg salzwedel gardelegen
 			}
 			
 			starting_technology_level = 3

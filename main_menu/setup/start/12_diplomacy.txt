@@ -311,7 +311,6 @@ diplomacy_manager = {
     dependency = { first = BRE second = DIT subject_type = vassal }
     dependency = { first = LAU second = RTB subject_type = vassal }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
-    dependency = { first = BRA second = SOR subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
     scripted_oneway = { first = FLA second = HOL type = trade_access }
 
@@ -341,6 +340,29 @@ diplomacy_manager = {
 
     #Rhine
     dependency = { first = HES second = ZIG subject_type = vassal }
+    dependency = { first = HES second = WDE subject_type = vassal }
+    dependency = { first = HES second = RDL subject_type = vassal }
+    dependency = { first = HES second = NID subject_type = vassal }
+    dependency = { first = HES second = WTG subject_type = vassal }
+
+    #Saxony
+    dependency = { first = MEI second = SOR subject_type = fiefdom }
+    dependency = { first = MEI second = SPB subject_type = vassal }
+
+    dependency = { first = LDB second = GLA subject_type = vassal }
+
+    dependency = { first = SWB second = ANH subject_type = vassal }
+    dependency = { first = SWB second = BNB subject_type = vassal }
+    dependency = { first = SWB second = MFE subject_type = vassal }
+    dependency = { first = SWB second = ALL subject_type = vassal }
+
+    dependency = { first = THU second = WMA subject_type = vassal }
+    dependency = { first = THU second = SWZ subject_type = vassal }
+    dependency = { first = THU second = SHS subject_type = vassal }
+    dependency = { first = THU second = GLN subject_type = vassal }
+    dependency = { first = THU second = BHL subject_type = vassal }
+
+    dependency = { first = LUN second = NIE subject_type = vassal }
 
     #Ravanna
     dependency = { first = RAV second = IMO subject_type = vassal }
