@@ -74949,7 +74949,7 @@ adm = 31 dip = 34 mil = 24
 		birth = stuttgart
 		death_date = 1325.6.5
 		dynasty = wurttemberg_dynasty
-		tag = WUR
+		tag = SWA
 	}
 
 	wur_ulrich_wurttemberg = { #Dead Half Brother of Ruler
@@ -74961,7 +74961,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1315.11.1
 		dynasty = wurttemberg_dynasty
 		father = wur_eberhard_wurttemberg
-		tag = WUR
+		tag = SWA
 	}
 
 	wur_ulrich_iii_wurttemberg = { #Ruler
@@ -74972,7 +74972,7 @@ adm = 31 dip = 34 mil = 24
 		birth = stuttgart
 		dynasty = wurttemberg_dynasty
 		father = wur_eberhard_wurttemberg
-		tag = WUR
+		tag = SWA
 	}
 
 	wur_sophie_von_pfirt = { #Spouse of Ruler
@@ -74985,7 +74985,7 @@ adm = 31 dip = 34 mil = 24
 		father = frt_theobald_i_pfirt
 		spouse = wur_ulrich_iii_wurttemberg
 		dynasty = scarponnois_dynasty
-		tag = WUR
+		tag = SWA
 	}
 
 	wur_eberhard_ii_wurttemberg = { #Heir of Ruler
@@ -74997,7 +74997,7 @@ adm = 31 dip = 34 mil = 24
 		dynasty = wurttemberg_dynasty
 		father = wur_ulrich_iii_wurttemberg
 		mother = wur_sophie_von_pfirt
-		tag = WUR
+		tag = SWA
 	}
 
 	wur_ulrich_iv_wurttemberg = { #Son of Ruler
@@ -75009,7 +75009,7 @@ adm = 31 dip = 34 mil = 24
 		dynasty = wurttemberg_dynasty
 		father = wur_ulrich_iii_wurttemberg
 		mother = wur_sophie_von_pfirt
-		tag = WUR
+		tag = SWA
 	}
 
 	#Schlüsselberg

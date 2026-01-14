@@ -1549,6 +1549,7 @@ countries = {
 			own_control_core = {
 				mainz aschaffenburg miltenberg buchen tauberbischofsheim
 				hofgeismar bensheim
+				oppenheim
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -11267,6 +11268,7 @@ countries = {
 			}
 			
 			capital = ravenna
+			country_rank = rank_duchy
 			dynasty = polenta_dynasty
 		}
 		
@@ -33879,11 +33881,11 @@ countries = {
 		
 		PAL = {	#The Palatinate
 			own_control_core = {
-				sinsheim oppenheim
 				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
 			}
 
             our_cores_conquered_by_others = {
+				sinsheim oppenheim
                 kaiserslautern neustadt_an_der_haardtgermersheim heidelberg #Heidelberg
             }
 			
@@ -35284,7 +35286,7 @@ countries = {
 			capital = konstanz
 		}
 		
-		WUR = {	#Württemberg
+		SWA = {	#Württemberg
 			own_control_core = {
 				stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw
 
@@ -37151,7 +37153,7 @@ countries = {
 		
 		ERB = {	#Erbach
 			own_control_core = {
-				erbach
+				erbach sinsheim
 			}
 			
 			starting_technology_level = 3

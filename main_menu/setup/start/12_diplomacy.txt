@@ -234,17 +234,14 @@ diplomacy_manager = {
 
     dependency = { first = VEN second = VTC subject_type = trade_company }
     dependency = { first = GEN second = GTC subject_type = trade_company }
-	
-	scripted_mutual = { first = RAV second = CES type = alliance }
-	scripted_mutual = { first = RIM second = CES type = alliance }
-	
-	dependency = { first = PAP second = FAE subject_type = vassal }
+
+    #Papal States
     dependency = { first = PAP second = SPL subject_type = vassal }
     dependency = { first = PAP second = ASC subject_type = vassal }
     dependency = { first = PAP second = CMR subject_type = vassal }
     dependency = { first = PAP second = FRM subject_type = vassal }
     dependency = { first = PAP second = URB subject_type = vassal }
-    dependency = { first = PAP second = ANC subject_type = vassal }
+    dependency = { first = VEN second = ANC subject_type = vassal }
     dependency = { first = PAP second = MTA subject_type = vassal }
     dependency = { first = PAP second = PES subject_type = vassal }
     dependency = { first = PAP second = GUB subject_type = vassal }
@@ -313,11 +310,44 @@ diplomacy_manager = {
     dependency = { first = AUG second = AGC subject_type = vassal }
     dependency = { first = BRE second = DIT subject_type = vassal }
     dependency = { first = LAU second = RTB subject_type = vassal }
-    dependency = { first = WUR second = HBR subject_type = vassal }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
     dependency = { first = BRA second = SOR subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
     scripted_oneway = { first = FLA second = HOL type = trade_access }
+
+    #Swabia
+    dependency = { first = SWA second = HBR subject_type = vassal }
+    dependency = { first = SWA second = TUB subject_type = vassal }
+    dependency = { first = SWA second = HOH subject_type = vassal }
+    dependency = { first = SWA second = HHB subject_type = vassal }
+    dependency = { first = SWA second = FBG subject_type = vassal }
+    dependency = { first = SWA second = FUR subject_type = vassal }
+    dependency = { first = SWA second = OET subject_type = vassal }
+    dependency = { first = SWA second = HLF subject_type = vassal }
+    dependency = { first = SWA second = HAC subject_type = vassal }
+    dependency = { first = SWA second = BDE subject_type = vassal }
+    dependency = { first = SWA second = ELL subject_type = vassal }
+    dependency = { first = SWA second = NEL subject_type = vassal }
+    dependency = { first = SWA second = KIR subject_type = vassal }
+    dependency = { first = SWA second = WDB subject_type = vassal }
+
+    #Bavaria
+    dependency = { first = UBV second = GRF subject_type = vassal }
+
+    dependency = { first = CRH second = CLI subject_type = vassal }
+    dependency = { first = CRH second = GOR subject_type = vassal }
+    dependency = { first = CRH second = ORT subject_type = vassal }
+    dependency = { first = CRH second = GRK subject_type = vassal }
+
+    #Rhine
+    dependency = { first = HES second = ZIG subject_type = vassal }
+
+    #Ravanna
+    dependency = { first = RAV second = IMO subject_type = vassal }
+    dependency = { first = RAV second = FAE subject_type = vassal }
+    dependency = { first = RAV second = CES subject_type = vassal }
+    dependency = { first = RAV second = RIM subject_type = vassal }
+
 
     #------ERE/"Byzantium"-------- ###
     dependency = { first = BYZ second = FEO subject_type = vassal } # Pronoïakon Ktéma

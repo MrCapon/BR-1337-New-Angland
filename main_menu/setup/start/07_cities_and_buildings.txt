@@ -5184,10 +5184,16 @@ building_manager = {
 
 	#Italy
 	library = { tag = RAV level = 1 location = ravenna }
+	city_guard = { tag = RAV level = 1 location = ravenna }
 	paper_guild = { tag = RAV level = 2 location = ravenna }
 	scriptorium = { tag = RAV level = 3 location = ravenna }
 	cloth_guild = { tag = RAV level = 1 location = ravenna }
 	scriptorium = { tag = RAV level = 2 location = ravenna }
+	sand_pit = { tag = RAV level = 1 location = ravenna }
+	bog_iron_smelter = { tag = RAV level = 1 location = ravenna }
+	clay_pit = { tag = RAV level = 1 location = ravenna }
+	castle = { tag = RAV level = 1 location = ravenna }
+
 	library = { tag = PAP level = 1 location = rome }
 	scriptorium = { tag = PAP level = 5 location = rome }
 	paper_guild = { tag = PAP level = 3 location = rome }
