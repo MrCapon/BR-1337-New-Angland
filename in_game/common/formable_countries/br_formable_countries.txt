@@ -163,3 +163,53 @@ REPLACE_OR_CREATE:HRE_f = {
 	form_effect = {
 	}
 }
+
+REPLACE_OR_CREATE:NSE_f = {
+	level = 4
+	required_locations_fraction = 0.5
+	rule = historical
+	 
+	potential = {
+		OR = {
+			culture = { has_culture_group = culture_group:british_group }
+			culture = { has_culture_group = culture_group:scandinavian_group }
+		}
+	}
+
+	allow = {
+		any_owned_location = { 
+			OR = {
+				region = region:scandinavian_region 
+				region = region:north_atlantic_islands_region 
+			}
+		}
+		any_owned_location = { 
+			OR = {
+				region = region:great_britain_region 
+				region = region:ireland_region 
+			}
+		}
+	}
+	
+	name = NSE
+	flag = NSE
+	adjective = NSE_ADJ
+	tag = NSE
+	color = map_NSE
+
+	areas = {
+		denmark_area 
+		skaneland_area 
+		syd_norge_area
+		nord_norge_area
+
+		home_counties_area
+		midlands_area
+		northumbria_area
+		east_anglia_area
+	}
+
+
+	form_effect = {
+	}
+}
