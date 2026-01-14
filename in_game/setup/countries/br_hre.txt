@@ -654,3 +654,24 @@ SSN = {
     culture_definition = picard
     religion_definition = catholic
 }
+
+
+#Germany
+SWA = {
+	color = rgb { 111 162 128 }
+	
+	culture_definition = swabian
+	religion_definition = catholic
+}
+
+PAL = {
+	color = map_PAL
+	color2 = rgb { 57 151 142 }
+	
+	culture_definition = upper_palatine
+	religion_definition = catholic
+
+	description_category = diplomatic
+	difficulty = 3
+}
+
