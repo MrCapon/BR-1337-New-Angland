@@ -1128,7 +1128,7 @@ countries = {
 			own_control_core = {
 				brandenburg berlin teltow potsdam freienwalde herzfelde templin
 				chojna soltyn
-				wittenberge pritzwalk treuenbrietzen
+				treuenbrietzen
 				angermunde prenzlau
 			}
 			
@@ -36116,7 +36116,7 @@ countries = {
 		
 		RUP = { #Ruppin
 			own_control_core = {
-				ruppin
+				ruppin wittenberge pritzwalk
 			}
 			
 			starting_technology_level = 3
