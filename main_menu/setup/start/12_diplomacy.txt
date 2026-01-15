@@ -1,6 +1,6 @@
 diplomacy_manager = {
 	# Anglia
-	#dependency = { first = NOR second = AGL subject_type = fiefdom } #Domionions replace the primary culture fiefdom is kinda close but doesn't change culture
+	dependency = { first = NOR second = AGL subject_type = dominion }
 	dependency = { first = AGL second = EAG subject_type = vassal }
 	dependency = { first = AGL second = LSY subject_type = vassal }
 	dependency = { first = AGL second = NOL subject_type = vassal }
@@ -41,6 +41,7 @@ diplomacy_manager = {
 	dependency = { first = NOR second = ICE subject_type = fiefdom }
 	dependency = { first = NOR second = GRL subject_type = fiefdom }
 	dependency = { first = NOR second = ORK subject_type = vassal }
+    dependency = { first = NOR second = DAN subject_type = dominion }
 	dependency = { first = DAN second = SLV subject_type = vassal }
     dependency = { first = DAN second = ZEA subject_type = vassal }
     dependency = { first = DAN second = SKE subject_type = fiefdom }
