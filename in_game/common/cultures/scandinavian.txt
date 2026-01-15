@@ -6,7 +6,7 @@
 	tags = { swedish_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		danish = enemy
+		danish = negative
 		finnish = positive
 		vinlander = negative
 	}
@@ -45,8 +45,8 @@ danish = {
 	tags = { danish_gfx western_european_gfx european_gfx }
 
 	opinions = {
-		swedish = negative
-		vinlander = negative
+		norwegian = kindred
+		anglo_norse_culture = kindred
 	}
 
 	culture_groups = {
@@ -65,10 +65,12 @@ norwegian = {
 
 	opinions = {
 		norn_culture = kindred
-		swedish = kindred
+		swedish = positive
 		icelandic = kindred
-		norse_gael = positive
+		norse_gael = kindred
 		vinlander = positive
+		danish = kindred
+		anglo_norse_culture = kindred
 	}
 
 	culture_groups = {
