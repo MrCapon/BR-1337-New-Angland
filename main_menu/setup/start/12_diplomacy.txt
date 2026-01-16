@@ -102,9 +102,9 @@ diplomacy_manager = {
 	
 	#Ruthenia
 	dependency = { first = GLH second = BRY subject_type = tributary }
-	dependency = { first = GLH second = HAL subject_type = tributary }
+	#dependency = { first = GLH second = HAL subject_type = tributary }
 	dependency = { first = GLH second = KIE subject_type = tributary }
-	dependency = { first = GLH second = VOL subject_type = tributary }
+	#dependency = { first = GLH second = VOL subject_type = tributary }
 	
 	# Hanseatic League
 	dependency = { first = HSA second = LUB subject_type = hanseatic_member }
@@ -306,8 +306,8 @@ diplomacy_manager = {
     scripted_mutual = { first = ADU second = TUN type = alliance }
 
     #-------Germany-------
-    dependency = { first = PAL second = MSB subject_type = vassal }
-    dependency = { first = PAL second = ERB subject_type = vassal }
+    dependency = { first = LOT second = MSB subject_type = vassal }
+    dependency = { first = LOT second = ERB subject_type = vassal }
     dependency = { first = AUG second = AGC subject_type = vassal }
     dependency = { first = BRE second = DIT subject_type = vassal }
     dependency = { first = LAU second = RTB subject_type = vassal }
@@ -524,6 +524,9 @@ diplomacy_manager = {
     dependency = { first = POL second = PLK subject_type = vassal }
     dependency = { first = POL second = RAW subject_type = vassal }
     dependency = { first = POL second = CZK subject_type = vassal }
+
+    dependency = { first = POL second = VOL subject_type = vassal }
+    dependency = { first = POL second = HAL subject_type = vassal }
 
     #Balkans:
     scripted_mutual = { first = HUN second = POL type = alliance }
