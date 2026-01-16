@@ -1,5 +1,52 @@
 
-# 0.11
+# 0.11 Énteka
+
+## Art
+- 59 additional works of art have been added, bringing the total collection to 110.
+
+## 6 New Unique Constantinople Buildings
+- 6 unique buildings have been added for Constantinople.
+
+- **Méga Palátion**:  
+  "The principal imperial residence and ceremonial heart of the Roman state, comprising audience halls, chapels, residences, and gardens where emperors governed and enacted the rituals of empire."
+
+- **Hagia Sophia**:  
+  "$hagia_sophia$ was originally constructed c. 346 during the reign of Emperor Constantius II, burned down during the Nika Revolt in 532, and fully reconstructed and consecrated in 537 by Emperor Justinian, becoming the largest cathedral in Christendom. Designed by Anthemius of Tralles and Isidore of Miletus, it is renowned for its immense dome, innovative engineering, and detailed mosaics that reflect the grandeur of Orthodox Christianity."  
+  - br_hagia_sophia_building_maintenance: "Hagia Sophia Maintenance"
+
+- **The Sénaton**:  
+  "The hall in which the Sýnklētos (Senate) convenes, preserving the unbroken civic tradition of the Roman people from the ancient Republic, through Constantine, and into the present age."
+
+- **Pandidakterion**:  
+  "Founded to preserve and cultivate the totality of Roman knowledge, the Pandidakterion stands as the foremost center of learning in the empire. Here, law, philosophy, rhetoric, medicine, and theology are taught in an unbroken tradition stretching back to Late Antiquity. Scholars trained within its halls shape the imperial administration, the courts, and the conscience of the Roman world itself."  
+  - br_constantinople_university_maintenance: "Pandidakterion Maintenance"
+
+- **Kontoskalion & Prosphorion**:  
+  "The twin harbors of the Queen of Cities, where the lifeblood of the Roman world flows in and out with the tides. From the sheltered basins of the Kontoskalion to the bustling quays of the Prosphorion, grain fleets, merchants, and war galleys alike have sustained Constantinople since its founding. Fortified, regulated, and ceaselessly active, these ports bind the capital to every sea under Roman influence."
+
+- **Hippodrome of Constantinople**:  
+  "The great arena of the capital, where sport, ceremony, and politics converge before the eyes of the people. More than a place of spectacle, the Hippodrome has long served as a public forum through which popular will, factional rivalry, and imperial authority are expressed. Its crowds have celebrated emperors, condemned ministers, and shaped the rhythm of civic life in the Queen of Cities."
+
+## Balance / Map Changes
+- Mesopotamia improvements, including higher population and Samarra starting as a town.
+- Balance changes have been split into a separate mod:  
+  https://steamcommunity.com/sharedfiles/filedetails/?id=3646909192
+- A few changes to the NSE region, and the North Sea Empire has been made a historical formable with reasonable requirements.
+- HRE German map changes, including the addition of a decentralized Swabia. More changes are planned in the future.
+- Minor government reform and estate privilege tweaks.
+- Furniture guilds added to Balkan and Carpathian towns.
+- Hellas changes, including a starting war to reconquer Euboea and Thebes made the capital.
+- Epiros capital and town moved to Arta.
+- Crete and Cyprus can now enact the Naval Theme reform.
+- New World countries now start with the `new_world_advance`, removing the need to wait for the institution to reach them.
+
+## Bug Fixes
+- Fixed an issue where the new Golden Horde reforms would fall off.
+- Fixed various other bugs.
+
+**Full changelog:**  
+https://github.com/Basileia-Romaion/BR-1337/compare/0.10...0.11
+
 
 # 0.10 Déka
 
