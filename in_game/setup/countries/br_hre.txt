@@ -128,6 +128,6 @@ REPLACE_OR_CREATE:PAL = {
 REPLACE_OR_CREATE:SAX = {
 	color = rgb { 116 92 39 }
 
-	culture_definition = saxon
+	culture_definition = lower_saxon
 	religion_definition = catholic
 }
