@@ -77091,7 +77091,7 @@ adm = 31 dip = 34 mil = 24
 		mother = rvb_margaretha_von_berg
 		spouse = lun_wilhelm_ii_luneburg
 		dynasty = ravensberg_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 	
 	rvb_bernhard_ravensberg = { #Ruler
@@ -80346,7 +80346,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Beatrix von Brandenburg
 		spouse = lun_otto_iii_luneburg
 		dynasty = mecklenburg_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	# Countess Consort of Bytom & Sister of the Count of Mecklenburg
@@ -80669,7 +80669,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Rikissa Birgersdotter
 		spouse = bru_albrecht_ii_braunschweig_wolfenbuttel_gottingen
 		dynasty = mecklenburg_dynasty
-		tag = BRU # Should be Gottingen
+		tag = SAX #BRU # Should be Gottingen
 	}
 
  	# Father of the Lord of Gustrow & Former Lord
@@ -81355,7 +81355,7 @@ adm = 31 dip = 34 mil = 24
 		father = bav_heinrich_ix_altdorf
 		#mother = Wulfhild von Sachsen
 		dynasty = welfen_dynasty
-		tag = LUN # Should be SAX
+		tag = SAX #LUN # Should be SAX
 		ruler_trait = expansionist
 		ruler_trait = inspiring_leader
 		ruler_trait = greedy
@@ -81374,7 +81374,7 @@ adm = 31 dip = 34 mil = 24
 		father = sax_heinrich_the_proud
 		#mother = Gertrud von Süpplingenburg
 		dynasty = welfen_dynasty
-		tag = LUN
+		tag = SAX #LUN
 		ruler_trait = architectural_visionary
 		ruler_trait = intricate_web_weaver
 		ruler_trait = greedy
@@ -81395,7 +81395,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_heinrich_the_lion
 		#mother = Matilda of England
 		dynasty = welfen_dynasty # Should be welfen_palatinate_dynasty # Founder of the Palatine line of the Welf Dynasty
-		tag = LUN
+		tag = SAX #LUN
 		ruler_trait = embezzler
 		ruler_trait = sinner
 	}
@@ -81463,7 +81463,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_heinrich_the_lion
 		#mother = Matilda of England
 		dynasty = welfen_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	bru_otto_i_braunschweig = { #https://en.wikipedia.org/wiki/Otto_I,_Duke_of_Brunswick-L%C3%BCneburg
@@ -81478,7 +81478,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_william_winchester
 		#mother = Helena of Denmark
 		dynasty = welfen_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	# Grandfather of the Duke of Brunswick & Gottingen & the Duke of Grubenhagen & Former Duke of Brunswick & Lüneburg
@@ -81495,7 +81495,7 @@ adm = 31 dip = 34 mil = 24
 		father = bru_otto_i_braunschweig
 		#mother = Mathilde von Brandenburg
 		dynasty = welfen_dynasty
-		tag = BRU
+		tag = SAX #BRU
 		ruler_trait = inspiring_leader
 		ruler_trait = righteous
 	}
@@ -81773,7 +81773,7 @@ adm = 31 dip = 34 mil = 24
 		father = gbh_albrecht_i_braunschweig
 		mother = gbh_alessia_monferrato
 		dynasty = welfen_dynasty
-		tag = BRU # Should be Gottingen
+		tag = SAX #BRU # Should be Gottingen
 	}
 
 	# Duke of Brunswick-Wolfenbüttel & Göttingen
@@ -81788,7 +81788,7 @@ adm = 31 dip = 34 mil = 24
 		father = bru_albrecht_ii_braunschweig_wolfenbuttel_gottingen
 		mother = bru_rixa_werle
 		dynasty = welfen_dynasty
-		tag = BRU # Should be Gottingen
+		tag = SAX #BRU # Should be Gottingen
 	}
 
 	# Daughter of the Duke of Brunswick-Wolfenbüttel & Göttingen
@@ -81803,7 +81803,7 @@ adm = 31 dip = 34 mil = 24
 		father = bru_otto_i_braunschweig_gottingen
 		mother = bru_jutta_hesse
 		dynasty = welfen_dynasty
-		tag = BRU # Should be Gottingen
+		tag = SAX #BRU # Should be Gottingen
 	}
 
 	# Countess Consort of Sonderhausen & sister of the Duke of Brunswick-Wolfenbüttel & Göttingen & the Bishops of Halberstadt & Hildesheim
@@ -81912,7 +81912,7 @@ adm = 31 dip = 34 mil = 24
 		father = bru_albrecht_ii_braunschweig_wolfenbuttel_gottingen
 		mother = bru_rixa_werle
 		dynasty = welfen_dynasty
-		tag = BRU # Should be Gottingen
+		tag = SAX #BRU # Should be Gottingen
 	}
 
 	# Uncle of the Duke of Brunswick & Gottingen & Former Duke of Brunswick
@@ -81927,7 +81927,7 @@ adm = 31 dip = 34 mil = 24
 		father = gbh_albrecht_i_braunschweig
 		mother = gbh_alessia_monferrato
 		dynasty = welfen_dynasty
-		tag = BRU
+		tag = SAX #BRU
 	}
 
 	# Uncle of the Duke of Brunswick & Gottingen & Previous Grandmaster of the Teutonic Order
@@ -81981,7 +81981,7 @@ adm = 31 dip = 34 mil = 24
 		father = bru_otto_i_braunschweig
 		#mother = Mathilde von Brandenburg
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty # Founder of the Elder line of Luneburg
-		tag = LUN
+		tag = SAX #LUN
 		ruler_trait = righteous
 		ruler_trait = midas_touched
 	}
@@ -82000,7 +82000,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_johann_i_braunschweig_luneburg
 		mother = anh_liutgard_schauenburg
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty
-		tag = LUN
+		tag = SAX #LUN
 		ruler_trait = lawgiver
 		ruler_trait = expansionist
 		ruler_trait = well_connected
@@ -82018,7 +82018,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_otto_ii_luneburg
 		mother = lun_mathilde_von_bayern
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty
-		tag = LUN
+		tag = SAX #LUN
 		ruler_trait = expansionist
 	}
 
@@ -82035,7 +82035,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_otto_iii_luneburg
 		mother = lun_mathilde_mecklenburg
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	lun_elisabeth_luneburg = {
@@ -82049,7 +82049,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_otto_iii_luneburg
 		mother = lun_mathilde_mecklenburg
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	# Bishop of Minden & Brother of the Prince of Lüneburg
@@ -82079,7 +82079,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_otto_ii_luneburg
 		mother = lun_mathilde_von_bayern
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty
-		tag = LUN
+		tag = SAX #LUN
 		ruler_trait = architectural_visionary
 	}
 
@@ -82093,7 +82093,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1321.1.1
 		birth = luneburg
 		spouse = lun_wilhelm_ii_luneburg
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	# Daughter of the Co-Prince of Lüneburg
@@ -82108,7 +82108,7 @@ adm = 31 dip = 34 mil = 24
 		father = lun_wilhelm_ii_luneburg
 		mother = lun_hedwig_ravensberg
 		dynasty = welfen_dynasty # Should be dynasty = welfen_celle_dynasty
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	# Mother of the Count of Oldenburg & Aunt of the Prince of Lüneburg
@@ -82464,7 +82464,7 @@ adm = 31 dip = 34 mil = 24
 		father = ubv_ludwig_ii_wittelsbach
 		mother = ubv_mathilde_von_habsburg
 		spouse = lun_otto_ii_luneburg
-		tag = LUN
+		tag = SAX #LUN
 	}
 
 	bra_agnes_wittelsbach = {
@@ -83806,7 +83806,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Mechthild von Kleve
 		spouse = bru_otto_i_braunschweig_gottingen
 		dynasty = hessen_dynasty
-		tag = BRU # Should be Gottingen
+		tag = SAX #BRU # Should be Gottingen
 	}
 
 	#Eppstein

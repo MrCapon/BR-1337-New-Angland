@@ -352,6 +352,8 @@ diplomacy_manager = {
     #Saxony
     dependency = { first = MEI second = SOR subject_type = fiefdom }
     dependency = { first = MEI second = SPB subject_type = vassal }
+    #dependency = { first = MEI second = ZAG subject_type = vassal start_date = 1329.1.1 }
+    #dependency = { first = MEI second = GLO subject_type = vassal start_date = 1331.1.1 }
 
     dependency = { first = LDB second = GLA subject_type = vassal }
 

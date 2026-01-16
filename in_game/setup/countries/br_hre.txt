@@ -125,3 +125,9 @@ REPLACE_OR_CREATE:PAL = {
 	difficulty = 3
 }
 
+REPLACE_OR_CREATE:SAX = {
+	color = rgb { 116 92 39 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}

@@ -1399,8 +1399,8 @@ countries = {
 		MAG = {
 			#Magdeburg
 			own_control_core = {
-				magdeburg juterbog jerichow burg wolmirstedt
-				haldensleben calbe halle_an_der_saale
+				magdeburg jerichow burg wolmirstedt
+				haldensleben calbe
 			}
 			
 			starting_technology_level = 3
@@ -36085,6 +36085,7 @@ countries = {
 		SWB = { #Saxe-Wittenberg
 			own_control_core = {
 				wittenberg belzig schweinitz bitterfeld torgau liebenwerda
+				juterbog halle_an_der_saale
 			}
 			
 			starting_technology_level = 3
@@ -37917,63 +37918,16 @@ countries = {
 			capital = munster
 		}
 		
-		LUN = {	#Lüneburg
+		SAX = {	#Brunswick (Lüneburg) #BRU LUN
 			own_control_core = {
+				brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
+				hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
+
 				luneburg celle winsen harburg ebstorf isenhagen winsen_aller fallingbostel
 				dannenberg #County of Danneberg
 				luchow #County of Lüchow
 				uelzen #Amt of Bodenteich
 				stendal osterburg salzwedel gardelegen
-			}
-			
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			country_rank = rank_duchy
-			government = {
-				
-				ruler = lun_otto_iii_luneburg
-				
-				ruler_term = { character = sax_heinrich_the_proud start_date = 1126.1.1 end_date = 1139.10.20 regnal_number = 0 }
-				ruler_term = { character = lun_heinrich_the_lion start_date = 1139.10.20 end_date = 1195.8.6 regnal_number = 0 }
-				ruler_term = { character = lun_william_winchester start_date = 1195.8.6 end_date = 1213.12.13 regnal_number = 1 }
-				ruler_term = { character = bru_otto_i_braunschweig start_date = 1213.12.13 end_date = 1252.9.6 regnal_number = 1 }
-				ruler_term = {
-					character = gbh_albrecht_i_braunschweig start_date = 1252.9.6 end_date = 1269.1.1 regnal_number = 1
-					character = lun_johann_i_braunschweig_luneburg start_date = 1252.9.6 end_date = 1269.1.1 regnal_number = 1
-				}
-				ruler_term = { character = lun_johann_i_braunschweig_luneburg start_date = 1269.1.1 end_date = 1277.12.13 regnal_number = 1 }
-				ruler_term = { character = lun_otto_ii_luneburg start_date = 1277.12.13 end_date = 1330.4.10 regnal_number = 2 }
-				ruler_term = {
-					character = lun_otto_iii_luneburg start_date = 1330.4.10 regnal_number = 3
-					#character = lun_wilhelm_ii_luneburg start_date = 1330.4.10 regnal_number = 2 # As Co-Ruler
-				}
-				
-				regnal_numbers = {
-					name_william = 2
-					name_otto = 3
-					name_albert = 1
-					name_john = 1
-				}
-			}
-			
-			tolerated_cultures = {
-				angrian
-				polabian
-			}
-			
-			capital = luneburg
-			dynasty = welfen_dynasty
-		}
-		
-		BRU = {	#Brunswick (Lüneburg)
-			own_control_core = {
-				brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
-				hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
-				gottingen #Duchy of Göttingen
-				
 			}
 			
 			starting_technology_level = 3
@@ -38016,6 +37970,7 @@ countries = {
 		GBH = {	#Grubenhagen
 			own_control_core = {
 				einbeck duderstadt herzberg
+				gottingen #Duchy of Göttingen
 			}
 			
 			starting_technology_level = 3
