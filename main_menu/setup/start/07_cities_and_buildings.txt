@@ -1026,6 +1026,7 @@ locations={
 
 	wasit = { rank = town 	town_setup = levant_city }
 	adan = { rank = town 	town_setup = levant_city }
+	samarra = { rank = town 	town_setup = levant_city }
 
 	# Crimea
 	kaffa = { rank = town town_setup = greek_town_port } #br edit
@@ -3483,8 +3484,9 @@ building_manager = {
 	sergeantry = { tag = MAM level = 1 location = cairo } #Sergeants at arms
 	castle = { tag = MAM level = 1 location = baniyas } #https://en.wikipedia.org/wiki/Margat
 	#temple = { tag = MAM level = 1 location = hebron } #https://en.wikipedia.org/wiki/Cave_of_the_Patriarchs
-	irrigation_systems = { tag = MAM level = 1 location = cairo } #https://en.wikipedia.org/wiki/Cairo_Citadel_Aqueduct
+	irrigation_systems = { tag = MAM level = 2 location = cairo } #https://en.wikipedia.org/wiki/Cairo_Citadel_Aqueduct
 	madrasa = { tag = MAM level = 1 location = cairo } #https://en.wikipedia.org/wiki/Salihiyya_Madrasa
+	irrigation_systems = { tag = MAM level = 1 location = alexandria }
 	nobles_recruitment_center = { tag = MAM level = 1 location = asyut }
 	nobles_recruitment_center = { tag = MAM level = 1 location = qus }
 	nobles_recruitment_center = { tag = MAM level = 1 location = minya }
@@ -4220,6 +4222,7 @@ building_manager = {
 	cathedral = { tag = BYZ level = 1 location = smyrna }
 	marketplace	= { tag = BYZ level = 5 location = smyrna }
 	bridge_infrastructure = { tag = BYZ level = 1 location = edirne }
+	irrigation_systems = { tag = BYZ level = 1 location = edirne }
 	bridge_infrastructure = { tag = BYZ level = 1 location = atpazari }
 	bridge_infrastructure = { tag = BYZ level = 1 location = goynuk }
 	bridge_infrastructure = { tag = BYZ level = 1 location = sogut }
@@ -4231,6 +4234,7 @@ building_manager = {
 
 	bridge_infrastructure = { tag = THE level = 1 location = gynaikokastro }
 	bridge_infrastructure = { tag = THE level = 1 location = thessaloniki }
+	irrigation_systems = { tag = THE level = 1 location = thessaloniki }
 
 	bridge_infrastructure = { tag = BUL level = 1 location = plovdiv }
 	bridge_infrastructure = { tag = BUL level = 1 location = drastar }
@@ -4485,6 +4489,11 @@ building_manager = {
 	port_authority = { tag = BYZ level = 1 location = constantinople }
 	lazaretto = { tag = BYZ level = 1 location = smyrna }
 	lazaretto = { tag = BYZ level = 1 location = izmit }
+	irrigation_systems = { tag = BYZ level = 1 location = bursa }
+	irrigation_systems = { tag = BYZ level = 1 location = iznik }
+	irrigation_systems = { tag = ATH level = 1 location = thebes }
+	irrigation_systems = { tag = AO1 level = 1 location = antioch }
+	irrigation_systems = { tag = PAP level = 2 location = rome }
 	lazaretto = { tag = BYZ level = 1 location = bursa }
 	#coastal_fort  = { tag = VEN level = 1 location = venice }
 	lazaretto = { tag = VEN level = 1 location = venice }
@@ -4540,6 +4549,12 @@ building_manager = {
 	royal_court = { tag = A1A level = 1 location =  baghdad }
 	royal_garden = { tag = A1A level = 1 location =  baghdad }
 	lumber_mill = { tag = A1A level = 2 location =  baghdad }
+	irrigation_systems = { tag = A1A level = 4 location =  baghdad }
+	irrigation_systems = { tag = TUR level = 1 location =  mosul }
+	irrigation_systems = { tag = TUR level = 1 location =  samarra }
+	bridge_infrastructure = { tag = A1A level = 4 location =  baghdad }
+	bridge_infrastructure = { tag = TUR level = 1 location =  mosul }
+	bridge_infrastructure = { tag = TUR level = 1 location =  samarra }
 	sergeantry = { tag = TUR level = 1 location =  tabriz }
 	kurultai = { tag = TUR level = 1 location =  mosul }
 	kurultai = { tag = TUR level = 1 location =  diyarbekir }
@@ -4550,6 +4565,8 @@ building_manager = {
 	madrasa = { tag = TUR level = 1 location = diyarbekir }
 	madrasa = { tag = TUR level = 1 location = mosul }
 	madrasa = { tag = TUR level = 1 location = tabriz }
+	funduq = { tag = TUR level = 1 location = samarra }
+	madrasa = { tag = TUR level = 1	location = samarra }
 	seljuk_mint = { tag = TUR level = 2 location = mosul }
 	counting_house = { tag = TUR level = 1 location = mosul }
 	weapon_guild = { tag = TUR level = 2 location = mosul }
@@ -5418,20 +5435,42 @@ building_manager = {
 	farming_village = { tag = MAM level = 1 location = nablus }
 	farming_village = { tag = MAM level = 1 location = safed }
 	farming_village = { tag = MAM level = 1 location = masyaf }
-
-
-	farming_village = { tag = TUR level = 1 location = ukbara }
-	farming_village = { tag = TUR level = 1 location = baqubah }
-	farming_village = { tag = TUR level = 1 location = ar_rabb }
-	farming_village = { tag = TUR level = 1 location = khalis }
-	farming_village = { tag = TUR level = 1 location = tikrit }
-	farming_village = { tag = TUR level = 1 location = qayyarah }
-	farming_village = { tag = TUR level = 1 location = tal_afar }
-
-
 	farming_village = { tag = TUN level = 1 location = el_fahs }
 	farming_village = { tag = TUN level = 1 location = zaghouan }
 	farming_village = { tag = TUN level = 1 location = kelibia }
+
+
+	farming_village = { tag = TUR level = 2 location = ukbara }
+	farming_village = { tag = TUR level = 2 location = baqubah }
+	farming_village = { tag = TUR level = 2 location = ar_rabb }
+	farming_village = { tag = TUR level = 2 location = khalis }
+	farming_village = { tag = TUR level = 2 location = tikrit }
+	farming_village = { tag = TUR level = 2 location = qayyarah }
+	farming_village = { tag = TUR level = 2 location = tal_afar }
+	market_village = { tag = TUR level = 1 location = ukbara }
+	market_village = { tag = TUR level = 1 location = baqubah }
+	market_village = { tag = TUR level = 1 location = ar_rabb }
+	market_village = { tag = TUR level = 1 location = khalis }
+	market_village = { tag = TUR level = 1 location = tikrit }
+	market_village = { tag = TUR level = 1 location = qayyarah }
+	market_village = { tag = TUR level = 1 location = tal_afar }
+	farming_village = { tag = KAR level = 1 location = nasiriyah }
+	farming_village = { tag = KAR level = 1 location = numaniyyah }
+	farming_village = { tag = KAR level = 1 location = al_qatr }
+	farming_village = { tag = KAR level = 1 location = suq_al_shuyukh }
+	farming_village = { tag = KAR level = 1 location = al_tib }
+	farming_village = { tag = KAR level = 1 location = bakusaya }
+	farming_village = { tag = KAR level = 1 location = badra }
+	market_village = { tag = KAR level = 1 location = nasiriyah }
+	market_village = { tag = KAR level = 1 location = numaniyyah }
+	market_village = { tag = KAR level = 1 location = al_qatr }
+	market_village = { tag = KAR level = 1 location = suq_al_shuyukh }
+	market_village = { tag = KAR level = 1 location = al_tib }
+	market_village = { tag = KAR level = 1 location = bakusaya }
+	market_village = { tag = KAR level = 1 location = badra }
+	market_village = { tag = KAR level = 1 location = dayr_aqul }
+
+	
 
 
 #BR added estate buildings

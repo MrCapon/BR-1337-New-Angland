@@ -11,7 +11,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = canakkale
 		adm = 60 dip = 60 mil = 95
-		#father = 
+		father = byz_michael_kantakouzenos
 		#mother = 
 		dynasty = kantakouzenos_dynasty
 		tag = A1G
@@ -25,7 +25,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = antalya
 		adm = 60 dip = 60 mil = 95
-		#father = 
+		father = byz_ioannes_synadenos
 		#mother = 
 		dynasty = synadenos_dynasty
 		tag = K1B
@@ -128,7 +128,7 @@ character_db={
 		birth_date = 1319.1.1
 		birth = constantinople
 		#adm = 60 dip = 60 mil = 95
-		#father = 
+		father = byz_alexios_apokaukos
 		#mother = 
 		dynasty = apokaukos_dynasty
 		tag = BYZ
@@ -141,7 +141,7 @@ character_db={
 		birth_date = 1319.1.1
 		birth = constantinople
 		#adm = 60 dip = 60 mil = 95
-		#father = 
+		father = ser_stefan_milutin
 		#mother = 
 		dynasty = angelos_dynasty
 		tag = BYZ
@@ -588,7 +588,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = constantinople
 		adm = 38 dip = 44 mil = 90
-		#father = 
+		father = dan_chistopher_ii
 		#mother = 
 		dynasty = siggurson_dynasty
 		tag = NOR
@@ -615,7 +615,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = constantinople
 		adm = 66 dip = 55 mil = 88
-		#father = 
+		father = dan_chistopher_ii 
 		#mother = 
 		dynasty = siggurson_dynasty
 		tag = DAN
@@ -642,7 +642,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = constantinople
 		adm = 55 dip = 56 mil = 89
-		#father = 
+		father = dan_chistopher_ii
 		#mother = 
 		dynasty = siggurson_dynasty
 		tag = AGL

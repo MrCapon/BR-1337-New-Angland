@@ -203,27 +203,13 @@ war_manager = {
 			}
 		}
 
-		attacker = {
-			country = M0E
-			request = {
-				caller = ATH
-				reason = Subject
-			}
-		}
-		attacker = {
-			country = M0E
-			request = {
-				caller = ACH
-				reason = Subject
-			}
-		}
-
 		defender = {
 			country = NEG
 			request = {
 				reason = Target
 			}
 		}
+
 	}
 	
 	truce = { 
