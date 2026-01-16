@@ -1804,14 +1804,18 @@ countries = {
 					name_charles = 4
 				}
 				
-				ruler = boh_john_luxembourg
+				#ruler = boh_john_luxembourg
 				
 				ruler_term = { character = boh_otakar_ii_premyslid start_date = 1253.12.23 end_date = 1278.8.26 regnal_number = 2 }
 				ruler_term = { character = boh_wenceslaus_ii_premyslid start_date = 1278.8.26 end_date = 1305.6.21 regnal_number = 2 }
 				ruler_term = { character = boh_wenceslaus_iii_premyslid start_date = 1305.6.21 end_date = 1306.8.4 regnal_number = 3 }
 				ruler_term = { character = boh_rudolf_habsburg start_date = 1306.8.4 end_date = 1307.7.3 regnal_number = 1 }
 				ruler_term = { character = tir_henry_gorizia start_date = 1307.7.3 end_date = 1310.8.31 regnal_number = 1 }
-				ruler_term = { character = boh_john_luxembourg start_date = 1310.8.31 regnal_number = 1 }
+
+				#ruler_term = { character = boh_john_luxembourg start_date = 1310.8.31 regnal_number = 1 }
+
+				ruler = opv_mikolaj_ii_premyslid
+				ruler_term = {	character = opv_mikolaj_ii_premyslid start_date = 1318.2.22 regnal_number = 2	}
 				
 				centralization_vs_decentralization = 80
 				aristocracy_vs_plutocracy = -70

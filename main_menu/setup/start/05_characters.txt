@@ -90580,7 +90580,7 @@ adm = 31 dip = 34 mil = 24
 		birth = opava
 		dynasty = premyslid_dynasty
 		father = opv_mikolaj_i_premyslid
-		tag = OPV
+		tag = BOH
 	}
 
 	opv_anna_raciborz = { #Spouse of ruler
@@ -90593,7 +90593,7 @@ adm = 31 dip = 34 mil = 24
 		birth = raciborz
 		dynasty = piast_dynasty
 		father = opl_przemyslaw_i_piast
-		tag = OPV
+		tag = BOH
 	}
 	opv_jan_i_premyslid = { #Son of Ruler
 		first_name = { name = name_john }
@@ -90604,7 +90604,7 @@ adm = 31 dip = 34 mil = 24
 		dynasty = premyslid_dynasty
 		father = opv_mikolaj_ii_premyslid
 		mother = opv_anna_raciborz
-		tag = OPV
+		tag = BOH
 	}
 
 	#Świdnica
