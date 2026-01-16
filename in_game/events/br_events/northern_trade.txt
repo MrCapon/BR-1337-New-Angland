@@ -1,4 +1,4 @@
-namespace=northern_trade
+﻿namespace=northern_trade
 
 
 #Context event that explains to the player what is in store for them
