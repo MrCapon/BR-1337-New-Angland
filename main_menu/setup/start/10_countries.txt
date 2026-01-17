@@ -32861,10 +32861,11 @@ countries = {
 				klagenfurt st_veit steinfeld volkermarkt #Duchy of Carinthia
 				ljubljana kranj novo_mesto postojna #Duchy of Carniola
 				maribor slovenj_gradec
+				wolfsberg villach
 			}
 			our_cores_conquered_by_others = {
-				villach hermagor winklern spittal lienz
-				wolfsberg friesach feldkirchen
+				hermagor winklern spittal lienz
+				friesach feldkirchen
 			}
 			
 			
@@ -33051,11 +33052,13 @@ countries = {
 			capital = weissenburg
 		}
 		
-		HNB = {	#Henneberg
+		FKN = {	#W�rzburg
 			own_control_core = {
+				wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau
 				meiningen schleusingen schmalkalden
 				aschach
 				coburg hildburghausen #Lordship of Coburg
+				kitzingen uffenheim
 			}
 			
 			starting_technology_level = 3
@@ -33065,46 +33068,20 @@ countries = {
 			include = "german_principality"
 			government = {
 				regnal_numbers = {
+					name_otto = 2
 					name_berthold = 4
 					name_henry = 7
 				}
 				ruler = hnb_berthold_iv_henneberg_schleusingen
-			}
-			
-			tolerated_cultures = {
-				saxon
-			}
-			
-			country_rank = rank_county
-			capital = meiningen
-			dynasty = henneberg_dynasty
-		}
-		
-		WBG = {	#W�rzburg
-			own_control_core = {
-				wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau
-			}
-			
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_german_bishopric_no_coast"
-			include = "expl_northern_europe"
-			government = {
-				regnal_numbers = {
-					name_otto = 2
-				}
-				ruler = wbg_otto_ii_von_wolfskeel
 				
-				reforms = {
-					prince_bishopric_reform
-				}
 			}
 			
 			tolerated_cultures = {
 				rhine_franconian
 			}
-			
-			country_rank = rank_county
+
+			dynasty = henneberg_dynasty
+			country_rank = rank_duchy
 			capital = wurzburg
 		}
 		
@@ -33382,7 +33359,7 @@ countries = {
 		
 		BAM = {	#Bamberg
 			own_control_core = {
-				bamberg wolfsberg villach kronach
+				bamberg kronach
 				forchheim lichtenfels pegnitz
 			}
 			
@@ -35136,7 +35113,7 @@ countries = {
 		
 		UFF = {	#Uffenheim
 			own_control_core = {
-				uffenheim crailsheim ohringen kitzingen
+				crailsheim ohringen
 			}
 			
 			starting_technology_level = 3

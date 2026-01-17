@@ -108,7 +108,7 @@ REPLACE_OR_CREATE:SSN = {
 
 #Germany
 REPLACE_OR_CREATE:SWA = {
-	color = rgb { 111 162 128 }
+	color = rgb { 121 132 88 }
 	
 	culture_definition = swabian
 	religion_definition = catholic
@@ -129,5 +129,12 @@ REPLACE_OR_CREATE:SAX = {
 	color = rgb { 116 92 39 }
 
 	culture_definition = lower_saxon
+	religion_definition = catholic
+}
+
+REPLACE_OR_CREATE:FKN = {
+	color = rgb { 77 146 116 }
+	
+	culture_definition = east_franconian
 	religion_definition = catholic
 }
