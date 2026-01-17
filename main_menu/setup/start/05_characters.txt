@@ -8833,8 +8833,8 @@ character_db={
 		culture = french
 		religion = catholic
 		estate = nobles_estate
-		adm = 42 dip = 42 mil = 59
-		birth_date = 1293.11.17
+		adm = 50 dip = 55 mil = 75
+		birth_date = 1296.11.17
 		birth = paris
 		father = fra_charles_valois
 		mother = fra_margaret_anjou
@@ -8863,8 +8863,8 @@ character_db={
 		culture = french
 		religion = catholic
 		estate = nobles_estate
-		adm = 1 dip = 0 mil = 0
-		birth_date = 1336.7.1
+		adm = 27 dip = 33 mil = 46
+		birth_date = 1329.7.1
 		birth = paris
 		father = fra_philip_vi_valois
 		mother = fra_jeanne_burgundy
@@ -74640,7 +74640,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1272.1.1
 		birth = coburg #Schleusingen
 		dynasty = henneberg_dynasty
-		tag = HNB
+		tag = FKN
 	}
 	
 	hnb_heinrich_viii_henneberg_schleusingen = { #Heir of Ruler
@@ -74654,7 +74654,7 @@ adm = 31 dip = 34 mil = 24
 		father = hnb_berthold_iv_henneberg_schleusingen
 		#mother = Adelheit von Hessen
 		dynasty = henneberg_dynasty
-		tag = HNB
+		tag = FKN
 	}
 	
 	hnb_johann_henneberg_schleusingen = { #Son of Ruler
@@ -74668,7 +74668,7 @@ adm = 31 dip = 34 mil = 24
 		father = hnb_berthold_iv_henneberg_schleusingen
 		#mother = Adelheit von Hessen
 		dynasty = henneberg_dynasty
-		tag = HNB
+		tag = FKN
 	}
 
 	#Wurzburg
@@ -74679,7 +74679,7 @@ adm = 31 dip = 34 mil = 24
 		estate = clergy_estate
 		birth_date = 1298.1.1
 		birth = wurzburg
-		tag = WBG
+		tag = FKN
 	}
 
 	#Rieneck
@@ -94851,7 +94851,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1110.1.1 #Unknown
 		birth = ani
 		death_date = 1160.1.1 #Unknown
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94863,7 +94863,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1187.1.1 #Exact date unknown
 		father = arm_zakare_i
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94875,7 +94875,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1212.1.1 #Exact date unknown
 		father = arm_sargis
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94887,7 +94887,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1227.1.1 #Exact date unknown
 		father = arm_sargis
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94899,7 +94899,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1250.1.1 #Exact date unknown
 		father = arm_ivane_i
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94911,7 +94911,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1261.1.1 #Exact date unknown
 		father = arm_zakare_ii
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94923,7 +94923,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1261.1.1 #Exact date unknown
 		father = arm_shahnshah
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94935,7 +94935,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1270.1.1 #Unknown
 		father = arm_shahnshah
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94947,7 +94947,7 @@ adm = 31 dip = 34 mil = 24
 		birth = ani
 		death_date = 1320.1.1 #Unknown
 		father = arm_ivane_ii
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94958,7 +94958,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1260.1.1 #Unknown
 		birth = ani
 		father = arm_ivane_ii
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94966,10 +94966,10 @@ adm = 31 dip = 34 mil = 24
 		first_name = { name = name_zechariah }
 		culture = armenian_culture
 		religion = miaphysite
-		birth_date = 1285.1.1 #Unknown
+		birth_date = 1300.1.1 #Unknown
 		birth = ani
 		father = arm_vahram
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 
@@ -94977,10 +94977,10 @@ adm = 31 dip = 34 mil = 24
 		first_name = { name = name_shahnshah }
 		culture = armenian_culture
 		religion = miaphysite
-		birth_date = 1305.1.1 #Unknown
+		birth_date = 1318.1.1 #Unknown
 		birth = ani
 		father = arm_zakare_iv
-		dynasty = bagrationi_dynasty #zakarid_dynasty
+		dynasty = bagratuni_dynasty #zakarid_dynasty
 		tag = ARM
 	}
 

@@ -7470,6 +7470,11 @@ dynasty_manager = {
 
 	bagrationi_dynasty = {
 		name = { name = bagrationi_dynasty }
+		home = tbilisi
+	}
+
+	bagratuni_dynasty = {
+		name = { name = bagratuni_dynasty }
 		home = ani
 	}
 
