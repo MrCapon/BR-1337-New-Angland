@@ -4330,6 +4330,7 @@ building_manager = {
 	tannery = { tag = BUL level = 2 location = tarnovo }
 	weapon_guild = { tag = BUL level = 4 location = tarnovo }
 	weapon_guild = { tag = HUN level = 4 location = buda }
+	weapon_guild = { tag = HUN level = 4 location = pest }
 
 	bailiff = { tag = AON level = 1 location = cankiri }
 	bailiff = { tag = PAF level = 1 location = gumus }
@@ -4435,7 +4436,7 @@ building_manager = {
 	peasants_training_grounds = { tag = ARM level = 1 location = tercan }
 	peasants_training_grounds = { tag = DER level = 1 location = harput }
 	peasants_training_grounds = { tag = MES level = 1 location = arapgir }
-		nobles_recruitment_center = { tag = BUL level = 1 location = tarnovo }
+	nobles_recruitment_center = { tag = BUL level = 1 location = tarnovo }
 	nobles_recruitment_center = { tag = BUL level = 1 location = sredets }
 	nobles_recruitment_center = { tag = BUL level = 1 location = vidin }
 	nobles_recruitment_center = { tag = BUL level = 1 location = sliven }
@@ -4482,6 +4483,19 @@ building_manager = {
 	peasants_training_grounds = { tag = M0E level = 1 location = mystras }
 	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
 	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
+
+	weapon_guild = { tag = ARM level = 2 location = ani }
+	weapon_guild = { tag = GEO level = 2 location = tbilisi }
+	weapon_guild = { tag = LON level = 4 location = leon }
+	weapon_guild = { tag = DUL level = 3 location = aleppo }
+	weapon_guild = { tag = LIT level = 3 location = vilnius }
+	weapon_guild = { tag = MLO level = 3 location = milano }
+	weapon_guild = { tag = LOT level = 4 location = metz }
+
+	charcoal_maker = { tag = LIT level = 1 location = svencionys }
+	charcoal_maker = { tag = LIT level = 1 location = kernave }
+	charcoal_maker = { tag = HUN level = 1 location = hont }
+	charcoal_maker = { tag = HUN level = 1 location = nitra }
 	
 
 	#Naval centers
@@ -4786,7 +4800,7 @@ building_manager = {
 
 	# steppes 
 	kurultai = { tag = GLH level = 1 location = sarai_al_jadid }
-	weapon_guild = { tag = GLH level = 2 location = sarai_al_jadid }
+	weapon_guild = { tag = GLH level = 4 location = sarai_al_jadid }
 	slave_market = { tag = GLH level = 3 location = sarai_al_jadid }
 	caravanserai = { tag = GLH level = 1 location = sarai_al_jadid }
 	kurultai = { tag = GLH level = 1 location = dubovskoye }
@@ -4796,7 +4810,7 @@ building_manager = {
 	kurultai = { tag = GLH level = 1 location = astrakhan }
 	slave_market = { tag = GLH level = 5 location = astrakhan }
 	caravanserai = { tag = GLH level = 1 location = astrakhan }
-	weapon_guild = { tag = GLH level = 2 location = astrakhan }
+	weapon_guild = { tag = GLH level = 3 location = astrakhan }
 	kurultai = { tag = GLH level = 1 location = khosheutovo }
 	caravanserai = { tag = GLH level = 1 location = khosheutovo }
 	kurultai = { tag = GLH level = 1 location = saryadyn }
@@ -4897,6 +4911,9 @@ building_manager = {
 	farming_village = { tag = BUL level = 1 location = karvuna }
 	forest_village = { tag = BUL level = 1 location = sozopol }
 	forest_village = { tag = BUL level = 1 location = elhovo }
+	lumber_mill = { tag = BUL level = 1 location = tarnovo }
+	lumber_mill = { tag = BUL level = 1 location = nis }
+	lumber_mill = { tag = BUL level = 1 location = sredets }
 
 	market_village = { tag = AON level = 2 location = cankiri }
 	forest_village = { tag = AON level = 2 location = cankiri }
@@ -5131,7 +5148,9 @@ building_manager = {
 	charcoal_maker = { tag = ARM level = 1 location = yerevan }
 	charcoal_maker = { tag = ARM level = 1 location = tercan }
 	farming_village = { tag = ARM level = 1 location = amberd }
+	charcoal_maker = { tag = ARM level = 1 location = amberd }
 	farming_village = { tag = ARM level = 1 location = kumayri }
+	charcoal_maker = { tag = ARM level = 1 location = kumayri }
 	farming_village = { tag = ARM level = 1 location = artashavan }
 	forest_village = { tag = ARM level = 1 location = kagizman }
 	market_village = { tag = ARM level = 1 location = hasankale }
@@ -5147,6 +5166,7 @@ building_manager = {
 	farming_village = { tag = GEO level = 1 location = kutaisi }
 	farming_village = { tag = GEO level = 1 location = ardahan }
 	farming_village = { tag = GEO level = 1 location = bodbe }
+	charcoal_maker = { tag = GEO level = 1 location = gori }
 	forest_village = { tag = GEO level = 1 location = savsat }
 	forest_village = { tag = GEO level = 1 location = poti_caucasus }
 	forest_village = { tag = GEO level = 1 location = khikhani }
@@ -5190,6 +5210,9 @@ building_manager = {
 	fruit_orchard = { tag = ATH level = 1 location = megara }
 	market_village = { tag = AN1 level = 1 location = elbistan }
 	market_village = { tag = AN1 level = 2 location = afsin }
+	farming_village = { tag = AN1 level = 1 location = elbistan }
+	farming_village = { tag = AN1 level = 1 location = goksun }
+	forest_village = { tag = AN1 level = 1 location = darende }
 	nobility_fortifications = { tag = AN1 level = 1 location = afsin }
 	nobility_fortifications = { tag = KAP level = 1 location = hargan }
 	nobility_fortifications = { tag = CIL level = 1 location = molevon }
