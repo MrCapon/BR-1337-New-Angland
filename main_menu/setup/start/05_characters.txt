@@ -48379,8 +48379,8 @@ adm = 31 dip = 34 mil = 24
 		birth = kodak #Unknow
 		birth_date = 1222.1.1
 		death_date = 1290.11.10
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		general_trait = mamluk
 		tag = MAM
 	}
@@ -48445,8 +48445,8 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1285.3.24
 		father = mam_qalawun
 		mother = mam_ashlun_shaktay
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		adm = 58 dip = 40 mil = 74
 		tag = MAM
 	}
@@ -48534,8 +48534,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_bayad
 		birth_date = 1316.1.1
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		adm = 48 dip = 14 mil = 12
 		tag = MAM
 	}
@@ -48549,8 +48549,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_narjis
 		birth_date = 1321.1.1
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		tag = MAM
 	}
 	
@@ -48562,8 +48562,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_narjis
 		birth_date = 1320.1.1
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		tag = MAM
 	}
 	
@@ -48577,8 +48577,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_narjis
 		birth_date = 1320.1.1
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		tag = MAM
 	}
 
@@ -48592,8 +48592,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_khawand_saba
 		birth_date = 1323.4.8
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		tag = MAM
 	}
 
@@ -48606,8 +48606,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_ardu
 		birth_date = 1334.1.1
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		tag = MAM
 	}
 
@@ -48620,8 +48620,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_kuda
 		birth_date = 1335.1.1
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		tag = MAM
 	}
 	
@@ -48633,8 +48633,8 @@ adm = 31 dip = 34 mil = 24
 		father = mam_an_nasir_bahri
 		mother = mam_khawand_saba
 		birth_date = 1325.1.1 #Unknow
-		culture = crimean
-		religion = sunni
+		culture = lower_egyptian_culture
+		religion = shia
 		female = yes
 		tag = MAM
 	}

@@ -21797,7 +21797,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture #mamluk_succesion
-				ruler = random
+				ruler = mam_an_nasir_bahri
 
 				reforms = {
 					autocracy
