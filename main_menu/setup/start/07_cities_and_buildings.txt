@@ -5576,6 +5576,44 @@ building_manager = {
 	noble_villa = { tag = CYP level = 1 location = famagusta }
 	local_markets = { tag = CYP level = 1 location = famagusta }
 	noble_villa = { tag = NAX level = 1 location = naxos }
+	noble_villa = { tag = BYZ level = 1 location = eregli }
+	noble_villa = { tag = BYZ level = 1 location = vize }
+	noble_villa = { tag = BYZ level = 1 location = luleburgaz }
+	noble_villa = { tag = BYZ level = 1 location = gonen }
+	noble_villa = { tag = BYZ level = 1 location = edremit }
+	noble_villa = { tag = BYZ level = 1 location = emirdag }
+	noble_villa = { tag = BYZ level = 1 location = honaz }
+	noble_villa = { tag = BYZ level = 1 location = uluborlu }
+	noble_villa = { tag = BYZ level = 1 location = tavas }
+	noble_villa = { tag = BYZ level = 1 location = nazilli }
+	noble_villa = { tag = BYZ level = 1 location = guzelhisar }
+	noble_villa = { tag = BYZ level = 1 location = ayasuluk }
+	noble_villa = { tag = BYZ level = 1 location = menemen }
+	noble_villa = { tag = BYZ level = 1 location = edremit }
+	noble_villa = { tag = BYZ level = 1 location = susurluk }
+
+	noble_villa = { tag = BYZ level = 1 location = lapseki}
+	noble_villa = { tag = BYZ level = 1 location = mitilene }
+	noble_villa = { tag = BYZ level = 1 location = lemnos }
+	noble_villa = { tag = BYZ level = 1 location = chios }
+	noble_villa = { tag = BYZ level = 1 location = samos }
+	noble_villa = { tag = BYZ level = 1 location = negroponte }
+	noble_villa = { tag = BYZ level = 1 location = livadeia }
+	noble_villa = { tag = BYZ level = 1 location = megara }
+	noble_villa = { tag = BYZ level = 1 location = andravida }
+	noble_villa = { tag = BYZ level = 1 location = tripolitsa }
+	noble_villa = { tag = BYZ level = 1 location = angelokastron }
+	noble_villa = { tag = BYZ level = 1 location = demetrias }
+	noble_villa = { tag = BYZ level = 1 location = manavgat }
+	noble_villa = { tag = BYZ level = 1 location = finike }
+	noble_villa = { tag = BYZ level = 1 location = celtik }
+	noble_villa = { tag = BYZ level = 1 location = kastamonu }
+	noble_villa = { tag = BYZ level = 1 location = boyabat }
+	noble_villa = { tag = BYZ level = 1 location = gerze }
+	noble_villa = { tag = BYZ level = 1 location = terme }
+	noble_villa = { tag = BYZ level = 1 location = bogazliyan }
+	noble_villa = { tag = BYZ level = 1 location = kalecik }
+
 	guild_hall = { tag = BYZ level = 1 location = smyrna }
 	merchants_guild = { tag = BYZ level = 1 location = smyrna }
 	guild_hall = { tag = BYZ level = 1 location = bursa }
@@ -5623,6 +5661,21 @@ building_manager = {
 	nobility_fortifications = { tag = M0E level = 1 location = tripolitsa }
 	nobility_fortifications = { tag = M0E level = 1 location = mystras }
 	nobility_fortifications = { tag = ACH level = 1 location = andravida }
+
+	nobility_fortifications = { tag = BUL level = 1 location = branicevo }
+	noble_villa = { tag = BUL level = 1 location = branicevo }
+	nobility_fortifications = { tag = BUL level = 1 location = nikopol }
+	noble_villa = { tag = BUL level = 1 location = nikopol }
+	nobility_fortifications = { tag = SER level = 1 location = smederevo }
+	noble_villa = { tag = SER level = 1 location = smederevo }
+	nobility_fortifications = { tag = SER level = 1 location = uzice }
+	noble_villa = { tag = SER level = 1 location = uzice }
+	nobility_fortifications = { tag = SER level = 1 location = soko_grad }
+	noble_villa = { tag = SER level = 1 location = soko_grad }
+	nobility_fortifications = { tag = SER level = 1 location = smederevo }
+	noble_villa = { tag = SER level = 1 location = smederevo }
+	
+
 	local_markets = { tag = TRE level = 1 location = lusta }
 	nobility_fortifications = { tag = MES level = 1 location = arguvan }
 	nobility_fortifications = { tag = DER level = 1 location = palu }
