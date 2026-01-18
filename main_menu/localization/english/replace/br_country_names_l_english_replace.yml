@@ -1,9 +1,9 @@
 ﻿l_english:
- BYZ: "Romaíon"
+ BYZ: "Romaíon" #Romanía
  BYZ_ADJ: "Romaíon"
  BYZ_LONG: "tōn Romaíon"
- BYZ_eastern_rome: "Eastern Rome"
- BYZ_eastern_rome_ADJ: "Roman Empire"
+ BYZ_eastern_rome: "Roman"
+ BYZ_eastern_rome_ADJ: "Roman"
  BYZ_eastern_rome_abbreviation: "E.R.E."
  TUR: "Atabeg Türkmenleri"
  TUR_ADJ: "Turkmen"
