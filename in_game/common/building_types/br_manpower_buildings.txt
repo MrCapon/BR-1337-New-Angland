@@ -61,6 +61,7 @@ REPLACE:city_guard = {
 	
 	capital_modifier = {
 		local_manpower = 0.01 #br increased
+		local_garrison_size = 0.025 #br added
 		local_unrest = -0.025  #br added
 		can_recruit_regiment_in_this_location = yes
 	}
