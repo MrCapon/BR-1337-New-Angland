@@ -65,6 +65,6 @@ government = {
 		piracy_law = state_piracy_policy
 		distribution_of_power_law = dop_traditional_distribution_of_power
 		immigration_law = open_borders_law
-		mining_law = nobles_mining_law
+		mining_law = peasants_mining_law
 	}
 }
