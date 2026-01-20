@@ -218,16 +218,16 @@ diplomacy_manager = {
     dependency = { first = FCB second = MTB subject_type = vassal }
 	
 	#-------Italy-------
-	dependency = { first = VEN second = NAX subject_type = vassal } #BR EDIT
+	dependency = { first = VTC second = NAX subject_type = vassal } #BR EDIT
 	dependency = { first = VEN second = CYP subject_type = vassal } #BR ADDED
-	dependency = { first = VEN second = NEG subject_type = vassal } #BR ADDED
+	dependency = { first = VTC second = NEG subject_type = vassal } #BR ADDED
 	dependency = { first = VEN second = CEP subject_type = vassal }
 	dependency = { first = VEN second = TTE subject_type = vassal start_date = 1202.10.9 } #Trieste and Muggia swear loyalty to Dux Enrico Dandolo
 	dependency = { first = VEN second = CRT subject_type = vassal }
 	dependency = { first = VEN second = RAG subject_type = vassal }
-    scripted_oneway = { first = VEN second = NAX type = divert_trade }
+    scripted_oneway = { first = VTC second = NAX type = divert_trade }
     scripted_oneway = { first = VEN second = CYP type = divert_trade }
-    scripted_oneway = { first = VEN second = NEG type = divert_trade }
+    scripted_oneway = { first = VTC second = NEG type = divert_trade }
     scripted_oneway = { first = VEN second = CEP type = divert_trade }
     scripted_oneway = { first = VEN second = TTE type = divert_trade }
     scripted_oneway = { first = VEN second = CRT type = divert_trade }
@@ -515,7 +515,7 @@ diplomacy_manager = {
 
     #-------Bohemia-------
     dependency = { first = BOH second = WRC subject_type = fiefdom start_date = 1327.1.1 }
-    dependency = { first = BOH second = MVA subject_type = vassal start_date = 1333.1.1 } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
+    dependency = { first = BOH second = MVA subject_type = fiefdom start_date = 1333.1.1 } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
     dependency = { first = BOH second = BRZ subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = BOH second = BYM subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = GLO subject_type = vassal start_date = 1331.1.1 }

@@ -7,6 +7,11 @@ diplomacy_manager = {
 	opinion = { first = ADU second = CAS type = border_aggression }
 	opinion = { first = ADU second = POR type = border_aggression }
 	opinion = { first = ADU second = LON type = border_aggression }
+	opinion = { first = ARA second = ADU type = border_aggression }
+	opinion = { first = CAS second = ADU type = border_aggression }
+	opinion = { first = POR second = ADU type = border_aggression }
+	opinion = { first = LON second = ADU type = border_aggression }
+
 	opinion = { first = ARA second = TOU type = opinion_sent_help }
 	opinion = { first = TOU second = ARA type = opinion_good_relations }
 	opinion = { first = LON second = AQN type = opinion_sent_help }
@@ -93,8 +98,6 @@ diplomacy_manager = {
 	#Wittelsbacher Rivals
 	opinion = { first = UBV second = PAP type = opinion_angry } #represents the Interdict that germans did not care about
 	opinion = { first = PAP second = UBV type = opinion_angry } #represents the Interdict that germans did not care about
-	opinion = { first = UBV second = HAB type = opinion_irritated }
-	opinion = { first = HAB second = UBV type = opinion_irritated }
 	#Wittelsbacher Good House Relations
 	opinion = { first = UBV second = LBV type = opinion_good_relations }
 	opinion = { first = LBV second = UBV type = opinion_good_relations }
@@ -103,10 +106,16 @@ diplomacy_manager = {
 	opinion = { first = UBV second = BRA type = opinion_good_relations }
 	opinion = { first = BRA second = UBV type = opinion_good_relations }
 
-	#Maghreb
-	opinion = { first = TUN second = TLE type = border_aggression }
-	opinion = { first = TLE second = MOR type = border_aggression }
-	
+	opinion = { first = HUN second = CRH type = opinion_good_relations }
+	opinion = { first = CRH second = HUN type = opinion_good_relations }
+	opinion = { first = HUN second = POL type = opinion_good_relations }
+	opinion = { first = POL second = HUN type = opinion_good_relations }
+	opinion = { first = HUN second = BUL type = opinion_good_relations }
+	opinion = { first = BUL second = HUN type = opinion_good_relations }
+
+	opinion = { first = NOR second = SWE type = opinion_good_relations }
+	opinion = { first = SWE second = NOR type = opinion_good_relations }
+
 	opinion = { first = LIT second = PSK type = opinion_supportive_monarch }
 	opinion = { first = PSK second = LIT type = opinion_supportive_monarch }
 	opinion = { first = LIT second = NOV type = opinion_supportive_monarch }
@@ -116,6 +125,12 @@ diplomacy_manager = {
 	opinion = { first = LIT second = MOS type = opinion_declared_war }
 	opinion = { first = MOS second = LIT type = opinion_declared_war }
 
+	#Maghreb
+	opinion = { first = TUN second = TLE type = border_aggression }
+	opinion = { first = TLE second = MOR type = border_aggression }
+	opinion = { first = ADU second = MOR type = opinion_good_relations }
+	opinion = { first = ADU second = TUN type = opinion_good_relations }
+	
 	#Indonesia
 	opinion = { first = SPN second = LAV type = opinion_good_relations }
 	opinion = { first = SPN second = PTC type = opinion_dynastic_ties }

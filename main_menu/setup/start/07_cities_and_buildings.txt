@@ -263,7 +263,7 @@ locations={
 	lubeck = { rank = city town_setup = german_coastal_city }
 	erfurt = { rank = city town_setup = german_city }
 	cologne = { rank = city town_setup = german_city }
-	speyer = { rank = city town_setup = german_city }
+	speyer = { rank = town town_setup = german_town }
 	mainz = { rank = city town_setup = german_city }
 	augsburg = { rank = city town_setup = german_city }
 	prague = { rank = city town_setup = german_city }
@@ -925,7 +925,7 @@ locations={
 	amasya = { rank = city		town_setup = anatolian_city }
 	ankara = { rank = city 		town_setup = anatolian_city }
 	antioch = { rank = city	 	town_setup = greek_city_port }
-	bursa = { rank = city 		town_setup = greek_city_port}
+	bursa = { rank = town 		town_setup = greek_town_port}
 	diyarbekir = { rank = city 	town_setup = anatolian_city }
 	izmit = { rank = city 		town_setup = greek_city_port }
 	kayseri = { rank = city 	town_setup = anatolian_city }
@@ -3500,6 +3500,13 @@ building_manager = {
 	jewelry_guild = { tag = DUL level = 1 location = aleppo }
 	weapon_guild = { tag = TUN level = 2 location = kairouan }
 	weapon_guild = { tag = TUN level = 2 location = tunis }
+
+	sand_pit = { tag = DUL level = 2 location = aleppo }
+	bog_iron_smelter = { tag = DUL level = 2 location = jabbul }
+	clay_pit = { tag = DUL level = 1 location = jabbul }
+	tar_kiln = { tag = DUL level = 2 location = zardana }
+	charcoal_maker = { tag = DUL level = 2 location = afrin }
+	stone_quarry = { tag = DUL level = 2 location = kilis }
 	
 	#Maghreb
 	sergeantry = { tag = MOR level = 1 location = fez } #Sergeants at arms
