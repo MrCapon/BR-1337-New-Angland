@@ -13,6 +13,10 @@
  DYR_ADJ: "Dyrrachitós"
  AOI: "Antiócheia" # Endonym: Greek name for Antioch
  AOI_ADJ: "Antiochéios"
+ SY0: "Palaestina"
+ SY0_ADJ: "Palaestina"
+ SY1: "Edessa"
+ SY1_ADJ: "Edessa"
  OHS: "Hagion Taphon" # Real Greek endonym for Holy Sepulchre
  OHS_ADJ: "Hagiotaphitós" 
  AON: "Anatolikōn" # Stylized endonym for general Anatolian region

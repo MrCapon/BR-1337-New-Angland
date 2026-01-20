@@ -343,6 +343,20 @@ AOI = { #BR addition
 	religion_definition = orthodox
 }
 
+SY0 = { #BR addition
+	color = rgb { 105 58 70 }
+
+	culture_definition = syrenikoi_greek_culture
+	religion_definition = orthodox
+}
+
+SY1 = { #BR addition
+	color = rgb { 105 78 50 }
+
+	culture_definition = syrenikoi_greek_culture
+	religion_definition = orthodox
+}
+
 #Holy Orders
 OHS = {
 	color = rgb { 152 125 104 }
