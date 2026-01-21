@@ -138,7 +138,6 @@
  roman_akritic_reforms: "Akritic Reforms"
  roman_akritic_reforms_desc: "The empire restores the military theme system along its frontiers, uniting civil authority, land grants, and permanent military service under imperial command. Soldier-settlers are bound to their districts by law and obligation, ensuring that the borderlands remain defended, governed, and unmistakably Roman."
 
-
  roman_scribal_administration: "Scribal Administration"
  roman_scribal_administration_desc: "A learned class of clerks and secretaries sustains the workings of the state. Records, correspondence, and decrees pass through trained hands, ensuring continuity across the ages."
 
@@ -165,3 +164,6 @@
 
  roman_state_identity: "Imperial State Identity"
  roman_state_identity_desc: "The empire endures not as the dominion of one alone, but as an order of law and polity. Loyalty to the state surpasses birth, lineage, and province alike."
+
+ br_roman_ecumenical_patriarch_advance: "Ecumenical Patriarchate"
+ br_roman_ecumenical_patriarch_advance_desc: "The Ecumenical Patriarch stands as the foremost bishop of the Roman world, exercising recognized authority through councils, canon law, and custom. From the imperial capital, the Church provides spiritual unity and guidance to the oikouménē, closely entwined with the institutions of the state."
