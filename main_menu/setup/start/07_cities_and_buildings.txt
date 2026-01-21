@@ -2229,6 +2229,15 @@ building_manager = {
 	local_shrine = { tag = MAM level = 1 location =  alexandria }
 	scriptorium = { tag = MAM level = 4 location = alexandria }
 
+	spiritual_retreat = { tag = BYZ level = 1 location = mount_athos }
+	spiritual_retreat = { tag = BYZ level = 1 location = trikala }
+	spiritual_retreat = { tag = BYZ level = 1 location = salona }
+	spiritual_retreat = { tag = BYZ level = 1 location = leuktron }
+	spiritual_retreat = { tag = BYZ level = 1 location = ayasuluk }
+	clerical_archives = { tag = MAM level = 1 location = jerusalem }
+	clerical_archives = { tag = PAP level = 1 location = rome }
+	clerical_archives = { tag = MAM level = 1 location = alexandria }
+
 	#missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
 
 
@@ -4177,7 +4186,6 @@ building_manager = {
 	br_hippodrome_building = { tag = BYZ level = 1 location =  constantinople }
 
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
-	#chancery = { tag = BYZ level = 1 location =  constantinople } #Senate
 	constantinople_observatory = { tag = BYZ level = 1 location =  constantinople }
 	marketplace	= { tag = BYZ level = 24 location =  constantinople }
 	#merchants_quarters = { tag = BYZ level = 1 location =  constantinople }
@@ -4209,7 +4217,6 @@ building_manager = {
 	wharf = { tag = BYZ level = 1 location =  constantinople }
 	#grand_shipyard = { tag = BYZ level = 1 location = constantinople }
 	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
-	#coastal_fort  = { tag = BYZ level = 1 location =  constantinople }
 	construction_center = { tag = BYZ level = 1 location =  constantinople }
 	
 	dock = { tag = THE level = 1 location = thessaloniki }
@@ -4593,7 +4600,6 @@ building_manager = {
 	madrasa = { tag = TUR level = 1 location = diyarbekir }
 	madrasa = { tag = TUR level = 1 location = mosul }
 	madrasa = { tag = TUR level = 1 location = tabriz }
-	funduq = { tag = TUR level = 1 location = samarra }
 	madrasa = { tag = TUR level = 1	location = samarra }
 	seljuk_mint = { tag = TUR level = 2 location = mosul }
 	counting_house = { tag = TUR level = 1 location = mosul }
@@ -5537,6 +5543,7 @@ building_manager = {
 	clerical_archives = { tag = THE level = 1 location = thessaloniki }
 	merchants_guild = { tag = THE level = 1 location = thessaloniki }
 	artisan_guilds = { tag = THE level = 1 location = thessaloniki }
+	burgher_mansion = { tag = THE level = 1 location = thessaloniki }
 	nobility_fortifications = { tag = BYZ level = 1 location = manavgat }
 	nobility_fortifications = { tag = BYZ level = 1 location = ustra }
 	nobility_fortifications = { tag = THE level = 1 location = edessa }
@@ -5641,18 +5648,107 @@ building_manager = {
 	noble_villa = { tag = BYZ level = 1 location = terme }
 	noble_villa = { tag = BYZ level = 1 location = bogazliyan }
 	noble_villa = { tag = BYZ level = 1 location = kalecik }
-
+	local_markets = { tag = BYZ level = 1 location = gerze }
+	peasants_training_grounds = { tag = BYZ level = 1 location = gerze }
+	local_markets = { tag = BYZ level = 1 location = amasra }
+	local_markets = { tag = BYZ level = 1 location = iskenderun}
+	peasants_training_grounds = { tag = BYZ level = 1 location = iskenderun }
+	local_markets = { tag = BYZ level = 1 location = limassol }
+	local_markets = { tag = BYZ level = 1 location = famagusta }
+	local_markets = { tag = BYZ level = 1 location = alaiye }
+	local_markets = { tag = BYZ level = 1 location = kas }
+	local_markets = { tag = BYZ level = 1 location = megri }
+	local_markets = { tag = BYZ level = 1 location = marmaris }
+	local_markets = { tag = BYZ level = 1 location = samos }
+	local_markets = { tag = BYZ level = 1 location = bodrum }
+	local_markets = { tag = BYZ level = 1 location = foca }
+	local_markets = { tag = BYZ level = 1 location = chios }
+	local_markets = { tag = BYZ level = 1 location = edremit }
+	local_markets = { tag = BYZ level = 1 location = lemnos }
+	local_markets = { tag = BYZ level = 1 location = kavala }
+	local_markets = { tag = BYZ level = 1 location = demetrias }
+	local_markets = { tag = BYZ level = 1 location = nafpaktos }
+	local_markets = { tag = BYZ level = 1 location = kalamata }
+	local_markets = { tag = BYZ level = 1 location = nafplio}
+	local_markets = { tag = BYZ level = 1 location = uluborlu }
+	local_markets = { tag = BYZ level = 1 location = emirdag }
+	local_markets = { tag = BYZ level = 1 location = eregli }
+	local_markets = { tag = BYZ level = 1 location = cankiri }
+	local_markets = { tag = BYZ level = 1 location = afsin }
+	peasants_training_grounds = { tag = BYZ level = 1 location = afsin }
+	peasants_training_grounds = { tag = BYZ level = 1 location = sis }
+	peasants_training_grounds = { tag = BYZ level = 1 location = tokat }
+	peasants_training_grounds = { tag = BYZ level = 1 location = gemerek }
+	peasants_training_grounds = { tag = BYZ level = 1 location = hargan }
+	peasants_training_grounds = { tag = BYZ level = 1 location = urgup }
+	peasants_training_grounds = { tag = BYZ level = 1 location = develi }
+	peasants_training_grounds = { tag = BYZ level = 1 location = giresun }
+	nobles_recruitment_center = { tag = BYZ level = 1 location = serres }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = mengen }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = golhisar }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = dursunbey }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = nalli }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = kizilca }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = arac }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = tomarza }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = beysehir }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = bayramic }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = ustra }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = servia }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = loidoriki }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = tokat }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = ulus }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = ermenek }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = candir_cil }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = unye }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = gadegara }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = iskilip }
+	peasants_hunting_grounds = { tag = BYZ level = 1 location = kursunlu }
+	peasants_hunting_grounds = { tag = BUL level = 1 location = nevrokop }
+	peasants_hunting_grounds = { tag = BUL level = 1 location = kran }
+	peasants_hunting_grounds = { tag = BUL level = 1 location = sozopol }
+	festival_grounds = { tag = BYZ level = 1 location = ayasuluk }
+	festival_grounds = { tag = BYZ level = 1 location = konya }
+	festival_grounds = { tag = BYZ level = 1 location = kayseri }
+	festival_grounds = { tag = BYZ level = 1 location = sivas }
+	festival_grounds = { tag = BYZ level = 1 location = larissa }
+	festival_grounds = { tag = ARM level = 1 location = ani }
+	festival_grounds = { tag = BYZ level = 1 location = edessa }
+	festival_grounds = { tag = BYZ level = 1 location = serres }
+	festival_grounds = { tag = BYZ level = 1 location = ohrid }
+	festival_grounds = { tag = BYZ level = 1 location = thebes }
+	festival_grounds = { tag = BYZ level = 1 location = corinth }
+	festival_grounds = { tag = BYZ level = 1 location = livadeia }
+	festival_grounds = { tag = BYZ level = 1 location = argos }
+	festival_grounds = { tag = BYZ level = 1 location = modon }
+	festival_grounds = { tag = BYZ level = 1 location = monemvasia }
+	festival_grounds = { tag = BYZ level = 1 location = grevena }
+	festival_grounds = { tag = BYZ level = 1 location = arta }
+	festival_grounds = { tag = BYZ level = 1 location = naxos }
+	festival_grounds = { tag = BYZ level = 1 location = lemnos }
+	festival_grounds = { tag = BYZ level = 1 location = kymi }
+	local_assembly = { tag = BYZ level = 1 location = alasehir }
+	local_assembly = { tag = BYZ level = 1 location = manisa }
+	local_assembly = { tag = BYZ level = 1 location = amasya }
+	local_assembly = { tag = BYZ level = 1 location = sivas }
+	local_assembly = { tag = BYZ level = 1 location = sredets }
+	local_assembly = { tag = BYZ level = 1 location = plovdiv }
+	local_assembly = { tag = BYZ level = 1 location = skopje }
+	local_assembly = { tag = BYZ level = 1 location = alasehir }
 	guild_hall = { tag = BYZ level = 1 location = smyrna }
 	merchants_guild = { tag = BYZ level = 1 location = smyrna }
+	burgher_mansion = { tag = BYZ level = 1 location = smyrna }
 	guild_hall = { tag = BYZ level = 1 location = bursa }
 	merchants_guild = { tag = BYZ level = 1 location = bursa }
 	guild_hall = { tag = BYZ level = 1 location = iznik }
 	merchants_guild = { tag = BYZ level = 1 location = iznik }
 	guild_hall = { tag = BYZ level = 1 location = izmit }
 	merchants_guild = { tag = BYZ level = 1 location = izmit }
+	artisan_guilds = { tag = BYZ level = 1 location = izmit }
+	burgher_mansion = { tag = BYZ level = 1 location = izmit }
 	artisan_guilds = { tag = BYZ level = 1 location = bursa }
 	artisan_guilds = { tag = BYZ level = 1 location = iznik }
-	artisan_guilds = { tag = BYZ level = 1 location = izmit }
+	
 	guild_hall = { tag = AOI level = 1 location = antioch }
 	merchants_guild = { tag = AOI level = 1 location = antioch }
 	burgher_mansion = { tag = AOI level = 1 location = antioch }	
@@ -5674,6 +5770,37 @@ building_manager = {
 	guild_hall = { tag = ARM level = 1 location = ani }
 	merchants_guild = { tag = ARM level = 1 location = ani }	
 	artisan_guilds = { tag = ARM level = 1 location = ani }
+	burgher_mansion = { tag = BYZ level = 1 location = thebes }
+	burgher_mansion = { tag = BYZ level = 1 location = durres }
+	burgher_mansion = { tag = BYZ level = 1 location = syracuse }
+	burgher_mansion = { tag = BYZ level = 1 location = naples }
+	burgher_mansion = { tag = BYZ level = 1 location = palermo }
+	burgher_mansion = { tag = BYZ level = 1 location = ancona }
+	burgher_mansion = { tag = BYZ level = 1 location = milano }
+	burgher_mansion = { tag = BYZ level = 1 location = florence }
+	burgher_mansion = { tag = BYZ level = 1 location = theodoro }
+	burgher_mansion = { tag = BYZ level = 1 location = kaffa }
+	burgher_mansion = { tag = BYZ level = 1 location = baghdad }
+	burgher_mansion = { tag = BYZ level = 1 location = cairo }
+	burgher_mansion = { tag = BYZ level = 1 location = cordoba }
+	burgher_mansion = { tag = BYZ level = 1 location = valencia }
+	burgher_mansion = { tag = BYZ level = 1 location = uskudar }
+	burgher_mansion = { tag = BYZ level = 1 location = dubrovnik }
+	burgher_mansion = { tag = BYZ level = 1 location = split }
+	burgher_mansion = { tag = BYZ level = 1 location = zadar }
+
+	local_noble_delegation = { tag = BYZ level = 1 location = ankara }
+	local_noble_delegation = { tag = BYZ level = 1 location = konya }
+	local_noble_delegation = { tag = BYZ level = 1 location = kayseri }
+	local_noble_delegation = { tag = BYZ level = 1 location = sivas }
+	local_noble_delegation = { tag = BYZ level = 1 location = amasya }
+	local_noble_delegation = { tag = BYZ level = 1 location = trebizond }
+	local_noble_delegation = { tag = BYZ level = 1 location = aksaray }
+	local_noble_delegation = { tag = BYZ level = 1 location = tarsus }
+	local_noble_delegation = { tag = BYZ level = 1 location = nicosia_cyp }
+
+
+
 	nobility_fortifications = { tag = CIL level = 1 location = sis }
 	noble_villa = { tag = CRT level = 1 location = chania }
 	local_markets = { tag = CRT level = 1 location = chania }
