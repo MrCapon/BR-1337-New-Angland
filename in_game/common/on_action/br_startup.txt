@@ -38,6 +38,9 @@ br_on_game_start = {
 			research_advance = advance_type:diplomatic_capacity_traditions
 			research_advance = advance_type:byz_historiography_advance
 			research_advance = advance_type:bureaucracy_law_advance
+			add_policy = policy:centralized_bureaucracy_policy
+			research_advance = advance_type:br_roman_ecumenical_patriarch_advance
+			grant_estate_privilege = estate_privilege:br_roman_ecumenical_patriarch_privilege
 		}
 
         #BR added Trade Company

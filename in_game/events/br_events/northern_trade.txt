@@ -21,7 +21,7 @@ northern_trade.1={
     fire_only_once = yes
 
     dynamic_historical_event = { 	# Used to make the event fire for the right tags
-        tag = NRV# tag that this event can fire for, can provide multiple
+        tag = NRV # tag that this event can fire for, can provide multiple
         from = 1337.1.1	# the earliest date at which this event can fire
         to = 1338.1.1 		# the latest date at which this event can fire
         monthly_chance = 100	# monthly chance to fire the event (10 = 10%)
@@ -47,7 +47,7 @@ northern_trade.2={
     fire_only_once = yes
 
     dynamic_historical_event = { 	# Used to make the event fire for the right tags
-        tag = NRV# tag that this event can fire for, can provide multiple
+        tag = NRV # tag that this event can fire for, can provide multiple
         from = 1350.1.1	# the earliest date at which this event can fire
         to = 1360.1.1 		# the latest date at which this event can fire
         monthly_chance = 1	# monthly chance to fire the event (10 = 10%)
@@ -56,9 +56,9 @@ northern_trade.2={
     option = {
         name = northern_trade.2.a
         capital = {
-                spawn_disease = {
-                    disease = disease:bubonic_plague
-                    value = 1
+            spawn_disease = {
+                disease = disease:bubonic_plague
+                value = 1
             }
         }
         c:E1Y= {
@@ -113,7 +113,7 @@ northern_trade.2a= {
 
             dynamic_historical_event = {
                 # Used to make the event fire for the right tags
-                tag = NRV# tag that this event can fire for, can provide multiple
+                tag = NRV # tag that this event can fire for, can provide multiple
                 from = 1370.1.1    # the earliest date at which this event can fire
                 to = 1380.1.1        # the latest date at which this event can fire
                 monthly_chance = 1    # monthly chance to fire the event (10 = 10%)

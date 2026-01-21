@@ -120,6 +120,7 @@ br_latin_trade_naval_reliance = {
 
 br_roman_ecumenical_patriarch_privilege = {
 	estate = clergy_estate
+	icon = clergy_religious_state
 	potential = {
 	}
 	allow = {

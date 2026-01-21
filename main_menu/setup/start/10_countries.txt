@@ -4576,10 +4576,9 @@ countries = {
 			# Scotland
 			own_control_core = {
 				glasgow paisley dumbarton aberdeen dunbar banff dunfermline st_andrews dundee buchan mar inverurie stonehaven clackmannan aberfeldy irvine
-				oban inverary cowal forfar arbroath arran selkirk scone
+				oban inverary cowal forfar arbroath selkirk scone
 			}
 			own_control_conquered = {
-				thurso dornoch durness tongue
 			}
 			
 			our_cores_conquered_by_others = {
@@ -4589,6 +4588,7 @@ countries = {
 				strathearn cupar
 				#ross
 				dingwall gairloch ullapool
+				arran 
 			}
 			
 			include = "expl_northern_europe"
@@ -12918,6 +12918,7 @@ countries = {
 					religious_diplomats
 					promote_cultural_unity
 					reduced_from_military_obligations
+					#br_roman_ecumenical_patriarch_privilege
 					#consolidated_corruption_of_the_clergy #BR EDIT
 					
 					#Burghers
