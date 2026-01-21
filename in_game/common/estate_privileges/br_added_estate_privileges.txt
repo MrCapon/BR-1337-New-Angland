@@ -1,0 +1,138 @@
+﻿
+# BR added Nobles Estate Privileges
+
+akritai_privilege = {
+	
+	estate = nobles_estate
+	
+	potential = {
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			religion ?= religion:orthodox
+		}
+	}
+
+	can_revoke = {
+		OR = {
+			societal_value:centralization_vs_decentralization > 0
+			societal_value:spiritualist_vs_humanist > 25
+		}
+	}
+
+	country_modifier = {
+		land_morale_modifier = 0.05
+		global_levy_size_modifier = 0.05
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 1
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+		monthly_towards_quality = societal_value_minor_monthly_move
+
+		auto_slave_raid_different_religion = yes   # Frontier raiding (BR addition)
+		amount_looted_modifier = 0.5
+
+		# As with Ghazi privileges, useful early but a roadblock to centralization.
+	}
+}
+
+boyarski_voiski = {
+	estate = nobles_estate
+
+	potential = {
+		has_or_had_tag = BUL
+	}
+
+	country_modifier = {
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 0.5
+
+		# Military boosts
+		nobles_estate_levy_size = 0.25
+		global_levy_size_modifier = 0.10
+		global_manpower_modifier = 0.10
+		#wrong_culture_levy_size = 0.25
+
+		monthly_towards_aristocracy = societal_value_minor_monthly_move
+	}
+}
+
+# BR added burgher estate privileges
+
+br_special_trade_companies = {
+	estate = burghers_estate
+
+	potential = {
+		OR = {
+			has_or_had_tag = GTC
+			has_or_had_tag = VTC
+			has_or_had_tag = RIC
+		}
+	}
+
+	country_modifier = {
+		global_trades_per_burgher = 0.25
+		navy_maintenance_cost = -0.25
+		navy_light_ship_maintenance_cost_modifier = -0.25
+		trade_sea_movement_cost_modifier = -0.25
+		trade_efficiency = large_trade_efficiency_bonus
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_burghers_estate_power = 1
+		expected_navy_size_modifier = 1.0
+		payment_to_overlord_modifier = -0.5
+		global_navy_levy_size_modifier = 0.5
+	}
+}
+
+br_latin_trade_naval_reliance = {
+	estate = burghers_estate
+	
+	potential = {
+		has_estate_privilege = estate_privilege:br_latin_trade_naval_reliance
+	}
+	
+	can_revoke = {
+		government_power > 95
+	}
+
+	
+	country_modifier = {
+		trade_efficiency = medium_trade_efficiency_penalty
+		global_burghers_estate_power = 0.25
+		global_burghers_conversion_blocked = yes
+		tolerance_heretic = 1
+		tolerance_own = -1
+
+		#global_maritime_presence_modifier = 0.1
+		global_trade_center_power = 0.1
+
+		navy_maintenance_cost = 0.25
+		ship_build_speed = -0.5
+		expected_navy_size_modifier = -0.5
+		global_sailors_modifier = -0.5
+
+
+	}
+}
+
+# BR added clergy estate privileges
+
+br_roman_ecumenical_patriarch_privilege = {
+	estate = clergy_estate
+	potential = {
+	}
+	allow = {
+	}
+	can_revoke = {
+	}
+	country_modifier = {
+		global_clergy_estate_power = 0.25
+		clergy_estate_target_satisfaction = small_privilege_target_satisfaction
+		monthly_towards_spiritualist = societal_value_monthly_move
+		diplomatic_reputation = 4
+		monthly_religious_influence = 0.25
+		maximum_religious_influence = 500
+		force_convert_created_subjects = yes
+	}
+}
