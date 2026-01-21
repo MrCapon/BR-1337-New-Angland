@@ -44,6 +44,58 @@ REPLACE:nobility_fortifications = {
 }
 
 #Clergy
+# Not estate buildings, but edited here for convenience
+REPLACE:fortress_church = {
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+	
+	employment_size = large_religious_building_employment
+	category = defense_category
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	build_time = religious_building_time
+
+	country_potential = {
+		modifier:can_have_monasteries = yes
+	}
+	
+	location_potential = {
+		location_building_level = {
+			building_type = building_type:monastery
+			value > 0
+		}
+	}
+	#remove_if = {	
+	#	location = {
+	#		NOT = { has_building = building_type:monastery }
+	#	}
+	#}
+	graphical_tags = { medium_religious }
+
+	expensive = yes
+	possible_production_methods = {
+		fortress_church_maintenance
+	}
+	construction_demand = fortress_church_construction
+
+	modifier = {
+		local_clergy_food_consumption = 0.1
+		local_clergy_max_literacy = 10
+		local_clergy_estate_power = 0.25 #br edited from 0.2
+		local_garrison_size = 0.05
+	}
+	
+	raw_modifier = {
+		fort_level = 1 #br added small fort
+		#local_defensive = 0.1
+		propagating_zone_of_control = no
+	}
+}
+
 
 #Burghers
 
