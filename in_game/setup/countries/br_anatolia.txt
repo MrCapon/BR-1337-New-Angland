@@ -1,0 +1,54 @@
+﻿#BR edited
+REPLACE_OR_CREATE:CYP = {
+	color = map_cyprus
+	color2 = rgb { 245 200 30 } #same as in EU4
+
+	#BR EDIT
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+REPLACE_OR_CREATE:DUL = {
+	color = map_dulkadirids
+	color2 = rgb { 233 255 218 } #same as in EU4
+
+	culture_definition = turkoman_culture
+	religion_definition = shia
+}
+
+REPLACE_OR_CREATE:ERE = {
+	color = map_eretnids
+	color2 = rgb { 250 200 70 } #same as in EU4
+
+	culture_definition = turkmen_culture
+	religion_definition = sunni
+}
+
+REPLACE_OR_CREATE:KAR = {
+	color = map_karamanids
+	color2 = rgb { 90 160 190 } #same as in EU4
+
+	culture_definition = turkish_culture
+	religion_definition = shia
+}
+
+REPLACE_OR_CREATE:TRE = {
+	color = rgb { 65 84 167 } #BR edited
+
+	culture_definition = pontic_greek_culture
+	religion_definition = orthodox
+}
+
+REPLACE_OR_CREATE:TUR = {
+	color = { 222  150  75 }
+
+	unit_color0 = rgb {	175 40 40 }
+	unit_color1 = rgb {	76 78 114 }
+	unit_color2 = rgb {	18 90 47 }
+
+	culture_definition = turkish_culture
+	religion_definition = sunni
+
+	description_category = military
+	difficulty = 1
+}
