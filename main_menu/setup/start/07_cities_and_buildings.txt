@@ -2252,9 +2252,16 @@ building_manager = {
 	miaphysite_monastery =  { tag = ETH level = 1 location = kubar } #Debre Kerbe 
 	miaphysite_monastery =  { tag = DBE level = 1 location = hayq } #Debre Hayq Estifanos 
 	miaphysite_monastery =  { tag = MED level = 1 location = keren } #Debre Sina 
+
+	#
 	miaphysite_monastery =  { tag = ARM level = 1 location = ani } #BR EDIT City of Churches
 	miaphysite_monastery =  { tag = ARM level = 1 location = yerevan } #BR EDIT
 	miaphysite_monastery =  { tag = MAM level = 1 location = alexandria } #BR EDIT
+	fortress_church =  { tag = ARM level = 1 location = ani } #BR
+	fortress_church =  { tag = ARM level = 1 location = amberd } #BR
+	fortress_church =  { tag = ARM level = 1 location = tatev } #BR
+	fortress_church =  { tag = ARM level = 1 location = spitak } #BR
+	fortress_church =  { tag = ARM level = 1 location = gladzor } #BR
 
 	cawa_barracks = { tag = ETH level = 1 location = ankober }
 
@@ -4288,6 +4295,7 @@ building_manager = {
 	lumber_mill = { tag = AOI level = 1 location = arsuz }
 	lumber_mill = { tag = AON level = 1 location = ankara }
 	lumber_mill = { tag = PAF level = 1 location = kastamonu }
+	rural_clothmaker = { tag = PAF level = 1 location = kastamonu }
 	fiber_crops_farm = { tag = BYZ level = 1 location = uskudar }
 	horse_breeders = { tag = THS level = 1 location = larissa }
 
@@ -4944,6 +4952,7 @@ building_manager = {
 	tar_kiln = { tag = PAF level = 1 location = sinop }
 	sand_pit = { tag = GTC level = 1 location = amasra }
 	lumber_mill = { tag = GTC level = 1 location = amasra }
+	tar_kiln = { tag = AN0 level = 1 location = amasya }
 
 	market_village = { tag = BYZ level = 2 location = luleburgaz }
 	forest_village = { tag = BYZ level = 2 location = luleburgaz }
@@ -5146,6 +5155,7 @@ building_manager = {
 	forest_village = { tag = ANA level = 1 location = beysehir }
 	market_village = { tag = MES level = 1 location = arguvan }
 	market_village = { tag = DER level = 1 location = palu }
+	sand_pit = { tag = ARM level = 1 location = ani }
 	market_village = { tag = ARM level = 1 location = ercis }
 	market_village = { tag = ARM level = 1 location = karakilise }
 	market_village = { tag = ARM level = 1 location = tercan }
@@ -5153,13 +5163,16 @@ building_manager = {
 	market_village = { tag = ARM level = 2 location = yerevan }
 	farming_village = { tag = ARM level = 1 location = yerevan }
 	charcoal_maker = { tag = ARM level = 1 location = yerevan }
+	rural_clothmaker = { tag = ARM level = 1 location = yerevan }
 	charcoal_maker = { tag = ARM level = 1 location = tercan }
 	farming_village = { tag = ARM level = 1 location = amberd }
 	charcoal_maker = { tag = ARM level = 1 location = amberd }
+	rural_clothmaker = { tag = ARM level = 1 location = amberd }
 	farming_village = { tag = ARM level = 1 location = kumayri }
 	charcoal_maker = { tag = ARM level = 1 location = kumayri }
 	farming_village = { tag = ARM level = 1 location = artashavan }
-	forest_village = { tag = ARM level = 1 location = kagizman }
+	forest_village = { tag = ARM level = 2 location = kagizman }
+	forest_village = { tag = ARM level = 1 location = siran }
 	market_village = { tag = ARM level = 1 location = hasankale }
 	forest_village = { tag = ARM level = 1 location = bayazit }
 	farming_village = { tag = ARM level = 1 location = arguvan }
@@ -5169,16 +5182,26 @@ building_manager = {
 	farming_village = { tag = ARM level = 1 location = palu }
 	farming_village = { tag = ARM level = 1 location = harput }
 	farming_village = { tag = GEO level = 1 location = rustavi }
+	rural_clothmaker = { tag = GEO level = 1 location = rustavi }
 	farming_village = { tag = GEO level = 1 location = akhalkalaki }
 	farming_village = { tag = GEO level = 1 location = kutaisi }
 	farming_village = { tag = GEO level = 1 location = ardahan }
 	farming_village = { tag = GEO level = 1 location = bodbe }
 	charcoal_maker = { tag = GEO level = 1 location = gori }
+	rural_clothmaker = { tag = GEO level = 1 location = gori }
 	forest_village = { tag = GEO level = 1 location = savsat }
 	forest_village = { tag = GEO level = 1 location = poti_caucasus }
 	forest_village = { tag = GEO level = 1 location = khikhani }
 	forest_village = { tag = GEO level = 1 location = anaklia }
 	forest_village = { tag = GEO level = 1 location = batumi }
+	lumber_mill = { tag = ARM level = 1 location = erzurum }
+	lumber_mill = { tag = ARM level = 1 location = van }
+	lumber_mill = { tag = ARM level = 1 location = bargiri }
+	lumber_mill = { tag = ARM level = 1 location = kagizman }
+	lumber_mill = { tag = ARM level = 1 location = ilic }
+	charcoal_maker = { tag = ARM level = 1 location = bargiri }
+	lumber_mill = { tag = GEO level = 1 location = gori }
+	tar_kiln = { tag = GEO level = 1 location = mtskheta }
 	market_village = { tag = DER level = 1 location = malazgirt }
 	farming_village = { tag = DER level = 1 location = malazgirt }
 	market_village = { tag = KCN level = 1 location = gandzasar }
@@ -5744,7 +5767,7 @@ building_manager = {
 	stockade = { tag = CIL level = 1 location = mut }
 	nobility_fortifications = { tag = TRE level = 1 location = kastamonu }
 	nobility_fortifications = { tag = TRE level = 1 location = bafra }
-	stockade = { tag = TRE level = 1 location = amasya }
+	castle = { tag = TRE level = 1 location = amasya }
 	stockade = { tag = TRE level = 1 location = niksar }
 	stockade = { tag = CEP level = 1 location = cephalonia }
 	stockade = { tag = NAX level = 1 location = naxos }
