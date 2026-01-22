@@ -4,6 +4,7 @@
 akritai_privilege = {
 	
 	estate = nobles_estate
+	icon = ghazi_privilege
 	
 	potential = {
 		OR = {
@@ -39,6 +40,7 @@ akritai_privilege = {
 
 boyarski_voiski = {
 	estate = nobles_estate
+	icon = formalized_oath
 
 	potential = {
 		has_or_had_tag = BUL
@@ -50,9 +52,9 @@ boyarski_voiski = {
 
 		# Military boosts
 		nobles_estate_levy_size = 0.25
-		global_levy_size_modifier = 0.10
-		global_manpower_modifier = 0.10
-		#wrong_culture_levy_size = 0.25
+		global_levy_size_modifier = 0.1
+		global_manpower_modifier = 0.1
+		wrong_culture_levy_size = 0.1
 
 		monthly_towards_aristocracy = societal_value_minor_monthly_move
 	}
@@ -62,6 +64,7 @@ boyarski_voiski = {
 
 br_special_trade_companies = {
 	estate = burghers_estate
+	 icon = sponsor_maritime_contracts
 
 	potential = {
 		OR = {
@@ -87,6 +90,7 @@ br_special_trade_companies = {
 
 br_latin_trade_naval_reliance = {
 	estate = burghers_estate
+	#icon = sponsor_maritime_contracts
 	
 	potential = {
 		has_estate_privilege = estate_privilege:br_latin_trade_naval_reliance

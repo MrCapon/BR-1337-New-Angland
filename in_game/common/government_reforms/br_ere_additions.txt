@@ -1,6 +1,7 @@
 ﻿
 br_naval_akritai_reform = {
     age = age_1_traditions
+    icon = crusade_sea_reform
     potential = {
         OR = {
             has_or_had_tag = A1G

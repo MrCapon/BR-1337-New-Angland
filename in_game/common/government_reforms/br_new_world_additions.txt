@@ -1,5 +1,7 @@
 ﻿br_new_world_colonial_reform = {
     age = age_1_traditions
+    icon = colonial_subject
+    
     potential = {
         OR = {
             #Elysians
