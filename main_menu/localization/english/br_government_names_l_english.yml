@@ -1,11 +1,11 @@
 ﻿l_english:
 
- country_name_construction_basileia_rank_name: "$RANK$ $NAME$"
- country_name_construction_basileia_rank_name_map: "$RANK$ $NAME$"
+ country_name_construction_basileia_rank_name: "$RANK$" #$NAME$
+ country_name_construction_basileia_rank_name_map: "$RANK$" # $NAME$
  country_name_construction_basileia: "$country_name_construction_basileia_rank_name$"
  country_name_construction_basileia_map: "$country_name_construction_basileia_rank_name_map$"
 
- rank_empire_byzantine: "Basileía"
+ rank_empire_byzantine: "Basileía Romaíon"
  rank_empire_byzantine_ruler_male: "Basileus"
  rank_empire_byzantine_ruler_female: "Basilissa"
 
