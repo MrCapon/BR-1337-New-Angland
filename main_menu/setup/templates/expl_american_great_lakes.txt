@@ -8,7 +8,7 @@ discovered_areas = {
 	westsylvania_area
 	ohio_area
 	west_virginia_area
-	kentucky_aread
+	kentucky_area
 	indiana_area
 	michigan_area
 	illinois_area

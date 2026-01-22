@@ -4439,7 +4439,6 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				english
 			}
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
@@ -46841,9 +46840,8 @@ countries = {
 			
 			religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
 			court_language = turkmen_dialect
-			accepted_cultures = { turkmen_culture }
+			accepted_cultures = { khorasani_culture }
 			tolerated_cultures = {
-				khorasani_culture
 			}
 			
 			country_rank = rank_kingdom
@@ -52222,12 +52220,13 @@ countries = {
 				marmaris
 				antalya elmali karahisar_i_teke kas istanoz
 				manavgat finike
-				rodos kos karpathos
+				rodos kos
 				alaiye selinti
 			}
 
 			our_cores_conquered_by_others = {
 				megri yuksekkum bodrum gokabat
+				karpathos
 				#golhisar tavas mugla milas cine
 			}
 			

@@ -871,7 +871,7 @@ countries = {
 					army_doctrine_law = authority_of_the_captain
 					battle_leadership_law = loyal_pirate_crews
 					naval_doctrine_law = ship_boarding
-					add_recruitment_law = benefits_for_privateers
+					#add_recruitment_law = benefits_for_privateers
 					bureaucracy_law = port_logs
 				}
 
