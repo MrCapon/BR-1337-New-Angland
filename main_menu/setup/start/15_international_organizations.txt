@@ -45,7 +45,7 @@ international_organization_manager = {
 		EIC WEI NUR FKN RIE MSB UFF ROT DNB MEM KMP ULM KNZ OET SWH HBR BDE WDB RVA BIB UBL HHB FBG OFB WLD PRZ BRD LDB GOR FCB ALL ZEE CAM STV HTR HPL NWG 
 		VUD BMS BLB HSP BSK MSO WGO BHL GLN AOS RBG FLK NSI RDL NID MDS TGG GRY PSZ CFC MUR MUL LIC WDE NSH NSS 
 		BLM DIS EVS FUR GRK HAC JEV SAB THD WIE ELL HEH HLF HOH KIR NEL TUB KTZ NSW LEU PST
-		MOD 
+		MOD BLG FER ARZ
 		# From France
 		PRC MIE AQN MDM MRC BRR TOU POI
 		BUR ALE AUV BGN BOU AUX SAN DRE VDM EVR ETA NRM ANJ ARS ANG BRI FOI AMG FRZ BLS AST COM IJO MRT VLN PER TON MON AUM ROU FLA NEV RET NRB VNT RCC CLT
@@ -109,8 +109,9 @@ international_organization_manager = {
 			AAC BRM FRN GOS HAM KNZ MEM NUR REG ROT RVA ULM LUB DTM AGC KMP WTZ WRM BRN BSC ZUR CFC MUL
 			#Should be but can't because they only have "rural settlements"
 			# MLH BIB NHS OFB SWH WDB WEI SLT
+			ERF 
 			#BR Added Italian Free cities
-			ATI ASD PST VLT PRA PAV PAR PAD LUC MOD
+			ATI ASD PST VLT PRA PAV PAR PAD LUC MOD ARZ FER BLG
 		}
 		imperial_peasant_republic = {
 			FRI
@@ -598,7 +599,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 1235.1.1
-		members = { BUL RH0 }
+		members = { BUL RH0 B1L }
 		variables = { 
 			religion = religion:orthodox
 			seat = location:tarnovo
