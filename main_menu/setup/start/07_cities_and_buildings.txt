@@ -2185,62 +2185,6 @@ building_manager = {
 	orthodox_monastery = { tag = SER level = 1 location =  brskovo } #Ostrog Monastery
 	orthodox_monastery = { tag = EPI level = 1 location =  avlonya } # Apollonia Monastery & Ardenica Monastery
 	
-
-	#Anatolia added https://en.wikipedia.org/wiki/Category:Byzantine_sites_in_Anatolia
-	orthodox_monastery = { tag = ANA level = 1 location =  nigde } #Monē Chrysogeímōn
-	orthodox_monastery = { tag = ANA level = 1 location =  nevsehir } #Monē Gorēmā
-	orthodox_monastery = { tag = ANA level = 1 location =  beysehir } #Hagía Thékla
-	orthodox_monastery = { tag = ANA level = 1 location =  bekarlar } #Monē Selimēs
-	orthodox_monastery = { tag = ANA level = 1 location =  aksaray } #Monē tou Ichlára
-	orthodox_monastery = { tag = PAF level = 1 location =  sinop } #Monē Sinṓpēs
-	orthodox_monastery = { tag = TRE level = 1 location =  surmene } #Panagía Soumelá
-	orthodox_monastery = { tag = TRE level = 1 location =  gumushane } #Monē Vazelōnos
-	orthodox_monastery = { tag = KAP level = 1 location =  kayseri } #Archeos Monastērion
-	orthodox_monastery = { tag = CYP level = 1 location =  morphou } #Monē Hagíou Mámā
-	orthodox_monastery = { tag = BYZ level = 1 location =  akcasehir } #Monē Angelokástrou
-	orthodox_monastery = { tag = BYZ level = 1 location =  mengen } #Monē Maggainēs
-	orthodox_monastery = { tag = BYZ level = 1 location =  cesme } #Monē Lémbou
-	orthodox_monastery = { tag = BYZ level = 1 location =  bursa } #Monē tou Olýmpou Bythynías
-	orthodox_monastery = { tag = BYZ level = 1 location =  uskudar } #Monē Pelekḗtēs
-	orthodox_monastery = { tag = CIL level = 1 location =  mut } #Monē Alachān
-
-	cathedral	= { tag = BYZ level = 1	location = iznik }
-	cathedral	= { tag = BYZ level = 1	location = izmit }
-	cathedral	= { tag = BYZ level = 1	location = bursa }
-	cathedral	= { tag = BYZ level = 1	location = bergama }
-	cathedral	= { tag = TRE level = 1	location = trebizond }
-	cathedral	= { tag = ANA level = 1	location = ankara }
-	cathedral	= { tag = KAP level = 1	location = kayseri }
-	cathedral	= { tag = ANA level = 1	location = konya }
-	cathedral	= { tag = BYZ level = 1	location = antalya }
-	cathedral	= { tag = KAP level = 1	location = sivas }
-	cathedral	= { tag = BYZ level = 1	location = lazkiye }
-	cathedral	= { tag = TRE level = 1	location = amasya }
-
-	#Levant
-	cathedral	= { tag = AOI level = 1	location = antioch }
-	cathedral	= { tag = MAM level = 1	location = jerusalem }
-	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
-	orthodox_monastery	= { tag = MAM level = 1	location = jerusalem }
-	orthodox_monastery = { tag = MAM level = 1 location =  saint_katrine }
-	local_shrine = { tag = MAM level = 1 location =  saint_katrine }
-	parish_church = { tag = MAM level = 1 location =  saint_katrine }
-	spiritual_retreat = { tag = MAM level = 1 location = saint_katrine }
-	local_shrine = { tag = MAM level = 1 location =  alexandria }
-	scriptorium = { tag = MAM level = 4 location = alexandria }
-
-	spiritual_retreat = { tag = BYZ level = 1 location = mount_athos }
-	spiritual_retreat = { tag = BYZ level = 1 location = trikala }
-	spiritual_retreat = { tag = BYZ level = 1 location = salona }
-	spiritual_retreat = { tag = BYZ level = 1 location = leuktron }
-	spiritual_retreat = { tag = BYZ level = 1 location = ayasuluk }
-	clerical_archives = { tag = MAM level = 1 location = jerusalem }
-	clerical_archives = { tag = PAP level = 1 location = rome }
-	clerical_archives = { tag = MAM level = 1 location = alexandria }
-
-	#missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
-
-
 	### Abbeys	
 	monastery	= { tag = WLD level = 1	location = tirschenreuth }
 	monastery	= { tag = APR level = 1	location = prum }
@@ -4161,6 +4105,61 @@ building_manager = {
 
 ###BR### ADDED Buildings ###BR###
 
+	#Anatolia added https://en.wikipedia.org/wiki/Category:Byzantine_sites_in_Anatolia
+	orthodox_monastery = { tag = ANA level = 1 location =  nigde } #Monē Chrysogeímōn
+	orthodox_monastery = { tag = ANA level = 1 location =  nevsehir } #Monē Gorēmā
+	orthodox_monastery = { tag = ANA level = 1 location =  beysehir } #Hagía Thékla
+	orthodox_monastery = { tag = ANA level = 1 location =  bekarlar } #Monē Selimēs
+	orthodox_monastery = { tag = ANA level = 1 location =  aksaray } #Monē tou Ichlára
+	orthodox_monastery = { tag = PAF level = 1 location =  sinop } #Monē Sinṓpēs
+	orthodox_monastery = { tag = TRE level = 1 location =  surmene } #Panagía Soumelá
+	orthodox_monastery = { tag = TRE level = 1 location =  gumushane } #Monē Vazelōnos
+	orthodox_monastery = { tag = KAP level = 1 location =  kayseri } #Archeos Monastērion
+	orthodox_monastery = { tag = CYP level = 1 location =  morphou } #Monē Hagíou Mámā
+	orthodox_monastery = { tag = BYZ level = 1 location =  akcasehir } #Monē Angelokástrou
+	orthodox_monastery = { tag = BYZ level = 1 location =  mengen } #Monē Maggainēs
+	orthodox_monastery = { tag = BYZ level = 1 location =  cesme } #Monē Lémbou
+	orthodox_monastery = { tag = BYZ level = 1 location =  bursa } #Monē tou Olýmpou Bythynías
+	orthodox_monastery = { tag = BYZ level = 1 location =  uskudar } #Monē Pelekḗtēs
+	orthodox_monastery = { tag = CIL level = 1 location =  mut } #Monē Alachān
+
+	cathedral	= { tag = BYZ level = 1	location = iznik }
+	cathedral	= { tag = BYZ level = 1	location = izmit }
+	cathedral	= { tag = BYZ level = 1	location = bursa }
+	cathedral	= { tag = BYZ level = 1	location = bergama }
+	cathedral	= { tag = TRE level = 1	location = trebizond }
+	cathedral	= { tag = ANA level = 1	location = ankara }
+	cathedral	= { tag = KAP level = 1	location = kayseri }
+	cathedral	= { tag = ANA level = 1	location = konya }
+	cathedral	= { tag = BYZ level = 1	location = antalya }
+	cathedral	= { tag = KAP level = 1	location = sivas }
+	cathedral	= { tag = BYZ level = 1	location = lazkiye }
+	cathedral	= { tag = TRE level = 1	location = amasya }
+
+	#Levant
+	cathedral	= { tag = AOI level = 1	location = antioch }
+	cathedral	= { tag = MAM level = 1	location = jerusalem }
+	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
+	orthodox_monastery	= { tag = MAM level = 1	location = jerusalem }
+	orthodox_monastery = { tag = MAM level = 1 location =  saint_katrine }
+	local_shrine = { tag = MAM level = 1 location =  saint_katrine }
+	parish_church = { tag = MAM level = 1 location =  saint_katrine }
+	spiritual_retreat = { tag = MAM level = 1 location = saint_katrine }
+	local_shrine = { tag = MAM level = 1 location =  alexandria }
+	scriptorium = { tag = MAM level = 4 location = alexandria }
+
+	spiritual_retreat = { tag = BYZ level = 1 location = mount_athos }
+	spiritual_retreat = { tag = BYZ level = 1 location = trikala }
+	spiritual_retreat = { tag = BYZ level = 1 location = salona }
+	spiritual_retreat = { tag = BYZ level = 1 location = leuktron }
+	spiritual_retreat = { tag = BYZ level = 1 location = ayasuluk }
+	clerical_archives = { tag = MAM level = 1 location = jerusalem }
+	clerical_archives = { tag = PAP level = 1 location = rome }
+	clerical_archives = { tag = MAM level = 1 location = alexandria }
+
+	missionary_building = { tag = TRE level = 1 location = sarai_al_jadid }
+	missionary_building = { tag = AIA level = 1 location = astrakhan }
+
 	#Italy
 	sergeantry	= { tag = N1P level = 1 location = salerno } #Sergeants at arms
 	sergeantry	= { tag = BNV level = 1 location = lucera } #Sergeants at arms
@@ -4185,8 +4184,9 @@ building_manager = {
 	br_constantinople_shipyard = { tag = BYZ level = 1 location =  constantinople }
 	br_hippodrome_building = { tag = BYZ level = 1 location =  constantinople }
 
+	#Buildings - Constantinople
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
-	constantinople_observatory = { tag = BYZ level = 1 location =  constantinople }
+	#constantinople_observatory = { tag = BYZ level = 1 location =  constantinople }
 	marketplace	= { tag = BYZ level = 24 location =  constantinople }
 	#merchants_quarters = { tag = BYZ level = 1 location =  constantinople }
 	#grand_marketplace = { tag = BYZ level = 1 location =  constantinople }
@@ -4195,7 +4195,6 @@ building_manager = {
 	market_warehouse = { tag = BYZ level = 4 location =  constantinople }
 	fine_cloth_guild = { tag = BYZ level = 12 location =  constantinople }
 	brewery = { tag = BYZ level = 4 location =  constantinople }
-	saltpeter_guild = { tag = BYZ level = 1 location =  constantinople }
 	lacquerware_guild = { tag = BYZ level = 5 location =  constantinople }
 	tannery = { tag = BYZ level = 8 location =  constantinople }
 	cloth_guild = { tag = BYZ level = 10 location =  constantinople }
@@ -4215,10 +4214,10 @@ building_manager = {
 	castle = { tag = BYZ level = 1 location =  constantinople }
 	theodosian_walls = { tag = BYZ level = 1 location = constantinople }
 	wharf = { tag = BYZ level = 1 location =  constantinople }
-	#grand_shipyard = { tag = BYZ level = 1 location = constantinople }
 	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
 	construction_center = { tag = BYZ level = 1 location =  constantinople }
 	
+	#Greece - Macedonia
 	dock = { tag = THE level = 1 location = thessaloniki }
 	wharf = { tag = THE level = 1 location = thessaloniki }
 	lazaretto = { tag = THE level = 1 location = thessaloniki }
@@ -4251,11 +4250,9 @@ building_manager = {
 	bridge_infrastructure = { tag = BYZ level = 1 location = inonu }
 	bridge_infrastructure = { tag = BYZ level = 1 location = kutahya }
 	bridge_infrastructure = { tag = BYZ level = 1 location = manisa }
-
 	bridge_infrastructure = { tag = THE level = 1 location = gynaikokastro }
 	bridge_infrastructure = { tag = THE level = 1 location = thessaloniki }
 	irrigation_systems = { tag = THE level = 1 location = thessaloniki }
-
 	bridge_infrastructure = { tag = BUL level = 1 location = plovdiv }
 	bridge_infrastructure = { tag = BUL level = 1 location = drastar }
 	bridge_infrastructure = { tag = BUL level = 1 location = nikopol }
@@ -4505,6 +4502,7 @@ building_manager = {
 	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
 	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
 
+	#Extra Weapon Guilds
 	weapon_guild = { tag = ARM level = 2 location = ani }
 	weapon_guild = { tag = GEO level = 2 location = tbilisi }
 	weapon_guild = { tag = LON level = 4 location = leon }
@@ -4613,7 +4611,6 @@ building_manager = {
 	entrepot = { tag = AIA level = 1 location = baghdad }
 	market_warehouse = { tag = AIA level = 4 location = baghdad }
 	fine_cloth_guild = { tag = AIA level = 8 location = baghdad }
-	saltpeter_guild = { tag = AIA level = 1 location = baghdad }
 	tannery = { tag = AIA level = 4 location = baghdad }
 	cloth_guild = { tag = AIA level = 6 location = baghdad }
 	dyes_guild = { tag = AIA level = 10 location = baghdad }
@@ -4818,7 +4815,7 @@ building_manager = {
 	jewish_district = { tag = ADU level = 1 location = cordoba }
 
 
-	# steppes 
+# steppes 
 	kurultai = { tag = GLH level = 1 location = sarai_al_jadid }
 	weapon_guild = { tag = GLH level = 4 location = sarai_al_jadid }
 	slave_market = { tag = GLH level = 3 location = sarai_al_jadid }
@@ -4869,7 +4866,7 @@ building_manager = {
 	tar_kiln = { tag = GLH level = 1 location =  umanske }
 	charcoal_maker = { tag = GLH level = 1 location = bykovo }
 
-	#Tribal Buildings
+#Tribal Buildings
 	tribal_war_camp = { tag = GLH level = 1 location =  yenotayevka }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  yenotayevka }
 	tribal_market_villages = { tag = GLH level = 2 location =  yenotayevka }
@@ -4923,7 +4920,7 @@ building_manager = {
 
 
 
-#Villages
+#Villages and rural buildings
 	market_village = { tag = BUL level = 2 location = burgas }
 	fishing_village = { tag = BUL level = 1 location = burgas }
 	fishing_village = { tag = BUL level = 1 location = anhialo }
@@ -4958,7 +4955,6 @@ building_manager = {
 	sand_pit = { tag = GTC level = 1 location = amasra }
 	lumber_mill = { tag = GTC level = 1 location = amasra }
 	tar_kiln = { tag = AN0 level = 1 location = amasya }
-
 	market_village = { tag = BYZ level = 2 location = luleburgaz }
 	forest_village = { tag = BYZ level = 2 location = luleburgaz }
 	market_village = { tag = BYZ level = 1 location = balikesir }
@@ -4971,7 +4967,6 @@ building_manager = {
 	farming_village = { tag = BYZ level = 1 location = sultanonu }
 	forest_village = { tag = BYZ level = 1 location = adranos }
 	forest_village = { tag = BYZ level = 1 location = dursunbey }
-
 	market_village = { tag = ACH level = 1 location = kalamata }
 	market_village = { tag = CAS level = 1 location = calatayud }
 	market_village = { tag = CAS level = 1 location = castellon_de_la_plana }
@@ -5357,6 +5352,7 @@ building_manager = {
 	sand_pit = { tag = FLO level = 1 location = florence }
 	clay_pit = { tag = MLO level = 1 location = florence }
 
+	#Villages
 	market_village = { tag = VTC level = 2 location = corfu }
 	fishing_village = { tag = VTC level = 2 location = corfu }
 	market_village = { tag = CEP level = 2 location = cephalonia }
@@ -5527,7 +5523,11 @@ building_manager = {
 	market_village = { tag = KAR level = 1 location = badra }
 	market_village = { tag = KAR level = 1 location = dayr_aqul }
 
-	
+#Embassies
+	embassy = { tag = PAP level = 1 location = constantinople }
+	embassy = { tag = PAP level = 1 location = metz }
+	#embassy = { tag = PAP level = 1 location = paris }
+	#embassy = { tag = AIA level = 1 location = constantinople }
 
 
 #BR added estate buildings
