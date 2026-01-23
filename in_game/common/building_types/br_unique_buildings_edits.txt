@@ -103,7 +103,7 @@ REPLACE_OR_CREATE:venetian_quarter = {
 	pop_type = burghers
 	
 	need_good_relation = yes
-	employment_size = large_foreign_trade_employment
+	employment_size = huge_foreign_trade_employment
 	max_levels = italian_merchant_quarters_max_level
 	category = trade_category
 	town = yes
@@ -124,9 +124,11 @@ REPLACE_OR_CREATE:venetian_quarter = {
 	expensive = yes
 	build_time = trade_post_build_time
 	modifier = {
-		merchant_capacity_from_building = 2.5 #1.0
+		merchant_capacity_from_building = 5 #1.0
 		merchant_power_from_building = 5 #br added
 		building_owner_maritime_presence = 1 #0.025
+		#Italian merchants settle in the new location
+		local_migration_attraction = 0.025
 	}
 	possible_production_methods = {
 		venetian_quarter_maintenance
@@ -139,7 +141,7 @@ REPLACE_OR_CREATE:galata = {
 	
 	need_good_relation = yes
 	pop_type = burghers
-	employment_size = large_foreign_trade_employment
+	employment_size = huge_foreign_trade_employment
 	max_levels = italian_merchant_quarters_max_level
 	category = trade_category
 	town = yes
@@ -163,9 +165,11 @@ REPLACE_OR_CREATE:galata = {
 	expensive = yes
 	build_time = trade_post_build_time
 	modifier = {
-		merchant_capacity_from_building = 2.5 #1.0
+		merchant_capacity_from_building = 5 #1.0
 		merchant_power_from_building = 5 #br added
 		building_owner_maritime_presence = 1 #0.025
+		#Italian merchants settle in the new location
+		local_migration_attraction = 0.025
 	}
 	possible_production_methods = {
 		galata_maintenance
