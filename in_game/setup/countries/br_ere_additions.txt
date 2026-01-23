@@ -207,6 +207,29 @@ AN5 = { #BR addition
 	religion_definition = orthodox
 }
 
+#Wallachia
+
+WA0 = {
+	color = rgb { 72 150 222 }
+
+	culture_definition = wallachian
+	religion_definition = orthodox
+}
+
+WA1 = {
+	color = rgb { 69 130 202 }
+
+	culture_definition = wallachian
+	religion_definition = orthodox
+}
+
+WA2 = {
+	color = rgb { 78 180 202 }
+
+	culture_definition = wallachian
+	religion_definition = orthodox
+}
+
 
 #Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible

@@ -17740,7 +17740,7 @@ countries = {
 		}
 		
 		WAL = {	#Wallachia
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				targoviste ploesti valenii_de_munte campulung_muscel arges zimnicea
 				severin stramba targu_jiu targu_bengai ramnicu_valcea craiova
 				caracal calafat slatina turnu_magurele
@@ -51393,6 +51393,129 @@ countries = {
 			
 			capital = tarnovo
 		}
+
+		#Wallachia
+
+		WA0 = {	#Wallachia
+			own_control_core = {
+				severin strehaia targu_jiu targu_bengai ramnicu_valcea craiova caracal calafat slatina turnu_magurele corabia dragasani plenita
+				stramba radovanu
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				centralization_vs_decentralization = 70
+				aristocracy_vs_plutocracy = -50
+				serfdom_vs_free_subjects = -90
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -60
+				offensive_vs_defensive = 20
+				land_vs_naval = -20
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -20
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = -20
+				outward_vs_inward = 20
+			}
+			
+			accepted_cultures = {
+				bulgarian
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			country_rank = rank_county
+			capital = severin
+		}
+		
+		WA1 = {	#Wallachia
+			own_control_core = {
+				targoviste ploesti campulung_muscel arges bucharest pitesti poenari cozia cetateni glavacioc gaiseni gratia
+				slanic rusii_de_vede zimnicea giurgiu comana
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				centralization_vs_decentralization = 70
+				aristocracy_vs_plutocracy = -50
+				serfdom_vs_free_subjects = -90
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -60
+				offensive_vs_defensive = 20
+				land_vs_naval = -20
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -20
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = -20
+				outward_vs_inward = 20
+			}
+			
+			accepted_cultures = {
+				bulgarian
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			country_rank = rank_county
+			capital = targoviste
+		}
+		
+		WA2 = {	#Wallachia
+			own_control_core = { 
+				buzau orasul_de_floci braila ramnicu_sarat slobozia viziru parscov meteleu bukov cegani 
+				lichiresti valenii_de_munte
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy_no_coast"
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				centralization_vs_decentralization = 70
+				aristocracy_vs_plutocracy = -50
+				serfdom_vs_free_subjects = -90
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -60
+				offensive_vs_defensive = 20
+				land_vs_naval = -20
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -20
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = -20
+				outward_vs_inward = 20
+			}
+			
+			accepted_cultures = {
+				bulgarian
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			country_rank = rank_county
+			capital = buzau
+		}
+		
 
 		#Anatolian Tags
 

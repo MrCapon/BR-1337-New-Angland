@@ -43887,7 +43887,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1310.1.1 #Unknown
 		birth = campulung_muscel #Unknown
 		dynasty = basarab_dynasty
-		tag = WAL
+		tag = BUL #WAL
 	}
 	
 	wal_basarab = {
@@ -43900,7 +43900,7 @@ adm = 31 dip = 34 mil = 24
 		birth = campulung_muscel #Unknown
 		father = wal_tihomir
 		dynasty = basarab_dynasty
-		tag = WAL
+		tag = BUL #WAL
 	}
 	
 	wal_marghita = {
@@ -43911,7 +43911,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1280.1.1 #Unknown
 		birth = campulung_muscel #Unknown
 		spouse = wal_basarab
-		tag = WAL
+		tag = BUL #WAL
 	}
 	
 	wal_nicolae_alexandru = {
@@ -43924,7 +43924,7 @@ adm = 31 dip = 34 mil = 24
 		father = wal_basarab
 		mother = wal_marghita
 		dynasty = basarab_dynasty
-		tag = WAL
+		tag = BUL #WAL
 	}
 		
 	wal_maria_lackfi = {
@@ -43936,7 +43936,7 @@ adm = 31 dip = 34 mil = 24
 		birth = medias #Unknown
 		spouse = wal_nicolae_alexandru
 		dynasty = lackfi_dynasty
-		tag = WAL
+		tag = BUL #WAL
 	}
 	
 	wal_vladislav = {
@@ -43948,7 +43948,7 @@ adm = 31 dip = 34 mil = 24
 		father = wal_nicolae_alexandru
 		mother = wal_maria_lackfi
 		dynasty = basarab_dynasty
-		tag = WAL
+		tag = BUL #WAL
 	}
 	
 	#Marinids

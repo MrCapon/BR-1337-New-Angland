@@ -489,7 +489,6 @@ diplomacy_manager = {
 	scripted_oneway = { first = HAL second = RH0 type = military_sponsorship }
 	scripted_oneway = { first = VOL second = RH0 type = military_sponsorship }
     scripted_oneway = { first = BUL second = RH0 type = military_sponsorship }
-	scripted_oneway = { first = WAL second = RH0 type = military_sponsorship }
     scripted_oneway = { first = NOV second = RH0 type = military_sponsorship }
 
     #-------Low Lands-------
@@ -554,15 +553,17 @@ diplomacy_manager = {
     scripted_mutual = { first = HUN second = POL type = alliance }
     dependency = { first = HUN second = CRO subject_type = dominion }
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
-    dependency = { first = HUN second = WAL subject_type = tributary } #BR ADDED
+    #dependency = { first = HUN second = WAL subject_type = tributary } #BR ADDED
     scripted_mutual = { first = EPI second = S2C type = alliance }
     #Bulgaria
     dependency = { first = BUL second = B1L subject_type = fiefdom }
     dependency = { first = B1L second = MZK subject_type = vassal }
-    dependency = { first = B1L second = ANT subject_type = vassal } #BR EDIT
-    dependency = { first = B1L second = THP subject_type = vassal } #BR EDIT
-    dependency = { first = B1L second = MTR subject_type = vassal } #BR EDIT
-    
+    dependency = { first = B1L second = ANT subject_type = vassal }
+    dependency = { first = B1L second = THP subject_type = vassal }
+    dependency = { first = B1L second = MTR subject_type = vassal }
+    dependency = { first = BUL second = WA0 subject_type = march }
+    dependency = { first = BUL second = WA1 subject_type = march }
+    dependency = { first = BUL second = WA2 subject_type = march }
 
     #Persia/Mesopotamia
     dependency = { first = TUR second = HZN subject_type = vassal }

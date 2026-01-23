@@ -4502,6 +4502,26 @@ building_manager = {
 	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
 	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
 
+
+	nobles_recruitment_center = { tag = WA0 level = 1 location = severin }
+	nobles_recruitment_center = { tag = WA2 level = 1 location = buzau }
+	nobility_fortifications = { tag = WA2 level = 1 location = buzau }
+	castle = { tag = WA0 level = 1 location = severin }
+	castle = { tag = WA1 level = 1 location = campulung_muscel }
+	castle = { tag = WA2 level = 1 location = valenii_de_munte }
+	peasants_training_grounds = { tag = WA0 level = 1 location = slatina }
+	peasants_training_grounds = { tag = WA0 level = 1 location = dragasani }
+	peasants_training_grounds = { tag = WA1 level = 1 location = comana }
+	peasants_training_grounds = { tag = WA2 level = 1 location = slobozia }
+	farming_village = { tag = WA0 level = 1 location = slatina }
+	farming_village = { tag = WA0 level = 1 location = dragasani }
+	farming_village = { tag = WA1 level = 1 location = comana }
+	farming_village = { tag = WA2 level = 1 location = slobozia }
+	forest_village = { tag = WA2 level = 1 location = valenii_de_munte }
+	rural_clothmaker = { tag = WA2 level = 1 location = buzau }
+	rural_clothmaker = { tag = WA0 level = 1 location = severin }
+
+
 	#Extra Weapon Guilds
 	weapon_guild = { tag = ARM level = 2 location = ani }
 	weapon_guild = { tag = GEO level = 2 location = tbilisi }
@@ -5045,8 +5065,12 @@ building_manager = {
 	farming_village = { tag = SER level = 1 location = podgorica }
 	forest_village = { tag = SER level = 1 location = smederevo }
 	forest_village = { tag = SER level = 1 location = novo_brdo }
-	market_village = { tag = WAL level = 1 location = campulung_muscel }
-	forest_village = { tag = WAL level = 1 location = campulung_muscel }
+	market_village = { tag = WA1 level = 1 location = campulung_muscel }
+	forest_village = { tag = WA1 level = 1 location = campulung_muscel }
+	market_village = { tag = WA0 level = 2 location = severin }
+	forest_village = { tag = WA0 level = 2 location = severin }
+	market_village = { tag = WA2 level = 2 location = buzau }
+	forest_village = { tag = WA2 level = 2 location = buzau }
 	farming_village = { tag = BYZ level = 1 location = bozan }
 	farming_village = { tag = BYZ level = 1 location = rodoscuk }
 	farming_village = { tag = CIL level = 2 location = adana }

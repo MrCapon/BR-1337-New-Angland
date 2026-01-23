@@ -143,6 +143,12 @@
  B5L_ADJ: "Boulgaría"
  B6L: "Paristrion" #or Moesia
  B6L_ADJ: "Paristrion"
+ WA0: "Severin–Olt"
+ WA0_ADJ: "Severin"
+ WA1: "Arges–Dambovita"
+ WA1_ADJ: "Arges"
+ WA2: "Ialomita"
+ WA2_ADJ: "Ialomita"
 
  
  AN0: "Armenikon"
