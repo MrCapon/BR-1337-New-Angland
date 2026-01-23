@@ -6,11 +6,11 @@
 
 ## ERE Content
 - Events for subjects to break away if/when legitimacy drops below -15 with option for ERE to fight to maintain relationship or let the subject slip away.
-- Event to make Indikes a BYZ trade Company if they own suez.
+~~- Event to make Indikes a BYZ trade Company if they own suez.~~
 - Event to offer Elysium colonial status if own straits of Hercules and have made contact/have good relations with ai elysian tags. 
 - Third ERE faction in the guelphs_and_ghibellines
 - Varangian buildings
-    - Foreign manpower building
+    ~~- Foreign manpower building~~
     - Barracks
     - etc
 - Building based themata that work similar to the Shogunate.
@@ -31,7 +31,7 @@
 Add a couple pirate tags
 
 ## New World Fantastical and or extra tags
-- Option (No idea how yet) to create more nations via game rules
+~~- Option (No idea how yet) to create more nations via game rules~~
 
 Arthurian type tag
 New Angland 
