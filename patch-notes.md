@@ -1,4 +1,52 @@
 
+# 0.12
+
+## Balance
+### East HRE
+- Various decentralized duchy hiarchies established
+  - Saxony
+  - Swabia
+  - Franconia (Might rename to East Franconia)
+  - Hesse (Might rename to West or Central Franconia)
+
+### New Releasables
+- SY0: Palaestina
+- SY1: Edessa
+
+### misc balance
+- More starting laws for Elysians
+Building, country, diplomacy and opinion changes
+
+### New Advances
+- Ecumenical Patriarchate: "The Ecumenical Patriarch stands as the foremost bishop of the Roman world, exercising recognized authority through councils, canon law, and custom. From the imperial capital, the Church provides spiritual unity and guidance to the oikouménē, closely entwined with the institutions of the state."
+
+### New privileges
+- Prerogatives of the Ecumenical Patriarch: "By ancient custom and recognized canon, the Ecumenical Patriarch exercises wide authority within the imperial church. These prerogatives strengthen the influence of the clergy in public life, extend the Church’s hand into diplomacy, and ensure the spiritual alignment of newly incorporated lands and subjects."
+
+
+
+### Dynasties and characters
+- Put a Premyslid back on the Bohemian Throne
+- Split Bagratuni from Bagrationi
+- Fixed Fatamid dynasty
+
+
+### Buildings
+- Added more weapons and supporting buildings.
+- added a small garrison bonus to city guard
+- Added a bunch of Noble Villa's to Anatolia to represent the great magnate estates.
+
+## Localization
+- Localization fix for the Romans that should also fix the rank being behind name when combined with certain mods.
+
+## GFX
+- Varangians will use the age 2 icon.
+- Icons added for mod added estate privileges and government reforms
+
+## Bug Fixes
+- Lots of various bug fixes and file refactors for better organization.
+
+
 # 0.11 Énteka
 
 ## Art
