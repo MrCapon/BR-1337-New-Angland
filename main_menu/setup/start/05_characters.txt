@@ -6384,7 +6384,7 @@ character_db={
 			modifier = "sickly_character"
 			start_date = 1330.1.1
 			date = 9999.1.1
-			size = 1
+			size = 0.5
 		}
 	}
 	
@@ -6408,7 +6408,7 @@ character_db={
 		first_name = { name = name_michael }
 		culture = greek_culture
 		religion = orthodox
-		adm = 1 dip = 1 mil = 5
+		adm = 6 dip = 6 mil = 12
 		birth_date = 1337.1.1
 		birth = constantinople
 		father = byz_andronikos_iii_palaiologos
