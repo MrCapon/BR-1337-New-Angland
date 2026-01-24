@@ -1782,7 +1782,7 @@ countries = {
 		BOH = {
 			#Bohemia
 			own_control_core = {
-				prague slany rakovnik zatec tepla loket cheb tachov domazlice
+				prague slany rakovnik zatec tepla loket tachov domazlice
 				klatovy plzen jachymov most husinec usti_nad_labem decin
 				litomerice beroun turnov frydlant prachen krumlov pisek
 				budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
@@ -33861,7 +33861,7 @@ countries = {
 		
 		PAL = {	#The Palatinate
 			own_control_core = {
-				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+				amberg eschenbach neumarkt roding sulzbach cheb #Oberpfalz
 			}
 
             our_cores_conquered_by_others = {
@@ -33874,7 +33874,7 @@ countries = {
 			include = "catholic_monarchy_no_coast"
 			include = "expl_northern_europe"
 			include = "german_principality"
-			capital = heidelberg
+			capital = neumarkt
 			dynasty = wittelsbach_dynasty
 			government = {
 				ruler = pal_rudolf_ii_wittelsbach
@@ -51298,7 +51298,7 @@ countries = {
 		WA0 = {	#Wallachia
 			own_control_core = {
 				severin strehaia targu_jiu targu_bengai ramnicu_valcea craiova caracal calafat corabia dragasani plenita
-				stramba radovanu
+				stramba radovanu cozia
 			}
 			
 			starting_technology_level = 3
@@ -51337,8 +51337,8 @@ countries = {
 		
 		WA1 = {	#Wallachia
 			own_control_core = {
-				targoviste ploesti campulung_muscel arges bucharest pitesti poenari cozia cetateni glavacioc gaiseni gratia
-				slanic rusii_de_vede zimnicea giurgiu comana slatina turnu_magurele
+				targoviste ploesti campulung_muscel arges bucharest pitesti poenari cetateni glavacioc gaiseni gratia
+				slanic rusii_de_vede zimnicea giurgiu comana slatina turnu_magurele lichiresti
 			}
 			
 			starting_technology_level = 3
@@ -51378,7 +51378,7 @@ countries = {
 		WA2 = {	#Wallachia
 			own_control_core = { 
 				buzau orasul_de_floci braila ramnicu_sarat slobozia viziru parscov meteleu bukov cegani 
-				lichiresti valenii_de_munte
+				valenii_de_munte
 			}
 			
 			starting_technology_level = 3

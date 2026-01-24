@@ -4521,6 +4521,83 @@ building_manager = {
 	rural_clothmaker = { tag = WA2 level = 1 location = buzau }
 	rural_clothmaker = { tag = WA0 level = 1 location = severin }
 
+	#German Duchies
+	nobles_recruitment_center = { tag = HES level = 1 location = kassel }
+	nobility_fortifications = { tag = HES level = 1 location = kassel }
+	market_village = { tag = HES level = 2 location = kassel }
+	rural_clothmaker = { tag = HES level = 2 location = kassel }
+	peasants_training_grounds = { tag = HES level = 1 location = giessen }
+	farming_village = { tag = HES level = 1 location = giessen }
+	peasants_training_grounds = { tag = HES level = 1 location = alsfeld }
+	farming_village = { tag = HES level = 1 location = alsfeld }
+
+	nobles_recruitment_center = { tag = NSA level = 1 location = usingen }
+	nobility_fortifications = { tag = NSA level = 1 location = usingen }
+	market_village = { tag = NSA level = 2 location = usingen }
+	rural_clothmaker = { tag = NSA level = 2 location = usingen }
+	peasants_training_grounds = { tag = NSA level = 1 location = siegen }
+	forest_village = { tag = NSA level = 1 location = siegen }
+
+	peasants_training_grounds = { tag = FKN level = 1 location = coburg }
+	nobility_fortifications = { tag = FKN level = 1 location = coburg }
+	forest_village = { tag = FKN level = 1 location = coburg }
+	peasants_training_grounds = { tag = FKN level = 1 location = meiningen }
+	nobility_fortifications = { tag = FKN level = 1 location = meiningen }
+	forest_village = { tag = FKN level = 1 location = meiningen }
+	peasants_training_grounds = { tag = FKN level = 1 location = bruckenau }
+	nobility_fortifications = { tag = FKN level = 1 location = bruckenau }
+	forest_village = { tag = FKN level = 1 location = bruckenau }
+	peasants_training_grounds = { tag = FKN level = 1 location = uffenheim }
+	nobility_fortifications = { tag = FKN level = 1 location = uffenheim }
+	forest_village = { tag = FKN level = 1 location = uffenheim }
+
+	nobles_recruitment_center = { tag = THU level = 1 location = eisenach }
+	nobility_fortifications = { tag = THU level = 1 location = eisenach }
+	market_village = { tag = THU level = 2 location = eisenach }
+	rural_clothmaker = { tag = THU level = 2 location = eisenach }
+	peasants_training_grounds = { tag = THU level = 1 location = langensalza }
+	market_village = { tag = THU level = 1 location = langensalza }
+	peasants_training_grounds = { tag = THU level = 1 location = freyburg }
+	farming_village = { tag = THU level = 1 location = freyburg }
+
+	nobles_recruitment_center = { tag = PAL level = 1 location = neumarkt }
+	nobility_fortifications = { tag = PAL level = 1 location = neumarkt }
+	market_village = { tag = PAL level = 2 location = neumarkt }
+	rural_clothmaker = { tag = PAL level = 2 location = neumarkt }
+	peasants_training_grounds = { tag = PAL level = 1 location = amberg }
+	forest_village = { tag = PAL level = 1 location = amberg }
+	peasants_training_grounds = { tag = PAL level = 1 location = eschenbach }
+	forest_village = { tag = PAL level = 1 location = eschenbach }
+	peasants_training_grounds = { tag = PAL level = 1 location = cheb }
+	nobility_fortifications = { tag = PAL level = 1 location = cheb }
+	forest_village = { tag = PAL level = 1 location = cheb }
+
+	peasants_training_grounds = { tag = SAX level = 1 location = celle }
+	farming_village = { tag = SAX level = 1 location = celle }
+	peasants_training_grounds = { tag = SAX level = 1 location = osterburg }
+	farming_village = { tag = SAX level = 1 location = osterburg }
+	peasants_training_grounds = { tag = SAX level = 1 location = harburg }
+	farming_village = { tag = SAX level = 1 location = harburg }
+	nobles_recruitment_center = { tag = SAX level = 1 location = hanover }
+	nobility_fortifications = { tag = SAX level = 1 location = hanover }
+	market_village = { tag = SAX level = 1 location = hanover }
+
+	nobles_recruitment_center = { tag = MEI level = 1 location = dresden }
+	market_village = { tag = MEI level = 1 location = dresden }
+	nobles_recruitment_center = { tag = MEI level = 1 location = meissen }
+	nobility_fortifications = { tag = MEI level = 1 location = meissen }
+	market_village = { tag = MEI level = 1 location = meissen }
+
+	nobles_recruitment_center = { tag = SWA level = 1 location = krumbach }
+	nobility_fortifications = { tag = SWA level = 1 location = krumbach }
+	farming_village = { tag = SWA level = 1 location = krumbach }
+	peasants_training_grounds = { tag = SWA level = 1 location = oberkirch }
+	nobility_fortifications = { tag = SWA level = 1 location = oberkirch }
+	forest_village = { tag = SWA level = 1 location = oberkirch }
+	peasants_training_grounds = { tag = SWA level = 1 location = backnang }
+	nobility_fortifications = { tag = SWA level = 1 location = backnang }
+	farming_village = { tag = SWA level = 1 location = backnang }
+
 
 	#Extra Weapon Guilds
 	weapon_guild = { tag = ARM level = 2 location = ani }

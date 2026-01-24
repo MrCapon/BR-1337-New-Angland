@@ -162,7 +162,7 @@ diplomacy_manager = {
     dependency = { first = LOT second = LUX subject_type = vassal }
     dependency = { first = LOT second = FCB subject_type = vassal }
     dependency = { first = LOT second = DUN subject_type = vassal }
-    dependency = { first = LOT second = FCB subject_type = vassal }
+    dependency = { first = LOT second = PSZ subject_type = vassal }
 	
 	#Aquitine
 	dependency = { first = AQN second = MDM subject_type = vassal }
@@ -365,6 +365,11 @@ diplomacy_manager = {
     dependency = { first = HES second = BUD subject_type = vassal }
     dependency = { first = HES second = HNA subject_type = vassal }
 
+    dependency = { first = NSA second = DIE subject_type = vassal }
+    dependency = { first = NSA second = KTZ subject_type = vassal }
+    dependency = { first = NSA second = WIE subject_type = vassal }
+    dependency = { first = NSA second = SYN subject_type = vassal }
+
     #Franconia
     dependency = { first = FKN second = UFF subject_type = vassal }
     dependency = { first = FKN second = RIE subject_type = vassal }
@@ -376,8 +381,8 @@ diplomacy_manager = {
     #Saxony
     dependency = { first = MEI second = SOR subject_type = fiefdom }
     dependency = { first = MEI second = SPB subject_type = vassal }
-    #dependency = { first = MEI second = ZAG subject_type = vassal start_date = 1329.1.1 }
-    #dependency = { first = MEI second = GLO subject_type = vassal start_date = 1331.1.1 }
+    dependency = { first = MEI second = ZAG subject_type = vassal start_date = 1329.1.1 }
+    dependency = { first = MEI second = GLO subject_type = vassal start_date = 1331.1.1 }
 
     dependency = { first = LDB second = GLA subject_type = vassal }
 
@@ -517,21 +522,19 @@ diplomacy_manager = {
     dependency = { first = BOH second = MVA subject_type = fiefdom start_date = 1333.1.1 } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
     dependency = { first = BOH second = BRZ subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = BOH second = BYM subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = GLO subject_type = vassal start_date = 1331.1.1 }
     dependency = { first = BOH second = LGC subject_type = vassal start_date = 1329.5.9 }
     dependency = { first = BOH second = NMD subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = NMS subject_type = vassal start_date = 1323.1.1 }
     dependency = { first = BOH second = OEL subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = BOH second = OPL subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = OPV subject_type = vassal start_date = 1318.1.1 }
-    dependency = { first = BOH second = OSW subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = POL second = OSW subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = PDK subject_type = vassal start_date = 1318.1.1 }
     dependency = { first = BOH second = RCB subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = SCI subject_type = vassal start_date = 1329.1.1 }
-    dependency = { first = BOH second = SIZ subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = POL second = SIZ subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = STZ subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = TES subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = ZAG subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = BOH second = ZIE subject_type = vassal start_date = 1336.8.29 }
     dependency = { first = WRC second = NYS subject_type = vassal start_date = 1290.1.1 }
     scripted_mutual = { first = BOH second = LBV type = alliance }
