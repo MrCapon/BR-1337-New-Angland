@@ -194,6 +194,8 @@ diplomacy_manager = {
     dependency = { first = FRA second = ALE subject_type = vassal }
     dependency = { first = FRA second = VDM subject_type = vassal }
     dependency = { first = FRA second = BLS subject_type = vassal }
+    dependency = { first = FRA second = BER subject_type = appanage }
+    dependency = { first = FRA second = SAN subject_type = appanage }
 
     #Burgundey
 	dependency = { first = BUR second = TON subject_type = vassal }
@@ -361,7 +363,6 @@ diplomacy_manager = {
     dependency = { first = HES second = WTG subject_type = vassal }
     dependency = { first = HES second = FLK subject_type = vassal }
     dependency = { first = HES second = BUD subject_type = vassal }
-    dependency = { first = HES second = NSW subject_type = vassal }
     dependency = { first = HES second = HNA subject_type = vassal }
 
     #Franconia
@@ -482,7 +483,6 @@ diplomacy_manager = {
 	scripted_oneway = { first = BYZ second = OHS type = military_sponsorship }
 	scripted_oneway = { first = THE second = OHS type = military_sponsorship }
     scripted_oneway = { first = ATH second = OHS type = military_sponsorship }
-	scripted_oneway = { first = BUL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = SER second = OHS type = military_sponsorship }
 
     scripted_oneway = { first = KIE second = RH0 type = military_sponsorship }
@@ -562,8 +562,8 @@ diplomacy_manager = {
     dependency = { first = B1L second = THP subject_type = vassal }
     dependency = { first = B1L second = MTR subject_type = vassal }
     dependency = { first = BUL second = WA0 subject_type = march }
-    dependency = { first = BUL second = WA1 subject_type = march }
-    dependency = { first = BUL second = WA2 subject_type = march }
+    dependency = { first = BUL second = WA1 subject_type = vassal }
+    dependency = { first = BUL second = WA2 subject_type = vassal }
 
     #Persia/Mesopotamia
     dependency = { first = TUR second = HZN subject_type = vassal }

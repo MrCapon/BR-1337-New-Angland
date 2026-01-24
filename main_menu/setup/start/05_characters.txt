@@ -76894,7 +76894,7 @@ adm = 31 dip = 34 mil = 24
 		birth = dillenburg
 		father = nsa_otto_i_nassau #Nassau Ottonian Line
 		dynasty = nassau_dynasty
-		tag = NSS
+		tag = NSA #NSS
 	}
 
 	nss_otto_ii_nassau = { #Son of rge Ruler
@@ -76905,7 +76905,7 @@ adm = 31 dip = 34 mil = 24
 		birth = siegen
 		father = nss_henry_i_nassau #Nassau Siegen
 		dynasty = nassau_dynasty
-		tag = NSS
+		tag = NSA #NSS
 	}
 
 	#Nassau Dillenburg
@@ -76918,7 +76918,7 @@ adm = 31 dip = 34 mil = 24
 		father = nsa_otto_i_nassau #Nassau Ottonian Line
 		death_date = 1328.1.1
 		dynasty = nassau_dynasty
-		tag = NSD
+		tag = NSA #NSD
 	}
 
 	#Nassau Hadamar
@@ -76931,7 +76931,7 @@ adm = 31 dip = 34 mil = 24
 		father = nsa_otto_i_nassau #Nassau Ottonian Line
 		death_date = 1334.6.7
 		dynasty = nassau_dynasty
-		tag = NSH
+		tag = NSA #NSH
 	}
 
 	nsh_johann_nassau = { #Ruler
@@ -76943,7 +76943,7 @@ adm = 31 dip = 34 mil = 24
 		father = nsh_emich_i_nassau
 		mother = nsa_anna_nassau
 		dynasty = nassau_dynasty
-		tag = NSH
+		tag = NSA #NSH
 	}
 
 	nsa_emich_ii_nassau = { #Brother of Ruler
@@ -76955,7 +76955,7 @@ adm = 31 dip = 34 mil = 24
 		father = nsh_emich_i_nassau
 		mother = nsa_anna_nassau
 		dynasty = nassau_dynasty
-		tag = NSH
+		tag = NSA #NSH
 	}
 
 	nsh_elisabeth_waldeck = { #Spouse of Ruler
@@ -76968,7 +76968,7 @@ adm = 31 dip = 34 mil = 24
 		birth = kassel
 		dynasty = waldeck_dynasty
     	father = wde_henry_iv_von_waldeck
-		tag = NSH
+		tag = NSA #NSH
 	}
 
 	nsa_emich_nassau = { #Son of Ruler
@@ -76980,7 +76980,7 @@ adm = 31 dip = 34 mil = 24
 		father = nsh_johann_nassau
 		mother = nsh_elisabeth_waldeck
 		dynasty = nassau_dynasty
-		tag = NSH
+		tag = NSA #NSH
 	}
 
 	#Southern Nassau
@@ -76993,7 +76993,7 @@ adm = 31 dip = 34 mil = 24
 		birth = wiesbaden
 		father = nsa_henry_ii_nassau
 		dynasty = nassau_dynasty
-		tag = NSI
+		tag = NSA #NSI
 	}
 
 	nsi_gerlach_i_nassau = { 
@@ -77004,7 +77004,7 @@ adm = 31 dip = 34 mil = 24
 		birth = wiesbaden
 		father = ogk_adolf_von_nassau
 		dynasty = nassau_dynasty
-		tag = NSI
+		tag = NSA #NSI
 	}
 
 	#Nassau Idstein
@@ -77016,7 +77016,7 @@ adm = 31 dip = 34 mil = 24
 		birth = wiesbaden
 		father = nsi_gerlach_i_nassau
 		dynasty = nassau_dynasty
-		tag = NSI
+		tag = NSA #NSI
 	}
 	
 	#Nassau Weilburg
@@ -77028,7 +77028,7 @@ adm = 31 dip = 34 mil = 24
 		birth = wiesbaden
 		father = nsi_gerlach_i_nassau
 		dynasty = nassau_dynasty
-		tag = NSW
+		tag = NSA #NSW
 	}
 	#Berg
 	brg_heinrich_von_windeck = { #Father of Ruler
@@ -79489,7 +79489,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Helena von Sachsen
 		#spouse = nsh_emich_i_nassau
 		dynasty = hohenzollern_nurnberg_dynasty
-		tag = NSH
+		tag = NSA #NSH
 	}
 
 	# Uncle of the Burgrave of Nürnberg & Former Burgrave

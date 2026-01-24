@@ -17757,11 +17757,6 @@ countries = {
 			include = "eastern_european_monarchy_no_coast"
 			
 			government = {
-				ruler = wal_basarab
-				consort = wal_marghita
-				
-				ruler_term = { character = wal_basarab start_date = 1324.7.26 }
-				
 				centralization_vs_decentralization = 70
 				aristocracy_vs_plutocracy = -50
 				serfdom_vs_free_subjects = -90
@@ -17787,6 +17782,7 @@ countries = {
 			capital = targoviste
 		}
 		
+
 		BIA = {	#Baia
 			own_control_core = {
 				suceava adjud campulung_moldovenesc focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici vatra_dornei
@@ -34295,134 +34291,37 @@ countries = {
 			capital = katzenelnbogen
 		}
 		
-		NSW = {  # Nassau Weilburg (North Germany)
+		NSA = {  # Nassau Weilburg (North Germany)
 			own_control_core = {
-				usingen
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			
-			government = {
-				ruler = nsi_gerlach_i_nassau
-				
-				ruler_term = {	character = nsi_walram_ii_nassau start_date = 1255.12.16 end_date = 1276.1.24 regnal_number = 2	}
-				ruler_term = {	character = ogk_adolf_von_nassau start_date = 1276.1.24 end_date = 1298.7.2 regnal_number = 1	}
-				ruler_term = {	character = nsi_gerlach_i_nassau start_date = 1298.7.2 regnal_number = 1	}
-				
-				regnal_numbers = {
-					name_adolph = 1
-					name_gerlach = 1
-					name_waleram = 2
-				}
-			}
-			
-			country_rank = rank_county
-			capital = usingen
-		}
-		
-		NSI = {  # Nassau Idstein (North Germany)
-			own_control_core = {
-				wiesbaden
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-				ruler = nsi_gerlach_i_nassau
-				
-				ruler_term = {	character = nsi_walram_ii_nassau start_date = 1255.12.16 end_date = 1276.1.24 regnal_number = 2	}
-				ruler_term = {	character = ogk_adolf_von_nassau start_date = 1276.1.24 end_date = 1298.7.2 regnal_number = 1	}
-				ruler_term = {	character = nsi_gerlach_i_nassau start_date = 1298.7.2 regnal_number = 1	}
-				
-				regnal_numbers = {
-					name_adolph = 1
-					name_gerlach = 1
-					name_waleram = 2
-				}
-			}
-			
-			country_rank = rank_county
-			capital = wiesbaden
-		}
-		
-		NSH = {  # Nassau Hadamar (North Germany)
-			own_control_core = {
+				usingen 
+				wiesbaden 
 				hadamar
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-				ruler = nsh_johann_nassau
-				consort = nsh_elisabeth_waldeck
-				
-				ruler_term = {	character = nsh_emich_i_nassau start_date = 1303.1.1 end_date = 1334.1.1 regnal_number = 1	}
-				ruler_term = {	character = nsh_johann_nassau start_date = 1334.1.1 regnal_number = 1	}
-				
-				regnal_numbers = {
-					name_emmerich = 1
-				}
-			}
-			tolerated_cultures = {
-				ripuarian_franconian
-			}
-			country_rank = rank_county
-			capital = hadamar
-		}
-		
-		NSS = {  # Nassau Siegen (North Germany)
-			own_control_core = {
 				dillenburg #Nassau Dillenburg
 				siegen #Nassau Siegen
-			}
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
-			include = "expl_northern_europe"
-			include = "german_principality"
-			government = {
-				ruler = nss_henry_i_nassau
-				
-				ruler_term = {	character = nss_henry_i_nassau start_date = 1303.7.1 regnal_number = 1	}
-				
-				regnal_numbers = {
-					name_henry = 1
-				}
-			}
-			tolerated_cultures = {
-				rhine_franconian
-			}
-			country_rank = rank_county
-			capital = siegen
-		}
-		
-		NSD = {  # Nassau Dillenburg (North Germany)
-			our_cores_conquered_by_others = {
 				dillenburg
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy_no_coast"
 			include = "expl_northern_europe"
-			include = "german_principality_not_present"
+			include = "german_principality"
+			
 			government = {
-				ruler = nsd_johann_i_nassau
+				ruler = nsi_gerlach_i_nassau
 				
-				ruler_term = {	character = nsd_johann_i_nassau start_date = 1289.1.1 end_date = 1334.8.10 regnal_number = 1	}
+				ruler_term = {	character = nsi_walram_ii_nassau start_date = 1255.12.16 end_date = 1276.1.24 regnal_number = 2	}
+				ruler_term = {	character = ogk_adolf_von_nassau start_date = 1276.1.24 end_date = 1298.7.2 regnal_number = 1	}
+				ruler_term = {	character = nsi_gerlach_i_nassau start_date = 1298.7.2 regnal_number = 1	}
 				
 				regnal_numbers = {
-					name_john = 1
+					name_adolph = 1
+					name_gerlach = 1
+					name_waleram = 2
 				}
 			}
-			country_rank = rank_county
-			capital = dillenburg
+			
+			country_rank = rank_duchy
+			capital = usingen
 		}
 		
 		RDL = {  # Riedesel (North Germany)
@@ -51398,7 +51297,7 @@ countries = {
 
 		WA0 = {	#Wallachia
 			own_control_core = {
-				severin strehaia targu_jiu targu_bengai ramnicu_valcea craiova caracal calafat slatina turnu_magurele corabia dragasani plenita
+				severin strehaia targu_jiu targu_bengai ramnicu_valcea craiova caracal calafat corabia dragasani plenita
 				stramba radovanu
 			}
 			
@@ -51439,7 +51338,7 @@ countries = {
 		WA1 = {	#Wallachia
 			own_control_core = {
 				targoviste ploesti campulung_muscel arges bucharest pitesti poenari cozia cetateni glavacioc gaiseni gratia
-				slanic rusii_de_vede zimnicea giurgiu comana
+				slanic rusii_de_vede zimnicea giurgiu comana slatina turnu_magurele
 			}
 			
 			starting_technology_level = 3
