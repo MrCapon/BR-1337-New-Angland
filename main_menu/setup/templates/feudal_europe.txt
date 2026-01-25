@@ -1,0 +1,7 @@
+﻿
+government = {
+	reforms = {
+		feudal_nobility
+    }
+}
+

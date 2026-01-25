@@ -33,11 +33,30 @@ diplomacy_manager = {
 
 	opinion = { first = SER second = BYZ type = opinion_sent_help }
 	opinion = { first = BYZ second = SER type = opinion_good_relations }
+	opinion = { first = SER second = BYZ type = opinion_good_relations }
+	opinion = { first = SER second = BUL type = border_aggression }
+	opinion = { first = SER second = BYZ type = opinion_dynastic_ties }
+	opinion = { first = BYZ second = SER type = opinion_dynastic_ties }
+	opinion = { first = SER second = BOS type = border_aggression }
+	opinion = { first = SER second = BOS type = opinion_declared_war }
+	opinion = { first = SER second = BUL type = opinion_declared_war }
+	opinion = { first = MOS second = LIT type = opinion_declared_war }
+	opinion = { first = SER second = SE0 type = border_aggression }
+	opinion = { first = SER second = SE0 type = opinion_declared_war }
+	opinion = { first = SER second = SE1 type = border_aggression }
+	opinion = { first = SER second = SE1 type = opinion_declared_war }
+	opinion = { first = SER second = SE2 type = border_aggression }
+	opinion = { first = SER second = SE2 type = opinion_declared_war }
 
 	opinion = { first = BUL second = BYZ type = border_aggression }
 	opinion = { first = BYZ second = BUL type = border_aggression }
 	opinion = { first = BYZ second = BUL type = opinion_angry }
 	opinion = { first = BUL second = BYZ type = opinion_angry }
+
+	opinion = { first = ARM second = TUR type = opinion_threatens_conquest }
+	opinion = { first = ARM second = TUR type = border_aggression }
+	opinion = { first = GEO second = TUR type = opinion_threatens_conquest }
+	opinion = { first = GEO second = TUR type = border_aggression }
 
 	#opinion = { first = THE second = BYZ type = opinion_tyrant_overlord }
 	#opinion = { first = ATH second = BYZ type = opinion_tyrant_overlord }
@@ -106,6 +125,23 @@ diplomacy_manager = {
 	opinion = { first = UBV second = BRA type = opinion_good_relations }
 	opinion = { first = BRA second = UBV type = opinion_good_relations }
 
+	#Bohemia
+	opinion = { first = FKN second = BOH type = opinion_threatens_conquest }
+	opinion = { first = PAL second = BOH type = opinion_threatens_conquest }
+	opinion = { first = PAL second = THU type = opinion_threatens_conquest }
+	opinion = { first = POL second = BOH type = border_aggression }
+	opinion = { first = FKN second = BOH type = border_aggression }
+	opinion = { first = PAL second = BOH type = border_aggression }
+	opinion = { first = MEI second = BOH type = border_aggression }
+	opinion = { first = LOT second = BOH type = border_aggression }
+	opinion = { first = FRA second = BOH type = border_aggression }
+	opinion = { first = AQN second = BOH type = border_aggression }
+	opinion = { first = THU second = BOH type = border_aggression }
+	opinion = { first = LBV second = BOH type = border_aggression }
+	opinion = { first = UBV second = BOH type = border_aggression }
+	opinion = { first = POL second = BOH type = opinion_declared_war }
+	opinion = { first = LOT second = BOH type = opinion_declared_war }
+
 	opinion = { first = HUN second = CRH type = opinion_good_relations }
 	opinion = { first = CRH second = HUN type = opinion_good_relations }
 	opinion = { first = HUN second = POL type = opinion_good_relations }
@@ -124,6 +160,8 @@ diplomacy_manager = {
 	opinion = { first = TVE second = LIT type = opinion_supportive_monarch }
 	opinion = { first = LIT second = MOS type = opinion_declared_war }
 	opinion = { first = MOS second = LIT type = opinion_declared_war }
+
+
 
 	#Maghreb
 	opinion = { first = TUN second = TLE type = border_aggression }
@@ -158,4 +196,5 @@ diplomacy_manager = {
 	opinion = { first = VIJ second = RIC type = opinion_good_relations }
 	opinion = { first = RIC second = DLH type = opinion_good_relations }
 	opinion = { first = DLH second = RIC type = opinion_good_relations }
+
 }

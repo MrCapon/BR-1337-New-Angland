@@ -230,6 +230,32 @@ WA2 = {
 	religion_definition = orthodox
 }
 
+#Serbia
+
+SE0 = {
+	color = rgb { 83 132 50 }
+
+	culture_definition = serbian
+	religion_definition = orthodox
+
+}
+
+SE1 = {
+	color = rgb { 103 92 50 }
+
+	culture_definition = serbian
+	religion_definition = orthodox
+
+}
+
+SE2 = {
+	color = rgb { 93 112 70 }
+
+	culture_definition = serbian
+	religion_definition = orthodox
+
+}
+
 
 #Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible

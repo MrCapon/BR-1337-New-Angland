@@ -64,6 +64,7 @@ countries = {
 			
 			include = "expl_scandinavia"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			country_rank = rank_kingdom
 			
@@ -191,6 +192,7 @@ countries = {
 			
 			include = "expl_scandinavia"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				ruler = br_nse_character_01
@@ -303,6 +305,7 @@ countries = {
 			
 			include = "expl_scandinavia"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -330,6 +333,7 @@ countries = {
 			capital = lund
 			
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_scandinavia"
 			
 			country_rank = rank_duchy
@@ -349,6 +353,7 @@ countries = {
 			capital = abo
 			
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			include = "expl_scandinavia"
 			government = {
 				ruler = random
@@ -399,6 +404,7 @@ countries = {
 			country_rank = rank_kingdom
 			
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_scandinavia"
 			government = {
 				ruler = br_nse_character_0
@@ -738,6 +744,7 @@ countries = {
 			include = "catholic_military_order"
 			include = "expl_northern_europe"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			
 			government = {
 				type = theocracy
@@ -841,6 +848,7 @@ countries = {
 			include = "catholic_bishopric"
 			include = "expl_northern_europe"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			
 			government = {
 				type = theocracy
@@ -864,6 +872,7 @@ countries = {
 			include = "catholic_bishopric_no_coast"
 			include = "expl_northern_europe"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			
 			government = {
 				type = theocracy
@@ -892,6 +901,7 @@ countries = {
 			include = "catholic_bishopric_no_coast"
 			include = "expl_northern_europe"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			
 			government = {
 				type = theocracy
@@ -915,6 +925,7 @@ countries = {
 			include = "catholic_bishopric"
 			include = "expl_northern_europe"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			
 			government = {
 				type = theocracy
@@ -1138,6 +1149,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1267,6 +1279,7 @@ countries = {
 			}
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1309,6 +1322,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1358,6 +1372,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1429,6 +1444,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			
@@ -1485,6 +1501,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality_not_present"
 			government = {
@@ -1518,6 +1535,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1585,6 +1603,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1618,6 +1637,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			country_rank = rank_duchy
@@ -1652,6 +1672,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1690,6 +1711,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -1723,6 +1745,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			government = {
 				
@@ -1792,6 +1815,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
@@ -1900,6 +1924,7 @@ countries = {
 			
 			capital = olomouc
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 		}
 		
@@ -3951,31 +3976,7 @@ countries = {
 		
 		GLH = {
 			type = army
-			own_control_core = {
-				seyitler kalay kezlev aqmecit jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
-				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
-				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
-				mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
-				kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
-				kreminna oleksandrivka bielska_sloboda bilovodsk novopskov kalnivka konstantinovka krasny_sulin
-				shakhty rovenky kalmius kamenskaya azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya semikarakorsk
-				yundin mityakinskaya luhansk novoaidar belaya_kalitva millerovo oblivskaya
-				kashary chertkovo bokovskaya milyutinskaya boguchar ostrogozhsk
-				kalach uryupin mikhaylovka novoanninsky alexeyevskaya veesky kumylzhenskaya
-				yelan machekha novonikolayevsky samoylovka
-				novopavlovsk yessentuq alexandrovskoye blagodarnoye novoselitskoye
-				kalininskaya bryukhovetskaya bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor
-				adyukh stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
-				novo_alexandrovskoye bezopasnoye ipatovo bakanas ashchyozek dagandely koksala sayak
-				irgiz chet_irgiz karasay kayrakty sazanbay
-				zhuban_ana kaip_ata karagau korgan maulimberdy gebergeyel khaiylmysh khaqmar shikashin yuldibay tagatay dandybay karabay smai_samkai yegindybulak
-				sarykopa karasu saryozen ulkayak bolgan_ana aitbulat belen_ana talmas_ata tengiz kon_tengiz kulanotpes sonaly tokrau espe kusak zhamankul
-				aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
-				zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
-				sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
-
-				usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn
-				karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
+			own_control_integrated = {
 				bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk
 				tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya nizhny_chir anna_russia
 				novaya_pokrovka semidesyatnoye zemlyansk rossosh borisoglebsk bannoye sadovoye
@@ -3997,6 +3998,31 @@ countries = {
 				naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek
 				kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda
 				kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
+	
+				usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn
+				karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
+
+				seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
+				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
+				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
+				mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
+				kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
+				kreminna oleksandrivka bielska_sloboda bilovodsk novopskov kalnivka konstantinovka krasny_sulin
+				shakhty rovenky kalmius kamenskaya azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya semikarakorsk
+				yundin mityakinskaya luhansk novoaidar belaya_kalitva millerovo oblivskaya
+				kashary chertkovo bokovskaya milyutinskaya boguchar ostrogozhsk
+				kalach uryupin mikhaylovka novoanninsky alexeyevskaya veesky kumylzhenskaya
+				yelan machekha novonikolayevsky samoylovka
+				novopavlovsk yessentuq alexandrovskoye blagodarnoye novoselitskoye
+				kalininskaya bryukhovetskaya bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor
+				adyukh stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
+				novo_alexandrovskoye bezopasnoye ipatovo bakanas ashchyozek dagandely koksala sayak
+				irgiz chet_irgiz karasay kayrakty sazanbay
+				zhuban_ana kaip_ata karagau korgan maulimberdy gebergeyel khaiylmysh khaqmar shikashin yuldibay tagatay dandybay karabay smai_samkai yegindybulak
+				sarykopa karasu saryozen ulkayak bolgan_ana aitbulat belen_ana talmas_ata tengiz kon_tengiz kulanotpes sonaly tokrau espe kusak zhamankul
+				aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
+				zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
+				sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
 
 				chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
 				zainsk syun verkhneyarkeyevo
@@ -4076,7 +4102,7 @@ countries = {
 				kursk fatezh kosozhichi olgov
 				manturovo_kursk oskol troitskoye_na_shchigrakh
 			}
-			own_core = {
+			own_integrated = {
 				bratslav balta bershad karabul savran
 				torhovytsia teplyk tsybuliv uman zavallia
 				vinnytsia sokilets
@@ -4361,6 +4387,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4386,6 +4413,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4407,6 +4435,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4431,6 +4460,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4454,6 +4484,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4475,6 +4506,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4496,6 +4528,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4517,6 +4550,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4538,6 +4572,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4560,6 +4595,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4592,6 +4628,7 @@ countries = {
 			
 			include = "expl_northern_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4724,6 +4761,7 @@ countries = {
 			capital = orkney
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			country_rank = rank_county
 		}
 		SBL = {
@@ -4743,6 +4781,7 @@ countries = {
 			include = "expl_northern_europe"
 			starting_technology_level = 3
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -4884,6 +4923,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4908,6 +4948,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4926,6 +4967,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4944,6 +4986,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4965,6 +5008,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -4983,6 +5027,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -5001,6 +5046,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -5022,6 +5068,7 @@ countries = {
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
@@ -5145,6 +5192,7 @@ countries = {
 				}
 			}
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_western_europe"
 			capital = dublin
 			accepted_cultures = { anglo_irish }
@@ -8943,6 +8991,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = judicial_election
@@ -9183,6 +9232,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -9293,6 +9343,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = partition_inheritance
@@ -9492,6 +9543,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -9574,6 +9626,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				ruler = crr_giorgio_del_carretto
 				consort = crr_leonora_fieschi
@@ -9932,6 +9985,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -10279,6 +10333,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -10547,6 +10602,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = salic_law
@@ -10629,6 +10685,7 @@ countries = {
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
 		include = "catholic_monarchy"
+			include = "feudal_europe"
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
@@ -10708,6 +10765,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11370,6 +11428,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11420,6 +11479,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11476,6 +11536,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11530,6 +11591,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11554,6 +11616,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11630,6 +11693,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11664,6 +11728,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11758,6 +11823,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -11880,6 +11946,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12344,6 +12411,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12382,6 +12450,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12666,7 +12735,6 @@ countries = {
 				malgara alasehir
 				uskudar silli biga eregli
 				chios vize
-				ormenio
 				traianopolis demotica
 				#TUR
 				kibrus mihaliccik sivrihisar bozan kaymaz
@@ -12705,7 +12773,7 @@ countries = {
 				megri yuksekkum bodrum gokabat
 			}
 			own_control_integrated = {
-				bukelon
+				
 			}
 			own_control_conquered = {
 			
@@ -12796,6 +12864,7 @@ countries = {
 				silifke anamur mut ermenek
 				alaiye selinti
 				antioch arsuz
+				bukelon ormenio
 			}
 			
 			starting_technology_level = 3
@@ -12988,6 +13057,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13032,6 +13102,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13061,6 +13132,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13094,6 +13166,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13126,6 +13199,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13143,24 +13217,32 @@ countries = {
 		SER = {
 			own_control_core = {
 				peja prizren kotor shkoder onogost gradina
-				budimlja brskovo gjakova mitrovica pristina novo_brdo
+				budimlja brskovo gjakova mitrovica
 				podgorica bar_cg prijepolje visegrad ustikolina soko_grad
-				prokuplje jagodina gacko trebinje
-				krusevac rudnik smederevo krupanj valjevo uzice pljevlja
-				gradac zica trgoviste_SER sjenica 
-				arilje brvenik medveda
-				belgrad debrc sabac
+				gacko trebinje
+				uzice pljevlja
+				trgoviste_SER sjenica 
+				arilje brvenik
 				koman has dukagjini lezha
 			}
 			own_control_integrated = {
 				
 			}
 			our_cores_conquered_by_others = {
-				slano mostar konjic
-				stalac
-				velbuzd
 				ravno kucevo branicevo
+				stalac
+				krusevac jagodina zica
+				rudnik
+				belgrad smederevo
+				debrc sabac krupanj valjevo
+				gradac
 				nis glubocica vranje
+				prokuplje medveda
+				novo_brdo
+				pristina
+				mostar konjic nevesinje drijeva metkovic
+				borac
+				velbuzd
 				ohrid bitola prilep florina kicevo tetovo
 				prosek shtip kocani strumica skopje kumanovo veles kratovo
 			}
@@ -13239,6 +13321,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13326,6 +13409,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				type = monarchy
@@ -13374,6 +13458,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13403,6 +13488,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -13442,6 +13528,8 @@ countries = {
 				karvuna pangalia kaliakra
 				babadag cernavoda constanta enisala isaccea
 				tulcea harsova
+				ustra
+				bukelon ormenio
 			}
 			own_control_integrated = {
 				stalac
@@ -13452,7 +13540,6 @@ countries = {
 				vranje velbuzd 
 				ohrid bitola prilep florina kicevo tetovo
 				prosek shtip kocani strumica skopje kumanovo veles kratovo
-				bukelon ustra
 			}
 			
 			starting_technology_level = 3
@@ -13502,6 +13589,8 @@ countries = {
 				serbian
 				wallachian
 			}
+
+			court_language = boulgaroi_dialect
 			liturgical_language = church_slavonic_language
 			
 			capital = tarnovo
@@ -13562,6 +13651,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			
 			country_rank = rank_duchy
 			
@@ -13731,6 +13821,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			
 			country_rank = rank_kingdom
 			capital = valencia
@@ -14060,6 +14151,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			
 			country_rank = rank_kingdom
 			capital = santiago_compostela
@@ -14367,6 +14459,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
                 heir_selection = salic_law
@@ -14432,6 +14525,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				ruler = bri_yann_iii_dreux
 				
@@ -14517,6 +14611,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				ruler = bur_eudes_iv_burgundy
 				
@@ -14586,6 +14681,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				ruler = bur_jeanne_iii_capet
 				
@@ -14685,6 +14781,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast_no_censor"
+			include = "feudal_europe"
 			
 			government = {
 				ruler = ale_charles_ii_valois
@@ -14719,6 +14816,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast_no_censor"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -14774,6 +14872,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -14808,6 +14907,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -14832,6 +14932,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -14876,6 +14977,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -14929,6 +15031,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -14968,6 +15071,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15030,6 +15134,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15101,6 +15206,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15145,6 +15251,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15190,6 +15297,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15226,6 +15334,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15275,6 +15384,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15337,6 +15447,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15378,6 +15489,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15420,6 +15532,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast_no_censor"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15453,6 +15566,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15507,6 +15621,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
@@ -15563,6 +15678,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15611,6 +15727,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15671,6 +15788,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15723,6 +15841,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = semi_salic_law
@@ -15785,6 +15904,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15828,6 +15948,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15874,6 +15995,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -15942,6 +16064,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16001,6 +16124,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast_no_censor"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16045,6 +16169,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16110,6 +16235,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16180,7 +16306,8 @@ countries = {
                 lectoure #Armagnac
             }
 
-            include = "catholic_monarchy_english_lordship"
+            include = "catholic_monarchy"
+			include = "feudal_europe"
             government = {
                 type = monarchy
                 laws = {
@@ -16238,6 +16365,8 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
+			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16257,6 +16386,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16296,6 +16426,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16333,6 +16464,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast_no_censor"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16375,6 +16507,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16441,6 +16574,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16475,6 +16609,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16511,6 +16646,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16582,6 +16718,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16637,6 +16774,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16685,6 +16823,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16721,6 +16860,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16794,6 +16934,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16834,6 +16975,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16893,6 +17035,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16930,6 +17073,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16981,6 +17125,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -16999,6 +17144,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -17035,6 +17181,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
@@ -17073,6 +17220,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -17124,6 +17272,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -17180,6 +17329,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -17217,6 +17367,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = boh_john_luxembourg
@@ -17264,6 +17415,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = hai_guillaume_de_hainault
@@ -17314,6 +17466,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -17363,6 +17516,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = hai_guillaume_de_hainault
@@ -17409,6 +17563,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = hai_guillaume_de_hainault
@@ -17461,6 +17616,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = brb_jan_iii_van_brabant
@@ -17537,6 +17693,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = {
 				ruler = lie_adolf_ii_von_der_mark
 				
@@ -17568,6 +17725,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = ubv_ludwig_iv_wittelsbach
@@ -17661,6 +17819,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_auxilium_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -17923,6 +18082,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				
@@ -17951,6 +18111,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = random
@@ -17980,6 +18141,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -18016,6 +18178,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -18075,6 +18238,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -18159,6 +18323,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -18214,6 +18379,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -18244,6 +18410,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -31337,6 +31504,7 @@ countries = {
 				syriac_culture
 			}
 			
+			court_language = kilikioi_dialect
 			country_rank = rank_duchy
 			capital = tarsus
 		}
@@ -31353,6 +31521,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -31363,7 +31532,7 @@ countries = {
 				latinoi
 			}
 			
-			court_language = french_language
+			court_language = venetian_dialect
 			capital = nicosia_cyp
 			country_rank = rank_duchy
 		}
@@ -32760,6 +32929,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality_not_present"
 			government = {
@@ -32817,6 +32987,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality_not_present"
 			country_rank = rank_duchy
@@ -32872,6 +33043,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_not_present"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality_not_present"
 			country_rank = rank_duchy
@@ -32930,6 +33102,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			country_rank = rank_duchy
@@ -32997,6 +33170,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			country_rank = rank_duchy
@@ -33064,6 +33238,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -33093,6 +33268,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			capital = lohr
@@ -33191,6 +33367,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -33223,6 +33400,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -33249,6 +33427,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			dynasty = montfort_bregenz_dynasty
@@ -33272,6 +33451,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -33639,6 +33819,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			include = "swiss_monarchy"
@@ -33742,6 +33923,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			include = "swiss_monarchy"
@@ -33766,6 +33948,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			include = "swiss_monarchy"
@@ -33848,6 +34031,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			capital = grafenau
@@ -33872,6 +34056,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			capital = neumarkt
@@ -33995,6 +34180,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = scb_adolf_vii_schauenburg
@@ -34011,6 +34197,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = random
@@ -34048,6 +34235,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = wgo_konrad_iv_von_wernigerode
@@ -34080,6 +34268,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = bhl_friedrich_von_beichlingen
@@ -34110,6 +34299,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = gln_hermann_iv
@@ -34155,6 +34345,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			government = { ruler = sav_aymon_savoy }
 			country_rank = rank_duchy
 			capital = aosta
@@ -34168,6 +34359,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = wde_henry_iv_von_waldeck
@@ -34199,6 +34391,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = rbg_konrad_i_von_rietberg
@@ -34227,8 +34420,10 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				regnal_numbers = {
@@ -34261,6 +34456,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -34284,6 +34480,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = { ruler = random }
@@ -34303,6 +34500,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			
@@ -34331,6 +34529,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -34355,6 +34554,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -34376,6 +34576,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -34421,6 +34622,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -34483,6 +34685,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = tgg_diethelm_v_von_toggenburg
@@ -34510,6 +34713,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34555,6 +34759,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				ruler = lic_johann_ii_von_lichtenberg
@@ -34678,6 +34883,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34692,6 +34898,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34706,6 +34913,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34720,6 +34928,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34737,6 +34946,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34754,6 +34964,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34768,6 +34979,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34784,6 +34996,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34798,6 +35011,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34815,6 +35029,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34829,6 +35044,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34843,6 +35059,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34859,6 +35076,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				
@@ -34898,6 +35116,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34914,6 +35133,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			tolerated_cultures = {
@@ -34930,6 +35150,7 @@ countries = {
 			include = "expl_western_europe"
 			include = "expl_northern_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = { ruler = random }
 			country_rank = rank_county
@@ -34981,6 +35202,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35022,6 +35244,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35181,6 +35404,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35208,6 +35432,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35292,6 +35517,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35329,6 +35555,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			government = {
 				ruler = random
@@ -35408,6 +35635,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35444,6 +35672,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35587,6 +35816,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			government = {
 				type = monarchy
@@ -35679,6 +35909,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			government = {
 				type = monarchy
@@ -35790,6 +36021,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35861,6 +36093,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35891,6 +36124,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			capital = cottbus
@@ -35920,6 +36154,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			capital = spremberg
@@ -35942,6 +36177,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -35974,6 +36210,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			country_rank = rank_duchy
@@ -36006,6 +36243,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36063,6 +36301,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36093,6 +36332,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36170,6 +36410,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36246,6 +36487,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36307,6 +36549,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			country_rank = rank_duchy
@@ -36361,6 +36604,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36382,6 +36626,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36467,6 +36712,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36497,6 +36743,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36527,6 +36774,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36559,6 +36807,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36641,6 +36890,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36669,6 +36919,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36729,6 +36980,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36826,6 +37078,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36886,6 +37139,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36913,6 +37167,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -36938,6 +37193,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37003,6 +37259,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37043,6 +37300,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37108,6 +37366,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37134,6 +37393,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37161,6 +37421,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37191,6 +37452,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37247,6 +37509,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37315,6 +37578,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37350,6 +37614,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37383,6 +37648,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37414,6 +37680,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37446,6 +37713,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37517,6 +37785,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37545,6 +37814,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37574,6 +37844,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37605,6 +37876,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37652,6 +37924,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37723,6 +37996,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37746,6 +38020,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37817,6 +38092,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			country_rank = rank_duchy
@@ -37860,6 +38136,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37955,6 +38232,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -37982,6 +38260,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -38018,6 +38297,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -38050,6 +38330,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -38105,6 +38386,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -38130,6 +38412,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
@@ -38167,6 +38450,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			capital = montmedy
@@ -38200,6 +38484,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			capital = limbourg
 			dynasty = reginar_dynasty
@@ -38237,6 +38522,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				
@@ -38284,6 +38570,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				
@@ -38311,6 +38598,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			capital = maastricht
 			dynasty = heinsberg_dynasty
@@ -38337,6 +38625,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			dynasty = heinsberg_dynasty
 			government = {
@@ -38363,6 +38652,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				
@@ -38393,6 +38683,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_western_europe"
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "german_principality"
 			government = {
 				
@@ -38663,6 +38954,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
@@ -38696,6 +38988,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
@@ -38727,6 +39020,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
@@ -38755,6 +39049,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38789,6 +39084,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38818,6 +39114,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38839,6 +39136,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38869,6 +39167,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38900,6 +39199,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38928,6 +39228,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38958,6 +39259,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -38986,6 +39288,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39015,6 +39318,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39041,6 +39345,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39067,6 +39372,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39093,6 +39399,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39119,6 +39426,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39145,6 +39453,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39171,6 +39480,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39198,6 +39508,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39250,6 +39561,7 @@ countries = {
 			}
 			starting_technology_level = 3
 			include = "catholic_monarchy_no_coast"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			country_rank = rank_duchy
 			government = {
@@ -39321,6 +39633,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = semi_salic_law
@@ -39422,6 +39735,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = semi_salic_law
@@ -39474,6 +39788,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = semi_salic_law
@@ -39528,6 +39843,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = semi_salic_law
@@ -39585,6 +39901,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = youngest_son_of_ruler
@@ -39641,6 +39958,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = semi_salic_law
@@ -39695,6 +40013,7 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eastern_european_catholic_monarchy_no_coast"
 			include = "eastern_european_catholic"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -50437,6 +50756,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = salic_law
@@ -50473,6 +50793,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = salic_law
@@ -50508,6 +50829,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = salic_law
@@ -51095,8 +51417,9 @@ countries = {
 			tolerated_cultures = {
 				serbian
 			}
+
+			court_language = boulgaroi_dialect
 			liturgical_language = church_slavonic_language
-			
 			dynasty = sratsimir_dynasty
 			capital = skopje
 		}
@@ -51329,6 +51652,7 @@ countries = {
 				bulgarian
 			}
 			
+			court_language = boulgaroi_dialect
 			liturgical_language = church_slavonic_language
 			
 			country_rank = rank_county
@@ -51369,6 +51693,7 @@ countries = {
 				bulgarian
 			}
 			
+			court_language = boulgaroi_dialect
 			liturgical_language = church_slavonic_language
 			
 			country_rank = rank_county
@@ -51409,12 +51734,156 @@ countries = {
 				bulgarian
 			}
 			
+			court_language = boulgaroi_dialect
 			liturgical_language = church_slavonic_language
 			
 			country_rank = rank_county
 			capital = buzau
 		}
 		
+		#Serbia
+		SE0 = {
+			own_control_core = {
+				ravno kucevo branicevo
+				stalac
+				krusevac jagodina zica
+				rudnik
+			}
+			our_cores_conquered_by_others = {
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					administrative_system = feudal_administration
+					distribution_of_power_law = dop_traditional_distribution_of_power
+				}
+				
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -10
+				
+			}
+			tolerated_cultures = {
+			}
+			
+			court_language = boulgaroi_dialect
+			liturgical_language = church_slavonic_language
+			
+			capital = branicevo
+		}
+		
+		SE1 = {
+			own_control_core = {
+				belgrad smederevo
+				debrc sabac krupanj valjevo
+				gradac
+			}
+			our_cores_conquered_by_others = {
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					administrative_system = feudal_administration
+					distribution_of_power_law = dop_traditional_distribution_of_power
+				}
+				
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -10
+				
+			}
+			tolerated_cultures = {
+			}
+			
+			court_language = boulgaroi_dialect
+			liturgical_language = church_slavonic_language
+			
+			capital = belgrad
+		}
+
+		SE2 = {
+			own_control_core = {
+				nis glubocica vranje
+				prokuplje medveda
+				novo_brdo
+				pristina
+			}
+			our_cores_conquered_by_others = {
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					administrative_system = feudal_administration
+					distribution_of_power_law = dop_traditional_distribution_of_power
+				}
+				
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -10
+				
+			}
+			tolerated_cultures = {
+			}
+			
+			court_language = boulgaroi_dialect
+			liturgical_language = church_slavonic_language
+			
+			capital = nis
+		}
 
 		#Anatolian Tags
 
@@ -52316,11 +52785,11 @@ countries = {
 			own_control_core = {
 				kavala drama serres
 				xanthia
-				ustra komotini
+				komotini
 			}
 
 			our_cores_conquered_by_others = {
-				smolyan
+				smolyan ustra
 				dospat bansko krupnik melnik nevrokop
 			}
 			
@@ -52381,6 +52850,7 @@ countries = {
 
 			our_cores_conquered_by_others = {
 				florina
+				giannitsa veria edessa 
 			}
 			
 			starting_technology_level = 3
@@ -53338,6 +53808,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 
             government = {
                 heir_selection = salic_law
@@ -53477,6 +53948,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53496,6 +53968,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53515,6 +53988,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53534,6 +54008,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53554,6 +54029,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53573,6 +54049,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53592,6 +54069,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53612,6 +54090,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53633,6 +54112,7 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			include = "feudal_europe"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture

@@ -4598,6 +4598,13 @@ building_manager = {
 	nobility_fortifications = { tag = SWA level = 1 location = backnang }
 	farming_village = { tag = SWA level = 1 location = backnang }
 
+	nobles_recruitment_center = { tag = B0R level = 1 location = ostrovo }
+	nobility_fortifications = { tag = B0R level = 1 location = ostrovo }
+	farming_village = { tag = B0R level = 1 location = ostrovo }
+
+	peasants_training_grounds = { tag = B0R level = 1 location = kastoria }
+	
+
 
 	#Extra Weapon Guilds
 	weapon_guild = { tag = ARM level = 2 location = ani }
@@ -5097,10 +5104,12 @@ building_manager = {
 	market_village = { tag = ACH level = 1 location = chalandritsa }
 	forest_village = { tag = SER level = 1 location = velbuzd }
 	market_village = { tag = SER level = 1 location = shkoder }
-	market_village = { tag = SER level = 1 location = trgoviste_SER }
+	market_village = { tag = SER level = 2 location = trgoviste_SER }
 	lumber_mill = { tag = SER level = 1 location = trgoviste_SER }
 	tar_kiln = { tag = SER level = 2 location = trgoviste_SER }
 	rural_clothmaker = { tag = SER level = 2 location = trgoviste_SER }
+	stone_quarry = { tag = SER level = 1 location = trgoviste_SER }
+	rural_clothmaker = { tag = SER level = 1 location = budimlja }
 	forest_village = { tag = SER level = 1 location = trgoviste_SER }
 	charcoal_maker = { tag = SER level = 1 location = trgoviste_SER }
 	charcoal_maker = { tag = SER level = 1 location = mitrovica }
@@ -5112,6 +5121,11 @@ building_manager = {
 	forest_village = { tag = SER level = 1 location = krupanj }
 	forest_village = { tag = SER level = 1 location = stalac }
 	farming_village = { tag = SER level = 1 location = budimlja }
+	forest_village = { tag = SER level = 1 location = visegrad }
+	peasants_training_grounds = { tag = SER level = 1 location = visegrad }
+	peasants_training_grounds = { tag = SER level = 1 location = prijepolje }
+	peasants_training_grounds = { tag = SER level = 1 location = peja }
+	peasants_training_grounds = { tag = SER level = 1 location = mitrovica }
 	market_village = { tag = BOS level = 1 location = zenica }
 	rural_clothmaker = { tag = BOS level = 1 location = zenica }
 	rural_clothmaker = { tag = BOS level = 1 location = doboj }
@@ -5140,8 +5154,13 @@ building_manager = {
 	farming_village = { tag = SER level = 1 location = soko_grad }
 	farming_village = { tag = SER level = 1 location = gradac }
 	farming_village = { tag = SER level = 1 location = podgorica }
+	farming_village = { tag = SER level = 1 location = bar_cg }
+	farming_village = { tag = SER level = 1 location = sjenica }
 	forest_village = { tag = SER level = 1 location = smederevo }
 	forest_village = { tag = SER level = 1 location = novo_brdo }
+	forest_village = { tag = SER level = 1 location = budimlja }
+	forest_village = { tag = SER level = 1 location = brskovo }
+	forest_village = { tag = SER level = 1 location = pljevlja }
 	market_village = { tag = WA1 level = 1 location = campulung_muscel }
 	forest_village = { tag = WA1 level = 1 location = campulung_muscel }
 	market_village = { tag = WA0 level = 2 location = severin }
@@ -5203,7 +5222,7 @@ building_manager = {
 	market_village = { tag = BYZ level = 1 location = manavgat }
 	market_village = { tag = BYZ level = 1 location = ustra }
 	market_village = { tag = THE level = 1 location = edessa }
-	market_village = { tag = THE level = 1 location = kastoria }
+	forest_village = { tag = THE level = 1 location = kastoria }
 	market_village = { tag = THS level = 1 location = gravia }
 	market_village = { tag = EPI level = 2 location = ioannina }
 	market_village = { tag = EPI level = 1 location = angelokastron }

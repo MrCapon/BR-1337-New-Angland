@@ -445,6 +445,7 @@ diplomacy_manager = {
 
     scripted_oneway = { first = BYZ second = ARM type = guarantee }
 	scripted_oneway = { first = BYZ second = GEO type = guarantee }
+    scripted_oneway = { first = BYZ second = SER type = guarantee }
 
     scripted_mutual = { first = SER second = BYZ type = alliance }
     #scripted_mutual = { first = RIC second = BYZ type = food_access }
@@ -555,7 +556,7 @@ diplomacy_manager = {
     #Balkans:
     scripted_mutual = { first = HUN second = POL type = alliance }
     dependency = { first = HUN second = CRO subject_type = dominion }
-    dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
+    #dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
     #dependency = { first = HUN second = WAL subject_type = tributary } #BR ADDED
     scripted_mutual = { first = EPI second = S2C type = alliance }
     #Bulgaria
@@ -564,9 +565,12 @@ diplomacy_manager = {
     dependency = { first = B1L second = ANT subject_type = vassal }
     dependency = { first = B1L second = THP subject_type = vassal }
     dependency = { first = B1L second = MTR subject_type = vassal }
-    dependency = { first = BUL second = WA0 subject_type = march }
+    dependency = { first = BUL second = WA0 subject_type = vassal }
     dependency = { first = BUL second = WA1 subject_type = vassal }
     dependency = { first = BUL second = WA2 subject_type = vassal }
+    dependency = { first = BUL second = SE0 subject_type = vassal }
+    dependency = { first = BUL second = SE1 subject_type = vassal }
+    dependency = { first = BUL second = SE2 subject_type = vassal }
 
     #Persia/Mesopotamia
     dependency = { first = TUR second = HZN subject_type = vassal }

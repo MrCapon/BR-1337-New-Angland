@@ -61,12 +61,12 @@ diplomacy_manager = {
 	rival = { first = ADU second = CAS }   #BR edit
 
 	#The Rival Families of the HRE
-	#Upper Bavaria and Bohemia
-	rival = { first = UBV second = BOH }
-	rival = { first = BOH second = UBV }
-	#Upper Bavaria and Austria
-	rival = { first = UBV second = HAB }
-	rival = { first = HAB second = UBV }
+	rival = { first = LOT second = FRA }
+	rival = { first = FRA second = LOT }
+	rival = { first = LOT second = BOH }
+	rival = { first = BOH second = LOT }
+	rival = { first = FRA second = BOH }
+	rival = { first = BOH second = BYZ }
 
 	#The Two Sicilies
 	#rival = { first = NAP second = SIC }
