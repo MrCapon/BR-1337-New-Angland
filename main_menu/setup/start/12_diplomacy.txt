@@ -538,7 +538,7 @@ diplomacy_manager = {
     dependency = { first = BOH second = TES subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = BOH second = ZIE subject_type = vassal start_date = 1336.8.29 }
     dependency = { first = WRC second = NYS subject_type = vassal start_date = 1290.1.1 }
-    scripted_mutual = { first = BOH second = LBV type = alliance }
+    #scripted_mutual = { first = BOH second = LBV type = alliance }
 
     #-------Poland-------
     dependency = { first = POL second = INO subject_type = fiefdom start_date = 1327.5.28 } #Exchanged to Przemysł of Inowrocław for Sieradz in 1327, incorporated as a Voivodeship in 1364

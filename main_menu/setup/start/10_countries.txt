@@ -1496,36 +1496,6 @@ countries = {
 			}
 		}
 		
-		NSA = {
-			#Nassau
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
-			include = "feudal_europe"
-			include = "expl_northern_europe"
-			include = "german_principality_not_present"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				
-				ruler_term = { character = nsa_henry_ii_nassau start_date = 1198.2.1 end_date = 1250.4.26 regnal_number = 2 }
-				ruler_term = { character = nsa_otto_i_nassau start_date = 1250.4.26 end_date = 1289.1.1 regnal_number = 1 }
-				
-				regnal_numbers = {
-					name_henry = 2
-					name_otto = 1
-				}
-			}
-			
-			tolerated_cultures = {
-				moselle_franconian
-			}
-			
-			country_rank = rank_county
-			capital = dillenburg
-			dynasty = nassau_dynasty
-		}
-		
 		BRG = {
 			#Berg
 			own_control_core = {
@@ -4594,7 +4564,7 @@ countries = {
 			}
 			
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			
 			government = {
@@ -11692,7 +11662,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
@@ -16364,7 +16334,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			
 			government = {
@@ -16717,7 +16687,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
@@ -16822,7 +16792,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
@@ -17124,7 +17094,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
@@ -17180,7 +17150,7 @@ countries = {
 
             starting_technology_level = 3
             include = "expl_western_europe"
-            include = "catholic_monarchy_not_present"
+            include = "catholic_monarchy"
 			include = "feudal_europe"
             government = {
                 type = monarchy
@@ -17219,7 +17189,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
@@ -31435,6 +31405,7 @@ countries = {
 				
 				laws = {
 					sharia_law = shafii_policy
+					education_masses_law = basic_religious_education
 				}
 				timed_modifier = {
 					modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
@@ -31663,6 +31634,7 @@ countries = {
 				
 				laws = {
 					sharia_law = ismaili_policy
+					education_masses_law = basic_religious_education
 				}
 			}
 			timed_modifier = {
@@ -33042,7 +33014,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality_not_present"
