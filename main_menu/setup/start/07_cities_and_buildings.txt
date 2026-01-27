@@ -4347,6 +4347,8 @@ building_manager = {
 	bailiff = { tag = BUL level = 1 location = kucevo }
 	tannery = { tag = BUL level = 2 location = tarnovo }
 	weapon_guild = { tag = BUL level = 4 location = tarnovo }
+	tools_guild = { tag = BUL level = 2 location = plovdiv }
+	horse_breeders = { tag = BUL level = 1 location = plovdiv }
 	weapon_guild = { tag = HUN level = 4 location = buda }
 	weapon_guild = { tag = HUN level = 4 location = pest }
 
@@ -4484,7 +4486,6 @@ building_manager = {
 	nobles_recruitment_center = { tag = SER level = 1 location = stalac }
 	nobles_recruitment_center = { tag = SER level = 1 location = velbuzd }
 	nobles_recruitment_center = { tag = DYR level = 1 location = durres }
-	peasants_training_grounds = { tag = SER level = 1 location = debar }
 	nobles_recruitment_center = { tag = SER level = 1 location = trgoviste_SER }
 	nobles_recruitment_center = { tag = SER level = 1 location = krupanj }
 	nobles_recruitment_center = { tag = BUL level = 1 location = sozopol }
@@ -4493,9 +4494,29 @@ building_manager = {
 	nobles_recruitment_center = { tag = BUL level = 1 location = stanimaka }
 	nobles_recruitment_center = { tag = BUL level = 1 location = melnik }
 	nobles_recruitment_center = { tag = BUL level = 1 location = lardeja }
+
+	peasants_training_grounds = { tag = MZK level = 1 location = debar }
+	forest_village = { tag = MZK level = 1 location = debar }
+	peasants_hunting_grounds = { tag = MZK level = 1 location = debar }
+	toll_castle = { tag = MZK level = 1 location = debar }
 	peasants_training_grounds = { tag = ANT level = 1 location = elbasan }
+	forest_village = { tag = ANT level = 1 location = elbasan }
+	peasants_hunting_grounds = { tag = ANT level = 1 location = elbasan }
+	toll_castle = { tag = ANT level = 1 location = elbasan }
+	nobility_fortifications = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = MTR level = 1 location = devol }
+	market_village = { tag = MTR level = 1 location = devol }
+	local_markets = { tag = MTR level = 1 location = devol }
+	parish_church = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = THP level = 1 location = kruje }
+	forest_village = { tag = THP level = 1 location = kruje }
+	peasants_hunting_grounds = { tag = THP level = 1 location = kruje }
+	nobles_recruitment_center = { tag = THP level = 1 location = tirana }
+	nobility_fortifications = { tag = THP level = 1 location = tirana }
+	market_village = { tag = THP level = 1 location = tirana }
+	parish_church = { tag = THP level = 1 location = tirana }
+	local_markets = { tag = THP level = 1 location = tirana }
+
 	peasants_training_grounds = { tag = VEN level = 1 location = modon }
 	peasants_training_grounds = { tag = M0E level = 1 location = tripolitsa }
 	peasants_training_grounds = { tag = M0E level = 1 location = mystras }
@@ -4520,6 +4541,14 @@ building_manager = {
 	forest_village = { tag = WA2 level = 1 location = valenii_de_munte }
 	rural_clothmaker = { tag = WA2 level = 1 location = buzau }
 	rural_clothmaker = { tag = WA0 level = 1 location = severin }
+	
+	peasants_training_grounds = { tag = SER level = 1 location = gradina }
+	market_village = { tag = SER level = 1 location = gradina }
+	peasants_training_grounds = { tag = SER level = 1 location = has }
+	forest_village = { tag = SER level = 1 location = has }
+	peasants_hunting_grounds = { tag = SER level = 1 location = has }
+	forest_village = { tag = SER level = 1 location = koman }
+	peasants_hunting_grounds = { tag = SER level = 1 location = koman }
 
 	#German Duchies
 	nobles_recruitment_center = { tag = HES level = 1 location = kassel }
@@ -4601,7 +4630,6 @@ building_manager = {
 	nobles_recruitment_center = { tag = B0R level = 1 location = ostrovo }
 	nobility_fortifications = { tag = B0R level = 1 location = ostrovo }
 	farming_village = { tag = B0R level = 1 location = ostrovo }
-
 	peasants_training_grounds = { tag = B0R level = 1 location = kastoria }
 	
 
@@ -5036,6 +5064,8 @@ building_manager = {
 	lumber_mill = { tag = BUL level = 1 location = nis }
 	lumber_mill = { tag = BUL level = 1 location = sredets }
 
+
+
 	market_village = { tag = AON level = 2 location = cankiri }
 	forest_village = { tag = AON level = 2 location = cankiri }
 	market_village = { tag = PAF level = 2 location = kastamonu }
@@ -5097,6 +5127,9 @@ building_manager = {
 	farming_village = { tag = BUL level = 1 location = kran }
 	charcoal_maker = { tag = BUL level = 2 location = lyaskovets }
 	charcoal_maker = { tag = BUL level = 2 location = tryavna }
+	charcoal_maker = { tag = BUL level = 1 location = kran }
+	charcoal_maker = { tag = BUL level = 2 location = sozopol }
+	fiber_crops_farm = { tag = SE1 level = 2 location = krupanj }
 	market_village = { tag = SER level = 1 location = kotor }
 	market_village = { tag = SER level = 1 location = kucevo }
 	market_village = { tag = BOS level = 1 location = kozara }
@@ -5126,8 +5159,10 @@ building_manager = {
 	peasants_training_grounds = { tag = SER level = 1 location = prijepolje }
 	peasants_training_grounds = { tag = SER level = 1 location = peja }
 	peasants_training_grounds = { tag = SER level = 1 location = mitrovica }
-	market_village = { tag = BOS level = 1 location = zenica }
-	rural_clothmaker = { tag = BOS level = 1 location = zenica }
+	market_village = { tag = BOS level = 2 location = zenica }
+	rural_clothmaker = { tag = BOS level = 2 location = zenica }
+	tar_kiln = { tag = BOS level = 1 location = zenica }
+	stone_quarry = { tag = BOS level = 1 location = zenica }
 	rural_clothmaker = { tag = BOS level = 1 location = doboj }
 	market_village = { tag = BOS level = 1 location = mostar }
 	market_village = { tag = BUL level = 1 location = cherven }

@@ -13013,7 +13013,7 @@ countries = {
 		
 		ALB = {
 			own_control_core = {
-			
+
 			}
 			
 			our_cores_conquered_by_others = {
@@ -13076,10 +13076,33 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
 				ruler = thp_tanush_thopia
-				
 				ruler_term = { character = thp_tanush_thopia start_date = 1328.2.1 regnal_number = 1 }
+
+				reforms = {
+					local_army_organization
+				}
+				privilege = {
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					peasants_protected_faith
+					access_to_royal_and_ecclesiastical_courts
+					peasants_in_administration
+					peasants_autonomous_villages
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+				}
+				centralization_vs_decentralization = 75
+				serfdom_vs_free_subjects = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 75
+				outward_vs_inward = 100
+
 				
 			}
 			
@@ -13106,14 +13129,34 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
 				ruler = mzk_andrea_ii_muzaka
-				
 				ruler_term = { character = mzk_andrea_ii_muzaka start_date = 1331.1.1 regnal_number = 2 }
-				
 				regnal_numbers = {
 					name_andrew = 2
 				}
+				reforms = {
+					local_army_organization
+				}
+				privilege = {
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					peasants_protected_faith
+					access_to_royal_and_ecclesiastical_courts
+					peasants_in_administration
+					peasants_autonomous_villages
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+				}
+				centralization_vs_decentralization = 75
+				serfdom_vs_free_subjects = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 75
+				outward_vs_inward = 100
 			}
 			
 			tolerated_cultures = {
@@ -13140,14 +13183,35 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
 				regency = consort_regency
 				active_regent = alb_agnes_perigord
 				start_regency_date = 1336.4.5
 				end_regency_date = 1341.1.1
 				heir = alb_charles_durazzo
-				
 				ruler_term = { character = nap_charles_i_anjou start_date = 1272.2.1 end_date = 1285.1.7 regnal_number = 1 }
+				reforms = {
+					local_army_organization
+				}
+				privilege = {
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					peasants_protected_faith
+					access_to_royal_and_ecclesiastical_courts
+					peasants_in_administration
+					peasants_autonomous_villages
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+				}
+				centralization_vs_decentralization = 75
+				serfdom_vs_free_subjects = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 75
+				outward_vs_inward = 100
 				
 			}
 			
@@ -13173,11 +13237,31 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
 				ruler = mtr_pal_mataranga
-				
 				ruler_term = { character = mtr_pal_mataranga start_date = 1300.1.1 regnal_number = 1 }
-				
+				reforms = {
+					local_army_organization
+				}
+				privilege = {
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					peasants_protected_faith
+					access_to_royal_and_ecclesiastical_courts
+					peasants_in_administration
+					peasants_autonomous_villages
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+				}
+				centralization_vs_decentralization = 75
+				serfdom_vs_free_subjects = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 75
+				outward_vs_inward = 100
 			}
 			
 			capital = kavaje
@@ -13239,6 +13323,7 @@ countries = {
 				}
 				reforms = {
 					autocracy
+					local_army_organization
 				}
 				privilege = {
 					#Nobles
@@ -13253,6 +13338,12 @@ countries = {
 					#peasants
 					gradozadanje_and_gradobljudenlje_rights
 					peasants_allowed_weapons_privilege
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
 				}
 				laws = {
 					feudal_de_jure_law = by_tradition
@@ -13295,16 +13386,36 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
 				ruler = bos_stephen_kotromanic
-				
 				ruler_term = { character = bos_stephen_kotromanic_father start_date = 1287.1.1 end_date = 1312.5.1 regnal_number = 1 }
 				ruler_term = { character = bos_mladen_subic start_date = 1312.5.1 end_date = 1322.3.15 regnal_number = 2 }
 				ruler_term = { character = bos_stephen_kotromanic start_date = 1322.3.15 regnal_number = 2 }
-				
 				regnal_numbers = {
 					name_stephen = 2
 				}
+				reforms = {
+					local_army_organization
+				}
+				privilege = {
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					peasants_protected_faith
+					access_to_royal_and_ecclesiastical_courts
+					peasants_in_administration
+					peasants_autonomous_villages
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+				}
+				centralization_vs_decentralization = 75
+				serfdom_vs_free_subjects = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 75
+				outward_vs_inward = 100
 				
 			}
 			
@@ -16476,7 +16587,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
+			include = "catholic_monarchy"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
@@ -17189,7 +17300,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy"
+			include = "catholic_monarchy_not_present"
 			include = "feudal_europe"
 			government = {
 				type = monarchy
