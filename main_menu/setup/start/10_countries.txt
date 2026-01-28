@@ -32410,7 +32410,6 @@ countries = {
 			accepted_cultures = { turkoman_culture }
 			tolerated_cultures = {
 				adhari_culture
-				azeri_culture
 			}
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
@@ -32444,7 +32443,7 @@ countries = {
 			
 			tolerated_cultures = {
 				kurdish_culture
-				azeri_culture
+				turkoman_culture
 			}
 			
 			capital = maku
@@ -32496,7 +32495,7 @@ countries = {
 			
 			capital = khalkhal
 			tolerated_cultures = {
-				azeri_culture
+				turkoman_culture
 			}
 			religious_school = safavid_school
 		}
@@ -32598,7 +32597,7 @@ countries = {
 			
 			tolerated_cultures = {
 				adhari_culture
-				azeri_culture
+				turkoman_culture
 			}
 			
 			capital = ujan
@@ -48709,7 +48708,7 @@ countries = {
 			
 			capital = baku
 			tolerated_cultures = {
-				azeri_culture
+				turkoman_culture
 			}
 		}
 		
@@ -49033,7 +49032,7 @@ countries = {
 			
 			capital = shaki
 			tolerated_cultures = {
-				azeri_culture
+				turkoman_culture
 				lezgin_culture
 			}
 		}
@@ -49090,7 +49089,7 @@ countries = {
 			liturgical_language = armenian_language
 			
 			tolerated_cultures = {
-				azeri_culture
+				turkoman_culture
 			}
 			
 			capital = kapan_armenia
