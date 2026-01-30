@@ -1,19 +1,21 @@
 # Ideas and stuff to do.
 
-## International organization for ERE & NSE.
+## International organization for E.R.E & N.S.E.
+Similar to HRE or Illkanate Middle Kingdom etc. 
 
 ~~Elysium flavor around nation formation. Including culture and founding of the City of Elysium roughly modern day DC area basiclly between the two colonies.~~
 
-## ERE Content
+## Roman (BYZ) Content
 - Events for subjects to break away if/when legitimacy drops below -15 with option for ERE to fight to maintain relationship or let the subject slip away.
-~~- Event to make Indikes a BYZ trade Company if they own suez.~~
+    - maybe tied to BYZ international organization.
 - Event to offer Elysium colonial status if own straits of Hercules and have made contact/have good relations with ai elysian tags. 
-- Third ERE faction in the guelphs_and_ghibellines
+- Third ERE faction in the guelphs_and_ghibellines to make it a three way if BYZ has land in Italy.
 - Varangian buildings
     ~~- Foreign manpower building~~
+    - current Varangian building isn't increasing amount of Varangian units you can have so gotta figure that out. 
     - Barracks
     - etc
-- Building based themata that work similar to the Shogunate.
+~~- Building based themata that work similar to the Shogunate.~~
 - Advances
     - Restoration of the Imperial Polis
     - Revival of the Logos 
@@ -22,35 +24,42 @@
     - Tagmata Modernization
     - Nautikón Reform
     - Restoration of Imperial Unity
-    -
+    - 
 
 ## Patriachate tags
 - landless building based.
 - unique buildings etc needed.
 
-Add a couple pirate tags
+Add a couple pirate tags that work 1.1 will work better
 
 ## New World Fantastical and or extra tags
 ~~- Option (No idea how yet) to create more nations via game rules~~
-
 Arthurian type tag
 New Angland 
 
 ## Balkans
 - Bulgaria stuff make them a good rival to ERE
     - Reform the Bulgarian Empire
+    - Bulgarian noble faction mechanics (Boyars vs Tsar)
+    - Cultural tension between Romanized and Slavic elites
+    - Competing imperial claims over the Balkans
+    - Bulgarian religious autonomy vs Patriarchal control
+    - Border marcher states that can flip allegiance (Wallachian and Serbian vassals)
 
 - activate base game content for our tags where it makes sense
 
 ## Pop based countries
 
+## Dynamic events
+- Add more dynamic events that fit
+
 ## Estate privleges
+- More estate privileges. 
 
 ## Government Reforms
+- More gov reforms.
 
-## Balance and or Fix added content thats out of whack.
-- New advances need refinement replace any that seem redundent with something more unique. 
-- Balance 
 
 ## fix errors
+- Fix bugs in error log. 
 - error spam related to government, may be caused by giving countries reforms that they are not supposed to have but not sure.
