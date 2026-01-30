@@ -18720,13 +18720,6 @@ countries = {
 				feriana
 				bordj_bou_arreridj jama_TUN
 				el_ksour medjez_el_bab sbikha
-				#Sardinia
-				tratalias villa_di_chiesa cagliari muravera
-				#Sicily
-				palermo trapani mazara salemi corleone
-				termini cefalu sciacca girgenti bivona caltanisetta
-
-				
 			}
 			
 			starting_technology_level = 3
@@ -50984,6 +50977,10 @@ countries = {
 				catania messina mistretta nicosiasic patti piazza
 				caltagirone modica noto syracuse terranovasic
 			}
+			our_cores_conquered_by_others = {
+				palermo trapani mazara salemi corleone
+				termini cefalu sciacca girgenti bivona caltanisetta
+			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
@@ -51073,6 +51070,88 @@ countries = {
 			capital = syracuse # lecce
 		}
 
+		S4C = { #Ṣiqilliyya
+			own_control_core = {
+				#Sardinia
+				tratalias villa_di_chiesa cagliari muravera
+				#Sicily
+				palermo trapani mazara salemi corleone
+				termini cefalu sciacca girgenti bivona caltanisetta
+			}
+			our_cores_conquered_by_others = {
+				catania messina mistretta nicosiasic patti piazza
+				caltagirone modica noto syracuse terranovasic
+			}
+			
+			starting_technology_level = 3
+			include = "expl_muslim_mediterranean"
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				
+				land_vs_naval = 50
+				laws = {
+					piracy_law = state_piracy_policy
+				}
+				privilege = {
+					#Nobles
+					noble_sponsored_navy
+					#Ulama
+					clergy_literacy_rights
+					clergy_enforced_unity
+					embellish_great_works_of_faith
+					clergy_land_rights
+					freedom_of_interpretation
+					
+					#Burghers
+					formal_guilds
+					building_rights
+					market_fairs
+					shipwright_contracts
+					sponsor_maritime_contracts
+					land_of_commerce
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
+					allow_trade_center_sponsorship
+					
+					#Dhimmi
+					dhimmi_land_rights
+					dhimmi_administrative_posts
+					dhimmi_abrahamic_communities
+					dhimmi_pact_of_umar
+					dhimmi_military_service
+					dhimmi_traditions
+					dharmic_dhimmi_communities
+					dhimmi_promote_tolerance
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
+				}
+				laws = {
+					amazigh_familial_connections = reliance_on_local_tribes
+					sharia_law = maliki_policy
+				}
+			}
+			religious_school = maliki_school
+			government = { mysticism_vs_jurisprudence = -5 }
+			
+			accepted_cultures = { arab_sicilian }
+			tolerated_cultures = {
+				sicilian
+				griko_culture
+				sardinian
+			}
+			
+			capital = palermo
+			dynasty = hafsid_dynasty
+		}
+		
 		GTC = {
 			own_control_core = {
 				samos ikaria foca #Aegean Sea

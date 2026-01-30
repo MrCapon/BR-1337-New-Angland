@@ -348,6 +348,12 @@ S3C = { #Kalavrías
 	religion_definition = orthodox
 }
 
+S4C = { #Ṣiqilliyya
+    color = rgb { 35 145 75 }
+    culture_definition = arab_sicilian
+	religion_definition = sunni
+}
+
 #Africa
 AGY = { #BR addition
 	color = rgb { 185 58 75 }

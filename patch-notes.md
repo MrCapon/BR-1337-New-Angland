@@ -8,14 +8,34 @@
   - Swabia
   - Franconia (Might rename to East Franconia)
   - Hesse (Might rename to West or Central Franconia)
+  - Nassau
+- New HRE Duchies given vllage, rural and estate buildings.
+
+### Balkans
+- New Bulgaran subjects
+  - Severin–Olt
+  - Arges–Dambovita
+  - Ialomita
+  - Braničevo
+  - Smederevo
+  - Niš
+  - Mitrovica (Hungarian Subject)
+
+- Ṣiqilliyya created as a subject of Tunis
 
 ### New Releasables
 - SY0: Palaestina
 - SY1: Edessa
 
 ### misc balance
+- Pop adjustments in Balkans and Anatolia including tribesmen pops thoughout the mountiouns regions particularly
+- Substainsal pop work in the Anatolia, Armenia, Turko-Persian frontier.
 - More starting laws for Elysians
 Building, country, diplomacy and opinion changes
+- Georgia and Armenia tributaries of the Seljuk remnants. This should actually benefit them as they shouldn't be targeted for annexation
+- Added tribesmen to the Baltic region
+- balanced the Constantinople buildings down a tad.
+- more pirates
 
 ### New Advances
 - Ecumenical Patriarchate: "The Ecumenical Patriarch stands as the foremost bishop of the Roman world, exercising recognized authority through councils, canon law, and custom. From the imperial capital, the Church provides spiritual unity and guidance to the oikouménē, closely entwined with the institutions of the state."
@@ -23,13 +43,10 @@ Building, country, diplomacy and opinion changes
 ### New privileges
 - Prerogatives of the Ecumenical Patriarch: "By ancient custom and recognized canon, the Ecumenical Patriarch exercises wide authority within the imperial church. These prerogatives strengthen the influence of the clergy in public life, extend the Church’s hand into diplomacy, and ensure the spiritual alignment of newly incorporated lands and subjects."
 
-
-
 ### Dynasties and characters
 - Put a Premyslid back on the Bohemian Throne
 - Split Bagratuni from Bagrationi
 - Fixed Fatamid dynasty
-
 
 ### Buildings
 - Added more weapons and supporting buildings.
