@@ -4702,6 +4702,8 @@ building_manager = {
 	pirate_haven = { tag = GLH level = 1 location = khadjibey }
 	pirate_haven = { tag = KIP level = 1 location = susaco }
 
+	pirate_haven = { tag = SER level = 1 location = kotor }
+
 	#Mediterranean
 	pirate_haven = { tag = AD2 level = 1 location = ciudadela_de_menorca }
 	pirate_haven = { tag = TLE level = 1 location = algiers }
@@ -4709,6 +4711,15 @@ building_manager = {
 	pirate_haven = { tag = TUN level = 1 location = ajim }
 	pirate_haven = { tag = BJA level = 1 location = derna }
 	pirate_haven = { tag = MAM level = 1 location = sidon }
+	pirate_haven = { tag = ADU level = 1 location = ibiza }
+	pirate_haven = { tag = TLE level = 1 location = mostaganem }
+	pirate_haven = { tag = MAM level = 1 location = tobruk }
+	pirate_haven = { tag = GEN level = 1 location = alghero }
+
+
+	#atlantic
+	pirate_haven = { tag = ADU level = 1 location = figueira }
+	pirate_haven = { tag = ADU level = 1 location = lagos }
 
 	#Mesopotamia
 	royal_court = { tag = A1A level = 1 location =  baghdad }
