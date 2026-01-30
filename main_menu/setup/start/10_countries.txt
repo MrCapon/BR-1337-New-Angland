@@ -51974,6 +51974,51 @@ countries = {
 			capital = nis
 		}
 
+		SE3 = {
+			own_control_core = {
+				sremska_mitrovica petrovaradin ilok
+			}
+			our_cores_conquered_by_others = {
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "eastern_european_monarchy"
+			country_rank = rank_county
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					peasants_allowed_weapons_privilege
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					administrative_system = feudal_administration
+					distribution_of_power_law = dop_traditional_distribution_of_power
+				}
+				
+				quality_vs_quantity = 15
+				belligerent_vs_conciliatory = -10
+				
+			}
+			tolerated_cultures = {
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			capital = sremska_mitrovica
+		}
+
+
 		#Anatolian Tags
 
 		AOI = {

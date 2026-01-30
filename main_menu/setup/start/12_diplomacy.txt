@@ -572,6 +572,8 @@ diplomacy_manager = {
     dependency = { first = BUL second = SE1 subject_type = vassal }
     dependency = { first = BUL second = SE2 subject_type = vassal }
 
+    dependency = { first = HUN second = SE3 subject_type = fiefdom }
+
     #Persia/Mesopotamia
     dependency = { first = TUR second = HZN subject_type = vassal }
     dependency = { first = TUR second = ARD subject_type = vassal }

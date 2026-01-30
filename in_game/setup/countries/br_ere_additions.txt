@@ -256,6 +256,13 @@ SE2 = {
 
 }
 
+SE3 = {
+	color = rgb { 93 142 95 }
+
+	culture_definition = serbian
+	religion_definition = orthodox
+
+}
 
 #Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible
