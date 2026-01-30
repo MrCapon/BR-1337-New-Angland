@@ -150,7 +150,7 @@ br_great_palace_building = {
 	}
 
 	capital_country_modifier = { 
-		monthly_prestige = 0.025
+		monthly_prestige = 0.02
 		#cultural_influence_modifier = 0.25
 		diplomatic_capacity_modifier = 0.25
 		diplomatic_reputation = diplomatic_reputation_severe_bonus
@@ -368,8 +368,8 @@ br_constantinople_shipyard = {
 		local_sailors = 0.075
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.25
-		hostile_fleet_attrition = 1
-		blocks_privateer_raids = yes
+		#hostile_fleet_attrition = 1
+		#blocks_privateer_raids = yes
 		#local_maritime_presence = 0.15
 	}
 }
@@ -404,9 +404,9 @@ br_hippodrome_building = {
 		#local_peasants_estate_power = 0.25 #power of the mob
 	}
 	capital_country_modifier = { 
-		monthly_prestige = 0.025
-		cultural_influence_modifier = 0.25
-		cultural_tradition_modifier = 0.25
+		monthly_prestige = 0.02
+		cultural_influence_modifier = 0.1
+		cultural_tradition_modifier = 0.1
 	}
 
 	unique_production_methods = {
