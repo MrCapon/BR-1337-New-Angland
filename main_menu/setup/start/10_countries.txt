@@ -4301,6 +4301,7 @@ countries = {
 				}
 			}
 			country_rank = rank_duchy
+			liturgical_language = khoine_dialect
 			capital = theodoro
 			
 			accepted_cultures = {
@@ -12139,6 +12140,7 @@ countries = {
 			
 			country_rank = rank_duchy
 			court_language = venetian_dialect
+			liturgical_language = khoine_dialect
 			capital = candia
 			dynasty = cornaro_dynasty
 			dynasty = gradenigo_dynasty
@@ -12300,6 +12302,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
+			liturgical_language = khoine_dialect
 			capital = thebes
 		}
 		
@@ -12344,7 +12347,8 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			court_language = venetian_dialect
+			court_language = achaean_dialect
+			liturgical_language = khoine_dialect
 			capital = andravida
 		}
 		
@@ -14276,6 +14280,7 @@ countries = {
 				jativa alcoy alicante denia elche orihuela
 				valencia gandia ayora bunol chelva lliria
 				ronda algeciras gibraltar marbella
+				ibiza
 				#Portugal
 				lagos faro silves tavira
 				evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
@@ -17893,7 +17898,6 @@ countries = {
 			
 			own_control_integrated = {
 				olsnica jaszbereny
-				sremska_mitrovica petrovaradin ilok
 			}
 			
 			starting_technology_level = 3
@@ -31587,6 +31591,7 @@ countries = {
 			}
 			
 			court_language = kilikioi_dialect
+			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
 			capital = tarsus
 		}
@@ -31615,6 +31620,7 @@ countries = {
 			}
 			
 			court_language = venetian_dialect
+			liturgical_language = khoine_dialect
 			capital = nicosia_cyp
 			country_rank = rank_duchy
 		}
@@ -32277,6 +32283,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
+			liturgical_language = khoine_dialect
 			capital = trebizond
 			
 			accepted_cultures = {
@@ -50998,7 +51005,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			
+			liturgical_language = khoine_dialect
 			capital = syracuse # lecce
 		}
 		#Longobardías
@@ -51029,7 +51036,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			
+			liturgical_language = khoine_dialect
 			capital = lecce
 		}
 
@@ -51062,7 +51069,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			
+			liturgical_language = khoine_dialect
 			capital = syracuse # lecce
 		}
 
@@ -54401,10 +54408,10 @@ countries = {
 
 		AD2 = {
 			own_control_core = {
-				palma ibiza manacor pollensa
+				palma manacor pollensa
 			}
 			our_cores_conquered_by_others = {
-				ciudadela_de_menorca
+				ciudadela_de_menorca ibiza
 			}
 			
 			starting_technology_level = 3
