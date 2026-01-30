@@ -604,6 +604,8 @@ diplomacy_manager = {
     dependency = { first = TUR second = KCN subject_type = vassal }
     dependency = { first = TUR second = ATC subject_type = vassal }
     dependency = { first = TUR second = GAN subject_type = vassal }
+    dependency = { first = TUR second = GEO subject_type = tributary }
+    dependency = { first = TUR second = ARM subject_type = tributary }
 
     dependency = { first = ATQ second = ZRQ subject_type = vassal }
     dependency = { first = ATQ second = HZR subject_type = vassal }
