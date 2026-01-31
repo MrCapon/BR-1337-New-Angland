@@ -3,7 +3,7 @@
 
 akritai_privilege = {
 	
-	estate = nobles_estate
+	estate = peasants_estate
 	icon = ghazi_privilege
 	
 	potential = {
@@ -24,16 +24,14 @@ akritai_privilege = {
 	}
 
 	country_modifier = {
-		land_morale_modifier = 0.05
-		global_levy_size_modifier = 0.05
-		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
-		global_nobles_estate_power = 1
-		monthly_towards_decentralization = societal_value_minor_monthly_move
-		monthly_towards_quality = societal_value_minor_monthly_move
-
+		global_levy_size_modifier = 0.1
+		levy_combat_efficiency_modifier = 0.1
 		auto_slave_raid_different_religion = yes   # Frontier raiding (BR addition)
 		amount_looted_modifier = 0.5
-
+		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_peasants_estate_power = 1
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+		monthly_towards_free_subjects = societal_value_minor_monthly_move
 		# As with Ghazi privileges, useful early but a roadblock to centralization.
 	}
 }
@@ -56,7 +54,7 @@ boyarski_voiski = {
 		global_manpower_modifier = 0.1
 		wrong_culture_levy_size = 0.1
 
-		monthly_towards_aristocracy = societal_value_minor_monthly_move
+		monthly_towards_aristocracy = societal_value_monthly_move
 	}
 }
 
