@@ -12951,6 +12951,7 @@ countries = {
 					manorial_courts
 					noble_patronage_of_the_arts
 					consolidated_corruption_of_the_nobles #readded an edited version
+					monetary_fiefs #
 					
 					#Clergy
 					embellish_great_works_of_faith
@@ -13003,7 +13004,6 @@ countries = {
 			}
 
 			tolerated_cultures = {
-				aromanian
 				anatolian_greek_culture
 				pontic_greek_culture
 			}
@@ -13052,6 +13052,24 @@ countries = {
 					name_john = 1
 					name_charles = 1
 				}
+				reforms = {
+					local_army_organization
+				}
+				privilege = {
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					peasants_protected_faith
+					access_to_royal_and_ecclesiastical_courts
+					peasants_in_administration
+					peasants_autonomous_villages
+
+					tribes_land_rights
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 			}
 			
 			tolerated_cultures = {
@@ -13093,12 +13111,14 @@ countries = {
 					access_to_royal_and_ecclesiastical_courts
 					peasants_in_administration
 					peasants_autonomous_villages
+					peasants_yeomanry
 
 					tribes_land_rights
 					tribes_allow_gatherings
 					tribes_pasture_access
 					tribes_tribal_levies
 					tribes_protected_faith
+					jaysh_armies
 				}
 				centralization_vs_decentralization = 75
 				serfdom_vs_free_subjects = 75
@@ -13148,12 +13168,14 @@ countries = {
 					access_to_royal_and_ecclesiastical_courts
 					peasants_in_administration
 					peasants_autonomous_villages
+					peasants_yeomanry
 
 					tribes_land_rights
 					tribes_allow_gatherings
 					tribes_pasture_access
 					tribes_tribal_levies
 					tribes_protected_faith
+					jaysh_armies
 				}
 				centralization_vs_decentralization = 75
 				serfdom_vs_free_subjects = 75
@@ -13203,12 +13225,14 @@ countries = {
 					access_to_royal_and_ecclesiastical_courts
 					peasants_in_administration
 					peasants_autonomous_villages
+					peasants_yeomanry
 
 					tribes_land_rights
 					tribes_allow_gatherings
 					tribes_pasture_access
 					tribes_tribal_levies
 					tribes_protected_faith
+					jaysh_armies
 				}
 				centralization_vs_decentralization = 75
 				serfdom_vs_free_subjects = 75
@@ -13253,12 +13277,14 @@ countries = {
 					access_to_royal_and_ecclesiastical_courts
 					peasants_in_administration
 					peasants_autonomous_villages
+					peasants_yeomanry
 
 					tribes_land_rights
 					tribes_allow_gatherings
 					tribes_pasture_access
 					tribes_tribal_levies
 					tribes_protected_faith
+					jaysh_armies
 				}
 				centralization_vs_decentralization = 75
 				serfdom_vs_free_subjects = 75
@@ -13342,12 +13368,14 @@ countries = {
 					#peasants
 					gradozadanje_and_gradobljudenlje_rights
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
 
 					tribes_land_rights
 					tribes_allow_gatherings
 					tribes_pasture_access
 					tribes_tribal_levies
 					tribes_protected_faith
+					jaysh_armies
 				}
 				laws = {
 					feudal_de_jure_law = by_tradition
@@ -13407,12 +13435,14 @@ countries = {
 					access_to_royal_and_ecclesiastical_courts
 					peasants_in_administration
 					peasants_autonomous_villages
+					peasants_yeomanry
 
 					tribes_land_rights
 					tribes_allow_gatherings
 					tribes_pasture_access
 					tribes_tribal_levies
 					tribes_protected_faith
+					jaysh_armies
 				}
 				centralization_vs_decentralization = 75
 				serfdom_vs_free_subjects = 75
