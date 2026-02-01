@@ -20,6 +20,10 @@
 	}
 }
 
+INJECT:n_fishing_boat = {
+	cannons = 1
+}
+
 # n_catalan_galley = {
 # 	category = navy_galley
 # 	copy_from = n_age_1_traditions_galley
