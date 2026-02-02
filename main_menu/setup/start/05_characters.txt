@@ -9862,7 +9862,7 @@ character_db={
 		birth = naples
 		father = cro_martell_karoly
 		mother = hun_klementia_habsburg
-		dynasty = anjou_dynasty # Should be dynasty = anjou_hungary_dynasty
+		dynasty = arpad_dynasty # Should be dynasty = anjou_hungary_dynasty
 		tag = HUN
 		ruler_trait = bold_fighter
 		ruler_trait = midas_touched
@@ -9896,7 +9896,7 @@ character_db={
 		birth = visegrad
 		father = hun_karoly_robert
 		mother = hun_maria_bytom
-		dynasty = anjou_dynasty # Should be dynasty = anjou_hungary_dynasty
+		dynasty = arpad_dynasty # Should be dynasty = anjou_hungary_dynasty
 		tag = HUN
 	}
 
@@ -9910,7 +9910,7 @@ character_db={
 		birth = visegrad
 		father = hun_karoly_robert
 		mother = hun_maria_bytom
-		dynasty = anjou_dynasty # Should be dynasty = anjou_hungary_dynasty
+		dynasty = arpad_dynasty # Should be dynasty = anjou_hungary_dynasty
 		tag = HUN
 	}
 	
@@ -9923,7 +9923,7 @@ character_db={
 		birth_date = 1317.1.1
 		father = hun_karoly_robert
 		birth = pest
-		dynasty = anjou_dynasty # Should be dynasty = anjou_hungary_dynasty
+		dynasty = arpad_dynasty # Should be dynasty = anjou_hungary_dynasty
 		tag = HUN
 		timed_modifier = {
 			modifier = "bastard"
@@ -9944,7 +9944,7 @@ character_db={
 		birth = visegrad
 		father = hun_karoly_robert
 		mother = pol_elzbieta_piast
-		dynasty = anjou_dynasty # Should be dynasty = anjou_hungary_dynasty
+		dynasty = arpad_dynasty # Should be dynasty = anjou_hungary_dynasty
 		tag = HUN
 		child_trait = child_prodigy
 	}
@@ -9975,7 +9975,7 @@ character_db={
 		birth = visegrad
 		father = hun_karoly_robert
 		mother = pol_elzbieta_piast
-		dynasty = anjou_dynasty # Should be dynasty = anjou_hungary_dynasty
+		dynasty = arpad_dynasty # Should be dynasty = anjou_hungary_dynasty
 		tag = HUN
 	}
 
@@ -93931,7 +93931,7 @@ adm = 31 dip = 34 mil = 24
 	krm_qutb_al_din = {	#Ruler
 		first_name = { name = name_qutb.name_al_din }
 		culture = farsi_culture
-		religion = sunni
+		religion = zoroastrian
 		adm = 49 dip = 83 mil = 85
 		birth_date = 1300.1.1 #Unknown
 		birth = kerman
