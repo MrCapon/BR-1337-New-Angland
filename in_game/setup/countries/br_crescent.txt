@@ -4,3 +4,8 @@ AIA = {
 	culture_definition = iraqi_culture
 	religion_definition = sunni
 }
+
+
+INJECT:KRM = { #Kerman
+	religion_definition = zoroastrian
+}
