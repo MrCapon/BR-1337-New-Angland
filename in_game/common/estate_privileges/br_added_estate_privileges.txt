@@ -1,4 +1,6 @@
-﻿
+﻿#parliament_base_support = 0.2
+#global_pop_conversion_speed_modifier = -0.1
+#monthly_army_tradition = 0.05
 # BR added Nobles Estate Privileges
 
 akritai_privilege = {
@@ -124,6 +126,7 @@ br_roman_ecumenical_patriarch_privilege = {
 	estate = clergy_estate
 	icon = clergy_religious_state
 	potential = {
+		has_or_had_tag = BYZ
 	}
 	allow = {
 	}

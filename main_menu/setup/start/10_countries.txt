@@ -13357,13 +13357,15 @@ countries = {
 				}
 				privilege = {
 					#Nobles
+					noble_serfdom_rights
 					bashtinas_and_pronijas_grants
 					zupa_districts
 					vlastele_krayishnik
 					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					clergy_powerful_dioceses
 					#burghers
 					#peasants
 					gradozadanje_and_gradobljudenlje_rights
@@ -13390,8 +13392,8 @@ countries = {
 				
 			}
 			tolerated_cultures = {
-				bosnian
-				greek_culture
+				albanian
+				aromanian
 			}
 			
 			liturgical_language = church_slavonic_language
@@ -13618,6 +13620,9 @@ countries = {
 				ruler_term = { character = hun_karoly_robert start_date = 1301.1.14 regnal_number = 1 }
 			}
 			
+			accepted_cultures = {
+				hungarian
+			}
 			tolerated_cultures = {
 				dalmatian
 			}
@@ -17999,12 +18004,15 @@ countries = {
 			currency_data = {
 				army_tradition = 75
 			}
-			
-			tolerated_cultures = {
+
+			accepted_cultures = {
 				croatian
-				cuman_culture
 				german_carpathian
 				german_transylvanian
+			}
+			
+			tolerated_cultures = {
+				cuman_culture
 				slovak
 				szekely_culture
 				transylvanian
@@ -32468,6 +32476,47 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					clergy_in_administration
+					clerical_advisory_council
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 				
 			}
 			
@@ -48575,30 +48624,42 @@ countries = {
 				ruler = geo_george_v
 				
 				#Societal Values
-				offensive_vs_defensive = 40
 				aristocracy_vs_plutocracy = -25
-				belligerent_vs_conciliatory = -35
+				belligerent_vs_conciliatory = 50
+				offensive_vs_defensive = 100
+				land_vs_naval = -75
 				
-				
-				
+				reforms = {
+					feudal_nobility
+					local_army_organization
+				}
+
 				privilege = {
 					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
+					auxilium_et_consilium
 					elaborate_court_ceremonies
-					
-					#Burghers
-					
-					
-					#Clergy
-					clergy_in_administration
-					clerical_advisory_council
+					#clergy
+					embellish_great_works_of_faith
 					clergy_powerful_dioceses
 					clergy_strengthen_faith
-					embellish_great_works_of_faith
-					tax_exemption
-					
-					#Peasants
+					religious_diplomats
+					clergy_in_administration
+					clerical_advisory_council
+					#burghers
+					land_of_commerce
+					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 				
 				laws = {
@@ -48637,6 +48698,45 @@ countries = {
 				ruler_term = { character = sme_qvarqvare start_date = 1334.1.1 regnal_number = 1 }
 				
 				ruler = sme_qvarqvare
+
+				#Societal Values
+				aristocracy_vs_plutocracy = -25
+				belligerent_vs_conciliatory = 50
+				offensive_vs_defensive = 100
+				land_vs_naval = -75
+				
+				reforms = {
+					feudal_nobility
+					local_army_organization
+				}
+
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					elaborate_court_ceremonies
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					clergy_in_administration
+					clerical_advisory_council
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 			}
 			
 			tolerated_cultures = {
@@ -48668,6 +48768,45 @@ countries = {
 				ruler_term = { character = sme_qvarqvare start_date = 1334.1.1 regnal_number = 1 }
 				
 				ruler = sme_qvarqvare
+
+				#Societal Values
+				aristocracy_vs_plutocracy = -25
+				belligerent_vs_conciliatory = 50
+				offensive_vs_defensive = 100
+				land_vs_naval = -75
+				
+				reforms = {
+					feudal_nobility
+					local_army_organization
+				}
+
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					elaborate_court_ceremonies
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					clergy_in_administration
+					clerical_advisory_council
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 			}
 			
 			tolerated_cultures = {
@@ -48831,7 +48970,7 @@ countries = {
 			include = "expl_christian_caucasus"
 			starting_technology_level = 3
 			include = "eastern_european_monarchy_no_coast"
-			country_rank = rank_kingdom #BR EDIT
+			country_rank = rank_kingdom
 			
 			government = {
 				type = monarchy
@@ -48848,19 +48987,50 @@ countries = {
 				ruler_term = { character = arm_zakare_iv start_date = 1320.1.1 regnal_number = 4 }
 				
 				ruler = arm_zakare_iv
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
 				privilege = {
-					#nobles
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					clergy_in_administration
+					clerical_advisory_council
 					#burghers
+					land_of_commerce
 					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 			}
 			liturgical_language = armenian_language
 			
-			capital =  ani #yerevan BR EDIT
+			capital =  ani
 		}
 		
 		AMB = { #Amberd
@@ -48875,6 +49045,45 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 				
 			}
 			liturgical_language = armenian_language
@@ -48897,6 +49106,45 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 				
 			}
 			liturgical_language = armenian_language
@@ -49086,6 +49334,44 @@ countries = {
 				regnal_numbers = {
 					name_john = 2
 				}
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 			}
 			liturgical_language = armenian_language
 			
@@ -49115,6 +49401,44 @@ countries = {
 				ruler_term = { character = syu_biurtel start_date = 1300.1.1 regnal_number = 1 }
 				
 				ruler = syu_biurtel
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
+				privilege = {
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 			}
 			liturgical_language = armenian_language
 			
@@ -49142,6 +49466,42 @@ countries = {
 				type = tribe
 				heir_selection = tribal_oldest_male
 				ruler = random
+
+				reforms = {
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
+				privilege = {
+					#Nobles
+					feudal_mercenary_contracts
+					primacy_of_nobility
+					auxilium_et_consilium
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
+					#burghers
+					land_of_commerce
+					#peasants
+					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
+				}
 			}
 			
 			tolerated_cultures = {
@@ -53583,14 +53943,43 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
 				privilege = {
-					#nobles
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
 					#burghers
+					land_of_commerce
 					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 			}
 			
@@ -53619,14 +54008,43 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
 				privilege = {
-					#nobles
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
 					#burghers
+					land_of_commerce
 					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 			}
 			
@@ -53661,15 +54079,43 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
 				privilege = {
-					#nobles
-					
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
 					#burghers
+					land_of_commerce
 					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 			}
 			
@@ -53700,15 +54146,43 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
 				privilege = {
-					#nobles
-					
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
 					#burghers
+					land_of_commerce
 					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 			}
 			
@@ -53738,15 +54212,43 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					local_army_organization
+				}
+
+				traditionalist_vs_innovative = -75
+				spiritualist_vs_humanist = -75
+				aristocracy_vs_plutocracy = -75
+				belligerent_vs_conciliatory = 75
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				individualism_vs_communalism = 50
+				outward_vs_inward = 75
+				
 				privilege = {
-					#nobles
-					
+					#Nobles
+					noble_patronage_of_the_arts
+					noble_serfdom_rights
+					feudal_mercenary_contracts
 					primacy_of_nobility
 					auxilium_et_consilium
-					#joint_assembly_decrees
+					#clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+					religious_diplomats
 					#burghers
+					land_of_commerce
 					#peasants
 					peasants_allowed_weapons_privilege
+					peasants_yeomanry
+
+					tribes_allow_gatherings
+					tribes_pasture_access
+					tribes_tribal_levies
+					tribes_protected_faith
+					jaysh_armies
 				}
 			}
 			

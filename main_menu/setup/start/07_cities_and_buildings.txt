@@ -5166,6 +5166,7 @@ building_manager = {
 	forest_village = { tag = SER level = 1 location = stalac }
 	farming_village = { tag = SER level = 1 location = budimlja }
 	forest_village = { tag = SER level = 1 location = visegrad }
+	forest_village = { tag = SER level = 1 location = prijepolje }
 	peasants_training_grounds = { tag = SER level = 1 location = visegrad }
 	peasants_training_grounds = { tag = SER level = 1 location = prijepolje }
 	peasants_training_grounds = { tag = SER level = 1 location = peja }

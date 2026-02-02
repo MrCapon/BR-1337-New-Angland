@@ -378,6 +378,7 @@ diplomacy_manager = {
     dependency = { first = FKN second = BAM subject_type = vassal }
     dependency = { first = FKN second = ANS subject_type = vassal }
     dependency = { first = FKN second = PLN subject_type = vassal }
+    dependency = { first = FKN second = THD subject_type = vassal }
 
     #Saxony
     dependency = { first = MEI second = SOR subject_type = fiefdom }
