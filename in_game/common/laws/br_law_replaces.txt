@@ -1,0 +1,60 @@
+﻿
+INJECT:administrative_system = { #Version for ERE minors
+	br_pronoia_system = {
+		unique = yes
+		potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+			NOT = { has_or_had_tag = BYZ }
+		}
+		country_modifier = {
+			global_nobles_city_desired_pop = 0.005
+			nobles_estate_max_tax = -0.25
+			nobles_estate_levy_size = 0.25
+			army_infantry_maintenance_cost_modifier = -0.25
+			army_cavalry_maintenance_cost_modifier = -0.25
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+}
+
+INJECT:royal_court_customs_law = {
+	br_military_court_policy = { # Anatolian military elite, based on prussian court
+		unique = yes
+		potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+			NOT = { has_or_had_tag = BYZ }
+		}
+	
+		country_modifier = {
+			court_spending_cost  = -0.02
+			monthly_towards_land = societal_value_monthly_move
+			army_tradition_decay = -0.002
+			global_levy_size_modifier = 0.1
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+}
+
+INJECT:medieval_levy_law = {
+	br_thema_levies = {
+		country_modifier = {
+			nobles_estate_levy_size = 0.25
+			monthly_towards_quality = societal_value_monthly_move
+			levy_combat_efficiency_modifier = 0.25
+		}
+		potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+		
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+}
