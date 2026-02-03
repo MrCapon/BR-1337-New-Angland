@@ -11021,7 +11021,7 @@ countries = {
 			}
 			
 			court_language = eccelsiastic_latin_dialect
-			capital = rome
+			capital = avignon
 			
 			is_valid_for_release = no
 		}
