@@ -5431,6 +5431,7 @@ building_manager = {
 	clay_pit = { tag = RAV level = 1 location = ravenna }
 	castle = { tag = RAV level = 1 location = ravenna }
 
+	local_governor = { tag = PAP level = 1 location = rome }
 	library = { tag = PAP level = 1 location = rome }
 	scriptorium = { tag = PAP level = 5 location = rome }
 	paper_guild = { tag = PAP level = 3 location = rome }
