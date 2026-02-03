@@ -4137,6 +4137,11 @@ building_manager = {
 	cathedral	= { tag = TRE level = 1	location = amasya }
 
 	#Levant
+	local_governor	= { tag = MAM level = 1	location = damascus }
+	#naval_governor	= { tag = ADU level = 1	location = valencia }
+	local_governor	= { tag = TUR level = 1	location = samarra }
+	local_governor	= { tag = TUR level = 1	location = rey }
+
 	cathedral	= { tag = AOI level = 1	location = antioch }
 	cathedral	= { tag = MAM level = 1	location = jerusalem }
 	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
@@ -4496,19 +4501,23 @@ building_manager = {
 	nobles_recruitment_center = { tag = BUL level = 1 location = lardeja }
 
 	peasants_training_grounds = { tag = MZK level = 1 location = debar }
+	free_village = { tag = MZK level = 1 location = debar }
 	forest_village = { tag = MZK level = 1 location = debar }
 	peasants_hunting_grounds = { tag = MZK level = 1 location = debar }
 	toll_castle = { tag = MZK level = 1 location = debar }
 	peasants_training_grounds = { tag = ANT level = 1 location = elbasan }
+	free_village = { tag = ANT level = 1 location = elbasan }
 	forest_village = { tag = ANT level = 1 location = elbasan }
 	peasants_hunting_grounds = { tag = ANT level = 1 location = elbasan }
 	toll_castle = { tag = ANT level = 1 location = elbasan }
 	nobility_fortifications = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = MTR level = 1 location = devol }
+	free_village = { tag = MTR level = 1 location = devol }
 	market_village = { tag = MTR level = 1 location = devol }
 	local_markets = { tag = MTR level = 1 location = devol }
 	parish_church = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = THP level = 1 location = kruje }
+	free_village = { tag = THP level = 1 location = kruje }
 	forest_village = { tag = THP level = 1 location = kruje }
 	peasants_hunting_grounds = { tag = THP level = 1 location = kruje }
 	nobles_recruitment_center = { tag = THP level = 1 location = tirana }
@@ -4517,11 +4526,14 @@ building_manager = {
 	parish_church = { tag = THP level = 1 location = tirana }
 	local_markets = { tag = THP level = 1 location = tirana }
 
-	peasants_training_grounds = { tag = VEN level = 1 location = modon }
+	peasants_training_grounds = { tag = VTC level = 1 location = modon }
+	free_village = { tag = VTC level = 1 location = modon }
 	peasants_training_grounds = { tag = M0E level = 1 location = tripolitsa }
 	peasants_training_grounds = { tag = M0E level = 1 location = mystras }
 	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
+	free_village = { tag = ACH level = 1 location = kalamata }
 	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
+	free_village = { tag = ACH level = 1 location = chalandritsa }
 
 
 	nobles_recruitment_center = { tag = WA0 level = 1 location = severin }
@@ -4781,6 +4793,8 @@ building_manager = {
 	charcoal_maker = { tag = AON level = 1 location = kalecik }
 
 	#IBERIA
+	local_governor	= { tag = ADU level = 1	location = toledo }
+	naval_governor	= { tag = ADU level = 1	location = valencia }
 	royal_court = { tag = ADU level = 1 location = cordoba }
 	royal_garden = { tag = ADU level = 1 location =  cordoba } #Gardens of the Great Palace
 	fortress_granary = { tag = ADU level = 1 location = cordoba }
