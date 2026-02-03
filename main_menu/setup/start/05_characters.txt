@@ -6393,7 +6393,7 @@ character_db={
 		first_name = { name = name_john }
 		culture = greek_culture
 		religion = orthodox
-		adm = 1 dip = 1 mil = 1
+		adm = 6 dip = 6 mil = 6
 		birth_date = 1332.6.18
 		birth = kirklareli
 		father = byz_andronikos_iii_palaiologos
@@ -6408,7 +6408,7 @@ character_db={
 		first_name = { name = name_michael }
 		culture = greek_culture
 		religion = orthodox
-		adm = 6 dip = 6 mil = 12
+		adm = 8 dip = 8 mil = 15
 		birth_date = 1337.1.1
 		birth = constantinople
 		father = byz_andronikos_iii_palaiologos
@@ -8596,7 +8596,7 @@ character_db={
 		tag = FRA
 		ruler_trait = righteous
 		ruler_trait = just
-		ruler_trait = zealor
+		ruler_trait = zealot
 		ruler_trait = expansionist
 	}
 
@@ -12198,7 +12198,7 @@ character_db={
 		dynasty = ivree_dynasty
 		tag = FCB
 		ruler_trait = bold_fighter
-		ruler_trait = babbling_buffon
+		ruler_trait = babbling_buffoon
 		ruler_trait = craven
 	}
 
@@ -12971,7 +12971,7 @@ character_db={
 
 	cas_juana_nunez_lara = {
 		first_name = { name = name_joanna }
-		last_name = { name Lara }
+		last_name = { name = Lara }
 		nickname = { name = Palomilla }
 		culture = castilian
 		religion = catholic
@@ -26160,18 +26160,31 @@ character_db={
 		tag = GEN
 	}
 
-	# HOUSE OF THE ALBIZZI
-	
-	flo_niccolo_acciaioli = {
-		first_name = { name = name_nicholas }
+	acc_acciaiolo_acciaioli = {
+		first_name = { name = name_acciaiolo }
+		culture = tuscan
+		religion = catholic
+		birth_date = 1280.1.1 #Unknown
+		birth = florence
 		dynasty = acciaioli_dynasty
+		spouse = "random"
+		tag = ACC
+	}
+	
+	acc_niccolo_acciaioli = {
+		first_name = { name = name_nicholas }
 		culture = tuscan
 		religion = catholic
 		adm = 47 dip = 57 mil = 74
 		birth_date = 1310.1.1
 		birth = florence
-		tag = NAP
+		father = acc_acciaiolo_acciaioli
+		dynasty = acciaioli_dynasty
+		spouse = "random"
+		tag = ACC
 	}
+	
+	# HOUSE OF THE ALBIZZI
 	
 	flo_filippo_albizzi = {
 		first_name = { name = name_philip }
@@ -26257,7 +26270,7 @@ character_db={
 		#mother = Unknown
 		dynasty = aleramici_dynasty
 		tag = MFA
-		ruler_trait = zealous
+		ruler_trait = zealot
 		ruler_trait = architectural_visionary
 	}
 		
@@ -34303,7 +34316,7 @@ character_db={
 		#mother = Unknown
 		dynasty = morosini_dynasty
 		tag = VEN
-		ruler_trait = bold_figther
+		ruler_trait = bold_fighter
 	}
 
 	ven_marino_morosini_sr = {
@@ -41848,7 +41861,7 @@ adm = 31 dip = 34 mil = 24
 		culture = lombard
 		religion = catholic
 		estate = nobles_estate
-		adm = 29 dip = 41 dip = 69
+		adm = 29 dip = 41 mil = 69
 		birth_date = 1230.1.1
 		death_date = 1276.1.1
 		birth = novara
@@ -44233,7 +44246,7 @@ adm = 31 dip = 34 mil = 24
 	}
 	
 	#Hafsids
-	tun_abu_zakariyya_yahya {
+	tun_abu_zakariyya_yahya = {
 		first_name = { name = name_john }
 		nickname = { name = Abu-Zakariyya }
 		culture = masmuda
@@ -44245,7 +44258,7 @@ adm = 31 dip = 34 mil = 24
 		tag = TUN
 	}
 	
-	tun_abu_l_baqa_khalid_an_nasr {
+	tun_abu_l_baqa_khalid_an_nasr = {
 		first_name = { name = Khalid }
 		nickname = { name = Abu-l-Baqa }
 		last_name = { name = An-Nasr } #'the Victorious'
@@ -44261,7 +44274,7 @@ adm = 31 dip = 34 mil = 24
 	}
 	
 	#Ruler
-	tun_abu_yahya_abu_bakr_ii { #https://en.wikipedia.org/wiki/Abu_Yahya_Abu_Bakr_II
+	tun_abu_yahya_abu_bakr_ii = { #https://en.wikipedia.org/wiki/Abu_Yahya_Abu_Bakr_II
 		first_name = { name = Abu_Bakr }
 		nickname = { name = nick_abu_yahya }
 		culture = masmuda
@@ -44273,7 +44286,7 @@ adm = 31 dip = 34 mil = 24
 		tag = TUN
 	}
 	#Heir
-	tun_abu_l_abbas_ahmad {
+	tun_abu_l_abbas_ahmad = {
 		first_name = { name = name_ahmad }
 		nickname = { name = Abu-l_Abbas }
 		culture = masmuda
@@ -44287,7 +44300,7 @@ adm = 31 dip = 34 mil = 24
 	}
 	
 	#Future Usurper
-	tun_abu_hafs_umar {
+	tun_abu_hafs_umar = {
 		first_name = { name = name_omar }
 		nickname = { name = Abu_Hafs }
 		culture = masmuda
@@ -44300,7 +44313,7 @@ adm = 31 dip = 34 mil = 24
 		tag = TUN
 	}
 	
-	tun_fatimah {
+	tun_fatimah = {
 		first_name = { name = Fatimah }
 		culture = masmuda
 		religion = sunni
@@ -44313,7 +44326,7 @@ adm = 31 dip = 34 mil = 24
 		tag = MOR
 	}
 	
-	tun_al-fadl {
+	tun_al-fadl = {
 		first_name = { name = Al-Fadl }
 		culture = masmuda
 		religion = sunni
@@ -44325,7 +44338,7 @@ adm = 31 dip = 34 mil = 24
 		tag = TUN
 	}
 	
-	tun_abu_ishaq_ibrahim_ii {
+	tun_abu_ishaq_ibrahim_ii = {
 		first_name = { name = name_abraham }
 		nickname = { name = Abu_Ishaq }
 		culture = masmuda
@@ -44339,7 +44352,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Zab
-	zab_al_fadl_bin_ali_bin_ahmed_bin_al_hassan_bin_ali_bin_muzni {
+	zab_al_fadl_bin_ali_bin_ahmed_bin_al_hassan_bin_ali_bin_muzni = {
 		first_name = { name = name_fadl }
 		culture = tunisian
 		religion = sunni
@@ -44350,7 +44363,7 @@ adm = 31 dip = 34 mil = 24
 		tag = ZAB
 	}
 
-	zab_mansur_bin_fadl {
+	zab_mansur_bin_fadl = {
 		first_name = { name = name_mansur }
 		culture = algerian
 		religion = sunni
@@ -44362,7 +44375,7 @@ adm = 31 dip = 34 mil = 24
 		tag = ZAB
 	}
 
-	zab_yusuf_bin_mansur {
+	zab_yusuf_bin_mansur = {
 		first_name = { name = name_joseph }
 		culture = algerian
 		religion = sunni
@@ -44374,7 +44387,7 @@ adm = 31 dip = 34 mil = 24
 		tag = ZAB
 	}
 
-	zab_ahmad_bin_yusuf {
+	zab_ahmad_bin_yusuf = {
 		first_name = { name = name_ahmad }
 		culture = algerian
 		religion = sunni
@@ -44386,7 +44399,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Banū Tellīs
-	btl_ahmad_bin_tellis {
+	btl_ahmad_bin_tellis = {
 		first_name = { name = name_ahmad }
 		culture = libyan_arabic_culture
 		religion = sunni
@@ -44397,7 +44410,7 @@ adm = 31 dip = 34 mil = 24
 		tag = BTL
 	}
 
-	btl_ali_bin_ahmad {
+	btl_ali_bin_ahmad = {
 		first_name = { name = name_ali }
 		culture = libyan_arabic_culture
 		religion = sunni
@@ -44409,7 +44422,7 @@ adm = 31 dip = 34 mil = 24
 		tag = BTL
 	}
 
-	btl_galib_bin_ali {
+	btl_galib_bin_ali = {
 		first_name = { name = name_galib }
 		culture = libyan_arabic_culture
 		religion = sunni
@@ -44421,7 +44434,7 @@ adm = 31 dip = 34 mil = 24
 		tag = BTL
 	}
 
-	btl_ali_bin_galib {
+	btl_ali_bin_galib = {
 		first_name = { name = name_ali }
 		culture = libyan_arabic_culture
 		religion = sunni
@@ -44433,7 +44446,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Gafsa
-	gfs_ahmed_bin_omar_bin_al_abed {
+	gfs_ahmed_bin_omar_bin_al_abed = {
 		first_name = { name = name_ahmad }
 		culture = tunisian
 		religion = sunni
@@ -44443,7 +44456,7 @@ adm = 31 dip = 34 mil = 24
 		tag = GFS
 	}
 	
-	gfs_muhammad_bin_ahmed {
+	gfs_muhammad_bin_ahmed = {
 		first_name = { name = name_muhammad }
 		culture = tunisian
 		religion = sunni
@@ -44455,7 +44468,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Makki
-	gbs_makki {
+	gbs_makki = {
 		first_name = { name = name_makki }
 		culture = eastern_amazigh
 		religion = sunni
@@ -44465,7 +44478,7 @@ adm = 31 dip = 34 mil = 24
 		tag = GBS
 	}
 
-	gbs_ahmed_ibn_makki {
+	gbs_ahmed_ibn_makki = {
 		first_name = { name = name_ahmad }
 		culture = eastern_amazigh
 		religion = sunni
@@ -44477,7 +44490,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Nasurids
-	fza_ali_nasur {
+	fza_ali_nasur = {
 		first_name = { name = name_ali }
 		culture = toubou_culture
 		religion = sunni
@@ -44488,7 +44501,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Thabitids
-	trp_thabit_ibn_ammar {
+	trp_thabit_ibn_ammar = {
 		first_name = { name = name_thabid }
 		culture = eastern_amazigh
 		religion = sunni
@@ -44499,7 +44512,7 @@ adm = 31 dip = 34 mil = 24
 		tag = TRP
 	}
 
-	trp_muhammad_ibn_thabit {
+	trp_muhammad_ibn_thabit = {
 		first_name = { name = name_muhammad }
 		culture = eastern_amazigh
 		religion = sunni
@@ -44510,7 +44523,7 @@ adm = 31 dip = 34 mil = 24
 		tag = TRP
 	}
 
-	trp_thabit_ibn_muhammad {
+	trp_thabit_ibn_muhammad = {
 		first_name = { name = name_thabid }
 		culture = eastern_amazigh
 		religion = sunni
@@ -44707,7 +44720,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Jimena Muñoz
 		dynasty = asturleonesa_dynasty
 		tag = LON
-		ruler_trait = obsessive_perfectionistic
+		ruler_trait = obsessive_perfectionist
 	}
 	
 	glc_sancho_ordonez = { #https://en.wikipedia.org/wiki/Sancho_Ord%C3%B3%C3%B1ez
@@ -46206,7 +46219,7 @@ adm = 31 dip = 34 mil = 24
 		birth = villalba # Portugal
 		#father = cas_pedro_fernandez_castro
 		#mother = por_aldonca_lourenco_valadares # Mistress
-		#dynasty = castro_dynasty
+		dynasty = castro_dynasty
 		tag = CAS
 		timed_modifier = {
 			modifier = "bastard"
@@ -49011,7 +49024,7 @@ adm = 31 dip = 34 mil = 24
 		culture = korean_culture
 		religion = mahayana
 		adm = 28 dip = 21 mil = 26
-		birth_date = 1315.2.22
+		birth_date = 1330.5.23
 		birth = kaesong
 		dynasty = wang_dynasty
 		father = kor_chungsuk
@@ -70028,6 +70041,291 @@ adm = 31 dip = 34 mil = 24
 		tag = CHI
 	}
 
+	#Belgutei
+	bgt_belgutei_borjigin = {
+		first_name = { name = name_belgutei }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1161.1.1 
+		birth = balj
+		death_date = 1261.1.1 #changed to 100 due to error log, some accounts claim he lived up to 110 years.
+		father = yesugei_borjigin
+		tag = BGT
+	}
+
+	bgt_kumun_buqa_borjigin = {
+		first_name = { name = name_kumun.name_buqa }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1191.1.1 #Unknown
+		birth = balj
+		death_date = 1251.1.1 #Unknown
+		father = bgt_belgutei_borjigin
+		tag = BGT
+	}
+
+	bgt_onggiradai_borjigin = {
+		first_name = { name = name_onggiradai }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1221.1.1 #Unknown
+		birth = balj
+		death_date = 1269.1.1 #Unknown
+		father = bgt_kumun_buqa_borjigin
+		tag = BGT
+	}
+
+	bgt_cherik_temur_borjigin = {
+		first_name = { name = name_cherik.name_temur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1261.1.1 #Unknown
+		birth = balj
+		death_date = 1326.1.1 #Unknown
+		father = bgt_onggiradai_borjigin
+		tag = BGT
+	}
+
+	bgt_alguncha_borjigin = {
+		first_name = { name = name_alguncha }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1291.1.1 #Unknown
+		birth = balj
+		father = bgt_cherik_temur_borjigin
+		tag = BGT
+	}
+
+	bgt_temur_buqa_borjigin = {
+		first_name = { name = name_temur.name_buqa  }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1316.1.1 #Unknown
+		birth = balj
+		father = bgt_alguncha_borjigin
+		tag = BGT
+	}
+
+	#Hachiun
+	hcn_eljigidey_borjigin = {
+		first_name = { name = name_eljigidey }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1186.1.1 
+		birth = qingzhou_mongol
+		death_date = 1252.1.1 #Unknown
+		father = hachiun_borjigin
+		tag = HCN
+	}
+
+	hcn_chahur_borjigin = {
+		first_name = { name = name_chahur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1216.1.1 
+		birth = qingzhou_mongol
+		death_date = 1283.1.1 #Unknown, but in this year Shengnahar was Khan
+		father = hcn_eljigidey_borjigin
+		tag = HCN
+	}
+
+	hcn_khulahur_borjigin = {
+		first_name = { name = name_khulahur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1250.1.1 
+		birth = qingzhou_mongol
+		death_date = 1299.1.1 #Unknown
+		father = hcn_chahur_borjigin
+		tag = HCN
+	}
+
+	hcn_munanzi_borjigin = {
+		first_name = { name = name_munanzi }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1280.1.1 
+		birth = qingzhou_mongol
+		father = hcn_khulahur_borjigin
+		tag = HCN
+	}
+	
+	hcn_munanzi_son_borjigin = { #"Shuo Sijian/搠思监" in Chinese
+		first_name = "random"
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1310.1.1 
+		birth = qingzhou_mongol
+		father = hcn_munanzi_borjigin
+		tag = HCN
+	}
+
+	#Qasar
+	qas_yesunge_borjigin = { 
+		first_name = { name = Yesunge }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1200.1.1 #Unknown
+		birth = boorj
+		death_date = 1275.1.1 #Unknown
+		father = qasar_borjigin
+		tag = QAS
+	}
+
+	qas_esen_emugen_borjigin = { 
+		first_name = { name = name_esen.name_emugen }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1223.1.1 #Unknown
+		birth = boorj
+		death_date = 1275.1.1 #Unknown
+		father = qas_yesunge_borjigin
+		tag = QAS
+	}
+
+	qas_shigdur_borjigin = { 
+		first_name = { name = name_shigdur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1245.1.1 #Unknown
+		birth = boorj
+		death_date = 1307.1.1 #Unknown
+		father = qas_esen_emugen_borjigin
+		tag = QAS
+	}
+
+	qas_qongur_borjigin = { 
+		first_name = { name = name_qongur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1270.1.1 #Unknown
+		birth = boorj
+		death_date = 1325.1.1 #Unknown
+		father = qas_shigdur_borjigin
+		tag = QAS
+	}
+
+	qas_orug_temur_borjigin = { #Also known as Yuelu Temur
+		first_name = { name = name_orug.name_temur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1289.1.1 #Unknown
+		birth = boorj
+		death_date = 1329.2.5
+		father = qas_qongur_borjigin
+		tag = QAS
+	}
+
+	qas_shiliemen_borjigin = {
+		first_name = { name = name_shilieman }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1313.1.1 #Unknown
+		birth = boorj
+		father = qas_orug_temur_borjigin
+		tag = QAS
+	}
+
+	#Otchigin
+	otc_jibugen_borjigin = {
+		first_name = { name = name_jibugen }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1190.1.1 
+		birth = taizhou_jurchen
+		death_date = 1225.1.1 
+		father = temuge_borjigin
+		tag = OTC
+	}
+
+	otc_taghachar_borjigin = {
+		first_name = { name = name_taghachar }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1210.1.1 
+		birth = taizhou_jurchen
+		death_date = 1246.1.1
+		father = otc_jibugen_borjigin
+		tag = OTC
+	}
+
+	otc_ajul_borjigin = {
+		first_name = { name = name_ajul }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1230.1.1 
+		birth = taizhou_jurchen
+		death_date = 1263.1.1 #Unknown
+		father = otc_taghachar_borjigin
+		tag = OTC
+	}
+
+	otc_nayan_borjigin = {
+		first_name = { name = name_nayan }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = nestorianism
+		birth_date = 1257.1.1
+		birth = taizhou_jurchen
+		death_date = 1287.7.1
+		father = otc_ajul_borjigin
+		tag = OTC
+	}
+
+	otc_toqto_borjigin = {
+		first_name = { name = name_toqta }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = nestorianism
+		birth_date = 1280.1.1 
+		birth = taizhou_jurchen
+		death_date = 1328.11.14
+		father = otc_nayan_borjigin
+		tag = OTC
+	}
+
+	otc_yanashiri_borjigin = {
+		first_name = { name = name_yanashiri }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1310.1.1
+		birth = taizhou_jurchen
+		father = otc_toqto_borjigin
+		tag = OTC
+	}
+
+	otc_ajashiri_borjigin = {
+		first_name = { name = name_ajashiri }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1337.1.1 #Unknown
+		birth = taizhou_jurchen
+		father = otc_yanashiri_borjigin
+		tag = OTC
+	}
+
 	#Mong Mao
 	#Ruler
 	mma_hkan_hpa = {
@@ -70055,6 +70353,41 @@ adm = 31 dip = 34 mil = 24
 	#-------------------------- Anatolia and Crescent ----------------------------
 		
 	#Alaiye - ALY
+	
+	#Ruler
+	aly_yusuf = {
+		first_name = { name = name_joseph }
+		dynasty = karamanids_dynasty
+		birth = alaiye
+		birth_date = 1262.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = kar_karaman_bey
+		tag = ALY
+	}
+	
+	#Heir
+	aly_alaeddin = {
+		first_name = { name = Alaeddin }
+		father = aly_yusuf
+		dynasty = karamanids_dynasty
+		birth = alaiye
+		birth_date = 1296.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = ALY
+	}
+	
+	aly_husameedin_mahmud = {
+		first_name = { name = name_muhammad }
+		father = aly_alaeddin
+		dynasty = karamanids_dynasty
+		birth = alaiye
+		birth_date = 1328.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = ALY
+	}
 
 	#Artuqids - ATQ
 	
@@ -70109,7 +70442,43 @@ adm = 31 dip = 34 mil = 24
 	
 	#Aydinids - AYD
 	
+	#Father of the Ruler
+	ayd_muhammad = {
+		first_name = { name = name_muhammad }
+		dynasty = aydinids_dynasty
+		birth = smyrna
+		birth_date = 1270.1.1
+		death_date = 1334.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = AYD
+	}
 
+	#Ruler
+	ayd_umur = { #https://en.wikipedia.org/wiki/Umur
+		first_name = { name = Umur }
+		nickname = { name = Ghazi }
+		father = ayd_muhammad
+		dynasty = aydinids_dynasty
+		birth = smyrna
+		birth_date = 1309.1.1
+		culture = turkish_culture
+		religion = sunni
+		ruler_trait = bold_fighter
+		tag = AYD
+	}
+
+	#Heir
+	ayd_khidr = {
+		first_name = { name = Khidr }
+		father = ayd_umur
+		dynasty = aydinids_dynasty
+		birth = smyrna
+		birth_date = 1330.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = AYD
+	}
 
 	# HOUSE HETHUMID (Kings of Cilicia)
 
@@ -70546,6 +70915,54 @@ adm = 31 dip = 34 mil = 24
 	
 	#Candarids - CND
 	
+	#Father of the Ruler
+	cnd_yaman = { #https://en.wikipedia.org/wiki/Yaman_Candar
+		first_name = { name = Yaman }
+		dynasty = candarids_dynasty
+		birth = kastamonu
+		birth_date = 1230.1.1
+		death_date = 1309.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = CND
+	}
+
+	#Ruler
+	cnd_suleyman = {
+		first_name = { name = name_salomon }
+		father = cnd_yaman
+		dynasty = candarids_dynasty
+		birth = kastamonu
+		birth_date = 1261.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = CND
+	}
+	
+	#Son of the Ruler
+	cnd_ibrahim = {
+		first_name = { name = name_abraham }
+		father = cnd_suleyman
+		dynasty = candarids_dynasty
+		birth = kastamonu
+		birth_date = 1289.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = CND
+	}
+
+	#Son of the Ruler
+	cnd_ali = {
+		first_name = { name = name_ali }
+		father = cnd_suleyman
+		dynasty = candarids_dynasty
+		birth = kastamonu
+		birth_date = 1292.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = CND
+	}
+	
 	#Dilmaçids - DIL
 	
 	#GranGrandfather of the Ruler ?
@@ -70717,10 +71134,170 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Germiyanids - GRM
+	
+	#Ruler
+	grm_yakub_i = { #https://en.wikipedia.org/wiki/Yakub_I_of_Germiyan
+		first_name = { name = Yakub }
+		dynasty = germiyanids_dynasty
+		birth = konya
+		birth_date = 1258.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = GRM
+	}
+	
+	#Unknown Daughter of the Ruler
+	grm_first_daughter = {
+		first_name = "random"
+		father = grm_yakub_i
+		dynasty = germiyanids_dynasty
+		birth = kutahya
+		birth_date = 1285.1.1
+		culture = turkish_culture
+		religion = sunni
+		female = yes
+		tag = GRM
+	}
+	
+	#Unknown Daughter of the Ruler
+	grm_second_daughter = {
+		first_name = { name = name_leyla }
+		father = grm_yakub_i
+		dynasty = germiyanids_dynasty
+		birth = kutahya
+		birth_date = 1290.1.1
+		culture = turkish_culture
+		religion = sunni
+		female = yes
+		tag = GRM
+	}
+
+	#Heir
+	grm_mehmed = { #https://en.wikipedia.org/wiki/Mehmed_of_Germiyan
+		first_name = { name = name_muhammad }
+		nickname = { name = Cahsadan }
+		father = grm_yakub_i
+		dynasty = germiyanids_dynasty
+		birth = kutahya
+		birth_date = 1301.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = GRM
+	}
+	
+	#Son of the Ruler
+	grm_musa = { #https://en.wikipedia.org/wiki/Mehmed_of_Germiyan
+		first_name = { name = name_moses }
+		nickname = { name = Cahsadan }
+		father = grm_yakub_i
+		dynasty = germiyanids_dynasty
+		birth = kutahya
+		birth_date = 1303.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = GRM
+	}
+	
+	#Grandson of the Ruler
+	grm_suleyman = { #https://en.wikipedia.org/wiki/Suleiman_of_Germiyan
+		first_name = { name = name_salomon }
+		nickname = { name = Sah_Celebi }
+		father = grm_mehmed
+		dynasty = germiyanids_dynasty
+		birth = kutahya
+		birth_date = 1331.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = GRM
+	}
 
 	#Hamidids - HMD
 	
+	#GrandGrandGrandGrandfather of the Ruler
+	ham_hamid = {
+		first_name = { name = Hamid }
+		dynasty = hamidids_dynasty
+		birth = uluborlu
+		birth_date = 1210.1.1
+		death_date = 1302.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HMD
+	}
+	
+	#GrandGrandGrandfather of the Ruler
+	ham_ilyas = {
+		first_name = { name = name_elias }
+		father = ham_hamid
+		dynasty = hamidids_dynasty
+		birth = uluborlu
+		birth_date = 1235.1.1
+		death_date = 1307.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HMD
+	}
+
+	#Father of the Ruler
+	ham_dundar = { #https://en.wikipedia.org/wiki/Felek_al-Din_D%C3%BCndar
+		first_name = { name = Dundar }
+		father = ham_ilyas
+		dynasty = hamidids_dynasty
+		birth = uluborlu
+		birth_date = 1260.1.1
+		death_date = 1324.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HMD
+	}
+
+	#Ruler
+	ham_kizhir = {
+		first_name = { name = Kizhir }
+		father = ham_dundar
+		dynasty = hamidids_dynasty
+		birth = uluborlu
+		birth_date = 1307.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HMD
+	}
+	
+	#Heir
+	ham_ibrahim = {
+		first_name = { name = name_abraham }
+		father = ham_kizhir
+		dynasty = hamidids_dynasty
+		birth = uluborlu
+		birth_date = 1334.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HMD
+	}
+	
 	#Haciemirids - HCI
+	
+	#Ruler
+	hci_bayram = {
+		first_name = { name = Bayram }
+		dynasty = haciemirids_dynasty
+		birth = bayramlu
+		birth_date = 1285.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HCI
+	}
+	
+	hci_haji = {
+		first_name = { name = Haji }
+		father = hci_bayram
+		dynasty = haciemirids_dynasty
+		birth = bayramlu
+		birth_date = 1312.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = HCI
+	}
 	
 	#Ayyubids - HSN
 	
@@ -70907,14 +71484,394 @@ adm = 31 dip = 34 mil = 24
 	}
 	
 	#Karasids - KRD
+	
+	#Father of the Ruler
+	krd_karesi = {
+		first_name = { name = Karesi }
+		dynasty = karasids_dynasty
+		birth = konya
+		birth_date = 1252.1.1
+		death_date = 1328.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = KRD
+	}
+		
+	#Unlce of the Ruler
+	krd_demir = {
+		first_name = { name = Demir }
+		father = krd_karesi
+		dynasty = karasids_dynasty
+		birth = balikesir
+		birth_date = 1282.1.1
+		death_date = 1332.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = KRD
+	}
+	
+	#Ruler
+	krd_yakhshi = {
+		first_name = { name = Yakhshi }
+		father = krd_karesi
+		dynasty = karasids_dynasty
+		birth = balikesir
+		birth_date = 1288.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = KRD
+	}
+	
+	#Heir
+	krd_ajlan = {
+		first_name = { name = Ajlan }
+		father = krd_yakhshi
+		dynasty = karasids_dynasty
+		birth = balikesir
+		birth_date = 1315.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = KRD
+	}
 		
 	#Tavas - TVS
+	
+	#Ruler
+	tvs_ilyas_bey = {
+		first_name = { name = name_elias }
+		dynasty = mentese_dynasty #Unknown
+		birth = tavas
+		birth_date = 1300.1.1 #unknown
+		culture = turkish_culture
+		religion = sunni
+		father = men_mesut #Unknown but there seems to be some connection
+		tag = TVS
+	}
 
 	#Mentese - MEN
 	
+	#Grandfather of the Ruler
+	men_mentese = {
+		first_name = { name = Mentese }
+		dynasty = mentese_dynasty
+		birth = milas
+		birth_date = 1225.1.1
+		death_date = 1282.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = MEN
+	}
+	
+	#Father of the Ruler
+	men_mesut = { #https://en.wikipedia.org/wiki/Mesut_of_Menteshe
+		first_name = { name = Mesut }
+		dynasty = mentese_dynasty
+		birth = milas
+		birth_date = 1258.1.1
+		death_date = 1319.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = men_mentese
+		tag = MEN
+	}
+
+	#Ruler
+	men_orkhan = {
+		first_name = { name = Orkhan }
+		dynasty = mentese_dynasty
+		birth = milas
+		birth_date = 1286.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = men_mesut
+		tag = MEN
+	}
+
+	#Heir
+	men_ibrahim = {
+		first_name = { name = name_abraham }
+		father = men_orkhan
+		dynasty = mentese_dynasty
+		birth = milas
+		birth_date = 1310.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = MEN
+	}
+		
+	#Grandson of the Ruler
+	men_musa = {
+		first_name = { name = name_moses }
+		father = men_ibrahim
+		dynasty = mentese_dynasty
+		birth = balikesir
+		birth_date = 1333.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = MEN
+	}
+	
+	#Grandson of the Ruler
+	men_mehmed = {
+		first_name = { name = name_muhammad }
+		father = men_ibrahim
+		dynasty = mentese_dynasty
+		birth = balikesir
+		birth_date = 1335.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = MEN
+	}
+	
+	#Grandson of the Ruler
+	men_ahmed = {
+		first_name = { name = name_ahmad }
+		father = men_ibrahim
+		dynasty = mentese_dynasty
+		birth = balikesir
+		birth_date = 1337.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = MEN
+	}
+
 	#Sahipataids - SHP
+	shp_sahib_ata = {
+		first_name = { name = name_ali }
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1214.1.1
+		death_date = 1288.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+
+	#Granduncle of the Ruler
+	shp_hussein = {
+		first_name = { name = Hussein }
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1236.1.1
+		death_date = 1272.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = shp_sahib_ata
+		tag = SHP
+	}
+
+	#Grandfather of the Ruler
+	shp_hassan = {
+		first_name = { name = name_hasan }
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1234.1.1
+		death_date = 1277.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = shp_sahib_ata
+		tag = SHP
+	}
+
+	#Father of the Ruler
+	shp_mehmed = {
+		first_name = { name = name_muhammad }
+		father = shp_hassan
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1254.1.1
+		death_date = 1287.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+
+	#Ruler
+	shp_nusreddin_ahmed = {
+		first_name = { name = Nusreddin }
+		last_name = { name = name_ahmad }
+		father = shp_mehmed
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1272.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+
+	#Brother of the Ruler
+	shp_muzaferuddin = {
+		first_name = { name = Muzaeruddin }
+		father = shp_mehmed
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1278.1.1
+		death_date = 1333.10.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+	
+	#Nephew of the Ruler
+	shp_isa = {
+		first_name = { name = name_jesus }
+		father = shp_muzaferuddin
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1300.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+	
+	#Nephew of the Ruler
+	shp_ali = {
+		first_name = { name = name_ali }
+		father = shp_muzaferuddin
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1302.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+	
+	#Nephew of the Ruler
+	shp_hamza = {
+		first_name = { name = Hamza }
+		father = shp_muzaferuddin
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1305.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+	
+	#Nephew of the Ruler
+	shp_hasan = {
+		first_name = { name = name_hasan }
+		father = shp_muzaferuddin
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1308.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
+	
+	#Nephew of the Ruler
+	shp_Mahmoud = {
+		first_name = { name = name_mahmud }
+		father = shp_muzaferuddin
+		dynasty = sahipataids_dynasty
+		birth = karahisar_i_sahib
+		birth_date = 1310.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SHP
+	}
 		
 	#Saruhanids - SRU
+	
+	#Ruler
+	sru_saruhan = {
+		first_name = { name = Saruhan }
+		dynasty = saruhanids_dynasty
+		birth = konya
+		birth_date = 1273.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+
+	sru_suleyman = {
+		first_name = { name = name_salomon }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1304.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_ilyas = {
+		first_name = { name = name_elias }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1306.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_orhan = {
+		first_name = { name = name_orhan }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1309.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_devlet_khan = {
+		first_name = { name = Devlet_Khan }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1313.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_timurshah = {
+		first_name = { name = Timurshah }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1315.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_idris = {
+		first_name = { name = name_idris }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1318.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_atmaz_khan = {
+		first_name = { name = Atmaz_Khan }
+		father = sru_saruhan
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1320.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
+	
+	sru_iskhak = {
+		first_name = { name = Iskhak }
+		father = sru_ilyas
+		dynasty = saruhanids_dynasty
+		birth = manisa
+		birth_date = 1331.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = SRU
+	}
 		
 	#Sutayids - SUT
 	
@@ -70953,8 +71910,69 @@ adm = 31 dip = 34 mil = 24
 	}
 			
 	#Tadjeddinids - TDJ
+	
+	#Ruler
+	tdj_tajeddin = {
+		first_name = { name = Tajeddin }
+		dynasty = tadjeddinids_dynasty
+		birth = niksar
+		birth_date = 1316.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = ERE
+	}
 		
 	#Teke - TEK
+		
+	#GrandGrandfather of the Ruler
+	tek_yunus = {
+		first_name = { name = Yunus }
+		father = ham_ilyas
+		dynasty = hamidids_dynasty
+		birth = antalya
+		birth_date = 1250.1.1
+		death_date = 1324.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = TEK
+	}
+	
+	#Grandfather of the Ruler
+	tek_muhammad = {
+		first_name = { name = name_muhammad }
+		dynasty = hamidids_dynasty
+		birth = antalya
+		birth_date = 1270.1.1
+		death_date = 1328.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = tek_yunus
+		tag = TEK
+	}
+
+	#Ruler
+	tek_sinanuddin_hizir = {
+		first_name = { name = Sinanuddin }
+		nickname = { name = nick_hizir }
+		dynasty = hamidids_dynasty
+		birth = antalya
+		birth_date = 1288.1.1
+		culture = turkish_culture
+		religion = sunni
+		father = tek_yunus
+		tag = TEK
+	}
+
+	tek_dadi = {
+		first_name = { name = Dadi }
+		father = tek_sinanuddin_hizir
+		dynasty = hamidids_dynasty
+		birth = antalya
+		birth_date = 1314.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = TEK
+	}
 	
 	#Trebizond - TRE
 
@@ -82380,7 +83398,7 @@ adm = 31 dip = 34 mil = 24
 		culture = rhine_franconian
 		religion = catholic
 		estate = nobles_estate
-		adm = 30 dip = 37 mil = 31
+		adm = 46 dip = 57 mil = 31
 		birth_date = 1306.8.4
 		birth = tolz	#Wolfratshausen
 		father = ubv_rudolf_i_wittelsbach
@@ -82497,7 +83515,7 @@ adm = 31 dip = 34 mil = 24
 		mother = ubv_mathilde_von_habsburg
 		dynasty = wittelsbach_dynasty
 		tag = UBV
-		ruler_trait = rightful
+		ruler_trait = righteous
 		ruler_trait = zealot
 		timed_modifier = {
 			modifier = "healthy_character"
@@ -91401,6 +92419,114 @@ adm = 31 dip = 34 mil = 24
 		tag = CHG
 	}
 	
+	#Ögedei Horde
+	oge_melig_borjigin = {
+		first_name = { name = name_melig }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1224.1.1 #Unknown
+		birth = khan_khentii
+		death_date = 1270.1.1 #Unknown
+		father = chg_ogedei_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_tuhu_borjigin = {
+		first_name = { name = name_tuhu }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1247.1.1 #Unknown
+		birth = kurchum
+		death_date = 1282.1.1 #Unknown
+		father = oge_melig_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_abdullah_borjigin = {
+		first_name = { name = name_abdullah }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1249.1.1 #Unknown
+		birth = kurchum
+		death_date = 1308.1.1 #Unknown
+		father = oge_melig_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_ayachi_borjigin = {
+		first_name = { name = name_ayachi }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1272.1.1 #Unknown
+		birth = kurchum
+		death_date = 1323.1.1 
+		father = oge_abdullah_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_taiping_borjigin = {
+		first_name = { name = taiping }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1297.1.1 #Unknown
+		birth = kurchum
+		death_date = 1333.1.1 
+		father = oge_ayachi_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_tumen_borjigin = {
+		first_name = { name = Tumen }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1253.1.1 #Unknown
+		birth = kurchum
+		death_date = 1324.1.1 #Unknown
+		father = oge_melig_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_khuchun_borjigin = {
+		first_name = { name = name_khuchun }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1278.1.1 #Unknown
+		birth = kurchum
+		death_date = 1330.1.1 #Unknown
+		father = oge_tumen_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_temurchi_borjigin = {
+		first_name = { name = name_temurchi }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1303.1.1 #Unknown
+		birth = kurchum
+		father = oge_khuchun_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+	oge_arug_temur_borjigin = {
+		first_name = { name = name_arug }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1328.1.1 #Unknown
+		birth = kurchum
+		father = oge_temurchi_borjigin
+		dynasty = borjigin_dynasty
+		tag = OGE
+	}
+
+
 	#Qocho
 	qch_uruktemur = {#Ruler
 		first_name = { name = Uruktemur }
@@ -91651,8 +92777,30 @@ adm = 31 dip = 34 mil = 24
 		adm = 53 dip = 49 mil = 61
 		birth_date = 1270.1.1 #Unknown
 		birth = thang_long
-		father = dai_hoang #A union to the Tran was needed.
-		dynasty = tran_dynasty
+		dynasty = vijaya_dynasty
+		tag = CHA
+	}
+
+	cha_jamo = { #heir
+		first_name = { name = Jamo }
+		culture = vietnamese_culture
+		religion = hindu
+		birth_date = 1300.1.1 #Unknown
+		birth = vijaya
+		father = cha_jaya_ananda
+		dynasty = vijaya_dynasty
+		spouse = "random"
+		tag = CHA
+	}
+
+	cha_po_binasuor = {
+		first_name = { name = Po_Binasuor }
+		culture = vietnamese_culture
+		religion = hindu
+		birth_date = 1320.1.1 #Unknown
+		birth = vijaya
+		father = cha_jaya_ananda
+		dynasty = vijaya_dynasty
 		tag = CHA
 	}
 
@@ -92525,7 +93673,7 @@ adm = 31 dip = 34 mil = 24
 		first_name = { name = Muhammad_Shah }
 		culture = malay_culture
 		religion = sunni
-		adm = 77 mil = 61 mil = 43
+		adm = 77 dip = 61 mil = 43
 		birth_date = 1330.1.1 #Unknown
 		birth = kedah
 		father = ked_ibrahim_shah
@@ -93940,6 +95088,76 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Chobanids
+	chb_hasan_kuchak = {	#Ruler
+		first_name = { name = name_hasan }
+		nickname = { name = name_kuchek }
+		culture = mongolian_culture
+		religion = shia
+		adm = 61 dip = 90 mil = 74
+		birth_date = 1319.1.1 #Unknown
+		birth = kayseri
+		father = chb_timurtash
+		dynasty = chobanid_dynasty
+		tag = ERE
+	}
+
+	chb_chupan = { #Founder of the Dynasty
+		first_name = { name = name_chupan }
+		culture = mongolian_culture
+		religion = shia
+		birth_date = 1262.1.1 #Unknown
+		birth = diyarbekir
+		death_date = 1327.10.1
+		dynasty = chobanid_dynasty
+		spouse = chb_sati_beg
+		tag = ERE
+	}
+
+	chb_timurtash = { #Father of the ruler
+		first_name = { name = name_temur.name_tash }
+		culture = mongolian_culture
+		religion = shia
+		birth_date = 1298.1.1 #Unknown
+		birth = soltaniyeh
+		father = chb_chupan
+		death_date = 1328.8.12
+		dynasty = chobanid_dynasty
+		tag = ERE
+	}
+
+	chb_malek_ashraf = {
+		first_name = { name = name_malik.name_ashraf }
+		culture = mongolian_culture
+		religion = shia
+		birth_date = 1320.1.1 #Unknown
+		birth = kayseri
+		father = chb_timurtash
+		dynasty = chobanid_dynasty
+		tag = ERE
+	}
+
+	chb_demasq_kaja = {
+		first_name = { name = name_damascus.name_xwaja }
+		culture = mongolian_culture
+		religion = shia
+		birth_date = 1299.1.1 #Unknown
+		birth = soltaniyeh
+		father = chb_chupan
+		death_date = 1327.8.25
+		dynasty = chobanid_dynasty
+		tag = ERE
+	}
+
+	chb_suleiman_khan = {
+		first_name = { name = name_salomon }
+		culture = mongolian_culture
+		religion = sunni
+		birth_date = 1300.1.1 #Unknown
+		birth = soltaniyeh
+		father = yusufshah_borjigin
+		dynasty = borjigin_dynasty
+		tag = ERE
+	}
 
 	#Muzaffarids
 	mzf_mubariz_al_din_muhammad = { #Ruler
@@ -95883,6 +97101,30 @@ adm = 31 dip = 34 mil = 24
 		tag = MGE
 	}
 
+	hachiun_borjigin = {
+		first_name = { name = name_hachiun }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1166.1.1 
+		birth = khan_khentii
+		death_date = 1208.1.1 #Unknown
+		father = yesugei_borjigin
+		tag = MGE
+	}
+
+	temuge_borjigin = {
+		first_name = { name = name_temuge }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tengri
+		birth_date = 1168.1.1
+		birth = khan_khentii
+		death_date = 1246.1.1 
+		father = yesugei_borjigin
+		tag = MGE
+	}
+
 	kaybad_borjigin = {
 		first_name = { name = Kaybad }
 		dynasty = borjigin_dynasty
@@ -95944,7 +97186,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	baba_borjigin = {
-		first_name = { name = Baba }
+		first_name = { name = Baba.name_bahadur }
 		dynasty = borjigin_dynasty
 		culture = mongolian_culture
 		religion = tengri
@@ -96467,7 +97709,6 @@ adm = 31 dip = 34 mil = 24
 		religion = sunni
 		birth_date = 1270.1.1 #Unknown
 		birth = thiladhunmathi_atoll
-		dynasty = theemuge_dynasty
 		tag = DGL
 	}
 	
@@ -96479,7 +97720,6 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1305.1.1 #Unknown
 		father = dgl_omar
 		birth = thiladhunmathi_atoll
-		dynasty = theemuge_dynasty
 		tag = DGL
 	}
 
@@ -96492,7 +97732,6 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1300.1.1 #Unknown
 		father = dgl_omar
 		birth = thiladhunmathi_atoll
-		dynasty = theemuge_dynasty
 		tag = DGL
 	}
 
@@ -96505,7 +97744,6 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1315.1.1 #Unknown
 		father = dgl_omar
 		birth = thiladhunmathi_atoll
-		dynasty = theemuge_dynasty
 		tag = DGL
 	}
 	
@@ -98915,5 +100153,4 @@ adm = 31 dip = 34 mil = 24
 		dynasty = kaimana_dynasty
 		tag = KAM
 	}
-
 }
