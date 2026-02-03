@@ -1,6 +1,9 @@
 
 # 0.12
 
+## 1.1 additions
+- Added new 1.1 starting history content into our map
+
 ## Balance
 ### East HRE
 - Various decentralized duchy hiarchies established
@@ -36,6 +39,10 @@ Building, country, diplomacy and opinion changes
 - Added tribesmen to the Baltic region
 - balanced the Constantinople buildings down a tad.
 - more pirates
+- adjusted various Caucasia and Balkan countries starting reforms and privileges
+- akritai_privilege switched peasant estate privilege instead of noble estate
+- Gave fishing boats one cannon up from zero.
+- Switched Kerman to Zoroastrian so there is a playable Zoroastrian tag.
 
 ### New Advances
 - Ecumenical Patriarchate: "The Ecumenical Patriarch stands as the foremost bishop of the Roman world, exercising recognized authority through councils, canon law, and custom. From the imperial capital, the Church provides spiritual unity and guidance to the oikouménē, closely entwined with the institutions of the state."
@@ -45,6 +52,7 @@ Building, country, diplomacy and opinion changes
 
 ### Dynasties and characters
 - Put a Premyslid back on the Bohemian Throne
+- Made the Hungarian royal dynasty Arpad arpad_dynasty
 - Split Bagratuni from Bagrationi
 - Fixed Fatamid dynasty
 
