@@ -4287,17 +4287,6 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = feo_demetrios_gabras
 				ruler_term = { character = feo_demetrios_gabras start_date = 1337.1.1 regnal_number = 1 }
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			country_rank = rank_duchy
 			liturgical_language = khoine_dialect
@@ -4308,7 +4297,7 @@ countries = {
 			}
 			
 			include = "expl_western_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 		}
 		
 		GAZ = {	# Gazaria
@@ -9915,7 +9904,7 @@ countries = {
 			include = "expl_indian_trade_route"
 		}
 		
-		ACC = {	#Acciaioli
+	ACC = {	#Acciaioli
 		type = building
 		starting_technology_level = 3
 		include = "catholic_republic_not_present"
@@ -12319,23 +12308,11 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			
 			tolerated_cultures = {
@@ -12346,7 +12323,6 @@ countries = {
 			liturgical_language = khoine_dialect
 			capital = thebes
 		}
-		
 		
 		ACH = { #https://en.wikipedia.org/wiki/Principality_of_Achaea
 			own_control_core = {
@@ -12364,23 +12340,11 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			
 			accepted_cultures = {
@@ -12404,7 +12368,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "catholic_monarchy"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12513,7 +12477,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12540,18 +12504,6 @@ countries = {
 					name_thomas = 1
 					name_nicholas = 1
 					name_john = 1
-				}
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
 				}
 			}
 			
@@ -12583,7 +12535,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12602,18 +12554,6 @@ countries = {
 					name_demetrius = 2
 					name_emmanuel = 1
 					name_john = 1
-				}
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
 				}
 			}
 			
@@ -12641,7 +12581,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -12672,18 +12612,6 @@ countries = {
 					name_theodore = 1
 					name_stephen = 1
 					name_nikephoros = 1
-				}
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
 				}
 				
 			}
@@ -12718,22 +12646,11 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			
 			country_rank = rank_duchy
@@ -32059,23 +31976,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			
 			accepted_cultures = {
@@ -32734,7 +32639,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -32764,17 +32669,6 @@ countries = {
 					name_george = 1
 					name_theodora = 1
 					name_basil = 1
-				}
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
 				}
 			}
 			
@@ -52483,27 +52377,14 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
-				heir_selection = salic_law
+				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				centralization_vs_decentralization = 30
-				traditionalist_vs_innovative = -30
-				spiritualist_vs_humanist = -50
-				aristocracy_vs_plutocracy = -60
-				mercantilism_vs_free_trade = 0
-				
-				reforms = {
-					feudal_nobility
-				}
-				
-				privilege = {
-					formal_guilds
-				}
+
 			}
-			capital = gaeta
+			capital = naples
 			country_rank = rank_duchy
 		}
 
@@ -52524,7 +52405,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -52555,7 +52436,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -52588,7 +52469,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -52844,7 +52725,7 @@ countries = {
 		BNK = {	#Bankaropoulos
 			type = building
 			starting_technology_level = 3
-			#include = "catholic_republic_not_present"
+			include = "catholic_republic_not_present"
 			
 			capital = constantinople
 			government = {
@@ -52890,7 +52771,7 @@ countries = {
 		MKB = {	#Makrembolitēs
 			type = building
 			starting_technology_level = 3
-			#include = "catholic_republic_not_present"
+			include = "catholic_republic_not_present"
 			
 			capital = constantinople
 			government = {
@@ -52936,7 +52817,7 @@ countries = {
 		CHY = {	#Chrysotrapeziōtai
 			type = building
 			starting_technology_level = 3
-			#include = "catholic_republic_not_present"
+			include = "catholic_republic_not_present"
 			
 			capital = constantinople
 			government = {
@@ -52994,36 +52875,11 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -25
-				capital_economy_vs_traditional_economy = 25
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			tolerated_cultures = {
@@ -53081,9 +52937,6 @@ countries = {
 				ohrid bitola prilep florina kicevo tetovo
 				prosek shtip kocani strumica skopje kumanovo veles kratovo
 				vranje velbuzd
-			}
-			our_cores_conquered_by_others = {
-				debar
 			}
 			
 			starting_technology_level = 3
@@ -53169,23 +53022,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			country_rank = rank_county
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53207,23 +53048,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53246,23 +53075,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53288,25 +53105,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			country_rank = rank_duchy
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-
-				#ruler = ser_yoan_komnin_asen
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53653,7 +53456,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -53667,13 +53470,7 @@ countries = {
 			currency_data = {
 				gold = 850
 			}
-			
-			timed_modifier = {
-				modifier = "nap_struggle_for_independence"
-				start_date = 1333.1.1
-				date = 1340.1.1
-				size = 1
-			}
+
 			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
 			capital = antioch
@@ -54235,7 +54032,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "br_thema_template" #create naval one
+			include = "br_naval_theme_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -54245,37 +54042,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					br_naval_akritai_reform
-					theme_system
-				}
-				privilege = {
-					#nobles
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				centralization_vs_decentralization = -50
-				traditionalist_vs_innovative = -50
-				spiritualist_vs_humanist = -50
-				aristocracy_vs_plutocracy = -50
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -70
-				belligerent_vs_conciliatory = -75
-				quality_vs_quantity = -25
-				offensive_vs_defensive = -50
-				land_vs_naval = 100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = -10
-				outward_vs_inward = -75
-
 			}
 			currency_data = {
 				gold = 850
@@ -54384,7 +54150,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_naval_theme_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -54394,31 +54160,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					br_naval_akritai_reform
-					theme_system
-				}
-				privilege = {
-					#nobles
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = 100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_county
@@ -54997,19 +54738,13 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 
 			country_rank = rank_kingdom
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-
 			}
 			accepted_cultures = {
 				coptic_culture
@@ -55043,19 +54778,13 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 
 			country_rank = rank_kingdom
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-
 			}
 			
 			capital = tunis
@@ -55076,7 +54805,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			country_rank = rank_kingdom
 			government = {
 				type = monarchy
@@ -55186,7 +54915,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "expl_horn_of_africa_ethiopia"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture

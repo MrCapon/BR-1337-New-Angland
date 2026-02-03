@@ -23,6 +23,7 @@ government = {
 	reforms = {
 		autocracy
 		theme_system
+		agricultural_cultivation
 	}
 	
 	privilege = {
@@ -32,6 +33,7 @@ government = {
 		nobles_land_rights
 		noble_marriage_rights
 		primacy_of_nobility
+		noble_serfdom_rights
 
 		#clergy
 		clergy_literacy_rights
