@@ -58,3 +58,46 @@ INJECT:medieval_levy_law = {
 		years = 2
 	}
 }
+
+INJECT:legal_code_law = { #Version for ERE administative divisions. 
+	br_byzantine_law = {
+		potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+			NOT = { has_or_had_tag = BYZ }
+		}
+		allow = {
+			has_embraced_institution = institution:legalism
+		}
+		country_modifier = {
+			government_reform_slots = 1
+			clergy_estate_target_satisfaction = small_permanent_target_satisfaction
+			monthly_towards_centralization = societal_value_monthly_move
+			global_distance_from_capital_cost_modifier = -0.05
+		}
+		estate_preferences = {
+			crown_estate
+			clergy_estate
+		}
+		years = 2
+	}
+	REPLACE_OR_CREATE:byzantine_law = {
+		potential = {
+			culture = culture:greek_culture
+			religion = religion:orthodox
+		}
+		allow = {
+			has_embraced_institution = institution:legalism
+		}
+		country_modifier = {
+			government_reform_slots = 1
+			clergy_estate_target_satisfaction = small_permanent_target_satisfaction
+			monthly_towards_centralization = societal_value_monthly_move
+			#court_spending_cost  = 0.025
+		}
+		estate_preferences = {
+			clergy_estate
+		}
+		years = 2
+	}
+
+}

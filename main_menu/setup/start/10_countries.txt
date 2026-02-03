@@ -52500,7 +52500,7 @@ countries = {
 			}
 			
 			starting_technology_level = 3
-			include = "expl_eastern_europe"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -52511,35 +52511,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					akritai_privilege
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -25
-				serfdom_vs_free_subjects = 25
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = 50
-				quality_vs_quantity = -45
-				offensive_vs_defensive = 100
-				land_vs_naval = -50
-				capital_economy_vs_traditional_economy = 25
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			accepted_cultures = {
@@ -52561,11 +52532,7 @@ countries = {
 			capital = antioch
 		}
 
-		SY0 = {
-			own_control_core = {
-
-			}
-			
+		SY0 = { #br releasable
 			our_cores_conquered_by_others = {
 				jerusalem acre beersheba gaza hebron majdal nablus safed jaffa
 			}
@@ -52577,40 +52544,11 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					akritai_privilege
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -25
-				serfdom_vs_free_subjects = 25
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = 50
-				quality_vs_quantity = -45
-				offensive_vs_defensive = 100
-				land_vs_naval = -50
-				capital_economy_vs_traditional_economy = 25
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			accepted_cultures = {
@@ -52638,40 +52576,11 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					akritai_privilege
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -25
-				serfdom_vs_free_subjects = 25
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = 50
-				quality_vs_quantity = -45
-				offensive_vs_defensive = 100
-				land_vs_naval = -50
-				capital_economy_vs_traditional_economy = 25
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			accepted_cultures = {
@@ -52918,7 +52827,7 @@ countries = {
 
 		}
 		
-		ANA = {
+		ANA = { #br releasable
 			our_cores_conquered_by_others = {
 				#KAR
 				aksaray kochisar insuyu
@@ -52977,7 +52886,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -52987,22 +52896,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					akritai_privilege
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
 			}
 			
 			country_rank = rank_kingdom
@@ -53032,13 +52925,9 @@ countries = {
 			own_control_integrated = {
 				aksaray kochisar sariyahsi eregli_kar
 			}
-			
-			our_cores_conquered_by_others = {
-			}
-			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53048,36 +52937,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					akritai_privilege
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = 15
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_duchy
@@ -53098,11 +52957,6 @@ countries = {
 				beypazari kizilca
 				ankara cubuk haymana kalecik polatli karakecili
 			}
-			
-			own_control_integrated = {
-				
-			}
-			
 			our_cores_conquered_by_others = {
 				kibrus mihaliccik sivrihisar bozan kaymaz
 				bolu gerede mengen
@@ -53110,7 +52964,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53120,35 +52974,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = 15
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_duchy
@@ -53172,7 +52997,6 @@ countries = {
 				hargan
 			}
 			
-			
 			our_cores_conquered_by_others = {
 				comana_cil
 				elbistan goksun afsin
@@ -53183,7 +53007,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53193,37 +53017,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -95
-				serfdom_vs_free_subjects = 25
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
-
 			}
 			
 			country_rank = rank_duchy
@@ -53254,7 +53047,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53264,37 +53057,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -25
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
-
 			}
 			
 			country_rank = rank_duchy
@@ -53326,7 +53088,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template" #create naval one
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53398,7 +53160,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53408,30 +53170,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					#burghers
-					#peasants
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_county
@@ -53458,7 +53196,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_pronoia_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53468,26 +53206,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				privilege = {
-					#nobles
-					#burghers
-					#peasants
-					peasants_allowed_weapons_privilege
-				}
-				centralization_vs_decentralization = 35
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = -35
-				mercantilism_vs_free_trade = -75
-				belligerent_vs_conciliatory = -50
-				quality_vs_quantity = -25
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-				outward_vs_inward = 75
 			}
 			
 			country_rank = rank_county
@@ -53579,16 +53297,10 @@ countries = {
 				gerze bafra samsun terme akkus
 				iskilip corum
 			}
-			
-			own_control_integrated = {
-			}
-			
-			our_cores_conquered_by_others = {
-			}
-			
+
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53598,27 +53310,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -100
-				offensive_vs_defensive = 100
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-
 			}
 			
 			country_rank = rank_duchy
@@ -53637,17 +53328,13 @@ countries = {
 				elbistan goksun afsin
 				darende gurun
 			}
-			
-			own_control_integrated = {	
-			}
-			
 			our_cores_conquered_by_others = {
 				hargan enguzud kapan ulnia
 			}
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53657,29 +53344,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					#nobles
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					#joint_assembly_decrees
-					#burghers
-					#peasants
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -100
-				offensive_vs_defensive = 100
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
 			}
 			
 			country_rank = rank_duchy
@@ -53697,17 +53361,13 @@ countries = {
 				sivas dasmenda deliktash gemerek hafik sarkisla divrigi
 				zara
 			}
-	
-			own_control_integrated = {
-			}
-			
 			our_cores_conquered_by_others = {
 				ilic egin
 			}
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53717,27 +53377,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -100
-				offensive_vs_defensive = 100
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-
 			}
 			
 			country_rank = rank_duchy
@@ -53755,10 +53394,7 @@ countries = {
 				sebinkarahisar
 				mesudiye koyulhisar
 			}
-			
-			own_control_integrated = {
-			}
-			
+
 			our_cores_conquered_by_others = {
 				siran ilic tokat
 				niksar
@@ -53767,7 +53403,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53777,27 +53413,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -100
-				offensive_vs_defensive = 100
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-
 			}
 			
 			country_rank = rank_duchy
@@ -53816,16 +53431,10 @@ countries = {
 				bogazliyan kirsehir hacibektas
 				huseyinabad sungurlu
 			}
-			
-			own_control_integrated = {
-			}
-			
-			our_cores_conquered_by_others = {
-			}
-			
+
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53835,27 +53444,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -100
-				offensive_vs_defensive = 100
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-
 			}
 			
 			country_rank = rank_duchy
@@ -53879,7 +53467,7 @@ countries = {
 
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eastern_european_monarchy"
+			include = "br_thema_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -53889,27 +53477,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
-				reforms = {
-					autocracy
-					theme_system
-				}
-				privilege = {
-					akritai_privilege
-					primacy_of_nobility
-					auxilium_et_consilium
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-				}
-
-				traditionalist_vs_innovative = -75
-				spiritualist_vs_humanist = -75
-				aristocracy_vs_plutocracy = -100
-				offensive_vs_defensive = 100
-				land_vs_naval = -100
-				capital_economy_vs_traditional_economy = 75
-				individualism_vs_communalism = 25
-
 			}
 			
 			country_rank = rank_duchy
