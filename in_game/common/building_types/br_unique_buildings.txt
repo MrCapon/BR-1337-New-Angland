@@ -134,6 +134,8 @@ br_great_palace_building = {
 	town = no
 	city = yes
 
+	is_indestructible = yes
+
 	location_potential = {
 		this = location:constantinople
 	}
@@ -176,9 +178,11 @@ br_hagia_sophia_building = {
 
 	employment_size = large_religious_building_employment
 
-	rural_settlement = yes
-	town = yes
+	rural_settlement = no
+	town = no
 	city = yes
+
+	is_indestructible = yes
 
 	expensive = yes
 
@@ -229,8 +233,11 @@ br_senaton_building = {
 	
 	employment_size = insane_noble_employment
 	
-	town = yes
+	rural_settlement = no
+	town = no
 	city = yes
+
+	is_indestructible = yes
 	
 	expensive = yes
 	build_time = large_capital_build_time
@@ -285,8 +292,11 @@ br_constantinople_university = {
 	category = cultural_category
 	employment_size = large_religious_building_employment
 	
-	town = yes
+	rural_settlement = no
+	town = no
 	city = yes
+
+	is_indestructible = yes
 
 	expensive = yes
 
@@ -341,8 +351,11 @@ br_constantinople_shipyard = {
 	
 	allow = { always = no }
 	
-	town = yes
+	rural_settlement = no
+	town = no
 	city = yes
+
+	is_indestructible = yes
 	
 	
 	build_time = large_port_building_time
@@ -384,8 +397,10 @@ br_hippodrome_building = {
 	employment_size = huge_foreign_trade_employment #large_burgher_employment
 	
 	rural_settlement = no
-	town = yes
+	town = no
 	city = yes
+
+	is_indestructible = yes
 
 	
 	location_potential = {
