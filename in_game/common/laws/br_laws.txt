@@ -105,3 +105,23 @@ INJECT:legal_code_law = { #Version for ERE administative divisions.
 	}
 
 }
+
+INJECT:piracy_law = {
+	br_state_piracy_policy = {
+		potential = {
+			has_policy = br_state_piracy_policy
+		}
+		allow = {
+			has_policy = br_state_piracy_policy
+		}
+		country_modifier = {
+			can_hire_privateers = yes
+			privateer_maintenance_cost_modifier = -0.33
+			can_be_target_of_anti_piracy_cb = yes
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+}
