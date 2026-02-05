@@ -1,4 +1,6 @@
 ﻿l_english:
+
+#renamed base cultures
  greek_culture: "Romaíoi"
  cappadocian_greek_culture: "Kappadokikí"
  pontic_greek_culture: "Pontiaká"
@@ -8,3 +10,6 @@
  neapolitan: "Meridionales"
  turkish_culture: "Turkopersai"
  mizrahi: "Musta'Arabi"
+
+#renamed culture groups
+ russian_group: "Rus"
