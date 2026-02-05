@@ -472,7 +472,7 @@ character_db={
 		birth_date = 849.1.1
 		death_date = 899.10.26
 		dynasty = wessex_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edward_the_elder = {
@@ -485,7 +485,7 @@ character_db={
 		death_date = 924.7.17
 		father = eng_alfred_the_great
 		dynasty = wessex_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_athelstan_the_glorious = {
@@ -498,7 +498,7 @@ character_db={
 		death_date = 939.10.27
 		father = eng_edward_the_elder
 		dynasty = wessex_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edmund_the_magnificent = {
@@ -511,7 +511,7 @@ character_db={
 		death_date = 946.5.26
 		dynasty = wessex_dynasty
 		father = eng_edward_the_elder
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_eadred = {
@@ -523,7 +523,7 @@ character_db={
 		death_date = 955.11.23
 		dynasty = wessex_dynasty
 		father = eng_edward_the_elder
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_eadwig = {
@@ -535,7 +535,7 @@ character_db={
 		death_date = 959.10.1
 		dynasty = wessex_dynasty
 		father = eng_edmund_the_magnificent
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edgar_the_peaceful = {
@@ -548,7 +548,7 @@ character_db={
 		death_date = 975.7.8
 		dynasty = wessex_dynasty
 		father = eng_edmund_the_magnificent
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edward_the_martyr = {
@@ -561,7 +561,7 @@ character_db={
 		death_date = 978.3.18
 		dynasty = wessex_dynasty
 		father = eng_edgar_the_peaceful
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_sweyn_forkbeard = {
@@ -574,7 +574,7 @@ character_db={
 		death_date = 1014.2.3
 		dynasty = canute_dynasty
 		father = dan_harald_bluetooth
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_ethelred_the_unready = {
@@ -587,7 +587,7 @@ character_db={
 		death_date = 1016.4.23
 		dynasty = wessex_dynasty
 		father = eng_edgar_the_peaceful
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edmund_ironside = {
@@ -600,7 +600,7 @@ character_db={
 		death_date = 1016.11.30
 		dynasty = wessex_dynasty
 		father = eng_ethelred_the_unready
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_cnut_the_great = {
@@ -613,7 +613,7 @@ character_db={
 		death_date = 1035.11.12
 		dynasty = canute_dynasty
 		father = eng_sweyn_forkbeard
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_harold_harefoot = {
@@ -626,7 +626,7 @@ character_db={
 		death_date = 1040.3.17
 		dynasty = canute_dynasty
 		father = eng_cnut_the_great
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_harthacnute = {
@@ -638,7 +638,7 @@ character_db={
 		death_date = 1042.6.8
 		dynasty = canute_dynasty
 		father = eng_cnut_the_great
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edward_the_confessor = {
@@ -651,7 +651,7 @@ character_db={
 		death_date = 1066.1.5
 		dynasty = wessex_dynasty
 		father = eng_ethelred_the_unready
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_harold_godwinson = {
@@ -662,7 +662,7 @@ character_db={
 		birth_date = 1022.1.1
 		death_date = 1066.10.14
 		dynasty = godwin_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_william_the_conquerer = {
@@ -675,7 +675,7 @@ character_db={
 		death_date = 1087.9.9
 		dynasty = normandy_dynasty
 		ruler_trait = conqueror
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	bls_adele_normandie = {
@@ -707,7 +707,7 @@ character_db={
 		death_date = 1100.8.2
 		dynasty = normandy_dynasty
 		father = eng_william_the_conquerer
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_henry_i = {
@@ -719,7 +719,7 @@ character_db={
 		death_date = 1135.12.1
 		dynasty = normandy_dynasty
 		father = eng_william_ii_rufus
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	anj_geoffroy_v_anjou = {
@@ -749,7 +749,7 @@ character_db={
 		father = anj_geoffroy_v_anjou
 		#mother = Empress Matilda
 		dynasty = plantagenet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_richard_i_lionheart = {
@@ -762,7 +762,7 @@ character_db={
 		death_date = 1199.4.6
 		dynasty = plantagenet_dynasty
 		father = eng_henry_ii_curtmantle
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_john_lackland = {
@@ -775,7 +775,7 @@ character_db={
 		death_date = 1216.10.19
 		dynasty = plantagenet_dynasty
 		father = eng_henry_ii_curtmantle
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_henry_iii = {
@@ -787,7 +787,7 @@ character_db={
 		death_date = 1272.11.16
 		dynasty = plantagenet_dynasty
 		father = eng_john_lackland
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edward_i = { #Grandather of Ruler
@@ -800,7 +800,7 @@ character_db={
 		death_date = 1307.7.7
 		dynasty = plantagenet_dynasty
 		father = eng_henry_iii
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_edmund_crouchback = {
@@ -872,7 +872,7 @@ character_db={
 		birth_date = 1297.1.1
 		birth = lincoln
 		spouse = eng_blanche_lancaster
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_maud_lancaster = {
@@ -938,7 +938,7 @@ character_db={
 		father = eng_john_lackland
 		#mother = Isabelle Taillefer
 		dynasty = plantagenet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# Grandmother of the Count of Bar
@@ -968,7 +968,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_i
 		mother = eng_leonor_burgundy
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_john_de_charlton_1st_baron_charlton = {		
@@ -1188,7 +1188,7 @@ character_db={
 		father = eng_roger_mortimer_1st_earl_of_march
 		birth = ludlow
 		dynasty = mortimer_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_laurence_hastings = {		
@@ -1201,7 +1201,7 @@ character_db={
 		father = eng_roger_mortimer_1st_earl_of_march
 		birth = ludlow
 		dynasty = mortimer_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_roger_mortimer_2nd_earl_of_march = {		
@@ -1227,7 +1227,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_ii
 		mother = eng_isabella_of_france
-		tag = ENG
+		tag = AGL #ENG
 		ruler_trait = "tactical_genius"
 		ruler_trait = "righteous"
 		fertility = 80
@@ -1246,7 +1246,7 @@ character_db={
 		birth = oxford	# Woodstock Palace, Oxfordshire
 		dynasty = plantagenet_dynasty
 		child_trait = child_shrewd
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	dhm_richard_de_bury = {		
@@ -1270,7 +1270,7 @@ character_db={
 		birth_date = 1332.6.16
 		birth = oxford	# Woodstock Palace, Oxfordshire
 		dynasty = plantagenet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_joan_of_england = {		
@@ -1283,7 +1283,7 @@ character_db={
 		birth_date = 1333.12.19
 		birth = london
 		dynasty = plantagenet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_thomas_of_brotherton = {
@@ -1295,7 +1295,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_i
 		mother = eng_marguerite_capet
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_margaret_of_norfolk = {
@@ -1307,7 +1307,7 @@ character_db={
 		birth_date = 1322.1.1
 		dynasty = plantagenet_dynasty
 		father = eng_thomas_of_brotherton
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_edward_of_norfolk = {
@@ -1319,7 +1319,7 @@ character_db={
 		death_date = 1334.8.9
 		dynasty = plantagenet_dynasty
 		father = eng_thomas_of_brotherton
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_alice_of_norfolk = {
@@ -1331,7 +1331,7 @@ character_db={
 		birth_date = 1324.2.12
 		dynasty = plantagenet_dynasty
 		father = eng_thomas_of_brotherton
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_edmund_of_woodstock = {
@@ -1344,7 +1344,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_i
 		mother = eng_marguerite_capet
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_edmund_of_kent = {
@@ -1356,7 +1356,7 @@ character_db={
 		death_date = 1331.10.5
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_margaret_of_kent = {
@@ -1368,7 +1368,7 @@ character_db={
 		birth_date = 1327.1.11
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_joan_of_kent = {
@@ -1380,7 +1380,7 @@ character_db={
 		birth_date = 1328.9.28
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_john_of_kent = {
@@ -1391,7 +1391,7 @@ character_db={
 		birth_date = 1330.4.7
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_joan_of_the_tower = {
@@ -1418,7 +1418,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_ii
 		mother = eng_isabella_of_france
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_john_of_eltham = {
@@ -1431,7 +1431,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_ii
 		mother = eng_isabella_of_france
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_tomos_ap_rhodri = {
@@ -1441,7 +1441,7 @@ character_db={
 		birth_date = 1300.1.1
 		birth = carnarvon
 		dynasty = aberffraw_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_owain_lawgoch = {
@@ -1454,7 +1454,7 @@ character_db={
 		birth_date = 1330.1.1
 		birth = carnarvon
 		dynasty = aberffraw_dynasty
-		tag = ENG
+		tag = AGL #ENG
 		ruler_trait = "bold_fighter"
 	}
 	
@@ -1465,7 +1465,7 @@ character_db={
 		birth_date = 1291.1.1
 		birth = durham	# Raby
 		dynasty = neville_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_william_zouche = {		
@@ -1475,7 +1475,7 @@ character_db={
 		birth_date = 1299.1.1
 		birth = northampton
 		dynasty = zouche_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_john_stratford = {		
@@ -1486,7 +1486,7 @@ character_db={
 		estate = clergy_estate
 		birth_date = 1275.1.1
 		birth = stratford
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_william_montague = { #Lord of Mann
@@ -1615,7 +1615,7 @@ character_db={
 		mother = gly_dervorguilla
 		#spouse = eng_bryan_fitazalan
 		dynasty = balliol_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE FITZALAN
@@ -1632,7 +1632,7 @@ character_db={
 		#father = John FitzAlan
 		#mother = Isabella Mortimer
 		dynasty = fitzalan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_eleanor_fitzalan = {		
@@ -1649,7 +1649,7 @@ character_db={
 		mother = eng_aloisia_del_vasto
 		spouse = eng_henry_percy
 		dynasty = fitzalan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edmund_fitzalan = {		
@@ -1664,7 +1664,7 @@ character_db={
 		father = eng_richard_fitzalan
 		mother = eng_aloisia_del_vasto
 		dynasty = fitzalan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_richard_fitzalan_ii = {		
@@ -1692,7 +1692,7 @@ character_db={
 		death_date = 1326.1.1
 		birth = gloucester # Barton
 		dynasty = despenser_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_isabel_le_despenser = {		
@@ -1708,7 +1708,7 @@ character_db={
 		father = eng_hugh_le_despenser_1st
 		#mother = Eleanor de Clare
 		spouse = eng_richard_fitzalan_ii
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_edmund_arundel = {		
@@ -1722,7 +1722,7 @@ character_db={
 		father = eng_richard_fitzalan_ii
 		mother = eng_isabel_le_despenser
 		dynasty = fitzalan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_aline_fitzalan = {		
@@ -1737,7 +1737,7 @@ character_db={
 		father = eng_edmund_fitzalan
 		mother = eng_alice_warenne
 		dynasty = fitzalan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_john_fitzalan = {		
@@ -1751,7 +1751,7 @@ character_db={
 		father = eng_richard_fitzalan
 		mother = eng_aloisia_del_vasto
 		dynasty = fitzalan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE FITZALAN OF BEDALE
@@ -1768,7 +1768,7 @@ character_db={
 		#father = Alan FitzBryan
 		#mother = Agnes
 		dynasty = fitzalan_bedale_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_agnes_fitzalan = {		
@@ -1784,7 +1784,7 @@ character_db={
 		mother = eng_maud_balliol
 		spouse = eng_gilbert_stapleton
 		dynasty = fitzalan_bedale_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_katherine_fitzalan = {		
@@ -1801,7 +1801,7 @@ character_db={
 		mother = eng_maud_balliol
 		spouse = eng_john_grey
 		dynasty = fitzalan_bedale_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE GREY OF ROTHERFIELD
@@ -1817,7 +1817,7 @@ character_db={
 		#father = John de Grey
 		#mother = Margaret de Odingsells
 		dynasty = grey_rotherfield_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_avice_marmion = {		
@@ -1833,7 +1833,7 @@ character_db={
 		#father = John Marmion
 		#mother = Maud Furnival
 		spouse = eng_john_grey
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_john_grey_ii = {		
@@ -1846,7 +1846,7 @@ character_db={
 		father = eng_john_grey
 		mother = eng_katherine_fitzalan
 		dynasty = grey_rotherfield_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_john_marmion = {		
@@ -1860,7 +1860,7 @@ character_db={
 		father = eng_john_grey
 		mother = eng_avice_marmion
 		dynasty = grey_rotherfield_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_robert_marmion = {		
@@ -1874,7 +1874,7 @@ character_db={
 		father = eng_john_grey
 		mother = eng_avice_marmion
 		dynasty = grey_rotherfield_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE PERCY
@@ -1890,7 +1890,7 @@ character_db={
 		#father = William Percy
 		#mother = Ellen Balliol
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_henry_percy = {		
@@ -1905,7 +1905,7 @@ character_db={
 		father = eng_henry_percy_sr
 		mother = eng_eleanor_warenne
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_henry_percy_ii = {		
@@ -1919,7 +1919,7 @@ character_db={
 		father = eng_henry_percy
 		mother = eng_eleanor_fitzalan
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_idonia_clifford = {		
@@ -1935,7 +1935,7 @@ character_db={
 		#father = Robert Clifford
 		#mother = Maud de Clare 
 		spouse = eng_henry_percy_ii
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_margaret_percy = {		
@@ -1950,7 +1950,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_henry_percy_iii = {		
@@ -1964,7 +1964,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_roger_percy = {		
@@ -1978,7 +1978,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_isabel_percy = {		
@@ -1993,7 +1993,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_thomas_percy = {		
@@ -2007,7 +2007,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 		child_trait = child_gregarious
 	}
 	
@@ -2022,7 +2022,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_eleanor_percy = {		
@@ -2036,7 +2036,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_william_percy = {		
@@ -2049,7 +2049,7 @@ character_db={
 		father = eng_henry_percy
 		mother = eng_eleanor_fitzalan
 		dynasty = percy_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE OF STAPLETON
@@ -2065,7 +2065,7 @@ character_db={
 		#father = Miles Stapleton
 		#mother = Laderia de Brus
 		dynasty = stapleton_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_miles_stapleton = {		
@@ -2079,7 +2079,7 @@ character_db={
 		father = eng_gilbert_stapleton
 		mother = eng_agnes_fitzalan
 		dynasty = stapleton_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_brian_stapleton = {		
@@ -2093,7 +2093,7 @@ character_db={
 		father = eng_gilbert_stapleton
 		mother = eng_agnes_fitzalan
 		dynasty = stapleton_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE STRATHBOGIE
@@ -2167,7 +2167,7 @@ character_db={
 		father = sco_david_ii_strathbogie
 		#mother = Joan Comyn
 		dynasty = strathbogie_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_mary_steward = {
@@ -2179,7 +2179,7 @@ character_db={
 		birth_date = 1315.1.1 # Unknown
 		birth = edinburgh
 		spouse = eng_adomar_atholl
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_isabel_atholl = {
@@ -2193,7 +2193,7 @@ character_db={
 		father = eng_adomar_atholl
 		mother = eng_mary_steward
 		dynasty = strathbogie_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	eng_mary_atholl = {
@@ -2207,7 +2207,7 @@ character_db={
 		father = eng_adomar_atholl
 		mother = eng_mary_steward
 		dynasty = strathbogie_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE OF WARENNE
@@ -2224,7 +2224,7 @@ character_db={
 		#father = William de Warenne
 		#mother = Maud Marshall
 		dynasty = warenne_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_eleanor_warenne = {		
@@ -2240,7 +2240,7 @@ character_db={
 		mother = eng_alix_lusignan
 		spouse = eng_henry_percy_sr
 		dynasty = warenne_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	sco_isabella_warenne = {		
@@ -2270,7 +2270,7 @@ character_db={
 		father = eng_john_warenne
 		mother = eng_alix_lusignan
 		dynasty = warenne_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_john_warenne_ii = {		
@@ -2284,7 +2284,7 @@ character_db={
 		father = eng_william_warenne
 		#mother = Joan de Vere
 		dynasty = warenne_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	eng_alice_warenne = {		
@@ -2299,7 +2299,7 @@ character_db={
 		#mother = Joan de Vere
 		#spouse = eng_edmund_fitzalan
 		dynasty = warenne_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 	
 	ord_james_butler_i = {		
@@ -8801,7 +8801,7 @@ character_db={
 		mother = fra_jeanne_i_blois
 		#spouse = eng_edward_ii
 		dynasty = capet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# Line of the Counts of Valois, Kings of France (HOUSE OF VALOIS)
@@ -9256,7 +9256,7 @@ character_db={
 		mother = fra_maria_van_brabant
 		spouse = eng_edward_i
 		dynasty = capet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	vls_jean_tristan_capet = {
@@ -9614,7 +9614,7 @@ character_db={
 		father = ars_philippe_artois
 		mother = ars_blanche_dreux
 		dynasty = artois_dynasty
-		tag = ENG
+		tag = AGL #ENG
 		ruler_trait = well_connected
 		ruler_trait = intricate_web_weaver
 		ruler_trait = embezzler
@@ -10467,7 +10467,7 @@ character_db={
 		father = aum_philippe_hurepel_clermont
 		mother = bgn_mathilde_ii_dammartin
 		dynasty = capet_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# Line of the Counts of Dreux (HOUSE OF DREUX)
@@ -13358,7 +13358,7 @@ character_db={
 		mother = aum_jeanne_i_ponthieu
 		spouse = eng_edward_i
 		dynasty = burgundy_castile_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	lat_berenguela_burgundy = {	
@@ -16397,7 +16397,7 @@ character_db={
 		father = bls_etienne_henri_blois
 		mother = bls_adele_normandie
 		dynasty = blois_dynasty # Should be dynasty = blois_boulogne_dynasty # Founder of the Boulogne line of the House of Blois
-		tag = ENG
+		tag = AGL #ENG
 		ruler_trait = malevolent
 		ruler_trait = babbling_buffoon
 	}
@@ -16666,7 +16666,7 @@ character_db={
 		father = aum_etienne_i_blois
 		#mother = Hawise de Mortimer
 		dynasty = blois_dynasty # Should be dynasty = blois_troyes_dynasty
-		tag = ENG
+		tag = AGL #ENG
 		ruler_trait = bold_fighter
 	}
 
@@ -16683,7 +16683,7 @@ character_db={
 		father = eng_guillaume_i_blois
 		#mother = Cecilia McWilliam
 		dynasty = blois_dynasty # Should be dynasty = blois_troyes_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# HOUSE OF BRIENNE
@@ -17132,7 +17132,7 @@ character_db={
 		mother = sco_alice_de_comyn
 		spouse = eng_henry_grosmont
 		dynasty = beaumont_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	sco_joan_beaumont = {
@@ -21078,7 +21078,7 @@ character_db={
 		#mother = Isabelle d'Angouleme
 		spouse = eng_john_warenne
 		dynasty = lusignan_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	# Line of the Kings of Jerusalem & Cyprus
@@ -24857,7 +24857,7 @@ character_db={
 		mother = bar_eleanor_england
 		spouse = eng_john_warenne_ii
 		dynasty = de_bar_dynasty
-		tag = ENG
+		tag = AGL #ENG
 		fertility = 20
 	}
 
@@ -25066,7 +25066,7 @@ character_db={
 		father = fra_aimery_vii_thouars
 		#mother = Cecile de Laval
 		dynasty = thouars_dynasty
-		tag = ENG
+		tag = AGL #ENG
 	}
 
 	poi_aimery_ix_thouars = {
@@ -26595,7 +26595,7 @@ character_db={
 		mother = sal_luisa_di_ceva
 		spouse = eng_richard_fitzalan
 		dynasty = del_vasto_dynasty
-		tag = ENG		
+		tag = AGL #ENG		
 	}
 	
 	eng_giorgio_del_vasto = {
@@ -26608,7 +26608,7 @@ character_db={
 		father = sal_tommaso_i_del_vasto
 		mother = sal_luisa_di_ceva
 		dynasty = del_vasto_dynasty
-		tag = ENG		
+		tag = AGL #ENG		
 	}
 		
 	gen_violante_del_vasto = {
@@ -47150,7 +47150,7 @@ adm = 31 dip = 34 mil = 24
 		birth = andujar
 		#father = Nasr
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 	}
 	
 	gra_muhammad_i_nasrid = {
@@ -47165,7 +47165,7 @@ adm = 31 dip = 34 mil = 24
 		birth = andujar
 		father = gra_yusuf_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA	
+		tag = ADU #GRA	
 		ruler_trait = architectural_visionary
 		ruler_trait = expansionist
 		ruler_trait = intricate_web_weaver	
@@ -47184,7 +47184,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_muhammad_i_nasrid
 		#mother = Aisha
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 		ruler_trait = lawgiver
 		ruler_trait = intricate_web_weaver		
 	}
@@ -47201,7 +47201,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_muhammad_ii_nasrid
 		#mother = Nuzha
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	# Grandmother of the Emir of Granada
@@ -47218,7 +47218,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Nuzha
 		#spouse = gra_abu_said_faraj_nasrid # dead spouses
 		dynasty = nasrid_dynasty
-		tag = GRA	
+		tag = ADU #GRA	
 		ruler_trait = architectural_visionary	
 	}
 	
@@ -47234,7 +47234,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_muhammad_ii_nasrid
 		#mother = Shams al-Duha
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	gra_ismail_ibn_nasr_nasrid = {
@@ -47247,7 +47247,7 @@ adm = 31 dip = 34 mil = 24
 		birth = andujar
 		father = gra_yusuf_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	# Grandfather of the Emir of Granada
@@ -47262,7 +47262,7 @@ adm = 31 dip = 34 mil = 24
 		birth = granada
 		father = gra_ismail_ibn_nasr_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA	
+		tag = ADU #GRA	
 		ruler_trait = intricate_web_weaver	
 	}
 
@@ -47279,7 +47279,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_abu_said_faraj_nasrid
 		mother = gra_fatima_bint_al_ahmar_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 		ruler_trait = architectural_visionary
 	}
 	
@@ -47290,7 +47290,7 @@ adm = 31 dip = 34 mil = 24
 		female = yes
 		birth_date = 1298.1.1 # First child in 1315
 		birth = granada # Unknown
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	# Mother of the Emir of Granada
@@ -47302,7 +47302,7 @@ adm = 31 dip = 34 mil = 24
 		female = yes
 		birth_date = 1301.1.1 # First child in 1317
 		birth = granada # Unknown
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	gra_qamar = { # Concubine of Isma'il I
@@ -47312,7 +47312,7 @@ adm = 31 dip = 34 mil = 24
 		female = yes
 		birth_date = 1308.1.1 # Unknown
 		birth = granada # Unknown
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 
 	# Brother of the Emir of Granada & Previous Emir
@@ -47327,7 +47327,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_ismail_i_nasrid
 		mother = gra_alwa #concubine
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 	}
 
 	# Brother of the Emir of Granada
@@ -47341,7 +47341,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_ismail_i_nasrid
 		mother = gra_alwa #concubine
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 	}
 
 	# Emir of Granada
@@ -47356,7 +47356,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_ismail_i_nasrid
 		mother = gra_bahar #concubine
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 		ruler_trait = architectural_visionary
 	}
 	
@@ -47372,7 +47372,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_ismail_i_nasrid
 		mother = gra_alwa #concubine
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 	}
 
 	gra_maryam_bint_ismail_nasrid = {	
@@ -47386,7 +47386,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_ismail_i_nasrid
 		mother = gra_alwa #concubine
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 	}
 
 	gra_ismail_ibn_ismail_nasrid = {	
@@ -47399,7 +47399,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_ismail_i_nasrid
 		mother = gra_qamar #concubine
 		dynasty = nasrid_dynasty
-		tag = GRA
+		tag = ADU #GRA
 	}
 	
 	gra_muhammad_ibn_faraj_nasrid = {
@@ -47414,7 +47414,7 @@ adm = 31 dip = 34 mil = 24
 		father = gra_abu_said_faraj_nasrid
 		mother = gra_fatima_bint_al_ahmar_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	gra_yusuf_ibn_muhammad_nasrid = {
@@ -47426,7 +47426,7 @@ adm = 31 dip = 34 mil = 24
 		birth = granada # Granada?
 		father = gra_muhammad_ibn_faraj_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 
 	gra_faraj_ibn_muhammad_nasrid = {
@@ -47438,7 +47438,7 @@ adm = 31 dip = 34 mil = 24
 		birth = granada # Granada?
 		father = gra_muhammad_ibn_faraj_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	gra_muhammad_ibn_muhammad_nasrid = {
@@ -47450,7 +47450,7 @@ adm = 31 dip = 34 mil = 24
 		birth = granada # Granada?
 		father = gra_muhammad_ibn_faraj_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	gra_ismail_ibn_muhammad_nasrid = {
@@ -47462,7 +47462,7 @@ adm = 31 dip = 34 mil = 24
 		birth = granada # Granada?
 		father = gra_muhammad_ibn_faraj_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	gra_muhammad_vi_nasrid = {
@@ -47476,7 +47476,7 @@ adm = 31 dip = 34 mil = 24
 		birth = granada
 		father = gra_ismail_ibn_muhammad_nasrid
 		dynasty = nasrid_dynasty
-		tag = GRA		
+		tag = ADU #GRA		
 	}
 	
 	# HOUSE OF PELAYO (Former Kings of León)
@@ -79016,7 +79016,7 @@ adm = 31 dip = 34 mil = 24
 		mother = hai_jeanne_valois
 		spouse = eng_edward_iii
 		dynasty = avesnes_dynasty
-		tag = ENG
+		tag = AGL #ENG
 		fertility = 100
 	}
 
