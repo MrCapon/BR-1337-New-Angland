@@ -14,13 +14,16 @@ REPLACE_OR_CREATE:GAZ = {
 	religion_definition = catholic
 }
 
-REPLACE_OR_CREATE:GLH = {
-	color = map_golden_horde
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = mongolian_culture #Create new Hybrid culture
-	religion_definition = tengri #I have them still Tengri start of Vicky
-
-	description_category = military
-	difficulty = 4
+#REPLACE_OR_CREATE:GLH = {
+#	color = map_golden_horde
+#	color2 = rgb { 16 41 202 }
+#
+#	culture_definition = mongolian_culture #Create new Hybrid culture
+#	religion_definition = tengri #I have them still Tengri start of Vicky
+#
+#	description_category = military
+#	difficulty = 4
+#}
+INJECT:GLH = {
+	culture_definition = astrakhani
 }
