@@ -17,7 +17,6 @@ countries = {
 		#------------------ Scandivania -------------------------
 		SWE = {
 			own_control_core = {
-				
 				stockholm norrtalje nykoping arboga kastelholm
 				enkoping uppsala kolmarden soderkoping norrkoping
 				linkoping alvastra vadstena strangnas tierp
@@ -53,10 +52,12 @@ countries = {
 			}
 
 			own_control_integrated = {
-				tallinn narva padise rakvere rapla toolse vasknarva
+				tallinn narva padise rakvere rapla toolse vasknarva paide
 			}
-			
-			
+			own_control_conquered = {
+				limbazi straupe
+				parnu suure_jaani saarde poltsamaa viljandi valmiera karksi
+			}
 			own_control_colony = {
 				asele
 			}
@@ -245,8 +246,8 @@ countries = {
 				ruler_term = { character = dan_chistopher_ii start_date = 1329.1.1 end_date = 1332.8.2 regnal_number = 2 }
 				
 				
-				start_regency_date = 1332.8.2
-				end_regency_date = 1400.1.1
+				#start_regency_date = 1332.8.2
+				#end_regency_date = 1400.1.1
 				
 				regnal_numbers = {
 					name_guthrum = 1
@@ -285,7 +286,6 @@ countries = {
 				outward_vs_inward = -40
 			}
 			tolerated_cultures = {
-				estonian
 			}
 		}
 		
@@ -340,8 +340,8 @@ countries = {
 			
 			
 			government = {
-				ruler = swe_magnus_eriksson
-				ruler_term = { character = swe_magnus_eriksson start_date = 1332.6.19 regnal_number = 1 }
+				ruler = random #swe_magnus_eriksson
+				#ruler_term = { character = swe_magnus_eriksson start_date = 1332.6.19 regnal_number = 1 }
 				
 			}
 		}
@@ -398,16 +398,17 @@ countries = {
 		}
 		
 		capital = oslo
+		dynasty = siggurson_dynasty
 
 		country_rank = rank_kingdom
 
 		include = "catholic_monarchy"
 		include = "expl_scandinavia"
 		government = {
-			ruler = swe_magnus_eriksson
+			ruler = br_nse_character_01 #swe_magnus_eriksson
 
-			ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
-			ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
+			#ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
+			#ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
 
 
 			centralization_vs_decentralization = 40
@@ -790,45 +791,20 @@ countries = {
 		}
 		
 		LIV = {
-			#Livonian Order
-			own_control_core = {
+			our_cores_conquered_by_others = {
+				parnu valmiera viljandi
+				karksi poltsamaa sigulda cesis aluksne
+				rezekne daugavpils selpils kraslava
+				saarde suure_jaani makonkalns aizkraukle salaspils
 			}
 			
-			own_control_integrated = {
-				parnu valmiera viljandi kaina valjala
-				karksi poltsamaa kandava dobele bauska sigulda cesis aluksne
-				rezekne daugavpils selpils kraslava jelgava tukums
-				saarde suure_jaani makonkalns aizkraukle salaspils saldus
-				paide
-				ventspils grobina kuldiga durbe
-			}
-			
-			include = "catholic_military_order"
+			include = "catholic_monarchy"
+			include = "feudal_europe"
+			#include = "catholic_military_order"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = theocracy
-				ruler = liv_eberhard_von_monheim
-				ruler_term = { character = liv_eberhard_von_monheim start_date = 1328.1.1 regnal_number = 1 }
-				regnal_numbers = {
-					name_everard = 1
-				}
-				
-				
-				centralization_vs_decentralization = 20
-				aristocracy_vs_plutocracy = -95
-				serfdom_vs_free_subjects = -90
-				traditionalist_vs_innovative = -20
-				spiritualist_vs_humanist = -90
-				mercantilism_vs_free_trade = -30
-				offensive_vs_defensive = 0
-				land_vs_naval = 0
-				quality_vs_quantity = -30
-				belligerent_vs_conciliatory = -30
-				capital_economy_vs_traditional_economy = 100
-				individualism_vs_communalism = -20
-				outward_vs_inward = -60
-				
+
 			}
 			
 			tolerated_cultures = {
@@ -966,53 +942,61 @@ countries = {
 		ARR = {
 			#Archbishopric of Riga https://en.wikipedia.org/wiki/Archbishopric_of_Riga
 			own_control_core = {
-				gulbene jekabpils koknese limbazi pietalava rauna straupe vilaka
+				gulbene jekabpils koknese pietalava rauna vilaka
+				sigulda cesis
+				rezekne daugavpils selpils kraslava
+				makonkalns aizkraukle salaspils
 			}
 			
-			include = "catholic_bishopric"
+
+			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = theocracy
+				type = monarchy
+				heir_selection = cognatic_primogeniture
 				
-				ruler = rig_friedrich_von_pernstein
-				ruler_term = { character = rig_friedrich_von_pernstein start_date = 1304.1.1 regnal_number = 1 }
-				regnal_numbers = {
-					name_frederick = 1
-				}
+				ruler = random #rig_friedrich_von_pernstein
+				#ruler_term = { character = rig_friedrich_von_pernstein start_date = 1304.1.1 regnal_number = 1 }
+				#regnal_numbers = {
+				#	name_frederick = 1
+				#}
 			}
 			
 			tolerated_cultures = {
 				latvian
 			}
 			
-			capital = limbazi
+			capital = koknese
 		}
 		
 		KUR = {
 			#Courland
 			own_control_core = {
+				dundaga piltene ventspils grobina kuldiga durbe kandava saldus
+				tukums dobele jelgava bauska
 			}
 			
-			own_control_integrated = {
-				dundaga piltene
-			}
-			
-			include = "catholic_bishopric"
+			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = theocracy
+				type = monarchy
+				heir_selection = cognatic_primogeniture
 				
-				ruler = kur_johann_ii
-				ruler_term = { character = kur_johann_ii start_date = 1332.1.1 regnal_number = 2 }
-				regnal_numbers = {
-					name_john = 1
-				}
+				ruler = random #kur_johann_ii
+				#ruler_term = { character = kur_johann_ii start_date = 1332.1.1 regnal_number = 2 }
+				#regnal_numbers = {
+				#	name_john = 1
+				#}
 			}
-			accepted_cultures = { turkoman_culture }
+			accepted_cultures = {
+				curonian
+			}
 			tolerated_cultures = {
-				iraqi_culture
+				liv
 			}
 			
 			capital = piltene
@@ -1021,19 +1005,22 @@ countries = {
 		BIO = {
 			own_control_core = {
 				hapsal lihula kuressaare st_martin
+				kaina valjala
 			}
 			
-			include = "catholic_bishopric"
+			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = theocracy
+				type = monarchy
+				heir_selection = cognatic_primogeniture
 				
-				ruler = bio_jakob_ii
-				ruler_term = { character = bio_jakob_ii start_date = 1322.1.1 regnal_number = 2 }
-				regnal_numbers = {
-					name_james = 2
-				}
+				ruler = random #bio_jakob_ii
+				#ruler_term = { character = bio_jakob_ii start_date = 1322.1.1 regnal_number = 2 }
+				#regnal_numbers = {
+				#	name_james = 2
+				#}
 			}
 			
 			tolerated_cultures = {
@@ -1045,20 +1032,22 @@ countries = {
 		
 		BID = {
 			own_control_core = {
-				tartu valka vastseliina vonnu
+				tartu valka vastseliina vonnu aluksne
 			}
 			
-			include = "catholic_bishopric_no_coast"
+			include = "catholic_monarchy"
+			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = theocracy
+				type = monarchy
+				heir_selection = cognatic_primogeniture
 				
-				ruler = bid_engelbert_von_dolen
-				ruler_term = { character = bid_engelbert_von_dolen start_date = 1323.1.1 regnal_number = 1 }
-				regnal_numbers = {
-					name_engelbert = 1
-				}
+				ruler = random #bid_engelbert_von_dolen
+				#ruler_term = { character = bid_engelbert_von_dolen start_date = 1323.1.1 regnal_number = 1 }
+				#regnal_numbers = {
+				#	name_engelbert = 1
+				#}
 			}
 			
 			tolerated_cultures = {
@@ -1977,8 +1966,6 @@ countries = {
 				bronnitsa gruzino veliky_porog valday pribuzh ivangorod izboishchi pashozero tervenichi megra voznesenye ostrechiny andomsky_pogost
 				kinerma pryazha salmi loimola sordavala kurkijoki sellinkyla karhumagi puatane saarijoki sumsky_posad unezhma vygozero maloshuyka
 				chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
-				#Principality of Volokolansk
-				volok
 			}
 			
 			starting_technology_level = 3
@@ -3058,6 +3045,10 @@ countries = {
 				przemysl_moscow mushkov_pogost
 				#Principality of Pereyaslavl-Zalessky
 				pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
+			}
+			own_control_integrated = {
+				#Principality of Volokolansk
+				volok
 			}
 			
 			own_control_conquered = {
@@ -4146,7 +4137,7 @@ countries = {
 					tribes_protected_faith
 					tribes_in_administration
 					tribes_respect_tribal_traditions
-					tribes_tribal_levies
+					
 				}
 				
 				laws = {
@@ -4169,14 +4160,14 @@ countries = {
 
 			accepted_cultures = {
 				crimean
-				astrakhani
+				mongolian_culture
 				nogai
 				kazani
+				mishar
 			}
 			
 			
 			tolerated_cultures = {
-				mishar
 				bashkir
 				uzbek_culture
 				yerle_qaliq_culture
@@ -4301,14 +4292,12 @@ countries = {
 		}
 		
 		GAZ = {	# Gazaria
-
-			#type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
 			own_control_core = {
-				
+				tana kaffa vosporo amasra
+				taman
 			}
 
 			our_cores_conquered_by_others = {
-				tana kaffa vosporo #Black Sea
 			}
 
 			starting_technology_level = 3
@@ -10105,6 +10094,12 @@ countries = {
 				}
 				privilege = {
 					#nobles
+					recognized_communes
+					feudal_mercenary_contracts
+
+					urban_development_grants
+					allow_trade_center_sponsorship
+					guild_investments
 
 					#burghers
 					land_of_commerce
@@ -11996,6 +11991,7 @@ countries = {
 				#CRO
 				sibenik kaseg knin novigrad crikvenica senj
 				krk makarska sinj
+				corfu
 			}
 			
 			include = "expl_mediterranean"
@@ -12041,6 +12037,13 @@ countries = {
 					libro_d_oro
 					zontas
 					avogadoria_de_comun
+
+					recognized_communes
+					feudal_mercenary_contracts
+
+					urban_development_grants
+					allow_trade_center_sponsorship
+					guild_investments
 					
 					#burghers
 					libro_d_argento
@@ -12420,6 +12423,9 @@ countries = {
 		NAX = { #https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago
 			own_control_core = {
 				naxos kythnos milos
+				andros mykonos amorgos karpathos
+				samos ikaria foca
+				modon kythira 
 			}
 			
 			starting_technology_level = 3
@@ -12448,6 +12454,30 @@ countries = {
 					name_angel = 1
 					name_william = 1
 					name_nicholas = 1
+				}
+				laws = {
+					maritime_law = mandatory_impressment
+					piracy_law = br_state_piracy_policy
+				}
+				reforms = {
+					
+				}
+				
+				privilege = {
+					feudal_mercenary_contracts
+					increased_civic_engagement
+					noble_sponsored_navy
+					nobles_protected_faith
+
+					peasants_protected_faith
+					peasants_autonomous_villages
+
+					urban_development_grants
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
 				}
 			}
 			
@@ -32628,11 +32658,7 @@ countries = {
 				bayramlu unye
 				rize khupati
 			}
-			
-			own_control_integrated = {
-				taman kaffa vosporo #Black Sea
-			}
-			
+
 			our_cores_conquered_by_others = {
 				gerze bafra samsun terme akkus mesudiye
 			}
@@ -40657,8 +40683,8 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1340.1.1
-				size = 1.5
+				date = 1338.1.1
+				size = 0.75
 			}
 			
 			capital = lviv
@@ -40729,8 +40755,8 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1340.1.1
-				size = 1.5
+				date = 1338.1.1
+				size = 0.75
 			}
 			
 			capital = lviv
@@ -41485,8 +41511,8 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1340.1.1
-				size = 1.5
+				date = 1338.1.1
+				size = 0.75
 			}
 			
 			capital = kyiv
@@ -41496,6 +41522,14 @@ countries = {
 		
 		ZAZ = { #Zaporozhia
 			type = army
+
+			our_cores_conquered_by_others = {
+				kichkas rozdory hryshyne pavlohrad 
+				yelanets usivka mala_vyska umanske ingul petrove 
+				karlivka kolomak berestyn samarchyk oril ternivka
+				kodak myshuryn_rih sofiivka kryvyi_rih tomakivka mykytyn_rih
+			}
+			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "eurasian_horde_not_present"
@@ -52571,13 +52605,12 @@ countries = {
 		}
 		
 		GTC = {
-			own_control_core = {
-				samos ikaria foca #Aegean Sea
-				tana amasra #Black Sea
-			}
 			our_cores_conquered_by_others = {
-				chios
-				lemnos
+			#	chios
+			#	lemnos
+			#	amasra
+			#	tana
+			#	samos ikaria foca
 			}
 			
 
@@ -52616,6 +52649,18 @@ countries = {
 				}
 				
 				privilege = {
+					recognized_communes
+					feudal_mercenary_contracts
+					increased_civic_engagement
+					noble_sponsored_navy
+					nobles_protected_faith
+
+					peasants_protected_faith
+					peasants_autonomous_villages
+
+					urban_development_grants
+					allow_trade_center_sponsorship
+					guild_investments
 					#burghers
 					land_of_commerce
 					sponsor_maritime_contracts
@@ -52648,9 +52693,10 @@ countries = {
 
 		VTC = {
 			own_control_core = {
-				corfu modon kythira andros mykonos amorgos karpathos
 			}
 			our_cores_conquered_by_others = {
+			#	andros mykonos amorgos karpathos
+			#	samos ikaria foca
 			}
 
 			type = building
@@ -52688,6 +52734,18 @@ countries = {
 				}
 				
 				privilege = {
+					recognized_communes
+					feudal_mercenary_contracts
+					increased_civic_engagement
+					noble_sponsored_navy
+					nobles_protected_faith
+
+					peasants_protected_faith
+					peasants_autonomous_villages
+
+					urban_development_grants
+					allow_trade_center_sponsorship
+					guild_investments
 					#burghers
 					land_of_commerce
 					sponsor_maritime_contracts
@@ -53610,7 +53668,7 @@ countries = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
 				date = 1340.1.1
-				size = 5
+				size = 2
 			}
 
 		}
@@ -53766,7 +53824,7 @@ countries = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
 				date = 1365.1.1
-				size = 4
+				size = 3
 			}
 
 		}
@@ -54831,10 +54889,9 @@ countries = {
 		}
 
 		RIC = {
-			#research_advance = advance_type:trade_companies_advance
 			own_control_core = {
 			}
-			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
+			type = building
 			starting_technology_level = 3
 			
 			capital = goa
