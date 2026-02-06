@@ -4137,10 +4137,9 @@ building_manager = {
 	cathedral	= { tag = TRE level = 1	location = amasya }
 
 	#Levant
-	local_governor	= { tag = MAM level = 1	location = damascus }
-	#naval_governor	= { tag = ADU level = 1	location = valencia }
-	local_governor	= { tag = TUR level = 1	location = samarra }
-	local_governor	= { tag = TUR level = 1	location = rey }
+	#local_governor	= { tag = MAM level = 1	location = damascus }
+	#local_governor	= { tag = TUR level = 1	location = samarra }
+	#local_governor	= { tag = TUR level = 1	location = rey }
 
 	cathedral	= { tag = AOI level = 1	location = antioch }
 	cathedral	= { tag = MAM level = 1	location = jerusalem }
@@ -4737,13 +4736,13 @@ building_manager = {
 	pirate_haven = { tag = ADU level = 1 location = lagos }
 
 	#Mesopotamia
-	royal_court = { tag = A1A level = 1 location =  baghdad }
-	royal_garden = { tag = A1A level = 1 location =  baghdad }
-	lumber_mill = { tag = A1A level = 2 location =  baghdad }
-	irrigation_systems = { tag = A1A level = 4 location =  baghdad }
+	royal_court = { tag = AIA level = 1 location =  baghdad }
+	royal_garden = { tag = AIA level = 1 location =  baghdad }
+	lumber_mill = { tag = AIA level = 2 location =  baghdad }
+	irrigation_systems = { tag = AIA level = 4 location =  baghdad }
 	irrigation_systems = { tag = TUR level = 1 location =  mosul }
 	irrigation_systems = { tag = TUR level = 1 location =  samarra }
-	bridge_infrastructure = { tag = A1A level = 4 location =  baghdad }
+	bridge_infrastructure = { tag = AIA level = 4 location =  baghdad }
 	bridge_infrastructure = { tag = TUR level = 1 location =  mosul }
 	bridge_infrastructure = { tag = TUR level = 1 location =  samarra }
 	sergeantry = { tag = TUR level = 1 location =  tabriz }
@@ -4796,7 +4795,7 @@ building_manager = {
 	charcoal_maker = { tag = AON level = 1 location = kalecik }
 
 	#IBERIA
-	local_governor	= { tag = ADU level = 1	location = toledo }
+	#local_governor	= { tag = ADU level = 1	location = toledo }
 	naval_governor	= { tag = ADU level = 1	location = valencia }
 	royal_court = { tag = ADU level = 1 location = cordoba }
 	royal_garden = { tag = ADU level = 1 location =  cordoba } #Gardens of the Great Palace

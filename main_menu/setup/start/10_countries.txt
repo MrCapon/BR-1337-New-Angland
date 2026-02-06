@@ -360,7 +360,7 @@ countries = {
 			}
 		}
 		
-	NOR = {
+		NOR = {
 		own_control_core = {
 			konghalla stromstad uddevalla hornborg
 			moss halden borg trogstad
@@ -12698,7 +12698,6 @@ countries = {
 				uskudar silli biga eregli
 				chios vize
 				traianopolis demotica
-				#TUR
 				kibrus mihaliccik sivrihisar bozan kaymaz
 				bolu gerede mengen
 				akcasehir akyazi konrapa mudurnu
@@ -12706,30 +12705,21 @@ countries = {
 				izmit atpazari
 				domanic
 				sultanonu bilecik goynuk eynegol inonu nalli sogut
-				#KRD
 				balikesir balya edremit manyas mihalic susurluk
 				bandirma can gonen
 				dursunbey harmancik
-				#GRM
 				altintas emirdag seyitgazi
 				kutahya aslanapa emet simav tavsanli
 				usak banaz gediz seyhli
-				#SRU
 				manisa akhisar demirci gordes kula
 				bergama bigadic soma
-				#AYD
 				smyrna ayasuluk cesme menemen urla
 				tire balat birgi guzelhisar nazilli
-				#MEN
 				milas
 				mugla cine
-				#TVS
 				tavas
-				#INA
 				honaz lazkiye
-				#SHP
 				karahisar_i_sahib sandikli suhut
-				#HMD
 				isparta burdur dinar egirdir uluborlu
 				golhisar stefani
 				megri yuksekkum bodrum gokabat
@@ -22049,14 +22039,8 @@ countries = {
 				el_qoseir ras_gharib safaga
 				el_jundi faran nuweiba saint_katrine
 				jerusalem acre amman aqaba beersheba gaza hebron karak maan majdal nablus safed sughar jaffa al_quwayrah
-				beirut baalbek deir_qamar sidon tripoli_syria shoubak madaba
-				damascus artah baniyas hama homs idlib jableh kafartab latakia masyaf nabek qusayr tartus
-				
-				umluj al_hawra al_manjur al_maramiyah
-				al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
-				duba ad_disah al_azlam al_wajh bada_yaqub bir_al_qurr
-				tabuk_arabia al_khanbarah al_muazzam al_ukhaydir bajdah bir_ibn_hermas dhat_al_hajj
-				aynuna al_bad al_muwaylih haql makna
+				shoubak madaba
+
 			}
 			
 			own_control_conquered = {
@@ -22088,17 +22072,12 @@ countries = {
 					#Ulama
 					#waqf_payments
 					embellish_great_works_of_faith
-					clergy_literacy_rights
-					clergy_land_rights
 					freedom_of_interpretation
 					
 					#Burghers
 					trade_monopolies
 					formal_guilds
-					building_rights
-					market_fairs
 					shipwright_contracts
-					sponsor_maritime_contracts
 					land_of_commerce
 					allow_trade_center_sponsorship
 					urban_development_grants
@@ -22110,13 +22089,9 @@ countries = {
 					
 					#Dhimmi #BR ADDED
 					dhimmi_land_rights
-					dhimmi_administrative_posts
-					dhimmi_abrahamic_communities
 					dhimmi_pact_of_umar
-					dhimmi_military_service
 					dhimmi_traditions
 					dharmic_dhimmi_communities
-					dhimmi_promote_tolerance
 					dhimmi_legal_autonomy
 					dhimmi_promote_dhimmi_hierarchy
 					dhimmi_mazalim_court
@@ -22130,7 +22105,6 @@ countries = {
 					tribes_tribal_registry
 					tribes_protected_faith
 					tribes_in_administration
-
 				}
 				
 				spiritualist_vs_humanist = 50
@@ -31935,7 +31909,7 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "expl_muslim_mediterranean"
-			include = "turkish_beylik_no_coast"
+			include = "turkish_beylik_no_coast_no_greek"
 			government = {
 				ruler_term = {	 character = atq_ghazi_ii start_date = 1294.1.1 end_date = 1312.1.1 regnal_number = 2 }
 				ruler_term = {	 character = atq_ali_alpi_ii start_date = 1312.10.1 end_date = 1312.10.1 regnal_number = 2 }
@@ -32132,7 +32106,7 @@ countries = {
 			
 			include = "expl_eastern_europe"
 			include = "expl_muslim_mediterranean"
-			include = "turkish_beylik_no_coast"
+			include = "turkish_beylik_no_coast_no_greek"
 			
 			government = {
 				ruler_term = {	 character = dil_salih start_date = 1310.1.1 end_date = 1319.1.1}
@@ -32710,17 +32684,10 @@ countries = {
 			}
 		}
 		
-		#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
-		#BR REMOVED
-		
-		#Jalayirids - JAL https://en.wikipedia.org/wiki/Jalayirid_Sultanate
+		#Ottomans - https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 		TUR = {
 			type = army
 			own_control_core = {
-				balad_ruz baqubah khalis khanaqin mandali
-				samarra ar_rabb tikrit ukbara
-				al_sinn
-				eyvan
 				tabriz heris maragheh sarab tufarqan
 				beylagan lemberan 
 				mughan baciravan bilasuvar germi salyan varsan
@@ -32731,7 +32698,6 @@ countries = {
 				miyaneh aghkand
 				zanjan mahneshan sarcham sojas
 				bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
-				mosul qayyarah tal_afar
 				hashtrud malekan miandoab sain ujan
 				qazvin rey karaj savojbolagh
 				#ERE
@@ -32749,7 +32715,7 @@ countries = {
 			include = "expl_middle_east"
 			include = "expl_mongols"
 			include = "eurasian_horde"
-			include = "turkish_beylik"
+			include = "turkish_beylik_no_coast_no_greek"
 			government = {
 				type = steppe_horde
 				heir_selection = tribal_oldest_male
@@ -41499,6 +41465,9 @@ countries = {
 					#Burghers
 					market_fairs
 					cossack_identity
+					cossacks_land_rights
+					cossacks_sanctioned_atamans
+					cossacks_allowed_free_roaming
 				}
 			}
 			
@@ -41521,7 +41490,14 @@ countries = {
 		}
 		
 		ZAZ = { #Zaporozhia
-			type = army
+			type = pop #army
+			
+			add_pops_from_locations = {
+				kichkas rozdory hryshyne pavlohrad 
+				yelanets usivka mala_vyska umanske ingul petrove 
+				karlivka kolomak berestyn samarchyk oril ternivka
+				kodak myshuryn_rih sofiivka kryvyi_rih tomakivka mykytyn_rih
+			}
 
 			our_cores_conquered_by_others = {
 				kichkas rozdory hryshyne pavlohrad 
@@ -41532,7 +41508,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "eurasian_horde_not_present"
+			include = "eurasian_horde"
 			court_language = ukrainian_dialect
 			
 			government = {
@@ -41541,6 +41517,19 @@ countries = {
 				ruler = random
 				reforms = {
 					cossacks_reform
+				}
+
+				privilege = {
+
+					cossacks_land_rights
+					cossacks_sanctioned_atamans
+					cossacks_allowed_free_roaming
+					cossacks_government_positions
+					cossacks_military_service
+					cossacks_protected_faith
+					cossacks_respected_traditions
+					cossacks_rada_autonomy
+					cossacks_register
 				}
 				
 				laws = {
@@ -49240,7 +49229,7 @@ countries = {
 			include = "expl_middle_east"
 			include = "expl_mongols"
 			include = "eurasian_horde"
-			include = "turkish_beylik"
+			include = "turkish_beylik_no_coast_no_greek"
 			starting_technology_level = 3
 			government = {
 				type = steppe_horde
@@ -51304,6 +51293,12 @@ countries = {
 				yanbu al_ahmar al_jar ash_shibahah badr_hunayn yanbu_an_nakhil
 				al_thamad buwat shajwa
 				al_ais
+
+				umluj al_hawra al_manjur al_maramiyah
+				al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
+				duba ad_disah al_azlam al_wajh bada_yaqub bir_al_qurr
+				tabuk_arabia al_khanbarah al_muazzam al_ukhaydir bajdah bir_ibn_hermas dhat_al_hajj
+				aynuna al_bad al_muwaylih haql makna
 			}
 			
 			include = "expl_middle_east"
@@ -52280,8 +52275,8 @@ countries = {
 			
 		}
 
-		#New BR Tags
-		#Italian
+	#New BR Tags
+	#Italian
 		BNV = {
 			own_control_core = {
 				lanciano vasto bojano
@@ -52778,7 +52773,7 @@ countries = {
 
 		
 		
-		#Balkan Tags
+	#Balkan Tags
 		#Banks 
 		BNK = {	#Bankaropoulos
 			type = building
@@ -53496,7 +53491,7 @@ countries = {
 		}
 
 
-		#Anatolian Tags
+	#Anatolian Tags
 
 		AOI = {
 			own_control_core = {
@@ -54436,7 +54431,7 @@ countries = {
 		}
 		
 
-		#Armenian Tags
+	#Armenian Tags
 		DER = {
 			own_control_core = {
 				bingol 
@@ -54775,7 +54770,7 @@ countries = {
 			capital = ganja
 		}
 		
-		#African
+	#African
 		AGY = { #releasable
 			our_cores_conquered_by_others = {
 				alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
@@ -54848,7 +54843,7 @@ countries = {
 			capital = tunis
 		}
 		
-		#India
+	#India
 		INK = { 
 			own_control_core = {
 				goa madgaon
@@ -55009,7 +55004,7 @@ countries = {
 		}
 
 		
-		#West HRE
+	#West HRE
 
 		LOT = {
             own_control_core = {
@@ -55369,7 +55364,7 @@ countries = {
         }
 		
 
-		###Iberia additions
+	###Iberia additions
 		AD0 = { #BR addition
 			own_control_core = {
 				zamora
@@ -55589,13 +55584,219 @@ countries = {
 			}
 			
 		}
+
+	#Middle East
+		A0A = { #Samarra 
+			own_control_core = {
+				samarra ar_rabb tikrit ukbara
+				balad_ruz baqubah khalis khanaqin mandali
+				eyvan
+			}
+			
+			starting_technology_level = 3
+			include = "expl_middle_east"
+			include = "turkish_beylik_no_coast_no_greek"
+			government = {
+				ruler = tur_ibrahim
+
+				centralization_vs_decentralization = -75
+				aristocracy_vs_plutocracy = -10
+				serfdom_vs_free_subjects = 25
+				traditionalist_vs_innovative = 25
+				spiritualist_vs_humanist = 25
+				mercantilism_vs_free_trade = 25
+				offensive_vs_defensive = 75
+				land_vs_naval = -75
+				quality_vs_quantity = 10
+				belligerent_vs_conciliatory = 75
+				capital_economy_vs_traditional_economy = 10
+				individualism_vs_communalism = 25
+				outward_vs_inward = -60
+				mysticism_vs_jurisprudence = 50
+				
+				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					ghazi_privilege
+					auxilium_et_consilium
+
+					#Clergy
+					clergy_enforced_unity
+					embellish_great_works_of_faith
+
+					#Burghers
+					formal_guilds
+					land_of_commerce
+					
+					#Dhimmi
+					dhimmi_land_rights
+					dhimmi_abrahamic_communities
+					dhimmi_pact_of_umar
+					dhimmi_traditions
+					dharmic_dhimmi_communities
+					urban_development_grants
+
+				}
+				
+				laws = {
+					royal_court_customs_law = harem_policy
+				}
+			}
+			
+			capital = samarra
+			country_rank = rank_duchy
+			court_language = persian_language
+			accepted_cultures = { turkoman_culture }
+			tolerated_cultures = {
+				iraqi_culture
+			}
+			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
+			
+		}
 		
+		A2A = { #Samarra 
+			own_control_core = {
+				mosul qayyarah tal_afar al_sinn
+			}
+			
+			starting_technology_level = 3
+			include = "expl_middle_east"
+			include = "turkish_beylik_no_coast_no_greek"
+			government = {
+				ruler = tur_serefullah
 
+				centralization_vs_decentralization = -75
+				aristocracy_vs_plutocracy = -10
+				serfdom_vs_free_subjects = 25
+				traditionalist_vs_innovative = 25
+				spiritualist_vs_humanist = 25
+				mercantilism_vs_free_trade = 25
+				offensive_vs_defensive = 75
+				land_vs_naval = -75
+				quality_vs_quantity = 10
+				belligerent_vs_conciliatory = 75
+				capital_economy_vs_traditional_economy = 10
+				individualism_vs_communalism = 25
+				outward_vs_inward = -60
+				mysticism_vs_jurisprudence = 50
+				
+				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					ghazi_privilege
+					auxilium_et_consilium
 
+					#Clergy
+					clergy_enforced_unity
+					embellish_great_works_of_faith
 
+					#Burghers
+					formal_guilds
+					land_of_commerce
+					
+					#Dhimmi
+					dhimmi_land_rights
+					dhimmi_abrahamic_communities
+					dhimmi_pact_of_umar
+					dhimmi_traditions
+					dharmic_dhimmi_communities
+					urban_development_grants
 
+				}
+				
+				laws = {
+					royal_court_customs_law = harem_policy
+				}
+			}
+			
+			capital = mosul
+			country_rank = rank_duchy
+			court_language = persian_language
+			accepted_cultures = { turkoman_culture }
+			tolerated_cultures = {
+				iraqi_culture
+			}
+			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
+			
+		}
 
+		SY2 = {
+			own_control_core = {
+				beirut baalbek deir_qamar sidon tripoli_syria
+				damascus artah baniyas hama homs idlib jableh kafartab latakia masyaf nabek qusayr tartus
+			}
+			
+			include = "expl_muslim_mediterranean"
+			include = "expl_horn_of_africa"
+			include = "muslim_monarchy"
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 
+				reforms = {
+					autocracy
+				}
+
+				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					banal_lordship
+					#joint_assembly_decrees
+					ghazi_privilege
+					noble_sponsored_navy
+					auxilium_et_consilium
+
+					#Ulama
+					#waqf_payments
+					embellish_great_works_of_faith
+					freedom_of_interpretation
+					
+					#Burghers
+					trade_monopolies
+					formal_guilds
+					shipwright_contracts
+					land_of_commerce
+					allow_trade_center_sponsorship
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
+
+					#peasants
+					peasants_allowed_weapons_privilege
+					
+					#Dhimmi #BR ADDED
+					dhimmi_land_rights
+					dhimmi_pact_of_umar
+					dhimmi_traditions
+					dharmic_dhimmi_communities
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
+
+					#Tribes
+					tribes_tribal_levies
+					tribes_allow_gatherings
+					tribes_land_rights
+					tribes_pasture_access
+					tribes_tribal_registry
+					tribes_protected_faith
+					tribes_in_administration
+				}
+				
+				spiritualist_vs_humanist = 50
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = 25
+				land_vs_naval = -50
+				
+			}
+			religious_school = ismaili_school
+			government = { mysticism_vs_jurisprudence = 25 }
+			capital = damascus
+		}
+		
 
 
 

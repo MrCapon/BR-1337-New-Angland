@@ -73200,7 +73200,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1310.1.1
 		culture = turkish_culture
 		religion = sunni
-		tag = TUR
+		tag = A0A
 	}
 
 	#Daughter of the Ruler
@@ -73227,7 +73227,7 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1320.1.1 #Unkown
 		culture = turkish_culture
 		religion = sunni
-		tag = TUR
+		tag = A2A
 	}
 
 	#Daughter of the Ruler
