@@ -153,15 +153,15 @@
 	}
 	
 	leader_modifier = {
-		great_power_score_exempt_from_forfeit = 250
-		cultures_capacity = 50
+		#great_power_score_exempt_from_forfeit = 250 #leader already empire rank
+		cultures_capacity = 5
 
 		diplomatic_capacity = 1
 		max_diplomats = 2
 		diplomatic_range = 500
-		
+
 		fort_limit = 1
-		
+
 		num_possible_artists = 1 
 		government_size = 1
 		monthly_prestige = 0.1
@@ -173,7 +173,6 @@
 		allowed_enforce_peace = yes
 		allowed_threaten_war = yes
 		allow_tributary_subject = yes
-
 	}
 	
 	create_visible_trigger = {
@@ -240,7 +239,7 @@
 
 	ai_desire_to_join = {
 		add = {
-			desc = "OPINION_OF_CHINESE_EMPEROR"
+			desc = "OPINION_OF_ROMAN_EMPEROR"
 			value = {
 				scope:recipient = {
 					leader_country = {
