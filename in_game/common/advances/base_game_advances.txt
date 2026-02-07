@@ -535,6 +535,11 @@ REPLACE_OR_CREATE:nor_seaborn_country = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -551,6 +556,11 @@ REPLACE_OR_CREATE:nor_bounties_of_the_sea = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -566,6 +576,11 @@ REPLACE_OR_CREATE:natural_seamanship = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -579,6 +594,11 @@ REPLACE_OR_CREATE:call_of_our_forefathers = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -594,6 +614,11 @@ REPLACE_OR_CREATE:pioneer_spirit = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -607,6 +632,11 @@ REPLACE_OR_CREATE:nor_shipbuilding = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -621,6 +651,11 @@ REPLACE_OR_CREATE:write_new_sagas = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -635,6 +670,11 @@ REPLACE_OR_CREATE:nor_merchant_tradition = {
 	potential = {
 		OR = {
 			has_or_had_tag = NOR
+			has_or_had_tag = N0R
+			has_or_had_tag = N1R
+			has_or_had_tag = N2R
+			has_or_had_tag = N3R
+			has_or_had_tag = NSE
 			has_or_had_tag = NRV
 			has_or_had_tag = NRR
 			has_or_had_tag = NRH
@@ -642,6 +682,259 @@ REPLACE_OR_CREATE:nor_merchant_tradition = {
 		}
 	}
 	merchant_maintenance_cost  = -0.1
+}
+REPLACE_OR_CREATE:dan_levy_recruitment = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	global_levy_size_modifier = 0.1
+	levy_recovery_modifier = 0.1 
+	
+	requires = feudalism_advance
+}
+
+REPLACE_OR_CREATE:dan_old_naval_traditions = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	global_maritime_presence_modifier = 0.25
+	sea_cost_on_distance_from_capital_when_maritime = -0.5
+	
+	requires = dan_levy_recruitment
+}
+
+REPLACE_OR_CREATE:dan_rulers_of_the_north = {
+	age = age_2_renaissance
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	diplomatic_capacity = 1
+	monthly_legitimacy = 0.1
+	
+	requires = crown_power_advance_renaissance
+}
+
+REPLACE_OR_CREATE:dan_reliance_mercenaries = {
+	age = age_2_renaissance
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	mercenary_maintenance_cost = -0.15
+	
+	requires = gunpowder_advance
+}
+
+REPLACE_OR_CREATE:dan_rentekammer_advance = {
+	age = age_3_discovery
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	country_cabinet_efficiency = 0.1
+
+	requires = diplomatic_training
+}
+
+REPLACE_OR_CREATE:dan_royal_danish_navy = {
+	age = age_3_discovery
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	global_sailors_modifier = 0.2
+	navy_galley_power = 0.1
+
+	requires = supply_depot_advance_age_3_discovery
+}
+
+REPLACE_OR_CREATE:dan_danish_orthodoxy = {
+	age = age_4_reformation
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	tolerance_own = 1
+	monthly_religious_influence = 0.1
+
+	requires = artists_advance_reformations
+}
+
+REPLACE_OR_CREATE:dan_expanded_dockyards = {
+	age = age_4_reformation
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	unlock_building = copenhagen_dockyard
+	global_naval_supplies_output_modifier = 0.2
+
+	requires = maritime_advance_age_4
+}
+REPLACE_OR_CREATE:dan_danish_legislation = {
+	age = age_5_absolutism
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	global_estate_target_satisfaction = tiny_permanent_target_satisfaction
+
+	requires = the_constitution
+}
+
+REPLACE_OR_CREATE:dan_danish_agriculture = {
+	age = age_5_absolutism
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	global_monthly_food_modifier = 0.2
+
+	requires = pop_promotion_speed_age_5
+}
+
+REPLACE_OR_CREATE:dan_royal_life_guards = {
+	age = age_5_absolutism
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	army_infantry_power = 0.1
+
+	requires = war_score_absolutism_advance
+}
+
+REPLACE_OR_CREATE:dan_scanian_regiment = {
+	age = age_5_absolutism
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	peasants_estate_target_satisfaction = small_permanent_target_satisfaction
+	army_infantry_build_cost_modifier = -0.1
+
+	requires = regiment_reinforcement_speed_absolutism
+}
+
+REPLACE_OR_CREATE:dan_admiralty_college = {
+	age = age_6_revolutions
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	own_coast_naval_combat_bonus = 0.1
+	navy_maintenance_cost = -0.1
+
+	requires = recruitment_improvements_revolutions
+}
+
+REPLACE_OR_CREATE:dan_trading_economy = {
+	age = age_6_revolutions
+	potential = {
+		OR = {
+			has_or_had_tag = DAN
+			has_or_had_tag = SKE
+			has_or_had_tag = ZEA
+			has_or_had_tag = NSE
+		}
+	}
+	global_merchant_capacity_modifier = 0.25
+
+	requires = urbanization
+}
+
+REPLACE_OR_CREATE:english_tradition = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = ENG
+			has_or_had_tag = NSE
+		}
+	}
+	army_infantry_power = 0.1
+	
+	requires = feudalism_advance
+}
+REPLACE_OR_CREATE:english_heritage = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = ENG
+			has_or_had_tag = NSE
+		}
+	}
+	global_maritime_presence_modifier = 0.2
+	requires = english_tradition
+	unlock_estate_privilege = peasants_yeomanry
+}
+
+REPLACE_OR_CREATE:magna_carta_advance = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = ENG
+			has_or_had_tag = NSE
+		}
+	}
+	unlock_government_reform = magna_carta_reform
+	requires = distribution_of_power_advance
 }
 
 ##############################-France HRE-##############################
