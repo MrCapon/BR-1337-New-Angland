@@ -1,7 +1,7 @@
 ﻿#leader pays tributes to members in exchange for getting more mandate.
 roman_tribute = {
 	get_payer_list = {
-		leader_country = {
+		every_international_organization_member = {
 			add_to_local_variable_list = {
 				name = payers
 				target = this
@@ -9,7 +9,7 @@ roman_tribute = {
 		}
 	}
 	get_payee_list = {
-		every_international_organization_member = {
+		leader_country = {
 			limit = { 
 				NOT = { is_leader_of_international_organization = root }
 			}

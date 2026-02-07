@@ -1,5 +1,4 @@
 ﻿roman_world = {
-
 	has_target = no
 	unique = yes
 	expel_members_who_are_targets_of_other_members = no
@@ -67,9 +66,9 @@
 
 	gives_military_access_to_all_when_at_war = yes
 
-
-	antagonism_modifier_for_taking_land_from_fellow_member = 0.75	  # Members get more Antagonism in the HRE
-	antagonism_modifier_for_taking_land_from_member_as_outsider = 1.0 # Outsiders get even more Antagonism in the HRE
+	land_ownership_rule = roman_land_ownership
+	antagonism_modifier_for_taking_land_from_fellow_member = 0.75	  # Members get more Antagonism in the ERE
+	antagonism_modifier_for_taking_land_from_member_as_outsider = 1.0 # Outsiders get even more Antagonism in the ERE
 	no_cb_price_modifier_for_fellow_member = 0.75
 
 	non_leader_modifier = {
@@ -234,6 +233,7 @@
 	
 	payments_implemented = {
 		roman_tribute
+		#imperial_contribution
 	}
 
 

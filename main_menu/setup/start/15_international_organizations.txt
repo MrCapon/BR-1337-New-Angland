@@ -48,6 +48,22 @@ international_organization_manager = {
 
 		
 		leader = BYZ
+		regions = { 
+			anatolia_region 
+			balkan_region
+		}
+		areas = { 
+			apulia_area
+			basilicata_area
+			campania_area
+			sicily_area
+
+		}
+		provinces = { 
+		}
+		locations = { 
+			venice
+		}
 
 
 		ruler_term = { character = byz_michael_viii_palaiologos start_date = 1261.12.25 end_date = 1282.12.1 regnal_number = 8 }
