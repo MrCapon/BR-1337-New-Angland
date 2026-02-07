@@ -1,0 +1,24 @@
+﻿l_english:
+
+
+ roman_world: "Romaiokratía"
+ roman_world_desc: "Romaiokratía is the system through which Roman supremacy is recognized and upheld. It encompasses all realms and authorities that acknowledge the Basileus as the ultimate source of legitimacy, whether directly ruled or bound by obligation. Each member strengthens imperial authority, while failure to honor duties weakens the cohesion of the Roman order."
+
+ #or
+
+ #roman_world: "Oikoumenē"
+ #roman_world_desc: "Oikoumenē represents the universal Roman claim to rule the civilized world. It reflects the ideological and institutional reach of Constantinople as the center of order, law, and imperial legitimacy. As the Basileus strengthens his authority, the Oikoumenē expands—binding diverse peoples, provinces, and realms into a single Roman vision of civilization under imperial stewardship."
+
+ #or 
+
+ #roman_world: "Basileía tōn Romaíon"
+ #roman_world_desc: "Basileía tōn Romaíon represents the institutional heart of the Roman Empire: its laws, offices, treasury, and mechanisms of rule centered in Constantinople. It reflects the capacity of the Basileus to govern directly through established authority, administration, and tradition. A strong Basileía ensures stability, obedience, and effective governance, while weakness within it undermines imperial control regardless of external recognition."
+
+ RW_LEADER: "Basileus"
+
+ roman_authority: "Auctoritas" #or Oikoumenikón, Legitimitas, Caesarian, Imperial Authority, Imperium, Maiestas, Dominium, Exousía, Kýros
+ roman_authority_DISPLAY: "Auctoritas"
+ roman_authority_desc: "Auctoritas represents the recognized legitimacy and moral authority of the Basileus. It is not enforced by arms alone, but granted through acknowledgment, tradition, and acceptance of Roman supremacy. As more realms and authorities recognize the imperial order, Auctoritas grows, enabling the Basileus to command obedience, enforce decrees, and uphold Roman rule. When Auctoritas wanes, imperial power loses its binding force, regardless of military strength."
+ roman_tribute: "Phóros" #or Sýntaxis, Aporá, 
+ roman_tribute_price: "Phóros"
+ roman_tribute_desc: "Phóros represents the regular payments and material contributions remitted to Constantinople by members of the Roman order. It reflects the fiscal obligations that sustain the imperial administration, court, and defenses of the empire. Steady Phóros ensures the effective functioning of Roman rule, while shortfalls strain the treasury and weaken the empire’s ability to project authority and maintain order."
