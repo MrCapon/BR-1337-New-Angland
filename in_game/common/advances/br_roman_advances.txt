@@ -19,6 +19,7 @@
 # global_nobles_desired_pop_scaled = 0.002
 # land_cost_on_distance_from_capital_modifier
 # sea_cost_on_distance_from_capital_when_maritime
+# diplomatic_upkeep_modifier = -0.05
 
 ### cool icons ###
 #icon = ara_desperta_ferro
