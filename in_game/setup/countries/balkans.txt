@@ -164,7 +164,7 @@ RAG = {
 }
 
 BUL = {
-	color = rgb { 125 145 85 }
+	color = rgb { 66  113  69 }
 
 	culture_definition = bulgarian
 	religion_definition = orthodox
