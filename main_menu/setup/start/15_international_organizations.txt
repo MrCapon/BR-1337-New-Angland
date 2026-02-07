@@ -32,8 +32,18 @@ international_organization_manager = {
 		members = { 
 			#Emperor
 			BYZ 
-			#Tributaries
-			EPI TRE
+			#Members
+			EPI TRE FEO CIL
+
+			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF KAP AOI 
+			AN0 AN1 AN2 EPI
+			M0E ACH B0R THS DYR AN3
+			S1C S2C S3C N3P
+			#ARM GEO SER
+			#KOG DER MES VAN VDZ
+			OHS SGO RH0 RIC
+			BNK MKB CHY 
+
 		}
 
 		
