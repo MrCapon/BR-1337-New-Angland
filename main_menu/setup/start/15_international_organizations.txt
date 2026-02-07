@@ -26,34 +26,6 @@ international_organization_manager = {
         leader = EPI
     }
 
-	add_international_organization = {
-		type = roman_world
-		creation_date = 1.1.1
-		members = { 
-			#Emperor
-			BYZ 
-			#Tributaries
-			EPI TRE
-		}
-
-		
-		leader = BYZ
-
-
-		ruler_term = { character = byz_michael_viii_palaiologos start_date = 1261.12.25 end_date = 1282.12.1 regnal_number = 8 }
-		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1282.12.11 end_date = 1294.5.21 regnal_number = 2 }
-		ruler_term = {
-			character = byz_andronikos_ii_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 2
-			character = byz_michael_ix_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 9 # Junior Co-Emperor
-		}
-		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
-		ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
-
-
-		variables = { 
-			roman_authority = 75
-		}
-	}
 
 
 	#################################################################
