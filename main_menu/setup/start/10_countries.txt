@@ -169,6 +169,13 @@ countries = {
 		
 		DAN = {
 			own_control_core = {
+			}
+			
+			our_cores_conquered_by_others = {
+				varberg halmstad kungsbacka
+				ronneby bregne solvesborg
+				gladsax osby
+				helsingborg lund malmo falster
 				aalborg ars randers viborg
 				thisted skagen hjorring
 				kolding aarhus grindsted silkeborg kalo
@@ -178,90 +185,17 @@ countries = {
 				hammershus
 			}
 			
-			our_cores_conquered_by_others = {
-				varberg halmstad kungsbacka
-				ronneby bregne solvesborg
-				gladsax osby
-				helsingborg lund malmo falster
-			}
-			
 			capital = viborg
-			dynasty = siggurson_dynasty
+			#dynasty = siggurson_dynasty
 			court_language = norwegian_dialect
 			
 			country_rank = rank_kingdom
 			
 			include = "expl_scandinavia"
-			include = "catholic_monarchy"
+			include = "catholic_monarchy_not_present"
 			include = "feudal_europe"
 			
 			government = {
-				ruler = br_nse_character_01
-				ruler_term = { character = dan_gorm_the_old start_date = 936.1.1 end_date = 963.1.1 regnal_number = 1 }
-				ruler_term = { character = dan_harald_bluetooth start_date = 963.1.1 end_date = 986.11.1 regnal_number = 1 }
-				ruler_term = { character = eng_sweyn_forkbeard start_date = 986.11.1 end_date = 1014.2.3 regnal_number = 1 }
-				ruler_term = { character = dan_harald_ii start_date = 1014.2.3 end_date = 1018.1.1 regnal_number = 2 }
-				ruler_term = { character = eng_cnut_the_great start_date = 1018.1.1 end_date = 1035.11.12 regnal_number = 2 }
-				ruler_term = { character = eng_harthacnute start_date = 1035.11.12 end_date = 1042.6.8 regnal_number = 3 }
-				ruler_term = { character = dan_magnus_fairhair start_date = 1042.6.8 end_date = 1047.10.25 regnal_number = 1 }
-				ruler_term = { character = dan_sweyn_estridsson start_date = 1047.10.25 end_date = 1076.4.28 regnal_number = 2 }
-				ruler_term = { character = dan_harald_iii start_date = 1076.4.28 end_date = 1080.4.17 regnal_number = 3 }
-				ruler_term = { character = dan_canute_iv start_date = 1080.4.17 end_date = 1086.7.10 regnal_number = 4 }
-				ruler_term = { character = dan_olaf_hunger start_date = 1086.7.10 end_date = 1095.8.18 regnal_number = 1 }
-				ruler_term = { character = dan_erik_i start_date = 1095.8.18 end_date = 1103.7.10 regnal_number = 1 }
-				ruler_term = { character = dan_niels start_date = 1104.1.1 end_date = 1134.6.25 regnal_number = 1 }
-				ruler_term = { character = dan_erik_ii start_date = 1134.6.25 end_date = 1137.9.18 regnal_number = 2 }
-				ruler_term = { character = dan_erik_iii start_date = 1137.9.18 end_date = 1146.5.1 regnal_number = 3 }
-				ruler_term = {
-					character = dan_sweyn_iii start_date = 1146.5.1 end_date = 1154.1.1 regnal_number = 3
-					character = dan_canute_v start_date = 1146.5.1 end_date = 1154.1.1 regnal_number = 5
-				}
-				ruler_term = {
-					character = dan_sweyn_iii start_date = 1154.1.1 end_date = 1157.10.23 regnal_number = 3
-					character = dan_canute_v start_date = 1154.1.1 end_date = 1157.10.23 regnal_number = 5
-					character = dan_valdemar_i start_date = 1154.1.1 end_date = 1157.10.23 regnal_number = 1
-				}
-				
-				ruler_term = { character = dan_valdemar_i start_date = 1157.10.23 end_date = 1182.5.12 regnal_number = 1 }
-				ruler_term = { character = dan_canute_vi start_date = 1182.5.12 end_date = 1202.11.12 regnal_number = 6 }
-				ruler_term = { character = dan_valdemar_ii start_date = 1202.11.12 end_date = 1215.1.1 regnal_number = 2 }
-				ruler_term = {
-					character = dan_valdemar_ii start_date = 1215.1.1 end_date = 1231.11.28 regnal_number = 2
-					character = dan_valdemar_the_young start_date = 1215.1.1 end_date = 1231.11.28 regnal_number = 3
-				}
-				
-				ruler_term = { character = dan_valdemar_ii start_date = 1231.11.28 end_date = 1232.5.30 regnal_number = 2 }
-				
-				ruler_term = {
-					character = dan_valdemar_ii start_date = 1232.5.30 end_date = 1241.3.28 regnal_number = 2
-					character = dan_erik_iv start_date = 1232.5.30 end_date = 1241.3.28 regnal_number = 4
-				}
-				
-				ruler_term = { character = dan_abel start_date = 1250.8.10 end_date = 1252.6.29 regnal_number = 1 }
-				ruler_term = { character = dan_christopher_i start_date = 1252.12.25 end_date = 1259.5.29 regnal_number = 1 }
-				ruler_term = { character = dan_erik_v start_date = 1259.5.29 end_date = 1286.11.22 regnal_number = 5 }
-				ruler_term = { character = dan_erik_vi start_date = 1286.11.22 end_date = 1319.11.13 regnal_number = 6 }
-				ruler_term = { character = dan_chistopher_ii start_date = 1320.1.25 end_date = 1326.1.1 regnal_number = 2 }
-				ruler_term = { character = dan_valdemar_iii start_date = 1326.1.1 end_date = 1329.1.1 regnal_number = 3 } #Yes, there are 2 Valdemar III
-				ruler_term = { character = dan_chistopher_ii start_date = 1329.1.1 end_date = 1332.8.2 regnal_number = 2 }
-				
-				
-				#start_regency_date = 1332.8.2
-				#end_regency_date = 1400.1.1
-				
-				regnal_numbers = {
-					name_guthrum = 1
-					name_harold = 3
-					name_sven = 3
-					name_canute = 6
-					name_magnus = 1
-					name_olaf = 1
-					name_eric = 6
-					name_nicholas = 1
-					name_valdemar = 3
-					name_abel = 1
-					name_christopher = 2
-				}
 				
 				privilege = {
 					#Nobles
@@ -297,11 +231,11 @@ countries = {
 				falster
 			}
 			
-			capital = viborg
+			capital = kobenhavn
 			dynasty = estrid_dynasty
 			court_language = low_german_dialect
 			
-			country_rank = rank_kingdom
+			country_rank = rank_duchy
 			
 			include = "expl_scandinavia"
 			include = "catholic_monarchy"
@@ -311,9 +245,6 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-			}
-			tolerated_cultures = {
-				estonian
 			}
 		}
 		
@@ -362,6 +293,9 @@ countries = {
 		
 		NOR = {
 		own_control_core = {
+		}
+		
+		our_cores_conquered_by_others = {
 			konghalla stromstad uddevalla hornborg
 			moss halden borg trogstad
 			oslo ski eidsvoll
@@ -379,18 +313,10 @@ countries = {
 			hamar kongsvinger elverum glommadal trysil amot tynset
 			troms trondenes senja bardodalen 
 			bodo birndal alstahaug gildeskal steigen langenes lofotr hamaroy ofoti
-			
-
-			# Northern Isles
-			#shetland orkney 
-			torshavn
-		}
-		
-		own_control_integrated = {
-			varanger  alta
+			varanger alta
 			raisa deatnu porsanger hammerfest lebesby
 			kirkenes
-			vardo  
+			vardo
 		}
 
 		accepted_cultures = {
@@ -402,15 +328,9 @@ countries = {
 
 		country_rank = rank_kingdom
 
-		include = "catholic_monarchy"
+		include = "catholic_monarchy_not_present"
 		include = "expl_scandinavia"
 		government = {
-			ruler = br_nse_character_01 #swe_magnus_eriksson
-
-			#ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
-			#ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
-
-
 			centralization_vs_decentralization = 40
 			aristocracy_vs_plutocracy = -25
 			serfdom_vs_free_subjects = 25
@@ -4330,7 +4250,13 @@ countries = {
 		#### ENGLAND
 		AGL = {
 			own_control_core = {
-				abingdon aylesbury barking bedford bosworth buckingham cambridge chelmsford chesterfield colchester daventry derby dunstable ely harrow hedingham hertford henley huntingdon kettering kingston leicester london loughborough newark northampton nottingham prittlewell reading retford rutland royston st_albans walden windsor wycombe
+			}
+			our_cores_conquered_by_others = {
+				barking bedford cambridge chelmsford colchester dunstable ely harrow hedingham hertford huntingdon kettering kingston london loughborough newark northampton nottingham prittlewell retford rutland royston st_albans walden
+				derby glossop chesterfield henley
+				windsor reading abingdon
+				buckingham aylesbury wycombe
+				daventry bosworth leicester
 			}
 			
 			include = "expl_western_europe"
@@ -4405,6 +4331,12 @@ countries = {
 			own_control_integrated = {
 				chester hereford shrewsbury
 			}
+			our_cores_conquered_by_others = {
+				derby chesterfield henley
+				windsor reading abingdon
+				buckingham aylesbury wycombe
+				daventry bosworth leicester
+			}
 			
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
@@ -4424,10 +4356,15 @@ countries = {
 		}
 		NOL = {
 			own_control_core = {
-				alnwick appleby bedale billingham bridlington carlisle cockermouth darlington doncaster durham egremont hexham hull kendal leeds morpeth newcastle norton penrith pontefract richmond ripon scarborough selby skipton stockton wakefield whitby york
+				alnwick appleby billingham carlisle cockermouth darlington durham egremont hexham kendal morpeth newcastle penrith richmond skipton stockton
 			}
 			own_control_conquered = {
 				berwick
+			}
+			our_cores_conquered_by_others = {
+				york scarborough bedale whitby
+				leeds pontefract wakefield doncaster ripon
+				hull bridlington selby norton
 			}
 			
 			include = "expl_western_europe"
@@ -4696,9 +4633,10 @@ countries = {
 			# Orkney
 			own_control_core = {
 				orkney shetland
+				# Scotland
+				thurso dornoch durness tongue
 			}
 			our_cores_conquered_by_others = {
-				strathearn thurso
 			}
 			government = {
 				type = monarchy
@@ -4807,7 +4745,6 @@ countries = {
 			own_control_conquered = {
 				# Scotland
 				ardtornish kintyre
-				thurso dornoch durness tongue
 				kirkcudbright kenmure stranraer ayr 
 			}
 			
@@ -5143,7 +5080,8 @@ countries = {
 			include = "feudal_europe"
 			include = "expl_western_europe"
 			capital = dublin
-			accepted_cultures = { anglo_irish }
+			country_rank = rank_duchy
+			accepted_cultures = { irish }
 		}
 		CLA = {
 			own_control_core = {
@@ -12827,17 +12765,7 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "expl_indonesian_trade_route"
 			include = "expl_middle_east"
-			#	discovered_regions = {
-			#		egypt_region
-			#		khorasan_region
-			#		persia_region
-			#		ethiopia_region
-			#		nubia_region
-			#		arabia_region
-			#		western_india_region
-			#		hindustan_region
-			#		xinjiang_region
-			#	}
+
 			discovered_areas = {
 				red_sea_area
 				persian_gulf_sea_zones_area
@@ -12969,6 +12897,7 @@ countries = {
 					administrative_system = pronoia_system
 					patriarchate_law = state_patriarchate_policy
 					bureaucracy_law = centralized_bureaucracy_policy
+					medieval_levy_law = br_thema_levies
 				}
 			}
 			#Setup to accurately portray the starting situation
@@ -55799,6 +55728,320 @@ countries = {
 		
 
 
+	#North Sea Empire
+
+	N0R = {
+		own_control_core = {
+			varanger alta
+			raisa deatnu porsanger hammerfest lebesby
+			kirkenes
+			vardo troms
+		}
+		
+		own_control_integrated = {
+		}
+
+		accepted_cultures = {
+		}
+		
+		capital = hammerfest
+		country_rank = rank_county
+
+		include = "catholic_monarchy"
+		include = "expl_scandinavia"
+		government = {
+			ruler = random
+
+			centralization_vs_decentralization = 40
+			aristocracy_vs_plutocracy = -25
+			serfdom_vs_free_subjects = 75
+			traditionalist_vs_innovative = -10
+			spiritualist_vs_humanist = -50
+			mercantilism_vs_free_trade = -50
+			offensive_vs_defensive = 0
+			land_vs_naval = 70
+			quality_vs_quantity = 0
+			belligerent_vs_conciliatory = -10
+			capital_economy_vs_traditional_economy = 90
+			individualism_vs_communalism = 20
+			outward_vs_inward = -50
+
+			reforms = {
+				harbor_administration
+			}
+
+			privilege = {
+				sponsor_maritime_contracts
+				formal_guilds
+				#Nobles
+				primacy_of_nobility
+				#Clergy
+				#Peasants
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				access_to_royal_and_ecclesiastical_courts
+				peasants_yeomanry
+				peasants_allowed_weapons_privilege
+			}
+
+
+		}
 
 	}
+
+	N1R = {
+		own_control_core = {
+			trondenes senja bardodalen 
+			bodo birndal alstahaug gildeskal steigen langenes lofotr hamaroy ofoti
+		}
+		
+		own_control_integrated = {
+		}
+
+		accepted_cultures = {
+		}
+		
+		capital = bodo
+		country_rank = rank_county
+
+		include = "catholic_monarchy"
+		include = "expl_scandinavia"
+		government = {
+			ruler = random
+
+			centralization_vs_decentralization = 40
+			aristocracy_vs_plutocracy = -25
+			serfdom_vs_free_subjects = 75
+			traditionalist_vs_innovative = -10
+			spiritualist_vs_humanist = -50
+			mercantilism_vs_free_trade = -50
+			offensive_vs_defensive = 0
+			land_vs_naval = 70
+			quality_vs_quantity = 0
+			belligerent_vs_conciliatory = -10
+			capital_economy_vs_traditional_economy = 90
+			individualism_vs_communalism = 20
+			outward_vs_inward = -50
+
+			reforms = {
+				harbor_administration
+			}
+
+			privilege = {
+				sponsor_maritime_contracts
+				formal_guilds
+				#Nobles
+				primacy_of_nobility
+				#Clergy
+				#Peasants
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				access_to_royal_and_ecclesiastical_courts
+				peasants_yeomanry
+				peasants_allowed_weapons_privilege
+			}
+
+
+		}
+
+	}
+
+	N2R = {
+		own_control_core = {
+			idre sveg hede
+			hammerdal offerdal berg froso ragunda oviken
+		}
+		own_control_integrated = {
+		}
+		accepted_cultures = {
+		}
+		
+		capital = berg
+		country_rank = rank_county
+
+		include = "catholic_monarchy"
+		include = "expl_scandinavia"
+		government = {
+			ruler = random
+
+			serfdom_vs_free_subjects = 75
+			land_vs_naval = -100
+
+			reforms = {
+			}
+
+			privilege = {
+				#Nobles
+				primacy_of_nobility
+				#Clergy
+				#Peasants
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				access_to_royal_and_ecclesiastical_courts
+				peasants_yeomanry
+				peasants_allowed_weapons_privilege
+			}
+
+		}
+	}
+	
+	N3R = {
+		own_control_core = {
+			nidaros roros stjordal oppdal orkdal skaun storen holtalen meraker
+			levanger namdal orland snasa lierne steinkjer
+			tynset 
+			sunndal alvdal
+		}
+		
+		own_control_integrated = {
+		}
+
+		accepted_cultures = {
+		}
+		
+		capital = nidaros
+		country_rank = rank_county
+
+		include = "catholic_monarchy"
+		include = "expl_scandinavia"
+		government = {
+			ruler = random
+
+			centralization_vs_decentralization = 40
+			aristocracy_vs_plutocracy = -25
+			serfdom_vs_free_subjects = 50
+			traditionalist_vs_innovative = -10
+			spiritualist_vs_humanist = -50
+			mercantilism_vs_free_trade = -50
+			offensive_vs_defensive = 0
+			land_vs_naval = 75
+			quality_vs_quantity = 0
+			belligerent_vs_conciliatory = -10
+			capital_economy_vs_traditional_economy = 90
+			individualism_vs_communalism = 25
+			outward_vs_inward = -50
+
+			reforms = {
+				harbor_administration
+			}
+
+			privilege = {
+				sponsor_maritime_contracts
+				formal_guilds
+				#Nobles
+				primacy_of_nobility
+				#Clergy
+				#Peasants
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				access_to_royal_and_ecclesiastical_courts
+				peasants_yeomanry
+				peasants_allowed_weapons_privilege
+			}
+
+
+		}
+
+	}
+	
+	NSE = {
+		own_control_core = {
+			#NOR
+			konghalla stromstad uddevalla hornborg
+			moss halden borg trogstad
+			oslo ski eidsvoll
+			tonsberg skien sande grenland
+			molde fosna rauma sunnmore borgund stordal
+			stavanger ryfylke suledal haugalandet jaeren
+			flekkefjord sirudal otredal lindesnes oddernes oyestad sondeled amli
+			kongsberg ringerike hallingdal numedal sigdal bragernes flesberg
+			bergen fana kvinnherad ullensvang moster eidfjord nordhordland eid stryn sunnfjord sogndal aurland voss vik laerdal
+			vardal lillehammer valdres otta imsdalen hedmarksvidda
+			hamar kongsvinger elverum glommadal trysil amot
+			tofte
+			
+			#DAN
+			aalborg ars randers viborg
+			thisted skagen hjorring
+			kolding aarhus grindsted silkeborg kalo
+			bolling ringkobing holstebro_lundenes varde
+			ribe tonder
+			odense navskov assens svendborg
+			hammershus
+
+			#ENG
+			york scarborough bedale whitby
+			leeds pontefract wakefield doncaster ripon
+			hull bridlington selby norton
+			derby chesterfield henley
+			windsor reading abingdon
+			buckingham aylesbury wycombe
+			daventry bosworth leicester
+
+			barking bedford cambridge chelmsford colchester dunstable ely harrow hedingham hertford huntingdon kettering kingston london loughborough newark northampton nottingham prittlewell retford rutland royston st_albans walden
+			
+
+			# Northern Isles
+			#shetland orkney 
+			torshavn
+		}
+		
+		our_cores_conquered_by_others = {
+
+		}
+
+		capital = london
+		dynasty = siggurson_dynasty
+
+		country_rank = rank_empire
+
+		include = "catholic_monarchy"
+		include = "expl_scandinavia"
+		government = {
+			ruler = br_nse_character_01
+			#ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
+
+			
+			reforms = {
+				harbor_administration
+			}
+
+			privilege = {
+				sponsor_maritime_contracts
+				formal_guilds
+
+				#Nobles
+				primacy_of_nobility
+				#Clergy
+				#Peasants
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				access_to_royal_and_ecclesiastical_courts
+				peasants_yeomanry
+				peasants_allowed_weapons_privilege
+			}
+
+			centralization_vs_decentralization = 40
+			aristocracy_vs_plutocracy = -40
+			serfdom_vs_free_subjects = 40
+			traditionalist_vs_innovative = -10
+			spiritualist_vs_humanist = -50
+			mercantilism_vs_free_trade = -50
+			offensive_vs_defensive = 0
+			land_vs_naval = -25
+			quality_vs_quantity = -75
+			belligerent_vs_conciliatory = -10
+			capital_economy_vs_traditional_economy = 75
+			individualism_vs_communalism = 20
+			outward_vs_inward = -50
+		}
+		accepted_cultures = {
+			danish norwegian norn_culture
+		}
+		tolerated_cultures = {
+			english
+		}
+
+	}
+}
 }

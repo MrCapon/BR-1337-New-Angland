@@ -591,7 +591,7 @@ character_db={
 		father = dan_chistopher_ii
 		#mother = 
 		dynasty = siggurson_dynasty
-		tag = NOR
+		tag = NSE
 		general_trait = master_of_arms
 		admiral_trait = accomplished_sailor
 	}
@@ -605,7 +605,7 @@ character_db={
 		father = br_nse_character_0
 		#mother = 
 		dynasty = siggurson_dynasty
-		tag = NOR
+		tag = NSE
 	}
 
 	br_nse_character_01 = {
@@ -618,7 +618,7 @@ character_db={
 		father = dan_chistopher_ii 
 		#mother = 
 		dynasty = siggurson_dynasty
-		tag = DAN
+		tag = NSE
 		general_trait = glory_seeker
 		admiral_trait = accomplished_sailor
 	}
@@ -632,7 +632,7 @@ character_db={
 		father = br_nse_character_01
 		#mother = 
 		dynasty = siggurson_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	br_nse_character_02 = {
@@ -645,7 +645,7 @@ character_db={
 		father = dan_chistopher_ii
 		#mother = 
 		dynasty = siggurson_dynasty
-		tag = AGL
+		tag = NSE
 		general_trait = glory_seeker
 		admiral_trait = accomplished_sailor
 	}
@@ -659,7 +659,7 @@ character_db={
 		father = br_nse_character_02
 		#mother = 
 		dynasty = siggurson_dynasty
-		tag = AGL
+		tag = NSE
 	}
 
 }

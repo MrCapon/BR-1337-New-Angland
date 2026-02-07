@@ -512,6 +512,7 @@ international_organization_manager = {
 			TUR ARD ATZ DML HBN HDR HLL HNY IHB KEL KKL KLR KRI KTW MKW RKL SLI SRV SYY ZBR
 			BHT BIT DIL DMB DSN EGL HKK HZN HZR JLM MZJ SOH ZRQ ZZR #Sutayids
 			AIA SYU KCN GAN
+			A0A A2A
 
 			#Unaligned
 

@@ -121,7 +121,7 @@ character_db={
 		female = yes
 		birth = oslo
 		dynasty = sverre_aetten_dynasty
-		tag = NOR
+		tag = NSE
 	}
 	
 	nor_havtore_jonsson = {
@@ -133,7 +133,7 @@ character_db={
 		birth = oslo
 		father = dan_chistopher_ii #br added
 		dynasty = siggurson_dynasty #sudrheimaetten_dynasty
-		tag = NOR
+		tag = NSE
 	}
 	
 
@@ -147,7 +147,7 @@ character_db={
 		father = nor_havtore_jonsson
 		mother = nor_agnes
 		dynasty = siggurson_dynasty #sudrheimaetten_dynasty
-		tag = NOR
+		tag = NSE
 	}
 
 	nor_sigurd_havtoresson = {
@@ -160,7 +160,7 @@ character_db={
 		father = nor_havtore_jonsson
 		mother = nor_agnes
 		dynasty = siggurson_dynasty #sudrheimaetten_dynasty
-		tag = NOR
+		tag = NSE
 	}
 	
 	swe_magnus_eriksson = {
@@ -472,7 +472,7 @@ character_db={
 		birth_date = 849.1.1
 		death_date = 899.10.26
 		dynasty = wessex_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edward_the_elder = {
@@ -485,7 +485,7 @@ character_db={
 		death_date = 924.7.17
 		father = eng_alfred_the_great
 		dynasty = wessex_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_athelstan_the_glorious = {
@@ -498,7 +498,7 @@ character_db={
 		death_date = 939.10.27
 		father = eng_edward_the_elder
 		dynasty = wessex_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edmund_the_magnificent = {
@@ -511,7 +511,7 @@ character_db={
 		death_date = 946.5.26
 		dynasty = wessex_dynasty
 		father = eng_edward_the_elder
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_eadred = {
@@ -523,7 +523,7 @@ character_db={
 		death_date = 955.11.23
 		dynasty = wessex_dynasty
 		father = eng_edward_the_elder
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_eadwig = {
@@ -535,7 +535,7 @@ character_db={
 		death_date = 959.10.1
 		dynasty = wessex_dynasty
 		father = eng_edmund_the_magnificent
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edgar_the_peaceful = {
@@ -548,7 +548,7 @@ character_db={
 		death_date = 975.7.8
 		dynasty = wessex_dynasty
 		father = eng_edmund_the_magnificent
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edward_the_martyr = {
@@ -561,7 +561,7 @@ character_db={
 		death_date = 978.3.18
 		dynasty = wessex_dynasty
 		father = eng_edgar_the_peaceful
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_sweyn_forkbeard = {
@@ -574,7 +574,7 @@ character_db={
 		death_date = 1014.2.3
 		dynasty = canute_dynasty
 		father = dan_harald_bluetooth
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_ethelred_the_unready = {
@@ -587,7 +587,7 @@ character_db={
 		death_date = 1016.4.23
 		dynasty = wessex_dynasty
 		father = eng_edgar_the_peaceful
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edmund_ironside = {
@@ -600,7 +600,7 @@ character_db={
 		death_date = 1016.11.30
 		dynasty = wessex_dynasty
 		father = eng_ethelred_the_unready
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_cnut_the_great = {
@@ -613,7 +613,7 @@ character_db={
 		death_date = 1035.11.12
 		dynasty = canute_dynasty
 		father = eng_sweyn_forkbeard
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_harold_harefoot = {
@@ -626,7 +626,7 @@ character_db={
 		death_date = 1040.3.17
 		dynasty = canute_dynasty
 		father = eng_cnut_the_great
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_harthacnute = {
@@ -638,7 +638,7 @@ character_db={
 		death_date = 1042.6.8
 		dynasty = canute_dynasty
 		father = eng_cnut_the_great
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edward_the_confessor = {
@@ -651,7 +651,7 @@ character_db={
 		death_date = 1066.1.5
 		dynasty = wessex_dynasty
 		father = eng_ethelred_the_unready
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_harold_godwinson = {
@@ -662,7 +662,7 @@ character_db={
 		birth_date = 1022.1.1
 		death_date = 1066.10.14
 		dynasty = godwin_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_william_the_conquerer = {
@@ -675,7 +675,7 @@ character_db={
 		death_date = 1087.9.9
 		dynasty = normandy_dynasty
 		ruler_trait = conqueror
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	bls_adele_normandie = {
@@ -707,7 +707,7 @@ character_db={
 		death_date = 1100.8.2
 		dynasty = normandy_dynasty
 		father = eng_william_the_conquerer
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_henry_i = {
@@ -719,7 +719,7 @@ character_db={
 		death_date = 1135.12.1
 		dynasty = normandy_dynasty
 		father = eng_william_ii_rufus
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	anj_geoffroy_v_anjou = {
@@ -749,7 +749,7 @@ character_db={
 		father = anj_geoffroy_v_anjou
 		#mother = Empress Matilda
 		dynasty = plantagenet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_richard_i_lionheart = {
@@ -762,7 +762,7 @@ character_db={
 		death_date = 1199.4.6
 		dynasty = plantagenet_dynasty
 		father = eng_henry_ii_curtmantle
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_john_lackland = {
@@ -775,7 +775,7 @@ character_db={
 		death_date = 1216.10.19
 		dynasty = plantagenet_dynasty
 		father = eng_henry_ii_curtmantle
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_henry_iii = {
@@ -787,7 +787,7 @@ character_db={
 		death_date = 1272.11.16
 		dynasty = plantagenet_dynasty
 		father = eng_john_lackland
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edward_i = { #Grandather of Ruler
@@ -800,7 +800,7 @@ character_db={
 		death_date = 1307.7.7
 		dynasty = plantagenet_dynasty
 		father = eng_henry_iii
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_edmund_crouchback = {
@@ -872,7 +872,7 @@ character_db={
 		birth_date = 1297.1.1
 		birth = lincoln
 		spouse = eng_blanche_lancaster
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_maud_lancaster = {
@@ -938,7 +938,7 @@ character_db={
 		father = eng_john_lackland
 		#mother = Isabelle Taillefer
 		dynasty = plantagenet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# Grandmother of the Count of Bar
@@ -968,7 +968,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_i
 		mother = eng_leonor_burgundy
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_john_de_charlton_1st_baron_charlton = {		
@@ -1188,7 +1188,7 @@ character_db={
 		father = eng_roger_mortimer_1st_earl_of_march
 		birth = ludlow
 		dynasty = mortimer_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_laurence_hastings = {		
@@ -1201,7 +1201,7 @@ character_db={
 		father = eng_roger_mortimer_1st_earl_of_march
 		birth = ludlow
 		dynasty = mortimer_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_roger_mortimer_2nd_earl_of_march = {		
@@ -1227,7 +1227,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_ii
 		mother = eng_isabella_of_france
-		tag = AGL #ENG
+		tag = NSE #ENG
 		ruler_trait = "tactical_genius"
 		ruler_trait = "righteous"
 		fertility = 80
@@ -1246,7 +1246,7 @@ character_db={
 		birth = oxford	# Woodstock Palace, Oxfordshire
 		dynasty = plantagenet_dynasty
 		child_trait = child_shrewd
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	dhm_richard_de_bury = {		
@@ -1270,7 +1270,7 @@ character_db={
 		birth_date = 1332.6.16
 		birth = oxford	# Woodstock Palace, Oxfordshire
 		dynasty = plantagenet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_joan_of_england = {		
@@ -1283,7 +1283,7 @@ character_db={
 		birth_date = 1333.12.19
 		birth = london
 		dynasty = plantagenet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_thomas_of_brotherton = {
@@ -1295,7 +1295,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_i
 		mother = eng_marguerite_capet
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_margaret_of_norfolk = {
@@ -1307,7 +1307,7 @@ character_db={
 		birth_date = 1322.1.1
 		dynasty = plantagenet_dynasty
 		father = eng_thomas_of_brotherton
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_edward_of_norfolk = {
@@ -1319,7 +1319,7 @@ character_db={
 		death_date = 1334.8.9
 		dynasty = plantagenet_dynasty
 		father = eng_thomas_of_brotherton
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_alice_of_norfolk = {
@@ -1331,7 +1331,7 @@ character_db={
 		birth_date = 1324.2.12
 		dynasty = plantagenet_dynasty
 		father = eng_thomas_of_brotherton
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_edmund_of_woodstock = {
@@ -1344,7 +1344,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_i
 		mother = eng_marguerite_capet
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_edmund_of_kent = {
@@ -1356,7 +1356,7 @@ character_db={
 		death_date = 1331.10.5
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_margaret_of_kent = {
@@ -1368,7 +1368,7 @@ character_db={
 		birth_date = 1327.1.11
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_joan_of_kent = {
@@ -1380,7 +1380,7 @@ character_db={
 		birth_date = 1328.9.28
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_john_of_kent = {
@@ -1391,7 +1391,7 @@ character_db={
 		birth_date = 1330.4.7
 		dynasty = plantagenet_dynasty
 		father = eng_edmund_of_woodstock
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_joan_of_the_tower = {
@@ -1418,7 +1418,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_ii
 		mother = eng_isabella_of_france
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_john_of_eltham = {
@@ -1431,7 +1431,7 @@ character_db={
 		dynasty = plantagenet_dynasty
 		father = eng_edward_ii
 		mother = eng_isabella_of_france
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_tomos_ap_rhodri = {
@@ -1441,7 +1441,7 @@ character_db={
 		birth_date = 1300.1.1
 		birth = carnarvon
 		dynasty = aberffraw_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_owain_lawgoch = {
@@ -1454,7 +1454,7 @@ character_db={
 		birth_date = 1330.1.1
 		birth = carnarvon
 		dynasty = aberffraw_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 		ruler_trait = "bold_fighter"
 	}
 	
@@ -1465,7 +1465,7 @@ character_db={
 		birth_date = 1291.1.1
 		birth = durham	# Raby
 		dynasty = neville_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_william_zouche = {		
@@ -1475,7 +1475,7 @@ character_db={
 		birth_date = 1299.1.1
 		birth = northampton
 		dynasty = zouche_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_john_stratford = {		
@@ -1486,7 +1486,7 @@ character_db={
 		estate = clergy_estate
 		birth_date = 1275.1.1
 		birth = stratford
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_william_montague = { #Lord of Mann
@@ -1615,7 +1615,7 @@ character_db={
 		mother = gly_dervorguilla
 		#spouse = eng_bryan_fitazalan
 		dynasty = balliol_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE FITZALAN
@@ -1632,7 +1632,7 @@ character_db={
 		#father = John FitzAlan
 		#mother = Isabella Mortimer
 		dynasty = fitzalan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_eleanor_fitzalan = {		
@@ -1649,7 +1649,7 @@ character_db={
 		mother = eng_aloisia_del_vasto
 		spouse = eng_henry_percy
 		dynasty = fitzalan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edmund_fitzalan = {		
@@ -1664,7 +1664,7 @@ character_db={
 		father = eng_richard_fitzalan
 		mother = eng_aloisia_del_vasto
 		dynasty = fitzalan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_richard_fitzalan_ii = {		
@@ -1692,7 +1692,7 @@ character_db={
 		death_date = 1326.1.1
 		birth = gloucester # Barton
 		dynasty = despenser_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_isabel_le_despenser = {		
@@ -1708,7 +1708,7 @@ character_db={
 		father = eng_hugh_le_despenser_1st
 		#mother = Eleanor de Clare
 		spouse = eng_richard_fitzalan_ii
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_edmund_arundel = {		
@@ -1722,7 +1722,7 @@ character_db={
 		father = eng_richard_fitzalan_ii
 		mother = eng_isabel_le_despenser
 		dynasty = fitzalan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_aline_fitzalan = {		
@@ -1737,7 +1737,7 @@ character_db={
 		father = eng_edmund_fitzalan
 		mother = eng_alice_warenne
 		dynasty = fitzalan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_john_fitzalan = {		
@@ -1751,7 +1751,7 @@ character_db={
 		father = eng_richard_fitzalan
 		mother = eng_aloisia_del_vasto
 		dynasty = fitzalan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE FITZALAN OF BEDALE
@@ -1768,7 +1768,7 @@ character_db={
 		#father = Alan FitzBryan
 		#mother = Agnes
 		dynasty = fitzalan_bedale_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_agnes_fitzalan = {		
@@ -1784,7 +1784,7 @@ character_db={
 		mother = eng_maud_balliol
 		spouse = eng_gilbert_stapleton
 		dynasty = fitzalan_bedale_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_katherine_fitzalan = {		
@@ -1801,7 +1801,7 @@ character_db={
 		mother = eng_maud_balliol
 		spouse = eng_john_grey
 		dynasty = fitzalan_bedale_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE GREY OF ROTHERFIELD
@@ -1817,7 +1817,7 @@ character_db={
 		#father = John de Grey
 		#mother = Margaret de Odingsells
 		dynasty = grey_rotherfield_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_avice_marmion = {		
@@ -1833,7 +1833,7 @@ character_db={
 		#father = John Marmion
 		#mother = Maud Furnival
 		spouse = eng_john_grey
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_john_grey_ii = {		
@@ -1846,7 +1846,7 @@ character_db={
 		father = eng_john_grey
 		mother = eng_katherine_fitzalan
 		dynasty = grey_rotherfield_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_john_marmion = {		
@@ -1860,7 +1860,7 @@ character_db={
 		father = eng_john_grey
 		mother = eng_avice_marmion
 		dynasty = grey_rotherfield_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_robert_marmion = {		
@@ -1874,7 +1874,7 @@ character_db={
 		father = eng_john_grey
 		mother = eng_avice_marmion
 		dynasty = grey_rotherfield_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE PERCY
@@ -1890,7 +1890,7 @@ character_db={
 		#father = William Percy
 		#mother = Ellen Balliol
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_henry_percy = {		
@@ -1905,7 +1905,7 @@ character_db={
 		father = eng_henry_percy_sr
 		mother = eng_eleanor_warenne
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_henry_percy_ii = {		
@@ -1919,7 +1919,7 @@ character_db={
 		father = eng_henry_percy
 		mother = eng_eleanor_fitzalan
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_idonia_clifford = {		
@@ -1935,7 +1935,7 @@ character_db={
 		#father = Robert Clifford
 		#mother = Maud de Clare 
 		spouse = eng_henry_percy_ii
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_margaret_percy = {		
@@ -1950,7 +1950,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_henry_percy_iii = {		
@@ -1964,7 +1964,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_roger_percy = {		
@@ -1978,7 +1978,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_isabel_percy = {		
@@ -1993,7 +1993,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_thomas_percy = {		
@@ -2007,7 +2007,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 		child_trait = child_gregarious
 	}
 	
@@ -2022,7 +2022,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_eleanor_percy = {		
@@ -2036,7 +2036,7 @@ character_db={
 		father = eng_henry_percy_ii
 		mother = eng_idonia_clifford
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_william_percy = {		
@@ -2049,7 +2049,7 @@ character_db={
 		father = eng_henry_percy
 		mother = eng_eleanor_fitzalan
 		dynasty = percy_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE OF STAPLETON
@@ -2065,7 +2065,7 @@ character_db={
 		#father = Miles Stapleton
 		#mother = Laderia de Brus
 		dynasty = stapleton_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_miles_stapleton = {		
@@ -2079,7 +2079,7 @@ character_db={
 		father = eng_gilbert_stapleton
 		mother = eng_agnes_fitzalan
 		dynasty = stapleton_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_brian_stapleton = {		
@@ -2093,7 +2093,7 @@ character_db={
 		father = eng_gilbert_stapleton
 		mother = eng_agnes_fitzalan
 		dynasty = stapleton_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE STRATHBOGIE
@@ -2167,7 +2167,7 @@ character_db={
 		father = sco_david_ii_strathbogie
 		#mother = Joan Comyn
 		dynasty = strathbogie_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_mary_steward = {
@@ -2179,7 +2179,7 @@ character_db={
 		birth_date = 1315.1.1 # Unknown
 		birth = edinburgh
 		spouse = eng_adomar_atholl
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_isabel_atholl = {
@@ -2193,7 +2193,7 @@ character_db={
 		father = eng_adomar_atholl
 		mother = eng_mary_steward
 		dynasty = strathbogie_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	eng_mary_atholl = {
@@ -2207,7 +2207,7 @@ character_db={
 		father = eng_adomar_atholl
 		mother = eng_mary_steward
 		dynasty = strathbogie_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE OF WARENNE
@@ -2224,7 +2224,7 @@ character_db={
 		#father = William de Warenne
 		#mother = Maud Marshall
 		dynasty = warenne_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_eleanor_warenne = {		
@@ -2240,7 +2240,7 @@ character_db={
 		mother = eng_alix_lusignan
 		spouse = eng_henry_percy_sr
 		dynasty = warenne_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	sco_isabella_warenne = {		
@@ -2270,7 +2270,7 @@ character_db={
 		father = eng_john_warenne
 		mother = eng_alix_lusignan
 		dynasty = warenne_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_john_warenne_ii = {		
@@ -2284,7 +2284,7 @@ character_db={
 		father = eng_william_warenne
 		#mother = Joan de Vere
 		dynasty = warenne_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	eng_alice_warenne = {		
@@ -2299,7 +2299,7 @@ character_db={
 		#mother = Joan de Vere
 		#spouse = eng_edmund_fitzalan
 		dynasty = warenne_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 	
 	ord_james_butler_i = {		
@@ -5224,7 +5224,7 @@ character_db={
 		birth = kolding #unknown
 		death_date = 963.1.1 #Exact date unknown
 		dynasty = canute_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_harald_bluetooth = {
@@ -5237,7 +5237,7 @@ character_db={
 		death_date = 986.11.1 #Exact date unknown
 		father = dan_gorm_the_old
 		dynasty = canute_dynasty
-		tag = DAN
+		tag = NSE
 	}
 	
 	dan_magnus_fairhair = {
@@ -5249,7 +5249,7 @@ character_db={
 		birth = borg #unknown
 		death_date = 1047.10.25
 		dynasty = fairhair_dynasty
-		tag = NOR
+		tag = NSE
 	}
 
 	dan_estrid_svensdatter = {
@@ -5262,7 +5262,7 @@ character_db={
 		father = eng_sweyn_forkbeard
 		death_date = 1057.1.1 #Exact date unknown
 		dynasty = canute_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_harald_ii = {
@@ -5274,7 +5274,7 @@ character_db={
 		death_date = 1018.1.1 #Exact date unknown
 		dynasty = canute_dynasty
 		father = eng_sweyn_forkbeard
-		tag = NOR
+		tag = NSE
 	}
 
 	dan_sweyn_estridsson = {
@@ -5286,7 +5286,7 @@ character_db={
 		death_date = 1076.4.28
 		dynasty = siggurson_dynasty #estrid_dynasty
 		mother = dan_estrid_svensdatter
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_harald_iii = {
@@ -5299,7 +5299,7 @@ character_db={
 		death_date = 1080.4.17
 		father = dan_sweyn_estridsson
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_canute_iv = {
@@ -5312,7 +5312,7 @@ character_db={
 		death_date = 1086.7.10
 		father = dan_sweyn_estridsson
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_olaf_hunger = {
@@ -5325,7 +5325,7 @@ character_db={
 		death_date = 1095.8.18
 		father = dan_sweyn_estridsson
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 	
 	dan_erik_i = {
@@ -5338,7 +5338,7 @@ character_db={
 		death_date = 1103.7.10
 		father = dan_sweyn_estridsson
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_svend_tronkraever = {
@@ -5350,7 +5350,7 @@ character_db={
 		death_date = 1104.1.1 #Exact date unknown
 		father = dan_sweyn_estridsson
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_niels = {
@@ -5362,7 +5362,7 @@ character_db={
 		death_date = 1134.6.25
 		father = dan_sweyn_estridsson
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_henrik_skadelar = {
@@ -5374,7 +5374,7 @@ character_db={
 		death_date = 1134.6.4
 		father = dan_svend_tronkraever
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_canute_henriksen = {
@@ -5386,7 +5386,7 @@ character_db={
 		death_date = 1162.3.12
 		father = dan_henrik_skadelar
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_boris_henriksen = {
@@ -5398,7 +5398,7 @@ character_db={
 		death_date = 1167.1.1 #Exact date unknown
 		father = dan_henrik_skadelar
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_ii = {
@@ -5411,7 +5411,7 @@ character_db={
 		death_date = 1137.9.18
 		father = dan_erik_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_canute_lavard = {
@@ -5423,7 +5423,7 @@ character_db={
 		death_date = 1131.1.7
 		father = dan_erik_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_ragnhild = {
@@ -5436,7 +5436,7 @@ character_db={
 		death_date = 1140.1.7 #Unknown
 		father = dan_erik_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_iii = {
@@ -5449,7 +5449,7 @@ character_db={
 		death_date = 1146.8.27
 		mother = dan_ragnhild
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_sweyn_iii = {
@@ -5461,7 +5461,7 @@ character_db={
 		death_date = 1157.10.23
 		father = dan_erik_ii
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_canute_v = {
@@ -5473,7 +5473,7 @@ character_db={
 		death_date = 1157.10.23
 		father = swe_magnus_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_valdemar_i = {
@@ -5486,7 +5486,7 @@ character_db={
 		death_date = 1182.5.12
 		father = dan_canute_lavard
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_christopher_valdemarsen = {
@@ -5498,7 +5498,7 @@ character_db={
 		death_date = 1173.6.15
 		father = dan_valdemar_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_canute_vi = {
@@ -5510,7 +5510,7 @@ character_db={
 		death_date = 1202.11.12
 		father = dan_valdemar_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_valdemar_ii = {
@@ -5523,7 +5523,7 @@ character_db={
 		death_date = 1241.3.28
 		father = dan_valdemar_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_valdemar_the_young = {
@@ -5536,7 +5536,7 @@ character_db={
 		death_date = 1231.11.28
 		father = dan_valdemar_ii
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_iv = {
@@ -5549,7 +5549,7 @@ character_db={
 		death_date = 1250.8.10
 		father = dan_valdemar_ii
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_abel = {
@@ -5561,7 +5561,7 @@ character_db={
 		death_date = 1252.6.29
 		father = dan_valdemar_ii
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_valdemar_iii_shleswig = {
@@ -5573,7 +5573,7 @@ character_db={
 		death_date = 1257.1.1 #Exact date unknown
 		father = dan_abel
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_schleswig = {
@@ -5585,7 +5585,7 @@ character_db={
 		death_date = 1272.5.27
 		father = dan_abel
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_valdemar_iv_shleswig = {
@@ -5597,7 +5597,7 @@ character_db={
 		death_date = 1312.4.30
 		father = dan_erik_schleswig
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_christopher_i = {
@@ -5609,7 +5609,7 @@ character_db={
 		death_date = 1259.5.29
 		father = dan_valdemar_ii
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_v = {
@@ -5622,7 +5622,7 @@ character_db={
 		death_date = 1286.11.22
 		father = dan_christopher_i
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_vi = {
@@ -5635,7 +5635,7 @@ character_db={
 		death_date = 1319.11.13
 		father = dan_erik_v
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_ii_schleswig = {
@@ -5671,7 +5671,7 @@ character_db={
 		death_date = 1332.8.2
 		father = dan_erik_v
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 
 	dan_erik_christoffersen = {
@@ -5684,7 +5684,7 @@ character_db={
 		father = dan_chistopher_ii
 		death_date = 1331.12.1 #Exact date unknown
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 	
 	dan_otto_christoffersen = {
@@ -5696,7 +5696,7 @@ character_db={
 		birth = helsingor
 		father = dan_chistopher_ii
 		dynasty = siggurson_dynasty #estrid_dynasty
-		tag = DAN
+		tag = NSE
 	}
 	
 	dan_valdemar_atterdag = {
@@ -5739,7 +5739,7 @@ character_db={
 		artist_skill = 0.85
 		artist = writer
 		artist_trait = adept # Added to silence error
-		tag = DAN
+		tag = NSE
 	}
 
 	# Balkans
@@ -8801,7 +8801,7 @@ character_db={
 		mother = fra_jeanne_i_blois
 		#spouse = eng_edward_ii
 		dynasty = capet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# Line of the Counts of Valois, Kings of France (HOUSE OF VALOIS)
@@ -9256,7 +9256,7 @@ character_db={
 		mother = fra_maria_van_brabant
 		spouse = eng_edward_i
 		dynasty = capet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	vls_jean_tristan_capet = {
@@ -9614,7 +9614,7 @@ character_db={
 		father = ars_philippe_artois
 		mother = ars_blanche_dreux
 		dynasty = artois_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 		ruler_trait = well_connected
 		ruler_trait = intricate_web_weaver
 		ruler_trait = embezzler
@@ -10467,7 +10467,7 @@ character_db={
 		father = aum_philippe_hurepel_clermont
 		mother = bgn_mathilde_ii_dammartin
 		dynasty = capet_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# Line of the Counts of Dreux (HOUSE OF DREUX)
@@ -13358,7 +13358,7 @@ character_db={
 		mother = aum_jeanne_i_ponthieu
 		spouse = eng_edward_i
 		dynasty = burgundy_castile_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	lat_berenguela_burgundy = {	
@@ -16397,7 +16397,7 @@ character_db={
 		father = bls_etienne_henri_blois
 		mother = bls_adele_normandie
 		dynasty = blois_dynasty # Should be dynasty = blois_boulogne_dynasty # Founder of the Boulogne line of the House of Blois
-		tag = AGL #ENG
+		tag = NSE #ENG
 		ruler_trait = malevolent
 		ruler_trait = babbling_buffoon
 	}
@@ -16666,7 +16666,7 @@ character_db={
 		father = aum_etienne_i_blois
 		#mother = Hawise de Mortimer
 		dynasty = blois_dynasty # Should be dynasty = blois_troyes_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 		ruler_trait = bold_fighter
 	}
 
@@ -16683,7 +16683,7 @@ character_db={
 		father = eng_guillaume_i_blois
 		#mother = Cecilia McWilliam
 		dynasty = blois_dynasty # Should be dynasty = blois_troyes_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# HOUSE OF BRIENNE
@@ -17132,7 +17132,7 @@ character_db={
 		mother = sco_alice_de_comyn
 		spouse = eng_henry_grosmont
 		dynasty = beaumont_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	sco_joan_beaumont = {
@@ -21078,7 +21078,7 @@ character_db={
 		#mother = Isabelle d'Angouleme
 		spouse = eng_john_warenne
 		dynasty = lusignan_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	# Line of the Kings of Jerusalem & Cyprus
@@ -24857,7 +24857,7 @@ character_db={
 		mother = bar_eleanor_england
 		spouse = eng_john_warenne_ii
 		dynasty = de_bar_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 		fertility = 20
 	}
 
@@ -25066,7 +25066,7 @@ character_db={
 		father = fra_aimery_vii_thouars
 		#mother = Cecile de Laval
 		dynasty = thouars_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 	}
 
 	poi_aimery_ix_thouars = {
@@ -26595,7 +26595,7 @@ character_db={
 		mother = sal_luisa_di_ceva
 		spouse = eng_richard_fitzalan
 		dynasty = del_vasto_dynasty
-		tag = AGL #ENG		
+		tag = NSE #ENG		
 	}
 	
 	eng_giorgio_del_vasto = {
@@ -26608,7 +26608,7 @@ character_db={
 		father = sal_tommaso_i_del_vasto
 		mother = sal_luisa_di_ceva
 		dynasty = del_vasto_dynasty
-		tag = AGL #ENG		
+		tag = NSE #ENG		
 	}
 		
 	gen_violante_del_vasto = {
@@ -79016,7 +79016,7 @@ adm = 31 dip = 34 mil = 24
 		mother = hai_jeanne_valois
 		spouse = eng_edward_iii
 		dynasty = avesnes_dynasty
-		tag = AGL #ENG
+		tag = NSE #ENG
 		fertility = 100
 	}
 

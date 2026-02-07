@@ -611,7 +611,7 @@ NOL = {
 	unit_color1 = purple
 	unit_color2 = red
 	
-	culture_definition = anglo_norse_culture #northumbrian
+	culture_definition = northumbrian
 	religion_definition = catholic
 }
 

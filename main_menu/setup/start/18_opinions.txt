@@ -149,8 +149,8 @@ diplomacy_manager = {
 	opinion = { first = HUN second = BUL type = opinion_good_relations }
 	opinion = { first = BUL second = HUN type = opinion_good_relations }
 
-	opinion = { first = NOR second = SWE type = opinion_good_relations }
-	opinion = { first = SWE second = NOR type = opinion_good_relations }
+	opinion = { first = NSE second = SWE type = opinion_good_relations }
+	opinion = { first = SWE second = NSE type = opinion_good_relations }
 
 	opinion = { first = LIT second = PSK type = opinion_supportive_monarch }
 	opinion = { first = PSK second = LIT type = opinion_supportive_monarch }

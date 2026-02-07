@@ -166,7 +166,7 @@ B6L = {
 }
 
 AN0 = {
-	color = rgb { 125 145 85 }
+	color = rgb { 165 135 95 }
 
 	culture_definition = armenikon_greek_culture
 	religion_definition = orthodox

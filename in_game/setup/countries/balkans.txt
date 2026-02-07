@@ -164,8 +164,7 @@ RAG = {
 }
 
 BUL = {
-	color = map_bulgarian
-	color2 = rgb { 83 149 105 } #same as in EU4
+	color = rgb { 125 145 85 }
 
 	culture_definition = bulgarian
 	religion_definition = orthodox

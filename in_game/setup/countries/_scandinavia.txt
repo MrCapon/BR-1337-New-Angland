@@ -147,3 +147,39 @@ SMI = {
 
 	
 }
+# 117 165 188
+NSE = {
+	color = rgb { 117 165 188 }
+	culture_definition = anglo_norse_culture #norwegian
+	religion_definition = catholic
+}
+
+N0R = {
+	color = rgb { 97 155 178 }
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+N1R = {
+	color = rgb { 117 125 188 }
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+N2R = {
+	color = rgb { 97 135 188 }
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+N3R = {
+	color = rgb { 107 195 108 }
+	culture_definition = norwegian
+	religion_definition = catholic
+}
+
+N4R = {
+	color = rgb { 157 165 188 }
+	culture_definition = norwegian
+	religion_definition = catholic
+}

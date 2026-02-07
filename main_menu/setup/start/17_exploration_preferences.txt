@@ -135,12 +135,12 @@ exploration_manager = {
 
 	#NORWAY
 		add_exploration_preference = {
-		country = NOR
+		country = NSE
 		modifier = 3.0
 		area = nord_norge_area
 	}
 	add_exploration_preference = {
-		country = NOR
+		country = NSE
 		modifier = 2
 
 		area = atlantic_north_atlantic_current_area

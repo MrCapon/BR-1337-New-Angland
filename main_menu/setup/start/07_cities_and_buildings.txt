@@ -1167,6 +1167,10 @@ building_manager = {
 	wharf = { tag = DAN level = 1 location = randers }
 	wharf = { tag = DAN level = 1 location = aalborg }
 
+	wharf = { tag = DAN level = 1 location = oslo }
+	wharf = { tag = DAN level = 1 location = viborg }
+	dock = { tag = DAN level = 1 location = london }
+
 	
 	monastery 	= { tag = SWE level = 1 location = vadstena }
 	monastery 	= { tag = SWE level = 1 location = alvastra }

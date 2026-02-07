@@ -213,7 +213,7 @@ war_manager = {
 	}
 	
 	truce = { 
-		attacker = NOR
+		attacker = NSE
 		#
 		defender = SWE
 		#either use end_date or start_date = <date> with months = <int>. Can skip months to use NDefines::NDiplomacy::TRUCE_YEARS instead

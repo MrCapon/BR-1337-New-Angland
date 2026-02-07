@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #ERE tags
+#ERE tags
  ANA: "Anatolía" # Endonym: Greek name for Anatolia
  ANA_ADJ: "Anatolikós" # Greek adjective meaning "of Anatolia"
  KAP: "Kappadokía" # Endonym: Greek name for Cappadocia
@@ -46,7 +46,7 @@
  A1G: "Aigaíon Pélagos"
  A1G_ADJ: "Aigaïtikós"
 
- #India
+#India
  INK: "Indikē" # Greek-flavored endonym for India
  INK_ADJ: "Indikós"
  RIC: "Indikēs" # Stylized endonym for Emporikē Hetaireía tēs Indikēs
@@ -54,7 +54,7 @@
  S0K: "Sōkōtría"
  S0K_ADJ: "Sōkōtría"
 
- #Italy
+#Italy
  VTC: "Arcipelago"
  VTC_ADJ: "Arcipelago"
  GTC: "Mare Maggiore" #Genonese Trade Guild
@@ -78,7 +78,7 @@
  N3P: "Neápolis"
  N3P_ADJ: "Neápolis"
 
- #Armenia and Georgia
+#Armenia and Georgia
  DER: "Terzn"
  DER_ADJ: "Terzn"
  KOG: "Koghoni"
@@ -92,7 +92,7 @@
  SGO: "Order of Saint George"
  SGO_ADJ: "Saint George"
 
- #Iberia
+#Iberia
  LON: "Asturias"
  LON_ADJ: "Asturias"
  LON_LONG: "Crown of $LON$"
@@ -103,7 +103,7 @@
  AD2: "Mayūrqa"
  AD2_ADJ: "Mayūrqa"
  
- # British Isles
+# British Isles
  AGL: "Anglia"
  AGL_ADJ: "Anglian"
  DST: "Dorset"
@@ -126,9 +126,17 @@
  EIL: "Ely"
  EIL_ADJ: "Ely"
 
- # Scandinavia
+# Scandinavia
  ZEA: "Zealand"
  ZEA_ADJ: "Zealander"
+ N0R: "Finnmark"
+ N0R_ADJ: "Finnmark"
+ N1R: "Nordland"
+ N1R_ADJ: "Nordland"
+ N2R: "Jämtland"
+ N2R_ADJ: "Jämtland"
+ N3R: "Trøndelag"
+ N3R_ADJ: "Trøndelag"
 
  #Balkans
  B0L: "Dobrudja"
