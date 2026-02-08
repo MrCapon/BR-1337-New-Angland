@@ -220,6 +220,14 @@
 
 	on_left = {
 	}
+
+	# TO-DO add tiered membership types
+	#special_statuses_implemented = {
+	#}
+
+	#TO-DO add unqiue laws
+	#laws = {
+	#}
 	
 	monthly_effect = {
 		leader_country ?= {
