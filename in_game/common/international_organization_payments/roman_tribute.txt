@@ -2,6 +2,9 @@
 roman_tribute = {
 	get_payer_list = {
 		every_international_organization_member = {
+			limit = { 
+				NOT = { is_leader_of_international_organization = root }
+			}
 			add_to_local_variable_list = {
 				name = payers
 				target = this
@@ -9,11 +12,7 @@ roman_tribute = {
 		}
 	}
 	get_payee_list = {
-		leader_country = {
-			limit = { 
-				NOT = { is_leader_of_international_organization = root }
-			}
-
+		leader_country ?= {
 			add_to_local_variable_list = {
 				name = payees
 				target = this
@@ -22,7 +21,7 @@ roman_tribute = {
 	}
 	price = roman_tribute_price
 	uses_maintenance = yes
-	min_slider_value = 0 #otherwise Yuan quickly go broke when the RTR fires up
+	min_slider_value = 0 
 	maintenance_modifier = {
 		potential_trigger = {
 			"payment_maintenance(scope:recipient|roman_tribute)" < 0.5
@@ -34,7 +33,7 @@ roman_tribute = {
 				multiply = 2
 			}
 		}
-		monthly_celestial_authority = -0.2
+		global_crown_estate_power = -0.2
 	}
 	maintenance_modifier = {
 		potential_trigger = {
@@ -45,7 +44,7 @@ roman_tribute = {
 			subtract = 0.5
 			multiply = 2
 		}
-		monthly_celestial_authority = 0.2
+		global_crown_estate_power = 0.2
 	}
 	price_multiplier = {
 		add = {
@@ -57,7 +56,7 @@ roman_tribute = {
 				add = {
 					value = monthly_income_trade_and_tax
 					multiply = {
-						value = 1
+						value = 0.25 #1
 						add = modifier:tribute_payment_received_modifier
 					}
 				}
@@ -66,20 +65,14 @@ roman_tribute = {
 	}
 	proportion_for_payer = {
 		add = {
-			desc = "roman_emperor"
-			value = 1
+			desc = "roman_tribute"
+			value = monthly_income_trade_and_tax #1
 		}
 	}
 	proportion_for_payee = {
 		add = {
-			desc = "AUTO_MODIFIER_NAME_monthly_income_impact"
-			value = monthly_income_trade_and_tax
-		}
-		multiply = {
-			format = "TWO_DP_ENTRY_FORMAT_PERCENT_MULTIPLIER"
-			desc = "MODIFIER_TYPE_NAME_tribute_payment_received_modifier"
+			desc = "roman_tribute"
 			value = 1
-			add = modifier:tribute_payment_received_modifier
 		}
 	}
 }
