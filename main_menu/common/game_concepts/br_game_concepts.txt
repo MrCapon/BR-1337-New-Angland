@@ -1,0 +1,3 @@
+﻿roman_authority_gc = {
+	texture = "gfx/interface/icons/modifier_types/monthly_roman_authority.dds"
+}

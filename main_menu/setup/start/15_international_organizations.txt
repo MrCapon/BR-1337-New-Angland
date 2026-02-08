@@ -26,10 +26,71 @@ international_organization_manager = {
         leader = EPI
     }
 
+	add_international_organization = {
+		type = roman_world
+		creation_date = 1.1.1
+		members = { 
+			#Emperor
+			BYZ 
+			#Members
+			EPI TRE FEO CIL
+
+			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF KAP AOI 
+			AN0 AN1 AN2 EPI
+			M0E ACH B0R THS DYR AN3
+			S1C S2C S3C N3P
+			#ARM GEO SER
+			#KOG DER MES VAN VDZ
+			OHS SGO RH0 #RIC
+			BNK MKB CHY 
+
+		}
+
+		
+		leader = BYZ
+		regions = { 
+			anatolia_region 
+			balkan_region
+		}
+		areas = { 
+			apulia_area
+			basilicata_area
+			campania_area
+			sicily_area
+
+		}
+		provinces = { 
+			#antakya_province
+			erzurum_province
+			gothia_province
+			cafa_province
+		}
+		locations = { 
+			venice
+			trapessac
+			antioch
+			arsuz
+		}
+
+
+		ruler_term = { character = byz_michael_viii_palaiologos start_date = 1261.12.25 end_date = 1282.12.1 regnal_number = 8 }
+		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1282.12.11 end_date = 1294.5.21 regnal_number = 2 }
+		ruler_term = {
+			character = byz_andronikos_ii_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 2
+			character = byz_michael_ix_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 9 # Junior Co-Emperor
+		}
+		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
+		ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
+
+
+		variables = {
+			roman_authority = 75
+		}
+	}
 
 
 	#################################################################
-	# 				Holy Roman Empire								#
+	# 					Holy Roman Empire							#
 	#################################################################
 	add_international_organization = {
 		type = hre
