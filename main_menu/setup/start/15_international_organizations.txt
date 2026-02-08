@@ -41,7 +41,7 @@ international_organization_manager = {
 			S1C S2C S3C N3P
 			#ARM GEO SER
 			#KOG DER MES VAN VDZ
-			OHS SGO RH0 RIC
+			OHS SGO RH0 #RIC
 			BNK MKB CHY 
 
 		}
@@ -60,9 +60,11 @@ international_organization_manager = {
 
 		}
 		provinces = { 
+			antakya_province
 		}
 		locations = { 
 			venice
+			theodoro kaffa soldaia vosporo
 		}
 
 
