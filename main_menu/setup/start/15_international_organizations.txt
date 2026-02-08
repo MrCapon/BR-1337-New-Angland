@@ -60,11 +60,16 @@ international_organization_manager = {
 
 		}
 		provinces = { 
-			antakya_province
+			#antakya_province
+			erzurum_province
+			gothia_province
+			cafa_province
 		}
 		locations = { 
 			venice
-			theodoro kaffa soldaia vosporo
+			trapessac
+			antioch
+			arsuz
 		}
 
 
@@ -78,14 +83,14 @@ international_organization_manager = {
 		ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
 
 
-		variables = { 
+		variables = {
 			roman_authority = 75
 		}
 	}
 
 
 	#################################################################
-	# 				Holy Roman Empire								#
+	# 					Holy Roman Empire							#
 	#################################################################
 	add_international_organization = {
 		type = hre

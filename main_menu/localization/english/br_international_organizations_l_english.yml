@@ -15,6 +15,7 @@
  #roman_world_desc: "Basileía tōn Romaíon represents the institutional heart of the Roman Empire: its laws, offices, treasury, and mechanisms of rule centered in Constantinople. It reflects the capacity of the Basileus to govern directly through established authority, administration, and tradition. A strong Basileía ensures stability, obedience, and effective governance, while weakness within it undermines imperial control regardless of external recognition."
 
  RW_LEADER: "Basileus"
+ NUMBER_OF_ROMAN_MEMBERS: "Romaiokratía Members"
 
  roman_authority: "Auctoritas" #or Oikoumenikón, Legitimitas, Caesarian, Imperial Authority, Imperium, Maiestas, Dominium, Exousía, Kýros
  roman_authority_DISPLAY: "Auctoritas"
