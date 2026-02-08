@@ -74,11 +74,18 @@
 
 	non_leader_modifier = {
 		block_from_change_to_empire_rank = yes
+
+		loyalty_to_overlord = 10
+		fort_maintenance_cost = -0.10
+		fort_limit = 1
+		#global_hostile_attrition = 0.10
+
+		diplomatic_capacity_modifier = -0.5
 	}
 
 	variables = {
 		roman_authority = {
-			format = "roman_authority_DISPLAY"
+			format = "celestial_authority_DISPLAY"
 			change_format = "VARIABLE_CHANGE_FORMAT"
 			min = 0
 			max = 100
@@ -160,7 +167,7 @@
 		max_diplomats = 2
 		diplomatic_range = 500
 
-		fort_limit = 1
+		#fort_limit = 1
 
 		num_possible_artists = 1 
 		government_size = 1
@@ -318,9 +325,9 @@
 			}
 		}
 		add = {
-			desc = "CURRENT_CELESTIAL_AUTHORITY"
+			desc = "CURRENT_ROMAN_AUTHORITY"
 			root = { 
-				value = var:celestial_authority 
+				value = var:roman_authority 
 				multiply = 0.05
 			}
 		}

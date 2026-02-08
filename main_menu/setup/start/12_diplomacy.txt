@@ -444,6 +444,8 @@ diplomacy_manager = {
    
     #dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
 
+    # state_bank
+
     #Sub dependencies
     dependency = { first = ATH second = M0E subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma

@@ -16,6 +16,7 @@
 
  RW_LEADER: "Basileus"
  NUMBER_OF_ROMAN_MEMBERS: "Romaiokratía Members"
+ CURRENT_ROMAN_AUTHORITY: "Current Auctoritas"
 
  roman_authority: "Auctoritas" #or Oikoumenikón, Legitimitas, Caesarian, Imperial Authority, Imperium, Maiestas, Dominium, Exousía, Kýros
  roman_authority_DISPLAY: "Auctoritas"
