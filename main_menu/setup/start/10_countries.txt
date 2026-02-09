@@ -32073,14 +32073,54 @@ countries = {
 				ruler_term = {	 character = dul_karaca start_date = 1337.1.1 }
 				ruler = dul_karaca
 				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					banal_lordship
+					#joint_assembly_decrees
 					ghazi_privilege
+					noble_sponsored_navy
+					auxilium_et_consilium
+
+					#Ulama
+					#waqf_payments
+					embellish_great_works_of_faith
+					freedom_of_interpretation
+					
+					#Burghers
+					trade_monopolies
+					formal_guilds
+					shipwright_contracts
+					land_of_commerce
+					allow_trade_center_sponsorship
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
+
+					#peasants
+					peasants_allowed_weapons_privilege
+					
 					#Dhimmi #BR ADDED
-					dhimmi_land_rights
 					dhimmi_administrative_posts
 					dhimmi_abrahamic_communities
-					dhimmi_pact_of_umar
 					dhimmi_military_service
+					dhimmi_land_rights
+					dhimmi_pact_of_umar
 					dhimmi_traditions
+					dharmic_dhimmi_communities
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
+
+					#Tribes
+					tribes_tribal_levies
+					tribes_allow_gatherings
+					tribes_land_rights
+					tribes_pasture_access
+					tribes_tribal_registry
+					tribes_protected_faith
+					tribes_in_administration
+
 				}
 				
 				laws = {
@@ -32098,8 +32138,8 @@ countries = {
 			country_rank = rank_duchy
 			religious_school = ismaili_school
 			tolerated_cultures = {
-				armenian_culture
-				kurdish_culture
+				levantine_culture
+				syriac_culture
 			}
 		}
 		
@@ -33266,8 +33306,10 @@ countries = {
 		#Al 'Alī - AAL
 		AAL = {
 			own_control_core = {
-				burraq jayrud qutayfah
 				sakaka dumat_al_jandal aba_al_qur al_hamad arar
+			}
+			our_cores_conquered_by_others = {
+				burraq jayrud qutayfah
 			}
 			
 			starting_technology_level = 3
@@ -33295,9 +33337,11 @@ countries = {
 		#Al Mira - AMR
 		AMR = {
 			own_control_core = {
-				bosra dara irbid nawa salkhad suwayda
 				azraq
 				kaf al_harrah an_nasifah qurayyat_al_milh
+			}
+			our_cores_conquered_by_others = {
+				bosra dara irbid nawa salkhad suwayda
 			}
 			
 			starting_technology_level = 3
@@ -55653,6 +55697,8 @@ countries = {
 			own_control_core = {
 				beirut baalbek deir_qamar sidon tripoli_syria
 				damascus artah baniyas hama homs idlib jableh kafartab latakia masyaf nabek qusayr tartus
+				burraq jayrud qutayfah
+				bosra dara nawa salkhad suwayda irbid
 			}
 			
 			include = "expl_muslim_mediterranean"
@@ -55726,8 +55772,6 @@ countries = {
 			capital = damascus
 		}
 		
-
-
 	#North Sea Empire
 
 	N0R = {
