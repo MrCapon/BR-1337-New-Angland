@@ -1020,8 +1020,6 @@ diplomacy_manager = {
 
     #------------Levant-------------
     dependency = { first = MAM second = SY2 subject_type = vassal }
-    dependency = { first = SY2 second = AAL subject_type = vassal }
-    dependency = { first = SY2 second = AMR subject_type = vassal }
     dependency = { first = MAM second = BKZ subject_type = vassal }
     dependency = { first = MAM second = BQA subject_type = vassal }
     dependency = { first = MAM second = SKN subject_type = vassal }
