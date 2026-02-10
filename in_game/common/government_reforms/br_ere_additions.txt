@@ -40,8 +40,34 @@ br_mongol_tolerance = {
 
         global_pop_assimilation_speed_modifier = -0.85
         global_pop_conversion_speed_modifier = -0.85
+        wrong_culture_levy_size = 0.25
         #local_tribesmen_migration_allowed = yes
 	}
 	unique = yes
+	years = 2
+}
+
+REPLACE_OR_CREATE:br_alandalus_reform = {
+	major = yes
+	unique = yes
+	age = age_1_traditions
+	government = monarchy
+    icon = the_jewel_of_alandalus_reform
+	potential = {
+		has_or_had_tag = ADU
+	}
+	allow = {
+		has_embraced_institution = institution:legalism
+	}
+	country_modifier = {
+		monthly_towards_humanist = societal_value_monthly_move
+		global_clergy_estate_power = -1
+		global_nobles_estate_power = -1
+		global_burghers_estate_power = -1
+		global_dhimmi_estate_power = 1
+        tolerance_heathen = 4
+        global_pop_conversion_speed_modifier = -0.75
+		dhimmi_estate_levy_size = 0.25
+	}
 	years = 2
 }

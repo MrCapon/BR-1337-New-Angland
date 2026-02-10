@@ -593,7 +593,7 @@
 	text = {
 		localization_key = rank_empire_muslim_nasrids
 		trigger = {
-			tag = GRA
+			tag = ADU #BR EDIT
 			ruler_or_heir_if_regent.dynasty ?= { dynasty:nasrid_dynasty ?= this } 
 			country_rank_is_empire = yes
 			religion.group = religion_group:muslim

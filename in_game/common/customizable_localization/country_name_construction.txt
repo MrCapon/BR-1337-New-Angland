@@ -35,6 +35,14 @@
 					religion.group = religion_group:muslim
 				}
 				AND = {
+					tag = ADU
+					OR = {
+						country_rank = country_rank:rank_empire
+						country_rank = country_rank:rank_kingdom
+					}
+					religion.group = religion_group:muslim
+				}
+				AND = {
 					tag = DAU
 					OR = {
 						country_rank = country_rank:rank_duchy

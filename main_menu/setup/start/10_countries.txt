@@ -4205,6 +4205,10 @@ countries = {
 			
 			accepted_cultures = {
 				gothic_culture
+				varangian
+			}
+			tolerated_cultures = {
+				latinoi
 			}
 			
 			include = "expl_western_europe"
@@ -12911,7 +12915,11 @@ countries = {
 				complacency = 25
 			}
 
+			accepted_cultures = {
+				varangian
+			}
 			tolerated_cultures = {
+				latinoi
 				anatolian_greek_culture
 				pontic_greek_culture
 			}
@@ -14331,6 +14339,7 @@ countries = {
 				
 				reforms = {
 					the_jewel_of_alandalus_reform
+					br_alandalus_reform
 				}
 				laws = {
 					sharia_law = maliki_policy
@@ -14339,7 +14348,7 @@ countries = {
 			court_language = maghrebi_dialect
 			religious_school = maliki_school
 			
-			country_rank = rank_kingdom #Should be an Empire Caliphate but Empire Tier Titles need to be fixed.
+			country_rank = rank_empire #Caliphate
 			
 			ai_advance_preference_tags = {
 				exploration = 5
@@ -21978,7 +21987,7 @@ countries = {
 			include = "expl_muslim_mediterranean"
 			include = "expl_horn_of_africa"
 			include = "muslim_monarchy"
-			country_rank = rank_kingdom #Should be an Empire Caliphate but Empire Tier Titles need to be fixed.
+			country_rank = rank_empire #Caliphate
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture #mamluk_succesion
@@ -54067,7 +54076,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = random
+				ruler = br_ere_rdm_character_01
 			}
 			currency_data = {
 				gold = 850
@@ -54185,15 +54194,15 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = random
+				ruler = br_ere_rdm_character_00
 			}
 			
 			country_rank = rank_county
 			accepted_cultures = {
-				aromanian
+				varangian
 			}
 			tolerated_cultures = {
-				arvanite
+				latinoi
 			}
 			
 			liturgical_language = khoine_dialect
