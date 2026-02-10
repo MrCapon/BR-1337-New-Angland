@@ -43,6 +43,12 @@ br_on_game_start = {
 			grant_estate_privilege = estate_privilege:br_roman_ecumenical_patriarch_privilege
 		}
 
+		c:ETH = {
+			research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:organized_religion
+		}
+
         #BR added Trade Company
 		every_country = {
 			limit = { has_reform = government_reform:merchant_republic }
@@ -105,6 +111,10 @@ br_on_game_start = {
 			research_advance = advance_type:unlock_hulk_advance
 			research_advance = advance_type:organized_religion
 			research_advance = advance_type:scholasticism
+			research_advance = advance_type:italian_universities
+			research_advance = advance_type:italy_great_families
+			research_advance = advance_type:italian_innovativeness
+			research_advance = advance_type:italian_condottieri
         }
 		c:RIC = {
 			research_advance = advance_type:unlock_barque_advance
