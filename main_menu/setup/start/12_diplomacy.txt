@@ -55,8 +55,6 @@ diplomacy_manager = {
     dependency = { first = SWE second = BIO subject_type = vassal }
     dependency = { first = SWE second = KUR subject_type = vassal }
 	dependency = { first = SWE second = ORE subject_type = vassal }
-    dependency = { first = SWE second = ARR subject_type = vassal }
-	dependency = { first = SWE second = BID subject_type = vassal }
     dependency = { first = SWE second = PSK subject_type = tributary }
     dependency = { first = SWE second = NOV subject_type = tributary }
 

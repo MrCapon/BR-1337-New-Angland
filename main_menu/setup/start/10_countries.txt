@@ -168,9 +168,6 @@ countries = {
 		}
 		
 		DAN = {
-			own_control_core = {
-			}
-			
 			our_cores_conquered_by_others = {
 				varberg halmstad kungsbacka
 				ronneby bregne solvesborg
@@ -256,11 +253,7 @@ countries = {
 				helsingborg lund malmo
 				laholm asbo
 			}
-			
-			our_cores_conquered_by_others = {
-			}
-			
-			
+
 			capital = lund
 			
 			include = "catholic_monarchy"
@@ -632,12 +625,10 @@ countries = {
 			#Teutonic Order
 			own_control_core = {
 				balga ostroda dzierzgon elblag morag
+				mergentheim
 			}
 			own_control_integrated = {
-				ragnit tilsit mergentheim gumbinnen barten wegorzewo
-				gerdauen insterburg wehlau
-				labiau memel windenburg
-				elk nibork ryn_poland szczytno
+				nibork szczytno
 				malbork
 				konigsberg brandenburg_prussia
 			}
@@ -718,7 +709,7 @@ countries = {
 				saarde suure_jaani makonkalns aizkraukle salaspils
 			}
 			
-			include = "catholic_monarchy"
+			include = "catholic_monarchy_not_present"
 			include = "feudal_europe"
 			#include = "catholic_military_order"
 			include = "expl_northern_europe"
@@ -861,7 +852,7 @@ countries = {
 		
 		ARR = {
 			#Archbishopric of Riga https://en.wikipedia.org/wiki/Archbishopric_of_Riga
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				gulbene jekabpils koknese pietalava rauna vilaka
 				sigulda cesis
 				rezekne daugavpils selpils kraslava
@@ -869,19 +860,11 @@ countries = {
 			}
 			
 
-			include = "catholic_monarchy"
+			include = "catholic_monarchy_not_present"
 			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				
-				ruler = random #rig_friedrich_von_pernstein
-				#ruler_term = { character = rig_friedrich_von_pernstein start_date = 1304.1.1 regnal_number = 1 }
-				#regnal_numbers = {
-				#	name_frederick = 1
-				#}
 			}
 			
 			tolerated_cultures = {
@@ -951,23 +934,16 @@ countries = {
 		}
 		
 		BID = {
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				tartu valka vastseliina vonnu aluksne
 			}
 			
-			include = "catholic_monarchy"
+			include = "catholic_monarchy_not_present" 
 			include = "feudal_europe"
 			include = "expl_northern_europe"
 			
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				
-				ruler = random #bid_engelbert_von_dolen
-				#ruler_term = { character = bid_engelbert_von_dolen start_date = 1323.1.1 regnal_number = 1 }
-				#regnal_numbers = {
-				#	name_engelbert = 1
-				#}
+
 			}
 			
 			tolerated_cultures = {
@@ -1480,20 +1456,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
-			include = "catholic_monarchy_no_coast"
+			include = "catholic_monarchy_not_present"
 			include = "feudal_europe"
 			include = "expl_northern_europe"
 			include = "german_principality"
 			government = {
-				
-				ruler = saa_johann_i_saarbrucken
-				
-				ruler_term = { character = saa_simon_iv_saarbrucken start_date = 1274.1.1 end_date = 1308.1.1 regnal_number = 4 }
-				ruler_term = { character = saa_johann_i_saarbrucken start_date = 1308.1.1 regnal_number = 1 }
-				
-				regnal_numbers = {
-					name_simeon = 4
-				}
 			}
 			
 			tolerated_cultures = {
@@ -4221,9 +4188,6 @@ countries = {
 				taman
 			}
 
-			our_cores_conquered_by_others = {
-			}
-
 			starting_technology_level = 3
 			government = {
 				type = republic
@@ -4264,13 +4228,13 @@ countries = {
 			}
 			
 			include = "expl_western_europe"
-			include = "catholic_monarchy"
+			include = "catholic_monarchy_not_present"
 			include = "feudal_europe"
 			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = br_nse_character_0
+				#ruler = br_nse_character_0
 			}
 			
 			accepted_cultures = {
@@ -56153,5 +56117,79 @@ countries = {
 		}
 
 	}
+
+	#Baltic additions
+
+	BA0 = {	#Pruthenia
+		own_control_core = {
+			ragnit tilsit gumbinnen barten wegorzewo
+			gerdauen insterburg wehlau
+			labiau memel windenburg
+			ryn_poland elk
+		}
+		our_cores_conquered_by_others = {
+
+		}
+			
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eurasian_tribe"
+		government = {
+			type = tribe
+			heir_selection = tribal_oldest_male
+			ruler = random
+		}
+
+		capital = raseiniai
+		country_rank = rank_county
+	}
+
+	BA1 = {	#Pruthenia
+		own_control_core = {
+			gulbene jekabpils koknese pietalava rauna vilaka
+			sigulda cesis
+			rezekne daugavpils selpils kraslava
+			makonkalns aizkraukle salaspils
+		}
+		our_cores_conquered_by_others = {
+		}
+			
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eurasian_tribe"
+		government = {
+			type = tribe
+			heir_selection = tribal_oldest_male
+			ruler = random
+		}
+
+		capital = raseiniai
+		country_rank = rank_county
+	}
+
+	BA2 = {	#Pruthenia
+		own_control_core = {
+			tartu valka vastseliina vonnu aluksne
+		}
+		our_cores_conquered_by_others = {
+		}
+			
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eurasian_tribe"
+		government = {
+			type = tribe
+			heir_selection = tribal_oldest_male
+			ruler = random
+		}
+
+		capital = raseiniai
+		country_rank = rank_county
+	}
+
+
+
+
 }
+
 }

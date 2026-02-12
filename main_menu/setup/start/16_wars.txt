@@ -53,12 +53,9 @@ war_manager = {
 		attacker = PMS
 		attacker = CHL
 		#Livonia and Vassals
-		attacker = LIV
 		attacker = RIG
-		attacker = ARR
 		attacker = KUR
 		attacker = BIO
-		attacker = BID
 		#Poland and Vassals
 		defender = POL
 		defender = INO

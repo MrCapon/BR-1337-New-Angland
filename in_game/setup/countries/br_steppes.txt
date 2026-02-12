@@ -27,3 +27,24 @@ REPLACE_OR_CREATE:GAZ = {
 INJECT:GLH = {
 	culture_definition = astrakhani
 }
+
+BA0 = {
+	color = rgb { 74 69 96 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+BA1 = {
+	color = rgb { 54 149 76 }
+
+	culture_definition = latvian
+	religion_definition = romuva
+}
+
+BA2 = {
+	color = rgb { 154 79 112 }
+
+	culture_definition = estonian
+	religion_definition = muinaisusko
+}

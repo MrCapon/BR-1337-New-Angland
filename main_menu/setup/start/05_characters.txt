@@ -86930,7 +86930,7 @@ adm = 31 dip = 34 mil = 24
 		estate = clergy_estate
 		birth_date = 1270.1.1
 		birth = riga
-		tag = ARR
+		tag = SWE
 	}
 
 	#Courland
@@ -86963,7 +86963,7 @@ adm = 31 dip = 34 mil = 24
 		estate = clergy_estate
 		birth_date = 1300.1.1
 		birth = riga
-		tag = BID
+		tag = SWE
 	}
 	
 	#Chełmno

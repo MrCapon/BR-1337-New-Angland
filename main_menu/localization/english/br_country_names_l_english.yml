@@ -181,6 +181,14 @@
  AN5: "Seleukeía"
  AN5_ADJ: "Seleukeía"
 
+ #Baltics
+ BA0: "Pruthenia"
+ BA0_ADJ: "Pruthenian"
+ BA1: "Latvia"
+ BA1_ADJ: "Lavian"
+ BA2: "Tartu"
+ BA2_ADJ: "Tartu"
+
  # France
  LYN: "Lyonnais"
  LYN_ADJ: "Lyonnais"
@@ -218,7 +226,7 @@
  DOR_ADJ: "Tuniit"
  INV: "Innulånd"
  INV_ADJ: "Innulåndic"
- 
+
  ####---------- Tsenacommacah ----------####
  ELY_f: "$ELY$"
  E1Y: "Elysiara"
