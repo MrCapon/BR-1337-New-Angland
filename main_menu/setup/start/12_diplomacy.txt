@@ -102,13 +102,13 @@ diplomacy_manager = {
 	
 	# Golden Horde
 	#Moldova
-	dependency = { first = GLH second = BIA subject_type = tributary }
-	dependency = { first = GLH second = BLD subject_type = tributary }
-	dependency = { first = GLH second = HTN subject_type = tributary }
-	dependency = { first = GLH second = HSC subject_type = tributary }
-	dependency = { first = GLH second = IAS subject_type = tributary }
-	dependency = { first = GLH second = SRC subject_type = tributary }
-	dependency = { first = GLH second = SSI subject_type = tributary }
+	#dependency = { first = GLH second = BIA subject_type = tributary }
+	#dependency = { first = GLH second = BLD subject_type = tributary }
+	#dependency = { first = GLH second = HTN subject_type = tributary }
+	#dependency = { first = GLH second = HSC subject_type = tributary }
+	#dependency = { first = GLH second = IAS subject_type = tributary }
+	#dependency = { first = GLH second = SRC subject_type = tributary }
+	#dependency = { first = GLH second = SSI subject_type = tributary }
 	
 	#Ruthenia #br moved to tatar yoke
 	#dependency = { first = GLH second = BRY subject_type = tributary }
@@ -615,8 +615,8 @@ diplomacy_manager = {
     dependency = { first = TUR second = KCN subject_type = vassal }
     dependency = { first = TUR second = ATC subject_type = vassal }
     dependency = { first = TUR second = GAN subject_type = vassal }
-    dependency = { first = TUR second = GEO subject_type = tributary }
-    dependency = { first = TUR second = ARM subject_type = tributary }
+    #dependency = { first = TUR second = GEO subject_type = tributary }
+    #dependency = { first = TUR second = ARM subject_type = tributary }
 
     dependency = { first = A0A second = HNY subject_type = vassal }
     dependency = { first = A0A second = KRI subject_type = vassal }
@@ -640,6 +640,8 @@ diplomacy_manager = {
     scripted_mutual = { first = HBN second = KTW type = alliance }
     scripted_mutual = { first = MKW second = ZZR type = alliance }
 
+    dependency = { first = FDL second = HLL subject_type = vassal }
+
     #-------------Persia------------
     dependency = { first = TUR second = HDN subject_type = vassal }
     dependency = { first = TUR second = QOM subject_type = vassal }
@@ -658,10 +660,10 @@ diplomacy_manager = {
     #-------------Caucasus------------
     dependency = { first = GEO second = AAI subject_type = vassal }
     dependency = { first = GEO second = SME subject_type = vassal }
-    dependency = { first = GLH second = AVR subject_type = vassal }
-    dependency = { first = GLH second = LEK subject_type = vassal }
-    dependency = { first = GLH second = SMS subject_type = vassal }
-    dependency = { first = GLH second = TRK subject_type = vassal }
+    #dependency = { first = GLH second = AVR subject_type = vassal }
+    #dependency = { first = GLH second = LEK subject_type = vassal }
+    #dependency = { first = GLH second = SMS subject_type = vassal }
+    #dependency = { first = GLH second = TRK subject_type = vassal }
     dependency = { first = TRK second = KAI subject_type = vassal }
     dependency = { first = TRK second = TBA subject_type = vassal }
     dependency = { first = GEO second = RUT subject_type = tributary }
@@ -892,20 +894,20 @@ diplomacy_manager = {
     dependency = { first = SZH second = XSY subject_type = tusi }
 
     #-------------Xinjiang----------
-    dependency = { first = CHG second = APD subject_type = vassal }
-    dependency = { first = CHG second = ART subject_type = vassal }
-    dependency = { first = CHG second = BKH subject_type = vassal }
-    dependency = { first = CHG second = BRL subject_type = vassal }
-    dependency = { first = CHG second = BSD subject_type = vassal }
-    dependency = { first = CHG second = DGH subject_type = vassal }
-    dependency = { first = CHG second = JLY subject_type = vassal }
-    dependency = { first = CHG second = KRG subject_type = vassal }
-    dependency = { first = CHG second = KTT subject_type = vassal }
-    dependency = { first = CHG second = NGD subject_type = vassal }
-    dependency = { first = CHG second = QCH subject_type = vassal }
-    dependency = { first = CHG second = QUN subject_type = vassal }
-    dependency = { first = CHG second = SLD subject_type = vassal }
-    dependency = { first = CHG second = YSU subject_type = vassal }
+    #dependency = { first = CHG second = APD subject_type = vassal }
+    #dependency = { first = CHG second = ART subject_type = vassal }
+    #dependency = { first = CHG second = BKH subject_type = vassal }
+    #dependency = { first = CHG second = BRL subject_type = vassal }
+    #dependency = { first = CHG second = BSD subject_type = vassal }
+    #dependency = { first = CHG second = DGH subject_type = vassal }
+    #dependency = { first = CHG second = JLY subject_type = vassal }
+    #dependency = { first = CHG second = KRG subject_type = vassal }
+    #dependency = { first = CHG second = KTT subject_type = vassal }
+    #dependency = { first = CHG second = NGD subject_type = vassal }
+    #dependency = { first = CHG second = QCH subject_type = vassal }
+    #dependency = { first = CHG second = QUN subject_type = vassal }
+    #dependency = { first = CHG second = SLD subject_type = vassal }
+    #dependency = { first = CHG second = YSU subject_type = vassal }
     
     dependency = { first = DGH second = MNL subject_type = vassal }
     dependency = { first = DGH second = SRL subject_type = vassal }
@@ -1042,5 +1044,4 @@ diplomacy_manager = {
     #India
     dependency = { first = RIC second = INK subject_type = vassal }
     dependency = { first = RIC second = S0K subject_type = vassal }
-    dependency = { first = VIJ second = RIC subject_type = tributary }
 }
