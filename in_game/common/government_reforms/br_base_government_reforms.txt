@@ -90,7 +90,7 @@ REPLACE_OR_CREATE:merchant_republic = {
 #Country specific
 #byzantine_court_ceremonies_reform
 REPLACE_OR_CREATE:the_jewel_of_alandalus_reform = {
-	major = yes
+	#major = yes
 	unique = yes
 	age = age_1_traditions
 	government = monarchy
@@ -157,6 +157,7 @@ REPLACE_OR_CREATE:family_sagas_reform = {
 		may_explore = yes
 		cultural_tradition = 2
 		monthly_towards_naval = societal_value_tiny_monthly_move
+		tribes_estate_levy_size = 2
 	}
 	years = 2
 }

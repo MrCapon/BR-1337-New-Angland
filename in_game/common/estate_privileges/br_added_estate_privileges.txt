@@ -85,6 +85,8 @@ br_special_trade_companies = {
 		expected_navy_size_modifier = 1.0
 		payment_to_overlord_modifier = -0.5
 		global_navy_levy_size_modifier = 0.5
+		hire_mercenary_premium_cost_modifier = -0.5
+		mercenary_maintenance_cost = -0.5
 	}
 }
 
