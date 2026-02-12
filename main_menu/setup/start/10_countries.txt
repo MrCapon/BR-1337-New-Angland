@@ -1752,7 +1752,8 @@ countries = {
 			
 			#Setup to accurately portray the starting situation
 			currency_data = {
-				war_exhaustion = 5
+				war_exhaustion = 10
+				inflation = 0.5
 			}
 		}
 		
@@ -3879,13 +3880,12 @@ countries = {
 				kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda
 				kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
 	
-				usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn
-				karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
+				adalaga
+				izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
 
 				seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
-				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
-				mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
+				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk
 				kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
 				kreminna oleksandrivka bielska_sloboda bilovodsk novopskov kalnivka konstantinovka krasny_sulin
 				shakhty rovenky kalmius kamenskaya azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya semikarakorsk
@@ -12852,6 +12852,10 @@ countries = {
 				capital_economy_vs_traditional_economy = 25
 				individualism_vs_communalism = -10
 				outward_vs_inward = 70
+
+				#nobles_estate = { satisfaction = 0.4 }
+				#clergy_estate = { satisfaction = 0.5 }
+				#burghers_estate = { satisfaction = 0.6 }
 				
 				privilege = {
 					#BR EDIT, I wanted to keep the challenge of these modifiers but it turns them into such a mess the ai ends up in an endless revolt loop as it loses all its buildings and pop drops by 3/4ths.
@@ -13831,6 +13835,9 @@ countries = {
 				}
 				
 			}
+			currency_data = {
+				war_exhaustion = 4
+			}
 			
 			court_language = catalan_dialect
 			country_rank = rank_kingdom
@@ -14003,6 +14010,9 @@ countries = {
 			ai_advance_preference_tags = {
 				exploration = 5
 			}
+			currency_data = {
+				war_exhaustion = 10
+			}
 			
 			accepted_cultures = {
 				leonese
@@ -14079,6 +14089,9 @@ countries = {
 				land_vs_naval = -10
 				quality_vs_quantity = -10
 				capital_economy_vs_traditional_economy = 80
+			}
+			currency_data = {
+				war_exhaustion = 8
 			}
 			
 			tolerated_cultures = {
@@ -14161,6 +14174,9 @@ countries = {
 			
 			ai_advance_preference_tags = {
 				exploration = 5
+			}
+			currency_data = {
+				war_exhaustion = 4
 			}
 			
 			accepted_cultures = {
@@ -14464,6 +14480,9 @@ countries = {
 			
 			accepted_cultures = {
 				aragonese
+			}
+			currency_data = {
+				war_exhaustion = 4
 			}
 			
 			tolerated_cultures = {
@@ -15722,7 +15741,6 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = bar_henry_iv_de_bar
 				reforms = {
-					feudal_nobility
 				}
 				
 				ruler_term = { character = mtb_louis_scarpone start_date = 1038.1.1 end_date = 1073.1.1 regnal_number = 1 } # Marital Co-Ruler
@@ -16345,6 +16363,7 @@ countries = {
             }
 
             include = "catholic_monarchy"
+			include = "expl_western_europe"
 			include = "feudal_europe"
             government = {
                 type = monarchy
@@ -17581,7 +17600,6 @@ countries = {
 				outward_vs_inward = 0
 				
 				reforms = {
-					feudal_nobility
 				}
 			}
 			country_rank = rank_county
@@ -29490,11 +29508,15 @@ countries = {
 		flag = "YUA"
 		country_name = "YUA"
 
+		currency_data = {
+			war_exhaustion = 5
+			inflation = 1
+		}
 		timed_modifier = {
 			modifier = "chi_factional_strife"
 			start_date = 1328.1.1
 			date = 1368.1.1
-			size = 1
+			size = 0.5
 		}
 		timed_modifier = {
 			modifier = "chi_administration_in_disarray"
@@ -32868,8 +32890,8 @@ countries = {
 			include = "expl_middle_east"
 			include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
+				type = tribe
+				heir_selection = tribal_oldest_male
 				ruler = hll_ahmad_rumaythah
 				
 				laws = {
@@ -33325,8 +33347,8 @@ countries = {
 			include = "expl_middle_east"
 			include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
+				type = tribe
+				heir_selection = tribal_oldest_male
 				ruler = aal_jumaz_bin_muhammed
 				ruler_term = {	 character = aal_abu_bakr_bin_ali start_date = 1301.1.1 end_date = 1320.1.1}
 				ruler_term = {	 character = aal_muhammed_bin_abu_bakr start_date = 1320.1.1 end_date = 1322.1.1}
@@ -33357,8 +33379,8 @@ countries = {
 			include = "expl_middle_east"
 			include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
+				type = tribe
+				heir_selection = tribal_oldest_male
 				ruler = amr_shata_bin_ahmad
 				ruler_term = {	 character = amr_hajji_bin_burayd start_date = 1235.1.1 end_date = 1260.1.1}
 				ruler_term = {	 character = amr_ahmad_bin_hajji start_date = 1260.1.1 end_date = 1282.1.1}
@@ -33387,8 +33409,8 @@ countries = {
 			include = "expl_middle_east"
 			include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
+				type = tribe
+				heir_selection = tribal_oldest_male
 				ruler = fdl_muzzaffar_ad_din_musa_ibn_muhanna
 				ruler_term = {	 character = fdl_haditha_bin_ghudayya start_date = 1218.1.1 end_date = 1220.1.1}
 				ruler_term = {	 character = fdl_mani_bin_haditha start_date = 1220.1.1 end_date = 1232.1.1}
@@ -40155,7 +40177,6 @@ countries = {
 				outward_vs_inward = 0
 				
 				reforms = {
-					feudal_nobility
 					agricultural_cultivation
 				}
 				
@@ -41358,7 +41379,7 @@ countries = {
 				lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
 				glushkovo putyvl khotmyzh vilshana
 				
-				yaroslavka yahotyn lutava opishnya hovtva kolomak
+				yaroslavka yahotyn lutava opishnya hovtva
 			}
 			
 			include = "expl_eastern_europe"
@@ -41472,16 +41493,9 @@ countries = {
 		}
 		
 		ZAZ = { #Zaporozhia
-			type = pop #army
+			type = army
 			
-			add_pops_from_locations = {
-				kichkas rozdory hryshyne pavlohrad 
-				yelanets usivka mala_vyska umanske ingul petrove 
-				karlivka kolomak berestyn samarchyk oril ternivka
-				kodak myshuryn_rih sofiivka kryvyi_rih tomakivka mykytyn_rih
-			}
-
-			our_cores_conquered_by_others = {
+			own_control_core = {
 				kichkas rozdory hryshyne pavlohrad 
 				yelanets usivka mala_vyska umanske ingul petrove 
 				karlivka kolomak berestyn samarchyk oril ternivka
@@ -41502,7 +41516,7 @@ countries = {
 				}
 
 				privilege = {
-
+					cossack_identity
 					cossacks_land_rights
 					cossacks_sanctioned_atamans
 					cossacks_allowed_free_roaming
@@ -41513,13 +41527,27 @@ countries = {
 					cossacks_rada_autonomy
 					cossacks_register
 				}
+
+				centralization_vs_decentralization = 80
+				spiritualist_vs_humanist = -80
+				serfdom_vs_free_subjects = 80
+				offensive_vs_defensive = -100
+				land_vs_naval = -100
+				individualism_vs_communalism = 80
+				outward_vs_inward = 80
 				
 				laws = {
 					marriage_law = monogamous_marriage
 					heir_religion_law = heir_same_religion
 				}
 			}
-			capital = kichkas
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1338.1.1
+				size = 2
+			}
+			capital = kodak
 		}
 		
 		#-------------------------- Tibet and Xinjiang ----------------------------
@@ -52253,6 +52281,12 @@ countries = {
 			tolerated_cultures = {
 				levantine_culture
 			}
+			currency_data = {
+				gold = 350
+				prestige = 100
+				stability = 100
+				government_power = 100
+			}
 			religious_school = hanafi_school
 			
 		}
@@ -52293,7 +52327,6 @@ countries = {
 				mercantilism_vs_free_trade = 0
 				
 				reforms = {
-					feudal_nobility
 				}
 				
 				privilege = {
@@ -52330,7 +52363,6 @@ countries = {
 				mercantilism_vs_free_trade = 0
 				
 				reforms = {
-					feudal_nobility
 				}
 				
 				privilege = {
@@ -52366,7 +52398,6 @@ countries = {
 				mercantilism_vs_free_trade = 0
 				
 				reforms = {
-					feudal_nobility
 				}
 				
 				privilege = {
@@ -52661,9 +52692,10 @@ countries = {
 				outward_vs_inward = -100
 			}
 			currency_data = {
-				gold = 1250
+				gold = 2500
 				prestige = 75
 				stability = 100
+				government_power = 100
 			}
 			country_rank = rank_duchy
 		}
@@ -52746,9 +52778,10 @@ countries = {
 				outward_vs_inward = -100
 			}
 			currency_data = {
-				gold = 1250
+				gold = 2500
 				prestige = 75
 				stability = 100
+				government_power = 100
 			}
 			country_rank = rank_duchy
 		}
@@ -52791,7 +52824,7 @@ countries = {
 			
 			country_rank = rank_county
 			currency_data = {
-				gold = 1000
+				gold = 2000
 				stability = 100
 				government_power = 100
 			}
@@ -52837,7 +52870,7 @@ countries = {
 			
 			country_rank = rank_county
 			currency_data = {
-				gold = 1000
+				gold = 2000
 				stability = 100
 				government_power = 100
 			}
@@ -52883,7 +52916,7 @@ countries = {
 			
 			country_rank = rank_county
 			currency_data = {
-				gold = 1000
+				gold = 2000
 				stability = 100
 				government_power = 100
 			}
@@ -53634,6 +53667,7 @@ countries = {
 				gold = 500
 				stability = 75
 				army_tradition = 100
+				government_power = 100
 			}
 			accepted_cultures = { armenian_culture }
 			
@@ -53705,6 +53739,7 @@ countries = {
 				gold = 500
 				stability = 75
 				army_tradition = 100
+				government_power = 100
 			}
 			accepted_cultures = { armenian_culture }
 			
@@ -53790,6 +53825,7 @@ countries = {
 				gold = 800
 				stability = 100
 				army_tradition = 100
+				government_power = 100
 			}
 			accepted_cultures = { gothic_culture }
 			
@@ -54079,7 +54115,7 @@ countries = {
 				ruler = br_ere_rdm_character_01
 			}
 			currency_data = {
-				gold = 850
+				gold = 1250
 			}
 			
 			country_rank = rank_duchy
@@ -54928,7 +54964,7 @@ countries = {
 			}
 			country_rank = rank_duchy
 			currency_data = {
-				gold = 1000
+				gold = 5000
 				stability = 100
 				government_power = 100
 			}
@@ -55153,9 +55189,10 @@ countries = {
             country_rank = rank_kingdom
             capital = metz
 			currency_data = {
-				gold = 1500
+				gold = 2250
 				prestige = 75
-				stability = 50
+				stability = 75
+				government_power = 75
 			}
         }
 
@@ -55560,6 +55597,9 @@ countries = {
 			government = {
 
 			}
+			currency_data = {
+				war_exhaustion = 4
+			}
 			
 			tolerated_cultures = {
 				mozarabic
@@ -55573,6 +55613,11 @@ countries = {
 				samarra ar_rabb tikrit ukbara
 				balad_ruz baqubah khalis khanaqin mandali
 				eyvan
+			}
+			our_cores_conquered_by_others = {
+				altun_kupri chamchamal daquq kirkuk tuz_khurma
+				akre
+				duhok balad
 			}
 			
 			starting_technology_level = 3
@@ -55631,6 +55676,12 @@ countries = {
 			accepted_cultures = { turkoman_culture }
 			tolerated_cultures = {
 				iraqi_culture
+			}
+			currency_data = {
+				gold = 2250
+				prestige = 75
+				stability = 100
+				government_power = 100
 			}
 			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 			
@@ -55697,6 +55748,12 @@ countries = {
 			accepted_cultures = { turkoman_culture }
 			tolerated_cultures = {
 				iraqi_culture
+			}
+			currency_data = {
+				gold = 2250
+				prestige = 75
+				stability = 100
+				government_power = 100
 			}
 			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 			

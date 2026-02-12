@@ -5123,6 +5123,36 @@ building_manager = {
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  zainsk }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  bogatye_saby }
 
+	stockade = { tag = ZAZ level = 1 location =  kichkas }
+	tribal_war_camp = { tag = ZAZ level = 1 location =  kichkas }
+	tribal_market_villages = { tag = ZAZ level = 1 location =  kichkas }
+	peasants_training_grounds = { tag = ZAZ level = 1 location = kichkas }
+	free_village = { tag = ZAZ level = 1 location = kichkas }
+	stockade = { tag = ZAZ level = 1 location =  kodak }
+	tribal_war_camp = { tag = ZAZ level = 1 location =  kodak }
+	tribal_market_villages = { tag = ZAZ level = 1 location =  kodak }
+	peasants_training_grounds = { tag = ZAZ level = 1 location = kodak }
+	free_village = { tag = ZAZ level = 1 location = kodak }
+	stockade = { tag = ZAZ level = 1 location =  karlivka }
+	tribal_war_camp = { tag = ZAZ level = 1 location =  karlivka }
+	tribal_market_villages = { tag = ZAZ level = 1 location =  karlivka }
+	peasants_training_grounds = { tag = ZAZ level = 1 location = karlivka }
+	free_village = { tag = ZAZ level = 1 location = karlivka }
+	stockade = { tag = ZAZ level = 1 location =  yelanets }
+	tribal_war_camp = { tag = ZAZ level = 1 location =  yelanets }
+	tribal_market_villages = { tag = ZAZ level = 1 location =  yelanets }
+	peasants_training_grounds = { tag = ZAZ level = 1 location = yelanets }
+	free_village = { tag = ZAZ level = 1 location = yelanets }
+	peasants_training_grounds = { tag = ZAZ level = 1 location = usivka }
+	free_village = { tag = ZAZ level = 1 location = usivka }
+	peasants_training_grounds = { tag = ZAZ level = 1 location = rozdory }
+	free_village = { tag = ZAZ level = 1 location = rozdory }
+	free_village = { tag = ZAZ level = 1 location = oril }
+	market_village = { tag = ZAZ level = 2 location = oril }
+	farming_village = { tag = ZAZ level = 2 location = oril }
+	free_village = { tag = ZAZ level = 1 location = myshuryn_rih }
+	market_village = { tag = ZAZ level = 2 location = myshuryn_rih }
+	tribal_market_villages = { tag = ZAZ level = 1 location =  berestyn }
 
 
 #Villages and rural buildings
