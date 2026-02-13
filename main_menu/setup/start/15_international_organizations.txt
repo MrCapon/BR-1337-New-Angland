@@ -583,7 +583,7 @@ international_organization_manager = {
 			FMB GRS KAS KLN KZK MOG MSV PRK SZL UGL VLR VYA ZUB
 
 			#BR ADDED 
-			BRY KIE CHR TRB STS NVS RYL PRM VYT # VOL HAL
+			BRY KIE CHR TRB STS NVS RYL PRM VYT ZAZ # VOL HAL
 
 		}
 		tatar_overlord = {

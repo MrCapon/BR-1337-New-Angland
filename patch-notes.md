@@ -1,4 +1,65 @@
 
+# 0.13 
+
+## New roman_world international organization:
+roman_world_desc: "Romaiokratía is the system through which Roman supremacy is recognized and upheld. It encompasses all realms and authorities that acknowledge the Basileus as the ultimate source of legitimacy, whether directly ruled or bound by obligation. Each member strengthens imperial authority, while failure to honor duties weakens the cohesion of the Roman order."
+
+- Currently pretty bare-bones; will be expanded in future updates. Members send money to Constantinople via a slider — the more paid, the greater the benefits. Paying less than 50% of the expected amount applies penalties. Members will unite against external aggressors.  
+  # TO-DO add tiered membership types  
+  #special_statuses_implemented = {  
+  #}  
+
+  #TO-DO add unique laws  
+  #laws = {  
+  #}  
+
+## Starting Balance
+- Moved Papal capital back to Avignon  
+- Placed a local_governor in Rome  
+- Added a few free_village holdings to Albania, Ruthenia and the Peloponnese  
+- Changed Golden Horde culture to Astrakhani (they should shift to Tatar primary shortly after game start)  
+- Renamed and enlarged NAX to Kykládes  
+- Relocated historical countries that were in non-existent map areas to appropriate existing locations  
+- Created the Cossack Hetmanate  
+- Added Cossack tribesmen to the Zaporizhia area  
+- Added buildings in Russia  
+- Trade company tags now have their land assigned to subjects so they function as proper building-based countries  
+- Moved Ruthenia from direct Golden Horde tributaries to members of the Tatar Yoke  
+- Removed the starting Teuton–Lithuania war  
+- More countries now have access to unique advances  
+- Italians receive Italian advances  
+- Fatimids and Umayyads granted Empire rank and the title of Caliphate  
+
+## Additions:
+- NSE: "North Sea Empire"  
+- N0R: "Finnmark"  
+- N1R: "Nordland"  
+- N2R: "Jämtland"  
+- N3R: "Trøndelag"  
+- BA0: "Pruthenia"  
+- BA1: "Latvia"  
+- BA2: "Tartu"  
+- A0A: "Samarra"  
+- A2A: "Mosul"  
+- SY2: "Damascus"  
+
+## Internal code
+- Added three templates for Roman-cultured tags and cleaned up their country files:  
+  - br_naval_theme_template  
+  - br_pronoia_template  
+  - br_thema_template  
+- Refactored and simplified on_game_start on_actions  
+- Added a unique piracy law available only if set at game start  
+- Renamed russian_group from "East Slavic" to "Rus"  
+- Removed unused code from various sources  
+- Changed Bulgaria to green (matching HOI4 color)  
+- Updated BR units to follow new 1.1 size standards  
+
+## Building code improvements
+- Updated base game building edits to use INJECT instead of replace in most cases  
+- Made unique Constantinople buildings indestructible  
+
+
 # 0.12
 
 ## 1.1 additions
