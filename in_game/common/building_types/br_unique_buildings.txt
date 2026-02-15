@@ -158,6 +158,9 @@ br_great_palace_building = {
 		diplomatic_reputation = diplomatic_reputation_severe_bonus
 		monthly_towards_absolutism = societal_value_tiny_monthly_move
 	}
+	modifier = {
+		local_upper_class_capacity_modifier = 0.5
+    }
 	
 	possible_production_methods = {
 		capital_building_maintenance
@@ -220,6 +223,7 @@ br_hagia_sophia_building = {
 		local_clergy_max_literacy = 20
 		monthly_prestige = 0.05
 		global_pop_conversion_speed_modifier = 0.25
+		monthly_religious_influence = 0.1
 	}
 
 }
