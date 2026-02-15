@@ -161,6 +161,15 @@ diplomacy_manager = {
 	opinion = { first = LIT second = MOS type = opinion_declared_war }
 	opinion = { first = MOS second = LIT type = opinion_declared_war }
 
+	#Middle East
+	opinion = { first = TUR second = ERE type = opinion_declared_war }
+	opinion = { first = TUR second = ERE type = border_aggression }
+	opinion = { first = TUR second = KAR type = opinion_declared_war }
+	opinion = { first = TUR second = KAR type = border_aggression }
+	opinion = { first = TUR second = ATQ type = opinion_declared_war }
+	opinion = { first = TUR second = ATQ type = border_aggression }
+	opinion = { first = TUR second = DUL type = opinion_declared_war }
+	opinion = { first = TUR second = DUL type = border_aggression }
 
 
 	#Maghreb

@@ -89,4 +89,18 @@ diplomacy_manager = {
 	rival = { first = MAM second = BYZ }
 	rival = { first = BYZ second = TUR }
 	rival = { first = TUR second = BYZ }
+
+	#Mid East
+	rival = { first = TUR second = KAR }
+	rival = { first = TUR second = ATQ }
+	rival = { first = TUR second = DUL }
+	rival = { first = TUR second = ERE }
+	rival = { first = KAR second = TUR }
+	rival = { first = ATQ second = TUR }
+	rival = { first = DUL second = TUR }
+	rival = { first = ERE second = TUR }
+
+	#Africa
+	rival = { first = ALO second = MAK }
+	rival = { first = MAK second = ALO }
 }
