@@ -37,6 +37,12 @@
  K1K_ADJ: "Kykladian"
  RH0: "Hagiou Vládymirou" #Tágma tou Hagiou Vládymirou # Order of Saint Vladimir
  RH0_ADJ: "Vládymirou"
+ RH1: "Tula" # Tula Principality, named after the city of Tula
+ RH1_ADJ: "Tula"
+ RH2: "Kursk" # Principality of Kursk, named after the city of Kursk
+ RH2_ADJ: "Kursk"
+ RH3: "Donets"
+ RH3_ADJ: "Donets"
  K1B: "Kibyrrhaiōtai"
  K1B_ADJ: "Kibyrrhaiōtikós"
  S1Y: "Strymōn"
@@ -69,6 +75,8 @@
  S3C_ADJ: "Kalavrías"
  S4C: "Ṣiqilliyya"
  S4C_ADJ: "Ṣiqilliyya"
+ S5C: "Loukanía"
+ S5C_ADJ: "Loukanían"
  BNV: "Benevento"
  BNV_ADJ: "Benevento"
  N1P: "Salerno"
@@ -166,7 +174,9 @@
  SE2: "Niš"
  SE2_ADJ: "Niš"
  SE3: "Mitrovica"
- SE3_ADJ: "Mitrovica"
+ SE3_ADJ: "Mitrovican"
+ SE4: "Illyria"
+ SE4_ADJ: "Illyrian"
 
  AN0: "Armenikon"
  AN0_ADJ: "Armenikon"

@@ -2411,6 +2411,12 @@ countries = {
 				rechytsa streshyn
 				gomel chachersk dobrush tereshkovichy volosovichy
 				bakhmach sosnytsia nizhyn
+
+				#Kiev Chernihiv
+				melnya
+				ichnia pryluky chornukhy
+				lypova_dolyna romen buryn sumy krasnopillia hadiach
+				glushkovo putyvl vilshana
 			}
 			
 			starting_technology_level = 3
@@ -2758,6 +2764,7 @@ countries = {
 			
 			own_control_integrated = {
 				dalneye_konstantinovo
+				uren tonshayevo vetluga semyonov kovernino krasnye_baki sharanga varnavino
 			}
 			
 			starting_technology_level = 3
@@ -3847,8 +3854,7 @@ countries = {
 				kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda
 				kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
 	
-				adalaga
-				izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
+				izium vovchansk nyzhnia_duvanka
 
 				seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
@@ -3880,16 +3886,15 @@ countries = {
 				qashliq siberia_abalak turtas yukonda
 				tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
 				siletiteniz zhalauly
-				tuzdysor imakia zhelezin lebyazhye
+				
 				chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
 				tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
 				shish muromtsevo ufa askino baltas
 				sartlan taskayevo kargat kainsky_pas kyshtovka
-				bursol kuchukskoye volchikha butyrskoe zmeinogorsk shemonayevskoye oskemen ust_kalmanka
-				krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
-				suzun berdsk chesnokovka kalmanka barnaul verkhotomsk kolchugino
-				altayskoye onguday ust_koksa smolenskoye mayma biysk
-				kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
+				zmeinogorsk shemonayevskoye oskemen ust_kalmanka
+				verkhotomsk kolchugino
+				altayskoye onguday ust_koksa smolenskoye
+				abakasnk beya shushenskoye
 				tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
 				surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
 				alkhan_kala nazran dzhulat tatartup
@@ -3898,10 +3903,11 @@ countries = {
 				insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari
 				sergach chamzinka saransk lunino
 				pokrovskoye simbirsk cherdakly staraya_mayna melekess tetyushi sviyazhsk
-				atishchevo tsivilsk sharanga uren tonshayevo
+				atishchevo tsivilsk
+
 				bolshoye_murashkino kurmysh lyskovo perevoz sechenovo spasskoye_lyskovo
 				cheboksary kozmodemyansk alikovo vasilsursk pavlovo
-				vetluga semyonov khakhaly kovernino krasnye_baki raznezhye voskresenskoye varnavino
+				khakhaly raznezhye voskresenskoye
 				kadom ardatov
 				ushkan koskuduk manysai shagan zhaksy_karasay
 				ketik_kala kabakty karatobe_mangyshlak kyzylkala
@@ -3918,10 +3924,12 @@ countries = {
 				samara shigony morkvash chebarkul miass
 				krasnaya_gorka belekes
 
-				tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
+				
 				lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
-				kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
-				rovenki valuyki korocha belgorod rakitnoye muzhech sudzha oboyan
+				kozlov terbuny kastornoye chernyanka alexeyevka 
+				
+				
+				korocha
 				staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun
 				mokshan chembar
 				serdobinskaya malaya_serdoba shemysheyka
@@ -3935,7 +3943,6 @@ countries = {
 				s_ezzaja bogatoye
 				tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
 				bayanaul shybyndy bozok_astana akkol
-				karasor karkaraly takhir
 				arykbalyk kak kokshetau shoindykol atbasar
 				kulykol zhetykol shoptikol siberia_tenteksor konildi
 				zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
@@ -3943,11 +3950,20 @@ countries = {
 				bolshoy_ik ust_katav mesyagutovo zlatoust
 				chimgi_tura tugulym yalutorovsk shadrinsk
 				tsaryovo_gorodishche burayevo
-				sarybulak zhanaarka arkat balyktykol kaynar_atbai
-				
-				#Principality of Kursk
-				kursk fatezh kosozhichi olgov
-				manturovo_kursk oskol troitskoye_na_shchigrakh
+				sarybulak arkat
+
+				ukek teshevka voronezh oskol rovenki valuyki
+
+				bursol bolshoye_yarovoye kulundinskoye kuchukskoye volchikha butyrskoe gorkoye bolshoye_topolnoye
+				imakia zhelezin lebyazhye maraldy azhbulat
+				karasor tuzdysor karkaraly balyktykol
+				zaysan
+				zhanaarka kaynar_atbai takhir
+
+				suzun berdsk chesnokovka kalmanka barnaul
+				krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
+				mayma biysk teletskoye
+				kuznetsk salair kytmanovo ust_kabyrza askiz
 			}
 			own_integrated = {
 				bratslav balta bershad karabul savran
@@ -4161,8 +4177,6 @@ countries = {
 			
 			starting_technology_level = 3
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = feo_demetrios_gabras
 				ruler_term = { character = feo_demetrios_gabras start_date = 1337.1.1 regnal_number = 1 }
 			}
@@ -12219,8 +12233,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -12251,8 +12263,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -12415,9 +12425,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				
 				ruler = epi_theodoros_synadenos
 				consort = epi_eudokia_doukania_kommene
 				
@@ -12447,7 +12454,7 @@ countries = {
 				aromanian 
 			}
 			tolerated_cultures = {
-				albanian latinoi
+				arvanite latinoi
 			}
 			
 			country_rank = rank_duchy
@@ -12473,8 +12480,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 				
 				ruler_term = { character = the_bonifacio_i_monferrato start_date = 1204.5.16 end_date = 1207.1.1 regnal_number = 1 }
@@ -12519,8 +12524,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 				
 				ruler_term = { character = ths_manuel_komnenos_doukas start_date = 1239.1.1 end_date = 1241.1.1 regnal_number = 1 }
@@ -12584,8 +12587,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -31906,8 +31907,6 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "br_thema_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -32605,8 +32604,6 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "br_thema_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = tre_basil_komnenos
 				
 				ruler_term = { character = tre_alexios_i_komnenos start_date = 1204.4.1 end_date = 1222.2.1 regnal_number = 1 }
@@ -41079,6 +41076,10 @@ countries = {
 				lakhva
 				lelchytsy zhytkavichy
 			}
+			own_control_integrated = {
+				mazyr buinovichi kalinkavichy pietrykaw rudobelka
+				olevsk kopyshche viry yemilchyne
+			}
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
@@ -41319,22 +41320,17 @@ countries = {
 				bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
 				cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
 				chornobyl belaya_soroka brahin khoiniki kholmyech
-				olevsk kopyshche viry yemilchyne
 				ovruch bilokorovychi korosten malyn narodychi stodolichi
 				zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
 				
-				poltava kremenchuk myrhorod velyki_sorochyntsi kotelva
+				poltava kremenchuk myrhorod velyki_sorochyntsi
 				lubny pyriatyn horodyshche horoshino zolotonosha
 				pereiaslav desnyanskyi_horodok boryspil oster kozelets
 				#Black Ruthenia
-				mazyr buinovichi kalinkavichy pietrykaw rudobelka
-				#Chernihiv
-				melnya
-				ichnia pryluky chornukhy
-				lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
-				glushkovo putyvl khotmyzh vilshana
-				
-				yaroslavka yahotyn lutava opishnya hovtva
+				    
+
+				yaroslavka yahotyn lutava
+				opishnya hovtva
 			}
 			
 			include = "expl_eastern_europe"
@@ -41447,63 +41443,6 @@ countries = {
 			country_rank = rank_duchy
 		}
 		
-		ZAZ = { #Zaporozhia
-			type = army
-			
-			own_control_core = {
-				kichkas rozdory hryshyne pavlohrad 
-				yelanets usivka mala_vyska umanske ingul petrove 
-				karlivka kolomak berestyn samarchyk oril ternivka
-				kodak myshuryn_rih sofiivka kryvyi_rih tomakivka mykytyn_rih
-			}
-			
-			starting_technology_level = 3
-			include = "expl_eastern_europe"
-			include = "eurasian_horde"
-			court_language = ukrainian_dialect
-			
-			government = {
-				type = steppe_horde
-				heir_selection = tribal_oldest_male
-				ruler = random
-				reforms = {
-					cossacks_reform
-				}
-
-				privilege = {
-					cossack_identity
-					cossacks_land_rights
-					cossacks_sanctioned_atamans
-					cossacks_allowed_free_roaming
-					cossacks_government_positions
-					cossacks_military_service
-					cossacks_protected_faith
-					cossacks_respected_traditions
-					cossacks_rada_autonomy
-					cossacks_register
-				}
-
-				centralization_vs_decentralization = 80
-				spiritualist_vs_humanist = -80
-				serfdom_vs_free_subjects = 80
-				offensive_vs_defensive = -100
-				land_vs_naval = -100
-				individualism_vs_communalism = 80
-				outward_vs_inward = 80
-				
-				laws = {
-					marriage_law = monogamous_marriage
-					heir_religion_law = heir_same_religion
-				}
-			}
-			timed_modifier = {
-				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
-				start_date = 1333.1.1
-				date = 1338.1.1
-				size = 2
-			}
-			capital = kodak
-		}
 		
 		#-------------------------- Tibet and Xinjiang ----------------------------
 		TIB = { #Tibet
@@ -52251,15 +52190,11 @@ countries = {
 		BNV = {
 			own_control_core = {
 				lanciano vasto bojano
-				acerenza melfi montepeloso potenza benevento
+				melfi benevento
 				avellino santangelo
 				isernia larino trivento andria barletta bovino foggia lucera
 				manfredonia rotondo sansevero
 				ariano venafro piedimonte
-			}
-			our_cores_conquered_by_others = {
-				sora
-				gaeta caserta
 			}
 			
 			starting_technology_level = 3
@@ -52376,8 +52311,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 
 			}
@@ -52404,8 +52337,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -52424,7 +52355,6 @@ countries = {
 		S2C = {
 			own_control_core = {
 				lecce francavilla brindisi gallipoliita taranto martinafr
-				matera
 				monopoli altamura bari
 			}
 			starting_technology_level = 3
@@ -52435,8 +52365,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -52457,8 +52385,6 @@ countries = {
 			own_control_core = {
 				cotrone gerace monteleone nicastro palmi reggiocal catanzaro
 				paola cosenza castrovillari cassano scalea rossano
-				lagonegro
-				santarcangelo
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -52468,8 +52394,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -52483,6 +52407,36 @@ countries = {
 			country_rank = rank_duchy
 			liturgical_language = khoine_dialect
 			capital = syracuse # lecce
+		}
+
+		S5C = {
+			own_control_core = {
+				matera
+				lagonegro
+				santarcangelo
+				montepeloso potenza acerenza
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "br_pronoia_template"
+			government = {
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				sicilian
+			}
+			
+			country_rank = rank_duchy
+			liturgical_language = khoine_dialect
+			capital = matera
 		}
 
 		S4C = { #Ṣiqilliyya
@@ -52900,8 +52854,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -52914,6 +52866,37 @@ countries = {
 			liturgical_language = khoine_dialect
 			
 			capital = durres
+		}
+
+		SE4 = { #Releasable
+			our_cores_conquered_by_others = {
+				podgorica bar_cg gradina kotor onogost
+				shkoder dukagjini has koman lezha
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "br_pronoia_template"
+			government = {
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				serbian
+			}
+			tolerated_cultures = {
+				latinoi
+				albanian
+			}
+			
+			country_rank = rank_duchy
+			liturgical_language = khoine_dialect
+			
+			capital = shkoder
 		}
 
 		B0L = {
@@ -53048,8 +53031,6 @@ countries = {
 			include = "br_pronoia_template"
 			country_rank = rank_county
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53074,8 +53055,6 @@ countries = {
 			include = "br_pronoia_template"
 			country_rank = rank_duchy
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53101,8 +53080,6 @@ countries = {
 			include = "br_pronoia_template"
 			country_rank = rank_duchy
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53131,8 +53108,6 @@ countries = {
 			include = "br_pronoia_template"
 			country_rank = rank_duchy
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 			}
 			accepted_cultures = {
 				greek_culture
@@ -53479,11 +53454,9 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "br_thema_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
+				ruler = tre_michael_komnenos
+				ruler_term = { character = tre_michael_komnenos start_date = 1333.1.1 }
 			}
 			
 			accepted_cultures = {
@@ -53491,7 +53464,10 @@ countries = {
 			}
 			
 			currency_data = {
-				gold = 850
+				gold = 1500
+				stability = 100
+				army_tradition = 100
+				government_power = 100
 			}
 
 			liturgical_language = khoine_dialect
@@ -53513,9 +53489,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_thema_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
 			}
 			
 			accepted_cultures = {
@@ -53528,10 +53501,6 @@ countries = {
 		}
 
 		SY1 = {
-			own_control_core = {
-
-			}
-			
 			our_cores_conquered_by_others = {
 				urfa birecik suruc viransehir
 			}
@@ -53545,9 +53514,6 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "br_thema_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
 			}
 			
 			accepted_cultures = {
@@ -53710,6 +53676,67 @@ countries = {
 			}
 
 		}
+
+		#Russia
+		ZAZ = { #Zaporozhia
+			type = army
+			
+			own_control_core = {
+				kichkas rozdory hryshyne pavlohrad 
+				yelanets usivka mala_vyska umanske ingul petrove 
+				karlivka kolomak berestyn samarchyk oril ternivka
+				kodak myshuryn_rih sofiivka kryvyi_rih tomakivka mykytyn_rih
+				adalaga barvinkove
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eurasian_horde"
+			court_language = ukrainian_dialect
+			
+			government = {
+				type = steppe_horde
+				heir_selection = tribal_oldest_male
+				ruler = random
+				reforms = {
+					cossacks_reform
+				}
+
+				privilege = {
+					cossack_identity
+					cossacks_land_rights
+					cossacks_sanctioned_atamans
+					cossacks_allowed_free_roaming
+					cossacks_government_positions
+					cossacks_military_service
+					cossacks_protected_faith
+					cossacks_respected_traditions
+					cossacks_rada_autonomy
+					cossacks_register
+				}
+
+				centralization_vs_decentralization = 80
+				spiritualist_vs_humanist = -80
+				serfdom_vs_free_subjects = 80
+				offensive_vs_defensive = -100
+				land_vs_naval = -100
+				individualism_vs_communalism = 80
+				outward_vs_inward = 80
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1338.1.1
+				size = 2
+			}
+			capital = kodak
+		}
+		
 		
 		RH0 = { #Order of Saint Vladimir
 			own_control_core = {
@@ -53740,7 +53767,8 @@ countries = {
 			
 			government = {
 				type = theocracy
-				ruler = random
+				ruler = br_ere_rdm_character_13
+				ruler_term = { character = br_ere_rdm_character_13 start_date = 1333.1.1 }
 				
 				reforms = {
 					military_order_reform
@@ -53797,6 +53825,120 @@ countries = {
 
 		}
 		
+		RH1 = { #Tula Principality
+			own_control_core = {
+				tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol
+				ust_livny
+			}
+			
+			starting_technology_level = 3
+			country_rank = rank_duchy
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			tolerated_cultures = {
+			}
+			
+			capital = tula_russia
+			include = "russian_principality_no_coast"
+			include = "expl_novgorod"
+		}
+		
+		RH2 = { #Principality of Kursk
+			own_control_core = {
+				kursk fatezh kosozhichi olgov
+				manturovo_kursk troitskoye_na_shchigrakh
+				opalkova
+				belgorod rakitnoye muzhech sudzha oboyan
+			}
+			
+			starting_technology_level = 3
+			country_rank = rank_duchy
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			tolerated_cultures = {
+			}
+			
+			capital = kursk
+			include = "russian_principality_no_coast"
+			include = "expl_novgorod"
+		}
+
+		RH3 = { #Donets
+			type = army
+			
+			own_control_core = {
+				donets_kharkiv zmiiv chuhuiv
+				okhtyrka kotelva khotmyzh
+			}
+			
+			starting_technology_level = 3
+			country_rank = rank_duchy
+			
+			government = {
+				type = steppe_horde
+				heir_selection = tribal_oldest_male
+				ruler = random
+				reforms = {
+					cossacks_reform
+				}
+
+				privilege = {
+					cossack_identity
+					cossacks_land_rights
+					cossacks_sanctioned_atamans
+					cossacks_allowed_free_roaming
+					cossacks_government_positions
+					cossacks_military_service
+					cossacks_protected_faith
+					cossacks_respected_traditions
+					cossacks_rada_autonomy
+					cossacks_register
+				}
+
+				centralization_vs_decentralization = 80
+				spiritualist_vs_humanist = -80
+				serfdom_vs_free_subjects = 80
+				offensive_vs_defensive = -100
+				land_vs_naval = -100
+				individualism_vs_communalism = 80
+				outward_vs_inward = 80
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1338.1.1
+				size = 2
+			}
+			
+			liturgical_language = church_slavonic_language
+			
+			tolerated_cultures = {
+			}
+			
+			capital = donets_kharkiv
+			include = "expl_eastern_europe"
+			include = "eurasian_horde"
+		}
+
 		ANA = { #br releasable
 			our_cores_conquered_by_others = {
 				#KAR
@@ -53863,9 +54005,7 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
+
 			}
 			
 			country_rank = rank_kingdom
@@ -53904,8 +54044,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -53941,8 +54079,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -53984,8 +54120,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54024,8 +54158,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54106,8 +54238,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54142,8 +54272,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54221,8 +54349,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54255,8 +54381,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54288,8 +54412,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54324,8 +54446,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54355,8 +54475,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54388,8 +54506,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
 			
@@ -54768,9 +54884,6 @@ countries = {
 
 			country_rank = rank_kingdom
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
 			}
 			accepted_cultures = {
 				coptic_culture
@@ -54808,9 +54921,7 @@ countries = {
 
 			country_rank = rank_kingdom
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
+
 			}
 			
 			capital = tunis
@@ -54834,12 +54945,9 @@ countries = {
 			include = "br_pronoia_template"
 			country_rank = rank_kingdom
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 
 				reforms = {
-					autocracy
 					trade_office_network
 				}
 				
@@ -54848,7 +54956,6 @@ countries = {
 					land_of_commerce
 					sponsor_maritime_contracts
 					shipwright_contracts
-					market_fairs
 				}
 
 			}
@@ -54942,23 +55049,8 @@ countries = {
 			include = "expl_horn_of_africa_ethiopia"
 			include = "br_pronoia_template"
 			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
 				ruler = random
 
-				laws = {
-					republican_foundation_law = meritocratic_rule_policy
-					heir_religion_law = heir_same_religion
-					marriage_law = monogamous_marriage
-					censorship = limited_censorship
-					education_masses_law = apprenticeships_education
-					administrative_system = local_courts_administration
-					cultural_traditions_law = maritime_society
-					legal_code_law = court_of_appeals
-					maritime_law = protect_trade_routes
-					piracy_law = anti_piracy_policy
-					distribution_of_power_law = dop_favor_the_burghers
-				}
 				reforms = {
 					merchant_republic
 					trade_office_network
@@ -54969,7 +55061,6 @@ countries = {
 					land_of_commerce
 					sponsor_maritime_contracts
 					shipwright_contracts
-					market_fairs
 				}
 
 			}

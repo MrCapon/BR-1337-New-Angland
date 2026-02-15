@@ -21,7 +21,7 @@ international_organization_manager = {
         map_color = rgb { 140 36 36 }
 
         members = {
-            S1C S2C S3C EPI DYR N3P
+            S1C S2C S3C EPI DYR N3P #S5C
         }
         leader = EPI
     }
@@ -38,11 +38,12 @@ international_organization_manager = {
 			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF KAP AOI 
 			AN0 AN1 AN2 EPI
 			M0E ACH B0R THS DYR AN3
-			S1C S2C S3C N3P
+			S1C S2C S3C N3P S5C
 			#ARM GEO SER
 			#KOG DER MES VAN VDZ
 			OHS SGO RH0 #RIC
-			BNK MKB CHY 
+			BNK MKB CHY
+			VTC GTC
 
 		}
 
@@ -512,7 +513,7 @@ international_organization_manager = {
 			#BR ADDED
 			BNV SPL N1P N2P N3P
 			#Othodox side with Pope until we add a third option.
-			S1C S2C S3C 
+			S1C S2C S3C S5C
 		}
 		leader = BNV
 	}
@@ -584,6 +585,7 @@ international_organization_manager = {
 
 			#BR ADDED 
 			BRY KIE CHR TRB STS NVS RYL PRM VYT ZAZ # VOL HAL
+			RH1 RH2 RH3
 
 		}
 		tatar_overlord = {
@@ -647,6 +649,7 @@ international_organization_manager = {
 			M0E THS	KAP PAF	THE ATH ACH
 			BNK MKB CHY
 			AN0 AN1 AN2 AN3 AN4 AN5
+			ZAZ RH1 RH2 RH3
 		}
 		variables = { 
 			religion = religion:orthodox
@@ -723,7 +726,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 431.1.1
-		members = { S1C S2C S3C N3P DYR CRT MTR ANT THP MZK }
+		members = { S1C S2C S3C S5C N3P DYR CRT MTR ANT THP MZK }
 		variables = { 
 			religion = religion:orthodox
 			seat = location:rome

@@ -62,12 +62,14 @@ diplomacy_manager = {
     dependency = { first = MOS second = DMI subject_type = vassal }
     dependency = { first = MOS second = TRS subject_type = vassal }
     dependency = { first = MOS second = YRV subject_type = vassal }
+    dependency = { first = MOS second = VYA subject_type = vassal }
     dependency = { first = MOS second = VLR subject_type = dominion }
     dependency = { first = MOS second = KOS subject_type = dominion }
     dependency = { first = MOS second = NZH subject_type = dominion }
     dependency = { first = MOS second = UGL subject_type = dominion }
 
-	dependency = { first = BRY second = CHR subject_type = vassal }
+    dependency = { first = LIT second = MSV subject_type = vassal }
+
 	dependency = { first = BRY second = TRB subject_type = vassal }
 	dependency = { first = CHR second = NVS subject_type = vassal }
 	dependency = { first = CHR second = RYL subject_type = vassal }
@@ -78,8 +80,6 @@ diplomacy_manager = {
 	dependency = { first = NZH second = GRS subject_type = vassal }
 	dependency = { first = RYA second = PRK subject_type = vassal }
 	dependency = { first = SMO second = FMB subject_type = vassal }
-	dependency = { first = SMO second = MSV subject_type = vassal }
-	dependency = { first = SMO second = VYA subject_type = vassal }
 	dependency = { first = TVE second = KAS subject_type = vassal }
 	dependency = { first = TVE second = KLN subject_type = vassal }
 	dependency = { first = TVE second = ZUB subject_type = vassal }
@@ -94,11 +94,16 @@ diplomacy_manager = {
 	dependency = { first = NOV second = KZY subject_type = tributary }
 	dependency = { first = NOV second = LYA subject_type = tributary }
 	dependency = { first = NOV second = TBY subject_type = tributary }
-	
+
+    dependency = { first = RYA second = RH1 subject_type = dominion }
+    dependency = { first = BRY second = RH2 subject_type = dominion }
+    dependency = { first = ZAZ second = RH3 subject_type = vassal }
+
     dependency = { first = GEN second = ARB subject_type = vassal }
     scripted_oneway = { first = GEN second = ARB type = divert_trade }
 	
 	# Golden Horde
+
 	#Moldova
 	#dependency = { first = GLH second = BIA subject_type = tributary }
 	#dependency = { first = GLH second = BLD subject_type = tributary }
@@ -275,7 +280,10 @@ diplomacy_manager = {
 	dependency = { first = VER second = PAR subject_type = vassal }
 	dependency = { first = VER second = LUC subject_type = vassal }
 
-	
+	dependency = { first = BNV second = N2P subject_type = vassal }
+    dependency = { first = BNV second = N1P subject_type = vassal }
+    dependency = { first = BNV second = S5C subject_type = vassal }
+
 	#-------Iberia-------
 	#dependency = { first = ADU second = AD2 subject_type = vassal }
 	
@@ -564,8 +572,8 @@ diplomacy_manager = {
     dependency = { first = POL second = RAW subject_type = vassal }
     dependency = { first = POL second = CZK subject_type = vassal }
 
-    #dependency = { first = POL second = VOL subject_type = vassal }
-    #dependency = { first = POL second = HAL subject_type = vassal }
+    dependency = { first = POL second = VOL subject_type = dominion }
+    dependency = { first = POL second = HAL subject_type = dominion }
 
     #Balkans:
     scripted_mutual = { first = HUN second = POL type = alliance }

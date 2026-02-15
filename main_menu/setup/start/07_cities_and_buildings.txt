@@ -4504,23 +4504,23 @@ building_manager = {
 	nobles_recruitment_center = { tag = BUL level = 1 location = lardeja }
 
 	peasants_training_grounds = { tag = MZK level = 1 location = debar }
-	free_village = { tag = MZK level = 1 location = debar }
+	free_village = { tag = MZK level = 3 location = debar }
 	forest_village = { tag = MZK level = 1 location = debar }
 	peasants_hunting_grounds = { tag = MZK level = 1 location = debar }
 	toll_castle = { tag = MZK level = 1 location = debar }
 	peasants_training_grounds = { tag = ANT level = 1 location = elbasan }
-	free_village = { tag = ANT level = 1 location = elbasan }
+	free_village = { tag = ANT level = 3 location = elbasan }
 	forest_village = { tag = ANT level = 1 location = elbasan }
 	peasants_hunting_grounds = { tag = ANT level = 1 location = elbasan }
 	toll_castle = { tag = ANT level = 1 location = elbasan }
 	nobility_fortifications = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = MTR level = 1 location = devol }
-	free_village = { tag = MTR level = 1 location = devol }
+	free_village = { tag = MTR level = 3 location = devol }
 	market_village = { tag = MTR level = 1 location = devol }
 	local_markets = { tag = MTR level = 1 location = devol }
 	parish_church = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = THP level = 1 location = kruje }
-	free_village = { tag = THP level = 1 location = kruje }
+	free_village = { tag = THP level = 3 location = kruje }
 	forest_village = { tag = THP level = 1 location = kruje }
 	peasants_hunting_grounds = { tag = THP level = 1 location = kruje }
 	nobles_recruitment_center = { tag = THP level = 1 location = tirana }
@@ -4530,7 +4530,7 @@ building_manager = {
 	local_markets = { tag = THP level = 1 location = tirana }
 
 	peasants_training_grounds = { tag = VTC level = 1 location = modon }
-	free_village = { tag = VTC level = 1 location = modon }
+	free_village = { tag = VTC level = 2 location = modon }
 	maniot_toll_guards = { tag = VTC level = 1 location = modon }
 	maniot_toll_guards = { tag = ACH level = 1 location = kalamata }
 	maniot_toll_guards = { tag = MOE level = 1 location = oitylo }
@@ -5127,33 +5127,47 @@ building_manager = {
 	tribal_war_camp = { tag = ZAZ level = 1 location =  kichkas }
 	tribal_market_villages = { tag = ZAZ level = 1 location =  kichkas }
 	peasants_training_grounds = { tag = ZAZ level = 1 location = kichkas }
-	free_village = { tag = ZAZ level = 1 location = kichkas }
+	free_village = { tag = ZAZ level = 2 location = kichkas }
 	stockade = { tag = ZAZ level = 1 location =  kodak }
 	tribal_war_camp = { tag = ZAZ level = 1 location =  kodak }
 	tribal_market_villages = { tag = ZAZ level = 1 location =  kodak }
 	peasants_training_grounds = { tag = ZAZ level = 1 location = kodak }
-	free_village = { tag = ZAZ level = 1 location = kodak }
+	free_village = { tag = ZAZ level = 2 location = kodak }
 	stockade = { tag = ZAZ level = 1 location =  karlivka }
 	tribal_war_camp = { tag = ZAZ level = 1 location =  karlivka }
 	tribal_market_villages = { tag = ZAZ level = 1 location =  karlivka }
 	peasants_training_grounds = { tag = ZAZ level = 1 location = karlivka }
-	free_village = { tag = ZAZ level = 1 location = karlivka }
+	free_village = { tag = ZAZ level = 2 location = karlivka }
 	stockade = { tag = ZAZ level = 1 location =  yelanets }
 	tribal_war_camp = { tag = ZAZ level = 1 location =  yelanets }
 	tribal_market_villages = { tag = ZAZ level = 1 location =  yelanets }
 	peasants_training_grounds = { tag = ZAZ level = 1 location = yelanets }
-	free_village = { tag = ZAZ level = 1 location = yelanets }
+	free_village = { tag = ZAZ level = 2 location = yelanets }
 	peasants_training_grounds = { tag = ZAZ level = 1 location = usivka }
-	free_village = { tag = ZAZ level = 1 location = usivka }
+	free_village = { tag = ZAZ level = 2 location = usivka }
 	peasants_training_grounds = { tag = ZAZ level = 1 location = rozdory }
-	free_village = { tag = ZAZ level = 1 location = rozdory }
-	free_village = { tag = ZAZ level = 1 location = oril }
+	free_village = { tag = ZAZ level = 2 location = rozdory }
+	free_village = { tag = ZAZ level = 2 location = oril }
 	market_village = { tag = ZAZ level = 2 location = oril }
 	farming_village = { tag = ZAZ level = 2 location = oril }
-	free_village = { tag = ZAZ level = 1 location = myshuryn_rih }
+	free_village = { tag = ZAZ level = 2 location = myshuryn_rih }
 	market_village = { tag = ZAZ level = 2 location = myshuryn_rih }
 	tribal_market_villages = { tag = ZAZ level = 1 location =  berestyn }
 
+	stockade = { tag = RH1 level = 1 location =  tula_russia }
+	peasants_training_grounds = { tag = RH1 level = 1 location = tula_russia }
+	market_village = { tag = RH1 level = 2 location = tula_russia }
+	stockade = { tag = RH1 level = 1 location =  yelets }
+	peasants_training_grounds = { tag = RH1 level = 1 location = yelets }
+	farming_village = { tag = RH1 level = 2 location = yelets }
+	stockade = { tag = RH2 level = 1 location =  belgorod }
+	peasants_training_grounds = { tag = RH2 level = 1 location = belgorod }
+	farming_village = { tag = RH2 level = 2 location = belgorod }
+	stockade = { tag = RH3 level = 1 location =  donets_kharkiv }
+	tribal_war_camp = { tag = RH3 level = 1 location =  donets_kharkiv }
+	tribal_market_villages = { tag = RH3 level = 1 location =  donets_kharkiv }
+	peasants_training_grounds = { tag = RH3 level = 1 location = donets_kharkiv }
+	free_village = { tag = RH3 level = 2 location = donets_kharkiv }
 
 #Villages and rural buildings
 	market_village = { tag = BUL level = 2 location = burgas }

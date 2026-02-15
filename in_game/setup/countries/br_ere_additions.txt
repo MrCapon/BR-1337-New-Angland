@@ -211,21 +211,18 @@ AN5 = { #BR addition
 
 WA0 = {
 	color = rgb { 72 150 222 }
-
 	culture_definition = wallachian
 	religion_definition = orthodox
 }
 
 WA1 = {
 	color = rgb { 69 130 202 }
-
 	culture_definition = wallachian
 	religion_definition = orthodox
 }
 
 WA2 = {
 	color = rgb { 78 180 202 }
-
 	culture_definition = wallachian
 	religion_definition = orthodox
 }
@@ -234,34 +231,32 @@ WA2 = {
 
 SE0 = {
 	color = rgb { 83 132 50 }
-
 	culture_definition = serbian
 	religion_definition = orthodox
-
 }
 
 SE1 = {
 	color = rgb { 103 92 50 }
-
 	culture_definition = serbian
 	religion_definition = orthodox
-
 }
 
 SE2 = {
 	color = rgb { 93 112 70 }
-
 	culture_definition = serbian
 	religion_definition = orthodox
-
 }
 
 SE3 = {
 	color = rgb { 93 142 95 }
-
 	culture_definition = serbian
 	religion_definition = orthodox
+}
 
+SE4 = {
+	color = rgb { 155 95 140 }
+	culture_definition = illyrikoi_greek_culture
+	religion_definition = orthodox
 }
 
 #Banks
@@ -352,6 +347,12 @@ S4C = { #Ṣiqilliyya
     color = rgb { 35 145 75 }
     culture_definition = arab_sicilian
 	religion_definition = sunni
+}
+
+S5C = { #
+    color = rgb { 145 65 105 }
+    culture_definition = griko_culture
+	religion_definition = orthodox
 }
 
 #Africa
@@ -449,5 +450,20 @@ RH0 = {
 	description_category = military
 	difficulty = 3
 }
-#RH1
+RH1 = {
+	color = rgb { 52 155 74 }
+	culture_definition = ryazanian
+	religion_definition = orthodox
+}
+RH2 = {
+	color = rgb { 72 145 54 }
+	culture_definition = severian
+	religion_definition = orthodox
+}
+RH3 = {
+	color = rgb { 42 125 114 }
+	culture_definition = cossack_culture
+	religion_definition = orthodox
+}
+
 
