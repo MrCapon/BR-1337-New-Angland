@@ -66,11 +66,11 @@ diplomacy_manager = {
 	rival = { first = LOT second = BOH }
 	rival = { first = BOH second = LOT }
 	rival = { first = FRA second = BOH }
-	rival = { first = BOH second = BYZ }
+	#rival = { first = BOH second = BYZ }
 
 	#The Two Sicilies
-	#rival = { first = NAP second = SIC }
-	#rival = { first = SIC second = NAP }
+	rival = { first = BNV second = BYZ }
+	#rival = { first = BYZ second = BNV }
 
 	#Maghreb
 	rival = { first = MOR second = TLE }

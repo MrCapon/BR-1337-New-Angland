@@ -347,6 +347,95 @@ building_manager = {
 	telpochcalli = { tag = TNC level = 1 location = tenochtitlan }
 	warrior_temple = { tag = TNC level = 1 location = tenochtitlan }
 	
+	market_village = { tag = CNL level = 1 location = calkini }
+	market_village = { tag = UAY level = 1 location = tixmul }
+	market_village = { tag = HEL level = 1 location = dzilam }
+	market_village = { tag = KOW level = 1 location = chakanbakan }
+	market_village = { tag = CTM level = 1 location = chactemal }
+	market_village = { tag = XOL level = 1 location = xicallanco }
+	market_village = { tag = YOK level = 1 location = cupilco }
+	market_village = { tag = TZE level = 1 location = quechula }
+	market_village = { tag = LAC level = 1 location = napinaica }
+	market_village = { tag = MMM level = 1 location = chinabajul }
+	market_village = { tag = THT level = 1 location = tehuantepec }
+	market_village = { tag = CTZ level = 1 location = coatzacoalco }
+	market_village = { tag = TOZ level = 1 location = tozlan }
+	market_village = { tag = TOH level = 1 location = tochtepec }
+	market_village = { tag = TTA level = 1 location = teutila }
+	market_village = { tag = ATP level = 1 location = atepec }
+	market_village = { tag = MIX level = 1 location = tututepec }
+	market_village = { tag = OMT level = 1 location = ometepec }
+	market_village = { tag = TPL level = 1 location = yucundaa }
+	market_village = { tag = CLP level = 1 location = chilapa }
+	market_village = { tag = TPT level = 1 location = tecpan }
+	market_village = { tag = IXA level = 1 location = ixtapan }
+	market_village = { tag = CLM level = 1 location = coliman }
+	market_village = { tag = TZM level = 1 location = tlamazolan }
+	market_village = { tag = CZL level = 1 location = cuzalapa }
+	market_village = { tag = TAA level = 1 location = tlalpan }
+	market_village = { tag = AME level = 1 location = ameca }
+	market_village = { tag = CON level = 1 location = coinan }
+	market_village = { tag = XAL level = 1 location = xalisco }
+	market_village = { tag = GCH level = 1 location = cuauhchinanco }
+	market_village = { tag = MIT level = 1 location = mitic }
+	market_village = { tag = MET level = 1 location = metztitlan }
+	market_village = { tag = OZL level = 1 location = ozuluama }
+	market_village = { tag = HST level = 1 location = teayotlan }
+	market_village = { tag = QHZ level = 1 location = quiahuiztlan }
+	market_village = { tag = TOT level = 1 location = cempoala }
+	market_village = { tag = PTL level = 1 location = puctlan }
+	market_village = { tag = CSM level = 1 location = cosamaloapan }
+	market_village = { tag = TEO level = 1 location = teotitlan }
+	market_village = { tag = YOH level = 1 location = yohualtepec }
+	market_village = { tag = TLO level = 1 location = teloloapan }
+	market_village = { tag = CUZ level = 1 location = cutzamala }
+	market_village = { tag = TUZ level = 1 location = tuzantla }
+	market_village = { tag = MAT level = 1 location = tollohcan }
+	market_village = { tag = HJZ level = 1 location = huexotzinco }
+	market_village = { tag = OTO level = 1 location = xaltocan }
+	market_village = { tag = TEE level = 1 location = tetela }
+	market_village = { tag = TLX level = 1 location = tizatlan }
+	market_village = { tag = IZO level = 1 location = itzocan }
+
+	#Andes
+	
+
+	terraces = { tag = TAI level = 1 location = teyuna }
+	terraces = { tag = ZAQ level = 1 location = chunsua }
+	terraces = { tag = QUL level = 1 location = hatunqulla }
+	terraces = { tag = LUP level = 1 location = chucuito }
+
+	market_village = { tag = UMA level = 1 location = achacachi }
+	market_village = { tag = PCJ level = 1 location = axawiri }
+	market_village = { tag = KRK level = 1 location = karanka }
+	market_village = { tag = SUR level = 1 location = sura }
+	market_village = { tag = CRA level = 1 location = charka }
+	market_village = { tag = KNA level = 1 location = ayaviri }
+	market_village = { tag = CNC level = 1 location = waqrapukara }
+	market_village = { tag = PIG level = 1 location = pikillaqta }
+	market_village = { tag = AYA level = 1 location = pisaq }
+	market_village = { tag = CSU level = 1 location = qusqu }
+	market_village = { tag = KKE level = 1 location = yanahuara }
+	market_village = { tag = SRA level = 1 location = soras }
+	market_village = { tag = URC level = 1 location = huaman_karpa }
+	market_village = { tag = MYM level = 1 location = paqwayranra }
+	market_village = { tag = PCR level = 1 location = wari_peru }
+	market_village = { tag = HNK level = 1 location = allpas }
+	market_village = { tag = HRC level = 1 location = huarco }
+	market_village = { tag = ICM level = 1 location = ishma }
+	market_village = { tag = CLQ level = 1 location = collique }
+	market_village = { tag = NTA level = 1 location = cantamarca }
+	market_village = { tag = PCO level = 1 location = tucssa }
+	market_village = { tag = ANI level = 1 location = aruni }
+	market_village = { tag = CHJ level = 1 location = atico }
+	market_village = { tag = HCH level = 1 location = markahuamachuco }
+	market_village = { tag = XLL level = 1 location = xllang }
+	market_village = { tag = CUI level = 1 location = tantaricuy }
+	market_village = { tag = CYA level = 1 location = kuelap }
+	market_village = { tag = GRR level = 1 location = cangochamba }
+	market_village = { tag = CAV level = 1 location = calvas }
+	market_village = { tag = MLT level = 1 location = malacatos }
+	
 	
 	####---------- Yucatan ----------####
 	#--

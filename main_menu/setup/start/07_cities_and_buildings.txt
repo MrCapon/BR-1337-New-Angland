@@ -101,7 +101,7 @@ locations={
 	ohrid = { rank = town 			town_setup = balkan_town }	
 	prizren = { rank = town 		town_setup = balkan_town }	
 	skopje = { rank = town 			town_setup = balkan_town }	
-	dubrovnik = { rank = town 		town_setup = italian_coastal_town }	
+	dubrovnik = { rank = town 		town_setup = italian_coastal_city }	
 	split = { rank = town 			town_setup = italian_coastal_town }	
 	rijeka = { rank = town 			town_setup = balkan_town }	
 	zagreb = { rank = town 			town_setup = balkan_town }	
@@ -421,24 +421,24 @@ locations={
 	sarai_al_jadid = { rank = town			town_setup = russian_town }
 	
 	# Maghreb
-	mahdia = { rank = city town_setup = maghreb_city }
+	mahdia = { rank = city town_setup = maghreb_coastal_city }
 	marrakesh = { rank = city 	town_setup = maghreb_city }
-	rabat = { rank = city 	town_setup = maghreb_city }
-	annaba = { rank = city 		town_setup = maghreb_city }
-	bejaia = { rank = city 	town_setup = maghreb_city }
+	rabat = { rank = city 	town_setup = maghreb_coastal_city }
+	annaba = { rank = city 		town_setup = maghreb_coastal_city }
+	bejaia = { rank = city 	town_setup = maghreb_coastal_city }
 	fez = { rank = city 		town_setup = maghreb_city }
 	meknes = { rank = city 		town_setup = maghreb_city }
 	constantine_ALG = { rank = city town_setup = maghreb_city }
 	sijilmasa = { rank = city 	town_setup = maghreb_city }
 	tlemcen = { rank = city 	town_setup = maghreb_city }
-	tunis = { rank = city 		town_setup = maghreb_city }
-	oran = { rank = city 		town_setup = maghreb_city }
+	tunis = { rank = city 		town_setup = maghreb_coastal_city }
+	oran = { rank = city 		town_setup = maghreb_coastal_city }
 	
-	algiers = { rank = town 	town_setup = maghreb_town }
+	algiers = { rank = town 	town_setup = maghreb_coastal_town }
 	kairouan = { rank = town town_setup = maghreb_town }
-	azemmour = { rank = town 		town_setup = maghreb_town }
-	noul_lamta = { rank = town 	town_setup = maghreb_town }
-	cherchell = { rank = town 	town_setup = maghreb_town }
+	azemmour = { rank = town 		town_setup = maghreb_coastal_town }
+	noul_lamta = { rank = town 	town_setup = maghreb_coastal_town }
+	cherchell = { rank = town 	town_setup = maghreb_coastal_town }
 	tahert = { rank = town 		town_setup = maghreb_town }
 	taza = { rank = town 		town_setup = maghreb_town }
 	tidsi = { rank = town 		town_setup = maghreb_town }
@@ -878,13 +878,13 @@ locations={
 	chamdo = { rank = city town_setup = central_asian_city }
 	leh = { rank = city town_setup = central_asian_city }
 	urgench = { rank = city town_setup = central_asian_city }
-	chimgi_tura = { rank = city town_setup = central_asian_city }
 	sarayjuk = { rank = city town_setup = central_asian_city }
 	turpan = { rank = city town_setup = central_asian_city }
-	aksu = { rank = town town_setup = central_asian_city }
-	khotan = { rank = town town_setup = central_asian_city }
-	kurla = { rank = town town_setup = central_asian_city }
-	yarkand = { rank = town town_setup = central_asian_city }
+	aksu = { rank = town town_setup = central_asian_town }
+	khotan = { rank = town town_setup = central_asian_town }
+	kurla = { rank = town town_setup = central_asian_town }
+	yarkand = { rank = town town_setup = central_asian_town }
+	chimgi_tura = { rank = town town_setup = central_asian_town }
 
 	#Mongolia and Manchuria
 	karakorum = { rank = town town_setup = chinese_town }

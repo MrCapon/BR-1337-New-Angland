@@ -2,93 +2,6 @@ international_organization_manager = {
 	#################################################################
 	# 				Unique International Organizations				#
 	#################################################################
-    add_international_organization = {
-        type = defensive_league
-        creation_date = 1211.2.3
-
-        map_color = rgb { 140 36 36 }
-
-        members = {
-            POS GDD MWG BCN PMB
-        }
-        leader = POS
-    }
-	#Southern Italy/ Ionian Sea 
-	add_international_organization = {
-        type = defensive_league
-        creation_date = 1311.2.3
-
-        map_color = rgb { 140 36 36 }
-
-        members = {
-            S1C S2C S3C EPI DYR N3P #S5C
-        }
-        leader = EPI
-    }
-
-	add_international_organization = {
-		type = roman_world
-		creation_date = 1.1.1
-		members = { 
-			#Emperor
-			BYZ 
-			#Members
-			EPI TRE FEO CIL
-
-			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF KAP AOI 
-			AN0 AN1 AN2 EPI
-			M0E ACH B0R THS DYR AN3
-			S1C S2C S3C N3P S5C
-			#ARM GEO SER
-			#KOG DER MES VAN VDZ
-			OHS SGO RH0 #RIC
-			BNK MKB CHY
-			VTC GTC
-
-		}
-
-		
-		leader = BYZ
-		regions = { 
-			anatolia_region 
-			balkan_region
-		}
-		areas = { 
-			apulia_area
-			basilicata_area
-			campania_area
-			sicily_area
-
-		}
-		provinces = { 
-			#antakya_province
-			erzurum_province
-			gothia_province
-			cafa_province
-		}
-		locations = { 
-			venice
-			trapessac
-			antioch
-			arsuz
-		}
-
-
-		ruler_term = { character = byz_michael_viii_palaiologos start_date = 1261.12.25 end_date = 1282.12.1 regnal_number = 8 }
-		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1282.12.11 end_date = 1294.5.21 regnal_number = 2 }
-		ruler_term = {
-			character = byz_andronikos_ii_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 2
-			character = byz_michael_ix_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 9 # Junior Co-Emperor
-		}
-		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
-		ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
-
-
-		variables = {
-			roman_authority = 75
-		}
-	}
-
 
 	#################################################################
 	# 					Holy Roman Empire							#
@@ -249,7 +162,7 @@ international_organization_manager = {
 		ruler_term = { character = hab_rudolf_i_habsburg start_date = 1275.5.1 end_date = 1291.7.15 regnal_number = 1 }
 		ruler_term = { character = ogk_adolf_von_nassau start_date = 1292.5.5 end_date = 1298.7.2 regnal_number = 1 }
 		ruler_term = { character = hab_albrecht_i_habsburg start_date = 1298.7.27 end_date = 1308.5.1 regnal_number = 1 }
-		ruler_term = { character = lux_henry_vii_luxembourg start_date = 1308.11.27 end_date = 1313.8.24 regnal_number = 6 }
+		ruler_term = { character = lux_henry_vii_luxembourg start_date = 1308.11.27 end_date = 1313.8.24 regnal_number = 7 }
 		ruler_term = {
 			character = ubv_ludwig_iv_wittelsbach start_date = 1314.10.20 end_date = 1322.9.28 regnal_number = 4
 			character = hab_friedrich_i_habsburg start_date = 1314.10.20 end_date = 1322.9.28 regnal_number = 1 # As Antiking
@@ -564,7 +477,7 @@ international_organization_manager = {
 		ilkhan_claimant = {
 			TUR ERE KAR ATQ
 		}
-		ruler_term = {	 character = tur_orhan start_date = 1324.1.1 regnal_number = 1	}
+		#ruler_term = {	 character = tur_orhan start_date = 1324.1.1 regnal_number = 1	}
 
 	}
 
@@ -722,45 +635,7 @@ international_organization_manager = {
 			allow_christological_debates_tenet
 		}
 	}
-	#BR Added
-	add_international_organization = {
-		type = autocephalous_patriarchate
-		creation_date = 431.1.1
-		members = { S1C S2C S3C S5C N3P DYR CRT MTR ANT THP MZK }
-		variables = { 
-			religion = religion:orthodox
-			seat = location:rome
-		}
-		laws = {
-			dual_nature
-			high_christology
-			catholic_influenced_rites
-			accept_essence_tenet
-			accept_person_tenet
-			accept_prosopon_tenet
-			allow_christological_debates_tenet
-		}
-	}
 
-	#BR Added Elysian Orthodox
-	add_international_organization = {
-		type = autocephalous_patriarchate
-		creation_date = 431.1.1
-		members = { E2Y E4Y }
-		variables = { 
-			religion = religion:orthodox
-			seat = location:nansemond
-		}
-		laws = {
-			dual_nature
-			high_christology
-			catholic_influenced_rites
-			accept_essence_tenet
-			accept_person_tenet
-			accept_prosopon_tenet
-			allow_christological_debates_tenet
-		}
-	}
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 301.1.1
@@ -1810,4 +1685,130 @@ international_organization_manager = {
 		}
 		icon = smartism
 	}
+	#BR Added
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 431.1.1
+		members = { S1C S2C S3C S5C N3P DYR CRT MTR ANT THP MZK }
+		variables = { 
+			religion = religion:orthodox
+			seat = location:rome
+		}
+		laws = {
+			dual_nature
+			high_christology
+			catholic_influenced_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+		}
+	}
+
+	#BR Added Elysian Orthodox
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 431.1.1
+		members = { E2Y E4Y }
+		variables = { 
+			religion = religion:orthodox
+			seat = location:nansemond
+		}
+		laws = {
+			dual_nature
+			high_christology
+			catholic_influenced_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+		}
+	}
+	add_international_organization = {
+        type = defensive_league
+        creation_date = 1211.2.3
+
+        map_color = rgb { 140 36 36 }
+
+        members = {
+            POS GDD MWG BCN PMB
+        }
+        leader = POS
+    }
+	#Southern Italy/ Ionian Sea 
+	add_international_organization = {
+        type = defensive_league
+        creation_date = 1311.2.3
+
+        map_color = rgb { 140 36 36 }
+
+        members = {
+            S1C S2C S3C EPI DYR N3P #S5C
+        }
+        leader = EPI
+    }
+
+	add_international_organization = {
+		type = roman_world
+		creation_date = 1.1.1
+		members = { 
+			#Emperor
+			BYZ 
+			#Members
+			EPI TRE FEO CIL
+
+			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF KAP AOI 
+			AN0 AN1 AN2 EPI
+			M0E ACH B0R THS DYR AN3
+			S1C S2C S3C N3P S5C
+			#ARM GEO SER
+			#KOG DER MES VAN VDZ
+			OHS SGO RH0 #RIC
+			BNK MKB CHY
+			VTC GTC
+
+		}
+
+		
+		leader = BYZ
+		regions = { 
+			anatolia_region 
+			balkan_region
+		}
+		areas = { 
+			apulia_area
+			basilicata_area
+			campania_area
+			sicily_area
+
+		}
+		provinces = { 
+			#antakya_province
+			erzurum_province
+			gothia_province
+			cafa_province
+		}
+		locations = { 
+			venice
+			trapessac
+			antioch
+			arsuz
+		}
+
+
+		ruler_term = { character = byz_michael_viii_palaiologos start_date = 1261.12.25 end_date = 1282.12.1 regnal_number = 8 }
+		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1282.12.11 end_date = 1294.5.21 regnal_number = 2 }
+		ruler_term = {
+			character = byz_andronikos_ii_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 2
+			character = byz_michael_ix_palaiologos start_date = 1294.5.21 end_date = 1320.10.12 regnal_number = 9 # Junior Co-Emperor
+		}
+		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
+		ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
+
+
+		variables = {
+			roman_authority = 75
+		}
+	}
+	
 }
