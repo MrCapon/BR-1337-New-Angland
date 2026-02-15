@@ -72439,7 +72439,7 @@ adm = 31 dip = 34 mil = 24
 		father = tre_ioannes_ii_komnenos
 		mother = tre_eudokia_palaiologina
 		dynasty = komnenos_dynasty # Should be dynasty = megas_komnenos_dynasty
-		tag = BYZ
+		tag = AOI
 	}
 
 	# Cousin of the Emperor of Trebizond
@@ -72452,7 +72452,7 @@ adm = 31 dip = 34 mil = 24
 		father = tre_michael_komnenos
 		#mother = Daughter of Konstantinos Akropolites
 		dynasty = komnenos_dynasty # Should be dynasty = megas_komnenos_dynasty
-		tag = BYZ
+		tag = AOI
 	}
 
 	#Other Komnenos

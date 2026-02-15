@@ -194,11 +194,11 @@ character_db={
 		estate = clergy_estate
 		birth_date = 1315.1.1
 		birth = constantinople
-		adm = 95 dip = 66 mil = 75
+		adm = 55 dip = 66 mil = 100
 		father = byz_demetrios_palaiologos
 		#mother = 
 		dynasty = palaiologos_dynasty
-		tag = BYZ
+		tag = RH0
 		ruler_trait = eunuch
 	}
 
