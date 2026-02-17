@@ -675,46 +675,6 @@ international_organization_manager = {
 			allow_double_sabbath_tenet
 		}
 	}
-	#BR ADDED
-	add_international_organization = {
-		type = autocephalous_patriarchate
-		creation_date = 519.1.1
-		members = { OHS AOI CIL }
-		variables = { 
-			religion = religion:orthodox
-			seat = location:antioch
-		}
-		laws = {
-			composite_nature
-			high_christology
-			local_traditions_and_rites
-			accept_essence_tenet
-			accept_person_tenet
-			accept_prosopon_tenet
-			allow_christological_debates_tenet
-			allow_double_sabbath_tenet
-		}
-	}
-
-	add_international_organization = {
-		type = autocephalous_patriarchate
-		creation_date = 451.1.1
-		members = { RIC } #AGY
-		variables = { 
-			religion = religion:orthodox
-			seat = location:alexandria
-		}
-		laws = {
-			composite_nature
-			high_christology
-			local_traditions_and_rites
-			accept_essence_tenet
-			accept_person_tenet
-			accept_prosopon_tenet
-			allow_christological_debates_tenet
-			allow_double_sabbath_tenet
-		}
-	}
 
 	add_international_organization = {
 		type = autocephalous_patriarchate
@@ -1686,6 +1646,46 @@ international_organization_manager = {
 		icon = smartism
 	}
 	#BR Added
+	#BR ADDED
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 519.1.1
+		members = { OHS AOI CIL }
+		variables = { 
+			religion = religion:orthodox
+			seat = location:antioch
+		}
+		laws = {
+			composite_nature
+			high_christology
+			local_traditions_and_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+			allow_double_sabbath_tenet
+		}
+	}
+
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 451.1.1
+		members = { RIC } #AGY
+		variables = { 
+			religion = religion:orthodox
+			seat = location:alexandria
+		}
+		laws = {
+			composite_nature
+			high_christology
+			local_traditions_and_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+			allow_double_sabbath_tenet
+		}
+	}
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 431.1.1
@@ -1740,7 +1740,7 @@ international_organization_manager = {
         type = defensive_league
         creation_date = 1311.2.3
 
-        map_color = rgb { 140 36 36 }
+        map_color = rgb { 185 125 150 }
 
         members = {
             S1C S2C S3C EPI DYR N3P #S5C
@@ -1769,7 +1769,6 @@ international_organization_manager = {
 
 		}
 
-		
 		leader = BYZ
 		regions = { 
 			anatolia_region 
@@ -1795,7 +1794,6 @@ international_organization_manager = {
 			arsuz
 		}
 
-
 		ruler_term = { character = byz_michael_viii_palaiologos start_date = 1261.12.25 end_date = 1282.12.1 regnal_number = 8 }
 		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1282.12.11 end_date = 1294.5.21 regnal_number = 2 }
 		ruler_term = {
@@ -1804,7 +1802,6 @@ international_organization_manager = {
 		}
 		ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
 		ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 regnal_number = 3 }
-
 
 		variables = {
 			roman_authority = 75
