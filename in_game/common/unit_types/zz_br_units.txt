@@ -117,7 +117,7 @@ br_tagmata_toxotai = {
 	light = yes
 
 	initiative = 5
-	strength_damage= -0.20
+	strength_damage_done = -0.20
 	strength_damage_taken = 0.10
 	morale_damage_taken = 0.175
 	#max_strength = 0.2
@@ -157,7 +157,7 @@ br_tagmata_ballistai = {
 
 	combat = {
 		grasslands = 0.1
-		forests = -0.25
+		forest = -0.25
 		wetlands = -0.30
 		hills = -0.1
 	}
@@ -187,7 +187,7 @@ br_unit_trebuchet = {
 
 	combat = {
 		grasslands = 0.1
-		forests = -0.25
+		forest = -0.25
 		wetlands = -0.30
 		hills = -0.1
 	}
