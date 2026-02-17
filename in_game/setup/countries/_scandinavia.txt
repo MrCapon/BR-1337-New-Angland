@@ -178,8 +178,3 @@ N3R = {
 	religion_definition = catholic
 }
 
-N4R = {
-	color = rgb { 157 165 188 }
-	culture_definition = norwegian
-	religion_definition = catholic
-}
