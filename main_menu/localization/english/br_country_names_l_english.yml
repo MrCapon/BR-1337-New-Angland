@@ -46,7 +46,15 @@
  A1G: "Aigaíon Pélagos"
  A1G_ADJ: "Aigaïtikós"
 
- #Ruski/Steppes
+#Middle east
+ A0A: "Samarra"
+ A0A_ADJ: "Samarrian"
+ A2A: "Mosul"
+ A2A_ADJ: "Mosulian"
+ SY2: "Damascus"
+ SY2_ADJ: "Damascene"
+
+#Ruski/Steppes
  RH1: "Tula" # Tula Principality, named after the city of Tula
  RH1_ADJ: "Tula"
  RH2: "Kursk" # Principality of Kursk, named after the city of Kursk
