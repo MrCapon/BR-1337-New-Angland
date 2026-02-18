@@ -51,7 +51,7 @@ br_vinland_naval_tradition = {
     global_fish_output_modifier = 0.1
     #can_recruit_explorer = yes
     #may_explore = yes
-    exploration_maintenance_cost = -0.50
+    exploration_maintenance_cost = -0.25
     navy_maintenance_cost = -0.25
     global_maritime_presence_modifier = 0.1
 	#merchant_power_from_maritime_modifier = 0.2
@@ -291,8 +291,11 @@ br_kykladian_naval_tradition = {
 	can_hire_privateers = yes
     auto_slave_raid_different_religion = yes
 	trade_range_modifier = 0.25
+	trade_sea_movement_cost_modifier = -0.25
     global_sailors_modifier = 0.5
     navy_maintenance_cost = -0.25
+	navy_light_ship_maintenance_cost_modifier = -0.25
+	naval_range_modifier = 0.25
     global_maritime_presence_modifier = 0.25
 	amount_looted_modifier = 0.33
 
@@ -332,7 +335,7 @@ elysian_colonial_charters = {
 	global_integration_speed_modifier = 0.1
 	global_migration_speed_modifier = 0.1
 	rural_migration_attraction = 0.1
-	global_population_growth = 0.0002
+	global_population_growth = 0.0005
 }
 
 # age_2_renaissance
@@ -349,6 +352,7 @@ elysian_senatorial_tradition = {
 	}
 	requires = vibrant_court_advance
 	diplomatic_capacity = 1
+	global_crown_estate_power = 0.05
 }
 
 elysian_emporia_of_the_west = {
@@ -396,6 +400,8 @@ elysian_mixed_legions = {
 	}
 	requires = pike_and_shot_advance
 	discipline = 0.02
+	global_manpower_modifier = 0.1
+	army_tradition_decay = -0.001
 }
 
 # age_4_reformation
@@ -411,7 +417,7 @@ elysian_confessional_compromise = {
 		}
 	}
 	requires = confessional_court
-	tolerance_heretic = 1
+	tolerance_heretic = 2
 }
 
 elysian_civic_faith = {

@@ -27,6 +27,11 @@ REPLACE_OR_CREATE:GAZ = {
 INJECT:GLH = {
 	culture_definition = astrakhani
 }
+G0L = {
+	color = rgb { 16 41 202 }
+	culture_definition = yerle_qaliq_culture
+	religion_definition = tengri
+}
 
 BA0 = {
 	color = rgb { 74 69 96 }

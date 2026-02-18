@@ -68,18 +68,12 @@ locations = {
 	
 	## Kikonteki Province
 	kikonteku = {
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.084	culture = stadaconan_culture	religion = iroquoian_totemism }
+		define_pop = {	type = tribesmen	size = 1.484	culture = stadaconan_culture	religion = iroquoian_totemism }
 	}
 	kamitsisit = {
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.318	culture = stadaconan_culture	religion = iroquoian_totemism }
+		define_pop = {	type = tribesmen	size = 1.618	culture = stadaconan_culture	religion = iroquoian_totemism }
 	}
 	etchemin = {
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 1.531	culture = stadaconan_culture	religion = iroquoian_totemism }
 	}
 	wachilmezi = {
@@ -99,45 +93,29 @@ locations = {
 	stadacona = {
 		define_pop = {	type = peasants		size = 0.026	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.057	culture = vinlander		religion = norse }
-		define_pop = {	type = nobles		size = 0.052	culture = innulander	religion = norse }
 		define_pop = {	type = clergy		size = 0.152	culture = vinlander		religion = norse }
-		define_pop = {	type = peasants		size = 4.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 2.852	culture = innulander	religion = norse }
+		define_pop = {	type = tribesmen	size = 2.852	culture = stadaconan_culture	religion = iroquoian_totemism }
 	}
 	andawaohie = {
-		define_pop = {	type = tribesmen	size = 0.730	culture = maisouna_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 0.852	culture = innulander	religion = norse }
+		define_pop = {	type = tribesmen	size = 1.230	culture = maisouna_culture	religion = iroquoian_totemism }
 	}
 	ontaretse = {
 		define_pop = {	type = tribesmen	size = 1.318	culture = stadaconan_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 	}
 	ahwendoe = {
 		define_pop = {	type = tribesmen	size = 1.531	culture = stadaconan_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 	}
 	ondaonnentakwi = {
 		define_pop = {	type = tribesmen	size = 1.425	culture = stadaconan_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 	}
 	aunona = {
 		define_pop = {	type = tribesmen	size = 1.318	culture = stadaconan_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 	}
 	taoondewake = {
 		define_pop = {	type = tribesmen	size = 1.318	culture = stadaconan_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 	}
 	kouate = {
 		define_pop = {	type = tribesmen	size = 1.318	culture = stadaconan_culture	religion = iroquoian_totemism }
-		define_pop = {	type = peasants		size = 0.852	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 1.852	culture = innulander	religion = norse }
 	}
 	laurentian_massif = {
 	}
@@ -146,15 +124,15 @@ locations = {
 	mingan = {
 		define_pop = {	type = peasants		size = 0.360	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.257	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
+		define_pop = {	type = tribesmen	size = 1.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 2.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.318	culture = innu_culture	religion = midewiwin_religion }
 	}
 	pigou = {
 		define_pop = {	type = peasants		size = 0.360	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.257	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
+		define_pop = {	type = tribesmen	size = 1.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 2.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.212	culture = innu_culture	religion = midewiwin_religion }
 	}
 	aguanish = {
@@ -219,9 +197,9 @@ locations = {
 	
 	## Uashat Province
 	uashat = {
-		define_pop = {	type = peasants		size = 2.560	culture = vinlander		religion = norse }
+		define_pop = {	type = peasants		size = 1.560	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 1.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 2.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 3.229	culture = innulander	religion = midewiwin_religion }
 		define_pop = {	type = peasants		size = 2.158	culture = innulander	religion = norse }
 		define_pop = {	type = slaves		size = 0.721	culture = innu_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 0.425	culture = innu_culture	religion = midewiwin_religion }
@@ -241,8 +219,8 @@ locations = {
 	mistecapiu = {
 		define_pop = {	type = peasants		size = 0.560	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
+		define_pop = {	type = tribesmen	size = 1.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 2.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.106	culture = ilnu_culture	religion = midewiwin_religion }
 	}
 	sainte_marguerite_plateau = {

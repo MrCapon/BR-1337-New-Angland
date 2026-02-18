@@ -1,3 +1,4 @@
+### Hashed out modifiers are just ones I think are cool to make use of in the future.
 #global_devastation_recovery = 0.005
 #trade_land_movement_cost_modifier = -0.33
 #global_pop_promotion_speed_modifier = 0.1
@@ -7,7 +8,7 @@
 #army_infantry_power = 0.02
 #global_pop_conversion_speed = 0.01
 #minting_income_factor = 0.10
-#global_distance_from_capital_cost_modifier = -0.05
+#global_distance_from_capital_speed_propagation = 0.05
 #global_monthly_development = 0.001
 #global_build_buildings_cost = -0.05
 #build_gravel_road_cost_modifier = -0.1
@@ -20,7 +21,14 @@
 # land_cost_on_distance_from_capital_modifier
 # sea_cost_on_distance_from_capital_when_maritime
 # diplomatic_upkeep_modifier = -0.05
-# naval_damage_done = 0.1
+# naval_damage_done = 0.2
+# navy_galley_power = 0.1
+# artillery_bonus_vs_fort = 1
+# assault_ability = 0.1
+# siege_ability = 0.05
+# global_trade_through_owned_territory_cost_modifier = -0.2
+# prestige_decay = -0.001
+# spy_network_construction = 0.2
 
 ### cool icons ###
 #icon = ara_desperta_ferro
@@ -37,6 +45,7 @@
 #icon = byz_reaffirm_synod_powers
 #icon = byz_shield_of_the_west
 #icon = byz_the_new_imperial_army
+#icon = tre_grand_komnenoi
 #icon = church_councils
 #icon = city_of_churches
 #icon = court_cost_advance_renai
@@ -61,7 +70,8 @@ roman_romaioi_identity = {
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ
-			culture = { has_culture_group = culture_group:greek_group }
+			culture = culture:greek_culture
+			#culture = { has_culture_group = culture_group:greek_group }
 		}
 	}
 	requires = state_administration_advance
@@ -75,7 +85,7 @@ roman_codified_custom = {
 	icon = byz_reaffirm_synod_powers
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -93,7 +103,7 @@ roman_pronoial_administration = {
 	icon = byz_modernized_strategikon
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -111,7 +121,7 @@ roman_akritic_reforms = {
 	icon = byz_modernized_strategikon
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -122,6 +132,7 @@ roman_akritic_reforms = {
 
 	unlock_subject_type = march
 	unlock_estate_privilege = peasants_yeomanry
+	army_logistics_distance_modifier = 0.1
 }
 
 br_roman_ecumenical_patriarch_advance = {
@@ -130,11 +141,12 @@ br_roman_ecumenical_patriarch_advance = {
 		
 	religious_icon_power_modifier = 0.25
 	global_clergy_city_desired_pop =  0.05
+	global_pop_conversion_speed_modifier = 0.25
 	#stability_investment = tiny_stability_investment
 	unlock_estate_privilege = br_roman_ecumenical_patriarch_privilege
 	icon = church_councils
 		
-	requires = byz_heart_of_orthodoxy_advance
+	requires = roman_codified_custom
 }
 
 
@@ -145,7 +157,7 @@ roman_scribal_administration = {
 	icon = administrative_leadership
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -163,7 +175,7 @@ roman_court_and_office = {
 	icon = administrative_leadership
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -177,6 +189,18 @@ roman_court_and_office = {
 
 }
 
+roman_commerce_advance = {
+	age = age_2_renaissance
+	icon = tre_grand_komnenoi
+	potential = { 
+		has_or_had_tag = BYZ
+	}
+	requires = maritime_advance_age_2
+	trade_range_modifier = 0.15
+}
+
+
+
 # AGE 3 – Discovery
 
 roman_thematic_recruitment = {
@@ -184,7 +208,7 @@ roman_thematic_recruitment = {
 	icon = byz_modernized_strategikon
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -204,7 +228,7 @@ roman_infrastructure = {
 	icon = byz_crossroads_of_continents
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -212,9 +236,11 @@ roman_infrastructure = {
 		}
 	}
 	requires = pike_and_shot_advance
-	fort_maintenance_cost = -0.10
-	global_road_building_time = -0.10
-	trade_land_movement_cost_modifier = -0.25
+	#fort_maintenance_cost = -0.10
+	#global_road_building_time = -0.10
+	#trade_land_movement_cost_modifier = -0.25
+	global_distance_from_capital_speed_propagation = 0.1
+	global_trade_through_owned_territory_cost_modifier = -0.25
 }
 
 # AGE 4 – Reformation
@@ -224,7 +250,7 @@ roman_imperial_legitimacy = {
 	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -242,7 +268,7 @@ roman_civic_order = {
 	icon = byz_modernized_strategikon
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -262,7 +288,7 @@ roman_centralized_command = {
 	icon = byz_the_new_imperial_army
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -279,7 +305,7 @@ roman_law_above_custom = {
 	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
@@ -298,11 +324,11 @@ roman_state_identity = {
 	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
-			any_overlord_or_above = {
-				has_or_had_tag = BYZ
-			}
-			culture = { has_culture_group = culture_group:greek_group }
+			has_or_had_tag = BYZ
+			#any_overlord_or_above = {
+			#	has_or_had_tag = BYZ
+			#}
+			#culture = { has_culture_group = culture_group:greek_group }
 		}
 	}
 	requires = crown_power_advance_revolutions

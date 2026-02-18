@@ -68,6 +68,9 @@ diplomacy_manager = {
     dependency = { first = MOS second = NZH subject_type = dominion }
     dependency = { first = MOS second = UGL subject_type = dominion }
 
+    dependency = { first = VLR second = MRM subject_type = vassal }
+    dependency = { first = VLR second = SKY subject_type = vassal }
+
     dependency = { first = LIT second = MSV subject_type = vassal }
 
 	dependency = { first = BRY second = TRB subject_type = vassal }
@@ -97,7 +100,6 @@ diplomacy_manager = {
 
     dependency = { first = RYA second = RH1 subject_type = dominion }
     dependency = { first = BRY second = RH2 subject_type = dominion }
-    dependency = { first = ZAZ second = RH3 subject_type = vassal }
 
     dependency = { first = GEN second = ARB subject_type = vassal }
     scripted_oneway = { first = GEN second = ARB type = divert_trade }
@@ -113,11 +115,33 @@ diplomacy_manager = {
 	#dependency = { first = GLH second = SRC subject_type = tributary }
 	#dependency = { first = GLH second = SSI subject_type = tributary }
 	
-	#Ruthenia #br moved to tatar yoke
-	#dependency = { first = GLH second = BRY subject_type = tributary }
-	#dependency = { first = GLH second = HAL subject_type = tributary }
-	#dependency = { first = GLH second = KIE subject_type = tributary }
+
+    #Russia
+    dependency = { first = GLH second = PRM subject_type = tributary }
+	dependency = { first = GLH second = VYT subject_type = tributary }
+	dependency = { first = GLH second = RYA subject_type = tributary }
+    dependency = { first = GLH second = MOS subject_type = tributary }
+    dependency = { first = GLH second = SMO subject_type = tributary }
+    dependency = { first = GLH second = TVE subject_type = tributary }
+    dependency = { first = GLH second = NSL subject_type = tributary }
+    dependency = { first = GLH second = KCH subject_type = tributary }
+    dependency = { first = GLH second = SZL subject_type = tributary }
+    dependency = { first = GLH second = GLM subject_type = tributary }
+    dependency = { first = GLH second = RHO subject_type = tributary }
+    dependency = { first = GLH second = YAR subject_type = tributary }
+    dependency = { first = GLH second = RSO subject_type = tributary }
+
+	#Ruthenia
+    #dependency = { first = GLH second = HAL subject_type = tributary }
 	#dependency = { first = GLH second = VOL subject_type = tributary }
+	dependency = { first = GLH second = BRY subject_type = tributary }
+	dependency = { first = GLH second = CHR subject_type = tributary }
+	dependency = { first = GLH second = KIE subject_type = tributary }
+    dependency = { first = GLH second = RH3 subject_type = tributary }
+    dependency = { first = GLH second = ZAZ subject_type = tributary }
+
+    #Central Asia
+    dependency = { first = GLH second = G0L subject_type = vassal }
 	
 	# Hanseatic League
 	dependency = { first = HSA second = LUB subject_type = hanseatic_member }
@@ -969,16 +993,16 @@ diplomacy_manager = {
     #dependency = { first = CHI second = YOO subject_type = vassal }
 
     #-------------Mongolia----------
-    #dependency = { first = CHI second = OGE subject_type = vassal }
+    dependency = { first = CHI second = OGE subject_type = vassal }
     dependency = { first = OGE second = BAT subject_type = vassal }
     dependency = { first = OGE second = CRS subject_type = vassal }
     dependency = { first = OGE second = KHD subject_type = vassal }
     dependency = { first = OGE second = TRH subject_type = vassal }
     dependency = { first = CRS second = TVA subject_type = vassal }
-    #dependency = { first = CHI second = BGT subject_type = vassal }
-    #dependency = { first = CHI second = HCN subject_type = vassal }
-    #dependency = { first = CHI second = OTC subject_type = vassal }
-    #dependency = { first = CHI second = QAS subject_type = vassal }
+    dependency = { first = CHI second = BGT subject_type = vassal }
+    dependency = { first = CHI second = HCN subject_type = vassal }
+    dependency = { first = CHI second = OTC subject_type = vassal }
+    dependency = { first = CHI second = QAS subject_type = vassal }
 
     #------------Tibet-------------
     dependency = { first = TIB second = GUG subject_type = vassal }

@@ -642,15 +642,6 @@ countries = {
 				
 				bytow lebork
 			}
-			control = {
-				#Samogitia
-				palanga rietavas silale skuodas taurage
-				mazeikiai
-				##Dobrzyń Land
-				#dobrzyn lipno rypin
-				##Kujavia
-				#wloclawek bydgoszcz inowroclaw kowal radziejow
-			}
 			
 			include = "catholic_military_order"
 			include = "expl_northern_europe"
@@ -2765,6 +2756,8 @@ countries = {
 			own_control_integrated = {
 				dalneye_konstantinovo
 				uren tonshayevo vetluga semyonov kovernino krasnye_baki sharanga varnavino
+				pavlovo
+				khakhaly raznezhye voskresenskoye
 			}
 			
 			starting_technology_level = 3
@@ -2874,6 +2867,8 @@ countries = {
 			
 			own_control_integrated = {
 				klepiki
+				kasimov
+				ardatov
 			}
 			
 			starting_technology_level = 3
@@ -3828,7 +3823,7 @@ countries = {
 			}
 			capital = barnaul
 		}
-		
+
 		GLH = {
 			type = army
 			own_control_integrated = {
@@ -3882,21 +3877,14 @@ countries = {
 				menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
 				ulukulevo davlekanovo bizhbulyak turkmenevo sterlibashevo
 				sterlitamak bavly bugulma abdulino aznakayevo
-				sadak gorkovskoye okoneshnikovo
-				qashliq siberia_abalak turtas yukonda
-				tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
-				siletiteniz zhalauly
-				
-				chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
+				sadak
+	  
+				siletiteniz
 				tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
-				shish muromtsevo ufa askino baltas
-				sartlan taskayevo kargat kainsky_pas kyshtovka
+				ufa askino baltas
 				zmeinogorsk shemonayevskoye oskemen ust_kalmanka
-				verkhotomsk kolchugino
 				altayskoye onguday ust_koksa smolenskoye
-				abakasnk beya shushenskoye
-				tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
-				surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
+				    
 				alkhan_kala nazran dzhulat tatartup
 				promsa alatyr batyrevo
 				atrat altyshevo bolshoye_boldino shatki arzamas sarov lukoyanov krasnoslobodsk ruzayevka
@@ -3906,9 +3894,9 @@ countries = {
 				atishchevo tsivilsk
 
 				bolshoye_murashkino kurmysh lyskovo perevoz sechenovo spasskoye_lyskovo
-				cheboksary kozmodemyansk alikovo vasilsursk pavlovo
-				khakhaly raznezhye voskresenskoye
-				kadom ardatov
+				cheboksary kozmodemyansk alikovo vasilsursk
+				azeevo
+				kadom
 				ushkan koskuduk manysai shagan zhaksy_karasay
 				ketik_kala kabakty karatobe_mangyshlak kyzylkala
 				masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
@@ -3928,42 +3916,35 @@ countries = {
 				lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
 				kozlov terbuny kastornoye chernyanka alexeyevka 
 				
-				
 				korocha
 				staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun
 				mokshan chembar
 				serdobinskaya malaya_serdoba shemysheyka
 				penza gorodishche russky_kameshkir staraya_kulatka solovtsovo
 				troitskoye_kuroedovo
-				kasimov azeevo
 				
 				meleuz kapova_pesera
 				khvorostyanka stavropol_na_volge kondurcha pestravka
 				poganovka sorochinskaya buzuluk grachevka bol_shoy_uran malyy_uran
 				s_ezzaja bogatoye
-				tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
+				    
 				bayanaul shybyndy bozok_astana akkol
 				arykbalyk kak kokshetau shoindykol atbasar
 				kulykol zhetykol shoptikol siberia_tenteksor konildi
 				zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
 				yetkul troitsk uyskoye
 				bolshoy_ik ust_katav mesyagutovo zlatoust
-				chimgi_tura tugulym yalutorovsk shadrinsk
-				tsaryovo_gorodishche burayevo
+				   
+				burayevo
 				sarybulak arkat
 
 				ukek teshevka voronezh oskol rovenki valuyki
 
-				bursol bolshoye_yarovoye kulundinskoye kuchukskoye volchikha butyrskoe gorkoye bolshoye_topolnoye
-				imakia zhelezin lebyazhye maraldy azhbulat
-				karasor tuzdysor karkaraly balyktykol
-				zaysan
-				zhanaarka kaynar_atbai takhir
+				
 
-				suzun berdsk chesnokovka kalmanka barnaul
-				krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
-				mayma biysk teletskoye
-				kuznetsk salair kytmanovo ust_kabyrza askiz
+				karkaraly
+				zaysan
+				kaynar_atbai
 			}
 			own_integrated = {
 				bratslav balta bershad karabul savran
@@ -4032,7 +4013,7 @@ countries = {
 					dhimmi_mazalim_court
 					dhimmi_in_administration
 
-					tribal_host
+					
 					tribal_autonomy
 					tribes_land_rights
 					tribes_pasture_access
@@ -4231,8 +4212,6 @@ countries = {
 		
 		#### ENGLAND
 		AGL = {
-			own_control_core = {
-			}
 			our_cores_conquered_by_others = {
 				barking bedford cambridge chelmsford colchester dunstable ely harrow hedingham hertford huntingdon kettering kingston london loughborough newark northampton nottingham prittlewell retford rutland royston st_albans walden
 				derby glossop chesterfield henley
@@ -18489,10 +18468,6 @@ countries = {
 				tangier ceuta
 			}
 			
-			control = {
-				arshgul madinat_alawiyyin saida ras_al_ain
-			}
-			
 			include = "expl_muslim_mediterranean"
 			include = "muslim_monarchy_no_abrahamic_dhimmi"
 			country_rank = rank_kingdom
@@ -18578,11 +18553,9 @@ countries = {
 				mazouna miliana qal_at_ibn_salama yellel chlef al_khadra_ALG
 				laghouat ksar_el_kaoua medrissa
 				azeffoun tedelles kuku charef qutb ain_madhi
-			}
-			
-			own_core = {
 				arshgul madinat_alawiyyin ras_al_ain saida
 			}
+
 			
 			starting_technology_level = 3
 			include = "expl_muslim_mediterranean"
@@ -29851,12 +29824,21 @@ countries = {
 			arkat sarybulak 
 			zmeinogorsk shemonayevskoye oskemen ust_kalmanka
 			altayskoye onguday ust_koksa smolenskoye 
-		}
-
-		own_control_integrated = {
 			ayagoz 
 			burqin jeminay 
 			tsagaan_usun
+
+			karasor balyktykol tuzdysor zhalauly
+			zhanaarka takhir
+			abakasnk beya shushenskoye
+			verkhotomsk kolchugino
+			taskayevo
+			imakia zhelezin lebyazhye maraldy azhbulat
+			bursol bolshoye_yarovoye kulundinskoye kuchukskoye volchikha butyrskoe gorkoye bolshoye_topolnoye
+			kuznetsk salair kytmanovo ust_kabyrza askiz
+			mayma biysk teletskoye
+			suzun berdsk chesnokovka kalmanka barnaul
+			krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
 		}
 
 		starting_technology_level = 3
@@ -40094,8 +40076,6 @@ countries = {
 				gdansk gniew koscierzyna mirochowo puck tczew
 				tuchola bialobork czluchow nowe swiecie
 			}
-			own_core = {
-			}
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
@@ -40472,7 +40452,7 @@ countries = {
 		}
 		
 		INO = {	#Inowrocław - PU under Poland
-			own_control_core = { #Should actually be own_core
+			own_control_core = { #Should actually be 
 				bydgoszcz inowroclaw
 			}
 			
@@ -40687,6 +40667,8 @@ countries = {
 		LIT = {	#Lithuania
 			own_control_core = {
 				#Lithuania
+				palanga rietavas silale skuodas taurage
+				mazeikiai
 				vilnius giedraiciai kernave medininkai_vilna
 				ashmyany halshany hieraniony kreva
 				braslaw drysvyaty ezerenai miory
@@ -40713,15 +40695,12 @@ countries = {
 				lahoysk begoml byerazino ilya krasnoe smalyavichy
 				minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
 				mogilev bykhaw
+
 			}
 			own_control_integrated = {
 				grodek
 				#Podlasie
 				drohiczyn bielsk_podlaski mielnik sokolow suraz
-			}
-			own_core = {
-				palanga rietavas silale skuodas taurage
-				mazeikiai
 			}
 			
 			include = "expl_eastern_europe"
@@ -53832,7 +53811,7 @@ countries = {
 			}
 			
 			starting_technology_level = 3
-			country_rank = rank_duchy
+			country_rank = rank_county
 			
 			government = {
 				type = monarchy
@@ -53859,7 +53838,7 @@ countries = {
 			}
 			
 			starting_technology_level = 3
-			country_rank = rank_duchy
+			country_rank = rank_county
 			
 			government = {
 				type = monarchy
@@ -53886,7 +53865,7 @@ countries = {
 			}
 			
 			starting_technology_level = 3
-			country_rank = rank_duchy
+			country_rank = rank_county
 			
 			government = {
 				type = steppe_horde
@@ -53938,6 +53917,46 @@ countries = {
 			include = "expl_eastern_europe"
 			include = "eurasian_horde"
 		}
+
+		G0L = { # SIBIR Khanate
+    	    own_control_core = {
+     	    	qashliq siberia_abalak turtas yukonda
+     	    	tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
+      	    	chimgi_tura tugulym yalutorovsk shadrinsk tsaryovo_gorodishche
+      	    	tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
+       	    	surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
+
+				gorkovskoye okoneshnikovo
+				chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
+				shish muromtsevo sartlan kargat kainsky_pas kyshtovka
+				tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
+      		}
+
+     	   	starting_technology_level = 3
+     		include = "expl_mongols"
+     	  	include = "eurasian_horde"
+
+      		government = {
+      	   	 	ruler = random
+
+            	reforms = {
+					legacy_of_genghis
+				}
+				privilege = {
+					tribal_autonomy
+					tribes_land_rights
+					tribes_pasture_access
+					tribes_tribal_registry
+					tribes_protected_faith
+					tribes_in_administration
+					tribes_respect_tribal_traditions
+				}
+
+       		}
+			country_rank = rank_duchy
+      	  	capital = chimgi_tura
+        	court_language = kipchak_language
+   		}
 
 		ANA = { #br releasable
 			our_cores_conquered_by_others = {

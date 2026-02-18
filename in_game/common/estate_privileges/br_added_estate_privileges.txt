@@ -3,6 +3,8 @@
 #monthly_army_tradition = 0.05
 # BR added Nobles Estate Privileges
 
+#Senate
+
 akritai_privilege = {
 	
 	estate = peasants_estate
@@ -76,12 +78,13 @@ br_special_trade_companies = {
 
 	country_modifier = {
 		global_trades_per_burgher = 0.25
-		navy_maintenance_cost = -0.25
-		navy_light_ship_maintenance_cost_modifier = -0.25
 		trade_sea_movement_cost_modifier = -0.25
 		trade_efficiency = large_trade_efficiency_bonus
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
-		global_burghers_estate_power = 1
+		#global_burghers_estate_power = 1
+		navy_maintenance_cost = -0.25
+		navy_light_ship_maintenance_cost_modifier = -0.25
+		naval_range_modifier = 0.25
 		expected_navy_size_modifier = 1.0
 		payment_to_overlord_modifier = -0.5
 		global_navy_levy_size_modifier = 0.5
@@ -107,12 +110,15 @@ br_latin_trade_naval_reliance = {
 		trade_efficiency = medium_trade_efficiency_penalty
 		global_burghers_estate_power = 0.25
 		global_burghers_conversion_blocked = yes
+
+		#positive modifiers
 		tolerance_heretic = 1
-		tolerance_own = -1
-
-		#global_maritime_presence_modifier = 0.1
 		global_trade_center_power = 0.1
+		trade_range_modifier = 0.25
 
+		#negative modifiers
+		tolerance_own = -1
+		global_maritime_presence_modifier = -0.1
 		navy_maintenance_cost = 0.25
 		ship_build_speed = -0.5
 		expected_navy_size_modifier = -0.5
@@ -135,11 +141,12 @@ br_roman_ecumenical_patriarch_privilege = {
 	can_revoke = {
 	}
 	country_modifier = {
-		global_clergy_estate_power = 0.25
+		global_clergy_estate_power = 0.5
 		clergy_estate_target_satisfaction = small_privilege_target_satisfaction
 		monthly_towards_spiritualist = societal_value_monthly_move
 		diplomatic_reputation = 4
 		monthly_religious_influence = 0.25
+		orthodox_synod_cost_modifier = -0.25
 		maximum_religious_influence = 500
 		force_convert_created_subjects = yes
 	}

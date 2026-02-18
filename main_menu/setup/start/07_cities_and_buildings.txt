@@ -5169,6 +5169,39 @@ building_manager = {
 	peasants_training_grounds = { tag = RH3 level = 1 location = donets_kharkiv }
 	free_village = { tag = RH3 level = 2 location = donets_kharkiv }
 
+	## Asia
+	kurultai = { tag = OGE level = 1 location =  burqin }
+	market_village = { tag = OGE level = 1 location =  burqin }
+	peasants_training_grounds = { tag = OGE level = 1 location = burqin }
+	kurultai = { tag = BAT level = 1 location =  naomao }
+	market_village = { tag = BAT level = 1 location =  naomao }
+	peasants_training_grounds = { tag = BAT level = 1 location = naomao }
+	kurultai = { tag = CRS level = 1 location =  khar_balgas }
+	market_village = { tag = CRS level = 1 location =  khar_balgas }
+	peasants_training_grounds = { tag = CRS level = 1 location = khar_balgas }
+	kurultai = { tag = KHD level = 1 location =  zavkhan }
+	market_village = { tag = KHD level = 1 location =  zavkhan }
+	peasants_training_grounds = { tag = KHD level = 1 location = zavkhan }
+	kurultai = { tag = TRH level = 1 location =  bulgan }
+	market_village = { tag = TRH level = 1 location =  bulgan }
+	peasants_training_grounds = { tag = TRH level = 1 location = bulgan }
+	kurultai = { tag = BGT level = 1 location =  balj }
+	market_village = { tag = BGT level = 1 location =  balj }
+	peasants_training_grounds = { tag = BGT level = 1 location = balj }
+	kurultai = { tag = HCN level = 1 location =  qingzhou_mongol }
+	market_village = { tag = HCN level = 1 location =  qingzhou_mongol }
+	peasants_training_grounds = { tag = HCN level = 1 location = qingzhou_mongol }
+	kurultai = { tag = OTC level = 1 location =  taizhou_jurchen }
+	market_village = { tag = OTC level = 1 location =  taizhou_jurchen }
+	peasants_training_grounds = { tag = OTC level = 1 location = taizhou_jurchen }
+	kurultai = { tag = QAS level = 1 location =  boorj }
+	market_village = { tag = QAS level = 1 location =  boorj }
+	peasants_training_grounds = { tag = QAS level = 1 location = boorj }
+	
+	kurultai = { tag = DGH level = 1 location =  kashgar }
+	peasants_training_grounds = { tag = DGH level = 1 location = kashgar }
+
+
 #Villages and rural buildings
 	market_village = { tag = BUL level = 2 location = burgas }
 	fishing_village = { tag = BUL level = 1 location = burgas }
