@@ -61,13 +61,10 @@ REPLACE_OR_CREATE:br_alandalus_reform = {
 	}
 	country_modifier = {
 		monthly_towards_humanist = societal_value_monthly_move
-		global_clergy_estate_power = -1
-		global_nobles_estate_power = -1
-		global_burghers_estate_power = -1
-		global_dhimmi_estate_power = 1
+		global_dhimmi_estate_power = 2
         tolerance_heathen = 4
         global_pop_conversion_speed_modifier = -0.75
-		dhimmi_estate_levy_size = 0.25
+		dhimmi_estate_levy_size = 0.5
 	}
 	years = 2
 }
