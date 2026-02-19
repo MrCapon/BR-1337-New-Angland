@@ -5170,37 +5170,83 @@ building_manager = {
 	free_village = { tag = RH3 level = 2 location = donets_kharkiv }
 
 	## Asia
-	kurultai = { tag = OGE level = 1 location =  burqin }
-	market_village = { tag = OGE level = 1 location =  burqin }
+	kurultai = { tag = OGE level = 1 location = burqin }
+	market_village = { tag = OGE level = 1 location = burqin }
 	peasants_training_grounds = { tag = OGE level = 1 location = burqin }
-	kurultai = { tag = BAT level = 1 location =  naomao }
-	market_village = { tag = BAT level = 1 location =  naomao }
-	peasants_training_grounds = { tag = BAT level = 1 location = naomao }
-	kurultai = { tag = CRS level = 1 location =  khar_balgas }
+	kurultai = { tag = CRS level = 1 location = khar_balgas }
 	market_village = { tag = CRS level = 1 location =  khar_balgas }
 	peasants_training_grounds = { tag = CRS level = 1 location = khar_balgas }
-	kurultai = { tag = KHD level = 1 location =  zavkhan }
-	market_village = { tag = KHD level = 1 location =  zavkhan }
-	peasants_training_grounds = { tag = KHD level = 1 location = zavkhan }
-	kurultai = { tag = TRH level = 1 location =  bulgan }
-	market_village = { tag = TRH level = 1 location =  bulgan }
-	peasants_training_grounds = { tag = TRH level = 1 location = bulgan }
-	kurultai = { tag = BGT level = 1 location =  balj }
-	market_village = { tag = BGT level = 1 location =  balj }
-	peasants_training_grounds = { tag = BGT level = 1 location = balj }
-	kurultai = { tag = HCN level = 1 location =  qingzhou_mongol }
-	market_village = { tag = HCN level = 1 location =  qingzhou_mongol }
+	kurultai = { tag = HCN level = 1 location = qingzhou_mongol }
+	market_village = { tag = HCN level = 1 location = qingzhou_mongol }
 	peasants_training_grounds = { tag = HCN level = 1 location = qingzhou_mongol }
-	kurultai = { tag = OTC level = 1 location =  taizhou_jurchen }
-	market_village = { tag = OTC level = 1 location =  taizhou_jurchen }
+	kurultai = { tag = OTC level = 1 location = taizhou_jurchen }
+	market_village = { tag = OTC level = 1 location = taizhou_jurchen }
 	peasants_training_grounds = { tag = OTC level = 1 location = taizhou_jurchen }
-	kurultai = { tag = QAS level = 1 location =  boorj }
-	market_village = { tag = QAS level = 1 location =  boorj }
-	peasants_training_grounds = { tag = QAS level = 1 location = boorj }
-	
-	kurultai = { tag = DGH level = 1 location =  kashgar }
+	kurultai = { tag = DGH level = 1 location = kashgar }
 	peasants_training_grounds = { tag = DGH level = 1 location = kashgar }
+	tribal_war_camp = { tag = OGE level = 1 location = kurchum }
+	tribal_market_villages = { tag = OGE level = 1 location = kurchum }
+	tribal_market_villages = { tag = OGE level = 1 location = kalmanka }
+	tribal_market_villages = { tag = OGE level = 1 location = salair }
+	tribal_market_villages = { tag = OGE level = 1 location = tsagaan_usun }
+	tribal_market_villages = { tag = OGE level = 1 location = kurchum }
+	tribal_war_camp = { tag = BAT level = 1 location = naomao }
+	tribal_market_villages = { tag = BAT level = 1 location = naomao }
+	tribal_war_camp = { tag = CRS level = 1 location = khar_balgas }
+	tribal_market_villages = { tag = CRS level = 1 location = khar_balgas }
+	tribal_market_villages = { tag = CRS level = 1 location = khurgan }
+	tribal_market_villages = { tag = CRS level = 1 location = ulaamgom }
+	tribal_market_villages = { tag = CRS level = 1 location = choigan }
+	tribal_market_villages = { tag = CRS level = 1 location = kaa }
+	tribal_market_villages = { tag = CRS level = 1 location = chuluutyn }
+	tribal_war_camp = { tag = KHD level = 1 location = zavkhan }
+	tribal_market_villages = { tag = KHD level = 1 location = zavkhan }
+	tribal_war_camp = { tag = TRH level = 1 location = bulgan }
+	tribal_market_villages = { tag = TRH level = 1 location = bulgan }
+	tribal_market_villages = { tag = TRH level = 1 location = kara_irtysh }
+	tribal_war_camp = { tag = BGT level = 1 location = balj }
+	tribal_market_villages = { tag = BGT level = 1 location = balj }
+	tribal_war_camp = { tag = HCN level = 1 location = qingzhou_mongol }
+	tribal_market_villages = { tag = HCN level = 1 location = qingzhou_mongol }
+	tribal_war_camp = { tag = OTC level = 1 location = taizhou_jurchen }
+	tribal_market_villages = { tag = OTC level = 1 location = taizhou_jurchen }
+	tribal_war_camp = { tag = QAS level = 1 location = boorj }
+	tribal_market_villages = { tag = QAS level = 1 location = boorj }
+	tribal_war_camp = { tag = QAS level = 1 location = tsagaan }
+	tribal_market_villages = { tag = QAS level = 1 location = tsagaan }
+	tribal_war_camp = { tag = QAS level = 1 location = nibuchu }
+	tribal_market_villages = { tag = QAS level = 1 location = nibuchu }
+	tribal_war_camp = { tag = QAS level = 1 location = abagaita }
+	tribal_market_villages = { tag = QAS level = 1 location = abagaita }
+	tribal_war_camp = { tag = QAS level = 1 location = hulan }
+	tribal_market_villages = { tag = QAS level = 1 location = hulan }
+	tribal_market_villages = { tag = QAS level = 1 location = dalai_nuur }
+	tribal_war_camp = { tag = CHI level = 1 location = kyakhta }
+	tribal_market_villages = { tag = CHI level = 1 location = kyakhta }
+	tribal_war_camp = { tag = CHI level = 1 location = ung }
+	tribal_market_villages = { tag = CHI level = 1 location = ung }
+	tribal_war_camp = { tag = CHI level = 1 location = selenge }
+	tribal_market_villages = { tag = CHI level = 1 location = selenge }
+	tribal_war_camp = { tag = CHI level = 1 location = alyanbulag }
+	tribal_market_villages = { tag = CHI level = 1 location = alyanbulag }
+	tribal_war_camp = { tag = CHI level = 1 location = eroo }
+	tribal_market_villages = { tag = CHI level = 1 location = eroo }
+	tribal_war_camp = { tag = CHI level = 1 location = manzushir }
+	tribal_market_villages = { tag = CHI level = 1 location = manzushir }
+	tribal_war_camp = { tag = CHI level = 1 location = suriig }
+	tribal_market_villages = { tag = CHI level = 1 location = suriig }
+	tribal_war_camp = { tag = CHI level = 1 location = takhilyn }
+	tribal_market_villages = { tag = CHI level = 1 location = takhilyn }
 
+	tribal_market_villages = { tag = GLH level = 1 location = tagatay }
+	tribal_market_villages = { tag = GLH level = 1 location = tokrau }
+	tribal_market_villages = { tag = GLH level = 1 location = sighnaq }
+	tribal_market_villages = { tag = GLH level = 1 location = karagau }
+	tribal_market_villages = { tag = GLH level = 1 location = saryozen }
+	tribal_market_villages = { tag = GLH level = 1 location = kulykol }
+	tribal_market_villages = { tag = GLH level = 1 location = or_aktobe }
+	tribal_market_villages = { tag = GLH level = 1 location = kumak }
+	tribal_market_villages = { tag = GLH level = 1 location = syun }
 
 #Villages and rural buildings
 	market_village = { tag = BUL level = 2 location = burgas }
