@@ -11,6 +11,28 @@ ELY = { # Elysium
         instance = { scale = { 1.0 1.0 } }
     }
 }
+E1Y = { # Elysium
+    pattern = "pattern_solid.dds"
+    color1 = "purple"
+    # color2 = "black"
+    # color3 = "yellow"
+
+    textured_emblem = {
+        texture = "br_aureliani.dds"
+        instance = { scale = { 1.0 1.0 } }
+    }
+}
+E2Y = { # Elysium
+    pattern = "pattern_solid.dds"
+    color1 = "purple"
+    # color2 = "black"
+    # color3 = "yellow"
+
+    textured_emblem = {
+        texture = "br_photianoi.dds"
+        instance = { scale = { 1.0 1.0 } }
+    }
+}
 
 HRE = { # Elysium
     pattern = "pattern_solid.dds"
