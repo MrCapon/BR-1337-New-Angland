@@ -17,16 +17,18 @@
  br_naval_court_policy_desc: "Court customs are influenced by the traditions of the fleet and the maritime cities. Admirals, merchants, and shipowners gain prominence, and naval service becomes a primary avenue of prestige and influence."
 
  br_roman_court_customs: "Roman Court"
- br_roman_court_customs_desc: "Court customs are deeply rooted in Roman traditions, emphasizing ceremony, hierarchy, and the central role of the emperor. The court serves as a stage for displaying imperial power and fostering loyalty among the elite, with elaborate rituals and a strong emphasis on protocol."
+ br_roman_court_customs_desc: "The court follows ancient Roman ceremonial order, where hierarchy, ritual, and imperial presence define political life. Every audience, procession, and decree reinforces the majesty of the Basileus, binding the elite to the throne through spectacle, patronage, and carefully observed protocol."
+
 
  # Cultural Traditions Laws
  br_roman_tradition: "Roman Tradition"
- br_roman_tradition_desc: "The Roman tradition emphasizes the legacy of Roman culture, law, and governance. It promotes a strong sense of identity tied to the Roman past, with a focus on civic duty, military service, and the preservation of classical knowledge and values."
+ br_roman_tradition_desc: "This law upholds the inheritance of Roman law, learning, and civic virtue. Identity is rooted in the continuity of the Roman state, encouraging military service, administrative discipline, and reverence for the classical legacy that legitimizes imperial rule."
 
  # Distribution of Power Laws
 
  br_roman_distribution_of_power_law: "Roman Distribution of Power"
- br_roman_distribution_of_power_law_desc: "The distribution of power is structured around the estates, with a strong emphasis on the role of the crown estate. The nobility and clergy have defined roles and privileges, but the crown maintains significant influence over the political and economic landscape, ensuring a balance of power that supports imperial authority."
+ br_roman_distribution_of_power_law_desc: "The order of the realm reflects the harmony of the Roman oikoumene, wherein all authority descends from the Basileus, God’s anointed guardian of the Empire. The archontes administer the provinces, the clergy uphold divine and civil law, and the magnates fulfill their obligations in land and war. Each estate possesses its dignity, yet none stand apart from the imperial will, for all power is sustained by the throne and bound to its service."
+
 
  # Medieval Levy Laws
 
@@ -34,8 +36,7 @@
  br_thema_levies_desc: "Military service is organized around the themes, where landholding nobles are obligated to provide armed men in exchange for their estates. This system strengthens local defense while maintaining a professional core rooted in Roman military tradition."
  
  br_thema_levies_upgraded: "Enhanced Thematic Levy System"
- br_thema_levies_upgraded_desc: "The thematic levy system is further enhanced, increasing the size and combat efficiency of levies. This reform reflects the empire's need to adapt to evolving military challenges while maintaining its traditional reliance on landholding nobles for defense."
-
+ br_thema_levies_upgraded_desc: "The thematic system is strengthened, expanding the obligations and preparedness of provincial landholders. Levies are more numerous and better organized, preserving the empire’s traditional military structure while adapting it to the demands of a changing battlefield."
  # Legal Code Laws
 
  br_byzantine_law: "Roman Law"
