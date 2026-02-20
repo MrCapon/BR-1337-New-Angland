@@ -16,10 +16,25 @@
  br_naval_court_policy: "Nautikón Court"
  br_naval_court_policy_desc: "Court customs are influenced by the traditions of the fleet and the maritime cities. Admirals, merchants, and shipowners gain prominence, and naval service becomes a primary avenue of prestige and influence."
 
+ br_roman_court_customs: "Roman Court"
+ br_roman_court_customs_desc: "Court customs are deeply rooted in Roman traditions, emphasizing ceremony, hierarchy, and the central role of the emperor. The court serves as a stage for displaying imperial power and fostering loyalty among the elite, with elaborate rituals and a strong emphasis on protocol."
+
+ # Cultural Traditions Laws
+ br_roman_tradition: "Roman Tradition"
+ br_roman_tradition_desc: "The Roman tradition emphasizes the legacy of Roman culture, law, and governance. It promotes a strong sense of identity tied to the Roman past, with a focus on civic duty, military service, and the preservation of classical knowledge and values."
+
+ # Distribution of Power Laws
+
+ br_roman_distribution_of_power_law: "Roman Distribution of Power"
+ br_roman_distribution_of_power_law_desc: "The distribution of power is structured around the estates, with a strong emphasis on the role of the crown estate. The nobility and clergy have defined roles and privileges, but the crown maintains significant influence over the political and economic landscape, ensuring a balance of power that supports imperial authority."
+
  # Medieval Levy Laws
 
  br_thema_levies: "Thematic Levy System"
  br_thema_levies_desc: "Military service is organized around the themes, where landholding nobles are obligated to provide armed men in exchange for their estates. This system strengthens local defense while maintaining a professional core rooted in Roman military tradition."
+ 
+ br_thema_levies_upgraded: "Enhanced Thematic Levy System"
+ br_thema_levies_upgraded_desc: "The thematic levy system is further enhanced, increasing the size and combat efficiency of levies. This reform reflects the empire's need to adapt to evolving military challenges while maintaining its traditional reliance on landholding nobles for defense."
 
  # Legal Code Laws
 
