@@ -13,9 +13,7 @@ ELY = { # Elysium
 }
 E1Y = { # Elysium
     pattern = "pattern_solid.dds"
-    color1 = "purple"
-    # color2 = "black"
-    # color3 = "yellow"
+    color1 = "red"
 
     textured_emblem = {
         texture = "br_aureliani.dds"
@@ -24,9 +22,7 @@ E1Y = { # Elysium
 }
 E2Y = { # Elysium
     pattern = "pattern_solid.dds"
-    color1 = "purple"
-    # color2 = "black"
-    # color3 = "yellow"
+    color1 = "blue"
 
     textured_emblem = {
         texture = "br_photianoi.dds"
