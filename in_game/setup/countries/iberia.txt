@@ -198,3 +198,24 @@ AD2 = { #BR Addition
     culture_definition = andalusi
     religion_definition = sunni
 }
+
+AD3 = { #BR Addition
+    color = rgb { 46 161 140 }
+
+    culture_definition = andalusi
+    religion_definition = sunni
+}
+
+AD4 = { #BR Addition
+    color = rgb { 46 141 99 }
+
+    culture_definition = andalusi
+    religion_definition = sunni
+}
+
+AD5 = { #BR Addition
+    color = rgb { 36 161 77 }
+
+    culture_definition = andalusi
+    religion_definition = sunni
+}
