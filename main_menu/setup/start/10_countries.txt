@@ -3939,14 +3939,10 @@ countries = {
 				sarybulak arkat
 
 				ukek teshevka voronezh oskol rovenki valuyki
-
-				
-
 				karkaraly
 				zaysan
 				kaynar_atbai
-			}
-			own_integrated = {
+
 				bratslav balta bershad karabul savran
 				torhovytsia teplyk tsybuliv uman zavallia
 				vinnytsia sokilets
@@ -53248,9 +53244,9 @@ countries = {
 				#Holy Land cores
 				jerusalem acre beersheba gaza hebron majdal nablus safed jaffa
 			}
-			control = {
-				marash
-			}
+		#	control = {
+		#		marash
+		#	}
 			
 			include = "catholic_military_order"
 			
@@ -53461,15 +53457,15 @@ countries = {
 				#Crimea
 				qarasuvbazar solkhat
 			}
-			control = {
-				bratslav balta bershad karabul savran
-				torhovytsia teplyk tsybuliv uman zavallia
-				vinnytsia sokilets
-				armavir
-				qarasuvbazar solkhat
-				ismail
-				or_qapi
-			}
+		#	control = {
+		#		bratslav balta bershad karabul savran
+		#		torhovytsia teplyk tsybuliv uman zavallia
+		#		vinnytsia sokilets
+		#		armavir
+		#		qarasuvbazar solkhat
+		#		ismail
+		#		or_qapi
+		#	}
 			
 			include = "catholic_military_order"
 			
