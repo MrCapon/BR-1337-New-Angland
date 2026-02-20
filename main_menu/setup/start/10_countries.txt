@@ -52297,7 +52297,6 @@ countries = {
 			country_rank = rank_duchy
 		}
 
-
 		#Sikelanoi
 		S1C = {
 			own_control_core = {
@@ -52501,15 +52500,14 @@ countries = {
 		}
 		
 		GTC = {
-			our_cores_conquered_by_others = {
+			#our_cores_conquered_by_others = {
 			#	chios
 			#	lemnos
 			#	amasra
 			#	tana
 			#	samos ikaria foca
-			}
+			#}
 			
-
 			type = building
 			starting_technology_level = 3
 			
@@ -52589,12 +52587,10 @@ countries = {
 		}
 
 		VTC = {
-			own_control_core = {
-			}
-			our_cores_conquered_by_others = {
+			#our_cores_conquered_by_others = {
 			#	andros mykonos amorgos karpathos
 			#	samos ikaria foca
-			}
+			#}
 
 			type = building
 			starting_technology_level = 3
@@ -52846,76 +52842,6 @@ countries = {
 			
 			capital = durres
 		}
-
-		SE4 = { #Releasable
-			our_cores_conquered_by_others = {
-				podgorica bar_cg gradina kotor onogost
-				shkoder dukagjini has koman lezha
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "br_pronoia_template"
-			government = {
-				ruler = random
-			}
-			
-			accepted_cultures = {
-				serbian
-			}
-			tolerated_cultures = {
-				latinoi
-				albanian
-			}
-			
-			country_rank = rank_duchy
-			liturgical_language = khoine_dialect
-			
-			capital = shkoder
-		}
-
-		B0L = {
-			our_cores_conquered_by_others = {
-				karvuna pangalia kaliakra
-				babadag cernavoda constanta enisala isaccea
-				tulcea harsova
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "eastern_european_monarchy"
-			country_rank = rank_duchy
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-
-				ruler = ser_yoan_komnin_asen
-				
-				reforms = {
-					autocracy
-				}
-				privilege = {
-					primacy_of_nobility
-					peasants_allowed_weapons_privilege
-				}
-			}
-			accepted_cultures = {
-				boulgaroi
-				greek_culture
-			}
-			tolerated_cultures = {
-				wallachian
-			}
-
-			dynasty = sratsimir_dynasty
-			liturgical_language = church_slavonic_language
-			
-			capital = constanta
-		}
 		
 		B1L = {
 			own_control_core = {
@@ -52967,139 +52893,7 @@ countries = {
 			capital = skopje
 		}
 		
-		B2L = {
-			our_cores_conquered_by_others = {
-				dospat bansko krupnik melnik nevrokop beden
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "eastern_european_monarchy"
-			country_rank = rank_county
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				
-				reforms = {
-					autocracy
-				}
-				privilege = {
-					primacy_of_nobility
-					peasants_allowed_weapons_privilege
-				}
-			}
-			accepted_cultures = {
-				boulgaroi
-				greek_culture
-			}
-			tolerated_cultures = {
-				serbian
-			}
-			liturgical_language = church_slavonic_language
-			
-			capital = melnik
-		}
 		
-		B3L = {
-			our_cores_conquered_by_others = {
-				sredets svoge dupnitsa samokov zemlungrad tsaribrod pirot
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "br_pronoia_template"
-			country_rank = rank_county
-			government = {
-			}
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				bulgarian
-			}
-			liturgical_language = khoine_dialect
-			
-			capital = sredets
-		}
-		
-		B4L = {
-			our_cores_conquered_by_others = {
-				plovdiv kran strelcha tsepina kostenets stipon
-				beden stanimaka
-				constantia_bul boruy sliven
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "br_pronoia_template"
-			country_rank = rank_duchy
-			government = {
-			}
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				bulgarian
-			}
-			liturgical_language = khoine_dialect
-			
-			capital = plovdiv
-		}
-		
-		B5L = {
-			our_cores_conquered_by_others = {
-				ohrid bitola prilep florina kicevo tetovo
-				prosek shtip kocani strumica skopje kumanovo veles kratovo
-				vranje velbuzd
-				debar
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "br_pronoia_template"
-			country_rank = rank_duchy
-			government = {
-			}
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				bulgarian
-			}
-			liturgical_language = khoine_dialect
-			
-			capital = skopje
-		}
-		
-		B6L = {
-			our_cores_conquered_by_others = {
-				karvuna pangalia kaliakra
-				babadag cernavoda constanta enisala isaccea
-				tulcea harsova
-				ovech varna
-				tarnovo drastar tutrakan cherven razgrad shumen targoviste_BUL
-				lovech nikopol pleven oryahovo bozhenitsa hotalich tryavna
-				gigen dobrolak ruse kladentsi lyaskovets veliki_preslav ktenia
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "br_pronoia_template"
-			country_rank = rank_duchy
-			government = {
-			}
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				wallachian
-			}
-
-			dynasty = doukas_dynasty
-			liturgical_language = khoine_dialect
-			
-			capital = tarnovo
-		}
 
 		#Wallachia
 
@@ -53234,8 +53028,6 @@ countries = {
 				krusevac jagodina zica
 				rudnik
 			}
-			our_cores_conquered_by_others = {
-			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "eastern_european_monarchy"
@@ -53280,8 +53072,6 @@ countries = {
 				belgrad smederevo
 				debrc sabac krupanj valjevo
 				gradac
-			}
-			our_cores_conquered_by_others = {
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -53329,8 +53119,6 @@ countries = {
 				novo_brdo
 				pristina
 			}
-			our_cores_conquered_by_others = {
-			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "eastern_european_monarchy"
@@ -53373,8 +53161,6 @@ countries = {
 		SE3 = {
 			own_control_core = {
 				sremska_mitrovica petrovaradin ilok
-			}
-			our_cores_conquered_by_others = {
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -53454,56 +53240,6 @@ countries = {
 			capital = antioch
 		}
 
-		SY0 = { #br releasable
-			our_cores_conquered_by_others = {
-				jerusalem acre beersheba gaza hebron majdal nablus safed jaffa
-			}
-			
-			starting_technology_level = 3
-			include = "expl_eastern_europe"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "br_thema_template"
-			government = {
-			}
-			
-			accepted_cultures = {
-				syriac_culture
-			}
-			
-			liturgical_language = khoine_dialect
-			country_rank = rank_duchy
-			capital = jerusalem
-		}
-
-		SY1 = {
-			our_cores_conquered_by_others = {
-				urfa birecik suruc viransehir
-			}
-			
-			starting_technology_level = 3
-			include = "expl_eastern_europe"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "br_thema_template"
-			government = {
-			}
-			
-			accepted_cultures = {
-				syriac_culture
-			}
-			
-			liturgical_language = khoine_dialect
-			country_rank = rank_county
-			capital = urfa
-		}
-		
 		OHS = { #Brotherhood of the Holy Sepulchre
 			own_control_core = {
 				kapan ulnia
@@ -53957,87 +53693,6 @@ countries = {
       	  	capital = chimgi_tura
         	court_language = kipchak_language
    		}
-
-		ANA = { #br releasable
-			our_cores_conquered_by_others = {
-				#KAR
-				aksaray kochisar insuyu
-				kirsehir nevsehir sariyahsi
-				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
-				bekarlar bor_tur nigde
-				beysehir aksehir bolvadin sarkikaraagac seydisehir
-				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
-				#AHI
-				ankara cubuk haymana kalecik polatli karakecili
-				#ERE
-				bozok baliseyh candir dinek_keskin sorgun
-				hacibektas
-				corum huseyinabad sungurlu
-				akdagmadeni aydincik koyulhisar sulusaray tokat zile
-				#HMD
-				yalvac
-				#TUR
-				beypazari kibrus kizilca
-				bolu akcasehir akyazi konrapa gerede mengen mudurnu
-				bursa adranos iznik
-				izmit atpazari
-				domanic
-				sultanonu bilecik goynuk eynegol inonu nalli sogut
-				#KRD
-				balikesir balya edremit manyas mihalic susurluk
-				ayvacik bandirma bayramic can canakkale gonen lapseki
-				dursunbey harmancik
-				#GRM
-				mihaliccik sivrihisar bozan kaymaz
-				altintas emirdag seyitgazi
-				kutahya aslanapa emet simav tavsanli
-				usak banaz gediz seyhli
-				#SRU
-				manisa akhisar demirci gordes kula
-				bergama bigadic soma
-				#AYD
-				smyrna ayasuluk cesme menemen urla
-				tire balat birgi guzelhisar nazilli
-				#MEN
-				milas
-				mugla bodrum cine gokabat marmaris megri yuksekkum
-				#TVS
-				tavas
-				#INA
-				honaz lazkiye
-				#SHP
-				karahisar_i_sahib sandikli suhut
-				#HMD
-				isparta burdur dinar egirdir uluborlu
-				golhisar stefani
-				#TEK
-				antalya elmali karahisar_i_teke kas istanoz
-				manavgat finike
-			}
-			
-			starting_technology_level = 3
-			include = "expl_eastern_europe"
-			include = "br_thema_template"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			government = {
-
-			}
-			
-			country_rank = rank_kingdom
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				cappadocian_greek_culture
-				armenian_culture
-			}
-			liturgical_language = khoine_dialect
-			capital = konya
-		}
 		
 		ICO = {
 			own_control_core = {
@@ -54747,9 +54402,6 @@ countries = {
 				van catak hosap tatvan ahlat bargiri ercis
 			}
 			
-			own_control_integrated = {
-			}
-			
 			our_cores_conquered_by_others = {
 				mus hizan bahcesaray bitlis
 			}
@@ -54813,13 +54465,6 @@ countries = {
 			own_control_core = {
 				ganja gardman shamkir barda shaki aresh vartashen
 			}
-			
-			own_control_integrated = {
-			}
-			
-			our_cores_conquered_by_others = {
-			}
-			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "eastern_european_monarchy"
@@ -54878,80 +54523,12 @@ countries = {
 			capital = ganja
 		}
 		
-	#African
-		AGY = { #releasable
-			our_cores_conquered_by_others = {
-				alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
-				cairo atfih beni_suef faiyum giza dakahla
-				damietta al_mima el_burullus el_mahalla fuwa menouf samanoud tidah
-				mansoura bilbeis faqus ushmum_tannah qalyub tarrana tinnis
-				suez saint_anthony saint_paul_anchorite
-				el_tor
-				edfu esna qena hiw qus
-				asyut el_balyana el_buwit akhmim manfalut
-				minya ashmunayn el_bahnasa sharuna tahna
-				kharga bahariyya baris el_qasr qasr_farafra siwa
-			}
-
-			include = "expl_eastern_europe"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "br_pronoia_template"
-
-			country_rank = rank_kingdom
-			government = {
-			}
-			accepted_cultures = {
-				coptic_culture
-			}
-			tolerated_cultures = {
-				upper_egyptian_culture
-			}
-			
-			capital = alexandria
-		}
-		
-		AFK = { #releasable
-			our_cores_conquered_by_others = {
-				bir_el_alter
-				madjul mahres sidi_fredj bou_hajla sfaqes chebba
-				kairouan sbiba kasserine subaytila thala
-				mahdia sousse el_jem monastir
-				bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
-				annaba cheffia jijel el_milia skikda el_kala guelma collo tekouch
-				bizerte tabarka sejnane mateur beja_TUN souk_el_arba el_kef thagaste
-				tunis tebourba el_fahs zaghouan nabeul kelibia hammamet kesra
-				constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
-				feriana
-				bordj_bou_arreridj jama_TUN
-				el_ksour medjez_el_bab sbikha
-			}
-
-			include = "expl_eastern_europe"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "br_pronoia_template"
-
-			country_rank = rank_kingdom
-			government = {
-
-			}
-			
-			capital = tunis
-		}
+	#Africa
 		
 	#India
 		INK = { 
 			own_control_core = {
 				goa madgaon
-			}
-			our_cores_conquered_by_others = {
 			}
 			
 			include = "expl_india_hindu"
@@ -54983,8 +54560,6 @@ countries = {
 		}
 
 		RIC = {
-			own_control_core = {
-			}
 			type = building
 			starting_technology_level = 3
 			
@@ -55125,8 +54700,6 @@ countries = {
                 #lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
             }
 
-            our_cores_conquered_by_others = {
-            }
 
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -55458,8 +55031,6 @@ countries = {
 				avila arevalo villatoro #Avila
 				alba_de_aliste fermoselle toro villalpando
 				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes
-
-
 			}
 			
 			starting_technology_level = 3
@@ -56156,10 +55727,6 @@ countries = {
 			#shetland orkney 
 			torshavn
 		}
-		
-		our_cores_conquered_by_others = {
-
-		}
 
 		capital = london
 		dynasty = siggurson_dynasty
@@ -56224,9 +55791,6 @@ countries = {
 			labiau memel windenburg
 			ryn_poland elk
 		}
-		our_cores_conquered_by_others = {
-
-		}
 			
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -56248,8 +55812,6 @@ countries = {
 			rezekne daugavpils selpils kraslava
 			makonkalns aizkraukle salaspils
 		}
-		our_cores_conquered_by_others = {
-		}
 			
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -56267,8 +55829,6 @@ countries = {
 	BA2 = {	#Pruthenia
 		own_control_core = {
 			tartu valka vastseliina vonnu aluksne
-		}
-		our_cores_conquered_by_others = {
 		}
 			
 		starting_technology_level = 3
