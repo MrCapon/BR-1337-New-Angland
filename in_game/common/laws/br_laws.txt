@@ -21,6 +21,26 @@ INJECT:administrative_system = { #Version for ERE minors
 	}
 }
 
+INJECT:distribution_of_power_law = {
+	br_roman_distribution_of_power_law = {
+		law_category = estates
+		potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+		country_modifier = {
+			global_crown_estate_power = 0.2
+			government_size = 1
+			monthly_towards_centralization = societal_value_minor_monthly_move
+			tax_income_efficiency = large_tax_income_efficiency_bonus
+		}
+		estate_preferences = {
+			crown_estate
+			clergy_estate
+		}
+		years = 2
+	}
+}
+
 INJECT:royal_court_customs_law = {
 	br_military_court_policy = { # Anatolian military elite, based on prussian court
 		unique = yes
@@ -62,6 +82,49 @@ INJECT:royal_court_customs_law = {
 		}
 		years = 2
 	}
+	br_roman_court_customs = {
+		law_category = administrative
+
+	    allow = { 
+			OR = {
+				TAG = BYZ 
+			    was_tag = BYZ
+			}
+			is_capital = location:constantinople 
+	    }
+	    country_modifier = {
+			court_spending_cost  = 0.02
+			cultural_influence_modifier = 0.1
+			country_cabinet_efficiency = 0.05
+			monthly_legitimacy = 0.05
+		}
+
+		estate_preferences = {
+			crown_estate
+		}
+		years = 2
+
+	}
+
+}
+
+INJECT:cultural_traditions_law = {
+	br_roman_tradition = { 
+		law_category = socioeconomic
+	    potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+	    country_modifier = {
+			research_speed_modifier = 0.05
+			global_distance_from_capital_cost_modifier = -0.025
+			monthly_towards_humanist = 0.10
+		}
+		estate_preferences = {
+			crown_estate
+			clergy_estate
+		}
+		years = 2
+	}
 }
 
 INJECT:medieval_levy_law = {
@@ -69,7 +132,8 @@ INJECT:medieval_levy_law = {
 		country_modifier = {
 			nobles_estate_levy_size = 0.25
 			monthly_towards_quality = societal_value_monthly_move
-			levy_combat_efficiency_modifier = 0.25
+			levy_combat_efficiency_modifier = 0.15
+			levy_recovery_modifier = 0.15
 		}
 		potential = {
 			culture = { has_culture_group = culture_group:greek_group }
@@ -77,6 +141,24 @@ INJECT:medieval_levy_law = {
 		
 		estate_preferences = {
 			nobles_estate
+		}
+		years = 2
+	}
+	br_thema_levies_upgraded = {
+		country_modifier = {
+			nobles_estate_levy_size = 0.5
+			levy_combat_efficiency_modifier = 0.25
+			levy_recovery_modifier = 0.25
+			peasants_estate_max_tax = -0.1
+			monthly_towards_quality = societal_value_monthly_move
+		}
+		potential = {
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+		
+		estate_preferences = {
+			crown_estate
+			peasants_estate
 		}
 		years = 2
 	}
