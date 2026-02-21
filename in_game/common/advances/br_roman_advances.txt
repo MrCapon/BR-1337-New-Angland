@@ -75,9 +75,10 @@ roman_romaioi_identity = {
 		}
 	}
 	requires = state_administration_advance
-	global_pop_assimilation_speed_modifier = 0.5
+	global_pop_assimilation_speed_modifier = 0.25
 	cultural_influence_modifier = 0.25
-	#cultural_tradition_modifier = 0.1
+	unlock_policy = br_roman_tradition
+	
 }
 
 roman_codified_custom = {
@@ -94,7 +95,9 @@ roman_codified_custom = {
 	}
 	requires = codified_laws
 	global_crown_estate_power = 0.05
-	monthly_legitimacy = 0.05
+	monthly_legitimacy = 0.02
+	unlock_policy = br_roman_court_customs
+	unlock_policy = br_byzantine_law
 	diplomatic_reputation = diplomatic_reputation_mild_bonus
 }
 
@@ -111,7 +114,8 @@ roman_pronoial_administration = {
 		}
 	}
 	requires = roman_codified_custom
-
+	unlock_policy = br_roman_distribution_of_power_law
+	unlock_policy = br_pronoia_system
 	subject_loyalty = 5
 	diplomatic_annexation_cost = -0.05
 }
@@ -132,6 +136,9 @@ roman_akritic_reforms = {
 
 	unlock_subject_type = march
 	unlock_estate_privilege = peasants_yeomanry
+	unlock_policy = br_thema_levies
+	unlock_policy = br_military_court_policy 
+	unlock_policy = br_naval_court_policy
 	army_logistics_distance_modifier = 0.1
 }
 
@@ -216,11 +223,10 @@ roman_thematic_recruitment = {
 		}
 	}
 	requires = pike_square
-	#global_manpower_modifier = 0.1
-	#global_levy_size_modifier = 0.05
-	global_army_levy_size_modifier = 0.1
+	global_army_levy_size_modifier = 0.05
 	levy_recovery_modifier = 0.1
-	global_defensive = 0.1
+	#global_defensive = 0.1
+	unlock_policy = br_thema_levies_upgraded
 }
 
 roman_infrastructure = {
