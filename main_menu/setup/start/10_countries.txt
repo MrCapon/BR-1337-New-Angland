@@ -12606,12 +12606,7 @@ countries = {
 				golhisar stefani
 				megri yuksekkum bodrum gokabat
 			}
-			own_control_integrated = {
-				
-			}
-			own_control_conquered = {
-			
-			}
+
 			our_cores_conquered_by_others = {
 				komotini
 				lapseki bayramic ayvacik
@@ -12804,8 +12799,9 @@ countries = {
 					noble_serfdom_rights
 					manorial_courts
 					noble_patronage_of_the_arts
-					consolidated_corruption_of_the_nobles #readded an edited version
-					monetary_fiefs #
+					consolidated_corruption_of_the_nobles
+					br_anatolian_magnates
+					monetary_fiefs
 					
 					#Clergy
 					embellish_great_works_of_faith
@@ -12817,6 +12813,7 @@ countries = {
 					reduced_from_military_obligations
 					#br_roman_ecumenical_patriarch_privilege
 					#consolidated_corruption_of_the_clergy #BR EDIT
+					br_bureaucrat_clergy
 					
 					#Burghers
 					formal_guilds
@@ -12840,12 +12837,13 @@ countries = {
 				
 				laws = {
 					legal_code_law = byzantine_law
-					distribution_of_power_law = dop_favor_the_ruler
+					distribution_of_power_law = br_roman_distribution_of_power_law
 					feudal_de_jure_law = by_blood
 					administrative_system = pronoia_system
 					patriarchate_law = state_patriarchate_policy
 					bureaucracy_law = centralized_bureaucracy_policy
 					medieval_levy_law = br_thema_levies
+					cultural_traditions_law = br_roman_tradition
 				}
 			}
 			#Setup to accurately portray the starting situation
