@@ -54,7 +54,8 @@ REPLACE_OR_CREATE:venetian_quarter = {
 		merchant_power_from_building = 5 #br added
 		building_owner_maritime_presence = 1 #0.025
 		#Italian merchants settle in the new location
-		local_migration_attraction = 0.025
+		local_migration_attraction = 0.033
+		#local_trades_per_burgher = 1
 	}
 	possible_production_methods = {
 		venetian_quarter_maintenance
@@ -95,7 +96,7 @@ REPLACE_OR_CREATE:galata = {
 		merchant_power_from_building = 5 #br added
 		building_owner_maritime_presence = 1 #0.025
 		#Italian merchants settle in the new location
-		local_migration_attraction = 0.025
+		local_migration_attraction = 0.033
 	}
 	possible_production_methods = {
 		galata_maintenance
