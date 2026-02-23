@@ -22,7 +22,7 @@ government = {
 	
 	reforms = {
 		autocracy
-		theme_system
+		br_sub_theme_subject #theme_system
 		agricultural_cultivation
 	}
 	

@@ -22,7 +22,7 @@ government = {
 
 	reforms = {
 		autocracy
-		theme_system
+		br_sub_pronoia_subject #theme_system
 		agricultural_cultivation
 	}
 	
@@ -34,6 +34,7 @@ government = {
 		noble_marriage_rights
 		primacy_of_nobility
 		noble_serfdom_rights
+		br_dynatoi_magnates
 
 		#clergy
 		clergy_literacy_rights
@@ -43,6 +44,7 @@ government = {
 		#clergy_strengthen_faith
 		#promote_cultural_unity
 		#expansionist_zealotry
+		br_bureaucrat_clergy
 		clergy_in_administration
 
 		#burghers
@@ -69,11 +71,11 @@ government = {
 		censorship = limited_censorship
 		education_masses_law = basic_religious_education
 		administrative_system = br_pronoia_system
-		cultural_traditions_law = civil_society
+		cultural_traditions_law = br_roman_tradition
 		marriage_law = monogamous_marriage
 		heir_religion_law = heir_same_religion
 		legal_code_law = br_byzantine_law
-		distribution_of_power_law = dop_favor_the_ruler
+		distribution_of_power_law = br_roman_distribution_of_power_law
 		immigration_law = open_borders_law
 		mining_law = nobles_mining_law
 	}
