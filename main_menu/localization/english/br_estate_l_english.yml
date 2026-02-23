@@ -14,3 +14,14 @@
  br_roman_ecumenical_patriarch_privilege: "Prerogatives of the Ecumenical Patriarch"
  br_roman_ecumenical_patriarch_privilege_desc: "By ancient custom and recognized canon, the Ecumenical Patriarch exercises wide authority within the imperial church. These prerogatives strengthen the influence of the clergy in public life, extend the Church’s hand into diplomacy, and ensure the spiritual alignment of newly incorporated lands and subjects."
 
+ br_bureaucrat_clergy: "Ekklēsiastikē Dioikēsis"
+ br_bureaucrat_clergy_desc: "The machinery of state relies upon educated clerics trained in law, rhetoric, and record-keeping. Through their service in courts and provincial offices, governance is conducted according to written statute and established Roman custom."
+
+ br_themata_peasant_privilege: "Stratiōtai Land Grant"
+ br_themata_peasant_privilege_desc: "Land within the themes is held by soldier-farmers obligated to render military service. Through this system, the state secures loyal levies drawn from free households, reinforcing provincial defense while tempering the dominance of magnate estates."
+
+ br_dynatoi_magnates: "Dynatoi Magnate Privileges"
+ br_dynatoi_magnates_desc: "Powerful landed magnates consolidate estates across the provinces, extending their authority over dependent cultivators and local administration. Their wealth strengthens rural production and fortifies the countryside, yet their growing dominance diminishes the independence of smaller households and shifts the balance of power away from the crown."
+
+ br_frontier_expansion_privilege: "Frontier Homestead Privileges"
+ br_frontier_expansion_privilege_desc: "Settler households on the frontier are granted broad autonomy to clear land, fortify their holdings, and subdue surrounding tribes. In exchange for protection and expansion, they are permitted to organize local militias and manage captured labor. This fosters hardy independence, though it weakens central oversight."

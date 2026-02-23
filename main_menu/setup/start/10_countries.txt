@@ -12800,7 +12800,7 @@ countries = {
 					manorial_courts
 					noble_patronage_of_the_arts
 					consolidated_corruption_of_the_nobles
-					br_anatolian_magnates
+					br_dynatoi_magnates
 					monetary_fiefs
 					
 					#Clergy
