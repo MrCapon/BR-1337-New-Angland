@@ -163,14 +163,10 @@
 	}
 	
 	leader_modifier = {
-		#great_power_score_exempt_from_forfeit = 250 #leader already empire rank
 		cultures_capacity = 5
 		diplomatic_capacity = 2
 		max_diplomats = 2
 		subject_loyalty = 10
-
-		#num_possible_artists = 1 
-		#government_size = 1
 		monthly_prestige = 0.5
 		court_spending_cost = 0.05
 		
@@ -178,6 +174,7 @@
 		allowed_enforce_peace = yes
 		allowed_threaten_war = yes
 		allow_tributary_subject = yes
+		force_convert_created_subjects = yes
 	}
 	
 	create_visible_trigger = {
