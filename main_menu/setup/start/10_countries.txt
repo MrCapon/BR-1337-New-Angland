@@ -14195,6 +14195,11 @@ countries = {
 				#Africa
 				tangier ceuta
 			}
+			own_control_colony = {
+				teguise
+				funchal
+				ponta_delgada
+			}
 			
 			starting_technology_level = 3
 			include = "expl_muslim_mediterranean"
@@ -14203,10 +14208,14 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "expl_west_africa_muslim"
+			include = "expl_west_africa_south"
 			include = "muslim_monarchy"
 			discovered_areas = {
+				kongo_sea_zones_area
 				canary_islands_area
 				madeira_sea_area
+				south_macaronesia_area
+				azores_area
 			}
 			
 			government = {
