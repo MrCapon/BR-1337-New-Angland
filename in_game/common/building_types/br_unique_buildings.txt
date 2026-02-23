@@ -225,6 +225,7 @@ br_hagia_sophia_building = {
 		monthly_religious_influence = 0.1
 	}
 	modifier = {
+		local_cultural_tradition = 0.25
 		local_clergy_max_literacy = 20
 		local_clergy_desired_pop = 1
 	}

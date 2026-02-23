@@ -143,6 +143,7 @@ REPLACE_OR_CREATE:theodosian_walls = {
 	}
 	
 	raw_modifier = {
+		local_war_score_cost = 2
 		fort_level = 3 #2
 		propagating_zone_of_control = no
 		#local_fort_maintenance_cost = -1 #added
