@@ -1,14 +1,28 @@
 ﻿
 
+#modern_imperial_army
+#country_child_education = 0.1
+#global_integration_speed_modifier = 0.10
+#court_spending_cost = 0.02
+#counter_espionage = -0.2
+#land_cost_on_distance_from_capital_modifier = -0.1
+#owns = location:constantinople
+#parliament_base_support = 0.1
+##government_reform_slots = 1
+#payment_to_overlord_modifier = -1
+#bias_for_militarist_policies = 25
+#estate_power_from_cabinet = 0.25
+#monthly_rebel_growth = 0.001
+#global_distance_from_capital_speed_propagation = 0.05
+
 #ERE
 br_imperial_administration = {
 	age = age_1_traditions
-	icon = theme_system
+	icon = holy_imperial_monarchy_reform
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ
 			capital = location:constantinople
-			#owns = location:constantinople
 		}
 	}
 	locked = {
@@ -16,29 +30,21 @@ br_imperial_administration = {
 	}
 	country_modifier = {
 		government_reform_slots = 1
-		estate_power_from_cabinet = 0.1
-		#global_integration_speed_modifier = 0.10
-		#court_spending_cost = 0.02
-		#counter_espionage = -0.2
+		court_spending_cost  = 0.05
+		#chancery_cap_level = 1 
 	}
 	country_modifier = {
 		potential_trigger = { government_power >= 50 }
-		global_crown_estate_power = 0.1
-		country_child_education = 0.1
-	}
-	country_modifier = {
-		potential_trigger = { government_power <= 25 }
-		global_crown_estate_power = -0.1
-	}
-	country_modifier = {
-		potential_trigger = { stability >= 50 }
 		monthly_towards_centralization = societal_value_monthly_move
-		parliament_base_support = 0.1
-		#land_cost_on_distance_from_capital_modifier = -0.1
+		global_crown_estate_power = 0.25
+		country_cabinet_efficiency = 0.1
+		#set_cabinet_member_cost_modifier = -0.1
+        #replace_cabinet_member_cost_modifier = -0.1
+		global_nobles_estate_power = -0.1
 	}
 	country_modifier = {
 		potential_trigger = { stability <= 25 }
-		monthly_rebel_growth = 0.001
+		nobles_estate_target_satisfaction = larger_permanent_target_satisfaction_penalty
 	}
 	years = 2
 }
@@ -47,28 +53,28 @@ br_sub_theme_subject = {
 	age = age_1_traditions
 	icon = theme_system
 	potential = {
-		OR = {
-			is_subject_of = c:BYZ
-			culture = { has_culture_group = culture_group:greek_group }
-		}
+		culture = { has_culture_group = culture_group:greek_group }
+		NOT = { has_or_had_tag = BYZ }
+	}
+	allow = {
+		is_subject_of = c:BYZ
 	}
 	locked = {
 		is_subject_of = c:BYZ
 	}
 	country_modifier = {
-		#government_reform_slots = 1
 		monthly_towards_land = societal_value_monthly_move
 		monthly_towards_defensive = societal_value_monthly_move
-		#bias_for_militarist_policies = 25
 		allow_thema_headquarters = yes
 		global_defensive = 0.25
 	}
 	country_modifier = {
-		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
+		potential_trigger = { is_subject_of = c:BYZ opinion = { target = c:BYZ value >= 75 } }
 		loyalty_to_overlord = 10
-		fort_limit_modifier = 1
-		#discipline = -0.1
-		#monthly_experience_gain = 0.1
+    }
+	country_modifier = {
+		potential_trigger = { is_subject_of = c:BYZ opinion = { target = c:BYZ value >= 125 } }
+		hostile_diplomatic_annexation_cost = -0.5
     }
 	years = 2
 }
@@ -77,10 +83,11 @@ br_sub_pronoia_subject = {
 	age = age_1_traditions
 	icon = theme_system
 	potential = {
-		OR = {
-			is_subject_of = c:BYZ
-			culture = { has_culture_group = culture_group:greek_group }
-		}
+		culture = { has_culture_group = culture_group:greek_group }
+		NOT = { has_or_had_tag = BYZ }
+	}
+	allow = {
+		is_subject_of = c:BYZ
 	}
 	locked = {
 		is_subject_of = c:BYZ
@@ -92,27 +99,30 @@ br_sub_pronoia_subject = {
 		allow_thema_headquarters = yes
 	}
 	country_modifier = {
-		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
+		potential_trigger = { opinion = { target = c:BYZ value >= 75 } }
 		loyalty_to_overlord = 10
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value >= 125 } }
+		hostile_diplomatic_annexation_cost = -0.5
     }
 	years = 2
 }
 
 br_sub_religious_subject = {
 	age = age_1_traditions
-	icon = theme_system
+	icon = primas_germaniae
 	potential = {
-		OR = {
-			is_subject_of = c:BYZ
-			culture = { has_culture_group = culture_group:greek_group }
-		}
+		culture = { has_culture_group = culture_group:greek_group }
+		NOT = { has_or_had_tag = BYZ }
+	}
+	allow = {
+		is_subject_of = c:BYZ
 	}
 	locked = {
 		is_subject_of = c:BYZ
 	}
 	country_modifier = {
-		#government_reform_slots = 1
-		payment_to_overlord_modifier = -1
 		monthly_towards_spiritualist = societal_value_monthly_move
 		maximum_religious_influence = 500
 		monthly_religious_influence = 1
@@ -120,8 +130,12 @@ br_sub_religious_subject = {
 		global_clergy_estate_power = 1
 	}
 	country_modifier = {
-		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
+		potential_trigger = { opinion = { target = c:BYZ value >= 75 } }
 		loyalty_to_overlord = 10
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value >= 125 } }
+		hostile_diplomatic_annexation_cost = -0.5
     }
 	years = 2
 }
@@ -148,18 +162,20 @@ br_naval_akritai_reform = {
 		army_disembark_speed = 0.1
 		navy_galley_build_cost_modifier = -0.5
 		allow_privateers_slave_raid = yes
-		#navy_maintenance_cost = -0.25
         navy_galley_maintenance_cost_modifier = -0.5
         global_sailors_modifier = 0.25
 		expected_navy_size = 10
 		global_navy_levy_size_modifier = 1.0
 		allow_thema_headquarters = yes
 		global_port_build_buildings_cost = -0.2
-		global_foreign_build_buildings_cost = -0.5
     }
 	country_modifier = {
 		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
 		loyalty_to_overlord = 10
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value >= 125 } }
+		hostile_diplomatic_annexation_cost = -1
     }
     years = 2
 }

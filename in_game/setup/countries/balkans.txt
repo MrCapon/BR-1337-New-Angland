@@ -77,7 +77,7 @@ BYZ = {
 }
 
 THE = {
-	color = rgb { 125 150 115 }
+	color = rgb { 125 50 115 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox

@@ -12793,7 +12793,6 @@ countries = {
 				#burghers_estate = { satisfaction = 0.6 }
 				
 				privilege = {
-					#BR EDIT, I wanted to keep the challenge of these modifiers but it turns them into such a mess the ai ends up in an endless revolt loop as it loses all its buildings and pop drops by 3/4ths.
 					#Nobles
 					elaborate_court_ceremonies
 					noble_serfdom_rights
@@ -12812,7 +12811,6 @@ countries = {
 					promote_cultural_unity
 					reduced_from_military_obligations
 					#br_roman_ecumenical_patriarch_privilege
-					#consolidated_corruption_of_the_clergy #BR EDIT
 					br_bureaucrat_clergy
 					
 					#Burghers
@@ -12823,14 +12821,13 @@ countries = {
 					control_over_monetary_policy
 					control_over_the_coinage
 					br_latin_trade_naval_reliance
-					#consolidated_corruption_of_the_burghers #BR EDIT
 					
 					#Commoners
 					access_to_royal_and_ecclesiastical_courts
-					#consolidated_corruption_of_the_peasants #BR EDIT
+					br_themata_peasant_privilege
 				}
 				reforms = {
-					autocracy
+					br_imperial_administration
 					theme_system
 					kritai_katholikoi
 				}
@@ -12854,7 +12851,7 @@ countries = {
 				government_power = 10
 				inflation = 0.1
 				war_exhaustion = 8
-				complacency = 25
+				complacency = 40
 			}
 
 			accepted_cultures = {
