@@ -1,43 +1,48 @@
 ﻿
-br_naval_akritai_reform = {
-    age = age_1_traditions
-    icon = crusade_sea_reform
-    potential = {
-        OR = {
-            has_or_had_tag = A1G
-            has_or_had_tag = K1B
-			has_or_had_tag = CRT
-            has_or_had_tag = CYP
-        }
-    }
-    locked = {
-		is_subject_of = c:BYZ
-	}
-    country_modifier = {
-		government_reform_slots = 1
-        monthly_towards_naval = societal_value_monthly_move
-		monthly_towards_belligerent = societal_value_minor_monthly_move
-
-		army_disembark_speed = 0.1
-		navy_galley_build_cost_modifier = -0.5
-		allow_privateers_slave_raid = yes
-		#navy_maintenance_cost = -0.25
-        navy_galley_maintenance_cost_modifier = -0.5
-        global_sailors_modifier = 0.25
-		expected_navy_size = 10
-		global_navy_levy_size_modifier = 1.0
-		allow_thema_headquarters = yes
-		global_port_build_buildings_cost = -0.2
-		global_foreign_build_buildings_cost = -0.5
-    }
-	country_modifier = {
-		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
-		loyalty_to_overlord = 10
-    }
-    years = 2
-}
 
 #ERE
+br_imperial_administration = {
+	age = age_1_traditions
+	icon = theme_system
+	potential = {
+		OR = {
+			has_or_had_tag = BYZ
+			capital = location:constantinople
+			#owns = location:constantinople
+		}
+	}
+	locked = {
+		capital = location:constantinople
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		estate_power_from_cabinet = 0.1
+		#global_integration_speed_modifier = 0.10
+		#court_spending_cost = 0.02
+		#counter_espionage = -0.2
+	}
+	country_modifier = {
+		potential_trigger = { government_power >= 50 }
+		global_crown_estate_power = 0.1
+		country_child_education = 0.1
+	}
+	country_modifier = {
+		potential_trigger = { government_power <= 25 }
+		global_crown_estate_power = -0.1
+	}
+	country_modifier = {
+		potential_trigger = { stability >= 50 }
+		monthly_towards_centralization = societal_value_monthly_move
+		parliament_base_support = 0.1
+		#land_cost_on_distance_from_capital_modifier = -0.1
+	}
+	country_modifier = {
+		potential_trigger = { stability <= 25 }
+		monthly_rebel_growth = 0.001
+	}
+	years = 2
+}
+
 br_sub_theme_subject = {
 	age = age_1_traditions
 	icon = theme_system
@@ -56,10 +61,14 @@ br_sub_theme_subject = {
 		monthly_towards_defensive = societal_value_monthly_move
 		#bias_for_militarist_policies = 25
 		allow_thema_headquarters = yes
+		global_defensive = 0.25
 	}
 	country_modifier = {
 		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
 		loyalty_to_overlord = 10
+		fort_limit_modifier = 1
+		#discipline = -0.1
+		#monthly_experience_gain = 0.1
     }
 	years = 2
 }
@@ -117,6 +126,45 @@ br_sub_religious_subject = {
 	years = 2
 }
 
+br_naval_akritai_reform = {
+    age = age_1_traditions
+    icon = crusade_sea_reform
+    potential = {
+        OR = {
+            has_or_had_tag = A1G
+            has_or_had_tag = K1B
+			has_or_had_tag = CRT
+            has_or_had_tag = CYP
+        }
+    }
+    locked = {
+		is_subject_of = c:BYZ
+	}
+    country_modifier = {
+		#government_reform_slots = 1
+        monthly_towards_naval = societal_value_monthly_move
+		monthly_towards_belligerent = societal_value_minor_monthly_move
+
+		army_disembark_speed = 0.1
+		navy_galley_build_cost_modifier = -0.5
+		allow_privateers_slave_raid = yes
+		#navy_maintenance_cost = -0.25
+        navy_galley_maintenance_cost_modifier = -0.5
+        global_sailors_modifier = 0.25
+		expected_navy_size = 10
+		global_navy_levy_size_modifier = 1.0
+		allow_thema_headquarters = yes
+		global_port_build_buildings_cost = -0.2
+		global_foreign_build_buildings_cost = -0.5
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value >= 50 } }
+		loyalty_to_overlord = 10
+    }
+    years = 2
+}
+
+###Other###
 br_mongol_tolerance = {
 	age = age_1_traditions
 	potential = {

@@ -26,7 +26,7 @@ boyarski_voiski = {
 		nobles_estate_levy_size = 0.25
 		global_levy_size_modifier = 0.1
 		global_manpower_modifier = 0.1
-		wrong_culture_levy_size = 0.1
+		wrong_culture_levy_size = 0.25
 		monthly_towards_aristocracy = societal_value_monthly_move
 	}
 }
@@ -48,7 +48,6 @@ br_dynatoi_magnates = {
 	}
 	country_modifier = {
 		allow_rgo_slave_demand = yes
-		nobles_estate_target_satisfaction = small_privilege_target_satisfaction
 		monthly_towards_serfdom = societal_value_monthly_move
 		monthly_towards_aristocracy = societal_value_minor_monthly_move
 		monthly_towards_decentralization = societal_value_minor_monthly_move
@@ -63,6 +62,7 @@ br_dynatoi_magnates = {
 	#positive modifiers
 	country_modifier = {
 		potential_trigger = { government_power >= 25 }
+		nobles_estate_target_satisfaction = small_privilege_target_satisfaction
 		global_rural_build_buildings_cost = -0.1
 		global_monthly_food_modifier = 0.1
 	}
@@ -99,20 +99,23 @@ akritai_privilege = {
 		societal_value:centralization_vs_decentralization > -25
 	}
 	country_modifier = {
-		global_levy_size_modifier = 0.1
-		levy_combat_efficiency_modifier = 0.1
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+		monthly_towards_free_subjects = societal_value_minor_monthly_move
 		auto_slave_raid_different_religion = yes   # Frontier raiding (BR addition)
 		global_peasants_estate_power = 1
 		global_peasant_enfranchisment = 0.05
-		monthly_towards_decentralization = societal_value_minor_monthly_move
-		monthly_towards_free_subjects = societal_value_minor_monthly_move
-		# As with Ghazi privileges, useful early but a roadblock to centralization.
+		
 	}
 	country_modifier = {
 		potential_trigger = { government_power >= 50 }
 		peasants_estate_target_satisfaction = small_privilege_target_satisfaction
-		damage_done_versus_heathens_modifier = 0.1
+		global_levy_size_modifier = 0.1
+		levy_combat_efficiency_modifier = 0.1
 		amount_looted_modifier = 0.5
+	}
+	country_modifier = {
+		potential_trigger = {  societal_value:spiritualist_vs_humanist <= -50 }
+		damage_done_versus_heathens_modifier = 0.1
 	}
 }
 
@@ -166,13 +169,21 @@ br_themata_peasant_privilege = {
 		levy_combat_efficiency_modifier = 0.1
 		#peasants_allowed_weapons = yes
 		global_soldiers_desired_pop_scaled = 0.005 #Soldier Levies
-		global_soldiers_max_literacy = 5 
+		#global_soldiers_max_literacy = 5 
 	}
+	#location_modifier = {
+    #    potential_trigger = {
+	#		local_control < 0.75
+    #    }
+    #    local_peasants_estate_power = 1
+	#	local_soldiers_desired_pop_scaled = 0.005
+    #}
 	#positive
 	country_modifier = {
 		potential_trigger = { government_power >= 50 }
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
-		peasants_estate_max_tax = 0.05
+		#peasants_estate_max_tax = 0.05
+		monthly_experience_gain = 0.05
 		peasants_estate_levy_size = 0.1
 		army_maintenance_cost = -0.05
 	}
@@ -205,6 +216,7 @@ br_special_trade_companies = {
 		country_type = building
 	}
 	country_modifier = {
+		trade_income = 0.25
 		global_trades_per_burgher = 0.5
 		trade_range_modifier = 0.25
 		naval_range_modifier = 0.25
@@ -212,10 +224,10 @@ br_special_trade_companies = {
 		payment_to_overlord_modifier = -0.5
 		global_port_build_buildings_cost = -0.5
 		global_foreign_build_buildings_cost = -0.5
+		trade_sea_movement_cost_modifier = -0.5
 	}
 	country_modifier = {
 		potential_trigger = {  societal_value:land_vs_naval >= 45 }
-		trade_sea_movement_cost_modifier = -0.5
 		sea_cost_on_distance_from_capital_when_maritime = -1
 	}
 	country_modifier = {
@@ -248,37 +260,40 @@ br_latin_trade_naval_reliance = {
 		government_power > 95
 	}
 	country_modifier = {
-		trade_efficiency = medium_trade_efficiency_penalty
+		trade_income = -0.25
 		global_burghers_estate_power = 0.25
 		global_burghers_conversion_blocked = yes
 		trade_range_modifier = 0.25
-		global_maritime_presence_modifier = -0.1
+		expected_navy_size_modifier = -0.5
 	}
 	country_modifier = {
 		potential_trigger = { stability >= 25 }
 		tolerance_heretic = 1
+		trade_sea_movement_cost_modifier = -0.25
 	}
 	location_modifier = {
 		potential_trigger = {
 			root = location:constantinople
 		}
 		local_trade_center_power = 0.1
-		local_burghers_estate_power = 0.5
 		local_trades_per_burgher = 0.5
+		#local_burghers_estate_power = 0.5
 		#local_merchant_capacity = 1
 	}
+	#negative modifiers
 	country_modifier = {
 		potential_trigger = { government_power <= 50 }
 		navy_maintenance_cost = 0.25
 		ship_build_speed = -0.5
+		global_maritime_presence_modifier = -0.1
 	}
 	country_modifier = {
-		potential_trigger = { stability <= 25 }
+		potential_trigger = { stability <= 50 }
 		global_navy_levy_size_modifier = -0.5
+		#trade_efficiency = medium_trade_efficiency_penalty
 	}
 	country_modifier = {
 		potential_trigger = { prestige <= 50 }
-		expected_navy_size_modifier = -0.5
 		global_sailors_modifier = -0.5
 	}
 }
@@ -297,12 +312,15 @@ br_bureaucrat_clergy = { #maybe split up
 	}
 	country_modifier = {
 		global_clergy_estate_power = 0.25
-		clergy_estate_target_satisfaction = small_privilege_target_satisfaction
 		global_clergy_city_desired_pop_scaled = 0.01
-		country_cabinet_efficiency = 0.1
-		#global_pop_promotion_speed_modifier = 0.10
-		#global_distance_from_capital_cost_modifier = -0.1
 		monthly_towards_centralization = societal_value_minor_monthly_move
+	}
+	#positive
+	country_modifier = {
+		potential_trigger = { government_power >= 50 }
+		clergy_estate_target_satisfaction = small_privilege_target_satisfaction
+		country_cabinet_efficiency = 0.1
+		#global_distance_from_capital_cost_modifier = -0.1
 	}
 	country_modifier = {
 		potential_trigger = { 
@@ -314,7 +332,8 @@ br_bureaucrat_clergy = { #maybe split up
 		potential_trigger = { 
 			has_advance = roman_scribal_administration
 		}
-		global_clergy_max_literacy = 0.1
+		global_clergy_max_literacy = 5
+		global_pop_promotion_speed_modifier = 0.10
 	}
 }
 
@@ -332,7 +351,6 @@ br_roman_ecumenical_patriarch_privilege = {
 	}
 	country_modifier = {
 		global_clergy_estate_power = 0.25
-		clergy_estate_target_satisfaction = small_privilege_target_satisfaction
 		monthly_towards_spiritualist = societal_value_monthly_move
 		maximum_religious_influence = 500
 	}
@@ -341,10 +359,17 @@ br_roman_ecumenical_patriarch_privilege = {
 	#	global_pop_conversion_speed_modifier = 0.25
 	#}
 	country_modifier = {
-		potential_trigger = { government_power <= 50 }
+		potential_trigger = { government_power >= 50 }
+		clergy_estate_target_satisfaction = small_privilege_target_satisfaction
+		country_cabinet_efficiency = 0.1
+		global_pop_conversion_speed_modifier = 0.1
+	}
+	country_modifier = {
+		potential_trigger = { government_power <= 25 }
 		clergy_estate_max_tax = -0.1
 	}
 	#positive
+	##May split these off or replace name/description.
 	country_modifier = {
 		potential_trigger = { owns = location:alexandria }
 		orthodox_synod_cost_modifier = -0.25

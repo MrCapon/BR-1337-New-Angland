@@ -12,13 +12,13 @@
  br_latin_trade_naval_reliance_desc: "Imperial naval administration has grown dependent upon Latin merchant fleets and their capital. In return for sustained access to ships and maritime expertise, the state has granted extensive commercial privileges, shifting naval costs outward while eroding native levies, sailors, and imperial control of the seas."
 
  br_roman_ecumenical_patriarch_privilege: "Prerogatives of the Ecumenical Patriarch"
- br_roman_ecumenical_patriarch_privilege_desc: "By ancient custom and recognized canon, the Ecumenical Patriarch exercises wide authority within the imperial church. These prerogatives strengthen the influence of the clergy in public life, extend the Church’s hand into diplomacy, and ensure the spiritual alignment of newly incorporated lands and subjects."
+ br_roman_ecumenical_patriarch_privilege_desc: "By ancient canon and the dignity of New Rome, the Ecumenical Patriarch presides as first among hierarchs within the oikoumene. Through synod, embassy, and sacred decree, his authority extends across the sees of the Empire, guiding doctrine, shaping diplomacy, and binding newly restored lands to the Orthodox communion."
 
  br_bureaucrat_clergy: "Ekklēsiastikē Dioikēsis"
- br_bureaucrat_clergy_desc: "The machinery of state relies upon educated clerics trained in law, rhetoric, and record-keeping. Through their service in courts and provincial offices, governance is conducted according to written statute and established Roman custom."
+ br_bureaucrat_clergy_desc: "The sekreta of the Empire are entrusted to the logothetai, guardians of fisc and nomos throughout the oikoumene. By chrysobull and sealed ordinance, imperial command is reduced to written statute and enduring register. Thus the Basileus rules not by whim, but through ordered administration rooted in Roman law."
 
  br_themata_peasant_privilege: "Stratiōtai Land Grant"
- br_themata_peasant_privilege_desc: "Land within the themes is held by soldier-farmers obligated to render military service. Through this system, the state secures loyal levies drawn from free households, reinforcing provincial defense while tempering the dominance of magnate estates."
+ br_themata_peasant_privilege_desc: "Within the themes, land is held by stratiōtai bound to render service in defense of the Roman order. These free households, settled upon military allotments, furnish disciplined levies in time of war and uphold imperial authority in time of peace. Through this system, the state secures loyal levies drawn from free households, reinforcing provincial defense while tempering the dominance of magnate estates."
 
  br_dynatoi_magnates: "Dynatoi Magnate Privileges"
  br_dynatoi_magnates_desc: "Powerful landed magnates consolidate estates across the provinces, extending their authority over dependent cultivators and local administration. Their wealth strengthens rural production and fortifies the countryside, yet their growing dominance diminishes the independence of smaller households and shifts the balance of power away from the crown."
