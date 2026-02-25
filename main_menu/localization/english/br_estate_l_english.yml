@@ -5,6 +5,9 @@
  boyarski_voiski: "Boiárski Voĭski"
  boyarski_voiski_desc: "The traditional levy of the Bulgarian boyars forms the backbone of our armies. These noble households maintain armed retainers and provide large contingents of horsemen in times of war. By reaffirming their martial rights and obligations, we strengthen our military capacity—though at the cost of granting the boyars greater influence within the realm."
 
+ br_arm_nakharars: "Empowered Nakharars"
+ br_arm_nakharars_desc: "The ancient nakharar houses stand as the backbone of Armenian defense. Entrusted with the guarding of mountain passes and the mustering of hereditary warbands, they command deep loyalty from their retainers and the peasantry alike. In times of invasion, their banners rise swiftly and the highlands become a fortress. Yet such strength comes at a price — the crown’s authority wanes where noble privilege is strongest."
+
  br_special_trade_companies: "Chartered Trade Companies"
  br_special_trade_companies_desc: "By granting expansive privileges to powerful trade companies, the state entrusts overseas commerce and naval logistics to mercantile elites. In return, these companies sustain trade dominance, expand maritime reach, and shoulder much of the burden of naval upkeep."
 

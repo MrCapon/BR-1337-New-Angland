@@ -49950,11 +49950,11 @@ countries = {
 				
 				privilege = {
 					#Nobles
+					br_arm_nakharars
 					noble_patronage_of_the_arts
 					noble_serfdom_rights
 					feudal_mercenary_contracts
 					primacy_of_nobility
-					auxilium_et_consilium
 					#clergy
 					embellish_great_works_of_faith
 					clergy_powerful_dioceses
