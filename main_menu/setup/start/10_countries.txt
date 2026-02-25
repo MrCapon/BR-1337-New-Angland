@@ -49949,8 +49949,9 @@ countries = {
 				outward_vs_inward = 75
 				
 				privilege = {
-					#Nobles
 					br_arm_nakharars
+					br_arm_highland_villages
+					#Nobles
 					noble_patronage_of_the_arts
 					noble_serfdom_rights
 					feudal_mercenary_contracts
@@ -50069,17 +50070,16 @@ countries = {
 				outward_vs_inward = 75
 				
 				privilege = {
+					br_arm_nakharars
+					br_arm_highland_villages
 					#Nobles
-					noble_patronage_of_the_arts
 					noble_serfdom_rights
 					feudal_mercenary_contracts
 					primacy_of_nobility
-					auxilium_et_consilium
 					#clergy
 					embellish_great_works_of_faith
 					clergy_powerful_dioceses
 					clergy_strengthen_faith
-					religious_diplomats
 					#burghers
 					land_of_commerce
 					#peasants
@@ -54229,17 +54229,16 @@ countries = {
 				outward_vs_inward = 75
 				
 				privilege = {
+					br_arm_nakharars
+					br_arm_highland_villages
 					#Nobles
-					noble_patronage_of_the_arts
 					noble_serfdom_rights
 					feudal_mercenary_contracts
 					primacy_of_nobility
-					auxilium_et_consilium
 					#clergy
 					embellish_great_works_of_faith
 					clergy_powerful_dioceses
 					clergy_strengthen_faith
-					religious_diplomats
 					#burghers
 					land_of_commerce
 					#peasants
@@ -54294,17 +54293,16 @@ countries = {
 				outward_vs_inward = 75
 				
 				privilege = {
+					br_arm_nakharars
+					br_arm_highland_villages
 					#Nobles
-					noble_patronage_of_the_arts
 					noble_serfdom_rights
 					feudal_mercenary_contracts
 					primacy_of_nobility
-					auxilium_et_consilium
 					#clergy
 					embellish_great_works_of_faith
 					clergy_powerful_dioceses
 					clergy_strengthen_faith
-					religious_diplomats
 					#burghers
 					land_of_commerce
 					#peasants
@@ -54365,17 +54363,16 @@ countries = {
 				outward_vs_inward = 75
 				
 				privilege = {
+					br_arm_nakharars
+					br_arm_highland_villages
 					#Nobles
-					noble_patronage_of_the_arts
 					noble_serfdom_rights
 					feudal_mercenary_contracts
 					primacy_of_nobility
-					auxilium_et_consilium
 					#clergy
 					embellish_great_works_of_faith
 					clergy_powerful_dioceses
 					clergy_strengthen_faith
-					religious_diplomats
 					#burghers
 					land_of_commerce
 					#peasants
@@ -54434,12 +54431,10 @@ countries = {
 					noble_serfdom_rights
 					feudal_mercenary_contracts
 					primacy_of_nobility
-					auxilium_et_consilium
 					#clergy
 					embellish_great_works_of_faith
 					clergy_powerful_dioceses
 					clergy_strengthen_faith
-					religious_diplomats
 					#burghers
 					land_of_commerce
 					#peasants

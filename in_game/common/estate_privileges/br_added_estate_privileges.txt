@@ -32,22 +32,27 @@ boyarski_voiski = {
 	}
 }
 
-br_arm_nakharars = { #one op privilege for balance, will break up later.
+br_arm_nakharars = { #will break up later and balance later.
 	estate = nobles_estate
 	icon = formalized_oath
 	potential = {
-		has_or_had_tag = ARM
+		OR = {
+			has_or_had_tag = ARM
+			culture = { has_culture_group = culture_group:caucasian_group } #May split up Armenian Culture later and make Armenian group.
+		}
+	}
+	can_revoke = {
+		societal_value:centralization_vs_decentralization <= -50
+		"estate_power(estate_type:nobles_estate)" <= 0.25
 	}
 	country_modifier = {
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		monthly_towards_aristocracy = societal_value_monthly_move
 		global_nobles_estate_power = 0.5
 		# Military boosts
-		nobles_estate_levy_size = 0.25
-		global_levy_size_modifier = 0.1
-		monthly_towards_aristocracy = societal_value_monthly_move
-		global_defensive = 0.5
-		global_hostile_attrition = 1
-		nobles_estate_max_tax = -0.1
+		nobles_estate_levy_size = 0.5
+		global_defensive = 0.25
+		fort_maintenance_cost = -0.1
 		global_max_control = -0.05
 	}
 }
@@ -205,6 +210,30 @@ br_themata_peasant_privilege = {
 		monthly_legitimacy = -0.05
 		global_monthly_food_modifier = -0.1
 		monthly_nobles_estate_rebel_growth = 0.001
+	}
+}
+
+br_arm_highland_villages = { #will break up later and balance later.
+	estate = peasants_estate
+	icon = dhimmi_military_service
+	potential = {
+		OR = {
+			has_or_had_tag = ARM
+			culture = { has_culture_group = culture_group:caucasian_group } #May split up Armenian Culture later and make Armenian group.
+		}
+	}
+	can_revoke = {
+		societal_value:centralization_vs_decentralization <= -50
+	}
+	country_modifier = {
+		global_peasants_estate_power = 1
+		global_peasant_enfranchisment = 0.05
+		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_hostile_attrition = 0.5
+		global_defensive = 0.25
+		global_max_control = -0.05
+		peasants_estate_levy_size = 0.1
+		fort_maintenance_cost = -0.25
 	}
 }
 
