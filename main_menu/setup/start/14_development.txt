@@ -230,6 +230,10 @@ development = {
 	arkhangelsk_area = -10
 	#Africa
 	#egypt
+	cairo_province = 5
+	sharqiyya_province = 5
+	dakahliyya_province = 5
+	gharbiyya_province = 5
 	cyrenaica_area = -5
 	tunis_area = 5
 	#swahili coast
@@ -303,6 +307,7 @@ development = {
 	khuzestan_area = -3
 
 	# provinces
+	baghdad_province = 5
 	#Egypt
 	oasis_province = -5
 	#Britain
@@ -412,6 +417,7 @@ development = {
 	tripoli = 8
 	medina = 10
 	baghdad = 25
+	samarra = 8
 	isfahan = 12
 	rey = 8
 	tabriz = 10
@@ -449,6 +455,8 @@ development = {
 	canajoharie = 1
 	constantinople = 40
 	thessaloniki = 15
+	thebes = 5
+	athens = -5
 	smyrna = 10
 	ani = 5
 	theodoro = 12
