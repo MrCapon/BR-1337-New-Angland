@@ -47,6 +47,8 @@ br_arm_nakharars = { #will break up later and balance later.
 	}
 	country_modifier = {
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		monthly_towards_land = societal_value_minor_monthly_move
+		monthly_towards_defensive = societal_value_minor_monthly_move
 		monthly_towards_aristocracy = societal_value_monthly_move
 		global_nobles_estate_power = 0.5
 		# Military boosts
@@ -228,6 +230,8 @@ br_arm_highland_villages = { #will break up later and balance later.
 	country_modifier = {
 		global_peasants_estate_power = 1
 		global_peasant_enfranchisment = 0.05
+		monthly_towards_land = societal_value_minor_monthly_move
+		monthly_towards_defensive = societal_value_minor_monthly_move
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_hostile_attrition = 0.5
 		global_defensive = 0.25
@@ -255,7 +259,7 @@ br_special_trade_companies = {
 	}
 	country_modifier = {
 		trade_income = 0.25
-		global_trades_per_burgher = 0.5
+		global_trades_per_burgher = 1
 		trade_range_modifier = 0.25
 		naval_range_modifier = 0.25
 		expected_navy_size = 10
@@ -300,14 +304,13 @@ br_latin_trade_naval_reliance = {
 	country_modifier = {
 		global_burghers_estate_power = 0.25
 		global_burghers_conversion_blocked = yes
-		trade_range_modifier = 0.25
 		expected_navy_size_modifier = -0.5
 		monthly_towards_plutocracy = societal_value_monthly_move
 	}
 	country_modifier = {
 		potential_trigger = { stability >= 25 }
 		tolerance_heretic = 1
-		trade_sea_movement_cost_modifier = -0.25
+		trade_sea_movement_cost_modifier = -0.5
 	}
 	location_modifier = {
 		potential_trigger = {
