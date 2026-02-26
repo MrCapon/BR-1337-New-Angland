@@ -1,0 +1,213 @@
+﻿orthodox_order_commandery = {
+	is_foreign = yes
+	stronger_power_projection = no
+	need_good_relation = no
+	pop_type = clergy
+	
+	category = religious_category
+	
+	max_levels = 1
+	employment_size = order_religious_building_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	allow_wrong_startup = yes
+	
+	
+	location_potential = {
+		custom_tooltip = {
+			text = order_commandery_tt
+			owner = {
+				giving_scripted_relation = {
+					type = relation_type:military_sponsorship
+					target = scope:actor
+				}
+			}
+		}
+	}
+	
+	
+	country_potential = {
+		modifier:target_of_military_sponsorships = yes
+		religion = religion:orthodox
+	}
+	
+	build_time = soldier_building
+	
+	allow = {
+		owner = { within_diplomatic_range = scope:actor }
+		dominant_religion = religion:orthodox
+	}
+
+	remove_if = {
+		OR = {
+			location = {
+				dominant_religion != religion:orthodox
+			}
+			owner = {
+				OR = {
+					modifier:target_of_military_sponsorships = no
+					religion != religion:orthodox
+				}
+			}	
+		}
+	}
+
+
+	on_built = {
+		if = {
+			limit = {
+				location.owner != root.owner 
+			}
+			location.owner = {
+				add_opinion = { target = root.owner modifier = opinion_reformation_diplomacy } 
+			}
+		}
+	}
+
+	modifier = {
+		gold_to_building_owner = 0.15
+		manpower_to_building_owner = 0.01
+	}
+	construction_demand = order_commandery_construction
+	possible_production_methods = {
+		order_commandery_maintenance
+	}
+	graphical_tags = { small_military }
+}
+
+br_varangian_recruitment_building = {
+	is_foreign = yes
+	stronger_power_projection = no
+	need_good_relation = no
+	pop_type = soldiers
+	
+	category = military_category
+	
+	max_levels = 1
+	employment_size = order_religious_building_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	allow_wrong_startup = yes
+	
+	
+	location_potential = {
+		is_capital = yes
+	}
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	
+	build_time = soldier_building
+	
+	allow = {
+		#market = { in_trade_range_of = scope:actor }
+		#NOT = { dominant_religion = scope:actor.religion }
+	}
+
+	modifier = {
+		manpower_to_building_owner = 0.01
+		num_of_varangian_units = 1
+	}
+	construction_demand = order_commandery_construction
+	possible_production_methods = {
+		order_commandery_maintenance
+	}
+	graphical_tags = { small_military }
+}
+
+br_naval_theme_hq = {
+	is_special = yes
+	is_foreign = no
+	pop_type = soldiers
+	
+	max_levels = 1
+	employment_size = dry_dock_employment
+	
+	category = military_category
+	
+	rural_settlement = no
+	town = no
+	city = yes
+	
+	build_time = large_port_building_time
+
+	country_potential = {
+		always = no
+	}
+	allow = {
+		always = no
+	}
+
+	modifier = {
+		max_ships_built_at_same_time = 2
+		local_sailors = 0.05
+		can_build_ships_in_this_location = yes
+		harbor_suitability = 0.25
+		local_repair_speed = 0.02
+	}
+	
+	unique_production_methods = {
+		br_naval_theme_hq_maintenance = {
+			tar = 0.5
+			naval_supplies = 1.0
+			tools = 0.2
+			lumber = 0.4
+			stone = 0.1
+			category = building_maintenance
+		}
+	}
+
+	construction_demand = port_building_construction
+}
+
+br_tagmata_barracks = {
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1 #manpower_max_level
+	
+	employment_size = 1
+	category = military_category
+
+	town = yes
+	city = yes
+	build_time = soldier_building
+	
+	forbidden_for_estates = yes
+
+	obsolete = armory
+	obsolete = sergeantry
+
+    country_potential = {
+		OR = {
+			has_or_had_tag = BYZ
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+    }
+	allow = {
+		owner = { has_primary_or_accepted_culture = prev.dominant_culture }
+	}
+	remove_if = {
+		NOT = { owner = { has_primary_or_accepted_culture = prev.location.dominant_culture } }
+	}
+
+
+	modifier = {
+		local_crown_estate_power = 0.25
+		local_manpower = 0.015
+		can_recruit_regiment_in_this_location = yes
+		#max_regiments_trained_at_same_time = 1
+		num_of_varangian_units = 1
+	}
+	
+	possible_production_methods =  {
+		early_soldier_building_maintenance
+	}
+
+	construction_demand = soldier_building_construction
+}

@@ -1,129 +1,4 @@
-﻿orthodox_order_commandery = {
-	is_foreign = yes
-	stronger_power_projection = no
-	need_good_relation = no
-	pop_type = clergy
-	
-	category = religious_category
-	
-	max_levels = 1
-	employment_size = order_religious_building_employment
-	
-	rural_settlement = yes
-	town = yes
-	city = yes
-	
-	allow_wrong_startup = yes
-	
-	
-	location_potential = {
-		custom_tooltip = {
-			text = order_commandery_tt
-			owner = {
-				giving_scripted_relation = {
-					type = relation_type:military_sponsorship
-					target = scope:actor
-				}
-			}
-		}
-	}
-	
-	
-	country_potential = {
-		modifier:target_of_military_sponsorships = yes
-		religion = religion:orthodox
-	}
-	
-	build_time = soldier_building
-	
-	allow = {
-		owner = { within_diplomatic_range = scope:actor }
-		dominant_religion = religion:orthodox
-	}
-
-	remove_if = {
-		OR = {
-			location = {
-				dominant_religion != religion:orthodox
-			}
-			owner = {
-				OR = {
-					modifier:target_of_military_sponsorships = no
-					religion != religion:orthodox
-				}
-			}	
-		}
-	}
-
-
-	on_built = {
-		if = {
-			limit = {
-				location.owner != root.owner 
-			}
-			location.owner = {
-				add_opinion = { target = root.owner modifier = opinion_reformation_diplomacy } 
-			}
-		}
-	}
-
-	modifier = {
-		gold_to_building_owner = 0.15
-		manpower_to_building_owner = 0.01
-	}
-	construction_demand = order_commandery_construction
-	possible_production_methods = {
-		order_commandery_maintenance
-	}
-	graphical_tags = { small_military }
-}
-
-br_varangian_recruitment_building = {
-	is_foreign = yes
-	stronger_power_projection = no
-	need_good_relation = no
-	pop_type = soldiers
-	
-	category = military_category
-	
-	max_levels = 1
-	employment_size = order_religious_building_employment
-	
-	rural_settlement = yes
-	town = yes
-	city = yes
-	
-	allow_wrong_startup = yes
-	
-	
-	location_potential = {
-		is_capital = yes
-	}
-	country_potential = {
-		has_or_had_tag = BYZ
-	}
-	
-	build_time = soldier_building
-	
-	allow = {
-		#market = { in_trade_range_of = scope:actor }
-		#NOT = { dominant_religion = scope:actor.religion }
-	}
-
-	capital_country_modifier = { 
-		num_of_varangian_units = 1
-	}
-	modifier = {
-		manpower_to_building_owner = 0.01
-		
-	}
-	construction_demand = order_commandery_construction
-	possible_production_methods = {
-		order_commandery_maintenance
-	}
-	graphical_tags = { small_military }
-}
-
+﻿### BR Unique buildings ###
 br_great_palace_building = {
 	is_foreign = no
 	pop_type = nobles
@@ -461,4 +336,37 @@ br_hippodrome_building = {
 		}
 	}
 	construction_demand = university_construction
+}
+
+# Sewers of Constantinople, not a unique building but has some unique modifiers and is only buildable in Constantinople
+br_constantinople_infrastructure = {
+	is_foreign = no
+	pop_type = slaves
+	max_levels = 1
+	
+	category = infrastructure_category
+	
+	employment_size = large_infrastructure_employment
+	
+	rural_settlement = no
+	town = no
+	city = yes
+
+	is_indestructible = yes
+
+	expensive = yes
+
+	build_time = large_infrastructure_building_time
+
+	location_potential = {
+		this = location:constantinople
+	}
+	
+	allow = { always = no }
+
+	modifier = {
+		free_building_levels = 50
+		local_population_capacity = 250
+		local_disease_resistance = 0.1
+	}
 }
