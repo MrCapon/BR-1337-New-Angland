@@ -343,6 +343,7 @@ br_constantinople_infrastructure = {
 	is_foreign = no
 	pop_type = slaves
 	max_levels = 1
+	icon = bund
 	
 	category = infrastructure_category
 	

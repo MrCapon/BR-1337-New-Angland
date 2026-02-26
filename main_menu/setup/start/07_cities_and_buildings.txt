@@ -4174,7 +4174,7 @@ building_manager = {
 	nobles_recruitment_center = { tag = BNV level = 1 location = benevento }
 	nobles_recruitment_center = { tag = BNV level = 1 location = potenza }
 
-	sergeantry	= { tag = S2C level = 1 location = lecce } #Sergeants at arms
+	thema_headquarters	= { tag = S2C level = 1 location = lecce } #Sergeants at arms
 	nobles_recruitment_center = { tag = S2C level = 1 location = bari }
 	nobles_recruitment_center = { tag = S3C level = 1 location = cosenza }
 	nobles_recruitment_center = { tag = S1C level = 1 location = messina }
@@ -4233,17 +4233,17 @@ building_manager = {
 	cathedral = { tag = THE level = 1 location = thessaloniki }
 	marketplace	= { tag = THE level = 5 location = thessaloniki }
 	#apothecary = { tag = ATH level = 1 location = thebes }
-	sergeantry = { tag = BYZ level = 1 location =  constantinople }
-	sergeantry = { tag = ATH level = 1 location =  thebes }
-	sergeantry = { tag = THE level = 1 location =  thessaloniki }
-	sergeantry = { tag = DYR level = 1 location =  durres }
-	sergeantry = { tag = EPI level = 1 location =  arta }
+	br_tagmata_barracks = { tag = BYZ level = 1 location =  constantinople }
+	br_tagmata_barracks = { tag = ATH level = 1 location =  thebes }
+	br_tagmata_barracks = { tag = THE level = 1 location =  thessaloniki }
+	br_tagmata_barracks = { tag = DYR level = 1 location =  durres }
+	br_tagmata_barracks = { tag = EPI level = 1 location =  arta }
 	#hexamilion_wall = { tag = ATH level = 1 location =  corinth }
 
 	#Anatolia
 	dock = { tag = BYZ level = 1 location = smyrna }
-	dock = { tag = A1G level = 1 location = canakkale }
-	dock = { tag = K1B level = 1 location = antalya }
+	br_naval_theme_hq = { tag = A1G level = 1 location = canakkale }
+	br_naval_theme_hq = { tag = K1B level = 1 location = antalya }
 	dock = { tag = MAM level = 1 location = suez }
 	wharf = { tag = BYZ level = 1 location = smyrna }
 	cathedral = { tag = BYZ level = 1 location = smyrna }

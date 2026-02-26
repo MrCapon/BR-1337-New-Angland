@@ -112,7 +112,7 @@ br_varangian_recruitment_building = {
 
 	modifier = {
 		manpower_to_building_owner = 0.01
-		num_of_varangian_units = 1
+		#num_of_varangian_units = 1
 	}
 	construction_demand = order_commandery_construction
 	possible_production_methods = {
@@ -125,6 +125,7 @@ br_naval_theme_hq = {
 	is_special = yes
 	is_foreign = no
 	pop_type = soldiers
+	icon = por_feitoria
 	
 	max_levels = 1
 	employment_size = dry_dock_employment
@@ -137,11 +138,22 @@ br_naval_theme_hq = {
 	
 	build_time = large_port_building_time
 
+	location_potential = {
+		is_port = yes
+		OR = {
+			this = location:canakkale
+			this = location:antalya
+			this = location:sinop
+			this = location:trebizond
+			this = location:candia
+		}
+	}
 	country_potential = {
-		always = no
+		culture = { has_culture_group = culture_group:greek_group }
+		has_reform = government_reform:br_naval_akritai_reform
 	}
 	allow = {
-		always = no
+		culture = { has_culture_group = culture_group:greek_group }
 	}
 
 	modifier = {
@@ -170,6 +182,7 @@ br_tagmata_barracks = {
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1 #manpower_max_level
+	icon = barracks #armory bey_fortress
 	
 	employment_size = 1
 	category = military_category
@@ -183,6 +196,9 @@ br_tagmata_barracks = {
 	obsolete = armory
 	obsolete = sergeantry
 
+	location_potential = {
+		local_control > 0.75
+	}
     country_potential = {
 		OR = {
 			has_or_had_tag = BYZ
@@ -201,8 +217,7 @@ br_tagmata_barracks = {
 		local_crown_estate_power = 0.25
 		local_manpower = 0.015
 		can_recruit_regiment_in_this_location = yes
-		#max_regiments_trained_at_same_time = 1
-		num_of_varangian_units = 1
+		local_unrest = -0.025
 	}
 	
 	possible_production_methods =  {
@@ -210,4 +225,138 @@ br_tagmata_barracks = {
 	}
 
 	construction_demand = soldier_building_construction
+}
+
+br_soldier_farmers = { #thema estates
+	is_foreign = no
+	max_levels = 1 #rural_building_cap
+	pop_type = soldiers
+	icon = kastellet #thema_headquarters
+
+	category = village_category
+
+	employment_size = 0.250 #manpower_employment
+	
+	location_potential = {
+		local_control < 0.75
+		development < 20
+	}
+
+	rural_settlement = yes
+	town = no
+	city = no
+
+	location_potential = {
+		OR = {
+			raw_material = goods:wheat
+			raw_material = goods:maize
+			raw_material = goods:rice
+			raw_material = goods:millet
+			raw_material = goods:legumes
+			raw_material = goods:potato
+			raw_material = goods:livestock
+			raw_material = goods:olives
+			raw_material = goods:fruit
+			raw_material = goods:wool
+		}
+	}
+
+	build_time = village_build_time
+	
+	unique_production_methods = {
+		br_soldier_farmers_cattle_maintenance = {
+			tools = 0.025
+			clay = 1.0
+			output = 0.5
+			produced = livestock
+			debug_max_profit = 0.6
+			category = building_maintenance
+		}
+
+		br_soldier_farmers_wool_maintenance = {
+			tools = 0.025
+			clay = 1.0
+			output = 0.2
+			produced = wool
+			debug_max_profit = 0.6
+			category = building_maintenance
+		}
+
+		br_soldier_farmers_sturdy_crops_maintenance = { 
+			produced = millet
+			output = 1
+			tools = 0.1
+			debug_max_profit = 0.6
+			category = building_maintenance
+		}
+
+		br_soldier_farmers_horses_maintenance = {
+			produced = horses
+			output = 0.5
+			millet = 0.5
+			category = building_maintenance
+		}
+	}
+
+	
+	country_potential = {
+		has_estate_privilege = estate_privilege:br_themata_peasant_privilege
+	}
+	remove_if = { 
+		NOT = {	has_estate_privilege =  estate_privilege:br_themata_peasant_privilege }
+	}
+	
+	modifier = {
+		local_peasant_enfranchisment = 0.1
+		local_food_capacity = 100
+		local_monthly_food_modifier = 0.1
+		local_peasants_estate_power = 1
+		local_soldiers_desired_pop = 0.250
+		local_army_levy_size_modifier = 0.1
+	}
+}
+
+br_pronoia_estate = { #pronoia estates
+	is_foreign = no
+	max_levels = 1 #rural_building_cap
+	pop_type = nobles
+	icon = tur_kodjabashi_office #seljuk_mint
+
+	category = village_category
+
+	employment_size = 0.1 #manpower_employment
+	
+	rural_settlement = yes
+	town = no
+	city = no
+
+	location_potential = {
+		local_control < 0.75
+		#development > 10
+		OR = {
+			vegetation = grasslands
+			vegetation = farmland
+			vegetation = sparse
+		}
+	}
+
+	build_time = village_build_time
+	
+	possible_production_methods = {
+		estate_building_input
+	}
+	
+	country_potential = {
+		has_estate_privilege = estate_privilege:br_dynatoi_magnates
+	}
+	remove_if = { 
+		NOT = {	has_estate_privilege =  estate_privilege:br_dynatoi_magnates }
+	}
+	
+	modifier = {
+		local_army_levy_size_modifier = 0.25
+		local_nobles_estate_power = 1
+		local_nobles_desired_pop = 0.1
+		local_nobles_food_consumption = 1
+    }
 }

@@ -1,14 +1,6 @@
 ﻿l_english:
 
- orthodox_order_commandery: "Order Commandery"
- orthodox_order_commandery_desc: "An $orthodox_order_commandery$ is a building owned by the military orders outside their own territory that serves two purposes: getting revenues from the exploitation of the surrounding lands and drafting new members for the order."
- orthodox_order_commandery_tt: "Owner gives [ShowRelationTypeName('military_sponsorship')] to us"
- #orthodox_order_commandery_maintenance
-
- br_varangian_recruitment_building: "Varangian Commandery"
- br_varangian_recruitment_building_desc: "Imperial offices and compounds maintained by Roman envoys for the enlistment of hardy foreign warriors from the northern lands. From these offices, seasoned Varangians are inducted into imperial service, pledging their strength, loyalty, and martial skill in return for pay, privilege, and honor under the Emperor’s banner."
- #br_varangian_recruitment_building_maintenance
-
+ #ERE
  br_great_palace_building: "Méga Palátion"
  br_great_palace_building_desc: "The principal imperial residence and ceremonial heart of the Roman state, comprising audience halls, chapels, residences, and gardens where emperors governed and enacted the rituals of empire."
  #br_great_palace_building_maintenance
@@ -40,3 +32,30 @@
  farming_village_horses_maintenance: "Horse Ranch"
  forest_village_wild_game_maintenance: "Wild Game Hunting"
  forest_village_lumber_maintenance: "Lumber Farming"
+
+ #Military
+
+ orthodox_order_commandery: "Orthodox Order Commandery"
+ orthodox_order_commandery_desc: "A fortified commandery established by an Orthodox military order beyond its own domains. From this house, revenues are drawn from the surrounding lands while new brethren are recruited into sacred service. Sustained through imperial sponsorship, the commandery binds piety and arms in defense of the Roman oikoumenē."
+ orthodox_order_commandery_tt: "Owner grants [ShowRelationTypeName('military_sponsorship')] to us"
+
+ br_varangian_recruitment_building: "Varangian Commandery"
+ br_varangian_recruitment_building_desc: "An imperial compound maintained for the enlistment of northern warriors into Roman service. Here envoys and officers oversee the induction of Varangians, who pledge their axes and loyalty to the Basileus in exchange for pay, honor, and advancement within the Tágmata. From these halls, foreign strength is bound to imperial authority."
+
+ br_tagmata_barracks: "Tágmata Barracks"
+ br_tagmata_barracks_desc: "Permanent urban barracks housing the professional Tágmata regiments. Stationed only in provinces under firm imperial control, these soldiers answer directly to the Basileus. Costly to maintain yet disciplined and reliable, they embody the centralized military authority of the Roman state."
+
+ br_soldier_farmers: "Théma Ktêma"
+ br_soldier_farmers_desc: "A rural military holding established under the Théma system. Stratiōtai cultivate the land in peace and take up arms in defense of their province when summoned. Productive and resilient, these settlements strengthen the peasantry and preserve provincial autonomy alongside imperial service."
+
+ br_pronoia_estate: "Prónoia Ktêma"
+ br_pronoia_estate_desc: "A conditional land grant awarded in exchange for military obligation. The holder raises retainers and extracts revenue in the Emperor’s name, restoring order where direct control is weak. Yet each Prónoia entrenches the power of the Dynatoi, binding local strength to noble authority rather than the crown."
+
+ br_naval_theme_hq: "Naútikon Théma Neōrion"
+ br_naval_theme_hq_desc: "A fortified naval headquarters of the Naútikon Théma, combining administrative command with imperial shipyard facilities. From these harbors the Roman fleet is provisioned, constructed, and maintained, securing control of the seas and reinforcing maritime authority."
+ br_naval_theme_hq_maintenance: "Neōrion Maintenance"
+
+ br_soldier_farmers_cattle_maintenance: "Stratiōtai Livestock Ktêma"
+ br_soldier_farmers_wool_maintenance: "Stratiōtai Wool Ktêma"
+ br_soldier_farmers_sturdy_crops_maintenance: "Stratiōtai Grain Ktêma"
+ br_soldier_farmers_horses_maintenance: "Stratiōtai Horse Ktêma"
