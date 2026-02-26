@@ -18,13 +18,14 @@
 	
 	
 	fleet_basing_rights = yes
+	food_access = yes #added
 	has_limited_diplomacy = yes
 	
 	can_change_rank = no
 	can_change_heir_selection = no
 	
 	strength_vs_overlord = -0.1
-	diplomatic_capacity_cost_scale = 0.5
+	diplomatic_capacity_cost_scale = 0.25 #0.5
 
 	
 	government = republic
@@ -40,6 +41,7 @@
 	}
 	
 	subject_modifier = {
+		loyalty_to_overlord = 30 #added
 		trade_efficiency = tiny_trade_efficiency_bonus
 	}
 
