@@ -22,6 +22,13 @@ REPLACE_OR_CREATE:byz_akritai_advance = {
 	requires = unlock_feudal_levy_advance
 	unlock_unit = a_akritai
 }
+REPLACE_OR_CREATE:expand_varangian_guard_advance = {
+		age = age_2_renaissance
+		potential = { has_or_had_tag = BYZ }
+		num_of_varangian_units = 8
+
+		requires = gunpowder_advance
+	}
 
 ##############################-Colonial-##############################
 REPLACE_OR_CREATE:colonial_tradition = {
