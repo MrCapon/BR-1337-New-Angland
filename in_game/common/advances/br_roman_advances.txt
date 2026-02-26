@@ -196,15 +196,15 @@ roman_court_and_office = {
 
 }
 
-roman_commerce_advance = {
-	age = age_2_renaissance
-	icon = tre_grand_komnenoi
-	potential = { 
-		has_or_had_tag = BYZ
-	}
-	requires = maritime_advance_age_2
-	trade_range_modifier = 0.15
-}
+#roman_commerce_advance = {
+#	age = age_2_renaissance
+#	icon = tre_grand_komnenoi
+#	potential = { 
+#		has_or_had_tag = BYZ
+#	}
+#	requires = maritime_advance_age_2
+#	trade_range_modifier = 0.15
+#}
 
 
 
@@ -341,3 +341,44 @@ roman_state_identity = {
 	monthly_legitimacy = 0.1
 	diplomatic_annexation_cost = -0.1
 }
+
+
+### Military ###
+
+br_greek_fire = {
+	age = age_1_traditions
+	requires = roman_codified_custom
+	potential = { has_or_had_tag = BYZ }
+	icon = alchemy_advance
+	siege_ability = 0.05 # siege ability
+	naval_damage_done = 0.1 #naval attack damage
+}
+
+
+#varangians
+
+br_varangian_matchlock_advance = {
+	age = age_3_discovery
+	potential = { has_or_had_tag = BYZ }
+	requires = matchlock_gun
+	num_of_varangian_units = 12
+	icon = recruitment_improvements_renaissance
+}
+
+br_varangian_flintlock_advance = {
+	age = age_4_reformation
+	potential = { has_or_had_tag = BYZ }
+	requires = flintlock_gun
+	num_of_varangian_units = 16
+	icon = recruitment_improvements_renaissance
+}
+
+br_varangian_musketeers_advance = {
+	age = age_5_absolutism
+	potential = { has_or_had_tag = BYZ }
+	requires = roman_centralized_command
+	num_of_varangian_units = 20
+	icon = recruitment_improvements_renaissance
+}
+
+
