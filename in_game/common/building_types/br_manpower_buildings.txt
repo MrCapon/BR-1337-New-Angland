@@ -34,6 +34,9 @@ REPLACE_OR_CREATE:thema_headquarters = {
 	location_potential = { 
 		is_capital = no 
 		is_province_capital = yes
+		NOT = { 
+			has_building = building_type:br_tagmata_barracks
+		}
 	}
 
 	remove_if = {

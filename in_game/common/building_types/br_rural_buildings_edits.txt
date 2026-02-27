@@ -1,10 +1,4 @@
 ﻿#br edited Rural Buildings
-INJECT:bailiff = {
-	modifier = {
-		local_proximity_source = 5 #added
-		local_soldiers_desired_pop = 0.025 #added
-	}
-}
 
 REPLACE:fishing_village = {
 	is_foreign = no

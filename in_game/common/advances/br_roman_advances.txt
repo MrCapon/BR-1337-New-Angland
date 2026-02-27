@@ -345,6 +345,8 @@ roman_state_identity = {
 
 ### Military ###
 
+#br_tagmata
+
 br_greek_fire = {
 	age = age_1_traditions
 	requires = roman_codified_custom
@@ -362,7 +364,7 @@ br_varangian_matchlock_advance = {
 	potential = { has_or_had_tag = BYZ }
 	requires = matchlock_gun
 	num_of_varangian_units = 12
-	icon = recruitment_improvements_renaissance
+	icon = expand_varangian_guard_advance
 }
 
 br_varangian_flintlock_advance = {
@@ -370,7 +372,7 @@ br_varangian_flintlock_advance = {
 	potential = { has_or_had_tag = BYZ }
 	requires = flintlock_gun
 	num_of_varangian_units = 16
-	icon = recruitment_improvements_renaissance
+	icon = expand_varangian_guard_advance
 }
 
 br_varangian_musketeers_advance = {
@@ -378,7 +380,7 @@ br_varangian_musketeers_advance = {
 	potential = { has_or_had_tag = BYZ }
 	requires = roman_centralized_command
 	num_of_varangian_units = 20
-	icon = recruitment_improvements_renaissance
+	icon = expand_varangian_guard_advance
 }
 
 

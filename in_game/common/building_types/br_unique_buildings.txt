@@ -307,6 +307,7 @@ br_hippodrome_building = {
 		#local_cultural_influence = 0.5
 		local_unrest = -0.1
 		local_monthly_prosperity = 0.001
+		local_pop_assimilation_speed = 0.01
 		#local_peasants_estate_power = 0.25 #power of the mob
 	}
 	capital_country_modifier = { 
@@ -338,7 +339,7 @@ br_hippodrome_building = {
 	construction_demand = university_construction
 }
 
-# Sewers of Constantinople, not a unique building but has some unique modifiers and is only buildable in Constantinople
+# The Cisterns and Aqueducts of Constantinople
 br_constantinople_infrastructure = {
 	is_foreign = no
 	pop_type = slaves
@@ -364,6 +365,13 @@ br_constantinople_infrastructure = {
 	}
 	
 	allow = { always = no }
+
+	unique_production_methods = {
+		br_constantinople_infrastructure_maintenance = {
+			masonry = 0.2
+			category = building_maintenance
+		}
+	}
 
 	modifier = {
 		free_building_levels = 50

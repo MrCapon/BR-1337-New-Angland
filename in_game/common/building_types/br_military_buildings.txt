@@ -89,7 +89,7 @@ br_varangian_recruitment_building = {
 	max_levels = 1
 	employment_size = order_religious_building_employment
 	
-	rural_settlement = yes
+	rural_settlement = no
 	town = yes
 	city = yes
 	
@@ -104,15 +104,9 @@ br_varangian_recruitment_building = {
 	}
 	
 	build_time = soldier_building
-	
-	allow = {
-		#market = { in_trade_range_of = scope:actor }
-		#NOT = { dominant_religion = scope:actor.religion }
-	}
 
 	modifier = {
 		manpower_to_building_owner = 0.01
-		#num_of_varangian_units = 1
 	}
 	construction_demand = order_commandery_construction
 	possible_production_methods = {
@@ -138,6 +132,8 @@ br_naval_theme_hq = {
 	
 	build_time = large_port_building_time
 
+	forbidden_for_estates = yes
+
 	location_potential = {
 		is_port = yes
 		OR = {
@@ -150,10 +146,9 @@ br_naval_theme_hq = {
 	}
 	country_potential = {
 		culture = { has_culture_group = culture_group:greek_group }
-		has_reform = government_reform:br_naval_akritai_reform
 	}
 	allow = {
-		culture = { has_culture_group = culture_group:greek_group }
+		has_reform = government_reform:br_naval_akritai_reform
 	}
 
 	modifier = {
@@ -169,7 +164,7 @@ br_naval_theme_hq = {
 			tar = 0.5
 			naval_supplies = 1.0
 			tools = 0.2
-			lumber = 0.4
+			lumber = 0.5
 			stone = 0.1
 			category = building_maintenance
 		}
@@ -181,7 +176,7 @@ br_naval_theme_hq = {
 br_tagmata_barracks = {
 	is_foreign = no
 	pop_type = soldiers
-	max_levels = 1 #manpower_max_level
+	max_levels = manpower_max_level
 	icon = barracks #armory bey_fortress
 	
 	employment_size = 1
@@ -193,23 +188,19 @@ br_tagmata_barracks = {
 	
 	forbidden_for_estates = yes
 
-	obsolete = armory
-	obsolete = sergeantry
+	#obsolete = thema_headquarters
 
 	location_potential = {
 		local_control > 0.75
 	}
-    country_potential = {
-		OR = {
-			has_or_had_tag = BYZ
-			culture = { has_culture_group = culture_group:greek_group }
-		}
-    }
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
 	allow = {
-		owner = { has_primary_or_accepted_culture = prev.dominant_culture }
+		has_or_had_tag = BYZ
 	}
 	remove_if = {
-		NOT = { owner = { has_primary_or_accepted_culture = prev.location.dominant_culture } }
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	}
 
 
@@ -234,14 +225,18 @@ br_soldier_farmers = { #thema estates
 	icon = kastellet #thema_headquarters
 
 	category = village_category
+	#estate = peasants_estate
 
 	employment_size = 0.250 #manpower_employment
 	
 	location_potential = {
 		local_control < 0.75
-		development < 20
+		NOT = { 
+			has_building = building_type:br_pronoia_estate
+		}
 	}
 
+	allow_wrong_startup = yes
 	rural_settlement = yes
 	town = no
 	city = no
@@ -294,25 +289,26 @@ br_soldier_farmers = { #thema estates
 			produced = horses
 			output = 0.5
 			millet = 0.5
+			debug_max_profit = 0.6
 			category = building_maintenance
 		}
 	}
 
-	
 	country_potential = {
 		has_estate_privilege = estate_privilege:br_themata_peasant_privilege
 	}
-	remove_if = { 
-		NOT = {	has_estate_privilege =  estate_privilege:br_themata_peasant_privilege }
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	}
 	
 	modifier = {
 		local_peasant_enfranchisment = 0.1
 		local_food_capacity = 100
-		local_monthly_food_modifier = 0.1
+		#local_monthly_food_modifier = 0.1
 		local_peasants_estate_power = 1
 		local_soldiers_desired_pop = 0.250
 		local_army_levy_size_modifier = 0.1
+		local_manpower = 0.002
 	}
 }
 
@@ -323,16 +319,20 @@ br_pronoia_estate = { #pronoia estates
 	icon = tur_kodjabashi_office #seljuk_mint
 
 	category = village_category
+	#estate = nobles_estate
 
 	employment_size = 0.1 #manpower_employment
 	
+	allow_wrong_startup = yes
 	rural_settlement = yes
 	town = no
 	city = no
 
 	location_potential = {
 		local_control < 0.75
-		#development > 10
+		NOT = { 
+			has_building = building_type:br_soldier_farmers
+		}
 		OR = {
 			vegetation = grasslands
 			vegetation = farmland
@@ -343,20 +343,24 @@ br_pronoia_estate = { #pronoia estates
 	build_time = village_build_time
 	
 	possible_production_methods = {
-		estate_building_input
+		order_commandery_maintenance
 	}
 	
 	country_potential = {
 		has_estate_privilege = estate_privilege:br_dynatoi_magnates
 	}
-	remove_if = { 
-		NOT = {	has_estate_privilege =  estate_privilege:br_dynatoi_magnates }
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	}
 	
 	modifier = {
+		local_peasant_enfranchisment = -0.05
 		local_army_levy_size_modifier = 0.25
 		local_nobles_estate_power = 1
 		local_nobles_desired_pop = 0.1
 		local_nobles_food_consumption = 1
     }
 }
+
+
+#akari buildings on borderlands
