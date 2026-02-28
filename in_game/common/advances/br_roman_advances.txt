@@ -116,6 +116,7 @@ roman_pronoial_administration = {
 	requires = roman_codified_custom
 	unlock_policy = br_roman_distribution_of_power_law
 	unlock_policy = br_pronoia_system
+	unlock_building = br_pronoia_estate
 	subject_loyalty = 5
 	diplomatic_annexation_cost = -0.05
 }
@@ -135,10 +136,10 @@ roman_akritic_reforms = {
 	requires = roman_pronoial_administration
 
 	unlock_subject_type = march
-	unlock_estate_privilege = peasants_yeomanry
 	unlock_policy = br_thema_levies
 	unlock_policy = br_military_court_policy 
 	unlock_policy = br_naval_court_policy
+	unlock_building = br_soldier_farmers
 	army_logistics_distance_modifier = 0.1
 }
 
@@ -227,6 +228,8 @@ roman_thematic_recruitment = {
 	levy_recovery_modifier = 0.1
 	#global_defensive = 0.1
 	unlock_policy = br_thema_levies_upgraded
+	unlock_building = br_stratiotikon_thema_estate
+	unlock_building = br_pronoia_estate_upgraded
 }
 
 roman_infrastructure = {
@@ -344,7 +347,7 @@ roman_state_identity = {
 
 
 ### Military ###
-
+#loc todo
 #br_tagmata
 
 br_greek_fire = {

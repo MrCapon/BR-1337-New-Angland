@@ -4355,7 +4355,17 @@ building_manager = {
 	br_pronoia_estate = { tag = BYZ level = 1 location = boyabat }
 	br_pronoia_estate = { tag = BYZ level = 1 location = bartin }
 	br_pronoia_estate = { tag = BYZ level = 1 location = safranbolu }
-	br_pronoia_estate = { tag = BYZ level = 1 location = yalvac }
+	br_pronoia_estate = { tag = EPI level = 1 location = ioannina }
+	br_pronoia_estate = { tag = ACH level = 1 location = andravida }
+	br_pronoia_estate = { tag = ACH level = 1 location = kalamata }
+	br_pronoia_estate = { tag = CIL level = 1 location = adana }
+	br_pronoia_estate = { tag = ANA level = 1 location = kirsehir }
+	br_pronoia_estate = { tag = ANA level = 1 location = bozok }
+	br_pronoia_estate = { tag = ANA level = 1 location = zile }
+	br_pronoia_estate = { tag = ANA level = 1 location = yalvac }
+	br_pronoia_estate = { tag = CIL level = 1 location = alaiye }
+	br_pronoia_estate = { tag = PAF level = 1 location = gumus }
+	br_pronoia_estate = { tag = TRE level = 1 location = niksar }
 
 	br_soldier_farmers = { tag = BYZ level = 1 location = rize }
 	br_soldier_farmers = { tag = BYZ level = 1 location = giresun }
@@ -4396,6 +4406,9 @@ building_manager = {
 	br_soldier_farmers = { tag = BYZ level = 1 location = bogazliyan }
 	br_soldier_farmers = { tag = BYZ level = 1 location = sorgun }
 	br_soldier_farmers = { tag = BYZ level = 1 location = eskil }
+	br_soldier_farmers = { tag = M0E level = 1 location = tripolitsa }
+	br_soldier_farmers = { tag = ACH level = 1 location = kalamata }
+	br_soldier_farmers = { tag = ACH level = 1 location = chalandritsa }
 
 
 	bailiff = { tag = SER level = 1 location = soko_grad }
@@ -4467,17 +4480,7 @@ building_manager = {
 	br_pronoia_estate = { tag = S1C level = 1 location = messina }
 
 	#Estate Manpower buildings
-	nobles_recruitment_center = { tag = EPI level = 1 location = ioannina }
-	nobles_recruitment_center = { tag = ACH level = 1 location = andravida }
-	nobles_recruitment_center = { tag = ACH level = 1 location = kalamata }
-	nobles_recruitment_center = { tag = CIL level = 1 location = adana }
-	nobles_recruitment_center = { tag = ANA level = 1 location = kirsehir }
-	nobles_recruitment_center = { tag = ANA level = 1 location = bozok }
-	nobles_recruitment_center = { tag = ANA level = 1 location = zile }
-	nobles_recruitment_center = { tag = ANA level = 1 location = yalvac }
-	nobles_recruitment_center = { tag = CIL level = 1 location = alaiye }
-	nobles_recruitment_center = { tag = PAF level = 1 location = gumus }
-	nobles_recruitment_center = { tag = TRE level = 1 location = niksar }
+	
 
 	nobles_recruitment_center = { tag = CRO level = 1 location = zagreb }
 	nobles_recruitment_center = { tag = ARM level = 1 location = ani }
@@ -4568,11 +4571,7 @@ building_manager = {
 	maniot_toll_guards = { tag = VTC level = 1 location = modon }
 	maniot_toll_guards = { tag = ACH level = 1 location = kalamata }
 	maniot_toll_guards = { tag = MOE level = 1 location = oitylo }
-	peasants_training_grounds = { tag = M0E level = 1 location = tripolitsa }
-	peasants_training_grounds = { tag = M0E level = 1 location = mystras }
-	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
 	free_village = { tag = ACH level = 1 location = kalamata }
-	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
 	free_village = { tag = ACH level = 1 location = chalandritsa }
 
 
@@ -6062,7 +6061,7 @@ building_manager = {
 	peasants_training_grounds = { tag = BYZ level = 1 location = afsin }
 	peasants_training_grounds = { tag = BYZ level = 1 location = tokat }
 	peasants_training_grounds = { tag = BYZ level = 1 location = urgup }
-	nobles_recruitment_center = { tag = BYZ level = 1 location = serres }
+	br_pronoia_estate = { tag = BYZ level = 1 location = serres }
 	peasants_hunting_grounds = { tag = BYZ level = 1 location = mengen }
 	peasants_hunting_grounds = { tag = BYZ level = 1 location = golhisar }
 	peasants_hunting_grounds = { tag = BYZ level = 1 location = dursunbey }
@@ -6326,7 +6325,6 @@ building_manager = {
 	order_stronghold = { tag = OHS level = 1	location = ulnia }
 	castle = { tag = OHS level = 1 location = ulnia }
 	nobility_fortifications = { tag = KIL level = 1 location = marash }
-	nobles_recruitment_center = { tag = KIL level = 1 location = marash }
 	stockade = { tag = KIL level = 1 location = marash }
 
 	orthodox_order_commandery = { tag = OHS level = 1 location = ankara }
