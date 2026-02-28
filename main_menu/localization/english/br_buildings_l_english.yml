@@ -69,3 +69,12 @@
 
  br_kekhrismene_pronoia: "Kekhrisménē Prónoia"
  br_kekhrismene_pronoia_desc: "A sanctioned and formally confirmed pronoia grant, regulated under imperial authority. While still entrusted to noble holders, its military obligations and revenues are more strictly defined and supervised by the crown."
+
+ br_varangian_camp: "Varangian Camp"
+ br_varangian_camp_desc: "A fortified encampment housing the foreign warriors of the Varangian Guard. Bound by oath to the Emperor alone, these axe-bearing elites form the innermost shield of the imperial throne, serving as both palace guardians and shock infantry in war."
+
+ br_varangian_barracks: "Varangian Barracks"
+ br_varangian_barracks_desc: "A permanent and well-provisioned stronghold of the Varangian Guard. No longer a mere encampment, this institutionalized corps serves as an elite imperial regiment, fiercely loyal to the Basileus and feared across the battlefield for its discipline and ferocity."
+
+ br_tagmata_camp: "Tagmata Camp"
+ br_tagmata_camp_desc: "A provincial encampment of the Tagmata, the professional regiments of the Empire. Drawn from loyal subjects and maintained under imperial authority, these troops provide a disciplined core to the field armies and reinforce order within the cities."

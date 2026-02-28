@@ -173,13 +173,13 @@ br_naval_theme_hq = {
 	construction_demand = port_building_construction
 }
 
-br_tagmata_barracks = {
+br_varangian_camp = {
 	is_foreign = no
 	pop_type = soldiers
-	max_levels = manpower_max_level
-	icon = barracks #armory bey_fortress
+	max_levels = 1
+	icon = bey_fortress
 	
-	employment_size = 1
+	employment_size = manpower_employment
 	category = military_category
 
 	town = yes
@@ -188,7 +188,48 @@ br_tagmata_barracks = {
 	
 	forbidden_for_estates = yes
 
-	#obsolete = thema_headquarters
+	location_potential = {
+   		this = location:constantinople
+	}
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	allow = {
+		has_or_had_tag = BYZ
+	}
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
+	}
+
+
+	modifier = {
+		local_crown_estate_power = 0.25
+		local_manpower = 0.015
+		can_recruit_regiment_in_this_location = yes
+		num_of_varangian_units = 6
+	}
+	
+	possible_production_methods =  {
+		early_soldier_building_maintenance
+	}
+
+	construction_demand = soldier_building_construction
+}
+
+br_tagmata_camp = {
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1
+	icon = armory
+	
+	employment_size = manpower_employment
+	category = military_category
+
+	town = yes
+	city = yes
+	build_time = soldier_building
+	
+	forbidden_for_estates = yes
 
 	location_potential = {
 		local_control > 0.75
@@ -202,7 +243,6 @@ br_tagmata_barracks = {
 	remove_if = {
 		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	}
-
 
 	modifier = {
 		local_crown_estate_power = 0.25
@@ -234,14 +274,6 @@ br_soldier_farmers = { #thema estates
 		NOT = { 
 			has_building = building_type:br_pronoia_estate
 		}
-	}
-
-	allow_wrong_startup = yes
-	rural_settlement = yes
-	town = no
-	city = no
-
-	location_potential = {
 		OR = {
 			raw_material = goods:wheat
 			raw_material = goods:maize
@@ -255,6 +287,11 @@ br_soldier_farmers = { #thema estates
 			raw_material = goods:wool
 		}
 	}
+
+	allow_wrong_startup = yes
+	rural_settlement = yes
+	town = no
+	city = no
 
 	build_time = village_build_time
 	
@@ -364,7 +401,97 @@ br_pronoia_estate = { #pronoia estates
 }
 
 
-### Tier 2 ###
+### Tier 2 / Age 3 ###
+
+br_varangian_barracks = {
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1
+	icon = bey_fortress
+	
+	employment_size = manpower_employment
+	category = military_category
+
+	town = yes
+	city = yes
+	build_time = soldier_building
+	
+	forbidden_for_estates = yes
+
+	obsolete = br_varangian_camp
+
+	location_potential = {
+   		this = location:constantinople
+	}
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	allow = {
+		has_or_had_tag = BYZ
+	}
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
+	}
+
+
+	modifier = {
+		local_crown_estate_power = 0.33
+		local_manpower = 0.025
+		can_recruit_regiment_in_this_location = yes
+		num_of_varangian_units = 8
+	}
+	
+	possible_production_methods =  {
+		soldier_building_maintenance
+	}
+
+	construction_demand = soldier_building_construction
+}
+
+br_tagmata_barracks = {
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1
+	icon = barracks
+	
+	employment_size = manpower_employment
+	category = military_category
+
+	town = yes
+	city = yes
+	build_time = soldier_building
+	
+	forbidden_for_estates = yes
+
+	obsolete = br_tagmata_camp
+
+	location_potential = {
+		local_control > 0.5
+	}
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	allow = {
+		has_or_had_tag = BYZ
+	}
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
+	}
+
+
+	modifier = {
+		local_crown_estate_power = 0.33
+		local_manpower = 0.025
+		can_recruit_regiment_in_this_location = yes
+		local_unrest = -0.05
+	}
+	
+	possible_production_methods =  {
+		soldier_building_maintenance
+	}
+
+	construction_demand = soldier_building_construction
+}
 
 br_stratiotikon_thema_estate = { #Military Theme
 	is_foreign = no
@@ -378,18 +505,11 @@ br_stratiotikon_thema_estate = { #Military Theme
 	employment_size = 0.500
 	
 	location_potential = {
-		local_control < 0.75
+		local_control < 0.85
 		NOT = { 
 			has_building = building_type:br_pronoia_estate
+			has_building = building_type:br_kekhrismene_pronoia
 		}
-	}
-
-	allow_wrong_startup = yes
-	rural_settlement = yes
-	town = no
-	city = no
-
-	location_potential = {
 		OR = {
 			raw_material = goods:wheat
 			raw_material = goods:maize
@@ -403,6 +523,11 @@ br_stratiotikon_thema_estate = { #Military Theme
 			raw_material = goods:wool
 		}
 	}
+
+	allow_wrong_startup = yes
+	rural_settlement = yes
+	town = no
+	city = no
 
 	build_time = village_build_time
 	
@@ -470,7 +595,7 @@ br_kekhrismene_pronoia = { #pronoia estates
 	category = village_category
 	obsolete = br_pronoia_estate
 
-	employment_size = 0.15 #manpower_employment
+	employment_size = 0.15
 	
 	allow_wrong_startup = yes
 	rural_settlement = yes
@@ -478,9 +603,10 @@ br_kekhrismene_pronoia = { #pronoia estates
 	city = no
 
 	location_potential = {
-		local_control < 0.75
+		local_control < 0.85
 		NOT = { 
 			has_building = building_type:br_soldier_farmers
+			has_building = building_type:br_stratiotikon_thema_estate
 		}
 		OR = {
 			vegetation = grasslands
