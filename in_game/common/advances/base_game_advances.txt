@@ -25,7 +25,7 @@ REPLACE_OR_CREATE:byz_akritai_advance = {
 REPLACE_OR_CREATE:expand_varangian_guard_advance = {
 	age = age_2_renaissance
 	potential = { has_or_had_tag = BYZ }
-	#unlock_unit = br_varangian_matchlock
+	unlock_unit = a_renaissance_varangians
 	unlock_building = br_varangian_camp
 	requires = gunpowder_advance
 }

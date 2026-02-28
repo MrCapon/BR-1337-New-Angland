@@ -41,7 +41,7 @@ REPLACE_OR_CREATE:a_akritai = {
 	#maintenance_demand =  br_tagmata_akritai_maintenance
 	#construction_demand = br_tagmata_akritai_construction
 
-	initiative = 3
+	initiative = 2
 	morale_damage_taken = -0.1
 	buildable = yes
 
@@ -78,7 +78,7 @@ REPLACE_OR_CREATE:a_varangians = {
 		add = modifier:num_of_varangian_units
 	}
 
-	#upgrades_to_only = br_varangian_reformed
+	upgrades_to_only = a_renaissance_varangians
 
 	gfx_tags = { axe_tag heavy_tag }
 }
@@ -94,7 +94,6 @@ br_tagmata_skoutatoi = {
 	build_time_modifier = 0.50
 	morale_damage_taken = -0.05
 	strength_damage_taken = -0.05
-	combat_power = 1
 	buildable = yes
 	
 	age = "age_1_traditions"
@@ -196,4 +195,102 @@ br_unit_trebuchet = {
 
 	upgrades_to = a_houfnice
 
+}
+
+### New Units age 2
+
+br_renaissance_varangians = {
+	is_special = yes
+	category = army_infantry
+	copy_from = a_age_2_renaissance_infantry
+
+	upgrades_to_only = br_discovery_varangians
+
+	strength_damage_taken = -0.10
+	morale_damage_taken = -0.10
+
+	limit = {
+		value = 4 #increased from 1
+		add = modifier:num_of_varangian_units
+	}
+	
+	gfx_tags = { medium_tag }
+}
+
+### New Units age 3
+
+br_discovery_varangians = {
+	is_special = yes
+	category = army_infantry
+	copy_from = a_age_3_discovery_infantry
+
+	upgrades_to_only = br_reformation_varangians
+
+	strength_damage_taken = -0.10
+	morale_damage_taken = -0.10
+
+	limit = {
+		value = 4 #increased from 1
+		add = modifier:num_of_varangian_units
+	}
+
+	gfx_tags = { medium_tag musket_tag }
+}
+
+### New Units age 4
+
+br_reformation_varangians = {
+	is_special = yes
+	category = army_infantry
+	copy_from = a_age_4_reformation_infantry
+
+	upgrades_to_only = br_absolutism_varangians
+
+	strength_damage_taken = -0.10
+	morale_damage_taken = -0.10
+
+	limit = {
+		value = 4 #increased from 1
+		add = modifier:num_of_varangian_units
+	}
+	
+	gfx_tags = { medium_tag musket_tag }
+}
+
+### New Units age 5
+
+br_absolutism_varangians = {
+	is_special = yes
+	category = army_infantry
+	copy_from = a_age_5_absolutism_infantry
+
+	upgrades_to_only = br_revolutions_varangians
+
+	strength_damage_taken = -0.10
+	morale_damage_taken = -0.10
+
+	limit = {
+		value = 4 #increased from 1
+		add = modifier:num_of_varangian_units
+	}
+
+	gfx_tags = { medium_tag musket_tag }
+}
+
+### New Units age 6
+
+br_revolutions_varangians = {
+	is_special = yes
+	category = army_infantry
+	copy_from = a_age_6_revolutions_infantry
+
+	strength_damage_taken = -0.10
+	morale_damage_taken = -0.10
+
+	limit = {
+		value = 4 #increased from 1
+		add = modifier:num_of_varangian_units
+	}
+
+	gfx_tags = { medium_tag musket_tag }
 }

@@ -1,5 +1,7 @@
 ﻿l_english:
 
+### Age 1 — Traditions
+
  br_tagmata_skoutatoi: "Skoutatoi"
  br_tagmata_skoutatoi_desc: "Professional heavy infantry of the imperial tagmata, equipped with large shields and spears. Disciplined and resilient, the Skoutatoi form the steadfast core of Roman field armies, excelling at holding the line under pressure."
 
@@ -14,4 +16,31 @@
 
  br_unit_trebuchet: "Trebuchets"
  br_unit_trebuchet_desc: "Large counterweight-driven siege engines designed to batter fortifications and undermine enemy morale. Trebuchets are powerful but slow to deploy, requiring secure positions and extensive logistical support to operate effectively."
+
+### Age 2 — Renaissance
+
+ br_renaissance_varangians: "Varangian Guard"
+ br_renaissance_varangians_desc: "The Varangian Guard is an elite corps sworn to defend the Basileus and the Imperial Palace. Renowned for their discipline and ferocity, they serve as both personal protectors of the throne and formidable shock infantry."
+
+### Age 3 — Discovery
+
+ br_discovery_varangians: "Varangian Arquebusiers"
+ br_discovery_varangians_desc: "Maintaining their ancient oath to the Basileus, the Varangian Guard has adopted arquebuses to meet the demands of modern warfare. Their loyalty remains unquestioned, their presence decisive in battle."
+
+### Age 4 — Reformation
+
+ br_reformation_varangians: "Varangian Musketeers"
+ br_reformation_varangians_desc: "Now trained in disciplined musket warfare, the Varangians continue to serve as an elite imperial regiment. Though the weapons have changed, their duty to the throne endures."
+
+### Age 5 — Absolutism
+
+ br_absolutism_varangians: "Imperial Varangian Regiment"
+ br_absolutism_varangians_desc: "Established as a permanent regiment of the imperial army, the Varangians combine battlefield experience with privileged status in the capital. Their influence extends beyond war and into the politics of the court."
+
+### Age 6 — Revolutions
+
+ br_revolutions_varangians: "Imperial Varangian Guard"
+ br_revolutions_varangians_desc: "Modernized for contemporary warfare, the Varangian Guard remains the sworn defender of the throne. Though centuries have passed since their founding, their prestige and political weight endure."
+
+ 
 
