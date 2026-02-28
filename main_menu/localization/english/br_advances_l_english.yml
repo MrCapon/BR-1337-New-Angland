@@ -167,3 +167,12 @@
 
  br_roman_ecumenical_patriarch_advance: "Ecumenical Patriarchate"
  br_roman_ecumenical_patriarch_advance_desc: "The Ecumenical Patriarch stands as the foremost bishop of the Roman world, exercising recognized authority through councils, canon law, and custom. From the imperial capital, the Church provides spiritual unity and guidance to the oikouménē, closely entwined with the institutions of the state."
+
+ br_discovery_varangians_advance: "$br_renaissance_varangians$"
+ br_discovery_varangians_advance_desc: "$br_renaissance_varangians_desc$"
+
+ br_reformation_varangians_advance: "$br_discovery_varangians$"
+ br_reformation_varangians_advance_desc: "$br_discovery_varangians_desc$"
+
+ br_absolutism_varangians_advance: "$br_discovery_varangians$"
+ br_absolutism_varangians_advance_desc: "$br_discovery_varangians_desc$"

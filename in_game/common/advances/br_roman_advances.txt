@@ -362,29 +362,29 @@ br_greek_fire = {
 
 #varangians
 
-br_varangian_matchlock_advance = {
+br_discovery_varangians_advance = {
 	age = age_3_discovery
 	potential = { has_or_had_tag = BYZ }
 	requires = matchlock_gun
-	#unlock_unit = br_varangian_matchlock
+	unlock_unit = br_discovery_varangians
 	unlock_building = br_varangian_barracks
 	icon = expand_varangian_guard_advance
 }
 
-#br_varangian_flintlock_advance = {
-#	age = age_4_reformation
-#	potential = { has_or_had_tag = BYZ }
-#	requires = flintlock_gun
-#	num_of_varangian_units = 16
-#	icon = expand_varangian_guard_advance
-#}
+br_reformation_varangians_advance = {
+	age = age_4_reformation
+	potential = { has_or_had_tag = BYZ }
+	requires = flintlock_gun
+	unlock_unit = br_reformation_varangians
+	icon = expand_varangian_guard_advance
+}
 
-#br_varangian_musketeers_advance = {
-#	age = age_5_absolutism
-#	potential = { has_or_had_tag = BYZ }
-#	requires = roman_centralized_command
-#	num_of_varangian_units = 20
-#	icon = expand_varangian_guard_advance
-#}
+br_absolutism_varangians_advance = {
+	age = age_5_absolutism
+	potential = { has_or_had_tag = BYZ }
+	requires = roman_centralized_command
+	unlock_unit = br_absolutism_varangians
+	icon = expand_varangian_guard_advance
+}
 
 
