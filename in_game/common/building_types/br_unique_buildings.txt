@@ -342,13 +342,13 @@ br_hippodrome_building = {
 # The Cisterns and Aqueducts of Constantinople
 br_constantinople_infrastructure = {
 	is_foreign = no
-	pop_type = slaves
+	pop_type = peasants
 	max_levels = 1
 	icon = bund
 	
 	category = infrastructure_category
 	
-	employment_size = large_infrastructure_employment
+	employment_size = 1
 	
 	rural_settlement = no
 	town = no
