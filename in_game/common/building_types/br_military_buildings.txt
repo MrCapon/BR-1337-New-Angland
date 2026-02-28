@@ -1,4 +1,6 @@
-﻿orthodox_order_commandery = {
+﻿
+
+orthodox_order_commandery = {
 	is_foreign = yes
 	stronger_power_projection = no
 	need_good_relation = no
@@ -83,6 +85,7 @@ br_varangian_recruitment_building = {
 	stronger_power_projection = no
 	need_good_relation = no
 	pop_type = soldiers
+	icon = seljuk_mint
 	
 	category = military_category
 	
@@ -177,7 +180,7 @@ br_varangian_camp = {
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
-	icon = bey_fortress
+	icon = tur_kodjabashi_office #seljuk_mint
 	
 	employment_size = manpower_employment
 	category = military_category
@@ -204,9 +207,10 @@ br_varangian_camp = {
 
 	modifier = {
 		local_crown_estate_power = 0.25
-		local_manpower = 0.015
+		#local_manpower = 0.015
 		can_recruit_regiment_in_this_location = yes
-		num_of_varangian_units = 6
+		num_of_varangian_units = 4
+		local_soldiers_desired_pop = 2
 	}
 	
 	possible_production_methods =  {
@@ -353,7 +357,7 @@ br_pronoia_estate = { #pronoia estates
 	is_foreign = no
 	max_levels = 1
 	pop_type = nobles
-	icon = tur_kodjabashi_office #seljuk_mint
+	icon = tur_kodjabashi_office
 
 	category = village_category
 	estate = nobles_estate
@@ -400,6 +404,10 @@ br_pronoia_estate = { #pronoia estates
     }
 }
 
+#Icons for later.
+#walls_of_benin #ostrog #bey_fortress
+#venetian_quarter #ori_portuguese_quarters 
+#dun_fort #bodrum_castle
 
 ### Tier 2 / Age 3 ###
 
@@ -407,7 +415,7 @@ br_varangian_barracks = {
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
-	icon = bey_fortress
+	icon = the_bock_fortifications
 	
 	employment_size = manpower_employment
 	category = military_category
@@ -436,9 +444,10 @@ br_varangian_barracks = {
 
 	modifier = {
 		local_crown_estate_power = 0.33
-		local_manpower = 0.025
+		#local_manpower = 0.025
 		can_recruit_regiment_in_this_location = yes
 		num_of_varangian_units = 8
+		local_soldiers_desired_pop = 4
 	}
 	
 	possible_production_methods =  {
@@ -497,7 +506,7 @@ br_stratiotikon_thema_estate = { #Military Theme
 	is_foreign = no
 	max_levels = 1
 	pop_type = soldiers
-	icon = kastellet
+	icon = herrenchiemsee_abbey #kastellet
 
 	category = village_category
 	obsolete = br_soldier_farmers
@@ -532,25 +541,25 @@ br_stratiotikon_thema_estate = { #Military Theme
 	build_time = village_build_time
 	
 	unique_production_methods = {
-		br_soldier_farmers_cattle_maintenance = {
+		br_stratiotikon_thema_cattle_maintenance = {
 			tools = 0.025
 			clay = 1.0
-			output = 0.5
+			output = 0.65
 			produced = livestock
 			debug_max_profit = 0.6
 			category = building_maintenance
 		}
 
-		br_soldier_farmers_wool_maintenance = {
+		br_stratiotikon_thema_wool_maintenance = {
 			tools = 0.025
 			clay = 1.0
-			output = 0.2
+			output = 0.35
 			produced = wool
 			debug_max_profit = 0.6
 			category = building_maintenance
 		}
 
-		br_soldier_farmers_sturdy_crops_maintenance = { 
+		br_stratiotikon_thema_sturdy_crops_maintenance = { 
 			produced = millet
 			output = 1
 			tools = 0.1
@@ -558,7 +567,7 @@ br_stratiotikon_thema_estate = { #Military Theme
 			category = building_maintenance
 		}
 
-		br_soldier_farmers_horses_maintenance = {
+		br_stratiotikon_thema_horses_maintenance = {
 			produced = horses
 			output = 0.5
 			millet = 0.5
@@ -576,7 +585,7 @@ br_stratiotikon_thema_estate = { #Military Theme
 	
 	modifier = {
 		local_peasant_enfranchisment = 0.1
-		local_food_capacity = 100
+		local_food_capacity = 150
 		local_monthly_food_modifier = 0.2
 		local_peasants_estate_power = 0.75
 		local_soldiers_desired_pop = 0.5
@@ -590,7 +599,7 @@ br_kekhrismene_pronoia = { #pronoia estates
 	is_foreign = no
 	max_levels = 1
 	pop_type = nobles
-	icon = tur_kodjabashi_office
+	icon = br_kekhrismene_pronoia
 
 	category = village_category
 	obsolete = br_pronoia_estate
@@ -634,6 +643,7 @@ br_kekhrismene_pronoia = { #pronoia estates
 		local_nobles_desired_pop = 0.15
 		local_soldiers_desired_pop = 0.25
 		local_nobles_food_consumption = 1
+		local_manpower = 0.002
 		#local_pop_assimilation_speed = 0.001
     }
 }

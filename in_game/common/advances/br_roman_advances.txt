@@ -387,4 +387,53 @@ br_absolutism_varangians_advance = {
 	icon = expand_varangian_guard_advance
 }
 
+br_revolutions_varangians_advance = {
+	age = age_6_revolutions
+	potential = { has_or_had_tag = BYZ }
+	requires = byz_the_new_imperial_army
+	unlock_unit = br_revolutions_varangians
+	icon = expand_varangian_guard_advance
+}
+
+# Tagmata
+
+br_age_2_kontaratoi_advance = {
+	age = age_2_renaissance
+	potential = { has_or_had_tag = BYZ }
+	icon = byz_cataphracts_advance
+	requires = byz_shield_of_the_west
+	unlock_unit = br_age_2_kontaratoi
+}
+
+br_age_3_lonchophoroi_advance = {
+	age = age_3_discovery
+	potential = { has_or_had_tag = BYZ }
+	icon = byz_cataphracts_advance
+	requires = roman_thematic_recruitment
+	unlock_unit = br_age_3_lonchophoroi
+}
+	
+br_age_4_thorakophoroi_advance = {
+	age = age_4_reformation
+	potential = { has_or_had_tag = BYZ }
+	icon = byz_cataphracts_advance
+	requires = flintlock_gun
+	unlock_unit = br_age_4_thorakophoroi
+}
+
+br_age_5_prokoursatores_advance = {
+	age = age_5_absolutism
+	potential = { has_or_had_tag = BYZ }
+	icon = byz_cataphracts_advance
+	requires = byz_modernized_strategikon
+	unlock_unit = br_age_5_prokoursatores
+}
+
+br_age_6_basilikoi_hippeis_advance = {
+	age = age_6_revolutions
+	potential = { has_or_had_tag = BYZ }
+	icon = byz_cataphracts_advance
+	requires = byz_the_new_imperial_army
+	unlock_unit = br_age_6_basilikoi_hippeis
+}
 

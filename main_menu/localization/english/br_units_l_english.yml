@@ -19,28 +19,43 @@
 
 ### Age 2 — Renaissance
 
- br_renaissance_varangians: "Varangian Guard"
- br_renaissance_varangians_desc: "The Varangian Guard is an elite corps sworn to defend the Basileus and the Imperial Palace. Renowned for their discipline and ferocity, they serve as both personal protectors of the throne and formidable shock infantry."
+ br_renaissance_varangians: "Tágma tōn Varangōn"
+ br_renaissance_varangians_desc: "The Regiment of the Varangians stands as the sworn shield of the Basileus and guardian of the Sacred Palace. Bound by oath and sustained by imperial favor, they are renowned for discipline, ferocity, and unwavering loyalty to the throne."
+
+ br_age_2_kontaratoi: "Kontaratoi"
+ br_age_2_kontaratoi_desc: "Lance-bearing cavalry forming the shock arm of the early imperial armies, trained in disciplined charge and close combat."
 
 ### Age 3 — Discovery
 
- br_discovery_varangians: "Varangian Arquebusiers"
- br_discovery_varangians_desc: "Maintaining their ancient oath to the Basileus, the Varangian Guard has adopted arquebuses to meet the demands of modern warfare. Their loyalty remains unquestioned, their presence decisive in battle."
+ br_discovery_varangians: "Varangoi Pyrovoloi"
+ br_discovery_varangians_desc: "Adopting the new fire-weapons of the age, the Varangians have transformed from axe-bearing guards into gun-bearing protectors of the Emperor. Their ancient oath endures, even as their methods of war evolve."
+
+ br_age_3_lonchophoroi: "Lonchophoroi"
+ br_age_3_lonchophoroi_desc: "Spear-bearing horsemen refined through improved drill and equipment, capable of sustained engagement and tactical maneuver."
 
 ### Age 4 — Reformation
 
- br_reformation_varangians: "Varangian Musketeers"
- br_reformation_varangians_desc: "Now trained in disciplined musket warfare, the Varangians continue to serve as an elite imperial regiment. Though the weapons have changed, their duty to the throne endures."
+ br_reformation_varangians: "Basilikoi Pyrovoloi"
+ br_reformation_varangians_desc: "Now fully integrated into the imperial war machine, these Imperial gun-bearers serve as a permanent and disciplined regiment of the crown, drilled in coordinated volleys and steadfast defense of the throne."
+
+ br_age_4_thorakophoroi: "Thorakophoroi"
+ br_age_4_thorakophoroi_desc: "Armored cuirass-bearers who preserve the heavy cavalry tradition while adapting to the changing demands of early modern warfare."
 
 ### Age 5 — Absolutism
 
- br_absolutism_varangians: "Imperial Varangian Regiment"
- br_absolutism_varangians_desc: "Established as a permanent regiment of the imperial army, the Varangians combine battlefield experience with privileged status in the capital. Their influence extends beyond war and into the politics of the court."
+ br_absolutism_varangians: "Basilikon Tágma"
+ br_absolutism_varangians_desc: "Established as a standing Imperial Regiment, the Varangians have become entrenched within the capital. Privileged and influential, their strength lies not only in arms, but in their proximity to the Basileus."
+
+ br_age_5_prokoursatores: "Prokoursatores"
+ br_age_5_prokoursatores_desc: "Forward-riding cavalry tasked with reconnaissance, rapid strikes, and battlefield exploitation, reflecting a more flexible imperial doctrine."
 
 ### Age 6 — Revolutions
 
- br_revolutions_varangians: "Imperial Varangian Guard"
- br_revolutions_varangians_desc: "Modernized for contemporary warfare, the Varangian Guard remains the sworn defender of the throne. Though centuries have passed since their founding, their prestige and political weight endure."
+ br_revolutions_varangians: "Tágma Augousteion"
+ br_revolutions_varangians_desc: "The Imperial Palace Regiment has endured centuries of reform and modernization. Armed with the latest weapons and deeply embedded within the structures of power, their loyalty remains sworn to the throne—yet their political weight can no longer be ignored."
+
+ br_age_6_basilikoi_hippeis: "Basilikoi Hippeis"
+ br_age_6_basilikoi_hippeis_desc: "The Imperial Horse, centrally maintained and directly loyal to the Basileus, standing as the final evolution of the Roman mounted tradition."
 
  
 

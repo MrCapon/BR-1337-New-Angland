@@ -168,11 +168,29 @@
  br_roman_ecumenical_patriarch_advance: "Ecumenical Patriarchate"
  br_roman_ecumenical_patriarch_advance_desc: "The Ecumenical Patriarch stands as the foremost bishop of the Roman world, exercising recognized authority through councils, canon law, and custom. From the imperial capital, the Church provides spiritual unity and guidance to the oikouménē, closely entwined with the institutions of the state."
 
- br_discovery_varangians_advance: "$br_renaissance_varangians$"
- br_discovery_varangians_advance_desc: "$br_renaissance_varangians_desc$"
+ br_discovery_varangians_advance: "$br_discovery_varangians$"
+ br_discovery_varangians_advance_desc: "$br_discovery_varangians_desc$"
 
- br_reformation_varangians_advance: "$br_discovery_varangians$"
- br_reformation_varangians_advance_desc: "$br_discovery_varangians_desc$"
+ br_reformation_varangians_advance: "$br_reformation_varangians$"
+ br_reformation_varangians_advance_desc: "$br_reformation_varangians_desc$"
 
- br_absolutism_varangians_advance: "$br_discovery_varangians$"
- br_absolutism_varangians_advance_desc: "$br_discovery_varangians_desc$"
+ br_absolutism_varangians_advance: "$br_absolutism_varangians$"
+ br_absolutism_varangians_advance_desc: "$br_absolutism_varangians_desc$"
+
+ br_revolutions_varangians_advance: "$br_revolutions_varangians$"
+ br_revolutions_varangians_advance_desc: "$br_revolutions_varangians_desc$"
+
+ br_age_2_kontaratoi_advance: "$br_age_2_kontaratoi$"
+ br_age_2_kontaratoi_advance_desc: "$br_age_2_kontaratoi_desc$"
+
+ br_age_3_lonchophoroi_advance: "$br_age_3_lonchophoroi$"
+ br_age_3_lonchophoroi_advance_desc: "$br_age_3_lonchophoroi_desc$"
+
+ br_age_4_thorakophoroi_advance: "$br_age_4_thorakophoroi$"
+ br_age_4_thorakophoroi_advance_desc: "$br_age_4_thorakophoroi_desc$"
+
+ br_age_5_prokoursatores_advance: "$br_age_5_prokoursatores$"
+ br_age_5_prokoursatores_advance_desc: "$br_age_5_prokoursatores_desc$"
+
+ br_age_6_basilikoi_hippeis_advance: "$br_age_6_basilikoi_hippeis$"
+ br_age_6_basilikoi_hippeis_advance_desc: "$br_age_6_basilikoi_hippeis_desc$"

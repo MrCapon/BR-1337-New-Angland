@@ -74,7 +74,7 @@ REPLACE_OR_CREATE:a_varangians = {
 	
 	buildable = yes
 	limit = {
-		value = 4 #increased from 1
+		value = 1
 		add = modifier:num_of_varangian_units
 	}
 
@@ -210,11 +210,42 @@ br_renaissance_varangians = {
 	morale_damage_taken = -0.10
 
 	limit = {
-		value = 4 #increased from 1
+		value = 1
 		add = modifier:num_of_varangian_units
 	}
 	
-	gfx_tags = { medium_tag }
+	gfx_tags = { heavy_tag }
+}
+
+br_age_2_kontaratoi = {
+	is_special = yes
+	category = army_cavalry
+	copy_from = a_age_2_renaissance_cavalry
+
+	build_time_modifier = 0.50
+	
+	construction_demand = expensive_heavy_cavalry_construction
+	maintenance_demand =  expensive_heavy_cavalry_maintenance
+	
+	buildable = yes
+
+	#movement_speed = -0.5
+	strength_damage_taken = -0.25
+	morale_damage_done = 0.35
+	initiative = 4
+	combat = { 
+		grasslands = 0.2
+		wetlands = -0.10
+	}
+
+	location_potential = {
+		unit_byzantine_cataphracts_location_trigger = yes
+	}
+
+	gfx_tags = { 
+		cataphract_tag 
+		heavy_tag 
+	}
 }
 
 ### New Units age 3
@@ -237,6 +268,37 @@ br_discovery_varangians = {
 	gfx_tags = { medium_tag musket_tag }
 }
 
+br_age_3_lonchophoroi = {
+	is_special = yes
+	category = army_cavalry
+	copy_from = a_age_3_discovery_cavalry
+
+	build_time_modifier = 0.50
+	
+	construction_demand = expensive_heavy_cavalry_construction
+	maintenance_demand =  expensive_heavy_cavalry_maintenance
+	
+	buildable = yes
+
+	#movement_speed = -0.5
+	strength_damage_taken = -0.25
+	morale_damage_done = 0.35
+	initiative = 4
+	combat = { 
+		grasslands = 0.2
+		wetlands = -0.10
+	}
+
+	location_potential = {
+		unit_byzantine_cataphracts_location_trigger = yes
+	}
+
+	gfx_tags = { 
+		cataphract_tag 
+		heavy_tag 
+	}
+}
+
 ### New Units age 4
 
 br_reformation_varangians = {
@@ -250,11 +312,42 @@ br_reformation_varangians = {
 	morale_damage_taken = -0.10
 
 	limit = {
-		value = 4 #increased from 1
+		value = 1
 		add = modifier:num_of_varangian_units
 	}
 	
 	gfx_tags = { medium_tag musket_tag }
+}
+
+br_age_4_thorakophoroi = {
+	is_special = yes
+	category = army_cavalry
+	copy_from = a_age_4_reformation_cavalry
+
+	build_time_modifier = 0.50
+	
+	construction_demand = expensive_heavy_cavalry_construction
+	maintenance_demand =  expensive_heavy_cavalry_maintenance
+	
+	buildable = yes
+
+	#movement_speed = -0.5
+	strength_damage_taken = -0.25
+	morale_damage_done = 0.35
+	initiative = 4
+	combat = { 
+		grasslands = 0.2
+		wetlands = -0.10
+	}
+
+	location_potential = {
+		unit_byzantine_cataphracts_location_trigger = yes
+	}
+
+	gfx_tags = { 
+		cataphract_tag 
+		heavy_tag 
+	}
 }
 
 ### New Units age 5
@@ -270,11 +363,42 @@ br_absolutism_varangians = {
 	morale_damage_taken = -0.10
 
 	limit = {
-		value = 4 #increased from 1
+		value = 1
 		add = modifier:num_of_varangian_units
 	}
 
 	gfx_tags = { medium_tag musket_tag }
+}
+
+br_age_5_prokoursatores = {
+	is_special = yes
+	category = army_cavalry
+	copy_from = a_age_5_absolutism_cavalry
+
+	build_time_modifier = 0.50
+	
+	construction_demand = expensive_heavy_cavalry_construction
+	maintenance_demand =  expensive_heavy_cavalry_maintenance
+	
+	buildable = yes
+
+	#movement_speed = -0.5
+	strength_damage_taken = -0.25
+	morale_damage_done = 0.35
+	initiative = 4
+	combat = { 
+		grasslands = 0.2
+		wetlands = -0.10
+	}
+
+	location_potential = {
+		unit_byzantine_cataphracts_location_trigger = yes
+	}
+
+	gfx_tags = { 
+		cataphract_tag 
+		heavy_tag 
+	}
 }
 
 ### New Units age 6
@@ -288,9 +412,42 @@ br_revolutions_varangians = {
 	morale_damage_taken = -0.10
 
 	limit = {
-		value = 4 #increased from 1
+		value = 1
 		add = modifier:num_of_varangian_units
 	}
 
 	gfx_tags = { medium_tag musket_tag }
 }
+
+br_age_6_basilikoi_hippeis = {
+	is_special = yes
+	category = army_cavalry
+	copy_from = a_age_6_revolutions_cavalry
+
+	build_time_modifier = 0.50
+	
+	construction_demand = expensive_heavy_cavalry_construction
+	maintenance_demand =  expensive_heavy_cavalry_maintenance
+	
+	buildable = yes
+
+	#movement_speed = -0.5
+	strength_damage_taken = -0.25
+	morale_damage_done = 0.35
+	initiative = 4
+	combat = { 
+		grasslands = 0.2
+		wetlands = -0.10
+	}
+
+	location_potential = {
+		unit_byzantine_cataphracts_location_trigger = yes
+	}
+
+	gfx_tags = { 
+		cataphract_tag 
+		heavy_tag 
+	}
+}
+
+
