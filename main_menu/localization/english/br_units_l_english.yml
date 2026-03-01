@@ -20,42 +20,44 @@
 ### Age 2 — Renaissance
 
  br_renaissance_varangians: "Tágma tōn Varangōn"
- br_renaissance_varangians_desc: "The Regiment of the Varangians stands as the sworn shield of the Basileus and guardian of the Sacred Palace. Bound by oath and sustained by imperial favor, they are renowned for discipline, ferocity, and unwavering loyalty to the throne."
+ br_renaissance_varangians_desc: "Axe-bearing Varangians sworn by ancient oath to defend the Basileus. Though foreign in origin, they stand as an elite corps within the Tagmata, preserving their northern martial traditions in imperial service."
 
  br_age_2_kontaratoi: "Kontaratoi"
- br_age_2_kontaratoi_desc: "Lance-bearing cavalry forming the shock arm of the early imperial armies, trained in disciplined charge and close combat."
+ br_age_2_kontaratoi_desc: "The lance-bearing cavalry of the Tagmata, armored in mail and trained for disciplined shock. They descend directly from the cataphract tradition, breaking enemy lines through weight, cohesion, and controlled violence."
 
 ### Age 3 — Discovery
 
- br_discovery_varangians: "Varangoi Pyrovoloi"
- br_discovery_varangians_desc: "Adopting the new fire-weapons of the age, the Varangians have transformed from axe-bearing guards into gun-bearing protectors of the Emperor. Their ancient oath endures, even as their methods of war evolve."
+ br_discovery_varangians: "Varangoi Arkebousiophoroi"
+ br_discovery_varangians_desc: "Taking up the arquebus without abandoning their inherited discipline, the Varangians adapt to the changing art of war while remaining a distinct and oath-bound foreign guard."
 
  br_age_3_lonchophoroi: "Lonchophoroi"
- br_age_3_lonchophoroi_desc: "Spear-bearing horsemen refined through improved drill and equipment, capable of sustained engagement and tactical maneuver."
+ br_age_3_lonchophoroi_desc: "Refined in drill and equipment, the Lonchophoroi preserve the heavy charge of the cataphracts while strengthening their endurance in prolonged engagements. Their purpose remains unchanged: to shatter the enemy at the decisive moment."
 
 ### Age 4 — Reformation
 
- br_reformation_varangians: "Basilikoi Pyrovoloi"
- br_reformation_varangians_desc: "Now fully integrated into the imperial war machine, these Imperial gun-bearers serve as a permanent and disciplined regiment of the crown, drilled in coordinated volleys and steadfast defense of the throne."
+ br_reformation_varangians: "Varangoi Mousketophoroi"
+ br_reformation_varangians_desc: "Now drilled in coordinated volleys and close formations, the Varangians serve as musket-bearing elite infantry. Recruited from beyond the Empire, they retain their unique identity even as their methods evolve."
 
  br_age_4_thorakophoroi: "Thorakophoroi"
- br_age_4_thorakophoroi_desc: "Armored cuirass-bearers who preserve the heavy cavalry tradition while adapting to the changing demands of early modern warfare."
+ br_age_4_thorakophoroi_desc: "Clad in reinforced cuirasses and mounted on barded steeds, the Thorakophoroi adapt to evolving warfare without abandoning the shock doctrine of their forebears. When committed, they strike as a single armored mass."
 
 ### Age 5 — Absolutism
 
- br_absolutism_varangians: "Basilikon Tágma"
- br_absolutism_varangians_desc: "Established as a standing Imperial Regiment, the Varangians have become entrenched within the capital. Privileged and influential, their strength lies not only in arms, but in their proximity to the Basileus."
+ br_absolutism_varangians: "Varangōn Parataxeis"
+ br_absolutism_varangians_desc: "Drawn up in ordered ranks, the Varangian formations fight as disciplined lines sustained by imperial pay and privilege. Their cohesion reflects centuries of tradition carried from distant homelands into the heart of the Empire."
 
  br_age_5_prokoursatores: "Prokoursatores"
- br_age_5_prokoursatores_desc: "Forward-riding cavalry tasked with reconnaissance, rapid strikes, and battlefield exploitation, reflecting a more flexible imperial doctrine."
+ br_age_5_prokoursatores_desc: "Serving as the forward arm of the Tagmata, the Prokoursatores prepare the field for the decisive charge. Though more tactically flexible, they remain heavy cavalry first and foremost—trained to close, collide, and overwhelm."
 
 ### Age 6 — Revolutions
 
- br_revolutions_varangians: "Tágma Augousteion"
- br_revolutions_varangians_desc: "The Imperial Palace Regiment has endured centuries of reform and modernization. Armed with the latest weapons and deeply embedded within the structures of power, their loyalty remains sworn to the throne—yet their political weight can no longer be ignored."
+ br_revolutions_varangians: "Varangōn Bathystachoi"
+ br_revolutions_varangians_desc: "Advancing in deep assault formations, the Varangians remain a foreign-born elite bound to the throne. Though their weapons and tactics have changed across generations, their oath and distinct character endure."
 
- br_age_6_basilikoi_hippeis: "Basilikoi Hippeis"
- br_age_6_basilikoi_hippeis_desc: "The Imperial Horse, centrally maintained and directly loyal to the Basileus, standing as the final evolution of the Roman mounted tradition."
+ br_age_6_basilikoi: "Basilikoi"
+ br_age_6_basilikoi_desc: "The Imperial Horse of the Tagmata, maintained directly by the throne. Though centuries have altered their arms and harness, their role endures—to deliver the crushing blow in the name of the Basileus."
 
- 
 
+##
+ #br_age_5_archontikoi: "Archontikoi"
+ #br_age_5_archontikoi_desc: "Drawn from the martial aristocracy and sustained by imperial favor, the Archontikoi represent the mature form of the cataphract #tradition. Wealth, armor, and discipline combine to preserve the Empire’s mounted supremacy."
