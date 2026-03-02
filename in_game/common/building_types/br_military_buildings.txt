@@ -207,9 +207,8 @@ br_varangian_camp = {
 
 	modifier = {
 		local_crown_estate_power = 0.25
-		#local_manpower = 0.015
+		local_manpower = 0.015
 		can_recruit_regiment_in_this_location = yes
-		num_of_varangian_units = 4
 		local_soldiers_desired_pop = 2
 	}
 	
@@ -444,9 +443,8 @@ br_varangian_barracks = {
 
 	modifier = {
 		local_crown_estate_power = 0.33
-		#local_manpower = 0.025
+		local_manpower = 0.025
 		can_recruit_regiment_in_this_location = yes
-		num_of_varangian_units = 8
 		local_soldiers_desired_pop = 4
 	}
 	

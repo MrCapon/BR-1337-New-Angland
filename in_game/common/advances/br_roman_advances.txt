@@ -362,6 +362,15 @@ br_greek_fire = {
 
 #varangians
 
+br_traditions_varangians_advance = {
+	age = age_1_traditions
+	potential = { has_or_had_tag = BYZ }
+	requires = roman_akritic_reforms
+	unlock_building = br_varangian_camp
+	icon = expand_varangian_guard_advance
+	num_of_varangian_units = 4
+}
+
 br_discovery_varangians_advance = {
 	age = age_3_discovery
 	potential = { has_or_had_tag = BYZ }
@@ -369,6 +378,7 @@ br_discovery_varangians_advance = {
 	unlock_unit = br_discovery_varangians
 	unlock_building = br_varangian_barracks
 	icon = expand_varangian_guard_advance
+	num_of_varangian_units = 8
 }
 
 br_reformation_varangians_advance = {
@@ -377,6 +387,7 @@ br_reformation_varangians_advance = {
 	requires = flintlock_gun
 	unlock_unit = br_reformation_varangians
 	icon = expand_varangian_guard_advance
+	num_of_varangian_units = 10
 }
 
 br_absolutism_varangians_advance = {
@@ -385,6 +396,7 @@ br_absolutism_varangians_advance = {
 	requires = roman_centralized_command
 	unlock_unit = br_absolutism_varangians
 	icon = expand_varangian_guard_advance
+	num_of_varangian_units = 12
 }
 
 br_revolutions_varangians_advance = {
@@ -393,6 +405,7 @@ br_revolutions_varangians_advance = {
 	requires = byz_the_new_imperial_army
 	unlock_unit = br_revolutions_varangians
 	icon = expand_varangian_guard_advance
+	num_of_varangian_units = 14
 }
 
 # Tagmata
