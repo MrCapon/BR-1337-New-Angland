@@ -30296,6 +30296,45 @@ countries = {
 			capital = luchuan_mangshi
 		}
 		
+		LNG = { #Liang
+
+		own_control_core = {
+			kunming lufeng yiliang kunyang anning chenggong yimen songming fumin
+			zhennan dingyuan_chuxiong weichu nanan
+			heyang jiangchuan lunan xinxing
+		}
+
+		own_control_integrated = {
+		}
+
+		capital = kunming
+		include = "far_east_asia_monarchy_no_coast"
+		include = "expl_mongols"
+		include = "expl_china"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		government = {
+			ruler_term = { character = hugeci_borjigin start_date = 1267.8.1 end_date = 1271.2.11 regnal_number = 1 }
+			ruler_term = { character = esen_temur_borjigin start_date = 1280.1.1 end_date = 1290.1.1 regnal_number = 1 }
+			ruler_term = { character = gammala_borjigin start_date = 1290.1.1 end_date = 1291.1.1 regnal_number = 1 }
+			ruler_term = { character = shouning_borjigin start_date = 1291.1.1 end_date = 1308.1.1 regnal_number = 1 }
+			ruler_term = { character = esen_temur_borjigin start_date = 1308.1.1 end_date = 1332.2.29 regnal_number = 1 }
+			ruler_term = { character = tughluq_borjigin start_date = 1334.1.1 regnal_number = 1 }
+
+			ruler = tughluq_borjigin
+
+			centralization_vs_decentralization = 60
+
+		}
+		tolerated_cultures = {
+			yi_culture
+			lahu_culture
+		}
+		court_language = northern_mandarin_dialect
+		country_rank = rank_kingdom
+	}
+
 		CDL = { #Dali
 			
 			own_control_core = {
