@@ -4189,7 +4189,7 @@ building_manager = {
 	#merchants_quarters = { tag = BYZ level = 1 location =  constantinople }
 	#grand_marketplace = { tag = BYZ level = 1 location =  constantinople }
 	trading_hub = { tag = BYZ level = 1 location =  constantinople }
-	entrepot = { tag = BYZ level = 2 location =  constantinople }
+	entrepot = { tag = BYZ level = 1 location =  constantinople }
 	market_warehouse = { tag = BYZ level = 4 location =  constantinople }
 	fine_cloth_guild = { tag = BYZ level = 12 location =  constantinople }
 	brewery = { tag = BYZ level = 4 location =  constantinople }
@@ -4223,7 +4223,8 @@ building_manager = {
 	cathedral = { tag = THE level = 1 location = thessaloniki }
 	marketplace	= { tag = THE level = 5 location = thessaloniki }
 	br_tagmata_barracks = { tag = BYZ level = 1 location =  constantinople }
-	br_tagmata_barracks = { tag = BYZ level = 1 location =  izmit }
+	br_varangian_camp = { tag = BYZ level = 1 location =  constantinople }
+	br_tagmata_camp = { tag = BYZ level = 1 location =  izmit }
 	#hexamilion_wall = { tag = ATH level = 1 location =  corinth }
 
 	#Anatolia

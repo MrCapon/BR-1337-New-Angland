@@ -85,7 +85,7 @@ br_varangian_recruitment_building = {
 	stronger_power_projection = no
 	need_good_relation = no
 	pop_type = soldiers
-	icon = seljuk_mint
+	#icon = seljuk_mint
 	
 	category = military_category
 	
@@ -180,7 +180,7 @@ br_varangian_camp = {
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
-	icon = tur_kodjabashi_office #seljuk_mint
+	icon = seljuk_mint #tur_kodjabashi_office
 	
 	employment_size = manpower_employment
 	category = military_category

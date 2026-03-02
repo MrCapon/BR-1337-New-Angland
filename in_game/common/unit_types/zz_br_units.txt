@@ -419,7 +419,7 @@ br_revolutions_varangians = {
 	gfx_tags = { medium_tag musket_tag }
 }
 
-br_age_6_basilikoi_hippeis = {
+br_age_6_basilikoi = {
 	is_special = yes
 	category = army_cavalry
 	copy_from = a_age_6_revolutions_cavalry

@@ -192,5 +192,5 @@
  br_age_5_prokoursatores_advance: "$br_age_5_prokoursatores$"
  br_age_5_prokoursatores_advance_desc: "$br_age_5_prokoursatores_desc$"
 
- br_age_6_basilikoi_hippeis_advance: "$br_age_6_basilikoi_hippeis$"
- br_age_6_basilikoi_hippeis_advance_desc: "$br_age_6_basilikoi_hippeis_desc$"
+ br_age_6_basilikoi_advance: "$br_age_6_basilikoi$"
+ br_age_6_basilikoi_advance_desc: "$br_age_6_basilikoi_desc$"
