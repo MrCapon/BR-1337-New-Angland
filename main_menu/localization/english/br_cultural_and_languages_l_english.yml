@@ -14,6 +14,9 @@
  boulgaroi: "Boulgaroí"
  armenikon_greek_culture: "Armenikónoi"
 
+ #Greco-Chinese Cultures
+ seres_culture: "Sêres"
+
  #Possible Eperiote
  #Possible Morean
 
@@ -62,6 +65,8 @@
  gothic_dialect: "East Germanic" #Eastern or Crimean Gothic
  rhos_dialect: "Rhôs"
  boulgaroi_dialect: "Boulgarikḗ"
+ seres_dialect: "Sêres"
+ wu_dialect: "Wú"
  
  classical_latin_dialect: "Classical Latin"
  eccelsiastic_latin_dialect: "Ecclesiastic Latin"
