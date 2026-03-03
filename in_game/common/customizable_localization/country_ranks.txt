@@ -3,6 +3,25 @@
 
 	#BR
 	text = {
+		localization_key = country_rank_br_naval_theme
+		trigger = {
+			AND = {
+				OR = {
+					tag = A1G
+					tag = K1B
+				}
+			#	OR = {
+			#		is_subject_type = vassal
+			#		is_subject_type = fiefdom
+			#		is_subject_type = march
+			#	}
+			}
+			overlord ?= {
+				culture = { has_culture_group = culture_group:greek_group }
+			}
+		}
+	}
+	text = {
 		localization_key = country_rank_br_thema
 		trigger = {
 			AND = {
@@ -114,26 +133,6 @@
 			NOT = {
 				tag = A1G
 				tag = K1B
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
-			}
-		}
-	}
-
-	text = {
-		localization_key = country_rank_br_naval_theme
-		trigger = {
-			AND = {
-				OR = {
-					tag = A1G
-					tag = K1B
-				}
-				OR = {
-					is_subject_type = vassal
-					is_subject_type = fiefdom
-					is_subject_type = march
-				}
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }

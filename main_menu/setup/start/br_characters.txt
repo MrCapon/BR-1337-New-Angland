@@ -39,7 +39,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = constantinople
 		adm = 33 dip = 33 mil = 95
-		#father = 
+		father = swe_erik_xi
 		#mother = 
 		dynasty = erik_dynasty
 		tag = BYZ
@@ -53,7 +53,7 @@ character_db={
 		birth_date = 1301.1.1
 		birth = constantinople
 		adm = 33 dip = 33 mil = 95
-		#father = 
+		father = eng_harold_godwinson
 		#mother = 
 		dynasty = godwin_dynasty
 		tag = BYZ
@@ -94,7 +94,7 @@ character_db={
 		first_name = "random"
 		culture = latinoi
 		religion = catholic
-		estate = burghers_estate
+		#estate = burghers_estate
 		birth_date = 1301.1.1
 		birth = canakkale
 		adm = 44 dip = 66 mil = 100
@@ -109,11 +109,11 @@ character_db={
 		first_name = "random"
 		culture = latinoi
 		religion = catholic
-		estate = burghers_estate
+		#estate = burghers_estate
 		birth_date = 1301.1.1
 		birth = antalya
 		adm = 44 dip = 66 mil = 100
-		#father = 
+		father = ven_ordelaffo_falier
 		#mother = 
 		dynasty = falier_dynasty
 		tag = K1B
@@ -142,7 +142,7 @@ character_db={
 		birth = constantinople
 		#adm = 60 dip = 60 mil = 95
 		father = ser_stefan_milutin
-		#mother = 
+		#mother = nap_helen_anjou
 		dynasty = angelos_dynasty
 		tag = BYZ
 	}
@@ -154,7 +154,7 @@ character_db={
 		birth_date = 1319.1.1
 		birth = constantinople
 		#adm = 60 dip = 60 mil = 95
-		#father = 
+		father = epi_thomas_i_komnenos_doukas
 		#mother = 
 		dynasty = doukas_dynasty
 		tag = BYZ
@@ -163,21 +163,21 @@ character_db={
 		first_name = "random"
 		culture = greek_culture
 		religion = orthodox
-		estate = clergy_estate
+		#estate = clergy_estate
 		birth_date = 1301.1.1
 		birth = constantinople
 		adm = 95 dip = 66 mil = 75
 		father = tre_michael_komnenos
 		#mother = 
 		dynasty = komnenos_dynasty
-		tag = BYZ
+		tag = AOI
 		ruler_trait = eunuch
 	}
 	br_ere_rdm_character_12 = {
 		first_name = "random"
 		culture = greek_culture
 		religion = orthodox
-		estate = clergy_estate
+		#estate = clergy_estate
 		birth_date = 1319.1.1
 		birth = constantinople
 		adm = 95 dip = 66 mil = 75
@@ -191,7 +191,7 @@ character_db={
 		first_name = "random"
 		culture = greek_culture
 		religion = orthodox
-		estate = clergy_estate
+		#estate = clergy_estate
 		birth_date = 1315.1.1
 		birth = constantinople
 		adm = 55 dip = 66 mil = 100
@@ -200,6 +200,34 @@ character_db={
 		dynasty = palaiologos_dynasty
 		tag = RH0
 		ruler_trait = eunuch
+	}
+	br_ere_rdm_character_14 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		#estate = clergy_estate
+		birth_date = 1291.1.1
+		birth = constantinople
+		adm = 55 dip = 66 mil = 100
+		father = tre_ioannes_ii_komnenos
+		mother = tre_eudokia_palaiologina
+		dynasty = komnenos_dynasty
+		tag = OHS
+		#ruler_trait = eunuch
+	}
+	br_ere_rdm_character_15 = {
+		first_name = "random"
+		culture = greek_culture
+		religion = orthodox
+		#estate = clergy_estate
+		birth_date = 1311.1.1
+		birth = constantinople
+		adm = 55 dip = 66 mil = 100
+		father = br_ere_rdm_character_14
+		#mother = 
+		dynasty = komnenos_dynasty
+		tag = OHS
+		#ruler_trait = eunuch
 	}
 
 	#Elysium

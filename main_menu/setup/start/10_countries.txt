@@ -12834,6 +12834,7 @@ countries = {
 				
 				laws = {
 					legal_code_law = byzantine_law
+					royal_court_customs_law = br_roman_court_customs
 					distribution_of_power_law = br_roman_distribution_of_power_law
 					feudal_de_jure_law = by_blood
 					administrative_system = pronoia_system
@@ -53302,7 +53303,7 @@ countries = {
 			
 			government = {
 				type = theocracy
-				ruler = random
+				ruler = br_ere_rdm_character_14
 				
 				reforms = {
 					military_order_reform
