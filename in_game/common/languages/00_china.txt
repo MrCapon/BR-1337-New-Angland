@@ -1,4 +1,7 @@
-﻿mandarin_language = {
+
+#BR edited file
+
+mandarin_language = {
 
 	color = map_chinese
 
