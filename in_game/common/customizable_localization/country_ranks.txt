@@ -141,6 +141,22 @@
 		}
 	}
 
+	text = {
+		localization_key = country_rank_br_patriarchate
+		trigger = {
+			AND = {
+				OR = {
+					country_rank = country_rank:rank_kingdom
+					country_rank = country_rank:rank_empire
+				}
+				government_type = government_type:theocracy
+				religion.group = religion_group:christian
+				has_reform = government_reform:patriarchate
+			}
+
+		}
+	}
+
 	#Vanilla
 
 	text = {
