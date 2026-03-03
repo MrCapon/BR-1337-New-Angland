@@ -65,6 +65,39 @@ REPLACE_OR_CREATE:crusade_sea_reform = {
 	years = 2
 }
 
+patriarchate = {
+	major = yes
+	unique = yes
+	potential = {
+		tag = POH
+	}
+	allow = {
+	}
+	country_modifier = {
+		monthly_religious_influence = 0.5
+		monthly_devotion = 0.1
+		monthly_towards_traditionalist = societal_value_monthly_move
+		blocked_from_conversion = yes
+		blocked_from_forming_countries = yes
+		ruler_name_in_court_language = yes
+		#can_create_autocephalous_patriarchate = yes #idk, leave it for now, set country_rank to kingdom to allow it
+		
+		government_reform_slots = 1
+	}
+
+	locked = {
+		is_locked_mechanic = {
+			mechanic = government_reform
+			type = patriarchate
+		}
+	}
+
+	block_for_rebel = yes
+	
+
+	years = 2
+}
+
 #Republic
 REPLACE_OR_CREATE:merchant_republic = {
 	major = yes
