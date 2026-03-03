@@ -306,6 +306,141 @@ REPLACE_OR_CREATE:dalmatian = {
 	}
 }
 
+REPLACE_OR_CREATE:wu_culture = { #吳
+	language = wu_dialect
+
+	color = map_wu
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:yue_wu_culture = { #越
+	language = wu_dialect
+
+	color = map_yue_wu
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:xuanzhou_culture = { #宣州
+	language = wu_dialect
+
+	color = map_xuanzhou
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:wuzhou_culture = { #婺州
+	language = wu_dialect
+
+	color = map_wuzhou
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:quzhou_culture = { #衢州
+	language = wu_dialect
+
+	color = map_quzhou
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:chuzhou_culture = { #滁州
+	language = wu_dialect
+
+	color = map_chuzhou
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:jiangshan_culture = { #江山
+	language = wu_dialect
+
+	color = map_jiangshan
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:taizhou_wu_culture = { #台州
+	language = wu_dialect
+
+	color = map_taizhou_wu
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+REPLACE_OR_CREATE:ouhai_culture = { #瓯海
+	language = wu_dialect
+
+	color = map_ouhai
+
+	tags = { east_asian_gfx }
+
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
 
 
 
