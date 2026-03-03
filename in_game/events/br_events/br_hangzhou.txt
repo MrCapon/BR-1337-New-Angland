@@ -10,7 +10,7 @@ hangzhou.1 = { #Receiving petition to send bishop
 		tag = AOI # Expedition starts from Antioch
 		from = 1300.1.1
 		to = 1500.1.1
-		monthly_chance = 100
+		monthly_chance = 50
 	}
 	
 	option = { #we send bishop
@@ -19,7 +19,7 @@ hangzhou.1 = { #Receiving petition to send bishop
 		add_gold = -1000 # we give money for trip, maybe option in the future for additional money (the more money you invest the more safe the trip)
 		add_religious_influence = 100
 		hidden_effect = {
-			trigger_event_non_silently = { id = hangzhou.2 days = 3 }
+			trigger_event_non_silently = { id = hangzhou.2 days = 365 }
 		}
 	}
 	
@@ -201,4 +201,5 @@ hangzhou.3 = {
 			}
 		}
 	}
+
 }
