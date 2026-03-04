@@ -261,3 +261,7 @@
  E4Y_ADJ: "Tawaquessean" # AI generated, based loosely on Powhatan-area phonology + Greek polis
  E5Y: "Elyriquassa" #echoes Algonquian naming but Hellenized
  E5Y_ADJ: "Elyriquassan"
+
+ ### China
+ POH: "Hangzhou"
+ POH_ADJ: "Hangzhou" # I don't know chinese

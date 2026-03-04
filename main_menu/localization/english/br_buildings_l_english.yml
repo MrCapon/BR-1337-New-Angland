@@ -1,5 +1,11 @@
 ﻿l_english:
-
+ #Religious
+ orthodox_missionary_building: "Orthodox Mission"
+ orthodox_missionary_building_desc: "The $orthodox_missionary_building$ is the local center for religious ambassadors and missionaries who aim to convert the local population to the one true faith."
+ patriarchate_seat: "Patriarch Seat"
+ patriarchate_seat_desc: "A clergyman, elevated to the rank of Patriarch, grants us significant influence within the Orthodox Church."
+ patriarchate_seat_maintenance: "Patriarch Seat Maintenance"
+ 
  #ERE
  br_great_palace_building: "Méga Palátion"
  br_great_palace_building_desc: "The principal imperial residence and ceremonial heart of the Roman state, comprising audience halls, chapels, residences, and gardens where emperors governed and enacted the rituals of empire."

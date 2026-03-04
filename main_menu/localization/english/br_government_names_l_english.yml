@@ -54,4 +54,7 @@
  country_rank_br_hetaireia_ruler_male: "Logothetēs" #other options Proedros or Archōn tēs Hetaireías
  country_rank_br_hetaireia_ruler_female: "Logothetēs"
 
-
+ country_rank_br_patriarchate: "Patriarchate"
+ country_rank_br_patriarchate_ADJ: "Patriarchal"
+ country_rank_br_patriarchate_ruler_male: "Patriarch"
+ country_rank_br_patriarchate_ruler_female: "Patriarch"

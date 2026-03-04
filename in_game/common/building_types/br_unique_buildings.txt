@@ -379,3 +379,92 @@ br_constantinople_infrastructure = {
 		local_disease_resistance = 0.1
 	}
 }
+
+orthodox_missionary_building = {
+	is_foreign = yes
+	stronger_power_projection = no
+	need_good_relation = yes
+	max_levels = 1
+	pop_type = clergy
+	graphical_tags = { small_religious }
+	
+	category = religious_category
+	
+	employment_size = religious_building_employment
+	
+	pop_size_created = religious_building_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	country_potential = {
+		has_reform = government_reform:patriarchate
+		religion = religion:orthodox
+	}
+	
+	allow = {
+		owner = { within_diplomatic_range = scope:actor }
+		NOT = { dominant_religion = scope:actor.religion }
+	}
+	
+	possible_production_methods = {
+		colony_maintenance
+	}
+	construction_demand = simple_colony_construction
+
+	build_time = colonise_build_time
+	
+	modifier = {
+		building_missionary_effort = 0.1
+		local_tribal_promotion = 0.5
+		local_disease_resistance = 0.05
+		local_max_literacy = 5
+	}
+}
+
+patriarchate_seat = {
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = clergy
+	
+	employment_size = religious_building_employment
+
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	category = religious_category
+	
+	country_potential = {
+		has_reform = government_reform:patriarchate
+		religion = religion:orthodox
+	}
+	
+	location_potential = {
+		is_capital = yes
+	}
+
+	build_time = religious_building_time
+	
+	unique_production_methods = {
+		patriarchate_seat_maintenance = {
+			glass = 0.05
+			cloth = 0.05
+			fine_cloth = 0.025
+			paper = 0.1
+			copper = 0.05
+			tools = 0.05
+			category = building_maintenance
+		}
+	}
+	
+	construction_demand = cardinal_construction
+
+	modifier = {
+		local_max_literacy = 5
+		local_clergy_food_consumption = 0.2
+		monthly_religious_influence = 1
+	}
+}
