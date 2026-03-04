@@ -272,8 +272,7 @@ br_constantinople_shipyard = {
 		#hostile_fleet_attrition = 1
 		#blocks_privateer_raids = yes
 		#local_maritime_presence = 0.15
-		local_trade_embark_disembark_cost_modifier = -0.1
-		local_port_cost_distance_from_capital_modifier = -0.1
+		local_trade_embark_disembark_cost_modifier = -0.25
 	}
 }
 
@@ -303,12 +302,10 @@ br_hippodrome_building = {
 	build_time = cultural_building_time
 	
 	modifier = {
-		#local_cultural_tradition = 0.5
-		#local_cultural_influence = 0.5
 		local_unrest = -0.1
 		local_monthly_prosperity = 0.001
-		local_pop_assimilation_speed = 0.01
-		#local_peasants_estate_power = 0.25 #power of the mob
+		local_pop_assimilation_speed = 0.005
+		local_peasants_estate_power = 0.25 #power of the mob
 	}
 	capital_country_modifier = { 
 		monthly_prestige = 0.02

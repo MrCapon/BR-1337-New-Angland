@@ -163,6 +163,8 @@ br_frontier_expansion_privilege = {
 		societal_value:centralization_vs_decentralization > -25
 	}
 	country_modifier = {
+		global_peasants_estate_power = 1
+		peasants_estate_target_satisfaction = small_privilege_target_satisfaction
 		allow_native_subjugation_cb = yes
 		enslave_tribals = yes
 		allow_rgo_slave_demand = yes
