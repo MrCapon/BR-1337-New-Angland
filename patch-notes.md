@@ -1,4 +1,28 @@
 
+# 0.14
+
+Dozens of new laws, estate privileges, advances, government reforms, buildings and more. Majority for the Romans but new content for the Elysium tags and Armenia along with all the minors attached to those countries.
+Many new tags and releasable tags in Russia and Iberia.
+Rebalanced most of New Romes buildings.
+
+increased Elysian and Vinlandic populations
+
+Increased the mods unique roman cultured laws by 4
+few tweaks to tribal buildings
+increased nessisary tribesmen for tribal buildings to be 1000 to match the amount required to employee the building
+Moved the non ruling line of the Komnenoi from Khalidia to Antioch.
+
+New Tags:
+ RH1: "Tula"
+ RH2: "Kursk"
+ RH3: "Donets"
+ S5C: "Loukanía"
+New Releasable tags.
+SE4: "Illyria"
+Couple new Andalusi releasables in iberia
+
+adjusted the constantinople building modifiers
+
 # 0.13 
 
 ## New roman_world international organization:

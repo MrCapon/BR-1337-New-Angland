@@ -95,6 +95,30 @@ war_manager = {
 				which = alliance
 			}
 		}
+		attacker = {
+			country = RH1
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = RH2
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = RH3
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
 		#Team 2
 		defender = {
 			country = GLH
