@@ -15,7 +15,6 @@ hangzhou.1 = { #Receiving petition to send bishop
 	
 	option = { #we send bishop
 		name = hangzhou.1.a
-		historical_option = yes
 		add_gold = -1000 # we give money for trip, maybe option in the future for additional money (the more money you invest the more safe the trip)
 		add_religious_influence = 100
 		hidden_effect = {
@@ -25,7 +24,8 @@ hangzhou.1 = { #Receiving petition to send bishop
 	
 	option = { #we do not send bishop
 		name = hangzhou.1.b
-		add_prestige = -25
+		historical_option = yes
+		add_prestige = -10
 	}
 }
 
@@ -190,16 +190,14 @@ hangzhou.3 = {
 	
 	option = { #create Patriarchate of Hangzhou IO
 		name = hangzhou.3.a
-			create_international_organization = {
-				type = international_organization_type:autocephalous_patriarchate
-				add_country_to_international_organization = c:POH
-				set_leader_country = c:POH
-				variables = {
-					religion = religion:orthodox
-					seat = location:hangzhou
-				}
+		create_international_organization = {
+			type = international_organization_type:autocephalous_patriarchate
+			add_country_to_international_organization = c:POH
+			set_leader_country = c:POH
+			variables = {
+				religion = religion:orthodox
+				seat = location:hangzhou
 			}
 		}
 	}
-
 }
