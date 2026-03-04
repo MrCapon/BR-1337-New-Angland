@@ -55879,6 +55879,64 @@ countries = {
 		country_rank = rank_county
 	}
 
+	###Middle Kingdom additions
+	
+	POH = {	#Patriarchate of Hangzhou
+		our_cores_conquered_by_others = {}
+		include = "chinese_monarchy"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		government = {
+			type = theocracy
+			heir_selection = bishopric_elective
+			
+			parliament = {
+				parliament_type = estate_parliament
+			}
+			
+			laws = {
+				censorship = limited_censorship
+				theocratic_leadership = patriarchate_reform
+				patriarchate_law = combined_patriarchate_policy
+				holy_mission_law = balanced_mission_policy
+				divine_cause_law = pursuit_of_knowledge_policy
+				education_masses_law = basic_religious_education
+				administrative_system = local_courts_administration
+				cultural_traditions_law = civil_society
+				marriage_law = celibacy
+				heir_religion_law = heir_special_succession
+				maritime_law = protect_trade_routes
+				piracy_law = anti_piracy_policy
+				distribution_of_power_law = dop_favor_the_clergy
+			}
+			
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = -40
+			spiritualist_vs_humanist = -100
+			aristocracy_vs_plutocracy = -50
+			serfdom_vs_free_subjects = -60
+			mercantilism_vs_free_trade = -60
+			belligerent_vs_conciliatory = 75
+			quality_vs_quantity = 20
+			offensive_vs_defensive = 20
+			land_vs_naval = -33
+			capital_economy_vs_traditional_economy = 65
+			individualism_vs_communalism = 65
+			outward_vs_inward = -75
+		}
+		court_language = seres_dialect
+		liturgical_language = classical_chinese_language
+		
+		country_rank = rank_kingdom
+		capital = hangzhou
+		
+		tolerated_cultures = {
+			wu_culture
+			yue_wu_culture
+		}		
+	}
+
 
 
 
