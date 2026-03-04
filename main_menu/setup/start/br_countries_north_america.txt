@@ -453,9 +453,9 @@ countries = {
 		}
 		
 		BEO = {
-			type = pop
+			#type = pop
 			
-			add_pops_from_locations = {
+			own_control_core = {
 				eimastukwek epwikek kutapuskuj pgotapesg wli_qospem
 				gosaoie nogamsig meelpaeg amasipukwek sibook
 				cape_spear bacalhieu mekwiskajk mollyhuajeck
@@ -506,6 +506,7 @@ countries = {
 			}
 			own_control_colony = {
 				askataliank qospemk apaqtukowatek sipuk
+				pukusamkek
 			}
 			
 			capital = ingonish
@@ -525,15 +526,15 @@ countries = {
 		
 		#Mi'kmaq
 		MIK = {
-			type = pop
+			#type = pop
 			
-			add_pops_from_locations = {
-				amqui anagance antigonish apaqtukowatek askataliank aspotogan canso caraquet cascapedia
+			own_control_core = {
+				amqui anagance antigonish aspotogan canso caraquet cascapedia
 				causapscal chebogue chicchoc chignecto chipoudy cobequid elsiktuk esekatik
 				gaspe  jijkwtuk kekwapskuk kennetook kjipuktuk kouchibouguac
 				maccan maleagit malpeque marsoui matane matapedia memramcook miramichi mitis
 				muinawamek musquedoboit neguac nepisiguit nictaux nisiamk nmejuaqnek oqumkikiak paspebiac
-				petitcodiac pewjeg pictou pogomeg pukusamkek qospemk restigouche richibucto seeboosis shubenacadie sipuk
+				petitcodiac pewjeg pictou pogomeg restigouche richibucto seeboosis shubenacadie
 				tapu_tuitn tatamagouche tignish tracadie wekwayik weljuik wetewatoqsik wikipoq
 			}
 			#our_cores_conquered_by_others = {

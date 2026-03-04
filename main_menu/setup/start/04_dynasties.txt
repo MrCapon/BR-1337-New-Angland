@@ -8684,4 +8684,9 @@ dynasty_manager = {
 		home = malatya
 	}
 
+	drogan_dynasty = { #BR addition
+		name = { name = Elpidios } #Varingios
+		home = york
+	}
+
 }

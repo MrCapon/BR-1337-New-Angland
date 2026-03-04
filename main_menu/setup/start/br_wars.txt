@@ -1,0 +1,249 @@
+war_manager = {
+	
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "OHS"
+			}
+			SECOND = {
+				name="KIL"
+			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = marash
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = OHS
+			request = {
+				reason = Instigator
+			}
+		}
+		#Team 2
+		defender = {
+			country = KIL
+			request = {
+				reason = Target
+			}
+		}
+	}
+
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "RH0"
+			}
+			SECOND = {
+				name="GLH"
+			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = vinnytsia
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = RH0
+			request = {
+				reason = Instigator
+			}
+		}
+		attacker = {
+			country = KIE
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = HAL
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = VOL
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = ZAZ
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = RH1
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = RH2
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		attacker = {
+			country = RH3
+			request = {
+				caller = RH0
+				reason = Scripted
+				which = alliance
+			}
+		}
+		#Team 2
+		defender = {
+			country = GLH
+			request = {
+				reason = Target
+			}
+		}
+	}
+
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "ARA"
+			}
+			SECOND = {
+				name="AD1"
+			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = zaragoza
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = ARA
+			request = {
+				reason = Instigator
+			}
+		}
+		#Team 2
+		defender = {
+			country = AD1
+			request = {
+				reason = Target
+			}
+		}
+	}
+
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "KNI"
+			}
+			SECOND = {
+				name="AD2"
+			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = palma
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = KNI
+			request = {
+				reason = Instigator
+			}
+		}
+		#Team 2
+		defender = {
+			country = AD2
+			request = {
+				reason = Target
+			}
+		}
+	}
+
+	war = {
+		war_name={
+			name="NORMAL_WAR_NAME"
+			ordinal=1
+			first = {
+				name="ATH"
+			}
+			SECOND = {
+				name="NEG"
+			}
+		}
+		
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = negroponte
+		}
+		
+		start_date = 1335.1.1
+		action = 1337.3.1
+		attacker = {
+			country = ATH
+			request = {
+				reason = Instigator
+			}
+		}
+
+		defender = {
+			country = NEG
+			request = {
+				reason = Target
+			}
+		}
+
+	}
+	
+	truce = { 
+		attacker = NSE
+		#
+		defender = SWE
+		#either use end_date or start_date = <date> with months = <int>. Can skip months to use NDefines::NDiplomacy::TRUCE_YEARS instead
+		start_date = 1333.3.2
+		months = 360
+	}
+
+
+}

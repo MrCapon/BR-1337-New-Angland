@@ -16,6 +16,7 @@
 		Chrysanthos name_demetrius Diogenes name_dennis Elpidios Herakles
 		name_castor name_matthew name_nestor Nikomedes name_orestes Palaemon Pelagios name_peter Philemon name_philip
 		Skantarios name_stephen name_theodore name_thomas Prokopios name_john Iason
+		Drogános Drogánios
 	}
 	female_names = {
 		# Greek
@@ -27,6 +28,7 @@
 		name_joanna Kale Konstantia
 		name_constance Kyra Kyriake Hypatia name_zoe
 		name_paraskevi
+		name_aurelia
 	}
 	dynasty_names = {
 		name_angel Phokas
@@ -117,6 +119,8 @@
 		Kotzes Toxaras Aplakes Gomostos Koupharas Tyropoulis Kontomytes Chenopoulos Sellokalas
 		Kentrokoukouros Antigonos Pastillas Katakalitzes Manikophagos Kolokynthis Rachites Bua_Spatas
 		Apsimaros name_artemios
+		Varingios Elpidios
+
 	}
 	lowborn = {
 		Nikolaos Adamos Chloros Galatas Halkias name_papadopoulos Mallas Samaras Karagiannis Vlahos Ioannidis

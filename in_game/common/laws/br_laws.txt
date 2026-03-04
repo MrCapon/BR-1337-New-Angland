@@ -28,7 +28,7 @@ INJECT:distribution_of_power_law = { #balance still
 			culture = { has_culture_group = culture_group:greek_group }
 		}
 		country_modifier = {
-			global_crown_estate_power = 0.2
+			global_crown_estate_power = 0.25
 			government_size = 1
 			monthly_towards_centralization = societal_value_minor_monthly_move
 			tax_income_efficiency = large_tax_income_efficiency_bonus
@@ -96,8 +96,9 @@ INJECT:royal_court_customs_law = {
 			court_spending_cost  = 0.02
 			cultural_influence_modifier = 0.1
 			country_cabinet_efficiency = 0.05
+			legislative_efficiency = 0.05
 			#monthly_legitimacy = 0.05
-			monthly_prestige = 0.02
+			#monthly_prestige = 0.02
 		}
 
 		estate_preferences = {
