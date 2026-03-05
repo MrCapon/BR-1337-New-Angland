@@ -73,3 +73,14 @@ POH = { #Patriarchate of Hangzhou
 		instance = { scale = { 1.25 1.25 } position = { 0.5 0.5 } }
     }
 }
+
+SGO = { #Brotherhood of Saint George
+    pattern = "pattern_cross.dds"
+	color1 = "white"
+	color2 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_muscovy.dds"
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }
+    }
+}
