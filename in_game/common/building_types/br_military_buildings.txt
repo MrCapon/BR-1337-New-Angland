@@ -161,6 +161,9 @@ br_naval_theme_hq = {
 		harbor_suitability = 0.25
 		local_repair_speed = 0.02
 	}
+	capital_country_modifier = {
+		navy_galley_power = 0.05
+	}
 	
 	unique_production_methods = {
 		br_naval_theme_hq_maintenance = {
@@ -236,6 +239,7 @@ br_tagmata_camp = {
 
 	location_potential = {
 		local_control > 0.75
+		integration_level = core
 	}
 	country_potential = {
 		has_or_had_tag = BYZ
@@ -403,6 +407,99 @@ br_pronoia_estate = { #pronoia estates
     }
 }
 
+br_pyrgoi = {#frontier watchtowers
+	max_levels = 1
+	pop_type = soldiers
+	icon = peel_towers
+	
+	category = defense_category
+	
+	employment_size = 0.025
+	rural_settlement = yes
+	town = no
+	city = no
+
+	build_time = small_fort_building
+
+	expensive = no
+	country_potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	unique_production_methods = {
+	
+		br_pyrgoi_maintenance = {
+			lumber = 0.025
+			stone = 0.05
+			masonry = 0.01
+			weaponry = 0.05
+			tar = 0.01
+			category = building_maintenance
+		}
+	}
+	construction_demand = stockade_construction
+	
+	modifier = {
+		local_garrison_size = 0.025
+		local_hostile_attrition = 0.15
+		local_monthly_control = 0.001
+		local_unrest = -0.05
+	}
+	
+	raw_modifier = {
+		fort_level = 1
+		propagating_zone_of_control = no
+	}
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
+	}
+}
+
+br_kleisourai = {#fortified mountain passes
+	max_levels = 1
+	pop_type = soldiers
+	icon = walls_of_benin
+	
+	category = defense_category
+	
+	employment_size = 0.05
+	rural_settlement = yes
+	town = no
+	city = no
+
+	build_time = small_fort_building
+
+	expensive = no
+	country_potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	unique_production_methods = {
+		br_kleisourai_maintenance = {
+			lumber = 0.025
+			stone = 0.1
+			masonry = 0.02
+			weaponry = 0.1
+			tar = 0.01
+			category = building_maintenance
+		}
+	}
+	construction_demand = stockade_construction
+	
+	modifier = {
+		local_garrison_size = 0.050
+		local_hostile_attrition = 0.25
+		local_defensive = 0.25
+	}
+	
+	raw_modifier = {
+		fort_level = 1
+		propagating_zone_of_control = no
+	}
+	remove_if = {
+		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
+	}
+}
+
+
 #Icons for later.
 #walls_of_benin #ostrog #bey_fortress
 #venetian_quarter #ori_portuguese_quarters 
@@ -474,6 +571,7 @@ br_tagmata_barracks = {
 
 	location_potential = {
 		local_control > 0.5
+		integration_level = core
 	}
 	country_potential = {
 		has_or_had_tag = BYZ

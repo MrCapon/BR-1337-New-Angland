@@ -4679,10 +4679,9 @@ building_manager = {
 	nobility_fortifications = { tag = SWA level = 1 location = backnang }
 	farming_village = { tag = SWA level = 1 location = backnang }
 
-	nobles_recruitment_center = { tag = B0R level = 1 location = ostrovo }
-	nobility_fortifications = { tag = B0R level = 1 location = ostrovo }
+	br_pronoia_estate = { tag = B0R level = 1 location = ostrovo }
 	farming_village = { tag = B0R level = 1 location = ostrovo }
-	peasants_training_grounds = { tag = B0R level = 1 location = kastoria }
+	br_soldier_farmers = { tag = B0R level = 1 location = kastoria }
 	
 
 
@@ -5457,7 +5456,6 @@ building_manager = {
 	farming_village = { tag = BYZ level = 1 location = yahyali }
 	farming_village = { tag = BYZ level = 1 location = yalvac }
 	farming_village = { tag = BYZ level = 1 location = celtik }
-	farming_village = { tag = BYZ level = 1 location = giannitsa }
 	farming_village = { tag = BYZ level = 1 location = sorgun }
 	farming_village = { tag = BYZ level = 1 location = ladik_pontus }
 	farming_village = { tag = BYZ level = 1 location = argyrokastro }
@@ -5630,10 +5628,7 @@ building_manager = {
 	farming_village = { tag = AN1 level = 1 location = goksun }
 	forest_village = { tag = AN1 level = 1 location = darende }
 	nobility_fortifications = { tag = AN1 level = 1 location = afsin }
-	nobility_fortifications = { tag = KAP level = 1 location = hargan }
-	nobility_fortifications = { tag = CIL level = 1 location = molevon }
 	nobility_fortifications = { tag = ICO level = 1 location = pirloganda }
-	nobility_fortifications = { tag = AN5 level = 1 location = ermenek }
 	nobility_fortifications = { tag = ARM level = 1 location = bayazit }
 	nobility_fortifications = { tag = ARM level = 1 location = malazgirt }
 	nobility_fortifications = { tag = ARM level = 1 location = bayazit }
@@ -5932,7 +5927,6 @@ building_manager = {
 	burgher_mansion = { tag = THE level = 1 location = thessaloniki }
 	nobility_fortifications = { tag = BYZ level = 1 location = manavgat }
 	nobility_fortifications = { tag = BYZ level = 1 location = ustra }
-	nobility_fortifications = { tag = THE level = 1 location = edessa }
 	nobility_fortifications = { tag = THE level = 1 location = kastoria }
 	nobility_fortifications = { tag = THS level = 1 location = gravia }
 	nobility_fortifications = { tag = EPI level = 1 location = ioannina }
@@ -6232,6 +6226,36 @@ building_manager = {
 
 	
 #BR added fortifications
+	br_kleisourai = { tag = OHS level = 1 location = ulnia }
+	br_kleisourai = { tag = AN1 level = 1 location = elbistan }
+	br_kleisourai = { tag = AN1 level = 1 location = darende }
+	br_kleisourai = { tag = TRE level = 1 location = khupati }
+	br_kleisourai = { tag = TRE level = 1 location = gumushane }
+	br_kleisourai = { tag = KAP level = 1 location = hargan }
+	br_kleisourai = { tag = CIL level = 1 location = molevon }
+	br_kleisourai = { tag = AN5 level = 1 location = mut }
+	br_kleisourai = { tag = AN5 level = 1 location = ermenek }
+	br_kleisourai = { tag = AN5 level = 1 location = kars_armenia }
+
+	br_pyrgoi = { tag = AOI level = 1 location = arsuz }
+	br_pyrgoi = { tag = AN1 level = 1 location = goksun }
+	br_pyrgoi = { tag = AN2 level = 1 location = divrigi }
+	br_pyrgoi = { tag = FEO level = 1 location = lusta }
+	br_pyrgoi = { tag = FEO level = 1 location = soldaia }
+	br_pyrgoi = { tag = THE level = 1 location = kilkis }
+	br_pyrgoi = { tag = THE level = 1 location = edessa }
+	br_pyrgoi = { tag = THE level = 1 location = giannitsa }
+	br_pyrgoi = { tag = B0R level = 1 location = kastoria }
+	br_pyrgoi = { tag = B0R level = 1 location = ostrovo }
+	br_pyrgoi = { tag = S1Y level = 1 location = serres }
+	br_pyrgoi = { tag = S1Y level = 1 location = drama }
+	br_pyrgoi = { tag = S1Y level = 1 location = xanthia }
+	br_pyrgoi = { tag = S1Y level = 1 location = komotini }
+	br_pyrgoi = { tag = BYZ level = 1 location = demotica }
+	br_pyrgoi = { tag = BYZ level = 1 location = kirklareli }
+	br_pyrgoi = { tag = BYZ level = 1 location = ahtopol }
+
+
 	castle = { tag = KNI level = 1 location =  malta } #br edit
 	castle = { tag = SER level = 1 location =  kozelj }
 	castle = { tag = SER level = 1 location =  kucevo }
@@ -6246,9 +6270,6 @@ building_manager = {
 	stockade = { tag = BYZ level = 1 location = rodos }
 	stockade = { tag = BYZ level = 1 location = bozan }
 	stockade = { tag = BYZ level = 1 location = akcasehir }
-	stockade = { tag = BYZ level = 1 location = demotica }
-	stockade = { tag = BYZ level = 1 location = edessa }
-	stockade = { tag = BYZ level = 1 location = serres }
 	stockade = { tag = BYZ level = 1 location = manavgat }
 	stockade = { tag = BYZ level = 1 location = mengen }
 	stockade = { tag = BYZ level = 1 location = gallipoli }
@@ -6267,7 +6288,6 @@ building_manager = {
 	stockade = { tag = PAF level = 1 location = sinop }
 	nobility_fortifications = { tag = CIL level = 1 location = alaiye }
 	stockade = { tag = CIL level = 1 location = kars_armenia }
-	stockade = { tag = CIL level = 1 location = mut }
 	nobility_fortifications = { tag = TRE level = 1 location = kastamonu }
 	nobility_fortifications = { tag = TRE level = 1 location = bafra }
 	castle = { tag = TRE level = 1 location = amasya }
@@ -6279,7 +6299,6 @@ building_manager = {
 	stockade = { tag = GEN level = 1 location = samos }
 	stockade = { tag = GEN level = 1 location = foca }
 	stockade = { tag = GEN level = 1 location = amasra }
-	castle = { tag = KAP level = 1 location = elbistan }
 	castle = { tag = CRT level = 1 location =  candia }
 	castle = { tag = CYP level = 1 location =  nicosia_cyp }
 	castle = { tag = VEN level = 1 location =  novigrad }
@@ -6324,7 +6343,6 @@ building_manager = {
 	#Holy Sepulchre
 	order_headquarters = { tag = OHS level = 1 location =  ulnia } 
 	order_stronghold = { tag = OHS level = 1	location = ulnia }
-	castle = { tag = OHS level = 1 location = ulnia }
 	nobility_fortifications = { tag = KIL level = 1 location = marash }
 	stockade = { tag = KIL level = 1 location = marash }
 

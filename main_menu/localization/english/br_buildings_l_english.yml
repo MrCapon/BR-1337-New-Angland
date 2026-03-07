@@ -70,6 +70,11 @@
  br_soldier_farmers_sturdy_crops_maintenance: "Stratiōtai Grain Ktêma"
  br_soldier_farmers_horses_maintenance: "Stratiōtai Horse Ktêma"
 
+ br_stratiotikon_thema_cattle_maintenance: "Stratiōtai Livestock Ktêma"
+ br_stratiotikon_thema_wool_maintenance: "Stratiōtai Wool Ktêma"
+ br_stratiotikon_thema_sturdy_crops_maintenance: "Stratiōtai Grain Ktêma"
+ br_stratiotikon_thema_horses_maintenance: "Stratiōtai Horse Ktêma"
+
  br_stratiotikon_thema_estate: "Stratiōtikon Théma"
  br_stratiotikon_thema_estate_desc: "A reformed military district in which soldier-farmers are formally integrated into an organized provincial command structure. The land is no longer merely frontier allotment, but a structured military institution bound to imperial service."
 
@@ -84,3 +89,11 @@
 
  br_tagmata_camp: "Tagmata Camp"
  br_tagmata_camp_desc: "A provincial encampment of the Tagmata, the professional regiments of the Empire. Drawn from loyal subjects and maintained under imperial authority, these troops provide a disciplined core to the field armies and reinforce order within the cities."
+
+ br_pyrgoi: "Pyrgoi"
+ br_pyrgoi_desc: "Chains of fortified watchtowers guard the frontiers, roads, and passes of the realm. These pyrgoi serve as observation posts, signal stations, and rallying points for local soldiers, extending the reach of imperial authority into even the most remote countryside."
+ br_pyrgoi_maintenance: "Pyrgoi Garrison"
+
+ br_kleisourai: "Kleisourai"
+ br_kleisourai_desc: "Strategic mountain passes are sealed by fortified defenses known as kleisourai. Garrisons stationed in these narrow defiles control the approaches into the interior, forcing invaders to advance through deadly choke points where defenders can inflict heavy losses and halt entire armies."
+ br_kleisourai_maintenance: "Kleisourai Garrison"
