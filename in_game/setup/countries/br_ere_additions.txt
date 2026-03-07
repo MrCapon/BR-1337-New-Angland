@@ -52,28 +52,28 @@ PAF = { #BR addition
 }
 
 K1B = { #BR addition
-	color = rgb { 125 28 210 }
+	color = rgb { 165 28 210 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
 }
 
 S1Y = { #BR addition
-	color = rgb { 95 138 45 }
+	color = rgb { 125 98 45 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
 }
 
 B0R = { #BR addition
-	color = rgb { 95 118 85 }
+	color = rgb { 95 78 85 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
 }
 
 A1G = { #BR addition
-	color = rgb { 95 28 185 }
+	color = rgb { 155 28 185 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
@@ -166,21 +166,21 @@ B6L = {
 }
 
 AN0 = {
-	color = rgb { 165 95 135 }
+	color = rgb { 165 85 135 }
 
 	culture_definition = armenikon_greek_culture
 	religion_definition = orthodox
 }
 
 AN1 = {
-	color = rgb { 135 100 65 }
+	color = rgb { 155 75 65 }
 
 	culture_definition = cappadocian_greek_culture
 	religion_definition = orthodox
 }
 
 AN2 = {
-	color = rgb { 115 100 75 }
+	color = rgb { 145 75 75 }
 
 	culture_definition = armenikon_greek_culture
 	religion_definition = orthodox
@@ -201,7 +201,7 @@ AN4 = { #BR addition
 }
 
 AN5 = { #BR addition
-	color = rgb { 155 85 195 }
+	color = rgb { 155 55 155 }
 
 	culture_definition = kilikioi_greek_culture
 	religion_definition = orthodox
