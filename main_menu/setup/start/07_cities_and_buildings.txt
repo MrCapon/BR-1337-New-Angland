@@ -4380,6 +4380,7 @@ building_manager = {
 	br_soldier_farmers = { tag = BYZ level = 1 location = honaz }
 	br_soldier_farmers = { tag = BYZ level = 1 location = gerze }
 	br_soldier_farmers = { tag = BYZ level = 1 location = goksun }
+	br_soldier_farmers = { tag = BYZ level = 1 location = afsin }
 	br_soldier_farmers = { tag = BYZ level = 1 location = darende }
 	br_soldier_farmers = { tag = BYZ level = 1 location = elbistan }
 	br_soldier_farmers = { tag = BYZ level = 1 location = soldaia }
@@ -5627,11 +5628,9 @@ building_manager = {
 	farming_village = { tag = AN1 level = 1 location = elbistan }
 	farming_village = { tag = AN1 level = 1 location = goksun }
 	forest_village = { tag = AN1 level = 1 location = darende }
-	nobility_fortifications = { tag = AN1 level = 1 location = afsin }
-	nobility_fortifications = { tag = ICO level = 1 location = pirloganda }
+	
 	nobility_fortifications = { tag = ARM level = 1 location = bayazit }
 	nobility_fortifications = { tag = ARM level = 1 location = malazgirt }
-	nobility_fortifications = { tag = ARM level = 1 location = bayazit }
 
 	#Italy
 	library = { tag = RAV level = 1 location = ravenna }
@@ -6053,7 +6052,6 @@ building_manager = {
 	local_markets = { tag = BYZ level = 1 location = eregli }
 	local_markets = { tag = BYZ level = 1 location = cankiri }
 	local_markets = { tag = BYZ level = 1 location = afsin }
-	peasants_training_grounds = { tag = BYZ level = 1 location = afsin }
 	peasants_training_grounds = { tag = BYZ level = 1 location = tokat }
 	peasants_training_grounds = { tag = BYZ level = 1 location = urgup }
 	br_pronoia_estate = { tag = BYZ level = 1 location = serres }
@@ -6227,17 +6225,19 @@ building_manager = {
 	
 #BR added fortifications
 	br_kleisourai = { tag = OHS level = 1 location = ulnia }
-	br_kleisourai = { tag = AN1 level = 1 location = elbistan }
 	br_kleisourai = { tag = AN1 level = 1 location = darende }
 	br_kleisourai = { tag = TRE level = 1 location = khupati }
 	br_kleisourai = { tag = TRE level = 1 location = gumushane }
 	br_kleisourai = { tag = KAP level = 1 location = hargan }
 	br_kleisourai = { tag = CIL level = 1 location = molevon }
-	br_kleisourai = { tag = AN5 level = 1 location = mut }
+	br_kleisourai = { tag = ICO level = 1 location = pirloganda }
 	br_kleisourai = { tag = AN5 level = 1 location = ermenek }
 	br_kleisourai = { tag = AN5 level = 1 location = kars_armenia }
+	br_kleisourai = { tag = ICO level = 1 location = selinti }
+	br_kleisourai = { tag = AN1 level = 1 location = afsin }
 
-	br_pyrgoi = { tag = AOI level = 1 location = arsuz }
+	br_kleisourai = { tag = AOI level = 1 location = arsuz }
+	
 	br_pyrgoi = { tag = AN1 level = 1 location = goksun }
 	br_pyrgoi = { tag = AN2 level = 1 location = divrigi }
 	br_pyrgoi = { tag = FEO level = 1 location = lusta }
@@ -6254,6 +6254,8 @@ building_manager = {
 	br_pyrgoi = { tag = BYZ level = 1 location = demotica }
 	br_pyrgoi = { tag = BYZ level = 1 location = kirklareli }
 	br_pyrgoi = { tag = BYZ level = 1 location = ahtopol }
+	br_pyrgoi = { tag = AN1 level = 1 location = elbistan }
+	br_pyrgoi = { tag = AN5 level = 1 location = mut }
 
 
 	castle = { tag = KNI level = 1 location =  malta } #br edit

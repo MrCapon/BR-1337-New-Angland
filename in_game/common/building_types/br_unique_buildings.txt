@@ -13,6 +13,7 @@ br_great_palace_building = {
 	city = yes
 
 	is_indestructible = yes
+	ai_forbid_shutdown = yes
 
 	location_potential = {
 		this = location:constantinople
@@ -60,6 +61,7 @@ br_hagia_sophia_building = {
 	town = no
 	city = yes
 
+	ai_forbid_shutdown = yes
 	is_indestructible = yes
 
 	expensive = yes
@@ -353,6 +355,7 @@ br_constantinople_infrastructure = {
 	town = no
 	city = yes
 
+	ai_forbid_shutdown = yes
 	is_indestructible = yes
 
 	expensive = yes

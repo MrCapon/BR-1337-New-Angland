@@ -133,6 +133,7 @@ br_naval_theme_hq = {
 	town = no
 	city = yes
 	
+	ai_forbid_shutdown = yes
 	build_time = large_port_building_time
 
 	forbidden_for_estates = yes
@@ -419,6 +420,7 @@ br_pyrgoi = {#frontier watchtowers
 	town = no
 	city = no
 
+	ai_forbid_shutdown = yes
 	build_time = small_fort_building
 
 	expensive = no
@@ -426,7 +428,6 @@ br_pyrgoi = {#frontier watchtowers
 		culture = { has_culture_group = culture_group:greek_group }
 	}
 	unique_production_methods = {
-	
 		br_pyrgoi_maintenance = {
 			lumber = 0.02
 			stone = 0.04
@@ -465,9 +466,18 @@ br_kleisourai = {#fortified mountain passes
 	town = no
 	city = no
 
+	ai_forbid_shutdown = yes
 	build_time = small_fort_building
 
 	expensive = no
+	location_potential = {
+		topography = mountains
+		#OR ={
+		#	topography = mountains
+		#	topography = plateau
+		#	topography = hills
+		#}
+	}
 	country_potential = {
 		culture = { has_culture_group = culture_group:greek_group }
 	}
@@ -492,9 +502,9 @@ br_kleisourai = {#fortified mountain passes
 		fort_level = 1
 		propagating_zone_of_control = no
 	}
-	remove_if = {
-		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
-	}
+	#remove_if = {
+	#	NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
+	#}
 }
 
 
@@ -516,6 +526,7 @@ br_varangian_barracks = {
 
 	town = yes
 	city = yes
+	ai_forbid_shutdown = yes
 	build_time = soldier_building
 	
 	forbidden_for_estates = yes
@@ -561,6 +572,7 @@ br_tagmata_barracks = {
 
 	town = yes
 	city = yes
+	ai_forbid_shutdown = yes
 	build_time = soldier_building
 	
 	forbidden_for_estates = yes
