@@ -5,6 +5,13 @@
 	religion_definition = orthodox
 }
 
+IMP = {
+	color = rgb { 99 15 13 }
+	
+	culture_definition = elysian_culture
+	religion_definition = orthodox
+}
+
 
 E1Y = { #BR addition
 	color = rgb { 170 68 65 }
@@ -16,15 +23,15 @@ E1Y = { #BR addition
 E2Y = { #BR addition
 	color = rgb { 140 68 85 }
 
-	culture_definition = photianoi #Placeholder
-	religion_definition = orthodox #Placeholder
+	culture_definition = photianoi
+	religion_definition = orthodox
 }
 
 E4Y = { #BR addition
 	color = rgb { 99 62 71 }
 	
-	culture_definition = photianoi #Placeholder
-	religion_definition = orthodox #Placeholder
+	culture_definition = photianoi
+	religion_definition = orthodox
 }
 
 E5Y = { #BR addition

@@ -250,7 +250,11 @@
  INV_ADJ: "Innulåndic"
 
  ####---------- Tsenacommacah ----------####
+ IMP: "IMPERIUM"
+ IMP_ADJ: "Imperial" #Imperian
  ELY_f: "$ELY$"
+ IMP_f: "$IMP$"
+
  E1Y: "Elysiara"
  E1Y_ADJ: "Elysiara"
  E2Y: "Elystria"

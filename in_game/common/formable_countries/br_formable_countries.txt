@@ -31,6 +31,37 @@
     }
 }
 
+REPLACE_OR_CREATE:IMP_f = {
+    level = 4
+    required_locations_fraction = 0.75
+    rule = historical
+    potential = {
+        OR = {
+			has_primary_or_accepted_culture = culture:elysian_culture
+            has_primary_or_accepted_culture = culture:aureliani
+            has_primary_or_accepted_culture = culture:photianoi
+        }
+    }
+
+    allow = {}
+
+    name = IMP
+    flag = IMP
+    adjective = IMP_ADJ
+    tag = IMP
+    color = map_IMP
+
+	regions = {
+		east_coast_region
+		great_plains_region
+		caribbean_region
+	}
+	form_effect = {
+		set_country_rank_effect = { rank = country_rank:rank_empire }
+        trigger_event_non_silently = imperium.1 
+    }
+}
+
 REPLACE_OR_CREATE:ROM_f = {
 	level = 4
 	required_locations_fraction = 0.75

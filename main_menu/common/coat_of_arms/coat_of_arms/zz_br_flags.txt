@@ -11,6 +11,17 @@ ELY = { # Elysium
         instance = { scale = { 1.0 1.0 } }
     }
 }
+IMP = { # IMPERIUM
+    pattern = "pattern_solid.dds"
+    color1 = "red"
+    # color2 = "black"
+    # color3 = "yellow"
+
+    textured_emblem = {
+        texture = "br_elysia.dds" #Placeholder
+        instance = { scale = { 1.0 1.0 } }
+    }
+}
 E1Y = { # Elysium
     pattern = "pattern_solid.dds"
     color1 = "red"
