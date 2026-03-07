@@ -40,6 +40,7 @@ br_great_palace_building = {
 		capital_building_maintenance
 	}
 
+	graphical_tags = { palace }
 	#obsolete = royal_court #grand_palace
 	
 	custom_tags = { unique_palace }
@@ -71,7 +72,7 @@ br_hagia_sophia_building = {
 
 	build_time = large_religious_building_time
 
-	graphical_tags = { large_religious }
+	#graphical_tags = { large_religious }
 
 
 	unique_production_methods = {
@@ -200,6 +201,7 @@ br_constantinople_university = {
 		local_nobles_max_literacy = 10
 		local_clergy_max_literacy = 5
 		local_burghers_max_literacy = 5
+		local_soldiers_max_literacy = 5
 		#local_max_literacy = 5
 		local_cultural_influence = 1
 		local_monthly_literacy = 0.1
