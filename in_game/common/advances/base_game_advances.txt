@@ -1711,6 +1711,22 @@ REPLACE_OR_CREATE:geo_bagrationi_dynasty = {
 
 	monthly_legitimacy = 0.05
 }
+br_armenian_mountain_strongholds = {
+	age = age_1_traditions
+	icon = hun_castle_warriors
+	potential = {
+		OR = {
+			has_or_had_tag = ARM
+			has_or_had_tag = GEO
+			culture = culture:armenian_culture
+		}
+	}
+
+	requires = feudalism_advance
+
+	global_hostile_attrition = 0.25
+	trade_land_movement_cost_modifier = -0.15
+}
 ##############################-Wallachia-##############################
 
 REPLACE_OR_CREATE:wallachian_tradition = {
