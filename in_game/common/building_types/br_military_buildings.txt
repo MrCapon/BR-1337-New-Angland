@@ -424,6 +424,14 @@ br_pyrgoi = {#frontier watchtowers
 	build_time = small_fort_building
 
 	expensive = no
+	location_potential = {
+		any_neighbor_location = {
+			has_owner = yes
+			NOT = {
+				is_owned_or_owned_by_subjects_or_below_of = ROOT
+			}
+		}
+	}
 	country_potential = {
 		culture = { has_culture_group = culture_group:greek_group }
 	}
@@ -441,8 +449,8 @@ br_pyrgoi = {#frontier watchtowers
 	modifier = {
 		local_garrison_size = 0.025
 		local_hostile_attrition = 0.15
-		local_monthly_control = 0.001
-		local_unrest = -0.05
+		#local_monthly_control = 0.001
+		#local_unrest = -0.05
 	}
 	
 	raw_modifier = {
