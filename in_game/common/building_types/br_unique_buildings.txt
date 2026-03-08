@@ -18,6 +18,9 @@ br_great_palace_building = {
 	location_potential = {
 		this = location:constantinople
 	}
+	country_potential = {
+		owns = location:constantinople
+	}
 
 	allow = { always = no }
 
@@ -68,6 +71,9 @@ br_hagia_sophia_building = {
 
 	location_potential = {
 		this = location:constantinople
+	}
+	country_potential = {
+		owns = location:constantinople
 	}
 	
 	allow = { always = no }
@@ -132,6 +138,9 @@ br_senaton_building = {
 	location_potential = {
 		this = location:constantinople
 	}
+	country_potential = {
+		owns = location:constantinople
+	}
 	
 	allow = { always = no }
 
@@ -193,6 +202,9 @@ br_constantinople_university = {
 	location_potential = {
 		this = location:constantinople
 	}
+	country_potential = {
+		owns = location:constantinople
+	}
 	
 	allow = { always = no }
 
@@ -239,6 +251,9 @@ br_constantinople_shipyard = {
 	location_potential = {
 		is_port = yes
 		this = location:constantinople
+	}
+	country_potential = {
+		owns = location:constantinople
 	}
 	
 	allow = { always = no }
@@ -298,6 +313,9 @@ br_hippodrome_building = {
 	
 	location_potential = {
 		this = location:constantinople
+	}
+	country_potential = {
+		owns = location:constantinople
 	}
 	
 	allow = { always = no }
@@ -364,6 +382,9 @@ br_constantinople_infrastructure = {
 
 	location_potential = {
 		this = location:constantinople
+	}
+	country_potential = {
+		owns = location:constantinople
 	}
 	
 	allow = { always = no }
