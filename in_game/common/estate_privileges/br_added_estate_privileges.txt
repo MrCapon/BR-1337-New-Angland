@@ -32,7 +32,7 @@ boyarski_voiski = {
 	}
 }
 
-br_arm_nakharars = { #will break up later and balance later.
+br_arm_nakharars = { #will break up and balance later.
 	estate = nobles_estate
 	icon = formalized_oath
 	potential = {
@@ -218,7 +218,7 @@ br_themata_peasant_privilege = {
 	}
 }
 
-br_arm_highland_villages = { #will break up later and balance later.
+br_arm_highland_villages = { #will break up and balance later.
 	estate = peasants_estate
 	icon = dhimmi_military_service
 	potential = {
@@ -236,7 +236,7 @@ br_arm_highland_villages = { #will break up later and balance later.
 		monthly_towards_land = societal_value_minor_monthly_move
 		monthly_towards_defensive = societal_value_minor_monthly_move
 		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
-		global_hostile_attrition = 1
+		global_hostile_attrition = 0.25
 		global_defensive = 0.1
 		global_max_control = -0.05
 		peasants_estate_levy_size = 0.1
