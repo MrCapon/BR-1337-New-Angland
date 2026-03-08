@@ -425,10 +425,13 @@ br_pyrgoi = {#frontier watchtowers
 
 	expensive = no
 	location_potential = {
+		NOT = {
+			has_fort = yes
+		}
 		any_neighbor_location = {
 			has_owner = yes
 			NOT = {
-				is_owned_or_owned_by_subjects_or_below_of = ROOT
+				is_owned_or_owned_by_subjects_or_below_of = c:BYZ
 			}
 		}
 	}
