@@ -4152,15 +4152,14 @@ building_manager = {
 	orthodox_monastery = { tag = MAM level = 1 location =  saint_katrine }
 	local_shrine = { tag = MAM level = 1 location =  saint_katrine }
 	parish_church = { tag = MAM level = 1 location =  saint_katrine }
-	spiritual_retreat = { tag = MAM level = 1 location = saint_katrine }
 	local_shrine = { tag = MAM level = 1 location =  alexandria }
 	scriptorium = { tag = MAM level = 4 location = alexandria }
 
-	spiritual_retreat = { tag = BYZ level = 1 location = mount_athos }
-	spiritual_retreat = { tag = BYZ level = 1 location = trikala }
-	spiritual_retreat = { tag = BYZ level = 1 location = salona }
-	spiritual_retreat = { tag = BYZ level = 1 location = leuktron }
-	spiritual_retreat = { tag = BYZ level = 1 location = ayasuluk }
+	br_mount_athos_building = { tag = BYZ level = 1 location = mount_athos }
+	parish_church = { tag = BYZ level = 1 location = trikala }
+	parish_church = { tag = BYZ level = 1 location = salona }
+	parish_church = { tag = BYZ level = 1 location = leuktron }
+	parish_church = { tag = BYZ level = 1 location = ayasuluk }
 	clerical_archives = { tag = MAM level = 1 location = jerusalem }
 	clerical_archives = { tag = PAP level = 1 location = rome }
 	clerical_archives = { tag = MAM level = 1 location = alexandria }
@@ -4176,6 +4175,7 @@ building_manager = {
 	#Unique Buildings - Constantinople
 	br_great_palace_building = { tag = BYZ level = 1 location =  constantinople } #Great Palace(s) of Constantinople
 	br_hagia_sophia_building = { tag = BYZ level = 1 location =  constantinople }
+	br_agioi_apostoloi_building = { tag = BYZ level = 1 location =  constantinople }
 	br_senaton_building = { tag = BYZ level = 1 location =  constantinople }
 	br_constantinople_university = { tag = BYZ level = 1 location =  constantinople }
 	br_constantinople_shipyard = { tag = BYZ level = 1 location =  constantinople }
@@ -4429,6 +4429,32 @@ building_manager = {
 	weapon_guild = { tag = HUN level = 4 location = pest }
 	bailiff = { tag = ARM level = 1 location = yerevan }
 
+	br_bandits_building = { tag = BUL level = 1 location = beden }
+	br_bandits_building = { tag = BUL level = 1 location = smolyan }
+	br_bandits_building = { tag = BUL level = 1 location = bozhenitsa }
+	br_bandits_building = { tag = BUL level = 1 location = zemlungrad }
+	br_bandits_building = { tag = EPI level = 1 location = konitsa }
+	br_bandits_building = { tag = EPI level = 1 location = kleisoura_epirus }
+	br_bandits_building = { tag = EPI level = 1 location = pyli }
+	br_bandits_building = { tag = EPI level = 1 location = karpenisi }
+	br_bandits_building = { tag = ATH level = 1 location = loidoriki }
+	br_bandits_building = { tag = ACH level = 1 location = kalavryta }
+	br_bandits_building = { tag = VTC level = 1 location = modon }
+	br_bandits_building = { tag = ACH level = 1 location = kalamata }
+	br_bandits_building = { tag = MOE level = 1 location = oitylo }
+	br_bandits_building = { tag = B1L level = 1 location = kratovo }
+	br_bandits_building = { tag = SE2 level = 1 location = novo_brdo }
+	br_bandits_building = { tag = SE2 level = 1 location = vranje }
+	br_bandits_building = { tag = BOS level = 1 location = livno }
+	br_bandits_building = { tag = BOS level = 1 location = konjic }
+	br_bandits_building = { tag = BOS level = 1 location = jajce }
+	br_bandits_building = { tag = BOS level = 1 location = teocak }
+	br_bandits_building = { tag = SER level = 1 location = dukagjini }
+	br_bandits_building = { tag = CRO level = 1 location = otocac }
+	br_bandits_building = { tag = CRO level = 1 location = slunj }
+	br_bandits_building = { tag = CRO level = 1 location = srb }
+	br_bandits_building = { tag = SE0 level = 1 location = rudnik }
+
 	#Manpower buildings added
 	#Anatolia
 	thema_headquarters = { tag = BYZ level = 1 location = iznik }
@@ -4570,9 +4596,6 @@ building_manager = {
 
 	peasants_training_grounds = { tag = VTC level = 1 location = modon }
 	free_village = { tag = VTC level = 2 location = modon }
-	maniot_toll_guards = { tag = VTC level = 1 location = modon }
-	maniot_toll_guards = { tag = ACH level = 1 location = kalamata }
-	maniot_toll_guards = { tag = MOE level = 1 location = oitylo }
 	free_village = { tag = ACH level = 1 location = kalamata }
 	free_village = { tag = ACH level = 1 location = chalandritsa }
 

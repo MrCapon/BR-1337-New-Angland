@@ -1,5 +1,6 @@
 ﻿### BR Unique buildings ###
 br_great_palace_building = {
+	is_special = yes
 	is_foreign = no
 	pop_type = nobles
 	max_levels = 1
@@ -52,6 +53,7 @@ br_great_palace_building = {
 }
 
 br_hagia_sophia_building = {
+	is_special = yes
 	is_foreign = no
 	max_levels = 1
 	pop_type = clergy
@@ -116,6 +118,7 @@ br_hagia_sophia_building = {
 }
 
 br_senaton_building = {
+	is_special = yes
 	is_foreign = no
 	pop_type = nobles
 	max_levels = 1
@@ -181,6 +184,7 @@ br_senaton_building = {
 }
 
 br_constantinople_university = {
+	is_special = yes
 	is_foreign = no
 	pop_type = clergy
 	max_levels = 1
@@ -239,6 +243,7 @@ br_constantinople_university = {
 }
 
 br_constantinople_shipyard = {
+	is_special = yes
 	is_foreign = no
 	max_levels = 1
 	pop_type = soldiers
@@ -296,6 +301,7 @@ br_constantinople_shipyard = {
 }
 
 br_hippodrome_building = {
+	is_special = yes
 	is_foreign = no
 	pop_type = burghers
 	max_levels = 1
@@ -360,6 +366,7 @@ br_hippodrome_building = {
 
 # The Cisterns and Aqueducts of Constantinople
 br_constantinople_infrastructure = {
+	is_special = yes
 	is_foreign = no
 	pop_type = peasants
 	max_levels = 1
@@ -400,9 +407,11 @@ br_constantinople_infrastructure = {
 		free_building_levels = 50
 		local_population_capacity = 250
 		local_disease_resistance = 0.1
+		local_monthly_prosperity = 0.001
 	}
 }
 
+# Orthodox Buildings
 orthodox_missionary_building = {
 	is_foreign = yes
 	stronger_power_projection = no
@@ -491,3 +500,169 @@ patriarchate_seat = {
 		monthly_religious_influence = 1
 	}
 }
+
+br_mount_athos_building = {
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = clergy
+	icon = bodrum_castle #adm_vatican_library herrenchiemsee_abbey fortress_church papal_archives
+	
+	employment_size = religious_building_employment
+	
+	category = estate_category
+	
+	estate = clergy_estate
+
+    rural_settlement = yes
+	town = no
+	city = no
+
+	ai_forbid_shutdown = yes
+	is_indestructible = yes
+
+	build_time = religious_building_time
+
+	graphical_tags = { medium_religious }
+
+	location_potential = { this = location:mount_athos }
+	
+	country_potential = {
+		owns = location:mount_athos
+		religion = religion:orthodox
+	}
+
+    possible_production_methods = {
+		monastery_maintenance
+	}
+	capital_country_modifier = {
+		monthly_towards_spiritualist = 0.02
+		monthly_religious_influence = 0.1
+	}
+	modifier = {
+		local_clergy_desired_pop = 1
+		local_cultural_tradition = 1
+		local_clergy_estate_power = 10
+		cannot_upgrade_location = yes
+		local_max_control = -1
+		local_garrison_size = 0.1
+		local_clergy_conversion_blocked = yes
+    }
+	raw_modifier = {
+		fort_level = 1
+		propagating_zone_of_control = no
+	}
+	construction_demand = town_building_construction
+}
+
+br_agioi_apostoloi_building = {
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = clergy
+	icon = herrenchiemsee_abbey #adm_vatican_library papal_archives
+
+	category = religious_category
+
+	employment_size = large_religious_building_employment
+
+	rural_settlement = no
+	town = no
+	city = yes
+
+	ai_forbid_shutdown = yes
+	is_indestructible = yes
+
+	expensive = yes
+
+	location_potential = {
+		this = location:constantinople
+	}
+	country_potential = {
+		owns = location:constantinople
+	}
+	
+	allow = { always = no }
+
+	build_time = large_religious_building_time
+
+	#graphical_tags = { large_religious }
+	unique_production_methods = {
+		br_agioi_apostoloi_building_maintenance = {
+			glass = 0.05
+			cloth = 0.05
+			fine_cloth = 0.025
+			paper = 0.1
+			copper = 0.05
+			tools = 0.05
+			category = building_maintenance
+		}
+	}
+	capital_country_modifier = {
+		monthly_prestige = 0.02
+		tolerance_own = 0.1
+		stability_investment = 0.01
+		monthly_religious_influence = 0.1
+		maximum_religious_influence = 50
+	}
+	modifier = {
+		local_cultural_tradition = 0.25
+		local_clergy_desired_pop = 1
+	}
+
+	construction_demand = capital_building_construction
+}
+
+
+#negative
+
+br_bandits_building = {
+	is_foreign = no
+	max_levels = estate_building_stackable_level
+	pop_type = peasants
+	icon = maniot_toll_guards
+	
+	category = estate_category
+	employment_size = estate_peasants_employment
+	
+	rural_settlement = yes
+	town = no
+	city = no
+	
+	estate = peasants_estate
+	build_time = estate_build_time
+	
+	location_potential = {
+		local_control < 0.25
+		region = region:balkan_region
+		NOT = { 
+			OR = {
+				has_fort = yes
+				has_building = building_type:br_pronoia_estate
+				has_building = building_type:br_kekhrismene_pronoia
+				has_building = building_type:br_soldier_farmers
+				has_building = building_type:br_stratiotikon_thema_estate
+			}
+		}
+	}
+
+	#country_potential = {
+	#	culture = { has_culture_group = culture_group:greek_group }
+	#}
+
+	possible_production_methods = {
+		estate_building_input
+	}
+
+	modifier = {
+		local_peasant_enfranchisment = 0.1
+		local_monthly_food_modifier = -0.25
+		local_peasants_estate_power = 1
+		local_max_control = -0.1
+    }
+
+	destroy_price = br_bandits_building_remove_price
+
+	construction_demand = estate_construct_building
+}
+

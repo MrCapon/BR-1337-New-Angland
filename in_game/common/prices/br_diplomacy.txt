@@ -1,4 +1,0 @@
-﻿
-roman_tribute_price = {
-	gold = 1
-}

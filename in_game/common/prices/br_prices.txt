@@ -1,0 +1,9 @@
+﻿
+roman_tribute_price = {
+	gold = 1
+}
+
+br_bandits_building_remove_price = {
+	manpower = 0.5
+	stability = 1
+}

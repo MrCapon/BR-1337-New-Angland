@@ -97,3 +97,13 @@
  br_kleisourai: "Kleisourai"
  br_kleisourai_desc: "Strategic mountain passes are sealed by fortified defenses known as kleisourai. Garrisons stationed in these narrow defiles control the approaches into the interior, forcing invaders to advance through deadly choke points where defenders can inflict heavy losses and halt entire armies."
  br_kleisourai_maintenance: "Kleisourai Garrison"
+
+ br_bandits_building: "Rural Brigands" #Klephts
+ br_bandits_building_desc: "In regions where imperial authority is weak, bands of brigands and outlaws gather in the hills and forests. Often drawn from impoverished peasants, deserters, and displaced villagers, these groups prey upon travelers and local settlements. While some villagers quietly support them as a form of resistance against distant authorities, their presence disrupts agriculture, trade, and the restoration of order."
+ br_bandits_building_remove_price: "Remove Brigands "
+
+ br_mount_athos_building: "Holy Mountain of Athos"
+ br_mount_athos_building_desc: "The Holy Mountain of Athos stands as the greatest monastic center of the Orthodox world. For centuries its secluded monasteries have drawn monks from across the Roman lands and beyond, forming a spiritual republic devoted entirely to prayer, contemplation, and the preservation of sacred tradition. Though removed from worldly affairs, its spiritual authority carries immense influence among the faithful."
+
+ br_agioi_apostoloi_building: "Church of the Holy Apostles"
+ br_agioi_apostoloi_building_desc: "The venerable Church of the Holy Apostles is one of the most sacred shrines of Constantinople and the traditional resting place of Roman emperors. Raised in honor of the Twelve Apostles and rebuilt by the great emperors of the past, it stands as a symbol of the divine mission of the Basileía Romaíon. Within its halls imperial ceremony and sacred tradition intertwine, reinforcing the bond between throne and altar."
