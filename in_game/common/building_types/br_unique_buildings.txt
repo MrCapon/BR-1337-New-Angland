@@ -111,7 +111,7 @@ br_hagia_sophia_building = {
 		monthly_religious_influence = 0.1
 	}
 	modifier = {
-		local_cultural_tradition = 0.25
+		local_cultural_tradition = 0.5
 		local_clergy_max_literacy = 20
 		local_clergy_desired_pop = 1
 	}
@@ -506,7 +506,7 @@ br_mount_athos_building = {
 	is_foreign = no
 	max_levels = 1
 	pop_type = clergy
-	icon = bodrum_castle #adm_vatican_library herrenchiemsee_abbey fortress_church papal_archives
+	icon = fortress_church
 	
 	employment_size = religious_building_employment
 	
@@ -535,23 +535,14 @@ br_mount_athos_building = {
     possible_production_methods = {
 		monastery_maintenance
 	}
-	capital_country_modifier = {
-		monthly_towards_spiritualist = 0.02
-		monthly_religious_influence = 0.1
-	}
 	modifier = {
 		local_clergy_desired_pop = 1
 		local_cultural_tradition = 1
 		local_clergy_estate_power = 10
-		cannot_upgrade_location = yes
 		local_max_control = -1
-		local_garrison_size = 0.1
+		cannot_upgrade_location = yes
 		local_clergy_conversion_blocked = yes
     }
-	raw_modifier = {
-		fort_level = 1
-		propagating_zone_of_control = no
-	}
 	construction_demand = town_building_construction
 }
 
@@ -560,7 +551,7 @@ br_agioi_apostoloi_building = {
 	is_foreign = no
 	max_levels = 1
 	pop_type = clergy
-	icon = herrenchiemsee_abbey #adm_vatican_library papal_archives
+	icon = br_agioi_apostoloi_building #herrenchiemsee_abbey #adm_vatican_library papal_archives
 
 	category = religious_category
 
@@ -602,11 +593,10 @@ br_agioi_apostoloi_building = {
 		monthly_prestige = 0.02
 		tolerance_own = 0.1
 		stability_investment = 0.01
-		monthly_religious_influence = 0.1
 		maximum_religious_influence = 50
 	}
 	modifier = {
-		local_cultural_tradition = 0.25
+		local_cultural_tradition = 0.5
 		local_clergy_desired_pop = 1
 	}
 
