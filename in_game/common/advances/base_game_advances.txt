@@ -2458,7 +2458,7 @@ REPLACE_OR_CREATE:neapolitan_army_reforms = {
 	requires = levee_en_masse_advance
 }
 
-italian_universities = {
+REPLACE_OR_CREATE:italian_universities = {
 	age = age_1_traditions
 	icon = scholasticism
 
@@ -2474,7 +2474,7 @@ italian_universities = {
 	requires = guilds
 }
 
-italy_great_families = {
+REPLACE_OR_CREATE:italy_great_families = {
 	age = age_2_renaissance
 	icon = cultural_acceptance_advance
 	potential = {
@@ -2489,7 +2489,7 @@ italy_great_families = {
 	requires = correct_box_advance_renaissance
 }
 
-italian_innovativeness = {
+REPLACE_OR_CREATE:italian_innovativeness = {
 	age = age_3_discovery
 	icon = genoese_banking_traditions
 
@@ -2504,7 +2504,7 @@ italian_innovativeness = {
 	requires = study_institutions_advance
 }
 
-italian_condottieri = {
+REPLACE_OR_CREATE:italian_condottieri = {
 	age = age_4_reformation
 	icon = glorious_arms
 
@@ -2518,5 +2518,210 @@ italian_condottieri = {
 	hire_mercenary_leader_cost_modifier = -0.2
 
 	requires = trade_envoys
+}
+
+##Roman
+
+REPLACE_OR_CREATE:rom_spqr = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+	requires = distribution_of_power_advance
+
+	icon = crown_power_advance_renaissance
+	
+	parliament_base_support = 0.2
+}
+
+REPLACE_OR_CREATE:rom_pax_romana = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+	requires = subjects_advance
+
+	icon = gel_healthy_economy
+	
+	stability_cost = -0.1
+	global_monthly_prosperity = 0.002
+}
+
+REPLACE_OR_CREATE:rom_restore_the_legions = {
+	age = age_2_renaissance
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+	requires = professional_armies_advance
+
+	icon = teu_crusader_discipline
+
+	army_infantry_power = 0.1
+	discipline = 0.025
+}
+
+REPLACE_OR_CREATE:rom_revival_of_arts_and_culture = {
+	age = age_2_renaissance
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+	requires = patron_of_art
+
+	icon = patron_of_art
+	
+	skill_of_new_artists = 0.1
+}
+
+REPLACE_OR_CREATE:rom_new_corpus_juris_civilis = {
+	age = age_3_discovery
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = printing_press_advance
+	
+	icon = legalism_advance
+
+	unlock_policy = new_corpus_juris_civilis
+}
+
+REPLACE_OR_CREATE:rom_bread_and_circuses = {
+	age = age_3_discovery
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = crown_power_advance_discovery
+	
+	icon = pun_breadbasket_of_india
+
+	global_estate_target_satisfaction = small_permanent_target_satisfaction
+
+}
+
+REPLACE_OR_CREATE:rom_citizenship = {
+	age = age_4_reformation
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = confessionalism_advance
+	
+	icon = cultural_acceptance_advance
+
+	cultures_capacity_modifier = 0.2
+}
+
+REPLACE_OR_CREATE:rom_all_roads_lead_to_rome = {
+	age = age_4_reformation
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = road_advance_1
+	
+	icon = glory_of_rome
+
+	road_cost_on_distance_from_capital = -5
+}
+
+REPLACE_OR_CREATE:rom_provincial_governors = {
+	age = age_5_absolutism
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = absolutist_court
+
+	icon = modern_road_advance
+
+
+	global_distance_from_capital_speed_propagation = 0.1
+}
+
+REPLACE_OR_CREATE:rom_imperium_sine_fine = {
+	age = age_5_absolutism
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = absolute_rulership
+
+	icon = expansionism
+
+	global_integration_speed_modifier = 0.1
+	global_separatism = -0.05
+}
+
+REPLACE_OR_CREATE:rom_triumphs = {
+	age = age_5_absolutism
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = national_sovereignty
+
+	icon = colonial_militia
+
+
+	army_tradition_decay = -0.001
+}
+
+REPLACE_OR_CREATE:rom_roman_architecture = {
+	age = age_6_revolutions
+
+	potential = {
+		OR = {
+			has_or_had_tag = ROM
+			has_or_had_tag = IMP
+		}
+	}
+
+	requires = industrialization_advance
+
+	icon = efficient_construction_plans
+
+
+	building_upkeep_costs = -0.15
 }
 
