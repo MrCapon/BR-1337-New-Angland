@@ -5939,6 +5939,12 @@ building_manager = {
 	guild_hall = { tag = BYZ level = 1 location = constantinople }
 	merchants_guild = { tag = BYZ level = 1 location = constantinople }
 	artisan_guilds = { tag = BYZ level = 1 location = constantinople }
+	noble_villa = { tag = BYZ level = 1 location = enez }
+	noble_villa = { tag = BYZ level = 1 location = kesan }
+	noble_villa = { tag = BYZ level = 1 location = rodoscuk }
+	noble_villa = { tag = BYZ level = 1 location = corlu }
+	noble_villa = { tag = BYZ level = 1 location = catalca }
+	noble_villa = { tag = BYZ level = 1 location = kiyikoy }
 	noble_villa = { tag = BYZ level = 1 location = silivri }
 	merchants_guild = { tag = BYZ level = 1 location = edirne }
 	noble_villa = { tag = ATH level = 1 location = gravia }
@@ -5986,7 +5992,25 @@ building_manager = {
 	burgher_mansion = { tag = BUL level = 1 location = plovdiv }	
 	artisan_guilds = { tag = BUL level = 1 location = plovdiv }
 	parish_church	= { tag = THP level = 1 location = tirana }
-	noble_villa = { tag = BYZ level = 1 location = uskudar }
+	burgher_mansion = { tag = NAX level = 1 location = foca }
+	burgher_mansion = { tag = NAX level = 1 location = samos }
+	burgher_mansion = { tag = CRT level = 1 location = candia }
+	burgher_mansion = { tag = K1B level = 1 location = rodos }
+	burgher_mansion = { tag = BYZ level = 1 location = milas }
+	burgher_mansion = { tag = CYP level = 1 location = nicosia_cyp }
+	burgher_mansion = { tag = CYP level = 1 location = larnaca }
+	burgher_mansion = { tag = GAZ level = 1 location = amasra }
+	burgher_mansion = { tag = CEP level = 1 location = cephalonia }
+	noble_villa = { tag = BYZ level = 1 location = silli }
+	noble_villa = { tag = BYZ level = 1 location = atpazari }
+	noble_villa = { tag = BYZ level = 1 location = biga }
+	noble_villa = { tag = BYZ level = 1 location = seyhli }
+	noble_villa = { tag = BYZ level = 1 location = usak }
+	noble_villa = { tag = BYZ level = 1 location = gediz }
+	noble_villa = { tag = BYZ level = 1 location = sandikli }
+	noble_villa = { tag = BYZ level = 1 location = kula }
+	noble_villa = { tag = BYZ level = 1 location = cesme }
+	noble_villa = { tag = BYZ level = 2 location = uskudar }
 	noble_villa = { tag = BYZ level = 1 location = bilecik }
 	noble_villa = { tag = BYZ level = 1 location = akcasehir }
 	noble_villa = { tag = BYZ level = 1 location = bozan }
