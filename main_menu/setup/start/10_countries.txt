@@ -4191,7 +4191,9 @@ countries = {
 			accepted_cultures = {
 				pontic_greek_culture
 			}
-
+			currency_data = {
+				gold = 2200
+			}
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -18362,7 +18364,9 @@ countries = {
 			accepted_cultures = {
 				greek_culture
 			}
-			
+			currency_data = {
+				gold = 1500
+			}
 			court_language = venetian_dialect
 			capital = negroponte
 		}
@@ -52748,7 +52752,7 @@ countries = {
 			
 			country_rank = rank_county
 			currency_data = {
-				gold = 2000
+				gold = 5000
 				stability = 100
 				government_power = 100
 			}
@@ -52794,7 +52798,7 @@ countries = {
 			
 			country_rank = rank_county
 			currency_data = {
-				gold = 2000
+				gold = 5000
 				stability = 100
 				government_power = 100
 			}
@@ -52840,7 +52844,7 @@ countries = {
 			
 			country_rank = rank_county
 			currency_data = {
-				gold = 2000
+				gold = 5000
 				stability = 100
 				government_power = 100
 			}
