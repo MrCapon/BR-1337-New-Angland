@@ -54,4 +54,5 @@ REPLACE_OR_CREATE:TUR = {
 }
 INJECT:CIL = {
 	culture_definition = kilikioi_greek_culture
+	religion_definition = orthodox
 }
