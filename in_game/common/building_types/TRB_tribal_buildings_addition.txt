@@ -8,6 +8,9 @@
 	
 	rural_settlement = yes
 	
+	country_potential = {
+		has_tribal_government = yes
+	}
 	location_potential = {
 		is_overseas_for_owner = no
 		OR = {
@@ -24,25 +27,19 @@
 		}
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
-		
-	
 	build_time = village_build_time
-	
+
 	unique_production_methods = {
-		tribal_agriculture_maintenance = {
-			tools = 0.01
-			clay = 0.15
-			
-			output = 0.75
-			
+		farming_village_maintenance = {
+			tools = 0.025
+			clay = 1.0
+			output = 0.5
 			produced = livestock
-			
 			debug_max_profit = 0.6
-	
 			category = building_maintenance
 		}
 	}
@@ -51,9 +48,8 @@
 
 	modifier = {
 		local_food_capacity = 100
-		local_monthly_food_modifier = 0.05	
-		local_tribes_estate_power = 0.25		#25% higher here.
-
+		local_monthly_food_modifier = 0.04
+		local_tribes_estate_power = 0.25
 	}
 }
 
@@ -68,12 +64,14 @@ tribal_market_villages = {
 	
 	category = village_category
 	
-		
+	country_potential = {
+		has_tribal_government = yes
+	}
 	location_potential = {
 		is_overseas_for_owner = no
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
@@ -81,64 +79,46 @@ tribal_market_villages = {
 
 	construction_demand = village_construction
 
-
 	unique_production_methods = {
-		tribal_blacksmith = {
+		rural_blacksmith = {
 			produced = tools
-			output = 0.52
-		
-			iron = 0.2
-			debug_max_profit = 0.3
-			category = guild_input
-		}
-		tribal_coppersmith = {
-			produced = tools
-			output = 0.52
-		
-			copper = 0.2
+			output = 0.5
+			iron = 0.4
 			category = guild_input
 		}
 		
-		tribal_glassmaker = {
+		rural_glassmaker = {
 			produced = glass
-			output = 0.2
-			sand = 0.2
-
+			output = 0.3
+			sand = 1.0
 			category = guild_input
 		}
 
-		tribal_millet_brewery = {
-			millet = 0.2
-			lumber = 0.03
-			tools = 0.02
-			
+		rural_millet_brewery = {
+			millet = 0.5
+			lumber = 0.1
+			tools = 0.07
 			produced = beer
-			output = 0.25
-
-			
+			output = 0.5
 			category = guild_input
 		}
-		tribal_weaponmaker = {
+		rural_weaponmaker = {
 			produced = weaponry
-			output = 0.25
-		
-			lumber = 0.15
+			output = 0.2
+			lumber = 0.32
 			category = guild_input
 		}
-		tribal_jewelry_carver = {
+		rural_jewelry_carver = {
 			produced = jewelry
-			output = 0.05
-		
-			stone = 0.2
+			output = 0.1
+			stone = 0.4
 			category = guild_input
 		}
 		
-		tribal_pottery_maker = {
+		rural_pottery_maker = {
 			produced = pottery
-			output = 0.1
-		
-			clay = 0.15
-			debug_max_profit = 0.3
+			output = 0.2
+			clay = 0.33
 			category = guild_input
 		}
 	}
@@ -148,10 +128,9 @@ tribal_market_villages = {
 		local_merchant_power = 0.10
 		local_food_capacity = 50
 		local_tribes_estate_power = 0.25
-
-		
 	}
 }
+
 tribal_war_camp = {
 	is_foreign = no
 	max_levels = 1
@@ -165,15 +144,16 @@ tribal_war_camp = {
 
 	construction_demand = village_construction
 	
-	
+	country_potential = {
+		has_tribal_government = yes
+	}
 	location_potential = {
 		is_overseas_for_owner = no
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
-	
 	
 	unique_production_methods = {
 		tribal_war_camp_maintenance = { #br refactored
@@ -183,14 +163,13 @@ tribal_war_camp = {
 	}
 
 	modifier = {
-		local_levy_size_modifier = 0.25
+		local_levy_size_modifier = 0.5
 		manpower_to_building_owner = 0.01
 		local_tribes_estate_power = 1
-		#local_proximity_source = 5 #br added
 	}
-	
-	
+
 }
+
 tribal_hunting_lodge = {
 	is_foreign = no
 	max_levels = 3
@@ -204,7 +183,9 @@ tribal_hunting_lodge = {
 
 	construction_demand = village_construction
 	
-	
+	country_potential = {
+		has_tribal_government = yes
+	}
 	location_potential = {
 		is_overseas_for_owner = no
 		OR = {
@@ -214,24 +195,31 @@ tribal_hunting_lodge = {
 		}
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
-	
 	unique_production_methods = {
-		tribal_hunting_lodge_input = {
-			produced = wild_game #br added
-			
-			output = 1.0 #br added
-			weaponry = 0.03
+		forest_tannery = {
+			produced = leather
+			output = 0.2
+			sand = 0.1
+			tar = 0.02
+			wild_game = 0.4
+			category = building_maintenance
+		}
+		hunting_lodges = {
+			produced = wild_game
+			output = 0.20
+			weaponry = 0.05
+			debug_max_profit = 0.4
 			category = building_maintenance
 		}
 	}
 
 	modifier = {
-		local_tribesmen_food_consumption = -0.2
-		gold_to_building_owner = 0.05
+		local_monthly_food = 1.0
+		local_tribes_estate_power = 0.25
 	}
 	
 	
