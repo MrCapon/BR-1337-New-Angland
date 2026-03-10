@@ -1192,7 +1192,7 @@ building_manager = {
 	tar_kiln = { tag = SWE level = 1 location = ekenas }
 	tar_kiln = { tag = SWE level = 1 location = poytis }
 	
-	weapon_guild = { tag = SWE level = 2 location = stockholm }
+	weapon_guild = { tag = SWE level = 3 location = stockholm }
 	wharf = { tag = SWE level = 1 location = stockholm }
 	
 	# Baltics
@@ -3456,13 +3456,10 @@ building_manager = {
 	nobles_recruitment_center = { tag = MAM level = 1 location = el_bahnasa }
 	nobles_recruitment_center = { tag = MAM level = 1 location = samanoud }
 	nobles_recruitment_center = { tag = MAM level = 1 location = kafr_saqr }
-	weapon_guild = { tag = MAM level = 8 location = cairo }
-	weapon_guild = { tag = MAM level = 4 location = damascus }
 	jewelry_guild = { tag = MAM level = 2 location = cairo }
 	jewelry_guild = { tag = MAM level = 1 location = damascus }
 	jewelry_guild = { tag = DUL level = 1 location = aleppo }
-	weapon_guild = { tag = TUN level = 2 location = kairouan }
-	weapon_guild = { tag = TUN level = 2 location = tunis }
+	
 
 	sand_pit = { tag = DUL level = 2 location = aleppo }
 	bog_iron_smelter = { tag = DUL level = 2 location = jabbul }
@@ -3488,7 +3485,7 @@ building_manager = {
 	#Caucasus
 
 	missionary_building = { tag = PAP level = 1 location = sukhumi }
-	university	= { tag = VDZ level = 1	location = gladzor }
+	university	= { tag = ARM level = 1	location = ani }
 
 	#Khmer Empire
 	royal_garden = { tag = KHM level = 1 location = angkor }
@@ -4204,7 +4201,7 @@ building_manager = {
 	pottery_guild = { tag = BYZ level = 4 location =  constantinople }
 	jewelry_guild = { tag = BYZ level = 5 location =  constantinople }
 	tools_guild = { tag = BYZ level = 4 location =  constantinople }
-	weapon_guild = { tag = BYZ level = 4 location =  constantinople }
+	weapon_guild = { tag = BYZ level = 5 location =  constantinople }
 	scriptorium = { tag = BYZ level = 8 location =  constantinople }
 	hospital = { tag = BYZ level = 1 location =  constantinople }
 	library = { tag = BYZ level = 1 location =  constantinople }
@@ -4215,6 +4212,25 @@ building_manager = {
 	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
 	construction_center = { tag = BYZ level = 1 location =  constantinople }
 	
+	#Logistic/Admin hubs
+	br_apothekai_building = { tag = AOI level = 1 location = antioch }
+	br_apothekai_building = { tag = THE level = 1 location = thessaloniki }
+	br_apothekai_building = { tag = KAP level = 1 location = kayseri }
+	br_apothekai_building = { tag = BYZ level = 1 location = edirne }
+
+	br_praitoria_building = { tag = BYZ level = 1 location = edirne }
+	br_praitoria_building = { tag = BYZ level = 1 location = smyrna }
+
+	br_stationes_building = { tag = BYZ level = 1 location = bozan }
+	br_stationes_building = { tag = BYZ level = 1 location = manisa }
+	br_stationes_building = { tag = BYZ level = 1 location = sogut }
+	br_stationes_building = { tag = BYZ level = 1 location = honaz }
+	
+	br_stationes_building = { tag = BYZ level = 1 location = vize }
+	br_stationes_building = { tag = S1Y level = 1 location = serres }
+	br_stationes_building = { tag = B0R level = 1 location = ostrovo }
+	br_stationes_building = { tag = EPI level = 1 location = ioannina }
+
 	#Greece - Macedonia
 	dock = { tag = THE level = 1 location = thessaloniki }
 	wharf = { tag = THE level = 1 location = thessaloniki }
@@ -4422,11 +4438,8 @@ building_manager = {
 	bailiff = { tag = BUL level = 1 location = sozopol }
 	bailiff = { tag = BUL level = 1 location = kucevo }
 	tannery = { tag = BUL level = 2 location = tarnovo }
-	weapon_guild = { tag = BUL level = 4 location = tarnovo }
 	tools_guild = { tag = BUL level = 2 location = plovdiv }
 	horse_breeders = { tag = BUL level = 1 location = plovdiv }
-	weapon_guild = { tag = HUN level = 4 location = buda }
-	weapon_guild = { tag = HUN level = 4 location = pest }
 	bailiff = { tag = ARM level = 1 location = yerevan }
 
 	br_bandits_building = { tag = BUL level = 1 location = beden }
@@ -4481,10 +4494,7 @@ building_manager = {
 	thema_headquarters = { tag = CYP level = 1 location = nicosia_cyp }
 	thema_headquarters = { tag = KAP level = 1 location = sivas }
 
-	weapon_guild = { tag = AON level = 3 location = ankara }
-	weapon_guild = { tag = ICO level = 2 location = konya }
-	weapon_guild = { tag = ICO level = 2 location = sivas }
-	weapon_guild = { tag = KAP level = 4 location = kayseri }
+	
 
 	#Balkans
 	thema_headquarters = { tag = DYR level = 1 location = durres }
@@ -4707,16 +4717,45 @@ building_manager = {
 	farming_village = { tag = B0R level = 1 location = ostrovo }
 	br_soldier_farmers = { tag = B0R level = 1 location = kastoria }
 	
-
-
+	
 	#Extra Weapon Guilds
-	weapon_guild = { tag = ARM level = 2 location = ani }
-	weapon_guild = { tag = GEO level = 2 location = tbilisi }
+	
 	weapon_guild = { tag = LON level = 4 location = leon }
+	weapon_guild = { tag = LIT level = 4 location = vilnius }
+	weapon_guild = { tag = MLO level = 4 location = milano }
+	weapon_guild = { tag = LOT level = 6 location = metz }
+	weapon_guild = { tag = BUL level = 4 location = tarnovo }
+	weapon_guild = { tag = BUL level = 3 location = sredets }
+	weapon_guild = { tag = BUL level = 2 location = vidin }
+	weapon_guild = { tag = SE1 level = 2 location = belgrad }
+	weapon_guild = { tag = SE2 level = 2 location = nis }
+	weapon_guild = { tag = B1L level = 3 location = skopje }
+	weapon_guild = { tag = B1L level = 2 location = ohrid }
+	weapon_guild = { tag = HUN level = 4 location = buda }
+	weapon_guild = { tag = HUN level = 4 location = pest }
+	weapon_guild = { tag = SER level = 3 location = prizren }
+	weapon_guild = { tag = MOS level = 4 location = moscow }
+
+	weapon_guild = { tag = THE level = 4 location = thessaloniki }
+	weapon_guild = { tag = AON level = 3 location = ankara }
+	weapon_guild = { tag = ICO level = 3 location = konya }
+	weapon_guild = { tag = ICO level = 2 location = sivas }
+	weapon_guild = { tag = KAP level = 4 location = kayseri }
+	weapon_guild = { tag = ARM level = 4 location = ani }
+	weapon_guild = { tag = GEO level = 4 location = tbilisi }
+
 	weapon_guild = { tag = DUL level = 3 location = aleppo }
-	weapon_guild = { tag = LIT level = 3 location = vilnius }
-	weapon_guild = { tag = MLO level = 3 location = milano }
-	weapon_guild = { tag = LOT level = 4 location = metz }
+	weapon_guild = { tag = MAM level = 8 location = cairo }
+	weapon_guild = { tag = MAM level = 5 location = damascus }
+	weapon_guild = { tag = TUN level = 3 location = kairouan }
+	weapon_guild = { tag = TUN level = 2 location = tunis }
+	weapon_guild = { tag = TUR level = 2 location = mosul }
+	weapon_guild = { tag = TUR level = 4 location = tabriz }
+	weapon_guild = { tag = AIA level = 2 location = baghdad }
+
+	weapon_guild = { tag = ADU level = 2 location = cordoba }
+	weapon_guild = { tag = GLH level = 4 location = sarai_al_jadid }
+	weapon_guild = { tag = GLH level = 3 location = astrakhan }
 
 	charcoal_maker = { tag = LIT level = 1 location = svencionys }
 	charcoal_maker = { tag = LIT level = 1 location = kernave }
@@ -4819,10 +4858,8 @@ building_manager = {
 	madrasa = { tag = TUR level = 1	location = samarra }
 	seljuk_mint = { tag = TUR level = 2 location = mosul }
 	counting_house = { tag = TUR level = 1 location = mosul }
-	weapon_guild = { tag = TUR level = 2 location = mosul }
 	funduq = { tag = TUR level = 1 location = mosul }
 	seljuk_mint = { tag = TUR level = 2 location = tabriz }
-	weapon_guild = { tag = TUR level = 4 location = tabriz }
 	seljuk_mint = { tag = AIA level = 2 location = baghdad }
 	marketplace	= { tag = AIA level = 15 location = baghdad }
 	trading_hub = { tag = AIA level = 1 location = baghdad }
@@ -4838,7 +4875,6 @@ building_manager = {
 	porcelain_guild = { tag = AIA level = 4 location = baghdad }
 	pottery_guild = { tag = AIA level = 2 location = baghdad }
 	tools_guild = { tag = AIA level = 4 location = baghdad }
-	weapon_guild = { tag = AIA level = 2 location = baghdad }
 	scriptorium = { tag = AIA level = 6 location = baghdad }
 	hospital = { tag = AIA level = 1 location = baghdad }
 	library = { tag = AIA level = 1 location = baghdad }
@@ -4878,7 +4914,6 @@ building_manager = {
 	porcelain_guild = { tag = ADU level = 4 location =  cordoba }
 	pottery_guild = { tag = ADU level = 2 location =  cordoba }
 	tools_guild = { tag = ADU level = 2 location =  cordoba }
-	weapon_guild = { tag = ADU level = 2 location =  cordoba }
 	scriptorium = { tag = ADU level = 6 location =  cordoba }
 	hospital = { tag = ADU level = 1 location =  cordoba }
 	library = { tag = ADU level = 1 location =  cordoba }
@@ -5037,7 +5072,6 @@ building_manager = {
 
 # steppes 
 	kurultai = { tag = GLH level = 1 location = sarai_al_jadid }
-	weapon_guild = { tag = GLH level = 4 location = sarai_al_jadid }
 	slave_market = { tag = GLH level = 3 location = sarai_al_jadid }
 	caravanserai = { tag = GLH level = 1 location = sarai_al_jadid }
 	kurultai = { tag = GLH level = 1 location = dubovskoye }
@@ -5047,7 +5081,6 @@ building_manager = {
 	kurultai = { tag = GLH level = 1 location = astrakhan }
 	slave_market = { tag = GLH level = 5 location = astrakhan }
 	caravanserai = { tag = GLH level = 1 location = astrakhan }
-	weapon_guild = { tag = GLH level = 3 location = astrakhan }
 	kurultai = { tag = GLH level = 1 location = khosheutovo }
 	caravanserai = { tag = GLH level = 1 location = khosheutovo }
 	kurultai = { tag = GLH level = 1 location = saryadyn }
@@ -5092,7 +5125,6 @@ building_manager = {
 	scriptorium	= { tag = MOS level = 1	location = moscow }
 	paper_guild	= { tag = MOS level = 3	location = moscow }
 	furniture_guild	= { tag = MOS level = 3	location = moscow }
-	weapon_guild	= { tag = MOS level = 4	location = moscow }
 	
 	nobles_recruitment_center = { tag = MOS level = 1	location = kolomna }
 	nobility_fortifications = { tag = MOS level = 1	location = kolomna }
