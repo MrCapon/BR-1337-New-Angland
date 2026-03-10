@@ -107,3 +107,15 @@
 
  br_agioi_apostoloi_building: "Church of the Holy Apostles"
  br_agioi_apostoloi_building_desc: "The venerable Church of the Holy Apostles is one of the most sacred shrines of Constantinople and the traditional resting place of Roman emperors. Raised in honor of the Twelve Apostles and rebuilt by the great emperors of the past, it stands as a symbol of the divine mission of the Basileía Romaíon. Within its halls imperial ceremony and sacred tradition intertwine, reinforcing the bond between throne and altar."
+
+ br_apothekai_building: "Apothēkai"
+ br_apothekai_building_desc: "Imperial storehouses known as apothēkai serve as logistical depots for the state. Here grain, equipment, and other supplies are gathered and distributed along the roads and ports of the realm, ensuring that garrisons remain provisioned and that imperial authority can be sustained even in distant provinces."
+
+ br_stationes_building: "Stationes"
+ br_stationes_building_desc: "Imperial road stations established along the highways of the realm. These posts house patrols, officials, and messengers who supervise trade, maintain order, and ensure the steady movement of goods and travelers along the empire’s roads."
+
+ br_praitoria_building: "Praitoria"
+ br_praitoria_building_desc: "Provincial headquarters from which imperial officials administer taxation, justice, and the enforcement of imperial law. Staffed by soldiers, clerks, and magistrates, these offices extend the authority of the throne into the cities and provinces of the realm."
+ br_praitoria_building_maintenance: "Praitoria Administration"
+
+

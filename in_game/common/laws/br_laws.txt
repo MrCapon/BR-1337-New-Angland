@@ -135,6 +135,7 @@ INJECT:medieval_levy_law = {
 			monthly_towards_quality = societal_value_monthly_move
 			levy_combat_efficiency_modifier = 0.15
 			levy_recovery_modifier = 0.15
+			peasants_estate_max_tax = -0.06
 		}
 		potential = {
 			culture = { has_culture_group = culture_group:greek_group }
@@ -150,7 +151,7 @@ INJECT:medieval_levy_law = {
 			nobles_estate_levy_size = 0.5
 			levy_combat_efficiency_modifier = 0.25
 			levy_recovery_modifier = 0.25
-			peasants_estate_max_tax = -0.1
+			peasants_estate_max_tax = -0.04
 			monthly_towards_quality = societal_value_monthly_move
 		}
 		potential = {
@@ -208,3 +209,35 @@ INJECT:piracy_law = {
 		years = 2
 	}
 }
+
+#unlock_law_effect = { type = br_military_frontier }
+#add_policy = policy:br_frontier_maintained
+
+br_military_frontier = {
+	law_category = military
+	potential = {
+		has_unlocked_law_trigger = { type = br_military_frontier }
+	}
+
+	br_frontier_maintained = {
+		country_modifier = {
+			fort_maintenance_cost = 0.10
+			global_defensive = 0.1
+		}
+		estate_preferences = {
+			peasants_estate
+		}
+		years = 2
+	}
+	br_frontier_not_maintained = {
+		country_modifier = {
+			fort_maintenance_cost = -0.10
+			global_defensive = -0.10
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+}
+

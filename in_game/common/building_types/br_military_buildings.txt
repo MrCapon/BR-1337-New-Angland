@@ -81,6 +81,7 @@ orthodox_order_commandery = {
 }
 
 br_varangian_recruitment_building = {
+	is_special = yes
 	is_foreign = yes
 	stronger_power_projection = no
 	need_good_relation = no
@@ -181,6 +182,7 @@ br_naval_theme_hq = {
 }
 
 br_varangian_camp = {
+	is_special = yes
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
@@ -224,6 +226,7 @@ br_varangian_camp = {
 }
 
 br_tagmata_camp = {
+	is_special = yes
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
@@ -267,10 +270,11 @@ br_tagmata_camp = {
 }
 
 br_soldier_farmers = { #thema estates
+	is_special = yes
 	is_foreign = no
 	max_levels = 1
 	pop_type = soldiers
-	icon = kastellet #thema_headquarters
+	icon = kastellet
 
 	category = village_category
 	estate = peasants_estate
@@ -358,6 +362,7 @@ br_soldier_farmers = { #thema estates
 }
 
 br_pronoia_estate = { #pronoia estates
+	is_special = yes
 	is_foreign = no
 	max_levels = 1
 	pop_type = nobles
@@ -409,6 +414,7 @@ br_pronoia_estate = { #pronoia estates
 }
 
 br_pyrgoi = {#frontier watchtowers
+	is_special = yes
 	max_levels = 1
 	pop_type = soldiers
 	icon = peel_towers
@@ -466,6 +472,7 @@ br_pyrgoi = {#frontier watchtowers
 }
 
 br_kleisourai = {#fortified mountain passes
+	is_special = yes
 	max_levels = 1
 	pop_type = soldiers
 	icon = walls_of_benin
@@ -506,7 +513,7 @@ br_kleisourai = {#fortified mountain passes
 	modifier = {
 		local_garrison_size = 0.050
 		local_hostile_attrition = 0.25
-		local_defensive = 0.25
+		local_defensive = 0.1
 	}
 	
 	raw_modifier = {
@@ -527,6 +534,7 @@ br_kleisourai = {#fortified mountain passes
 ### Tier 2 / Age 3 ###
 
 br_varangian_barracks = {
+	is_special = yes
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
@@ -573,6 +581,7 @@ br_varangian_barracks = {
 }
 
 br_tagmata_barracks = {
+	is_special = yes
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1
@@ -597,9 +606,7 @@ br_tagmata_barracks = {
 	country_potential = {
 		has_or_had_tag = BYZ
 	}
-	allow = {
-		has_or_had_tag = BYZ
-	}
+	allow = { is_province_capital = yes }
 	remove_if = {
 		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	}
@@ -620,6 +627,7 @@ br_tagmata_barracks = {
 }
 
 br_stratiotikon_thema_estate = { #Military Theme
+	is_special = yes
 	is_foreign = no
 	max_levels = 1
 	pop_type = soldiers
@@ -713,6 +721,7 @@ br_stratiotikon_thema_estate = { #Military Theme
 }
 
 br_kekhrismene_pronoia = { #pronoia estates
+	is_special = yes
 	is_foreign = no
 	max_levels = 1
 	pop_type = nobles
@@ -763,4 +772,127 @@ br_kekhrismene_pronoia = { #pronoia estates
 		local_manpower = 0.002
 		#local_pop_assimilation_speed = 0.001
     }
+}
+
+#make advances
+
+br_apothekai_building = {#Apothēkai – logistical depots
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = burghers
+	category = trade_category
+	employment_size = trade_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	build_time = infrastructure_build_time
+	
+	country_potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	
+	allow = {
+		is_capital = no
+		OR = {
+   			is_province_capital = yes
+    		has_fort = yes
+		}
+		OR = {
+   			has_road_to_capital = yes
+			has_ports = yes
+		}
+	}
+
+	construction_demand =  warehouse_construction
+	possible_production_methods = {
+		warehouse_maintenance
+	}
+	modifier = {
+		local_food_capacity = 150
+		local_monthly_control = 0.001
+		local_supply_limit_modifier = 0.75
+		local_army_attrition = -0.75
+	}
+	market_center_modifier = {
+		maximum_stockpile_capacity = 25
+	}
+}
+
+br_stationes_building = { #Imperial road stations where officials and patrols maintain order along the highways.
+	is_special = yes
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1
+	category = trade_category
+	employment_size = 0.1
+	rural_settlement = yes
+	
+	build_time = cultural_building_time
+	
+	country_potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	location_potential = {
+		is_capital = no
+		has_road_to_capital = yes
+	}
+
+	modifier = {
+		local_merchant_power = 0.5
+		local_merchant_capacity = 0.1
+		local_monthly_control = 0.001
+		local_crown_estate_power = 0.1
+	}
+
+	possible_production_methods = {
+		rahdar_maintenance
+	}
+	construction_demand = rahdar_construction
+}
+
+br_praitoria_building = { #Provincial administrative headquarters where imperial officials oversee taxation, justice, and the enforcement of imperial law.
+	is_special = yes
+	is_foreign = no
+	max_levels = 1
+	pop_type = soldiers
+	category = government_category
+	employment_size = manpower_employment
+	rural_settlement = no
+	town = no
+	city = yes
+	
+	country_potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+
+	location_potential = {
+		is_capital = no
+		is_province_capital = yes
+		OR = {
+   			has_road_to_capital = yes
+			has_ports = yes
+		}
+	}
+
+	modifier = {
+		local_crown_estate_power = 0.1
+		local_max_urban_control = 0.025
+		local_proximity_source = 5
+		local_unrest = -0.05
+	}
+
+	unique_production_methods = {
+		br_praitoria_building_maintenance = {
+			lumber = 0.1
+			masonry = 0.1
+			tools = 0.02
+			paper = 0.05
+			category = building_maintenance
+		}
+	}
+	construction_demand = army_infrastructure_construction
+	build_time = infrastructure_build_time
+
 }
