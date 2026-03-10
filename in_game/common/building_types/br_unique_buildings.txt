@@ -60,7 +60,7 @@ br_hagia_sophia_building = {
 
 	category = religious_category
 
-	employment_size = large_religious_building_employment
+	employment_size = huge_religious_building_employment
 
 	rural_settlement = no
 	town = no
@@ -191,7 +191,7 @@ br_constantinople_university = {
 	
 	
 	category = cultural_category
-	employment_size = large_religious_building_employment
+	employment_size = huge_religious_building_employment
 	
 	rural_settlement = no
 	town = no
@@ -508,7 +508,7 @@ br_mount_athos_building = {
 	pop_type = clergy
 	icon = fortress_church
 	
-	employment_size = religious_building_employment
+	employment_size = huge_religious_building_employment
 	
 	category = estate_category
 	
@@ -555,7 +555,7 @@ br_agioi_apostoloi_building = {
 
 	category = religious_category
 
-	employment_size = large_religious_building_employment
+	employment_size = huge_religious_building_employment
 
 	rural_settlement = no
 	town = no

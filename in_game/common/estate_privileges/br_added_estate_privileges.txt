@@ -173,6 +173,7 @@ br_frontier_expansion_privilege = {
 		global_levy_size_modifier = 0.1
 		monthly_towards_decentralization = societal_value_minor_monthly_move
 		monthly_towards_belligerent = societal_value_minor_monthly_move
+		tribes_estate_target_satisfaction = -0.25
 	}
 }
 

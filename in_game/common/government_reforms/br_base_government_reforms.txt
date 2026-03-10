@@ -159,14 +159,14 @@ REPLACE_OR_CREATE:modern_imperial_army = {
 		}
 	}
 	country_modifier = {
+		global_crown_estate_power = 0.1
+		army_maintenance_cost = 0.1
 		monthly_towards_centralization = societal_value_minor_monthly_move
 		monthly_towards_quality = societal_value_tiny_monthly_move
 		government_reform_slots = 1
-		#army_maintenance_cost = -0.1
-		#monthly_army_tradition = 0.1
 		allow_thema_headquarters = yes
-		military_tactics = 0.25
-		allow_kentrika = yes
+		military_tactics = 0.1
+		monthly_army_tradition = 0.1
 	}
 	years = 2
 }
