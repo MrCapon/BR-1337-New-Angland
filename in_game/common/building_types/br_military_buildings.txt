@@ -774,7 +774,7 @@ br_kekhrismene_pronoia = { #pronoia estates
     }
 }
 
-#make advances
+#grand_apartment dun_fort
 
 br_apothekai_building = {#Apothēkai – logistical depots
 	is_special = yes
@@ -786,7 +786,7 @@ br_apothekai_building = {#Apothēkai – logistical depots
 	rural_settlement = yes
 	town = yes
 	city = yes
-	#icon = placeholder
+	icon = customs_house #janissary_barracks
 	
 	build_time = infrastructure_build_time
 	
@@ -795,14 +795,14 @@ br_apothekai_building = {#Apothēkai – logistical depots
 	}
 	
 	allow = {
-		is_capital = no
+		#is_capital = no
 		OR = {
    			is_province_capital = yes
     		has_fort = yes
 		}
 		OR = {
    			has_road_to_capital = yes
-			has_ports = yes
+			is_port = yes
 		}
 	}
 
@@ -813,8 +813,8 @@ br_apothekai_building = {#Apothēkai – logistical depots
 	modifier = {
 		local_food_capacity = 150
 		local_monthly_control = 0.001
-		local_supply_limit_modifier = 0.75
-		local_army_attrition = -0.75
+		local_supply_limit_modifier = 1
+		local_army_attrition = -1
 	}
 	market_center_modifier = {
 		maximum_stockpile_capacity = 25
@@ -829,7 +829,7 @@ br_stationes_building = { #Imperial road stations where officials and patrols ma
 	category = trade_category
 	employment_size = 0.1
 	rural_settlement = yes
-	#icon = placeholder
+	icon = bey_fortress
 	
 	build_time = cultural_building_time
 	
@@ -837,7 +837,7 @@ br_stationes_building = { #Imperial road stations where officials and patrols ma
 		culture = { has_culture_group = culture_group:greek_group }
 	}
 	location_potential = {
-		is_capital = no
+		#is_capital = no
 		has_road_to_capital = yes
 	}
 
@@ -846,6 +846,7 @@ br_stationes_building = { #Imperial road stations where officials and patrols ma
 		local_merchant_capacity = 0.1
 		local_monthly_control = 0.001
 		local_crown_estate_power = 0.1
+		local_distance_from_capital_speed_propagation = 0.1
 	}
 
 	possible_production_methods = {
@@ -864,18 +865,18 @@ br_praitoria_building = { #Provincial administrative headquarters where imperial
 	rural_settlement = no
 	town = no
 	city = yes
-	#icon = placeholder
+	icon = papal_archives
 	
 	country_potential = {
 		culture = { has_culture_group = culture_group:greek_group }
 	}
 
 	location_potential = {
-		is_capital = no
+		#is_capital = no
 		is_province_capital = yes
 		OR = {
    			has_road_to_capital = yes
-			has_ports = yes
+			is_port = yes
 		}
 	}
 
