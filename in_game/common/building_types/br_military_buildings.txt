@@ -131,7 +131,7 @@ br_naval_theme_hq = {
 	category = military_category
 	
 	rural_settlement = no
-	town = no
+	town = yes
 	city = yes
 	
 	ai_forbid_shutdown = yes

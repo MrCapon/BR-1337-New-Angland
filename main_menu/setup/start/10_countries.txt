@@ -12580,7 +12580,7 @@ countries = {
 				rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
 				malgara alasehir
 				uskudar silli biga eregli
-				chios vize
+				vize
 				traianopolis demotica
 				kibrus mihaliccik sivrihisar bozan kaymaz
 				bolu gerede mengen
@@ -12597,7 +12597,7 @@ countries = {
 				usak banaz gediz seyhli
 				manisa akhisar demirci gordes kula
 				bergama bigadic soma
-				smyrna ayasuluk cesme menemen urla
+				smyrna ayasuluk menemen urla
 				tire balat birgi guzelhisar nazilli
 				milas
 				mugla cine
@@ -12607,6 +12607,7 @@ countries = {
 				isparta burdur dinar egirdir uluborlu
 				golhisar stefani
 				megri yuksekkum bodrum gokabat
+				chios cesme
 			}
 
 			our_cores_conquered_by_others = {
@@ -12849,11 +12850,11 @@ countries = {
 			#Setup to accurately portray the starting situation
 			currency_data = {
 				gold = 300
-				stability = -5
-				prestige = 45
-				government_power = 10
+				stability = -20
+				prestige = 50
+				government_power = -10
 				inflation = 0.1
-				war_exhaustion = 8
+				war_exhaustion = 10
 				complacency = 40
 			}
 
@@ -54010,11 +54011,12 @@ countries = {
 				canakkale
 				thasos sporades lemnos imbros molyvos mitilene
 				lapseki bayramic ayvacik
+				chios cesme
 			}
 
 			our_cores_conquered_by_others = {
 				samos ikaria foca
-				chios lemnos
+				lemnos
 				corfu kythira andros mykonos amorgos karpathos
 				negroponte kleisoura karystos kymi oreos eretreia
 				naxos kythnos milos

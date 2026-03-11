@@ -167,7 +167,7 @@
 		diplomatic_capacity = 2
 		max_diplomats = 2
 		subject_loyalty = 10
-		monthly_prestige = 0.5
+		monthly_prestige = 0.25
 		court_spending_cost = 0.05
 		
 		allowed_intervene_in_war = yes

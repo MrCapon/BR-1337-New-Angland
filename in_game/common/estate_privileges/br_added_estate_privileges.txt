@@ -9,6 +9,8 @@
 #artist_salary_modifier = 1
 #global_monthly_control = 0.005
 #potential_trigger = {  societal_value:centralization_vs_decentralization >= -50}
+#monthly_pretender_rebel_growth  = 0.025
+#monthly_nationalist_rebel_growth = 0.025
 
 #Senate
 
@@ -29,6 +31,7 @@ boyarski_voiski = {
 		global_manpower_modifier = 0.1
 		wrong_culture_levy_size = 0.25
 		monthly_towards_aristocracy = societal_value_monthly_move
+		monthly_towards_land = societal_value_minor_monthly_move
 	}
 }
 
@@ -78,7 +81,7 @@ br_dynatoi_magnates = {
 		monthly_towards_serfdom = societal_value_monthly_move
 		monthly_towards_aristocracy = societal_value_minor_monthly_move
 		monthly_towards_decentralization = societal_value_minor_monthly_move
-		peasants_estate_target_satisfaction = -0.025
+		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
 	}
 	location_modifier = {
         potential_trigger = {
@@ -98,6 +101,7 @@ br_dynatoi_magnates = {
 		potential_trigger = { "estate_power(estate_type:crown_estate)" <= 0.25 }
 		nobles_estate_levy_size = -0.25
 		food_purchase_cost = 0.25
+		monthly_legitimacy = -0.02
 	}
 	country_modifier = {
 		potential_trigger = { stability <= 25 }
@@ -132,6 +136,7 @@ akritai_privilege = {
 		auto_slave_raid_different_religion = yes   # Frontier raiding (BR addition)
 		global_peasants_estate_power = 1
 		global_peasant_enfranchisment = 0.05
+		nobles_estate_target_satisfaction = small_privilege_target_satisfaction_penalty
 		
 	}
 	country_modifier = {
@@ -201,6 +206,7 @@ br_themata_peasant_privilege = {
 		monthly_towards_decentralization = societal_value_minor_monthly_move
 		levy_combat_efficiency_modifier = 0.1
 		global_soldiers_desired_pop_scaled = 0.005 #Soldier Levies
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
 	}
 	#positive
 	country_modifier = {
@@ -308,6 +314,7 @@ br_latin_trade_naval_reliance = {
 	country_modifier = {
 		global_burghers_estate_power = 0.25
 		global_burghers_conversion_blocked = yes
+		burghers_estate_allowed_in_cabinet = yes
 		expected_navy_size_modifier = -0.5
 		tolerance_heretic = 1
 		monthly_towards_plutocracy = societal_value_monthly_move
@@ -341,7 +348,7 @@ br_latin_trade_naval_reliance = {
 		potential_trigger = { prestige <= 50 }
 		global_sailors_modifier = -0.5
 		monthly_legitimacy = -0.05
-		clergy_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
+		clergy_estate_target_satisfaction = large_privilege_target_satisfaction_penalty
 	}
 }
 
@@ -412,7 +419,7 @@ br_roman_ecumenical_patriarch_privilege = {
 		global_pop_conversion_speed_modifier = 0.1
 	}
 	country_modifier = {
-		potential_trigger = { government_power <= 25 }
+		potential_trigger = { government_power <= 50 }
 		clergy_estate_max_tax = -0.1
 	}
 	#positive

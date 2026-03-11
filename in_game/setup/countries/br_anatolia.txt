@@ -33,7 +33,7 @@ REPLACE_OR_CREATE:KAR = {
 }
 
 REPLACE_OR_CREATE:TRE = {
-	color = rgb { 65 84 167 } #BR edited
+	color = rgb { 95 74 147 } #BR edited
 
 	culture_definition = pontic_greek_culture
 	religion_definition = orthodox

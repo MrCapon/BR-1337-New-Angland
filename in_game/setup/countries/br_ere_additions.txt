@@ -52,7 +52,7 @@ PAF = { #BR addition
 }
 
 K1B = { #BR addition
-	color = rgb { 165 28 210 }
+	color = rgb { 95 18 145 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
@@ -73,7 +73,7 @@ B0R = { #BR addition
 }
 
 A1G = { #BR addition
-	color = rgb { 155 28 185 }
+	color = rgb { 85 28 145 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox

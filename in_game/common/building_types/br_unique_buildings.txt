@@ -37,7 +37,7 @@ br_great_palace_building = {
 	capital_country_modifier = { 
 		monthly_prestige = 0.02
 		diplomatic_capacity_modifier = 0.25
-		diplomatic_reputation = diplomatic_reputation_severe_bonus
+		diplomatic_reputation = diplomatic_reputation_mild_bonus
 		monthly_towards_absolutism = societal_value_tiny_monthly_move
 	}
 

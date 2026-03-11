@@ -40,7 +40,7 @@ br_imperial_administration = {
 		country_cabinet_efficiency = 0.1
 		#set_cabinet_member_cost_modifier = -0.1
         #replace_cabinet_member_cost_modifier = -0.1
-		global_nobles_estate_power = -0.1
+		#global_nobles_estate_power = -0.1
 	}
 	country_modifier = {
 		potential_trigger = { stability <= 25 }
@@ -76,6 +76,11 @@ br_sub_theme_subject = {
 		potential_trigger = { is_subject_of = c:BYZ opinion = { target = c:BYZ value >= 125 } }
 		hostile_diplomatic_annexation_cost = -0.5
     }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value <= 50 } }
+		loyalty_to_overlord = -25
+		hostile_diplomatic_annexation_cost = 0.5
+    }
 	years = 2
 }
 
@@ -105,6 +110,11 @@ br_sub_pronoia_subject = {
 	country_modifier = {
 		potential_trigger = { opinion = { target = c:BYZ value >= 125 } }
 		hostile_diplomatic_annexation_cost = -0.5
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value <= 50 } }
+		loyalty_to_overlord = -25
+		hostile_diplomatic_annexation_cost = 0.5
     }
 	years = 2
 }
@@ -136,6 +146,11 @@ br_sub_religious_subject = {
 	country_modifier = {
 		potential_trigger = { opinion = { target = c:BYZ value >= 125 } }
 		hostile_diplomatic_annexation_cost = -0.5
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value <= 50 } }
+		loyalty_to_overlord = -25
+		hostile_diplomatic_annexation_cost = 0.5
     }
 	years = 2
 }
@@ -173,7 +188,12 @@ br_naval_akritai_reform = {
     }
 	country_modifier = {
 		potential_trigger = { opinion = { target = c:BYZ value >= 125 } }
-		hostile_diplomatic_annexation_cost = -1
+		hostile_diplomatic_annexation_cost = -0.5
+    }
+	country_modifier = {
+		potential_trigger = { opinion = { target = c:BYZ value <= 50 } }
+		loyalty_to_overlord = -25
+		hostile_diplomatic_annexation_cost = 0.5
     }
     years = 2
 }
@@ -192,7 +212,6 @@ br_mongol_tolerance = {
         global_pop_assimilation_speed_modifier = -0.85
         global_pop_conversion_speed_modifier = -0.85
         wrong_culture_levy_size = 0.25
-        #local_tribesmen_migration_allowed = yes
 	}
 	unique = yes
 	years = 2

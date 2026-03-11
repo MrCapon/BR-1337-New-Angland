@@ -4209,8 +4209,8 @@ building_manager = {
 	castle = { tag = BYZ level = 1 location =  constantinople }
 	theodosian_walls = { tag = BYZ level = 1 location = constantinople }
 	wharf = { tag = BYZ level = 1 location =  constantinople }
-	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
-	construction_center = { tag = BYZ level = 1 location =  constantinople }
+	#protected_harbor = { tag = BYZ level = 1 location =  constantinople }
+	#construction_center = { tag = BYZ level = 1 location =  constantinople }
 	
 	#Logistic/Admin hubs
 	br_apothekai_building = { tag = AOI level = 1 location = antioch }
@@ -4418,6 +4418,13 @@ building_manager = {
 	br_soldier_farmers = { tag = BYZ level = 1 location = karapinar }
 	br_soldier_farmers = { tag = BYZ level = 1 location = larende }
 	br_soldier_farmers = { tag = BYZ level = 1 location = sariyahsi }
+	br_soldier_farmers = { tag = BYZ level = 1 location = kochisar }
+	br_soldier_farmers = { tag = BYZ level = 1 location = turgut }
+	br_soldier_farmers = { tag = BYZ level = 1 location = cubuk }
+	br_soldier_farmers = { tag = BYZ level = 1 location = taskopru }
+	br_soldier_farmers = { tag = BYZ level = 1 location = suluklu }
+	br_soldier_farmers = { tag = BYZ level = 1 location = cumra }
+	br_soldier_farmers = { tag = BYZ level = 1 location = ilgin }
 	br_soldier_farmers = { tag = BYZ level = 1 location = kochisar }
 
 	br_soldier_farmers = { tag = BYZ level = 1 location = hacibektas }
@@ -5272,7 +5279,6 @@ building_manager = {
 	market_village = { tag = OTC level = 1 location = taizhou_jurchen }
 	peasants_training_grounds = { tag = OTC level = 1 location = taizhou_jurchen }
 	kurultai = { tag = DGH level = 1 location = kashgar }
-	peasants_training_grounds = { tag = DGH level = 1 location = kashgar }
 	tribal_war_camp = { tag = OGE level = 1 location = kurchum }
 	tribal_market_villages = { tag = OGE level = 1 location = kurchum }
 	tribal_market_villages = { tag = OGE level = 1 location = kalmanka }
@@ -5577,7 +5583,6 @@ building_manager = {
 	rural_clothmaker = { tag = CIL level = 1 location = sis }
 	market_village = { tag = CIL level = 1 location = alaiye }
 	market_village = { tag = ANA level = 1 location = eregli_kar }
-	market_village = { tag = ANA level = 1 location = inonu }
 	market_village = { tag = ANA level = 1 location = kirsehir }
 	market_village = { tag = ANA level = 1 location = sungurlu }
 	market_village = { tag = BYZ level = 1 location = yuksekkum }
@@ -5971,16 +5976,7 @@ building_manager = {
 	guild_hall = { tag = BYZ level = 1 location = constantinople }
 	merchants_guild = { tag = BYZ level = 1 location = constantinople }
 	artisan_guilds = { tag = BYZ level = 1 location = constantinople }
-	noble_villa = { tag = BYZ level = 1 location = enez }
-	noble_villa = { tag = BYZ level = 1 location = kesan }
-	noble_villa = { tag = BYZ level = 1 location = rodoscuk }
-	noble_villa = { tag = BYZ level = 1 location = corlu }
-	noble_villa = { tag = BYZ level = 1 location = catalca }
-	noble_villa = { tag = BYZ level = 1 location = kiyikoy }
-	noble_villa = { tag = BYZ level = 1 location = silivri }
 	merchants_guild = { tag = BYZ level = 1 location = edirne }
-	noble_villa = { tag = ATH level = 1 location = gravia }
-	noble_villa = { tag = THE level = 1 location = edessa }
 	clerical_archives = { tag = THE level = 1 location = thessaloniki }
 	merchants_guild = { tag = THE level = 1 location = thessaloniki }
 	artisan_guilds = { tag = THE level = 1 location = thessaloniki }
@@ -6033,58 +6029,46 @@ building_manager = {
 	burgher_mansion = { tag = CYP level = 1 location = larnaca }
 	burgher_mansion = { tag = GAZ level = 1 location = amasra }
 	burgher_mansion = { tag = CEP level = 1 location = cephalonia }
+	noble_villa = { tag = BYZ level = 1 location = enez }
+	noble_villa = { tag = BYZ level = 1 location = kesan }
+	noble_villa = { tag = BYZ level = 1 location = rodoscuk }
+	noble_villa = { tag = BYZ level = 1 location = corlu }
+	noble_villa = { tag = BYZ level = 2 location = catalca }
+	noble_villa = { tag = BYZ level = 1 location = kiyikoy }
+	noble_villa = { tag = BYZ level = 2 location = silivri }
+	noble_villa = { tag = ATH level = 1 location = gravia }
+	noble_villa = { tag = THE level = 1 location = edessa }
 	noble_villa = { tag = BYZ level = 1 location = silli }
 	noble_villa = { tag = BYZ level = 1 location = atpazari }
-	noble_villa = { tag = BYZ level = 1 location = biga }
-	noble_villa = { tag = BYZ level = 1 location = seyhli }
-	noble_villa = { tag = BYZ level = 1 location = usak }
-	noble_villa = { tag = BYZ level = 1 location = gediz }
+	noble_villa = { tag = BYZ level = 2 location = biga }
+	noble_villa = { tag = BYZ level = 2 location = seyhli }
+	noble_villa = { tag = BYZ level = 2 location = usak }
+	noble_villa = { tag = BYZ level = 2 location = gediz }
 	noble_villa = { tag = BYZ level = 1 location = sandikli }
-	noble_villa = { tag = BYZ level = 1 location = kula }
+	noble_villa = { tag = BYZ level = 2 location = kula }
 	noble_villa = { tag = BYZ level = 1 location = cesme }
-	noble_villa = { tag = BYZ level = 2 location = uskudar }
-	noble_villa = { tag = BYZ level = 1 location = bilecik }
+	noble_villa = { tag = BYZ level = 4 location = uskudar }
+	noble_villa = { tag = BYZ level = 2 location = bilecik }
 	noble_villa = { tag = BYZ level = 1 location = akcasehir }
 	noble_villa = { tag = BYZ level = 1 location = bozan }
-	noble_villa = { tag = BYZ level = 1 location = bandirma }
+	noble_villa = { tag = BYZ level = 2 location = bandirma }
 	noble_villa = { tag = BYZ level = 1 location = yuksekkum }
 	noble_villa = { tag = BYZ level = 1 location = mengen }
-	noble_villa = { tag = PAF level = 1 location = cankiri }
-	noble_villa = { tag = PAF level = 1 location = gumus }
-	noble_villa = { tag = TRE level = 1 location = gorele }
-	noble_villa = { tag = ANA level = 1 location = eregli_kar }
-	noble_villa = { tag = ANA level = 1 location = yalvac }
-	noble_villa = { tag = ANA level = 1 location = nigde }
-	noble_villa = { tag = ANA level = 1 location = kirsehir }
-	noble_villa = { tag = ANA level = 1 location = bozok }
-	noble_villa = { tag = ANA level = 1 location = sungurlu }
-	noble_villa = { tag = ANA level = 1 location = zile }
-	noble_villa = { tag = CIL level = 1 location = alaiye }
-	noble_villa = { tag = CIL level = 1 location = adana }
-	noble_villa = { tag = CIL level = 1 location = sis }
-	noble_villa = { tag = CYP level = 1 location = limassol }
-	local_markets = { tag = CYP level = 1 location = limassol }
-	noble_villa = { tag = CYP level = 1 location = morphou }
-	local_markets = { tag = CYP level = 1 location = morphou }
-	noble_villa = { tag = CYP level = 1 location = famagusta }
-	local_markets = { tag = CYP level = 1 location = famagusta }
-	noble_villa = { tag = NAX level = 1 location = naxos }
 	noble_villa = { tag = BYZ level = 1 location = eregli }
-	noble_villa = { tag = BYZ level = 1 location = vize }
-	noble_villa = { tag = BYZ level = 1 location = luleburgaz }
-	noble_villa = { tag = BYZ level = 1 location = gonen }
+	noble_villa = { tag = BYZ level = 2 location = vize }
+	noble_villa = { tag = BYZ level = 2 location = luleburgaz }
+	noble_villa = { tag = BYZ level = 2 location = gonen }
 	noble_villa = { tag = BYZ level = 1 location = edremit }
 	noble_villa = { tag = BYZ level = 1 location = emirdag }
 	noble_villa = { tag = BYZ level = 1 location = honaz }
-	noble_villa = { tag = BYZ level = 1 location = uluborlu }
-	noble_villa = { tag = BYZ level = 1 location = tavas }
-	noble_villa = { tag = BYZ level = 1 location = nazilli }
-	noble_villa = { tag = BYZ level = 1 location = guzelhisar }
+	noble_villa = { tag = BYZ level = 2 location = uluborlu }
+	noble_villa = { tag = BYZ level = 2 location = tavas }
+	noble_villa = { tag = BYZ level = 3 location = nazilli }
+	noble_villa = { tag = BYZ level = 2 location = guzelhisar }
 	noble_villa = { tag = BYZ level = 1 location = ayasuluk }
 	noble_villa = { tag = BYZ level = 1 location = menemen }
 	noble_villa = { tag = BYZ level = 1 location = edremit }
 	noble_villa = { tag = BYZ level = 1 location = susurluk }
-
 	noble_villa = { tag = BYZ level = 1 location = lapseki}
 	noble_villa = { tag = BYZ level = 1 location = mitilene }
 	noble_villa = { tag = BYZ level = 1 location = lemnos }
@@ -6106,6 +6090,55 @@ building_manager = {
 	noble_villa = { tag = BYZ level = 1 location = terme }
 	noble_villa = { tag = BYZ level = 1 location = bogazliyan }
 	noble_villa = { tag = BYZ level = 1 location = kalecik }
+	noble_villa = { tag = BYZ level = 2 location = goynuk }
+	noble_villa = { tag = BYZ level = 1 location = sogut }
+	noble_villa = { tag = BYZ level = 1 location = mugla }
+	noble_villa = { tag = BYZ level = 1 location = cine }
+	noble_villa = { tag = BYZ level = 1 location = tire }
+	noble_villa = { tag = BYZ level = 3 location = manisa }
+	noble_villa = { tag = BYZ level = 1 location = akhisar }
+	noble_villa = { tag = BYZ level = 1 location = gordes }
+	noble_villa = { tag = BYZ level = 1 location = stefani }
+	noble_villa = { tag = BYZ level = 1 location = dinar }
+	noble_villa = { tag = BYZ level = 1 location = burdur }
+	noble_villa = { tag = BYZ level = 1 location = isparta }
+	noble_villa = { tag = BYZ level = 1 location = soma }
+	noble_villa = { tag = BYZ level = 1 location = can }
+	noble_villa = { tag = BYZ level = 1 location = manyas }
+	noble_villa = { tag = BYZ level = 1 location = mihalic }
+	noble_villa = { tag = BYZ level = 1 location = eynegol }
+	noble_villa = { tag = BYZ level = 1 location = kaymaz }
+	noble_villa = { tag = BYZ level = 1 location = seyitgazi }
+	noble_villa = { tag = BYZ level = 1 location = sivrihisar }
+	noble_villa = { tag = BYZ level = 1 location = mihaliccik }
+	noble_villa = { tag = BYZ level = 1 location = beypazari }
+	noble_villa = { tag = BYZ level = 1 location = banaz }
+	noble_villa = { tag = BYZ level = 1 location = altintas }
+	noble_villa = { tag = BYZ level = 1 location = aslanapa }
+	noble_villa = { tag = BYZ level = 1 location = sultanonu }
+	noble_villa = { tag = BYZ level = 2 location = balya }
+	noble_villa = { tag = BYZ level = 2 location = balikesir }
+
+	noble_villa = { tag = PAF level = 1 location = cankiri }
+	noble_villa = { tag = PAF level = 1 location = gumus }
+	noble_villa = { tag = TRE level = 1 location = gorele }
+	noble_villa = { tag = ANA level = 1 location = eregli_kar }
+	noble_villa = { tag = ANA level = 1 location = yalvac }
+	noble_villa = { tag = ANA level = 1 location = nigde }
+	noble_villa = { tag = ANA level = 1 location = kirsehir }
+	noble_villa = { tag = ANA level = 1 location = bozok }
+	noble_villa = { tag = ANA level = 1 location = sungurlu }
+	noble_villa = { tag = ANA level = 1 location = zile }
+	noble_villa = { tag = CIL level = 1 location = alaiye }
+	noble_villa = { tag = CIL level = 1 location = adana }
+	noble_villa = { tag = CIL level = 1 location = sis }
+	noble_villa = { tag = CYP level = 1 location = limassol }
+	local_markets = { tag = CYP level = 1 location = limassol }
+	noble_villa = { tag = CYP level = 1 location = morphou }
+	local_markets = { tag = CYP level = 1 location = morphou }
+	noble_villa = { tag = CYP level = 1 location = famagusta }
+	local_markets = { tag = CYP level = 1 location = famagusta }
+	noble_villa = { tag = NAX level = 1 location = naxos }
 	local_markets = { tag = BYZ level = 1 location = gerze }
 	local_markets = { tag = BYZ level = 1 location = amasra }
 	local_markets = { tag = BYZ level = 1 location = iskenderun}
