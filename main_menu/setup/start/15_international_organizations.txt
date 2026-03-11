@@ -1767,6 +1767,8 @@ international_organization_manager = {
 			BNK MKB CHY
 			VTC GTC
 
+			VEN NEG CRT CYP NAX CEP GAZ RAG
+
 		}
 
 		leader = BYZ
