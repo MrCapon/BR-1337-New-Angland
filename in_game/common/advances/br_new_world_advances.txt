@@ -12,6 +12,20 @@
 #global_separatism = 0.1
 
 # to-do balance diversify icons
+br_stone_weapons = {
+	age = age_1_traditions
+	starting_technology_level = 1
+	
+	potential = {
+		exists = capital
+		original_capital ?= { continent = continent:america }
+	}
+	requires = agriculture_advance
+	unlock_production_method = pre_columbian_weapon_smith_maintenance
+	global_wild_game_output_modifier = 0.1
+	tribes_estate_levy_size = 1
+}
+
 
 #Vinland
 br_vinland_naval_raiding = {
