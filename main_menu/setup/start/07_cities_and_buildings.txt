@@ -6664,57 +6664,52 @@ building_manager = {
 	trade_company_harbor = { tag = GTC level = 2 location = tana }
 
 	#Aegean/East Med
+	trade_office = { tag = GTC level = 2 location = tripoli }
 	trade_company_harbor = { tag = GTC level = 2 location = izmit }
 	trade_company_harbor = { tag = GTC level = 2 location = smyrna }
-	trade_office = { tag = GTC level = 4 location = smyrna }
-	trade_office = { tag = GTC level = 4 location = izmit }
-	trade_office = { tag = GTC level = 4 location = antioch }
-	fondaco = { tag = GTC level = 2 location = antioch }
-	trade_office = { tag = GTC level = 2 location = tripoli }
-	trade_office = { tag = GTC level = 1 location = bergama }
-	trade_office = { tag = GTC level = 1 location = bursa }
-	overseas_trading_post = { tag = GTC level = 1 location = lemnos }
-	overseas_trading_post = { tag = GTC level = 1 location = samos }
-	overseas_trading_post = { tag = GTC level = 2 location = foca }
-	overseas_trading_post = { tag = GTC level = 1 location = ikaria }
-	overseas_trading_post = { tag = GTC level = 1 location = chios }
-	overseas_trading_post = { tag = GTC level = 1 location = susaco }
-	overseas_trading_post = { tag = GTC level = 1 location = batumi }
-	overseas_trading_post = { tag = GTC level = 2 location = amasra }
-	overseas_trading_post = { tag = GTC level = 1 location = vosporo }
-	overseas_trading_post = { tag = GTC level = 1 location = taman }
-	trade_office = { tag = GTC level = 1 location = samsun }
-	overseas_trading_post = { tag = GTC level = 1 location = eregli }
-	overseas_trading_post = { tag = GTC level = 1 location = burgas }
-	overseas_trading_post = { tag = GTC level = 1 location = tripoli_syria }
-	overseas_trading_post = { tag = GTC level = 1 location = marmaris }
-	overseas_trading_post = { tag = GTC level = 1 location = uskudar }
-	overseas_trading_post = { tag = GTC level = 1 location = tripoli_syria }
-	overseas_trading_post = { tag = GTC level = 1 location = molyvos }
-
+	br_latin_trading_post = { tag = GTC level = 2 location = smyrna }
+	br_latin_trading_post = { tag = GTC level = 2 location = izmit }
+	br_latin_trading_post = { tag = GTC level = 2 location = antioch }
+	br_latin_trading_post = { tag = GTC level = 1 location = bergama }
+	br_latin_trading_post = { tag = GTC level = 1 location = bursa }
+	br_latin_trading_post = { tag = GTC level = 1 location = lemnos }
+	br_latin_trading_post = { tag = GTC level = 1 location = samos }
+	br_latin_trading_post = { tag = GTC level = 1 location = foca }
+	br_latin_trading_post = { tag = GTC level = 1 location = ikaria }
+	br_latin_trading_post = { tag = GTC level = 1 location = chios }
+	br_latin_trading_post = { tag = GTC level = 1 location = susaco }
+	br_latin_trading_post = { tag = GTC level = 1 location = batumi }
+	br_latin_trading_post = { tag = GTC level = 1 location = amasra }
+	br_latin_trading_post = { tag = GTC level = 1 location = vosporo }
+	br_latin_trading_post = { tag = GTC level = 1 location = taman }
+	br_latin_trading_post = { tag = GTC level = 1 location = samsun }
+	br_latin_trading_post = { tag = GTC level = 1 location = eregli }
+	br_latin_trading_post = { tag = GTC level = 1 location = burgas }
+	br_latin_trading_post = { tag = GTC level = 1 location = tripoli_syria }
+	br_latin_trading_post = { tag = GTC level = 1 location = marmaris }
+	br_latin_trading_post = { tag = GTC level = 1 location = uskudar }
+	br_latin_trading_post = { tag = GTC level = 1 location = tripoli_syria }
+	br_latin_trading_post = { tag = GTC level = 1 location = molyvos }
 
 	#Black Sea
-	fondaco = { tag = GTC level = 1 location = kaffa }
-	overseas_trading_post = { tag = GTC level = 2 location = soldaia }
-	fondaco = { tag = GTC level = 1 location = tana }
-	overseas_trading_post = { tag = GTC level = 2 location = vosporo }
-	fondaco = { tag = GTC level = 1 location = theodoro }
 	trade_company_harbor = { tag = GTC level = 1 location = kaffa }
 	trade_company_harbor = { tag = GTC level = 1 location = trebizond }
 	trade_company_harbor = { tag = GTC level = 1 location = sinop }
-	trade_office = { tag = GTC level = 1 location = ismail }
-	trade_office = { tag = GTC level = 4 location = tana }	
-	trade_office = { tag = GTC level = 4 location = trebizond }
-	trade_office = { tag = GTC level = 2 location = sinop }
-	trade_office = { tag = GTC level = 1 location = samsun }
-	overseas_trading_post = { tag = GTC level = 1 location = bayramlu }
-	trade_office = { tag = GTC level = 2 location = theodoro }
-	trade_office = { tag = GTC level = 4 location = kaffa }
-	trade_office = { tag = GTC level = 2 location = tbilisi }
-	trade_office = { tag = GTC level = 2 location = astrakhan }
-	trade_office = { tag = GTC level = 2 location = sarai_al_jadid }
-	overseas_trading_post = { tag = GTC level = 1 location = lemnos }
-	overseas_trading_post = { tag = GTC level = 1 location = chios }
+	br_latin_trading_post = { tag = GTC level = 1 location = soldaia }
+	br_latin_trading_post = { tag = GTC level = 1 location = vosporo }
+	br_latin_trading_post = { tag = GTC level = 1 location = ismail }
+	br_latin_trading_post = { tag = GTC level = 2 location = tana }	
+	br_latin_trading_post = { tag = GTC level = 2 location = trebizond }
+	br_latin_trading_post = { tag = GTC level = 2 location = sinop }
+	br_latin_trading_post = { tag = GTC level = 1 location = samsun }
+	br_latin_trading_post = { tag = GTC level = 1 location = bayramlu }
+	br_latin_trading_post = { tag = GTC level = 2 location = theodoro }
+	br_latin_trading_post = { tag = GTC level = 2 location = kaffa }
+	br_latin_trading_post = { tag = GTC level = 1 location = lemnos }
+	br_latin_trading_post = { tag = GTC level = 1 location = chios }
+	br_latin_trading_post = { tag = GTC level = 1 location = uskudar }
+	br_latin_trading_post = { tag = GTC level = 1 location = molyvos }
+
 	overseas_trading_post = { tag = GTC level = 1 location = susaco }
 	overseas_trading_post = { tag = GTC level = 1 location = batumi }
 	overseas_trading_post = { tag = GTC level = 1 location = bafra }
@@ -6722,9 +6717,9 @@ building_manager = {
 	overseas_trading_post = { tag = GTC level = 1 location = burgas }
 	overseas_trading_post = { tag = GTC level = 1 location = tripoli_syria }
 	overseas_trading_post = { tag = GTC level = 1 location = marmaris }
-	overseas_trading_post = { tag = GTC level = 1 location = uskudar }
-	overseas_trading_post = { tag = GTC level = 1 location = tripoli_syria }
-	overseas_trading_post = { tag = GTC level = 1 location = molyvos }
+	trade_office = { tag = GTC level = 2 location = tbilisi }
+	trade_office = { tag = GTC level = 2 location = astrakhan }
+	trade_office = { tag = GTC level = 2 location = sarai_al_jadid }
 
 	#Venice Trade offices
 	trade_office = { tag = VEN level = 1 location = rome }
@@ -6755,41 +6750,41 @@ building_manager = {
 	trade_company_harbor = { tag = VTC level = 2 location = alexandria }
 	trade_company_governance = { tag = VTC level = 1 location = split }
 	trade_company_governance = { tag = VTC level = 1 location = athens }
-	fondaco = { tag = VTC level = 2 location = candia }
-	fondaco = { tag = VTC level = 2 location = larnaca }
 	fondaco = { tag = VTC level = 2 location = alexandria }
+
 	trade_office = { tag = VTC level = 4 location = acre }
 	trade_office = { tag = VTC level = 8 location = alexandria }
 	trade_office = { tag = VTC level = 1 location = mahdia }
-	overseas_trading_post = { tag = VTC level = 2 location = kalamata }
-	trade_office = { tag = VTC level = 4 location = thessaloniki }
-	trade_office = { tag = VTC level = 4 location = gallipoli }
-	trade_office = { tag = VTC level = 2 location = larnaca }
-	trade_office = { tag = VTC level = 2 location = candia }
-	trade_office = { tag = VTC level = 1 location = tarsus }
 	trade_office = { tag = VTC level = 1 location = tunis }
-	trade_office = { tag = VTC level = 4 location = athens }
-	trade_office = { tag = VTC level = 4 location = thebes }
 	overseas_trading_post = { tag = VTC level = 4 location = beirut }
-	overseas_trading_post = { tag = VTC level = 1 location = iskenderun }
-	overseas_trading_post = { tag = VTC level = 1 location = limassol }
-	overseas_trading_post = { tag = VTC level = 1 location = milos }
-	overseas_trading_post = { tag = VTC level = 1 location = negroponte }
-	overseas_trading_post = { tag = VTC level = 1 location = nafplio }
-	overseas_trading_post = { tag = VTC level = 1 location = nafpaktos }
-	overseas_trading_post = { tag = VTC level = 1 location = avlonya }
-	overseas_trading_post = { tag = VTC level = 1 location = bandirma }
-	overseas_trading_post = { tag = VTC level = 1 location = andravida }
-	overseas_trading_post = { tag = VTC level = 1 location = cephalonia }
-	overseas_trading_post = { tag = VTC level = 1 location = andros }
-	overseas_trading_post = { tag = VTC level = 1 location = mykonos }
-	overseas_trading_post = { tag = VTC level = 1 location = amorgos }
-	overseas_trading_post = { tag = VTC level = 1 location = karpathos }
-	overseas_trading_post = { tag = VTC level = 1 location = modon }
-	overseas_trading_post = { tag = VTC level = 1 location = kythira }
-	trade_office = { tag = VTC level = 2 location = mystras }
-	overseas_trading_post = { tag = VTC level = 1 location = naxos }
-	trade_office = { tag = VTC level = 1 location = rodos }
+
+	br_latin_trading_post = { tag = VTC level = 1 location = kalamata }
+	br_latin_trading_post = { tag = VTC level = 2 location = thessaloniki }
+	br_latin_trading_post = { tag = VTC level = 2 location = gallipoli }
+	br_latin_trading_post = { tag = VTC level = 1 location = larnaca }
+	br_latin_trading_post = { tag = VTC level = 1 location = candia }
+	br_latin_trading_post = { tag = VTC level = 1 location = tarsus }
+	br_latin_trading_post = { tag = VTC level = 1 location = athens }
+	br_latin_trading_post = { tag = VTC level = 2 location = thebes }
+	br_latin_trading_post = { tag = VTC level = 1 location = iskenderun }
+	br_latin_trading_post = { tag = VTC level = 1 location = limassol }
+	br_latin_trading_post = { tag = VTC level = 1 location = milos }
+	br_latin_trading_post = { tag = VTC level = 1 location = negroponte }
+	br_latin_trading_post = { tag = VTC level = 1 location = nafplio }
+	br_latin_trading_post = { tag = VTC level = 1 location = nafpaktos }
+	br_latin_trading_post = { tag = VTC level = 1 location = avlonya }
+	br_latin_trading_post = { tag = VTC level = 1 location = bandirma }
+	br_latin_trading_post = { tag = VTC level = 1 location = andravida }
+	br_latin_trading_post = { tag = VTC level = 1 location = cephalonia }
+	br_latin_trading_post = { tag = VTC level = 1 location = andros }
+	br_latin_trading_post = { tag = VTC level = 1 location = mykonos }
+	br_latin_trading_post = { tag = VTC level = 1 location = amorgos }
+	br_latin_trading_post = { tag = VTC level = 1 location = karpathos }
+	br_latin_trading_post = { tag = VTC level = 1 location = modon }
+	br_latin_trading_post = { tag = VTC level = 1 location = kythira }
+	br_latin_trading_post = { tag = VTC level = 1 location = mystras }
+	br_latin_trading_post = { tag = VTC level = 1 location = naxos }
+	br_latin_trading_post = { tag = VTC level = 1 location = rodos }
 
 	#ADU Trade
 	trade_office = { tag = ADU level = 2 location = tunis }
