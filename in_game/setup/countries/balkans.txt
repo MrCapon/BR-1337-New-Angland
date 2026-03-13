@@ -77,14 +77,14 @@ BYZ = {
 }
 
 THE = {
-	color = rgb { 125 50 115 }
+	color = rgb { 110 136 115 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
 }
 
 THS = {
-	color = rgb { 95 140 110 }
+	color = rgb { 95 120 140 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
@@ -121,8 +121,7 @@ THP = {
 }
 
 MZK = {
-	color = rgb { 250 1 1 }
-	color2 = rgb { 250 1 1 }
+	color = rgb { 150 99 22 }
 
 	culture_definition = albanian
 	religion_definition = orthodox 

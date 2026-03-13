@@ -26,10 +26,8 @@
 		trigger = {
 			AND = {
 				country_rank = country_rank:rank_county
-				is_subject_type = march	
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
+				has_reform = government_reform:br_sub_theme_subject
+				has_culture_group = culture_group:greek_group
 			}
 		}
 	}
@@ -39,12 +37,10 @@
 			AND = {
 				country_rank = country_rank:rank_duchy
 				OR = {
-					is_subject_type = vassal
-					is_subject_type = march
+					has_reform = government_reform:br_sub_pronoia_subject
+					has_reform = government_reform:br_sub_theme_subject
 				}
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
+				has_culture_group = culture_group:greek_group
 			}
 		}
 	}
@@ -54,10 +50,8 @@
 		trigger = {
 			AND = {
 				country_rank = country_rank:rank_county
-				is_subject_type = vassal
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
+				has_reform = government_reform:br_sub_pronoia_subject
+				has_culture_group = culture_group:greek_group
 			}
 		}
 	}
@@ -67,10 +61,8 @@
 		trigger = {
 			AND = {
 				country_rank = country_rank:rank_kingdom
-				is_subject_type = vassal
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
+				has_reform = government_reform:br_sub_pronoia_subject
+				has_culture_group = culture_group:greek_group
 			}
 		}
 	}
@@ -80,23 +72,8 @@
 		trigger = {
 			AND = {
 				country_rank = country_rank:rank_kingdom
-				is_subject_type = march
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
-			}
-		}
-	}
-
-	text = {
-		localization_key = country_rank_br_katapanate #make unique 
-		trigger = {
-			AND = {
-				country_rank = country_rank:rank_kingdom
-				is_subject_type = fiefdom
-			}
-			overlord ?= {
-				culture = { has_culture_group = culture_group:greek_group }
+				has_reform = government_reform:br_sub_theme_subject
+				has_culture_group = culture_group:greek_group
 			}
 		}
 	}
@@ -114,10 +91,7 @@
 	text = {
 		localization_key = country_rank_br_apoikia
 		trigger = {
-			OR = {
-				is_subject_type = colonial_nation
-				#is_subject_type = trade_company
-			}
+			is_subject_type = colonial_nation
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }
 			}

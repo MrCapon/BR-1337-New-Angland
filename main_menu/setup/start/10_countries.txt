@@ -54189,7 +54189,7 @@ countries = {
 				ruler = random
 			}
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			accepted_cultures = {
 				greek_culture
 				armenian_culture
@@ -54222,7 +54222,7 @@ countries = {
 				ruler = random
 			}
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			accepted_cultures = {
 				greek_culture
 				armenian_culture
@@ -54254,7 +54254,7 @@ countries = {
 				ruler = random
 			}
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			accepted_cultures = {
 				greek_culture
 				armenian_culture
@@ -54275,7 +54275,7 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "br_thema_template"
+			include = "br_pronoia_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"
@@ -54334,7 +54334,7 @@ countries = {
 
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
-			include = "br_thema_template"
+			include = "br_pronoia_template"
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
 			include = "expl_silk_road_center"

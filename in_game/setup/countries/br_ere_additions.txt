@@ -173,7 +173,7 @@ AN0 = {
 }
 
 AN1 = {
-	color = rgb { 155 88 58 }
+	color = rgb { 155 96 54 }
 
 	culture_definition = cappadocian_greek_culture
 	religion_definition = orthodox
@@ -208,7 +208,7 @@ AN5 = {
 }
 
 AN6 = {
-	color = rgb { 165 75 128 }
+	color = rgb { 162 88 135 }
 
 	culture_definition = pontic_greek_culture
 	religion_definition = orthodox
