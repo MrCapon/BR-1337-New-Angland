@@ -3,7 +3,7 @@
 character_db={
 	#NEW BR Characters
 
-	#ERE
+#ERE
 	br_ere_rdm_character_00 = {
 		first_name = "random"
 		culture = greek_culture
@@ -289,7 +289,7 @@ character_db={
 		general_trait = glory_seeker
 	}
 
-	#Elysium
+#Elysium
 
 	#E1Y
 	br_ely_rdm_character_00 = {
@@ -667,7 +667,7 @@ character_db={
 		tag = K1K
 	}
 
-	#NSE
+#NSE
 	br_nse_character_0 = {
 		first_name = "random"
 		culture = norwegian
@@ -747,6 +747,20 @@ character_db={
 		#mother = 
 		dynasty = siggurson_dynasty
 		tag = NSE
+	}
+
+#HRE
+	br_hre_character_00 = {
+		first_name = "Smekens"
+		culture = low_franconian
+		religion = catholic
+		birth_date = 1317.1.1
+		birth = metz
+		adm = 88 dip = 77 mil = 77
+		father = br_nse_character_02
+		#mother = 
+		#dynasty = siggurson_dynasty
+		tag = LOT
 	}
 
 }
