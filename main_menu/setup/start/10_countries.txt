@@ -53779,11 +53779,11 @@ countries = {
 				ankara cubuk haymana kalecik polatli karakecili
 			}
 			own_control_integrated = {
-				cankiri bayat cerkes kursunlu tosya sabanozu
 				insuyu kulu_turkey
 				turgut suluklu celtik
 			}
 			our_cores_conquered_by_others = {
+				cankiri bayat cerkes kursunlu tosya sabanozu
 				kibrus mihaliccik sivrihisar bozan kaymaz
 				bolu gerede mengen
 			}
@@ -54008,38 +54008,6 @@ countries = {
 			capital = canakkale
 		}
 
-		AN10 = {
-			own_control_core = {
-				sulusaray tokat zile
-				niksar
-				gumus
-				amasya merzifon sonisa gadegara ladik_pontus
-				akdagmadeni aydincik
-				iskilip corum
-			}
-
-			starting_technology_level = 3
-			include = "expl_eastern_europe"
-			include = "br_thema_template"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			government = {
-				ruler = random
-			}
-			
-			country_rank = rank_duchy
-			accepted_cultures = {
-				greek_culture
-				armenian_culture
-			}
-
-			liturgical_language = khoine_dialect
-			capital = amasya
-		}
-		
 		AN1 = {
 			own_control_core = {
 				comana_cil
@@ -54325,6 +54293,65 @@ countries = {
 			
 			liturgical_language = khoine_dialect
 			capital = beysehir
+		}
+		
+		AN10 = {
+			own_control_core = {
+				sulusaray tokat zile
+				niksar
+				gumus
+				amasya merzifon sonisa gadegara ladik_pontus
+				akdagmadeni aydincik
+				corum
+			}
+
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = amasya
+		}
+		
+		AN11 = {
+			own_control_core = {
+				cankiri bayat cerkes kursunlu tosya sabanozu iskilip
+			}
+
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = cankiri
 		}
 		
 
