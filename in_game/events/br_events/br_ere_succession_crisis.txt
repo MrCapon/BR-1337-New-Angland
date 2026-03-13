@@ -19,11 +19,49 @@ br_ere_succession_crisis.1 = {
 
 	option = {
 		name = br_ere_succession_crisis.1.a
-		every_subject = {
-			limit = {
-				is_loyal = no
+		c:BYZ = {
+			cancel_subject = c:ATH
+			cancel_subject = c:THE
+			#every_subject = {
+			#	overlord = { cancel_subject = PREV }
+			#	add_opinion = {
+			#		target = c:BYZ
+			#		modifier = left_empire
+			#	}
+				#add_casus_belli =  {
+				#	target = c:BYZ #scope:actor
+				#	type = casus_belli:cb_subject_broke_free #cb_subjugation
+				#	years = 100
+				#}
+			#}
+			add_casus_belli =  {
+				target = c:ATH
+				type = casus_belli:cb_subject_broke_free #cb_subjugation
+				years = 15
 			}
-			ROOT = { cancel_subject = prev }
+			add_casus_belli =  {
+				target = c:THE
+				type = casus_belli:cb_subject_broke_free #cb_subjugation
+				years = 15
+			}
+		}
+	}
+	option = {
+		name = br_ere_succession_crisis.1.b
+		c:BYZ = {
+			cancel_subject = c:ATH
+			cancel_subject = c:THE
+
+			add_casus_belli =  {
+				target = c:ATH
+				type = casus_belli:cb_subject_broke_free #cb_subjugation
+				years = 15
+			}
+			add_casus_belli =  {
+				target = c:THE
+				type = casus_belli:cb_subject_broke_free #cb_subjugation
+				years = 15
+			}
 		}
 	}
 }
