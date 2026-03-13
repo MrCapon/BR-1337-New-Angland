@@ -14,6 +14,11 @@
  country_rank_br_thema_ruler_male: "Stratēgos"
  country_rank_br_thema_ruler_female: "Stratēgissa"
 
+ country_rank_br_kleisoura: "Kleisoura"
+ country_rank_br_kleisoura_ADJ: "Kleisouran"
+ country_rank_br_kleisoura_ruler_male: "Kleisourarch"
+ country_rank_br_kleisoura_ruler_female: "Kleisourarch"
+
  country_rank_br_pronoia: "Prónoia"
  country_rank_br_pronoia_ADJ: "Pronoïatikós"
  country_rank_br_pronoia_ruler_male: "Pronoíarios"

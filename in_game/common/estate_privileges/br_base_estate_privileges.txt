@@ -211,7 +211,7 @@ REPLACE_OR_CREATE:consolidated_corruption_of_the_nobles = {
 	country_modifier = {
 		potential_trigger = { government_power <= 75 }
 		nobles_estate_max_tax = -0.1
-		#subject_loyalty = -25
+		subject_loyalty = -25
 	}
 }
 
