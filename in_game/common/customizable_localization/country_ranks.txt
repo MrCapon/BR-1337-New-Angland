@@ -38,7 +38,10 @@
 		trigger = {
 			AND = {
 				country_rank = country_rank:rank_duchy
-				is_subject_type = march	
+				OR = {
+					is_subject_type = vassal
+					is_subject_type = march
+				}
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }
@@ -50,10 +53,7 @@
 		localization_key = country_rank_br_pronoia
 		trigger = {
 			AND = {
-				OR = {
-					country_rank = country_rank:rank_duchy
-					country_rank = country_rank:rank_county
-				}
+				country_rank = country_rank:rank_county
 				is_subject_type = vassal
 			}
 			overlord ?= {
@@ -88,7 +88,18 @@
 		}
 	}
 
-	#fiefdom kingdom
+	text = {
+		localization_key = country_rank_br_katapanate #make unique 
+		trigger = {
+			AND = {
+				country_rank = country_rank:rank_kingdom
+				is_subject_type = fiefdom
+			}
+			overlord ?= {
+				culture = { has_culture_group = culture_group:greek_group }
+			}
+		}
+	}
 
 	text = {
 		localization_key = country_rank_br_autonomia
@@ -109,6 +120,19 @@
 			}
 			overlord ?= {
 				culture = { has_culture_group = culture_group:greek_group }
+			}
+		}
+	}
+
+	text = {
+		localization_key = country_rank_br_apoikia
+		trigger = {
+			AND = {
+				OR = {
+					country_rank = country_rank:rank_duchy
+					country_rank = country_rank:rank_county
+				}
+				culture = { has_culture_group = culture_group:elysian_group }
 			}
 		}
 	}
