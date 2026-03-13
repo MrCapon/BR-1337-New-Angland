@@ -870,6 +870,30 @@ br_on_game_start = {
 				type = gravel_road
 			}
 		}
+		location:beysehir = {
+			add_road_to = {
+				target = location:turgut
+				type = gravel_road
+			}
+		}
+		location:bozan = {
+			add_road_to = {
+				target = location:emirdag
+				type = gravel_road
+			}
+		}
+		location:emirdag = {
+			add_road_to = {
+				target = location:turgut
+				type = gravel_road
+			}
+		}
+		location:turgut = {
+			add_road_to = {
+				target = location:ankara
+				type = gravel_road
+			}
+		}
 
 		#Levant
 
