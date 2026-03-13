@@ -23,6 +23,7 @@ REPLACE_OR_CREATE:clergy_military_orders = {
 	country_modifier = {
 		global_clergy_estate_power = 0.25
 		nobles_estate_levy_size = 0.25 #Added 
+		clergy_estate_levy_size = 1 #Added 
 		expected_army_size_modifier = 0.5 #BR added
 	}
 
@@ -199,18 +200,18 @@ REPLACE_OR_CREATE:consolidated_corruption_of_the_nobles = {
 		monthly_towards_serfdom = societal_value_minor_monthly_move
 		monthly_towards_decentralization = societal_value_minor_monthly_move
 		global_nobles_estate_power = 0.5
-	}
-	country_modifier = {
-		potential_trigger = { stability <= 50 }
-		nobles_estate_levy_size = -0.25
-	}
-	country_modifier = {
-		potential_trigger = { "estate_power(estate_type:crown_estate)" <= 0.25 }
 		estate_enrichment = 0.25
 	}
 	country_modifier = {
-		potential_trigger = { government_power <= 75 }
+		potential_trigger = { stability <= 50 }
+		nobles_estate_levy_size = -0.5
+	}
+	country_modifier = {
+		potential_trigger = { "estate_power(estate_type:crown_estate)" <= 0.25 }
 		nobles_estate_max_tax = -0.1
+	}
+	country_modifier = {
+		potential_trigger = { government_power <= 75 }
 		subject_loyalty = -25
 	}
 }
@@ -228,8 +229,11 @@ REPLACE_OR_CREATE:bashtinas_and_pronijas_grants = {
 		nobles_estate_max_tax = -0.1
 		global_nobles_estate_power = 0.4 #was 0.2
 		nobles_estate_target_satisfaction = small_privilege_target_satisfaction
-		nobles_estate_levy_size = 0.5 #BR ADDED
-		army_maintenance_cost = -0.15 #BR ADDED
+	}
+	country_modifier = {  #BR ADDED
+		potential_trigger = { "estate_power(estate_type:crown_estate)" >= 0.25 }
+		nobles_estate_levy_size = 0.5
+		army_maintenance_cost = -0.15
 	}
 }
 
@@ -244,8 +248,11 @@ REPLACE_OR_CREATE:zupa_districts = {
 		monthly_towards_defensive = societal_value_monthly_move
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_nobles_estate_power = 0.5 #was 0.4
-		global_army_levy_size_modifier = 0.15 #BR ADDED
 		tax_income_efficiency = medium_tax_income_efficiency_bonus #br added
+	}
+	country_modifier = {  #BR ADDED
+		potential_trigger = { "estate_power(estate_type:crown_estate)" >= 0.25 }
+		global_army_levy_size_modifier = 0.15
 	}
 }
 
@@ -260,7 +267,10 @@ REPLACE_OR_CREATE:vlastele_krayishnik = {
 		global_max_control = -0.05
 		global_defensive = 0.15
 		fort_limit_modifier = 0.25 #br added
-		global_garrison_size_modifier = 0.25 #br added
 		global_nobles_estate_power = 0.2
+	}
+	country_modifier = {  #BR ADDED
+		potential_trigger = { "estate_power(estate_type:crown_estate)" >= 0.25 }
+		global_garrison_size_modifier = 0.25
 	}
 }
