@@ -242,6 +242,13 @@ AN10 = {
 	religion_definition = orthodox
 }
 
+AN11 = {
+	color = rgb { 138 32 68 }
+
+	culture_definition = anatolian_greek_culture
+	religion_definition = orthodox
+}
+
 #Wallachia
 
 WA0 = {
