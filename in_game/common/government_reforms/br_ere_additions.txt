@@ -57,10 +57,16 @@ br_sub_theme_subject = {
 		NOT = { has_or_had_tag = BYZ }
 	}
 	allow = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
 	locked = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
 	country_modifier = {
 		monthly_towards_land = societal_value_monthly_move
@@ -92,10 +98,16 @@ br_sub_pronoia_subject = {
 		NOT = { has_or_had_tag = BYZ }
 	}
 	allow = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
 	locked = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
 	country_modifier = {
 		#government_reform_slots = 1
@@ -127,10 +139,16 @@ br_sub_religious_subject = {
 		NOT = { has_or_had_tag = BYZ }
 	}
 	allow = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
 	locked = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
 	country_modifier = {
 		monthly_towards_spiritualist = societal_value_monthly_move
@@ -167,7 +185,10 @@ br_naval_akritai_reform = {
         }
     }
     locked = {
-		is_subject_of = c:BYZ
+		OR = {
+			is_subject_of = c:BYZ
+			is_member_of_international_organization = international_organization:roman_world
+		}
 	}
     country_modifier = {
 		#government_reform_slots = 1
