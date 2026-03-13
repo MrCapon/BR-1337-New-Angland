@@ -447,21 +447,26 @@ diplomacy_manager = {
     dependency = { first = BYZ second = S1Y subject_type = vassal } # Pronoïakon Ktéma
 
     dependency = { first = BYZ second = AN4 subject_type = vassal } # Pronoïakon Ktéma
-    
     dependency = { first = BYZ second = A1G subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = K1B subject_type = vassal } # Pronoïakon Ktéma
-
     dependency = { first = BYZ second = ICO subject_type = vassal } # Thema
     dependency = { first = BYZ second = AON subject_type = vassal } # Thema
     dependency = { first = BYZ second = PAF subject_type = vassal } # Thema
-    dependency = { first = BYZ second = KAP subject_type = march } # Thema
+    dependency = { first = BYZ second = AN10 subject_type = march } # Thema
+
     dependency = { first = BYZ second = AOI subject_type = march } # Thema
     dependency = { first = BYZ second = CIL subject_type = vassal } # Kleisoura
     dependency = { first = BYZ second = TRE subject_type = march } # Thema
 
-    dependency = { first = BYZ second = AN0 subject_type = march } # Thema
-    dependency = { first = BYZ second = AN1 subject_type = march } # Thema
-    dependency = { first = BYZ second = AN2 subject_type = march } # Thema
+    dependency = { first = BYZ second = AN10 subject_type = march } # Kleisoura
+    dependency = { first = BYZ second = AN3 subject_type = march } # Kleisoura
+    dependency = { first = BYZ second = AN1 subject_type = march } # Kleisoura
+    dependency = { first = BYZ second = AN2 subject_type = march } # Kleisoura
+
+    dependency = { first = BYZ second = AN6 subject_type = vassal } # Thema
+    dependency = { first = BYZ second = AN7 subject_type = vassal } # Thema
+    dependency = { first = BYZ second = AN8 subject_type = vassal } # Thema
+    dependency = { first = BYZ second = AN9 subject_type = vassal } # Thema
    
     #dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
 
@@ -473,8 +478,10 @@ diplomacy_manager = {
     dependency = { first = THE second = B0R subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = THE second = THS subject_type = vassal } # Pronoïakon Ktéma
     #dependency = { first = EPI second = DYR subject_type = march } # Thema
+
     dependency = { first = CIL second = AN5 subject_type = vassal } # Pronoïakon Ktéma
-    dependency = { first = TRE second = AN3 subject_type = march } # Thema
+
+    
 
     #Patiachate dependencies
     #dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
@@ -503,10 +510,6 @@ diplomacy_manager = {
     scripted_oneway = { first = DLH second = RIC type = guarantee }
 
     #Anatolia
-    #dependency = { first = TRE second = PAF subject_type = vassal } #BR ADDED
-    #dependency = { first = ANA second = KAP subject_type = march } #BR ADDED
-    #dependency = { first = ANA second = CIL subject_type = march } #BR ADDED
-    #scripted_mutual = { first = BUL second = ANA type = alliance }
     dependency = { first = ARM second = KOG subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = DER subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = MES subject_type = vassal } #BR ADDED
@@ -518,7 +521,7 @@ diplomacy_manager = {
 
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
-	scripted_oneway = { first = KAP second = OHS type = military_sponsorship }
+	scripted_oneway = { first = AN10 second = OHS type = military_sponsorship }
 	scripted_oneway = { first = CIL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = CYP second = OHS type = military_sponsorship }
     scripted_oneway = { first = TRE second = SGO type = military_sponsorship }

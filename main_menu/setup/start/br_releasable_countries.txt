@@ -83,6 +83,45 @@ countries = {
 			capital = konya
 		}
 
+		KAP = {
+			our_cores_conquered_by_others = {
+				kayseri develi tomarza yahyali 
+				urgup 
+				gemerek
+				nevsehir
+				bekarlar bor_tur nigde
+				hargan
+				comana_cil
+				elbistan goksun afsin
+				dasmenda
+				bogazliyan kirsehir hacibektas
+				aksaray kochisar sariyahsi eregli_kar
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_kingdom
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = kayseri
+		}
+		
 		SE4 = { #Releasable
 			our_cores_conquered_by_others = {
 				podgorica bar_cg gradina kotor onogost

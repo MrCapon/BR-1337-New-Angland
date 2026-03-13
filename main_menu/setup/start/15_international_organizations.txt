@@ -559,10 +559,11 @@ international_organization_manager = {
 			FEO	
 			#BR ADDED
 			ICO AON S1Y B0R A1G K1B
-			M0E THS	KAP PAF	THE ATH ACH
+			M0E THS PAF	THE ATH ACH
 			BNK MKB CHY
-			AN0 AN1 AN2 AN3 AN4 AN5
+			AN1 AN2 AN3 AN4 AN5
 			ZAZ RH1 RH2 RH3
+			AN6 AN7 AN8 AN9 AN10
 		}
 		variables = { 
 			religion = religion:orthodox
@@ -1757,10 +1758,11 @@ international_organization_manager = {
 			#Members
 			EPI TRE FEO CIL
 
-			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF KAP AOI 
-			AN0 AN1 AN2 EPI
+			THE ATH S1Y A1G K1B AN4 AN5 AON ICO PAF AOI 
+			AN1 AN2 EPI
 			M0E ACH B0R THS DYR AN3
 			S1C S2C S3C N3P S5C
+			AN6 AN7 AN8 AN9 AN10
 			#ARM GEO SER
 			#KOG DER MES VAN VDZ
 			OHS SGO RH0 #RIC

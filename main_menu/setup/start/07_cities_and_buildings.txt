@@ -4238,7 +4238,7 @@ building_manager = {
 	counting_house = { tag = THE level = 1 location = thessaloniki }
 	cathedral = { tag = THE level = 1 location = thessaloniki }
 	marketplace	= { tag = THE level = 5 location = thessaloniki }
-	br_tagmata_barracks = { tag = BYZ level = 1 location =  constantinople }
+	br_tagmata_camp = { tag = BYZ level = 1 location =  constantinople }
 	br_varangian_camp = { tag = BYZ level = 1 location =  constantinople }
 	br_tagmata_camp = { tag = BYZ level = 1 location =  izmit }
 	#hexamilion_wall = { tag = ATH level = 1 location =  corinth }
@@ -4383,6 +4383,7 @@ building_manager = {
 	br_pronoia_estate = { tag = CIL level = 1 location = alaiye }
 	br_pronoia_estate = { tag = PAF level = 1 location = gumus }
 	br_pronoia_estate = { tag = TRE level = 1 location = niksar }
+	br_pronoia_estate = { tag = ANA level = 1 location = beysehir }
 
 	br_soldier_farmers = { tag = BYZ level = 1 location = rize }
 	br_soldier_farmers = { tag = BYZ level = 1 location = giresun }
@@ -4426,6 +4427,7 @@ building_manager = {
 	br_soldier_farmers = { tag = BYZ level = 1 location = cumra }
 	br_soldier_farmers = { tag = BYZ level = 1 location = ilgin }
 	br_soldier_farmers = { tag = BYZ level = 1 location = kochisar }
+	br_soldier_farmers = { tag = BYZ level = 1 location = seydisehir }
 
 	br_soldier_farmers = { tag = BYZ level = 1 location = hacibektas }
 	br_soldier_farmers = { tag = BYZ level = 1 location = bogazliyan }
@@ -5597,6 +5599,7 @@ building_manager = {
 	rural_clothmaker = { tag = CIL level = 1 location = iskenderun }
 	rural_clothmaker = { tag = CIL level = 1 location = adana }
 	market_village = { tag = ANA level = 1 location = yalvac }
+	market_village = { tag = ANA level = 2 location = beysehir }
 	forest_village = { tag = ANA level = 1 location = beysehir }
 	market_village = { tag = MES level = 1 location = arguvan }
 	market_village = { tag = DER level = 1 location = palu }
@@ -6337,6 +6340,10 @@ building_manager = {
 	
 #BR added fortifications
 	br_kleisourai = { tag = OHS level = 1 location = ulnia }
+	br_kleisourai = { tag = OHS level = 1 location = enguzud }
+	br_kleisourai = { tag = AN2 level = 1 location = ilic }
+	br_kleisourai = { tag = AN1 level = 1 location = siran }
+	br_kleisourai = { tag = OHS level = 1 location = hargan }
 	br_kleisourai = { tag = AN1 level = 1 location = darende }
 	br_kleisourai = { tag = TRE level = 1 location = khupati }
 	br_kleisourai = { tag = TRE level = 1 location = gumushane }

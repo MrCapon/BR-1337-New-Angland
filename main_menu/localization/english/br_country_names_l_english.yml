@@ -17,6 +17,9 @@
  SY0_ADJ: "Palaestina"
  SY1: "Edessa"
  SY1_ADJ: "Edessa"
+ SY3: "Syría"
+ SY3_ADJ: "Syría"
+
  OHS: "Hagion Taphon" # Real Greek endonym for Holy Sepulchre
  OHS_ADJ: "Hagiotaphitós" 
  AON: "Anatolikōn" # Stylized endonym for general Anatolian region
@@ -202,6 +205,16 @@
  AN4_ADJ: "Kharsianon"
  AN5: "Seleukeía"
  AN5_ADJ: "Seleukeía"
+ AN6: "Amisós"
+ AN6_ADJ: "Amisós"
+ AN7: "Koron"
+ AN7_ADJ: "Koron"
+ AN8: "Kaisáreia"
+ AN8_ADJ: "Kaisáreia"
+ AN9: "Pisidía"
+ AN9_ADJ: "Pisidías"
+ AN10: "Amáseia"
+ AN10_ADJ: "Amáseian"
 
  #Baltics
  BA0: "Pruthenia"
@@ -254,6 +267,12 @@
  IMP_ADJ: "Imperial" #Imperian
  ELY_f: "$ELY$"
  IMP_f: "$IMP$"
+ ANA_f: "$ANA$"
+ KAP_f: "$KAP$"
+ AN0_f: "$AN0$"
+ SY3_f: "$SY3$"
+ AGY_f: "$AGY$"
+ AFK_f: "$AFK$"
 
  E1Y: "Elysiara"
  E1Y_ADJ: "Elysiara"

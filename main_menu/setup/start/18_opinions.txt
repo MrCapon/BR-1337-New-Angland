@@ -1,100 +1,162 @@
 diplomacy_manager = {
+	#first = country that has the modifier, second = country that is loved/hated by first, type = modifier name
 
-	#Naples first = country that has the modifier, second = country that is loved/hated by first, type = modifier name
-	#opinion = { first = NAP second = SIC type = recent_conflict_lost }
-	#opinion = { first = NAP second = ARA type = recent_conflict_lost }
-	opinion = { first = ADU second = ARA type = border_aggression }
-	opinion = { first = ADU second = CAS type = border_aggression }
-	opinion = { first = ADU second = POR type = border_aggression }
-	opinion = { first = ADU second = LON type = border_aggression }
+
+	#Iberia
+	opinion = { first = ADU second = ARA type = left_empire }
+	opinion = { first = ADU second = CAS type = left_empire }
+	opinion = { first = ADU second = POR type = left_empire }
+	opinion = { first = ADU second = LON type = left_empire }
 	opinion = { first = ARA second = ADU type = border_aggression }
 	opinion = { first = CAS second = ADU type = border_aggression }
 	opinion = { first = POR second = ADU type = border_aggression }
 	opinion = { first = LON second = ADU type = border_aggression }
-
-	opinion = { first = ARA second = TOU type = opinion_sent_help }
-	opinion = { first = TOU second = ARA type = opinion_good_relations }
-	opinion = { first = LON second = AQN type = opinion_sent_help }
-	opinion = { first = AQN second = LON type = opinion_good_relations }
-	opinion = { first = NAV second = AQN type = opinion_sent_help }
-	opinion = { first = AQN second = NAV type = opinion_good_relations }
+	opinion = { first = TOU second = ARA type = opinion_military_aid }
+	opinion = { first = AQN second = LON type = opinion_military_aid }
+	opinion = { first = AQN second = NAV type = opinion_military_aid }
 
 
-	opinion = { first = BNV second = PAP type = opinion_good_relations }
-	opinion = { first = PAP second = BNV type = opinion_good_relations }
-	#opinion = { first = PAP second = VEN type = opinion_angry }
-	#opinion = { first = VEN second = PAP type = opinion_angry }
-	#opinion = { first = PAP second = FRA type = opinion_mildly_displeased }
-	#opinion = { first = FRA second = PAP type = opinion_mildly_displeased }
+	#Papal
+	opinion = { first = BNV second = PAP type = opinion_military_aid }
+	opinion = { first = PAP second = BNV type = opinion_military_aid }
+	opinion = { first = PAP second = BYZ type = western_schism_opposing_side }
+	opinion = { first = BYZ second = PAP type = western_schism_opposing_side }
+	#opinion = { first = LOT second = BYZ type = opressing_catholic_population }
+	opinion = { first = BNV second = BYZ type = claimed_italy }
+	opinion = { first = N1P second = BYZ type = claimed_italy }
+	opinion = { first = N2P second = BYZ type = claimed_italy }
 
 	#Byzantium
-	opinion = { first = HUN second = BYZ type = opinion_irritated }
-	opinion = { first = BYZ second = HUN type = opinion_irritated }
+	opinion = { first = BYZ second = NEG type = left_empire }
+	opinion = { first = BYZ second = NAX type = left_empire }
+	opinion = { first = BYZ second = CRT type = left_empire }
+	opinion = { first = BYZ second = CYP type = left_empire }
+	opinion = { first = BYZ second = GAZ type = left_empire }
+	opinion = { first = BYZ second = S1C type = left_empire }
+	opinion = { first = BYZ second = S2C type = left_empire }
+	opinion = { first = BYZ second = S3C type = left_empire }
+	opinion = { first = BYZ second = N3P type = left_empire }
+	opinion = { first = BYZ second = BUL type = left_empire }
+	opinion = { first = BYZ second = EPI type = left_empire }
+	opinion = { first = BYZ second = DYR type = left_empire }
+	opinion = { first = BYZ second = B1L type = left_empire }
+	opinion = { first = BYZ second = S5C type = left_empire }
 
-	opinion = { first = SER second = BYZ type = opinion_sent_help }
-	opinion = { first = BYZ second = SER type = opinion_good_relations }
-	opinion = { first = SER second = BYZ type = opinion_good_relations }
-	opinion = { first = SER second = BUL type = border_aggression }
-	opinion = { first = SER second = BYZ type = opinion_dynastic_ties }
-	opinion = { first = BYZ second = SER type = opinion_dynastic_ties }
-	opinion = { first = SER second = BOS type = border_aggression }
-	opinion = { first = SER second = BOS type = opinion_declared_war }
-	opinion = { first = SER second = BUL type = opinion_declared_war }
-	opinion = { first = MOS second = LIT type = opinion_declared_war }
-	opinion = { first = SER second = SE0 type = border_aggression }
-	opinion = { first = SER second = SE0 type = opinion_declared_war }
-	opinion = { first = SER second = SE1 type = border_aggression }
-	opinion = { first = SER second = SE1 type = opinion_declared_war }
-	opinion = { first = SER second = SE2 type = border_aggression }
-	opinion = { first = SER second = SE2 type = opinion_declared_war }
+	#Disloyal
+	opinion = { first = THE second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = ATH second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = AN10 second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = CIL second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = TRE second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = AN10 second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = AN4 second = BYZ type = opinion_declined_to_recognize_monarchy_modifier }
+	opinion = { first = THE second = BYZ type = opinion_tyrant_overlord }
+	opinion = { first = ATH second = BYZ type = opinion_tyrant_overlord }
+	opinion = { first = AN10 second = BYZ type = opinion_tyrant_overlord }
+	opinion = { first = CIL second = BYZ type = opinion_tyrant_overlord }
+	opinion = { first = TRE second = BYZ type = opinion_tyrant_overlord }
+	opinion = { first = AN10 second = BYZ type = opinion_tyrant_overlord }
+	opinion = { first = AN4 second = BYZ type = opinion_tyrant_overlord }
 
-	opinion = { first = BUL second = BYZ type = border_aggression }
-	opinion = { first = BYZ second = BUL type = border_aggression }
-	opinion = { first = BYZ second = BUL type = opinion_angry }
-	opinion = { first = BUL second = BYZ type = opinion_angry }
+	opinion = { first = THE second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = ATH second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AON second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = PAF second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = ICO second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN10 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = TRE second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = CIL second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN10 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN1 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN2 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN3 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN4 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = AN5 second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = B0R second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = THS second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = ACH second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = M0E second = BYZ type = opinion_low_legitimacy }
 
+	#Loyal
+	opinion = { first = FEO second = BYZ type = opinion_emperors_genorisity }
+	opinion = { first = S1Y second = BYZ type = opinion_emperors_genorisity }
+	opinion = { first = A1G second = BYZ type = opinion_emperors_genorisity }
+	opinion = { first = RH0 second = BYZ type = opinion_military_aid }
+	opinion = { first = OHS second = BYZ type = opinion_military_aid }
+	opinion = { first = SGO second = BYZ type = opinion_military_aid }
+	
+	#Caucasia
 	opinion = { first = ARM second = TUR type = opinion_threatens_conquest }
 	opinion = { first = ARM second = TUR type = border_aggression }
 	opinion = { first = GEO second = TUR type = opinion_threatens_conquest }
 	opinion = { first = GEO second = TUR type = border_aggression }
+	opinion = { first = ARM second = BYZ type = opinion_military_aid }
+	opinion = { first = GEO second = BYZ type = opinion_military_aid }
+	opinion = { first = SG0 second = GEO type = opinion_military_aid }
 
-	#opinion = { first = THE second = BYZ type = opinion_tyrant_overlord }
-	#opinion = { first = ATH second = BYZ type = opinion_tyrant_overlord }
+	#opinion = { first = THE second = BYZ type = united_empire }
+	#opinion = { first = ATH second = BYZ type = united_empire }
+	#opinion = { first = SER second = BYZ type = opinion_emperors_genorisity }
+
+	opinion = { first = DYR second = THP type = left_empire }
+	opinion = { first = DYR second = ANT type = left_empire }
+	opinion = { first = DYR second = MTR type = left_empire }
+	opinion = { first = DYR second = MZK type = left_empire }
+	opinion = { first = S1C second = S4C type = left_empire }
+	opinion = { first = ATH second = NEG type = left_empire }
+	opinion = { first = A1G second = NEG type = left_empire }
+	opinion = { first = A1G second = NAX type = left_empire }
+	opinion = { first = K1B second = NAX type = left_empire }
+	opinion = { first = ATH second = VEN type = ven_opinion_morean_confrontation }
+	opinion = { first = VEN second = ATH type = ven_opinion_morean_confrontation }
+
+	#Serbia
+	opinion = { first = SER second = BYZ type = opinion_dynastic_allies }
+	opinion = { first = BYZ second = SER type = opinion_dynastic_allies }
+	opinion = { first = SER second = BOS type = left_empire }
+	opinion = { first = SER second = BUL type = left_empire }
+	opinion = { first = SER second = SE0 type = left_empire }
+	opinion = { first = SER second = SE1 type = left_empire }
+	opinion = { first = SER second = SE2 type = left_empire }
+	opinion = { first = SER second = SE3 type = left_empire }
+
+	#Bulgaria
+	opinion = { first = BUL second = BYZ type = border_aggression }
+	opinion = { first = MA0 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = MA1 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = MA2 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = SE0 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = SE1 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = SE2 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = SE3 second = BUL type = opinion_tyrant_overlord }
+	opinion = { first = BUL second = SER type = opinion_hosting_exiles }
 
 
 	#Venice
-	#opinion = { first = VEN second = BYZ type = opinion_irritated }
-	#opinion = { first = BYZ second = VEN type = opinion_raid_capital }
+	opinion = { first = VEN second = BYZ type = opinion_allowed_italian_influence_in_constantinople }
+	opinion = { first = GEN second = BYZ type = opinion_allowed_italian_influence_in_constantinople }
+	opinion = { first = PIS second = BYZ type = opinion_allowed_italian_influence_in_constantinople }
 	opinion = { first = VEN second = PAD type = opinion_declared_war }
-	opinion = { first = PAD second = VEN type = opinion_declared_war }
-	opinion = { first = VEN second = GEN type = opinion_declared_war }
-	opinion = { first = GEN second = VEN type = opinion_declared_war }
+	opinion = { first = VEN second = GEN type = trade_conflict }
+	opinion = { first = GEN second = VEN type = trade_conflict }
 	opinion = { first = VEN second = VER type = opinion_declared_war }
-	opinion = { first = VER second = VEN type = opinion_declared_war }
-	opinion = { first = VEN second = HUN type = border_aggression }
-	opinion = { first = HUN second = VEN type = border_aggression }
+	
 
-	opinion = { first = VEN second = NAX type = opinion_good_relations }
-	opinion = { first = NAX second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = CYP type = opinion_good_relations }
-	opinion = { first = CYP second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = NEG type = opinion_good_relations }
-	opinion = { first = NEG second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = NEG type = opinion_good_relations }
-	opinion = { first = NEG second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = CEP type = opinion_good_relations }
-	opinion = { first = CEP second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = TTE type = opinion_good_relations }
-	opinion = { first = TTE second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = CRT type = opinion_good_relations }
-	opinion = { first = CRT second = VEN type = opinion_good_relations }
-	opinion = { first = VEN second = RAG type = opinion_good_relations }
-	opinion = { first = RAG second = VEN type = opinion_good_relations }
+	opinion = { first = NAX second = VEN type = opinion_military_aid }
+	opinion = { first = CYP second = VEN type = opinion_military_aid }
+	opinion = { first = NEG second = VEN type = opinion_military_aid }
+	opinion = { first = NEG second = VEN type = opinion_military_aid }
+	opinion = { first = CEP second = VEN type = opinion_military_aid }
+	opinion = { first = TTE second = VEN type = opinion_military_aid }
+	opinion = { first = CRT second = VEN type = opinion_military_aid }
+	opinion = { first = RAG second = VEN type = opinion_military_aid }
+	opinion = { first = VTC second = VEN type = opinion_military_aid }
+	opinion = { first = GTC second = GEN type = opinion_military_aid }
+	opinion = { first = GAZ second = GEN type = opinion_military_aid }
 
 	#Historical Friends
 	opinion = { first = POL second = LIT type = opinion_historical_friend_POL_LIT }
 	opinion = { first = LIT second = POL type = opinion_historical_friend_POL_LIT }
-	opinion = { first = TEU second = LIV type = opinion_historical_friend_TEU_LIV }
 
 	#Andes 
 	#Historical Rivals
@@ -114,9 +176,7 @@ diplomacy_manager = {
 
 	#HRE
 	#Bavaria
-	#Wittelsbacher Rivals
-	opinion = { first = UBV second = PAP type = opinion_angry } #represents the Interdict that germans did not care about
-	opinion = { first = PAP second = UBV type = opinion_angry } #represents the Interdict that germans did not care about
+
 	#Wittelsbacher Good House Relations
 	opinion = { first = UBV second = LBV type = opinion_good_relations }
 	opinion = { first = LBV second = UBV type = opinion_good_relations }
@@ -148,6 +208,13 @@ diplomacy_manager = {
 	opinion = { first = POL second = HUN type = opinion_good_relations }
 	opinion = { first = HUN second = BUL type = opinion_good_relations }
 	opinion = { first = BUL second = HUN type = opinion_good_relations }
+	opinion = { first = VEN second = HUN type = border_aggression }
+	opinion = { first = HUN second = VEN type = border_aggression }
+	opinion = { first = HUN second = BYZ type = opinion_irritated }
+	opinion = { first = BYZ second = HUN type = opinion_irritated }
+	opinion = { first = HUN second = WA0 type = left_empire }
+	opinion = { first = HUN second = WA1 type = left_empire }
+	opinion = { first = HUN second = WA2 type = left_empire }
 
 	opinion = { first = NSE second = SWE type = opinion_good_relations }
 	opinion = { first = SWE second = NSE type = opinion_good_relations }
@@ -160,16 +227,61 @@ diplomacy_manager = {
 	opinion = { first = TVE second = LIT type = opinion_supportive_monarch }
 	opinion = { first = LIT second = MOS type = opinion_declared_war }
 	opinion = { first = MOS second = LIT type = opinion_declared_war }
+	opinion = { first = LIT second = KIE type = left_empire }
+	opinion = { first = LIT second = CHR type = left_empire }
+	opinion = { first = LIT second = SMO type = left_empire }
 
 	#Middle East
-	opinion = { first = TUR second = ERE type = opinion_declared_war }
-	opinion = { first = TUR second = ERE type = border_aggression }
-	opinion = { first = TUR second = KAR type = opinion_declared_war }
-	opinion = { first = TUR second = KAR type = border_aggression }
-	opinion = { first = TUR second = ATQ type = opinion_declared_war }
-	opinion = { first = TUR second = ATQ type = border_aggression }
-	opinion = { first = TUR second = DUL type = opinion_declared_war }
-	opinion = { first = TUR second = DUL type = border_aggression }
+	opinion = { first = TUR second = ERE type = left_empire }
+	opinion = { first = TUR second = KAR type = left_empire }
+	opinion = { first = TUR second = ATQ type = left_empire }
+	opinion = { first = TUR second = DUL type = left_empire }
+
+	opinion = { first = GLH second = ZAZ type = left_empire }
+	opinion = { first = GLH second = RH0 type = left_empire }
+	opinion = { first = GLH second = RH1 type = left_empire }
+	opinion = { first = GLH second = RH2 type = left_empire }
+	opinion = { first = GLH second = RH3 type = left_empire }
+
+	opinion = { first = MAM second = VEN type = opinion_military_aid }
+	opinion = { first = MAM second = VTC type = opinion_military_aid }
+	opinion = { first = VEN second = MAM type = opinion_traders_in_x }
+	opinion = { first = VTC second = MAM type = opinion_traders_in_x }
+
+	opinion = { first = GLH second = GTC type = opinion_military_aid }
+	opinion = { first = GLH second = GEN type = opinion_military_aid }
+	opinion = { first = GLH second = GAZ type = opinion_military_aid }
+	opinion = { first = GEN second = GLH type = opinion_traders_in_x }
+	opinion = { first = GTC second = GLH type = opinion_traders_in_x }
+	opinion = { first = GAZ second = GLH type = opinion_traders_in_x }
+	#opinion = { first = GLH second = GTC type = gen_offered_crossbowmen }
+
+	opinion = { first = MOS second = GLH type = opinion_military_aid }
+	opinion = { first = MOS second = RSO type = left_empire }
+	opinion = { first = MOS second = NOV type = left_empire }
+	opinion = { first = PRM second = GLH type = opinion_military_aid }
+	opinion = { first = VYT second = GLH type = opinion_military_aid }
+	opinion = { first = GLM second = GLH type = opinion_military_aid }
+	opinion = { first = RSO second = GLH type = opinion_military_aid }
+
+	opinion = { first = MOS second = GLH type = opinion_offered_hostage }
+	opinion = { first = GLH second = MOS type = opinion_offered_hostage }
+	opinion = { first = PRM second = GLH type = opinion_offered_hostage }
+	opinion = { first = GLH second = PRM type = opinion_offered_hostage }
+	opinion = { first = VYT second = GLH type = opinion_offered_hostage }
+	opinion = { first = GLH second = VYT type = opinion_offered_hostage }
+	opinion = { first = GLM second = GLH type = opinion_offered_hostage }
+	opinion = { first = GLH second = GLM type = opinion_offered_hostage }
+	opinion = { first = RSO second = GLH type = opinion_offered_hostage }
+	opinion = { first = GLH second = RSO type = opinion_offered_hostage }
+
+	opinion = { first = MOS second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = KIE second = BYZ type = opinion_low_legitimacy }
+	opinion = { first = BYZ second = MOS type = opinion_hosting_exiles }
+	opinion = { first = BYZ second = GLH type = opinion_traders_in_x }
+	opinion = { first = BYZ second = GLH type = opinion_protected_christian_minorities }
+	opinion = { first = BYZ second = MAM type = opinion_protected_christian_minorities }
+	opinion = { first = BYZ second = ADU type = opinion_protected_christian_minorities }
 
 
 	#Maghreb
@@ -205,5 +317,7 @@ diplomacy_manager = {
 	opinion = { first = VIJ second = RIC type = opinion_good_relations }
 	opinion = { first = RIC second = DLH type = opinion_good_relations }
 	opinion = { first = DLH second = RIC type = opinion_good_relations }
+	opinion = { first = RIC second = VIJ type = opinion_traders_in_x }
+	opinion = { first = RIC second = DLH type = opinion_traders_in_x }
 
 }

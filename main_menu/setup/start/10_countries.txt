@@ -31921,13 +31921,13 @@ countries = {
 		#Cilicia - CIL https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia
 		CIL = {
 			own_control_core = {
-				adana ayas kars_armenia iskenderun
+				adana ayas kars_armenia
 				anavarza sis caxud
 				tarsus corycus candir_cil molevon
 			}
 			
 			our_cores_conquered_by_others = {
-				hargan
+				hargan iskenderun
 			}
 			
 			starting_technology_level = 3
@@ -32582,10 +32582,11 @@ countries = {
 		KIL = {
 			own_control_core = {
 				trapessac
-				besni enguzud marash
+				besni marash
 
 			}
 			our_cores_conquered_by_others = {
+				enguzud
 				ulnia kaysun elbistan goksun afsin
 			}
 			
@@ -32619,11 +32620,12 @@ countries = {
 		TRE = {
 			own_control_core = {
 				trebizond giresun gorele gumushane surmene
-				bayramlu unye
+				bayramlu
 				rize khupati
 			}
 
 			our_cores_conquered_by_others = {
+				unye
 				gerze bafra samsun terme akkus mesudiye
 			}
 			
@@ -53250,11 +53252,11 @@ countries = {
 
 		AOI = {
 			own_control_core = {
-				antioch arsuz
+				antioch arsuz iskenderun
 			}
 			
 			our_cores_conquered_by_others = {
-				iskenderun trapessac artah idlib latakia
+				trapessac artah idlib latakia
 			}
 			
 			starting_technology_level = 3
@@ -53286,8 +53288,8 @@ countries = {
 		}
 
 		OHS = { #Brotherhood of the Holy Sepulchre
-			own_control_core = {
-				kapan ulnia
+			own_control_integrated = {
+				kapan ulnia enguzud
 			}
 			our_cores_conquered_by_others = {
 				#Holy Land cores
@@ -53309,6 +53311,7 @@ countries = {
 			government = {
 				type = theocracy
 				ruler = br_ere_rdm_character_14
+				ruler_term = { character = br_ere_rdm_character_14 start_date = 1333.1.1 }
 				
 				reforms = {
 					military_order_reform
@@ -53354,7 +53357,7 @@ countries = {
 			
 			liturgical_language = khoine_dialect
 			country_rank = rank_duchy
-			capital = marash
+			capital = ulnia
 
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
@@ -53741,19 +53744,10 @@ countries = {
 		
 		ICO = {
 			own_control_core = {
-				konya eskil hatunsaray karapinar ladik larende pirloganda
-				beysehir sarkikaraagac seydisehir
+				konya hatunsaray karapinar ladik larende pirloganda
 				obruk altinekin cumra
-				yalvac
+			}
 
-				insuyu kulu_turkey
-				bolvadin ilgin aksehir
-				turgut suluklu celtik
-			}
-			
-			own_control_integrated = {
-				aksaray kochisar sariyahsi eregli_kar
-			}
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "br_thema_template"
@@ -53783,6 +53777,11 @@ countries = {
 			own_control_core = {
 				beypazari kizilca
 				ankara cubuk haymana kalecik polatli karakecili
+			}
+			own_control_integrated = {
+				cankiri bayat cerkes kursunlu tosya sabanozu
+				insuyu kulu_turkey
+				turgut suluklu celtik
 			}
 			our_cores_conquered_by_others = {
 				kibrus mihaliccik sivrihisar bozan kaymaz
@@ -53814,58 +53813,18 @@ countries = {
 			capital = ankara
 		}
 		
-		KAP = {
-			own_control_core = {
-				kayseri develi tomarza yahyali 
-				urgup nevsehir
-				bekarlar bor_tur nigde
-				hargan
-			}
-			
-			our_cores_conquered_by_others = {
-				comana_cil
-				elbistan goksun afsin
-				dasmenda gemerek
-				bogazliyan kirsehir hacibektas
-				aksaray kochisar sariyahsi eregli_kar
-			}
-			
-			starting_technology_level = 3
-			include = "expl_eastern_europe"
-			include = "br_thema_template"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			government = {
-				ruler = random
-			}
-			
-			country_rank = rank_duchy
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				armenian_culture
-			}
-			
-			liturgical_language = khoine_dialect
-			capital = kayseri
-		}
-		
 		PAF = {
 			own_control_core = {
 				#CND
 				bartin
 				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
 				safranbolu ulus yenicepazari
-				cankiri bayat cerkes kursunlu tosya sabanozu
 			}
 
 			our_cores_conquered_by_others = {
 				amasra mengen gerede
 				iskilip gumus
+				cankiri bayat cerkes kursunlu tosya sabanozu
 			}
 			
 			starting_technology_level = 3
@@ -53889,7 +53848,7 @@ countries = {
 			}
 			
 			liturgical_language = khoine_dialect
-			capital = kastamonu
+			capital = sinop
 		}
 		
 		K1B = {
@@ -54034,6 +53993,7 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = br_ere_rdm_character_00
+				ruler_term = { character = br_ere_rdm_character_00 start_date = 1333.1.1 }
 			}
 			
 			country_rank = rank_county
@@ -54048,15 +54008,13 @@ countries = {
 			capital = canakkale
 		}
 
-		AN0 = {
+		AN10 = {
 			own_control_core = {
-				#sivas dasmenda deliktash gemerek hafik sarkisla zara divrigi
 				sulusaray tokat zile
 				niksar
 				gumus
 				amasya merzifon sonisa gadegara ladik_pontus
 				akdagmadeni aydincik
-				gerze bafra samsun terme akkus
 				iskilip corum
 			}
 
@@ -54086,10 +54044,11 @@ countries = {
 			own_control_core = {
 				comana_cil
 				elbistan goksun afsin
-				darende gurun
+				hargan
 			}
 			our_cores_conquered_by_others = {
-				hargan enguzud kapan ulnia
+				enguzud kapan ulnia
+				darende gurun
 			}
 			
 			starting_technology_level = 3
@@ -54104,7 +54063,7 @@ countries = {
 				ruler = random
 			}
 			
-			country_rank = rank_duchy
+			country_rank = rank_county
 			accepted_cultures = {
 				greek_culture
 				armenian_culture
@@ -54116,11 +54075,15 @@ countries = {
 		
 		AN2 = {
 			own_control_core = {
-				sivas dasmenda deliktash gemerek hafik sarkisla divrigi
+				sivas dasmenda deliktash hafik sarkisla divrigi
 				zara
 			}
+			own_control_integrated = {
+				ilic egin 
+				darende gurun
+			}
 			our_cores_conquered_by_others = {
-				ilic egin
+				gemerek
 			}
 			
 			starting_technology_level = 3
@@ -54150,11 +54113,12 @@ countries = {
 				sebinkarahisar
 				mesudiye koyulhisar
 			}
+			own_control_integrated = {
+				siran
+			}
 
 			our_cores_conquered_by_others = {
-				siran ilic tokat
-				niksar
-				zara
+				tokat niksar
 			}
 			
 			starting_technology_level = 3
@@ -54169,7 +54133,7 @@ countries = {
 				ruler = random
 			}
 			
-			country_rank = rank_duchy
+			country_rank = rank_county
 			accepted_cultures = {
 				greek_culture
 				armenian_culture
@@ -54229,7 +54193,7 @@ countries = {
 				ruler = random
 			}
 			
-			country_rank = rank_duchy
+			country_rank = rank_county
 			accepted_cultures = {
 				greek_culture
 				armenian_culture
@@ -54237,6 +54201,130 @@ countries = {
 
 			liturgical_language = khoine_dialect
 			capital = silifke
+		}
+		
+		AN6 = {
+			own_control_core = {
+				unye
+				gerze bafra samsun terme akkus
+			}
+
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+
+			liturgical_language = khoine_dialect
+			capital = samsun
+		}
+
+		AN7 = {
+			own_control_core = {
+				aksaray kochisar sariyahsi eregli_kar
+				eskil
+				nevsehir
+				bekarlar bor_tur nigde
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = aksaray
+		}
+
+		AN8 = {
+			own_control_core = {
+				kayseri develi tomarza yahyali 
+				urgup 
+				gemerek
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = kayseri
+		}
+		
+		AN9 = {
+			own_control_core = {
+				bolvadin ilgin aksehir
+				beysehir sarkikaraagac seydisehir yalvac
+			}
+			our_cores_conquered_by_others = {
+				egirdir
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				greek_culture
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = beysehir
 		}
 		
 
@@ -54308,12 +54396,12 @@ countries = {
 		
 		KOG = {
 			own_control_core = {
-				bayburt erzincan ilic kelkit kemah siran
+				bayburt erzincan kelkit kemah
 				erzurum tercan
 			}
 			
 			our_cores_conquered_by_others = {
-				sebinkarahisar
+				sebinkarahisar siran ilic
 			}
 			
 			starting_technology_level = 3
@@ -54372,18 +54460,15 @@ countries = {
 		
 		MES = {
 			own_control_core = {
-				arapgir egin arguvan
+				arapgir arguvan
 				malatya
 				genc
 				harput adakli keban palu
 				cemisgezek kuzucan pertek
 			}
 			
-			own_control_integrated = {
-			}
-			
 			our_cores_conquered_by_others = {
-				divrigi
+				divrigi egin
 			}
 			
 			starting_technology_level = 3
