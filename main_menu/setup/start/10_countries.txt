@@ -54175,6 +54175,7 @@ countries = {
 			own_control_core = {
 				unye
 				gerze bafra samsun terme akkus
+				gadegara ladik_pontus
 			}
 
 			starting_technology_level = 3
@@ -54299,8 +54300,7 @@ countries = {
 			own_control_core = {
 				sulusaray tokat zile
 				niksar
-				gumus
-				amasya merzifon sonisa gadegara ladik_pontus
+				amasya merzifon sonisa
 				akdagmadeni aydincik
 				corum
 			}
@@ -54330,6 +54330,7 @@ countries = {
 		AN11 = {
 			own_control_core = {
 				cankiri bayat cerkes kursunlu tosya sabanozu iskilip
+				gumus
 			}
 
 			starting_technology_level = 3

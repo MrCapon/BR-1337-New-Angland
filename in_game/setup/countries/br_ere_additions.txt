@@ -256,6 +256,13 @@ P0N = {
 	religion_definition = orthodox
 }
 
+P1N = {
+	color = rgb { 88 98 128 }
+
+	culture_definition = pontic_greek_culture
+	religion_definition = orthodox
+}
+
 #Wallachia
 
 WA0 = {
