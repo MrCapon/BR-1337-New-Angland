@@ -421,3 +421,30 @@ REPLACE_OR_CREATE:AFK_f = {
         #trigger_event_non_silently = placeholder_event
     }
 }
+
+REPLACE_OR_CREATE:WAL_f = {
+	level = 3
+	required_locations_fraction = 0.75
+	rule = historical
+	
+	potential = {
+		culture = culture:wallachian
+	}
+	
+	allow = {
+	}
+	
+	name = WAL
+	flag = WAL
+	adjective = WAL_ADJ
+	tag = WAL
+	#color = map_AN0
+
+	areas = {
+		wallachia_area
+	}
+	form_effect = {
+		#set_country_rank_effect = { rank = country_rank:rank_kingdom }
+        #trigger_event_non_silently = placeholder_event
+    }
+}

@@ -275,6 +275,7 @@
  SY3_f: "$SY3$"
  AGY_f: "$AGY$"
  AFK_f: "$AFK$"
+ WAL_f: "$WAL$"
 
  E1Y: "Elysiara"
  E1Y_ADJ: "Elysiara"
