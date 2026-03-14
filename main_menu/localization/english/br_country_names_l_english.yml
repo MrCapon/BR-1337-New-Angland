@@ -217,6 +217,8 @@
  AN10_ADJ: "Amáseian"
  AN11: "Gángra"
  AN11_ADJ: "Gangrōn"
+ P0N: "Póntos"
+ P0N_ADJ: "Póntos"
 
  #Baltics
  BA0: "Pruthenia"
@@ -276,6 +278,7 @@
  AGY_f: "$AGY$"
  AFK_f: "$AFK$"
  WAL_f: "$WAL$"
+ P0N_f: "$P0N$"
 
  E1Y: "Elysiara"
  E1Y_ADJ: "Elysiara"

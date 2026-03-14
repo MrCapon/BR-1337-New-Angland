@@ -255,6 +255,7 @@ REPLACE_OR_CREATE:ANA_f = {
 	}
 	
 	allow = {
+		culture = culture:anatolian_greek_culture
 	}
 	
 	name = ANA
@@ -264,9 +265,15 @@ REPLACE_OR_CREATE:ANA_f = {
 	#color = map_ANA
 	
 	areas = {
-		west_anatolia_area
 		central_anatolia_area
-		marmara_area
+	}
+	provinces = {
+		kirsehir_province
+		bozok_province
+		hamid_province
+		usak_province
+		kutahya_province
+		sultanonu_province
 	}
 	form_effect = {
 		set_country_rank_effect = { rank = country_rank:rank_kingdom }
@@ -284,6 +291,7 @@ REPLACE_OR_CREATE:KAP_f = {
 	}
 	
 	allow = {
+		culture = culture:cappadocian_greek_culture
 	}
 	
 	name = KAP
@@ -315,6 +323,7 @@ REPLACE_OR_CREATE:AN0_f = {
 	}
 	
 	allow = {
+		culture = culture:armenikon_greek_culture
 	}
 	
 	name = AN0
@@ -374,6 +383,7 @@ REPLACE_OR_CREATE:AGY_f = {
 	}
 	
 	allow = {
+		owns = location:alexandria
 	}
 	
 	name = AGY
@@ -403,6 +413,7 @@ REPLACE_OR_CREATE:AFK_f = {
 	}
 	
 	allow = {
+		owns = location:tunis
 	}
 	
 	name = AFK
@@ -432,6 +443,7 @@ REPLACE_OR_CREATE:WAL_f = {
 	}
 	
 	allow = {
+		owns = location:bucharest
 	}
 	
 	name = WAL
@@ -445,6 +457,38 @@ REPLACE_OR_CREATE:WAL_f = {
 	}
 	form_effect = {
 		#set_country_rank_effect = { rank = country_rank:rank_kingdom }
+        #trigger_event_non_silently = placeholder_event
+    }
+}
+
+REPLACE_OR_CREATE:P0N_f = {
+	level = 3
+	required_locations_fraction = 0.66
+	rule = historical
+	
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	
+	allow = {
+		culture = culture:pontic_greek_culture
+	}
+	
+	name = P0N
+	flag = P0N
+	adjective = P0N_ADJ
+	tag = P0N
+	#color = map_AN0
+
+	provinces = {
+		canik_province
+		kastamonu_province
+		safranbolu_province
+		sinop_province
+		trebizond_province
+	}
+	form_effect = {
+		set_country_rank_effect = { rank = country_rank:rank_kingdom }
         #trigger_event_non_silently = placeholder_event
     }
 }

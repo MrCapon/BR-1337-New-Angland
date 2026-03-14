@@ -4,59 +4,21 @@ countries = {
 	#Balkans
 		ANA = { #br releasable
 			our_cores_conquered_by_others = {
-				#KAR
-				aksaray kochisar insuyu
-				kirsehir nevsehir sariyahsi
-				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
-				bekarlar bor_tur nigde
-				beysehir aksehir bolvadin sarkikaraagac seydisehir
-				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
-				#AHI
-				ankara cubuk haymana kalecik polatli karakecili
-				#ERE
+				aksaray kochisar kulu_turkey insuyu lake_tuz
+				ankara cubuk haymana kalecik karakecili polatli
+				beysehir aksehir bolvadin ilgin sarkikaraagac seydisehir yalvac
+				cankiri bayat cerkes kursunlu sabanozu tosya
+				karahisar_i_sahib altintas emirdag sandikli seyitgazi suhut
+				konya altinekin celtik cumra ladik suluklu turgut
+				larende eregli_kar eskil hatunsaray karapinar obruk pirloganda
+				sivrihisar beypazari bozan kaymaz kibrus kizilca mihaliccik
+
+				kirsehir hacibektas nevsehir sariyahsi urgup
 				bozok baliseyh candir dinek_keskin sorgun
-				hacibektas
-				corum huseyinabad sungurlu
-				akdagmadeni aydincik koyulhisar sulusaray tokat zile
-				#HMD
-				yalvac
-				#TUR
-				beypazari kibrus kizilca
-				bolu akcasehir akyazi konrapa gerede mengen mudurnu
-				bursa adranos iznik
-				izmit atpazari
-				domanic
+				isparta burdur dinar egirdir stefani uluborlu
+				usak banaz gediz honaz lazkiye seyhli
+				kutahya aslanapa domanic emet simav tavsanli
 				sultanonu bilecik goynuk eynegol inonu nalli sogut
-				#KRD
-				balikesir balya edremit manyas mihalic susurluk
-				ayvacik bandirma bayramic can canakkale gonen lapseki
-				dursunbey harmancik
-				#GRM
-				mihaliccik sivrihisar bozan kaymaz
-				altintas emirdag seyitgazi
-				kutahya aslanapa emet simav tavsanli
-				usak banaz gediz seyhli
-				#SRU
-				manisa akhisar demirci gordes kula
-				bergama bigadic soma
-				#AYD
-				smyrna ayasuluk cesme menemen urla
-				tire balat birgi guzelhisar nazilli
-				#MEN
-				milas
-				mugla bodrum cine gokabat marmaris megri yuksekkum
-				#TVS
-				tavas
-				#INA
-				honaz lazkiye
-				#SHP
-				karahisar_i_sahib sandikli suhut
-				#HMD
-				isparta burdur dinar egirdir uluborlu
-				golhisar stefani
-				#TEK
-				antalya elmali karahisar_i_teke kas istanoz
-				manavgat finike
 			}
 			
 			starting_technology_level = 3
@@ -80,22 +42,16 @@ countries = {
 				armenian_culture
 			}
 			liturgical_language = khoine_dialect
-			capital = konya
+			capital = ankara
 		}
 
 		KAP = {
 			our_cores_conquered_by_others = {
-				kayseri develi tomarza yahyali 
-				urgup 
-				gemerek
-				nevsehir
-				bekarlar bor_tur nigde
-				hargan
-				comana_cil
-				elbistan goksun afsin
-				dasmenda
-				bogazliyan kirsehir hacibektas
-				aksaray kochisar sariyahsi eregli_kar
+				kayseri bogazliyan develi tomarza yahyali
+				kirsehir hacibektas nevsehir sariyahsi urgup
+				nigde bekarlar bor_tur
+				larende eregli_kar eskil hatunsaray karapinar obruk pirloganda
+				aksaray kochisar kulu_turkey insuyu
 			}
 			
 			starting_technology_level = 3
@@ -120,6 +76,73 @@ countries = {
 			
 			liturgical_language = khoine_dialect
 			capital = kayseri
+		}
+
+		P0N = {
+			our_cores_conquered_by_others = {
+				#bolu akcasehir akyazi eregli konrapa mudurnu
+				giresun akkus bayramlu mesudiye terme unye
+				kastamonu arac devrekani inebolu kure_i_mamure taskopru
+				safranbolu amasra bartin gerede mengen ulus yenicepazari
+				sinop bafra boyabat gerze samsun
+				trebizond gorele gumushane khupati rize surmene
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_kingdom
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = sinop
+		}
+
+		AN0 = {
+			our_cores_conquered_by_others = {
+				amasya gadegara ladik_pontus merzifon sonisa
+				tokat akdagmadeni aydincik koyulhisar niksar sulusaray zile
+				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
+				divrigi arapgir arguvan egin
+				erzurum bayburt erzincan ilic kelkit kemah sebinkarahisar siran tercan
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "br_thema_template"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				ruler = random
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				armenian_culture
+			}
+			
+			liturgical_language = khoine_dialect
+			capital = sinop
 		}
 		
 		SE4 = { #Releasable
