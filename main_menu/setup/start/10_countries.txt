@@ -53976,7 +53976,7 @@ countries = {
 			our_cores_conquered_by_others = {
 				samos ikaria foca
 				lemnos
-				corfu kythira andros mykonos amorgos karpathos
+				andros mykonos amorgos
 				negroponte kleisoura karystos kymi oreos eretreia
 				naxos kythnos milos
 			}

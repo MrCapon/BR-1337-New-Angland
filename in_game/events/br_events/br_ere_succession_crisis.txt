@@ -11,7 +11,7 @@ br_ere_succession_crisis.1 = {
 		10 = interior
 	}
 
-	orphan = yes
+	orphan = yes #not in use for testing only
 
 	immediate = {
 		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }

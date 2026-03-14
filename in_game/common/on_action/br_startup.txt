@@ -7,23 +7,23 @@
 br_on_game_start = {
     effect = {
         c:E1Y = {
-            trigger_event_silently = br_startup.1
+            trigger_event_silently = br_startup.1 #resource changes
         }
         c:RIC = {
             #trigger_event_silently = br_indikes_events.1
         }
         c:K1K = {
-            trigger_event_silently = br_country_startup.1
+            trigger_event_silently = br_country_startup.1 #naval units
         }
         c:RH0 = {
-            trigger_event_silently = br_country_startup.2
+            trigger_event_silently = br_country_startup.2 #military units
         }
         c:OHS = {
-            trigger_event_silently = br_country_startup.3
+            trigger_event_silently = br_country_startup.3 #extra cbs
         }
 
         c:BYZ = {
-			trigger_event_silently = br_ere_events.1
+			trigger_event_silently = br_ere_events.1 #start event with cbs
 			research_advance = advance_type:meritocracy_advance
 			research_advance = advance_type:educated_bureaucrats
 			research_advance = advance_type:efficient_bureaucracy
@@ -210,7 +210,22 @@ br_on_game_start = {
 			research_advance = advance_type:organized_religion
 			research_advance = advance_type:scholasticism
 		}
+		c:A0A = {
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
+		}
+		c:A2A = {
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:abacus_advance
+			research_advance = advance_type:ledgers_double_checking
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
+		}
 		c:A1G = {
+			trigger_event_silently = br_ere_events.1002
 			research_advance = advance_type:unlock_barque_advance
 			research_advance = advance_type:unlock_m_galley_advance
 			research_advance = advance_type:unlock_hulk_advance

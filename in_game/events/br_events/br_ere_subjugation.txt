@@ -6,7 +6,7 @@ br_ere_subjugation.1 = {
 	title = br_ere_subjugation.1.title
 	desc = br_ere_subjugation.1.desc
 
-	orphan = yes
+	orphan = yes #not in use for testing only
 	
 	illustration_tags = {
 		10 = regular

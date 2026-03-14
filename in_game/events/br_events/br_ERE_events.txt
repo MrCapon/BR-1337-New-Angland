@@ -196,7 +196,7 @@ br_ere_events.1002 = {
 	title = br_ere_events.2.title
 	desc = br_ere_events.2.desc
 	fire_only_once = yes
-	orphan = yes
+	#orphan = yes
 	trigger = {
 		#tag = A1G
 	}

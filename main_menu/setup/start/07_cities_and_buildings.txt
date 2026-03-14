@@ -4276,7 +4276,7 @@ building_manager = {
 	bridge_infrastructure = { tag = MAM level = 1 location = alexandria }
 
 	furniture_guild = { tag = PAF level = 1 location =  sinop }
-	furniture_guild = { tag = AN0 level = 1 location =  samsun }
+	furniture_guild = { tag = AN6 level = 1 location =  samsun }
 	furniture_guild = { tag = BYZ level = 2 location =  edirne }
 
 	tar_kiln = { tag = BYZ level = 1 location = izmit }
@@ -4494,7 +4494,7 @@ building_manager = {
 	thema_headquarters = { tag = AON level = 1 location = amasya }
 	thema_headquarters = { tag = ICO level = 1 location = konya }
 	thema_headquarters = { tag = ICO level = 1 location = aksaray }
-	thema_headquarters = { tag = AN0 level = 1 location = samsun }
+	thema_headquarters = { tag = AN6 level = 1 location = samsun }
 	thema_headquarters = { tag = KAP level = 1 location = kayseri }
 	thema_headquarters = { tag = CIL level = 1 location = tarsus }
 	thema_headquarters = { tag = AOI level = 1 location = antioch }
@@ -5368,10 +5368,10 @@ building_manager = {
 	market_village = { tag = TRE level = 2 location = bayramlu }
 	forest_village = { tag = TRE level = 2 location = bayramlu }
 	sand_pit = { tag = TRE level = 1 location = bayramlu }
-	sand_pit = { tag = TRE level = 1 location = samsun }
+	sand_pit = { tag = AN6 level = 1 location = samsun }
 	sand_pit = { tag = PAF level = 1 location = sinop }
 	lumber_mill = { tag = PAF level = 1 location = sinop }
-	clay_pit = { tag = TRE level = 1 location = samsun }
+	clay_pit = { tag = AN6 level = 1 location = samsun }
 	clay_pit = { tag = TRE level = 1 location = trebizond }
 	lumber_mill = { tag = TRE level = 1 location = trebizond }
 	market_village = { tag = BYZ level = 2 location = uluborlu }
@@ -5381,7 +5381,7 @@ building_manager = {
 	tar_kiln = { tag = PAF level = 1 location = sinop }
 	sand_pit = { tag = GTC level = 1 location = amasra }
 	lumber_mill = { tag = GTC level = 1 location = amasra }
-	tar_kiln = { tag = AN0 level = 1 location = amasya }
+	tar_kiln = { tag = AN10 level = 1 location = amasya }
 	market_village = { tag = BYZ level = 2 location = luleburgaz }
 	forest_village = { tag = BYZ level = 2 location = luleburgaz }
 	market_village = { tag = BYZ level = 1 location = balikesir }
@@ -6689,7 +6689,6 @@ building_manager = {
 	br_latin_trading_post = { tag = GTC level = 1 location = amasra }
 	br_latin_trading_post = { tag = GTC level = 1 location = vosporo }
 	br_latin_trading_post = { tag = GTC level = 1 location = taman }
-	br_latin_trading_post = { tag = GTC level = 1 location = samsun }
 	br_latin_trading_post = { tag = GTC level = 1 location = eregli }
 	br_latin_trading_post = { tag = GTC level = 1 location = burgas }
 	br_latin_trading_post = { tag = GTC level = 1 location = tripoli_syria }
