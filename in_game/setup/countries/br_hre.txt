@@ -22,7 +22,7 @@ REPLACE_OR_CREATE:LOT = {
 	unit_color1 = rgb { 171 19 19 }
 	unit_color2 = rgb { 200 200 210 }
 
-	culture_definition = french
+	culture_definition = lorrain #french
 	religion_definition = catholic
 
 	description_category = military

@@ -54972,10 +54972,10 @@ countries = {
             }
 
 			accepted_cultures = {
-				lorrain
-                champenais
+				french
 			}
             tolerated_cultures = {
+				champenais
             }
 
             country_rank = rank_kingdom

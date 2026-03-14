@@ -10,6 +10,8 @@
  neapolitan: "Meridionales"
  turkish_culture: "Turkopersai"
  mizrahi: "Musta'Arabi"
+ gascon: "Aquitanien" #Aquitanian
+ lorrain: "Austrasien"
 
 #renamed culture groups
  russian_group: "Rus"
