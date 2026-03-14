@@ -279,25 +279,25 @@ WA2 = {
 #Serbia
 
 SE0 = {
-	color = rgb { 83 132 50 }
+	color = rgb { 113 132 50 }
 	culture_definition = serbian
 	religion_definition = orthodox
 }
 
 SE1 = {
-	color = rgb { 103 92 50 }
+	color = rgb { 123 92 50 }
 	culture_definition = serbian
 	religion_definition = orthodox
 }
 
 SE2 = {
-	color = rgb { 93 112 70 }
+	color = rgb { 113 112 70 }
 	culture_definition = serbian
 	religion_definition = orthodox
 }
 
 SE3 = {
-	color = rgb { 93 142 95 }
+	color = rgb { 113 142 95 }
 	culture_definition = serbian
 	religion_definition = orthodox
 }

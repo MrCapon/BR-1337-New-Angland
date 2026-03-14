@@ -35,7 +35,7 @@ REPLACE_OR_CREATE:LOT = {
 
 #Lyon
 REPLACE_OR_CREATE:LYN = {
-    color = rgb { 16 66 145 }
+    color = rgb { 16 66 165 }
 
     culture_definition = arpitan
     religion_definition = catholic
@@ -51,7 +51,7 @@ REPLACE_OR_CREATE:VIV = {
 
 #Clermont
 REPLACE_OR_CREATE:CMT = {
-    color = rgb { 46 41 140 }
+    color = rgb { 46 41 160 }
 
     culture_definition = auvergnat
     religion_definition = catholic
@@ -67,7 +67,7 @@ REPLACE_OR_CREATE:CMB = {
 
 #Châteauroux
 REPLACE_OR_CREATE:CEX = {
-    color = rgb { 44 44 144 }
+    color = rgb { 44 44 164 }
 
     culture_definition = berrichon
     religion_definition = catholic
@@ -75,7 +75,7 @@ REPLACE_OR_CREATE:CEX = {
 
 #Touraine
 REPLACE_OR_CREATE:TNE = {
-    color = rgb { 55 44 133 }
+    color = rgb { 55 44 153 }
 
     culture_definition = french
     religion_definition = catholic
@@ -91,7 +91,7 @@ REPLACE_OR_CREATE:AMI = {
 
 #Vermandois
 REPLACE_OR_CREATE:VRM = {
-    color = rgb { 25 25 95 }
+    color = rgb { 25 25 135 }
 
     culture_definition = picard
     religion_definition = catholic
