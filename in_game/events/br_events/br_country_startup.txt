@@ -128,6 +128,10 @@ br_country_startup.1 = {
 			}
 		}
 		c:KNI = {
+			add_casus_belli = {
+				target = c:AD2
+				type = casus_belli:cb_deus_vult #cb_crusade
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:navy_light_ship
 				create_sub_unit_of_category = sub_unit_category:navy_light_ship
@@ -241,6 +245,10 @@ br_country_startup.2 = {
 
 	immediate = {
 		c:RH0 = {
+			add_casus_belli = {
+				target = c:GLH
+				type = casus_belli:cb_deus_vult #cb_crusade
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
@@ -261,6 +269,10 @@ br_country_startup.2 = {
 			}
 		}
 		c:BUL = {
+			add_casus_belli = {
+				target = c:BYZ
+				type = casus_belli:cb_border_war
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
@@ -277,6 +289,10 @@ br_country_startup.2 = {
 			}
 		}
 		c:ARA = {
+			add_casus_belli = {
+				target = c:AD1
+				type = casus_belli:cb_deus_vult #cb_crusade
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_artillery
 				create_sub_unit_of_category = sub_unit_category:army_artillery
@@ -310,6 +326,10 @@ br_country_startup.3 = {
 
 	immediate = {
 		c:OHS = {
+			add_casus_belli = {
+				target = c:KIL
+				type = casus_belli:cb_deus_vult #cb_crusade
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
@@ -320,6 +340,18 @@ br_country_startup.3 = {
 			}
 		}
 		c:SGO = {
+			add_casus_belli = {
+				target = c:KIP
+				type = casus_belli:cb_border_war
+			}
+			add_casus_belli = {
+				target = c:HYT
+				type = casus_belli:cb_border_war
+			}
+			add_casus_belli = {
+				target = c:TEM
+				type = casus_belli:cb_border_war
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
@@ -329,6 +361,34 @@ br_country_startup.3 = {
 			}
 		}
 		c:ARM = {
+			add_casus_belli = {
+				target = c:VDZ
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:AAI
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:SME
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:VAN
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:DER
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:KOG
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:MES
+				type = casus_belli:cb_subjugation
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
@@ -338,6 +398,14 @@ br_country_startup.3 = {
 			}
 		}
 		c:GEO = {
+			add_casus_belli = {
+				target = c:AAI
+				type = casus_belli:cb_subjugation
+			}
+			add_casus_belli = {
+				target = c:SME
+				type = casus_belli:cb_subjugation
+			}
 			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry

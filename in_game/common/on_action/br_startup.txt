@@ -23,6 +23,7 @@ br_on_game_start = {
         }
 
         c:BYZ = {
+			trigger_event_silently = br_ere_events.1
 			research_advance = advance_type:meritocracy_advance
 			research_advance = advance_type:educated_bureaucrats
 			research_advance = advance_type:efficient_bureaucracy
