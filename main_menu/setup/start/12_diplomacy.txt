@@ -6,11 +6,11 @@ diplomacy_manager = {
 	dependency = { first = NSE second = MCA subject_type = vassal }
 	
 	# Britannia
-	dependency = { first = NRM second = DST subject_type = vassal }
-	dependency = { first = NRM second = KAT subject_type = vassal }
-	dependency = { first = NRM second = SMR subject_type = vassal }
-	dependency = { first = NRM second = WSX subject_type = vassal }
-	dependency = { first = BRI second = CRN subject_type = vassal }
+	#dependency = { first = NRM second = DST subject_type = vassal }
+	#dependency = { first = NRM second = KAT subject_type = vassal }
+	#dependency = { first = NRM second = SMR subject_type = vassal }
+	#dependency = { first = NRM second = WSX subject_type = vassal }
+	#dependency = { first = BRI second = CRN subject_type = vassal }
 	
 	# Scotland
 	dependency = { first = SCO second = ROS subject_type = vassal }
@@ -102,18 +102,17 @@ diplomacy_manager = {
     #dependency = { first = BRY second = RH2 subject_type = dominion }
 
     #dependency = { first = GEN second = ARB subject_type = vassal }
-    scripted_oneway = { first = GEN second = ARB type = divert_trade }
 	
 	# Golden Horde
 
 	#Moldova
-	dependency = { first = GLH second = BIA subject_type = tributary }
-	dependency = { first = GLH second = BLD subject_type = tributary }
-	dependency = { first = GLH second = HTN subject_type = tributary }
-	dependency = { first = GLH second = HSC subject_type = tributary }
-	dependency = { first = GLH second = IAS subject_type = tributary }
-	dependency = { first = GLH second = SRC subject_type = tributary }
-	dependency = { first = GLH second = SSI subject_type = tributary }
+	#dependency = { first = GLH second = BIA subject_type = tributary }
+	#dependency = { first = GLH second = BLD subject_type = tributary }
+	#dependency = { first = GLH second = HTN subject_type = tributary }
+	#dependency = { first = GLH second = HSC subject_type = tributary }
+	#dependency = { first = GLH second = IAS subject_type = tributary }
+	#dependency = { first = GLH second = SRC subject_type = tributary }
+	#dependency = { first = GLH second = SSI subject_type = tributary }
 	
 
     #Russia
@@ -223,10 +222,10 @@ diplomacy_manager = {
     #dependency = { first = TOU second = CLT subject_type = vassal }
 
     #Neustria
-	#dependency = { first = FRA second = ETA subject_type = vassal }
-	#dependency = { first = FRA second = MON subject_type = vassal }
+	dependency = { first = FRA second = ETA subject_type = vassal }
+	dependency = { first = FRA second = MON subject_type = vassal }
     #dependency = { first = FRA second = ORL subject_type = vassal }
-    #dependency = { first = FRA second = DRE subject_type = vassal }
+    dependency = { first = FRA second = DRE subject_type = vassal }
 	#dependency = { first = FRA second = PRC subject_type = vassal }
     #dependency = { first = FRA second = VRM subject_type = vassal }
     #dependency = { first = FRA second = ALE subject_type = vassal }
@@ -244,8 +243,8 @@ diplomacy_manager = {
     #dependency = { first = BUR second = AUX subject_type = vassal }
 	
     #Normandy
-    #dependency = { first = NRM second = EVR subject_type = vassal }
-	#dependency = { first = NRM second = MRT subject_type = vassal }
+    dependency = { first = NRM second = EVR subject_type = vassal }
+	dependency = { first = NRM second = MRT subject_type = vassal }
     #dependency = { first = NRM second = AUM subject_type = vassal }
 
 	#Vassals of vassals
