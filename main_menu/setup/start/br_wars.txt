@@ -33,14 +33,6 @@ war_manager = {
 				reason = Target
 			}
 		}
-		attacker = {
-			country = EPI
-			request = {
-				caller = DYR
-				reason = Scripted
-				which = alliance
-			}
-		}
 
 	}
 	

@@ -163,11 +163,11 @@
 	}
 	
 	leader_modifier = {
-		cultures_capacity = 5
 		diplomatic_capacity = 2
 		max_diplomats = 2
-		subject_loyalty = 10
-		monthly_prestige = 0.25
+		monthly_diplomats = 0.5
+		#subject_loyalty = 10
+		monthly_prestige = 0.15
 		court_spending_cost = 0.05
 		
 		allowed_intervene_in_war = yes
@@ -175,6 +175,12 @@
 		allowed_threaten_war = yes
 		allow_tributary_subject = yes
 		force_convert_created_subjects = yes
+
+
+		num_possible_artists = 1 
+		government_size = 1
+		num_local_governors = 1
+
 	}
 	
 	create_visible_trigger = {

@@ -1,4 +1,5 @@
 ﻿namespace = br_country_startup
+
 br_country_startup.1 = { #naval units added
 	type = country_event
 	title = br_country_startup.1.title
@@ -16,130 +17,163 @@ br_country_startup.1 = { #naval units added
 		#new world
 		c:K1K = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
 				create_sub_unit_of_category = sub_unit_category:navy_transport
 				create_sub_unit_of_category = sub_unit_category:navy_transport
 			}
 		}
 		c:NRV = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
 			}
 		}
 		c:NRR = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
 			}
 		}
 		c:NRH = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
 			}
 		}
 		c:NRC = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
+				create_sub_unit = unit_type:n_vinland_longship
 			}
 		}
 
 		c:GEN = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_transport
-				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
 			}
 		}
-		c:GTC = {
-			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_transport
-				create_sub_unit_of_category = sub_unit_category:navy_transport
-			}
-		}
+		#c:GTC = {
+		#	capital = {
+		#	}
+		#}
 		c:VEN = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_transport
-				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
 			}
 		}
-		c:VTC = {
-			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_transport
-				create_sub_unit_of_category = sub_unit_category:navy_transport
-			}
-		}
+		#c:VTC = {
+		#	capital = {
+		#	}
+		#}
 		c:KNI = {
 			add_casus_belli = {
 				target = c:AD2
 				type = casus_belli:cb_deus_vult #cb_crusade
 			}
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
-				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
+				create_sub_unit = unit_type:n_barque
 				create_sub_unit_of_category = sub_unit_category:navy_transport
 				create_sub_unit_of_category = sub_unit_category:navy_transport
 				create_sub_unit_of_category = sub_unit_category:army_infantry
@@ -150,38 +184,40 @@ br_country_startup.1 = { #naval units added
 		}
 		c:A1G = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
 			}
 		}
 		c:K1B = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
-				create_sub_unit_of_category = sub_unit_category:navy_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
+				create_sub_unit = unit_type:n_mediterrannean_galley
 			}
 		}
 		c:MAM = {
@@ -254,7 +290,8 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_tagmata_ballistai
+				create_sub_unit = unit_type:br_tagmata_ballistai
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
@@ -266,13 +303,15 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_unit_trebuchet
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
 		c:ARA = {
 			capital = {
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_unit_trebuchet
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
@@ -283,7 +322,9 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_tagmata_ballistai
+				create_sub_unit = unit_type:br_tagmata_ballistai
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
@@ -292,7 +333,9 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_tagmata_ballistai
+				create_sub_unit = unit_type:br_tagmata_ballistai
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
@@ -301,7 +344,8 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_unit_trebuchet
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
@@ -310,7 +354,8 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_unit_trebuchet
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
@@ -324,7 +369,8 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
-				create_sub_unit_of_category = sub_unit_category:army_artillery
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_unit_trebuchet
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
@@ -337,6 +383,22 @@ br_country_startup.2 = { #units added
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:BYZ = {
+			capital = {
+				create_sub_unit = unit_type:a_varangians
+				create_sub_unit = unit_type:a_varangians
+				create_sub_unit = unit_type:a_varangians
+				create_sub_unit = unit_type:a_varangians
+				create_sub_unit = unit_type:a_supply_carts
+				create_sub_unit = unit_type:a_supply_carts
+			}
+		}
+		c:DYR = {
+			capital = {
+				create_sub_unit = unit_type:br_unit_trebuchet
+				create_sub_unit = unit_type:br_unit_trebuchet
 			}
 		}
 

@@ -93,7 +93,7 @@ br_tagmata_skoutatoi = {
 
 	build_time_modifier = 0.50
 	morale_damage_taken = -0.05
-	strength_damage_taken = -0.05
+	strength_damage_taken = -0.08
 	buildable = yes
 	
 	age = "age_1_traditions"
