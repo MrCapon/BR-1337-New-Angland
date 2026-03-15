@@ -492,12 +492,13 @@ br_kleisourai = {#fortified mountain passes
 	city = no
 
 	ai_forbid_shutdown = yes
-	is_indestructible = yes
+	#is_indestructible = yes
 	build_time = small_fort_building
 
 	expensive = no
 	location_potential = {
 		topography = mountains
+		num_roads > 0
 		#OR ={
 		#	topography = mountains
 		#	topography = plateau
