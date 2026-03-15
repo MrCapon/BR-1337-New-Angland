@@ -99,9 +99,15 @@ br_varangian_recruitment_building = {
 	
 	allow_wrong_startup = yes
 	
-	
 	location_potential = {
+		OR = {
+			dominant_culture = { has_culture_group = culture_group:scandinavian_group }
+			dominant_culture = { has_culture_group = culture_group:british_group }
+			dominant_culture = { has_culture_group = culture_group:german_group }
+			dominant_culture = { has_culture_group = culture_group:russian_group }
+		}
 		is_capital = yes
+		#this = { continent = continent:europe } 
 	}
 	country_potential = {
 		has_or_had_tag = BYZ
@@ -110,7 +116,7 @@ br_varangian_recruitment_building = {
 	build_time = soldier_building
 
 	modifier = {
-		manpower_to_building_owner = 0.01
+		manpower_to_building_owner = 0.015
 	}
 	construction_demand = order_commandery_construction
 	possible_production_methods = {
@@ -469,6 +475,7 @@ br_pyrgoi = {#frontier watchtowers
 	remove_if = {
 		NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	}
+	allow_wrong_startup = yes
 }
 
 br_kleisourai = {#fortified mountain passes
@@ -485,6 +492,7 @@ br_kleisourai = {#fortified mountain passes
 	city = no
 
 	ai_forbid_shutdown = yes
+	is_indestructible = yes
 	build_time = small_fort_building
 
 	expensive = no
@@ -523,6 +531,7 @@ br_kleisourai = {#fortified mountain passes
 	#remove_if = {
 	#	NOT = { owner = { culture = { has_culture_group = culture_group:greek_group } } }
 	#}
+	allow_wrong_startup = yes
 }
 
 
@@ -822,6 +831,7 @@ br_apothekai_building = {#Apothēkai – logistical depots
 	#market_center_modifier = {
 	#	maximum_stockpile_capacity = 25
 	#}
+	allow_wrong_startup = yes
 }
 
 br_stationes_building = { #Imperial road stations where officials and patrols maintain order along the highways.
@@ -858,6 +868,7 @@ br_stationes_building = { #Imperial road stations where officials and patrols ma
 		rahdar_maintenance
 	}
 	construction_demand = rahdar_construction
+	allow_wrong_startup = yes
 }
 
 br_praitoria_building = { #Provincial administrative headquarters where imperial officials oversee taxation, justice, and the enforcement of imperial law.
@@ -911,6 +922,6 @@ br_praitoria_building = { #Provincial administrative headquarters where imperial
 	}
 	construction_demand = army_infrastructure_construction
 	build_time = infrastructure_build_time
-
+	allow_wrong_startup = yes
 }
 
