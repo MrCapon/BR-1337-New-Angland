@@ -27,6 +27,9 @@ REPLACE_OR_CREATE:military_order_reform = {
 		target_of_military_sponsorships = yes
 		blocked_from_conversion = yes
 		expected_army_size_modifier = 1.0
+		aggressiveness_modifier = 0.25
+		expected_warscore_modifier = 0.25
+		antagonism_tolerance = 10
 	}
 
 	years = 2
@@ -61,6 +64,9 @@ REPLACE_OR_CREATE:crusade_sea_reform = {
 		navy_maintenance_cost = -0.25 #BR added
 		expected_navy_size = 10 #BR added
 		global_navy_levy_size_modifier = 0.5
+		aggressiveness_modifier = 0.25
+		expected_warscore_modifier = 0.25
+		antagonism_tolerance = 10
 	}
 	years = 2
 }

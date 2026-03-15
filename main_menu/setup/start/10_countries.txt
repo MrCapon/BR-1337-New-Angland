@@ -12014,6 +12014,7 @@ countries = {
 		CRT = { #Candia https://en.wikipedia.org/wiki/Kingdom_of_Candia
 			own_control_core = {
 				chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
+				karpathos
 			}
 			
 			starting_technology_level = 3
@@ -12256,6 +12257,7 @@ countries = {
 		CEP = {
 			own_control_core = {
 				zakynthos leukas cephalonia
+				modon kythira
 			}
 			
 			starting_technology_level = 3
@@ -12316,9 +12318,8 @@ countries = {
 		NAX = { #https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago
 			own_control_core = {
 				naxos kythnos milos
-				andros mykonos amorgos karpathos
+				andros mykonos amorgos
 				samos ikaria foca
-				modon kythira 
 			}
 			
 			starting_technology_level = 3
@@ -52883,6 +52884,17 @@ countries = {
 				latinoi
 				albanian
 			}
+
+			currency_data = {
+				gold = 600
+			}
+
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1340.1.1
+				size = 1
+			}
 			
 			country_rank = rank_duchy
 			liturgical_language = khoine_dialect
@@ -53311,7 +53323,7 @@ countries = {
 			government = {
 				type = theocracy
 				ruler = br_ere_rdm_character_14
-				ruler_term = { character = br_ere_rdm_character_14 start_date = 1333.1.1 }
+				ruler_term = { character = br_ere_rdm_character_14 start_date = 1332.1.1 }
 				
 				reforms = {
 					military_order_reform
@@ -53531,7 +53543,7 @@ countries = {
 			government = {
 				type = theocracy
 				ruler = br_ere_rdm_character_13
-				ruler_term = { character = br_ere_rdm_character_13 start_date = 1333.1.1 }
+				ruler_term = { character = br_ere_rdm_character_13 start_date = 1332.1.1 }
 				
 				reforms = {
 					military_order_reform

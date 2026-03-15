@@ -12,6 +12,10 @@
 #monthly_pretender_rebel_growth  = 0.025
 #monthly_nationalist_rebel_growth = 0.025
 
+#aggressiveness_modifier = 0.25
+#expected_warscore_modifier = 0.25
+#antagonism_tolerance = 10
+
 #Senate
 
 ### Noble Privileges ###
@@ -137,6 +141,7 @@ akritai_privilege = {
 		global_peasants_estate_power = 1
 		global_peasant_enfranchisment = 0.05
 		nobles_estate_target_satisfaction = small_privilege_target_satisfaction_penalty
+		aggressiveness_modifier = 0.25
 		
 	}
 	country_modifier = {
@@ -150,6 +155,7 @@ akritai_privilege = {
 		potential_trigger = {  societal_value:spiritualist_vs_humanist <= -50 }
 		damage_done_versus_heathens_modifier = 0.1
 	}
+		
 }
 
 br_frontier_expansion_privilege = {
@@ -179,6 +185,9 @@ br_frontier_expansion_privilege = {
 		monthly_towards_decentralization = societal_value_minor_monthly_move
 		monthly_towards_belligerent = societal_value_minor_monthly_move
 		tribes_estate_target_satisfaction = -0.25
+		aggressiveness_modifier = 0.25
+		expected_warscore_modifier = 0.25
+		antagonism_tolerance = 10
 	}
 }
 
