@@ -78,7 +78,6 @@ roman_romaioi_identity = {
 	global_pop_assimilation_speed_modifier = 0.25
 	cultural_influence_modifier = 0.25
 	unlock_policy = br_roman_tradition
-	
 }
 
 roman_codified_custom = {
@@ -176,6 +175,7 @@ roman_scribal_administration = {
 	research_speed_modifier = 0.05
 	global_clergy_max_literacy = 5
 	global_books_output_modifier = 0.05
+	ai_weight = { add = 5 }
 }
 
 roman_court_and_office = {
@@ -195,7 +195,7 @@ roman_court_and_office = {
 	monthly_diplomats = 0.1
 	global_monthly_control = 0.001
 	unlock_building = br_praitoria_building
-
+	ai_weight = { add = 5 }
 }
 
 br_stationes_advance = { #loc
@@ -212,6 +212,7 @@ br_stationes_advance = { #loc
 	global_distance_from_capital_speed_propagation = 0.05
 	global_trade_through_owned_territory_cost_modifier = -0.05
 	unlock_building = br_stationes_building
+	ai_weight = { add = 5 }
 }
 
 br_tagmata_barracks_advance = { #loc
@@ -226,6 +227,7 @@ br_tagmata_barracks_advance = { #loc
 	requires = pike_square
 	global_manpower_modifier = 0.05
 	unlock_building = br_tagmata_barracks
+	ai_weight = { add = 5 }
 }
 
 
@@ -249,6 +251,7 @@ roman_thematic_recruitment = {
 	levy_recovery_modifier = 0.1
 	unlock_policy = br_thema_levies_upgraded
 	unlock_building = br_stratiotikon_thema_estate
+	ai_weight = { add = 5 }
 }
 
 roman_infrastructure = {
@@ -268,6 +271,7 @@ roman_infrastructure = {
 	global_distance_from_capital_speed_propagation = 0.1
 	global_trade_through_owned_territory_cost_modifier = -0.1
 	unlock_building = br_apothekai_building
+	ai_weight = { add = 5 }
 }
 
 # AGE 4 – Reformation
@@ -288,6 +292,7 @@ roman_imperial_legitimacy = {
 	stability_investment = tiny_stability_investment
 	global_integration_speed_modifier = 0.1
 	diplomatic_reputation = diplomatic_reputation_mild_bonus
+	ai_weight = { add = 5 }
 }
 
 roman_civic_order = {
@@ -307,6 +312,7 @@ roman_civic_order = {
 	global_urban_build_buildings_cost = -0.05
 	global_pop_promotion_speed_modifier = 0.1
 	unlock_building = br_kekhrismene_pronoia
+	ai_weight = { add = 5 }
 }
 
 # AGE 5 – Absolutism
@@ -326,6 +332,7 @@ roman_centralized_command = {
 	requires = regiment_reinforcement_speed_absolutism
 	tax_income_efficiency = medium_tax_income_efficiency_bonus
 	discipline = 0.02
+	ai_weight = { add = 5 }
 }
 
 roman_law_above_custom = {
@@ -343,6 +350,7 @@ roman_law_above_custom = {
 	requires = war_score_absolutism_advance
 	change_policy_cost_modifier = -0.1
 	global_crown_estate_power = 0.05
+	ai_weight = { add = 5 }
 }
 
 # AGE 6 – Revolutions
@@ -362,6 +370,7 @@ roman_state_identity = {
 	requires = crown_power_advance_revolutions
 	monthly_legitimacy = 0.1
 	diplomatic_annexation_cost = -0.1
+	ai_weight = { add = 5 }
 }
 
 
@@ -376,6 +385,7 @@ br_greek_fire = {
 	icon = alchemy_advance
 	siege_ability = 0.05 # siege ability
 	naval_damage_done = 0.1 #naval attack damage
+	ai_weight = { add = 5 }
 }
 
 
@@ -388,6 +398,7 @@ br_traditions_varangians_advance = {
 	unlock_building = br_varangian_camp
 	icon = expand_varangian_guard_advance
 	num_of_varangian_units = 4
+	ai_weight = { add = 5 }
 }
 
 br_discovery_varangians_advance = {
@@ -398,6 +409,7 @@ br_discovery_varangians_advance = {
 	unlock_building = br_varangian_barracks
 	icon = expand_varangian_guard_advance
 	num_of_varangian_units = 8
+	ai_weight = { add = 5 }
 }
 
 br_reformation_varangians_advance = {
@@ -407,6 +419,7 @@ br_reformation_varangians_advance = {
 	unlock_unit = br_reformation_varangians
 	icon = expand_varangian_guard_advance
 	num_of_varangian_units = 10
+	ai_weight = { add = 5 }
 }
 
 br_absolutism_varangians_advance = {
@@ -416,6 +429,7 @@ br_absolutism_varangians_advance = {
 	unlock_unit = br_absolutism_varangians
 	icon = expand_varangian_guard_advance
 	num_of_varangian_units = 12
+	ai_weight = { add = 5 }
 }
 
 br_revolutions_varangians_advance = {
@@ -425,6 +439,7 @@ br_revolutions_varangians_advance = {
 	unlock_unit = br_revolutions_varangians
 	icon = expand_varangian_guard_advance
 	num_of_varangian_units = 14
+	ai_weight = { add = 5 }
 }
 
 # Tagmata
@@ -435,6 +450,7 @@ br_age_2_kontaratoi_advance = {
 	icon = byz_cataphracts_advance
 	requires = byz_shield_of_the_west
 	unlock_unit = br_age_2_kontaratoi
+	ai_weight = { add = 5 }
 }
 
 br_age_3_lonchophoroi_advance = {
@@ -443,6 +459,7 @@ br_age_3_lonchophoroi_advance = {
 	icon = byz_cataphracts_advance
 	requires = roman_thematic_recruitment
 	unlock_unit = br_age_3_lonchophoroi
+	ai_weight = { add = 5 }
 }
 	
 br_age_4_thorakophoroi_advance = {
@@ -451,6 +468,7 @@ br_age_4_thorakophoroi_advance = {
 	icon = byz_cataphracts_advance
 	requires = flintlock_gun
 	unlock_unit = br_age_4_thorakophoroi
+	ai_weight = { add = 5 }
 }
 
 br_age_5_prokoursatores_advance = {
@@ -459,6 +477,7 @@ br_age_5_prokoursatores_advance = {
 	icon = byz_cataphracts_advance
 	requires = byz_modernized_strategikon
 	unlock_unit = br_age_5_prokoursatores
+	ai_weight = { add = 5 }
 }
 
 br_age_6_basilikoi_advance = {
@@ -467,5 +486,6 @@ br_age_6_basilikoi_advance = {
 	icon = byz_cataphracts_advance
 	requires = byz_the_new_imperial_army
 	unlock_unit = br_age_6_basilikoi
+	ai_weight = { add = 5 }
 }
 

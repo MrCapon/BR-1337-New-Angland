@@ -55,6 +55,7 @@ rhos_riverine_commerce = {
 	}
 	requires = maritime_advance_age_2
 	trade_range_modifier = 0.15
+	ai_weight = { add = 5 }
 }
 
 rhos_court_of_many_tongues = {
@@ -68,6 +69,7 @@ rhos_court_of_many_tongues = {
 	}
 	requires = vibrant_court_advance
 	diplomatic_capacity = 1
+	ai_weight = { add = 5 }
 }
 
 # age_3_discovery
@@ -84,6 +86,7 @@ rhos_ostrogs_and_kastra = {
 	requires = pike_and_shot_advance
 	fort_maintenance_cost = -0.15
 	global_garrison_size_modifier = 0.1
+	ai_weight = { add = 5 }
 }
 
 rhos_varangian_successors = {
@@ -99,6 +102,7 @@ rhos_varangian_successors = {
 	discipline = 0.025
 	amount_looted_modifier = 0.33
 	allow_privateers_slave_raid = yes
+	ai_weight = { add = 5 }
 }
 
 # age_4_reformation
@@ -115,6 +119,7 @@ rhos_synod_of_the_north = {
 	requires = confessional_court
 	orthodox_synod_cost_modifier = -0.15
 	monthly_religious_influence = 0.1
+	ai_weight = { add = 5 }
 }
 
 rhos_catechism_of_obedience = {
@@ -128,6 +133,7 @@ rhos_catechism_of_obedience = {
 	}
 	requires = gov_reform_reformation_a
 	global_pop_conversion_speed_modifier = 0.1
+	ai_weight = { add = 5 }
 }
 
 # age_5_absolutism
@@ -143,6 +149,7 @@ rhos_autokratoria_tou_boreiou = {
 	}
 	requires = regiment_reinforcement_speed_absolutism
 	global_integration_speed_modifier = 0.15
+	ai_weight = { add = 5 }
 }
 
 rhos_stratiotai_reforms = {
@@ -156,6 +163,7 @@ rhos_stratiotai_reforms = {
 	}
 	requires = regiment_reinforcement_speed_absolutism
 	global_manpower_modifier = 0.1
+	ai_weight = { add = 5 }
 }
 
 # age_6_revolutions
@@ -171,6 +179,7 @@ rhos_imperial_synthesis = {
 	}
 	requires = crown_power_advance_revolutions
 	research_speed_modifier = 0.05
+	ai_weight = { add = 5 }
 }
 
 rhos_army_of_the_two_traditions = {
@@ -185,4 +194,5 @@ rhos_army_of_the_two_traditions = {
 	requires = revolutions_agressive_advance
 	global_manpower_modifier = 0.1
 	discipline = 0.025
+	ai_weight = { add = 5 }
 }
