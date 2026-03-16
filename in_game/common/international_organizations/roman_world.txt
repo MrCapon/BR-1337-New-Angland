@@ -229,9 +229,13 @@
 	on_left = {
 	}
 
-	# TO-DO add tiered membership types
-	#special_statuses_implemented = {
-	#}
+	special_statuses_implemented = {
+		br_emperor
+		domestikos_west
+		domestikos_east
+		imperial_loyalist
+		defiant_strategoi
+	}
 
 	#TO-DO add unqiue laws
 	#laws = {

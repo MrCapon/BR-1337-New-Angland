@@ -1774,6 +1774,13 @@ international_organization_manager = {
 
 		}
 
+		br_emperor = { BYZ }
+		domestikos_west = {  }
+		domestikos_east = {  }
+		imperial_loyalist = { 
+			S1Y A1G K1B FEO
+		}
+
 		leader = BYZ
 		regions = { 
 			anatolia_region 

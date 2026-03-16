@@ -4211,6 +4211,7 @@ building_manager = {
 	wharf = { tag = BYZ level = 1 location =  constantinople }
 	#protected_harbor = { tag = BYZ level = 1 location =  constantinople }
 	#construction_center = { tag = BYZ level = 1 location =  constantinople }
+	slave_market = { tag = BYZ level = 1 location = constantinople }
 	
 	#Logistic/Admin hubs
 	br_apothekai_building = { tag = AOI level = 1 location = antioch }
@@ -4238,6 +4239,7 @@ building_manager = {
 	counting_house = { tag = THE level = 1 location = thessaloniki }
 	cathedral = { tag = THE level = 1 location = thessaloniki }
 	marketplace	= { tag = THE level = 5 location = thessaloniki }
+	slave_market = { tag = THE level = 1 location = thessaloniki }
 	br_tagmata_camp = { tag = BYZ level = 1 location =  constantinople }
 	br_varangian_camp = { tag = BYZ level = 1 location =  constantinople }
 	br_tagmata_camp = { tag = BYZ level = 1 location =  izmit }
@@ -5424,6 +5426,7 @@ building_manager = {
 	charcoal_maker = { tag = BUL level = 2 location = sozopol }
 	fiber_crops_farm = { tag = SE1 level = 2 location = krupanj }
 	market_village = { tag = SER level = 1 location = kotor }
+	fishing_village = { tag = SER level = 1 location = kotor }
 	market_village = { tag = SER level = 1 location = kucevo }
 	market_village = { tag = BOS level = 1 location = kozara }
 	market_village = { tag = CRO level = 1 location = senj }
@@ -5484,12 +5487,15 @@ building_manager = {
 	farming_village = { tag = SER level = 1 location = gradac }
 	farming_village = { tag = SER level = 1 location = podgorica }
 	farming_village = { tag = SER level = 1 location = bar_cg }
+	fishing_village = { tag = SER level = 1 location = bar_cg }
 	farming_village = { tag = SER level = 1 location = sjenica }
 	forest_village = { tag = SER level = 1 location = smederevo }
 	forest_village = { tag = SER level = 1 location = novo_brdo }
 	forest_village = { tag = SER level = 1 location = budimlja }
 	forest_village = { tag = SER level = 1 location = brskovo }
 	forest_village = { tag = SER level = 1 location = pljevlja }
+	fishing_village = { tag = SER level = 1 location = shkoder }
+	fishing_village = { tag = SER level = 1 location = lezha }
 	market_village = { tag = WA1 level = 1 location = campulung_muscel }
 	forest_village = { tag = WA1 level = 1 location = campulung_muscel }
 	market_village = { tag = WA0 level = 2 location = severin }
@@ -6381,7 +6387,7 @@ building_manager = {
 	castle = { tag = SER level = 1 location =  kozelj }
 	castle = { tag = SER level = 1 location =  kucevo }
 	castle = { tag = SER level = 1 location =  trgoviste_SER }
-	castle = { tag = BYZ level = 1 location = thessaloniki }
+	castle = { tag = THE level = 1 location = thessaloniki }
 	stockade = { tag = BYZ level = 1 location = karahisar_i_sahib }
 	stockade = { tag = BYZ level = 1 location = antalya }
 	nobility_fortifications = { tag = BYZ level = 1 location = uluborlu }
@@ -6592,11 +6598,15 @@ building_manager = {
 	funduq = { tag = TUN level = 1 location =  tunis }
 	marketplace	= { tag = TUN level = 5 location = palermo }
 	funduq = { tag = TUN level = 1 location =  palermo }
-	marketplace	= { tag = TRE level = 3 location = kaffa }
+	marketplace	= { tag = GAZ level = 3 location = kaffa }
+	slave_market = { tag = GAZ level = 1 location = kaffa }
 	marketplace	= { tag = FEO level = 6 location = theodoro }
 	entrepot = { tag = FEO level = 1 location =  theodoro }
+	slave_market = { tag = FEO level = 1 location = theodoro }
 	marketplace	= { tag = GTC level = 4 location = tana }
+	slave_market = { tag = GAZ level = 1 location = tana }
 	marketplace	= { tag = TRE level = 4 location = trebizond }
+	slave_market = { tag = TRE level = 1 location = trebizond }
 	marketplace	= { tag = PAF level = 2 location = sinop }
 	marketplace	= { tag = CRT level = 3 location = candia }
 	marketplace	= { tag = DYR level = 4 location = durres }
@@ -6605,8 +6615,10 @@ building_manager = {
 	marketplace	= { tag = VEN level = 15 location = venice }
 	trading_hub = { tag = VEN level = 1 location =  venice }
 	entrepot = { tag = VEN level = 1 location =  venice }
+	slave_market = { tag = VEN level = 1 location = venice }
 	entrepot = { tag = GEN level = 1 location =  genoa }
 	trading_hub = { tag = GEN level = 1 location =  genoa }
+	slave_market = { tag = GEN level = 1 location = genoa }
 	marketplace	= { tag = TUR level = 6 location = tabriz }
 	marketplace	= { tag = MZF level = 6 location = isfahan }
 	marketplace	= { tag = FRA level = 5 location =  metz }
@@ -6618,6 +6630,7 @@ building_manager = {
 	marketplace	= { tag = AOI level = 6 location = antioch }
 	entrepot = { tag = AOI level = 1 location =  antioch }
 	marketplace	= { tag = ARM level = 4 location = ani }
+	slave_market = { tag = GEO level = 1 location = tbilisi }
 
 	#Italian Republics
 	
