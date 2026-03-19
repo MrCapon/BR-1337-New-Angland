@@ -43,19 +43,37 @@ REPLACE_OR_CREATE:greek_culture = {
 
 REPLACE_OR_CREATE:griko_culture = {
 	language = griko_dialect
-	color = color_culture_griko
+	color = { 188 51 159 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
 		greek_culture = kindred #BR EDIT
 		african_greek_culture = kindred
-		sicilian = positive
+		#sicilian = positive
 		neapolitan = positive
 	}	
 	
 	culture_groups = {
 		greek_group roman_group
+	}
+}
+
+italiotai_culture = {
+	language = griko_dialect
+	color = rgb { 158 61 179 }
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = kindred
+		griko_culture = kindred
+		#sicilian = positive
+		neapolitan = positive
+	}	
+	
+	culture_groups = {
+		italian_group greek_group roman_group
 	}
 }
 
@@ -84,7 +102,7 @@ REPLACE_OR_CREATE:gothic_culture = {
 	language = gothic_dialect
 	color = map_FEO
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	tags = { german_gfx east_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
 
 	opinions = {
 		greek_culture = kindred

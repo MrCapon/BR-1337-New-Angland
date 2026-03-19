@@ -4,7 +4,7 @@ aureliani = {
 	language = elysian_latin_dialect
 	color = rgb{ 168 35 108 }
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
 
 	opinions = {
 		greek_culture = positive
@@ -40,7 +40,7 @@ elyrics_culture = {
 	language = elyrics_dialect
 	color = rgb{ 128 90 118 }
 	
-	tags = { native_american_tag greek_gfx north_american_gfx american_gfx east_mediterranean_gfx mediterranean_gfx  }
+	tags = { native_american_tag north_american_gfx american_gfx east_mediterranean_gfx mediterranean_gfx  }
 	#iroquois_gfx
 	opinions = {
 		photianoi = kindred

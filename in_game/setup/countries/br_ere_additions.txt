@@ -377,7 +377,7 @@ N2P = { #Capua
 
 N3P = { #Neápolis
     color = rgb { 125 65 95 }
-    culture_definition = griko_culture
+    culture_definition = italiotai_culture
 	religion_definition = orthodox
 }
 
@@ -389,13 +389,13 @@ S1C = { #Sikelanoi
 
 S2C = { #Langobardia
     color = rgb { 115 115 45 }
-    culture_definition = griko_culture
+    culture_definition = italiotai_culture
 	religion_definition = orthodox
 }
 
 S3C = { #Kalavrías
     color = rgb { 105 35 135 }
-    culture_definition = griko_culture
+    culture_definition = italiotai_culture
 	religion_definition = orthodox
 }
 
@@ -407,7 +407,7 @@ S4C = { #Ṣiqilliyya
 
 S5C = { #
     color = rgb { 145 65 105 }
-    culture_definition = griko_culture
+    culture_definition = italiotai_culture
 	religion_definition = orthodox
 }
 
