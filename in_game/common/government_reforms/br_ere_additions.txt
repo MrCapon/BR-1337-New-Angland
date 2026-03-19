@@ -219,6 +219,39 @@ br_naval_akritai_reform = {
     years = 2
 }
 
+#br_military_order_reform = {
+#	age = age_1_traditions
+#	government = theocracy
+#	major = yes
+#	icon = military_order_reform
+#
+#	potential = {
+#		religion = religion:orthodox
+#		has_policy = monastic_order
+#	}
+	
+#	locked = {
+#		has_estate_privilege = estate_privilege:br_orthodox_military_orders
+#	}
+
+	
+#	country_modifier = {
+#		clergy_estate_allowed_leading_military = yes
+#		clergy_estate_blocked_from_leading_military = no
+#		monthly_towards_offensive = societal_value_monthly_move
+#		monthly_towards_belligerent = societal_value_monthly_move
+#		clergy_estate_levy_size = 0.5
+#		fort_limit_modifier = 0.5
+#		target_of_military_sponsorships = yes
+#		blocked_from_conversion = yes
+#		expected_army_size = 5
+#		aggressiveness_modifier = 0.25
+#		expected_warscore_modifier = 0.25
+#		antagonism_tolerance = 10
+#	}
+
+#	years = 2
+#}
 ###Other###
 br_mongol_tolerance = {
 	age = age_1_traditions

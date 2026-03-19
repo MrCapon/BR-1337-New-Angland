@@ -116,6 +116,7 @@ br_dynatoi_magnates = {
 }
 
 ### Peasants Privileges ###
+
 akritai_privilege = {
 	estate = peasants_estate
 	icon = ghazi_privilege #control_of_the_borderlands
@@ -454,3 +455,53 @@ br_roman_ecumenical_patriarch_privilege = {
 		tolerance_own = 1
 	}
 }
+
+#br_orthodox_military_orders = {
+#	estate = clergy_estate
+#	icon = clergy_military_orders
+
+#	potential = {
+#		religion = religion:orthodox
+#		OR = {
+#			has_reform = government_reform:br_military_order_reform
+#			any_neighbor_country = { NOT = { religion.group = root.religion.group } }
+#		}
+#	}
+#	allow = {
+#		has_advance = castle_advance
+#	}
+#	can_revoke = {
+#	}
+	
+#	country_modifier = {
+#		global_clergy_estate_power = 0.5
+#		nobles_estate_levy_size = 0.25
+#		clergy_estate_levy_size = 1
+#		expected_army_size = 5
+#	}
+
+#	country_modifier = {
+#		potential_trigger = { NOT = { has_reform = government_reform:br_military_order_reform } }
+#		clergy_estate_allowed_leading_military = yes
+#		discipline = 0.025
+#	}
+
+#	country_modifier = {
+#		potential_trigger = { has_reform = government_reform:br_military_order_reform }
+#		discipline = 0.05
+#	}
+
+#	country_modifier = {
+#		potential_trigger = {
+#			giving_scripted_relation_of_type = relation_type:military_sponsorship
+#		}
+#		land_morale_modifier = 0.1
+#	}
+
+#	country_modifier = {
+#		potential_trigger = {
+#			receiving_scripted_relation_of_type = relation_type:military_sponsorship
+#		}
+#		army_maintenance_cost = -0.15
+#	}
+#}

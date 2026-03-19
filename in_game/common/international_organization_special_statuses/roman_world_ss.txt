@@ -85,7 +85,7 @@ domestikos_west = {
 		value = 50
 	}
 
-	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_TIER1_COLOR
+	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_TIER6_COLOR
 }
 
 domestikos_east = {
@@ -152,7 +152,7 @@ domestikos_east = {
 		value = 50
 	}
 
-	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_TIER1_COLOR
+	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_TIER5_COLOR
 }
 
 imperial_loyalist = {
@@ -300,3 +300,29 @@ defiant_strategoi = {
 
 	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_TIER3_COLOR
 }
+
+#br_military_order = { #likely will be moved to a reworked Patrachate IO
+#	priority = 6
+#
+#	modifier = {
+#	}
+#
+#	can_bestow_trigger = {
+#	}
+#
+#	auto_bestowal_trigger = {
+#		has_reform = government_reform:br_military_order_reform
+#	}
+#
+#	auto_rescind_trigger = {
+#		not = { has_reform = government_reform:br_military_order_reform }
+#	}
+#	
+#	on_bestowed_effect = {
+#	}
+#	
+#	on_rescinded_effect = {
+#	}
+#
+#	map_color = define:NMapColors|INTERNATIONAL_ORGANIZATION_TIER4_COLOR
+#}

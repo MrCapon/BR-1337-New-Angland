@@ -2408,6 +2408,7 @@ countries = {
 				ichnia pryluky chornukhy
 				lypova_dolyna romen buryn sumy krasnopillia hadiach
 				glushkovo putyvl vilshana
+				#brahin khoiniki kholmyech
 			}
 			
 			starting_technology_level = 3
@@ -41346,7 +41347,7 @@ countries = {
 				kyiv dymer fastiv zdvizhen
 				bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
 				cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
-				chornobyl belaya_soroka brahin khoiniki kholmyech
+				chornobyl belaya_soroka
 				ovruch bilokorovychi korosten malyn narodychi stodolichi
 				zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
 				
@@ -53311,7 +53312,7 @@ countries = {
 		#		marash
 		#	}
 			
-			include = "catholic_military_order"
+			include = "orthodox_military_order"
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -53324,39 +53325,6 @@ countries = {
 				type = theocracy
 				ruler = br_ere_rdm_character_14
 				ruler_term = { character = br_ere_rdm_character_14 start_date = 1332.1.1 }
-				
-				reforms = {
-					military_order_reform
-				}
-				laws = {
-					legal_code_law = byzantine_law
-					distribution_of_power_law = dop_favor_the_ruler
-					feudal_de_jure_law = by_blood
-					#administrative_system = pronoia_system
-					patriarchate_law = state_patriarchate_policy
-					divine_cause_law = safeguard_holy_sites_policy
-					holy_mission_law = external_mission_policy
-				}
-
-                privilege = {
-                    clergy_literacy_rights
-                    auxilium_et_consilium
-                    primacy_of_nobility
-					akritai_privilege
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-                }
-				
-				centralization_vs_decentralization = -75
-				aristocracy_vs_plutocracy = -25
-				serfdom_vs_free_subjects = -50
-				traditionalist_vs_innovative = -50
-				spiritualist_vs_humanist = -75
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				quality_vs_quantity = -50
-				individualism_vs_communalism = 60
-				
 			}
 			
 			currency_data = {
@@ -53375,7 +53343,7 @@ countries = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
 				date = 1340.1.1
-				size = 2
+				size = 1
 			}
 
 		}
@@ -53385,7 +53353,7 @@ countries = {
 				costa tuapse
 			}
 			
-			include = "catholic_military_order"
+			include = "orthodox_military_order"
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -53397,38 +53365,6 @@ countries = {
 			government = {
 				type = theocracy
 				ruler = random
-				
-				reforms = {
-					military_order_reform
-				}
-				laws = {
-					legal_code_law = byzantine_law
-					distribution_of_power_law = dop_favor_the_ruler
-					feudal_de_jure_law = by_blood
-					#administrative_system = pronoia_system
-					patriarchate_law = state_patriarchate_policy
-					divine_cause_law = safeguard_holy_sites_policy
-					holy_mission_law = external_mission_policy
-				}
-
-                privilege = {
-                    clergy_literacy_rights
-                    auxilium_et_consilium
-                    primacy_of_nobility
-					peasants_yeomanry
-					akritai_privilege
-                }
-				
-				centralization_vs_decentralization = -75
-				aristocracy_vs_plutocracy = -45
-				serfdom_vs_free_subjects = -50
-				traditionalist_vs_innovative = -65
-				spiritualist_vs_humanist = -75
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				quality_vs_quantity = -50
-				individualism_vs_communalism = 60
-				
 			}
 			
 			currency_data = {
@@ -53531,7 +53467,7 @@ countries = {
 		#		or_qapi
 		#	}
 			
-			include = "catholic_military_order"
+			include = "orthodox_military_order"
 			
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -53544,39 +53480,6 @@ countries = {
 				type = theocracy
 				ruler = br_ere_rdm_character_13
 				ruler_term = { character = br_ere_rdm_character_13 start_date = 1332.1.1 }
-				
-				reforms = {
-					military_order_reform
-				}
-				laws = {
-					legal_code_law = byzantine_law
-					distribution_of_power_law = dop_favor_the_ruler
-					feudal_de_jure_law = by_blood
-					#administrative_system = pronoia_system
-					patriarchate_law = state_patriarchate_policy
-					divine_cause_law = safeguard_holy_sites_policy
-					holy_mission_law = external_mission_policy
-				}
-
-                privilege = {
-                    clergy_literacy_rights
-                    auxilium_et_consilium
-                    primacy_of_nobility
-					akritai_privilege
-					peasants_yeomanry
-					peasants_allowed_weapons_privilege
-                }
-				
-				centralization_vs_decentralization = -75
-				aristocracy_vs_plutocracy = -45
-				serfdom_vs_free_subjects = -50
-				traditionalist_vs_innovative = -85
-				spiritualist_vs_humanist = -100
-				offensive_vs_defensive = 75
-				land_vs_naval = -100
-				quality_vs_quantity = -50
-				individualism_vs_communalism = 60
-				
 			}
 			
 			currency_data = {
