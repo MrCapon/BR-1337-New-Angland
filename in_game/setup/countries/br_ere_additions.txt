@@ -88,7 +88,7 @@ DER = {
 }
 
 KOG = {
-	color = rgb { 57 118 88 }
+	color = rgb { 97 118 88 }
 
 	culture_definition = armenian_culture
 	religion_definition = miaphysite

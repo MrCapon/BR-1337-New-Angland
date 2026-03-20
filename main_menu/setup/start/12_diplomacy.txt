@@ -2,8 +2,8 @@ diplomacy_manager = {
 	# Anglia
 	dependency = { first = NSE second = EAG subject_type = fiefdom }
 	dependency = { first = NSE second = LSY subject_type = fiefdom }
-	dependency = { first = NSE second = NOL subject_type = vassal }
-	dependency = { first = NSE second = MCA subject_type = vassal }
+	#dependency = { first = NSE second = NOL subject_type = vassal }
+	#dependency = { first = NSE second = MCA subject_type = vassal }
 	
 	# Britannia
 	#dependency = { first = NRM second = DST subject_type = vassal }
