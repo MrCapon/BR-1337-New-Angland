@@ -397,7 +397,7 @@ br_traditions_varangians_advance = {
 	requires = roman_akritic_reforms
 	unlock_building = br_varangian_camp
 	icon = expand_varangian_guard_advance
-	num_of_varangian_units = 4
+	#num_of_varangian_units = 4
 	ai_weight = { add = 5 }
 }
 
@@ -408,7 +408,7 @@ br_discovery_varangians_advance = {
 	unlock_unit = br_discovery_varangians
 	unlock_building = br_varangian_barracks
 	icon = expand_varangian_guard_advance
-	num_of_varangian_units = 8
+	#num_of_varangian_units = 8
 	ai_weight = { add = 5 }
 }
 
@@ -418,7 +418,7 @@ br_reformation_varangians_advance = {
 	requires = flintlock_gun
 	unlock_unit = br_reformation_varangians
 	icon = expand_varangian_guard_advance
-	num_of_varangian_units = 10
+	#num_of_varangian_units = 10
 	ai_weight = { add = 5 }
 }
 
@@ -428,7 +428,7 @@ br_absolutism_varangians_advance = {
 	requires = roman_centralized_command
 	unlock_unit = br_absolutism_varangians
 	icon = expand_varangian_guard_advance
-	num_of_varangian_units = 12
+	#num_of_varangian_units = 12
 	ai_weight = { add = 5 }
 }
 
@@ -438,7 +438,7 @@ br_revolutions_varangians_advance = {
 	requires = byz_the_new_imperial_army
 	unlock_unit = br_revolutions_varangians
 	icon = expand_varangian_guard_advance
-	num_of_varangian_units = 14
+	#num_of_varangian_units = 14
 	ai_weight = { add = 5 }
 }
 

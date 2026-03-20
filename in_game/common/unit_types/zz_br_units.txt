@@ -73,10 +73,12 @@ REPLACE_OR_CREATE:a_varangians = {
 	}
 	
 	buildable = yes
-	limit = {
-		value = 1
-		add = modifier:num_of_varangian_units
-	}
+	#limit = {
+	#	value = 1
+	#	add = modifier:num_of_varangian_units
+	#}
+
+	limit = br_varangian_unit_limit
 
 	upgrades_to_only = a_renaissance_varangians
 
@@ -209,10 +211,12 @@ br_renaissance_varangians = {
 	strength_damage_taken = -0.10
 	morale_damage_taken = -0.10
 
-	limit = {
-		value = 1
-		add = modifier:num_of_varangian_units
-	}
+	#limit = {
+	#	value = 1
+	#	add = modifier:num_of_varangian_units
+	#}
+
+	limit = br_varangian_unit_limit
 	
 	gfx_tags = { heavy_tag }
 }
@@ -311,10 +315,12 @@ br_reformation_varangians = {
 	strength_damage_taken = -0.10
 	morale_damage_taken = -0.10
 
-	limit = {
-		value = 1
-		add = modifier:num_of_varangian_units
-	}
+	#limit = {
+	#	value = 1
+	#	add = modifier:num_of_varangian_units
+	#}
+
+	limit = br_varangian_unit_limit
 	
 	gfx_tags = { medium_tag musket_tag }
 }
@@ -362,10 +368,12 @@ br_absolutism_varangians = {
 	strength_damage_taken = -0.10
 	morale_damage_taken = -0.10
 
-	limit = {
-		value = 1
-		add = modifier:num_of_varangian_units
-	}
+	#limit = {
+	#	value = 1
+	#	add = modifier:num_of_varangian_units
+	#}
+
+	limit = br_varangian_unit_limit
 
 	gfx_tags = { medium_tag musket_tag }
 }
@@ -411,10 +419,12 @@ br_revolutions_varangians = {
 	strength_damage_taken = -0.10
 	morale_damage_taken = -0.10
 
-	limit = {
-		value = 1
-		add = modifier:num_of_varangian_units
-	}
+	#limit = {
+	#	value = 1
+	#	add = modifier:num_of_varangian_units
+	#}
+
+	limit = br_varangian_unit_limit
 
 	gfx_tags = { medium_tag musket_tag }
 }
