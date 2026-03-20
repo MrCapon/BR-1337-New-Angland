@@ -26,14 +26,16 @@ domestikos_west = {
 	priority = 10
 
 	modifier = {
-		monthly_prestige = 0.1
+		loyalty_to_overlord = 10
 		monthly_legitimacy = 0.1
-		diplomatic_capacity = 1
-		government_size = 1
+		army_maintenance_cost = -0.25
+		expected_army_size = 5
 	}
 
 	leader_modifier = {
-		diplomatic_capacity = 1
+		court_spending_cost = 0.02
+		government_size = 1
+		num_local_governors = 1
 	}
 
 	can_bestow_trigger = {
@@ -93,14 +95,16 @@ domestikos_east = {
 	priority = 10
 
 	modifier = {
-		monthly_prestige = 0.1
+		loyalty_to_overlord = 10
 		monthly_legitimacy = 0.1
-		diplomatic_capacity = 1
-		government_size = 1
+		army_maintenance_cost = -0.25
+		expected_army_size = 5
 	}
 
 	leader_modifier = {
-		diplomatic_capacity = 1
+		court_spending_cost = 0.02
+		government_size = 1
+		num_local_governors = 1
 	}
 
 	can_bestow_trigger = {
@@ -159,7 +163,7 @@ imperial_loyalist = {
 	priority = 5
 
 	modifier = {
-		#monthly_legitimacy = 0.1
+		loyalty_to_overlord = 10
 	}
 
 	leader_modifier = {
