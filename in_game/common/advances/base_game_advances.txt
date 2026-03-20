@@ -2121,6 +2121,8 @@ REPLACE_OR_CREATE:sic_constitions_of_melfi = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_estate_target_satisfaction = small_permanent_target_satisfaction
@@ -2138,6 +2140,8 @@ REPLACE_OR_CREATE:sic_studium_generale = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 
@@ -2156,6 +2160,8 @@ REPLACE_OR_CREATE:sic_naval_vigilance = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	navy_galley_power = 0.1
@@ -2175,6 +2181,8 @@ REPLACE_OR_CREATE:sic_sicilian_silk = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_silk_output_modifier = 0.1
@@ -2191,6 +2199,8 @@ REPLACE_OR_CREATE:sic_sicilian_enlightenment = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	cultural_influence_modifier = 0.1
@@ -2207,6 +2217,8 @@ REPLACE_OR_CREATE:sic_sicilian_reforms = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	legislative_efficiency = 0.2
@@ -2226,6 +2238,8 @@ REPLACE_OR_CREATE:university_naples = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_institution_growth_modifier = 0.2
@@ -2247,6 +2261,8 @@ REPLACE_OR_CREATE:mercantile_spirit = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	trade_efficiency = small_trade_efficiency_bonus
@@ -2268,6 +2284,8 @@ REPLACE_OR_CREATE:consolidate_the_royal_domain = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_crown_estate_power = 0.1
@@ -2287,6 +2305,8 @@ REPLACE_OR_CREATE:academia_pontaniana = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_max_literacy  = 5
@@ -2307,6 +2327,8 @@ REPLACE_OR_CREATE:encouraged_city_living = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	non_rural_migration_attraction = 0.2
@@ -2329,6 +2351,8 @@ REPLACE_OR_CREATE:crush_the_barons = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_nobles_estate_power = -0.2
@@ -2349,6 +2373,8 @@ REPLACE_OR_CREATE:expanded_arsenale = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	ship_build_speed = 0.1
@@ -2368,6 +2394,8 @@ REPLACE_OR_CREATE:city_of_artists = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	skill_of_new_artists = 0.1
@@ -2390,6 +2418,8 @@ REPLACE_OR_CREATE:institutional_reorganization = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	government_reform_slots = 1
@@ -2411,6 +2441,8 @@ REPLACE_OR_CREATE:a_central_power = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	max_diplomats = 2
@@ -2431,6 +2463,8 @@ REPLACE_OR_CREATE:neapolitan_industrialization = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	global_raw_material_output = 0.1
@@ -2452,6 +2486,8 @@ REPLACE_OR_CREATE:neapolitan_army_reforms = {
 			has_or_had_tag = S3C
 			has_or_had_tag = S4C
 			has_or_had_tag = N3P
+			has_or_had_tag = IT0
+			has_or_had_tag = IT1
 		}
 	}
 	army_infantry_power = 0.10

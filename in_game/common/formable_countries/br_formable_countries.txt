@@ -520,3 +520,64 @@ REPLACE_OR_CREATE:P1N_f = {
         #trigger_event_non_silently = placeholder_event
     }
 }
+
+IT0_f = {
+	level = 3
+	required_locations_fraction = 0.75
+	rule = historical
+	potential = {
+		not = { tag = ITA }
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	
+	allow = {
+		owns = location:naples
+		culture = culture:italiotai_culture 
+	}
+	
+	name = IT0
+	flag = IT0
+	adjective = IT0_ADJ
+	tag = IT0
+
+	areas = {
+		basilicata_area
+		apulia_area
+		campania_area
+	}
+	form_effect = {
+		set_country_rank_effect = { rank = country_rank:rank_kingdom }
+        #trigger_event_non_silently = placeholder_event
+    }
+}
+
+IT1_f = {
+	level = 3
+	required_locations_fraction = 0.75
+	rule = historical
+	potential = {
+		not = { tag = ITA }
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	
+	allow = {
+		owns = location:ravenna
+		#culture = culture:italiotai_culture 
+	}
+	
+	name = IT0
+	flag = IT0
+	adjective = IT0_ADJ
+	tag = IT0
+
+	areas = {
+		emilia_area
+		marche_area
+		veneto_area
+	}
+	form_effect = {
+		change_culture = culture:italiotai_culture
+		set_country_rank_effect = { rank = country_rank:rank_kingdom }
+        #trigger_event_non_silently = placeholder_event
+    }
+}

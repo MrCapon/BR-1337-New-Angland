@@ -411,6 +411,18 @@ S5C = { #
 	religion_definition = orthodox
 }
 
+IT0 = { #
+    color = rgb { 145 45 95 }
+    culture_definition = italiotai_culture
+	religion_definition = orthodox
+}
+
+IT1 = { #
+    color = rgb { 142 55 88 }
+    culture_definition = italiotai_culture
+	religion_definition = orthodox
+}
+
 #Africa
 AGY = {
 	color = rgb { 185 58 75 }

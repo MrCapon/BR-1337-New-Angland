@@ -100,6 +100,10 @@
  N2P_ADJ: "Capua"
  N3P: "Neápolis"
  N3P_ADJ: "Neápolis"
+ IT0: "Italias"
+ IT0_ADJ: "Italiōtai"
+ IT1: "Ravenna"
+ IT1_ADJ: "Ravennate"
 
 #Armenia and Georgia
  DER: "Terzn"
@@ -282,6 +286,10 @@
  WAL_f: "$WAL$"
  P0N_f: "$P0N$"
  P1N_f: "$P1N$"
+ IT0_f: "$IT0$"
+ IT0_f_desc: "The Katepanate of Italia emerged following the decline of the Exarchate, reflecting a reorganization of imperial authority in southern Italy. Governed by a Katepano with broad military powers, it marked a shift toward more direct strategic control, focusing on the defense and recovery of imperial holdings in the region against both internal unrest and external threats."
+ IT1_f: "$IT1$"
+ IT1_f_desc: "The Exarchate of Ravenna served as the primary seat of imperial authority in Italy, with Ravenna acting as the administrative and military capital of Roman rule in the West. From this stronghold, the Exarch directed both governance and defense, maintaining a fragile but enduring link between the Italian provinces and the wider Empire."
 
  E1Y: "Elysiara"
  E1Y_ADJ: "Elysiara"
