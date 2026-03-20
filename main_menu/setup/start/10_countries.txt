@@ -2408,7 +2408,7 @@ countries = {
 				ichnia pryluky chornukhy
 				lypova_dolyna romen buryn sumy krasnopillia hadiach
 				glushkovo putyvl vilshana
-				#brahin khoiniki kholmyech
+				brahin khoiniki kholmyech
 			}
 			
 			starting_technology_level = 3
