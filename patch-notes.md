@@ -1,4 +1,84 @@
 
+# 0.15
+
+# International organizations
+## Romaiokratía special statuses
+	-	Basileus
+	-	Domestikos of the West
+	-	Domestikos of the East
+	-	Imperial Loyalist
+	-	Defiant Strategos
+
+# Many new formable/releasable countries.
+ ## New formable countries
+  - IT0: "Italias"
+  - IT1: "Ravenna"
+  - P0N: "Póntos"
+  - P1N: "Taurikē"
+  - AGY: "Aigyptios"
+  - AFK: "Afrikí"
+  - SY3: "Syría"
+  - AN0: "Armenikon"
+  - ANA: "Anatolía"
+  - KAP: "Kappadokía"
+
+  - IMP: "IMPERIUM"
+
+ ## New starting countries
+  - AN6: "Amisós"
+  - AN7: "Koron"
+  - AN8: "Kaisáreia"
+  - AN9: "Pisidía"
+  - AN10: "Amáseia"
+  - AN11: "Gángra"
+
+# Many new buildings
+
+  - Pyrgoi: "Chains of fortified watchtowers guard the frontiers, roads, and passes of the realm. These pyrgoi serve as observation posts, signal stations, and rallying points for local soldiers, extending the reach of imperial authority into even the most remote countryside."
+
+ - Kleisourai: "Strategic mountain passes are sealed by fortified defenses known as kleisourai. Garrisons stationed in these narrow defiles control the approaches into the interior, forcing invaders to advance through deadly choke points where defenders can inflict heavy losses and halt entire armies."
+ br_kleisourai_maintenance: "Kleisourai Garrison"
+
+ - Rural Brigands: "In regions where imperial authority is weak, bands of brigands and outlaws gather in the hills and forests. Often drawn from impoverished peasants, deserters, and displaced villagers, these groups prey upon travelers and local settlements. While some villagers quietly support them as a form of resistance against distant authorities, their presence disrupts agriculture, trade, and the restoration of order."
+
+ - Holy Mountain of Athos: "The Holy Mountain of Athos stands as the greatest monastic center of the Orthodox world. For centuries its secluded monasteries have drawn monks from across the Roman lands and beyond, forming a spiritual republic devoted entirely to prayer, contemplation, and the preservation of sacred tradition. Though removed from worldly affairs, its spiritual authority carries immense influence among the faithful."
+
+ - Church of the Holy Apostles: "The venerable Church of the Holy Apostles is one of the most sacred shrines of Constantinople and the traditional resting place of Roman emperors. Raised in honor of the Twelve Apostles and rebuilt by the great emperors of the past, it stands as a symbol of the divine mission of the Basileía Romaíon. Within its halls imperial ceremony and sacred tradition intertwine, reinforcing the bond between throne and altar."
+
+ - Apothēkai: "Imperial storehouses known as apothēkai serve as logistical depots for the state. Here grain, equipment, and other supplies are gathered and distributed along the roads and ports of the realm, ensuring that garrisons remain provisioned and that imperial authority can be sustained even in distant provinces."
+
+ - Stationes: "Imperial road stations established along the highways of the realm. These posts house patrols, officials, and messengers who supervise trade, maintain order, and ensure the steady movement of goods and travelers along the empire’s roads."
+
+ - Praitoria: "Provincial headquarters from which imperial officials administer taxation, justice, and the enforcement of imperial law. Staffed by soldiers, clerks, and magistrates, these offices extend the authority of the throne into the cities and provinces of the realm."
+ br_praitoria_building_maintenance: "Praitoria Administration"
+ 
+ - Latin Fondaco: "Merchant compounds maintained by Italian trading companies, serving as warehouses, residences, and commercial offices for Latin merchants operating in foreign ports."
+ br_latin_trading_post_maintenance: "Fondaco Administration"
+
+# Balance/Setup Changes
+- The Majority of the games subjects made independent at game start to create a more exciting dynamic playthough. 
+- Added Italiōtai and replaced Sikelianoi except for Sicily.
+- Vinlands subjects moved to tribuaries from dominions
+- Many starting wars replaced with CBs
+- Some small balance tweaks to Estate privileges
+- reverted Golden Horde back to Mongol
+- Made tribal buildings use the same production methods as villages.
+- Made it so they also require tribal government to build
+
+# Localization
+- Updated all the roman countries prefix names to not be tied to being a subject.
+- Added Kleisoura as unique county tier March subject for ERE.
+- Gave Varangian, Gothic and Rhos unique name lists.
+## LOC changes to HRE cultures
+- gascon: "Aquitanien"
+- lorrain: "Austrasien" - Made Primary of Austrasia
+
+# Fixes
+- Fixed Varangian cap to be tied to the amount of Varangian recruitment buildings as intended.
+- Varangian recruitment building finally has the intended location restrictions.
+- Added ai_weight  to the mods unique techs
+- unique constantinople buildings should no longer show up in buildings ui
+
 # 0.14
 
 Dozens of new laws, estate privileges, advances, government reforms, buildings and more. Majority for the Romans but new content for the Elysium tags and Armenia along with all the minors attached to those countries.
