@@ -166,7 +166,7 @@
 		monthly_diplomats = 0.5
 		#subject_loyalty = 10
 		monthly_prestige = 0.15
-		court_spending_cost = 0.05
+		court_spending_cost = 0.04
 		
 		allowed_intervene_in_war = yes
 		allowed_enforce_peace = yes
@@ -232,6 +232,7 @@
 		domestikos_east
 		imperial_loyalist
 		defiant_strategoi
+		external_member
 	}
 
 	#TO-DO add unqiue laws

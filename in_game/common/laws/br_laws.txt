@@ -8,7 +8,7 @@ INJECT:administrative_system = { #Version for ERE subjects/minors
 		}
 		country_modifier = {
 			global_nobles_city_desired_pop = 0.005
-			nobles_estate_max_tax = -0.1
+			nobles_estate_max_tax = -0.05
 			nobles_estate_levy_size = 0.25
 			army_infantry_maintenance_cost_modifier = -0.1
 			army_cavalry_maintenance_cost_modifier = -0.1

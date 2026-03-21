@@ -5,7 +5,6 @@
 # allow_native_subjugation_cb = yes
 # enslave_tribals = yes
 #monthly_complacency = 0.05
-#court_spending_cost = 0.05
 #artist_salary_modifier = 1
 #global_monthly_control = 0.005
 #potential_trigger = {  societal_value:centralization_vs_decentralization >= -50}
@@ -282,7 +281,7 @@ br_special_trade_companies = {
 		trade_range_modifier = 0.25
 		naval_range_modifier = 0.25
 		expected_navy_size = 10
-		payment_to_overlord_modifier = -0.5
+		payment_to_overlord_modifier = -0.75
 		global_port_build_buildings_cost = -0.5
 		global_foreign_build_buildings_cost = -0.5
 		trade_sea_movement_cost_modifier = -0.5
@@ -327,7 +326,9 @@ br_latin_trade_naval_reliance = {
 		expected_navy_size_modifier = -0.5
 		tolerance_heretic = 1
 		monthly_towards_plutocracy = societal_value_monthly_move
+		clergy_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
 	}
+	#posative
 	country_modifier = {
 		potential_trigger = { stability >= 50 }
 		trade_sea_movement_cost_modifier = -0.5
@@ -346,18 +347,16 @@ br_latin_trade_naval_reliance = {
 		potential_trigger = { government_power <= 50 }
 		navy_maintenance_cost = 0.25
 		ship_build_speed = -0.5
-		global_maritime_presence_modifier = -0.1
 	}
 	country_modifier = {
 		potential_trigger = { stability <= 50 }
 		global_navy_levy_size_modifier = -0.5
-		trade_income = -0.25
+		global_maritime_presence_modifier = -0.1
 	}
 	country_modifier = {
 		potential_trigger = { prestige <= 50 }
 		global_sailors_modifier = -0.5
 		monthly_legitimacy = -0.05
-		clergy_estate_target_satisfaction = large_privilege_target_satisfaction_penalty
 	}
 }
 

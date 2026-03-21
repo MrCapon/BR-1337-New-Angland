@@ -27,23 +27,24 @@
  roman_tribute_price: "Phóros"
  roman_tribute_desc: "Phóros represents the regular payments and material contributions remitted to Constantinople by members of the Roman order. It reflects the fiscal obligations that sustain the imperial administration, court, and defenses of the empire. Steady Phóros ensures the effective functioning of Roman rule, while shortfalls strain the treasury and weaken the empire’s ability to project authority and maintain order."
 
- br_emperor: "Basileus"
- br_emperor_desc: "The Basileus and Autokrator of the Romans, crowned in Constantinople and heir to the legacy of the Caesars, whose sacred duty is to safeguard the Empire and rule the Roman world."
+ br_emperor: "Basileus and Autokratōr"
+ br_emperor_desc: "The Basileus and Autokratōr of the Romans, crowned in Constantinople, heir to the Caesars, and supreme ruler of the oikoumenē. It is his sacred charge to uphold the order of the Basileía and safeguard the Roman world."
 
- domestikos_west: "Domestikos of the West" #Domestikos tōn Scholōn of the West
- domestikos_west_desc: "The Domestikos of the West commands the imperial tagmata and field armies of the European provinces, entrusted with defending the western dominions of the Roman Empire."
+ domestikos_west: "Domestikos tēs Dyseōs"
+ domestikos_west_desc: "The Domestikos of the West commands the imperial tagmata and field armies of the European provinces, entrusted with the defense and authority of the western dominions in the name of the Basileus."
 
- domestikos_east: "Domestikos of the East" #Domestikos tōn Scholōn of the East
- domestikos_east_desc: "The Domestikos of the East commands the imperial armies of Anatolia and the eastern themes, bearing the grave duty of guarding the Empire's ancient heartlands."
+ domestikos_east: "Domestikos tēs Anatolēs"
+ domestikos_east_desc: "The Domestikos of the East commands the imperial armies of Anatolia and the eastern themes, bearing responsibility for the defense of the Empire’s ancient heartlands and the execution of imperial will."
 
- imperial_loyalist: "Imperial Loyalist"
- imperial_loyalist_desc: "From humble pronoia holders to the powerful governors of themes and katepanates, these officials remain faithful to the Basileus and the authority of Constantinople."
+ imperial_loyalist: "Basilikoi Hypēkooi"
+ imperial_loyalist_desc: "From humble pronoia-holders to the governors of themes and katepanates, these servants of the Basileía remain steadfast in their loyalty, upholding imperial authority and executing the will of Constantinople in both civil and military affairs."
 
- defiant_strategoi: "Defiant Strategos"
- defiant_strategoi_desc: "From ambitious strategoi to powerful dynatoi, these provincial rulers heed the commands of Constantinople only when it suits them, ruling their lands with near independence while imperial authority wanes."
+ defiant_strategoi: "Autonomoi Strategoi"
+ defiant_strategoi_desc: "From ambitious strategoi to entrenched dynatoi, these provincial rulers govern in the Emperor’s name but heed his commands only when it suits them, exercising authority with growing independence as the reach of Constantinople falters."
 
  roman_world_bestow_domestikos_west: "Appoint Domestikos of the West"
  roman_world_bestow_domestikos_west_desc: "Grant the dignity of Domestikos of the West, entrusting the command of the Empire's western armies to a loyal servant of the Basileus."
+
  roman_world_rescind_domestikos_west: "Rescind the Domestikos of the West"
  roman_world_rescind_domestikos_west_desc: "Strip the current holder of the dignity of Domestikos of the West and return command of the western armies to the imperial court."
 
@@ -54,3 +55,6 @@
 
  DISTANCE_FROM_ROMANLAND: "Distance from Romanía"
  ROMAN_WORLD_MEMBERS_AT_WAR: "Romaiokratía Wars"
+
+ external_member: "Symmachoi of the Oikoumenē"
+ external_member_desc: "Peoples and rulers beyond the core of the Romaíoi, yet bound to the imperial order through diplomacy, alliance, and shared interest. Though not counted among the Romans, they partake in the wider oikoumenē shaped by imperial influence."

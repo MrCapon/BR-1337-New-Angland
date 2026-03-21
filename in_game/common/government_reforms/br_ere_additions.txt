@@ -3,7 +3,6 @@
 #modern_imperial_army
 #country_child_education = 0.1
 #global_integration_speed_modifier = 0.10
-#court_spending_cost = 0.02
 #counter_espionage = -0.2
 #land_cost_on_distance_from_capital_modifier = -0.1
 #owns = location:constantinople
@@ -30,8 +29,8 @@ br_imperial_administration = {
 	}
 	country_modifier = {
 		government_reform_slots = 1
-		court_spending_cost  = 0.05
-		#chancery_cap_level = 1 
+		court_spending_cost  = 0.04
+		#chancery_cap_level = 1
 	}
 	country_modifier = {
 		potential_trigger = { government_power >= 50 }
