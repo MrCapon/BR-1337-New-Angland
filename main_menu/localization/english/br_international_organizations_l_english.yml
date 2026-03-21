@@ -51,3 +51,6 @@
  roman_world_bestow_domestikos_east_desc: "Grant the dignity of Domestikos of the East, placing the imperial armies of Anatolia and the eastern themes under a trusted commander."
  roman_world_rescind_domestikos_east: "Rescind the Domestikos of the East"
  roman_world_rescind_domestikos_east_desc: "Strip the current holder of the dignity of Domestikos of the East and restore the command of the eastern armies to the Basileus."
+
+ DISTANCE_FROM_ROMANLAND: "Distance from Romanía"
+ ROMAN_WORLD_MEMBERS_AT_WAR: "Romaiokratía Wars"

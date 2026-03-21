@@ -107,7 +107,7 @@
 							}
 						}
 						add = {
-							desc = "MIDDLE_KINGDOM_MEMBERS_AT_WAR"
+							desc = "ROMAN_WORLD_MEMBERS_AT_WAR"
 							value = 0
 							every_international_organization_member = {
 								limit = {
@@ -200,7 +200,10 @@
 			international_organization_has_leader = yes
 		}
 		religion = scope:recipient.leader_country.religion
-		is_neighbor_of_international_organization = scope:recipient
+		OR = {
+			is_neighbor_of_international_organization = scope:recipient
+			any_owned_location = { is_owned_by_international_organization = scope:recipient }
+		}
 	}
 	
 	can_leave_trigger = {
@@ -233,6 +236,7 @@
 
 	#TO-DO add unqiue laws
 	#laws = {
+		# law here
 	#}
 	
 	monthly_effect = {
@@ -295,7 +299,7 @@
 			}
 		}
 		add = {
-			desc = "DISTANCE_FROM_CHINA"
+			desc = "DISTANCE_FROM_ROMANLAND"
 			value = "border_distance_to(scope:recipient.leader_country)"
 			multiply = -0.05
 			min = -1000
