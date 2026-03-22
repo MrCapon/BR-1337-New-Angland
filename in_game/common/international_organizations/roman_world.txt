@@ -230,11 +230,6 @@
 		defiant_strategoi
 		external_member
 	}
-
-	#unqiue laws
-	laws = {
-		br_romaiokratia_law
-	}
 	
 	monthly_effect = {
 		leader_country ?= {
@@ -250,6 +245,11 @@
 	payments_implemented = {
 		roman_tribute
 		#imperial_contribution
+	}
+	
+	#unqiue laws
+	laws = {
+		br_romaiokratia_law
 	}
 
 
