@@ -30,7 +30,6 @@ br_ere_events.1 = {
 
 	option = {
 		historical_option = yes
-		#high_reward_option = yes
 		name = br_ere_events.1.a
 
 		custom_tooltip = {
@@ -166,7 +165,6 @@ br_ere_events.1 = {
 	}
 
 	option = {
-		historical_option = yes
 		high_reward_option = yes
 		name = br_ere_events.1.b
 
@@ -176,11 +174,14 @@ br_ere_events.1 = {
 			add_prestige = 40
 			add_stability = 40
 			add_gold = 3500
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_extreme_bonus }
+			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_extreme_bonus }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_extreme_bonus }
+			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_extreme_bonus }
 	   	}
 	}
 	option = {
-		historical_option = yes
-		#high_reward_option = yes
+		high_reward_option = yes
 		name = br_ere_events.1.c
 
 		custom_tooltip = {
@@ -190,6 +191,11 @@ br_ere_events.1 = {
 					limit = {
 						NOT = { root = this }
 						NOT = { is_subject_of = root }
+						culture ?= { has_culture_group = culture_group:greek_group }
+						OR = {
+							capital ?= { region = region:anatolia_region }
+							capital ?= { region = region:balkan_region }
+						}
 					}
 					make_subject_of = {
 						target = c:BYZ
