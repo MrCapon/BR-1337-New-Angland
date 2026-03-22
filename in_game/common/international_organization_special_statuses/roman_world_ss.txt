@@ -165,6 +165,7 @@ imperial_loyalist = {
 	modifier = {
 		monthly_legitimacy = 0.05
 		loyalty_to_overlord = 10
+		global_defensive = 0.1
 	}
 
 	leader_modifier = {
@@ -243,6 +244,7 @@ defiant_strategoi = {
 
 	modifier = {
 		monthly_prestige = 0.1
+		global_defensive = -0.1
 	}
 
 	leader_modifier = {

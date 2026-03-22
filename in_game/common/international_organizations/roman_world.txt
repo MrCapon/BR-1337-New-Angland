@@ -76,8 +76,7 @@
 	non_leader_modifier = {	
 		#positive modifiers
 		fort_maintenance_cost = -0.1
-		global_defensive = 0.1
-
+	
 		#negative modifiers
 		block_from_change_to_empire_rank = yes
 		diplomatic_capacity_modifier = -0.5
@@ -163,9 +162,6 @@
 	leader_modifier = {
 		diplomatic_capacity = 2
 		max_diplomats = 2
-		monthly_diplomats = 0.5
-		#subject_loyalty = 10
-		monthly_prestige = 0.15
 		court_spending_cost = 0.04
 		
 		allowed_intervene_in_war = yes
@@ -235,10 +231,10 @@
 		external_member
 	}
 
-	#TO-DO add unqiue laws
-	#laws = {
-		# law here
-	#}
+	#unqiue laws
+	laws = {
+		br_romaiokratia_law
+	}
 	
 	monthly_effect = {
 		leader_country ?= {

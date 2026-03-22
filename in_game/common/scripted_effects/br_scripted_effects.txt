@@ -20,3 +20,27 @@ REPLACE_OR_CREATE:hre_setup_hre_variables = {
 		}
 	}
 }
+
+change_roman_authority = {
+	international_organization:roman_world ?= {
+		custom_description = {
+			text = change_celestial_authority_text #todo text
+			value = $value$
+			change_variable = {
+				name = roman_authority
+				add = $value$
+			}
+			if = {
+				limit = { has_variable = roman_authority }
+				if = {
+					limit = { var:roman_authority > 100 }
+					set_variable = { name = roman_authority value = 100 }
+				}
+				if = {
+					limit = { var:roman_authority < 0 }
+					set_variable = { name = roman_authority value = 0 }
+				}
+			}
+		}
+	}
+}
