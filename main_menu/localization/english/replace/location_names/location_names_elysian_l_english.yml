@@ -1,71 +1,244 @@
-﻿l_english:
-#Some of the names for the locations are taken from the mod third odyssey back to the motherland (for EU4) where a name already exists. The rest of the locations contain made up city names since EU4 had way less locations/ provinces than EU5 does therefore I had to come up with a few new names - David
+l_english:
+#Some of the names for the locations are taken from the mod third odyssey back to the motherland (for EU4) where a name already exists. The rest of the locations contain made up city names since EU4 had way less locations/ provinces than EU5 does therefore I had to come up with a few new names -davidmiltos
 
-#Region_East_Coast  #Actual east coast
-
+#Region_East_Coast 
 #Province Bermuda
  bermuda.elysian_language: "Kauda Elpida" #IMPORTANT TRADE HUB
 
-#Province Patapsco
- patapsco.elysian_language: "Elyseia" #MOST IMPORTANT CITY #ELYSIAN ECUMENICAL PATRIARCH SEAT
- wicontiss.elysian_language: "Cleopatriae"
- nentego.elysian_language: "Nolia"
- patuxent.elysian_language: "Patrinium"
+
+#--------------------------------------------------
+#Maine Area
+#Province Penobscot
+ passagassawkeag.elysian_language: "Breios"
+ majabigwaduce.elysian_language: "Perseon"
+ penobscot.elysian_language: "Mirhypophi" #IMPORTANT CITY
+ piscataquis.elysian_language: "Bellereia"
+ katahdin.elysian_language: "Altheon"
+ millinocket.elysian_language: "Millia"
+ pemetic.elysian_language: "Caput Caem"
+
+#Province Passamaquoddy
+ maatawamkeag.elysian_language: "Castrovia"
+ nicatous.elysian_language: "Nicatium"
+ machias.elysian_language: "Thalassara"
+ passamaquoddy.elysian_language: "Rivathar"
+
+#Province Norridgewock/ Kineo
+ kineo.elysian_language: "Pyronkion"
+ mittaywanquam.elysian_language: "Mitri"
+ caratunk.elysian_language: "Caranium"
+ nanrantsouak.elysian_language: "Silvarion"
+ kennebango.elysian_language: "Nemorium"
+
+#Province Kennebec
+ kennebec.elysian_language: "Kourion"
+ sagadahoc.elysian_language: "Hyni"
+ messalonskee.elysian_language: "Thessyr"
+ norridgewock.elysian_language: "Gaion"
+
+#Province Casco
+ casco.elysian_language: "Kourion"
+ kennebunk.elysian_language: "Arenama"
+ pequawket.elysian_language: "Pequaria"
+ androscoggin.elysian_language: "Tsakotis"
+ ammoscongon.elysian_language: "Ammonium"
+ anasagunticook.elysian_language: "Anastir"
+
+#Province Aroostook
+ meduxnekeag.elysian_language: "Akissa"
+ allagash.elysian_language: "Peria"
+ aroostook.elysian_language: "Arorum"
+
+
+#--------------------------------------------------
+#New Hampshire Area
+#Province Merrimac
+ nashua.elysian_language: "Phoiene"
+ amoskeag.elysian_language: "Phokaia"
+ squamscott.elysian_language: "Scotura"
+
+#Province Pennacook
+ pennacook.elysian_language: "Deinos"
+ ossipee.elysian_language: "Pherox"
+ pemigewasset.elysian_language: "Amphissa"
+ umbagog.elysian_language: "Ambarnai"
+
+#Province Coos
+ monadnock.elysian_language: "Lyreia"
+ sunapee.elysian_language: "Novaesium"
+ ammonoosuc.elysian_language: "Lanua"
+ coos.elysian_language: "Cunicum"
+
+
+#----------------------------------------------
+#Vermont Area
+#Province Pocumtuc/ Walloomsac
+ wantastiquet.elysian_language: "Ameia"
+ walloomsac.elysian_language: "Beryna"
+ pecunktuk.elysian_language: "Potentia"
  
-#Province Potomac
- anacostia.elysian_language: "Nea Konstantinoupolis" #IMPORTANT CITY
- potapoco.elysian_language: "Oea"
- monocacy.elysian_language: "Doceia"
- catoctin.elysian_language: "Cataphron"
+#Province Cowasuk
+ ottauquechee.elysian_language: "Aspropina"
+ ompompanusooc.elysian_language: "Vectra"
+ passumpsic.elysian_language: "Esthar"
+ cowasuck.elysian_language: "Archades"
 
-#Province Nanticoke
- matapeake.elysian_language: "Nea Alexandreia" #IMPORTANT CITY
- chicamacomico.elysian_language: "Thalrion"
- wicomico.elysian_language: "Velthoras"
-
-#Province Chesapeake
- nansemond.elysian_language: "Eiros" #IMPORTANT CITY
- kiskiack.elysian_language: "Prosphorion"
- weyanock.elysian_language: "Viatalis"
- chesapeake.elysian_language: "Kepsoria"
- acoomac.elysian_language: "Acrivelia"
-
-#Province Powhatan
- pamunkey.elysian_language: "Ioannike" #IMPORTANT CITY
- powhatan.elysian_language: "Pygros"
- appamatuck.elysian_language: "Appia Matikos"
- waqua.elysian_language: "Quavelis"
- cheroenhaka.elysian_language: "Kheronis"
-
-#Province Tsenacommacah/ Rappahannock
- patawomeck.elysian_language: "Odessos" #IMPORTANT CITY
- wicocomico.elysian_language: "Neriton"
- nanzatico.elysian_language: "Namnetum"
- rappahannock.elysian_language: "Potamyr"
- werowocomoco.elysian_language: "Veroia"
-
-#Province Roanoke
- roanoke.elysian_language: "Ikos" #IMPORTANT CITY
- hatteras.elysian_language: "Mykena"
- crotan.elysian_language: "Nea Dalmatia"
- pocosin.elysian_language: "Piscispolis"
- chowanoke.elysian_language: "Chyronis"
- wiccacon.elysian_language: "Vicalon"
+#Province Winooski
+ winooski.elysian_language: "Pergiae"
+ nitamibontegw.elysian_language: "Pyladium"
+ gewnaska.elysian_language: "Tanosia"
+ koes.elysian_language: "Cosia"
 
 
-#Province Monacan
- appomatox.elysian_language: "Ditaon"
- massinack.elysian_language: "Alexandroupolis"
- mowhemencho.elysian_language: "Eumencho"
- rassawek.elysian_language: "Savaxis"
- monahassanugh.elysian_language: "Assanor"
- monasukapanough.elysian_language: "Skupaion"
+#----------------------------------------------
+#Massachusetts Area
+#Province Agawam
+ agawam.elysian_language: "Thanyx"
+ pocumtuck.elysian_language: "Ludium"
+ poontoosuck.elysian_language: "Paludara"
+ mahaiwe.elysian_language: "Monsmahaia"
 
-#Province Doeg
- doeg.elysian_language: "Detis"
- manassas.elysian_language: "Akragas"
- tegninateo.elysian_language: "Norikos"
+#Province Massachusetts
+ assabet.elysian_language: "Nea Theodosia"
+ weshacum.elysian_language: "Veria"
+ quinsigamond.elysian_language: "Maiandros"
+ shawmut.elysian_language: "Soldus"
+ naumkeag.elysian_language: "Piscinaum"
 
+#Province Nauset
+ assonet.elysian_language: "Agrinion"
+ patuxet.elysian_language: "Patuxetia"
+ nauset.elysian_language: "Marinova"
+ nantucket.elysian_language: "Pelagopolis"
+
+
+#--------------------------------------------------
+#Southern New England Area
+#Province Quinnipiac
+ quinnipiac.elysian_language: "Neo Limani"
+ rippowam.elysian_language: "Gelirippa"
+ scatacook.elysian_language: "Petropolis"
+
+#Province Connecticut
+ nehantuck.elysian_language: "Senithyre"
+ siccanemos.elysian_language: "Siccanum"
+ willimantic.elysian_language: "Hydromantia"
+ saukiog.elysian_language: "Saucopia"
+
+#Province Narraganset
+ woonsocket.elysian_language: "Rhosphylla"
+ seekonk.elysian_language: "Sakonium"
+ pawcatuck.elysian_language: "Pacathea"
+
+#--------------------------------------------------
+#Hudson Area
+#Province Manhattan
+manhattan.elysian_language: "Nea Athenae" #IMPORTANT CITY
+nochpeem.elysian_language: "Pequana"
+tappan.elysian_language: "Tappanum"
+
+#Province Montauk
+ massapequa.elysian_language: "Terrapluvialis"
+ unquachog.elysian_language: "Agronova"
+ montauk.elysian_language: "Populivallis"
+
+#Province Mahicannituck
+ eaquatak.elysian_language: "Agia"
+ horicon.elysian_language: "Honorius"
+ mahicannituck.elysian_language: "Mercurius"
+ lenape.elysian_language: "Klazomenai"
+
+#Province Muhhekantuck
+ minisink.elysian_language: "Niralia"
+ ponkhockie.elysian_language: "Ptloemais"
+ poughkeepsie.elysian_language: "Confluensia"
+ kitchawanc.elysian_language: "Esopium"
+
+
+#--------------------------------------------------
+#Haudenosaunee Area
+#Province Adirondacks
+ ticonderoga.elysian_language: "Itiene"
+ kawenote.elysian_language: "Leuktra"
+ oneyotdehaga.elysian_language: "Cresta"
+ adirondacks.elysian_language: "Arduenna"
+ kanyengehaga.elysian_language: "Kallidron"
+ oronia.elysian_language: "Orbis"
+ itekiatonhniarikon.elysian_language: "Alexias"
+ tsiietsenhtha.elysian_language: "Syrium"
+ oskennonton.elysian_language: "Thyropetra"
+
+#Province Kanienkehaka
+ canajoharie.elysian_language: "Agia"
+ saratoga.elysian_language: "Klazomenai"
+ schenectady.elysian_language: "Sanctum"
+ teionontatatie.elysian_language: "Teinoataxis"
+ oneonta.elysian_language: "Sepulcra"
+ 
+#Province Oswegatchie
+ ahkwesasne_ny.elysian_language: "Aiantis"
+ oswegatchie.elysian_language: "Tyndarion"
+ ahna_wate.elysian_language: "Ancyria"
+ kaniatarahontsi.elysian_language: "Canium"
+ nikahionhwakowa.elysian_language: "Nicae"
+
+#Province Onyotaaka
+ onenioteke.elysian_language: "Aneplion"
+ oneniote.elysian_language: "Ioetta"
+ teiehonwahkhkwatha.elysian_language: "Korydalla"
+ niiohehsane.elysian_language: "Narthex"
+
+#Province Onondagega 
+ tsikahiotsisto.elysian_language: "Acharnes"
+ oswego.elysian_language: "Dyvela"
+ otsiningo.elysian_language: "Nex Sancta"
+ 
+#Province Gayogohono
+ skaniatares.elysian_language: "Serres"
+ assorodus.elysian_language: "Ethyphleia"
+ gahato.elysian_language: "Gladios"
+ 
+#Province Onondowaga
+ irondequoit.elysian_language: "Apres"
+ canadaigua.elysian_language: "Cundium"
+ geneseo.elysian_language: "Ianua"
+ tsonentsiio.elysian_language: "Hykara"
+
+#Province Wenro
+ tiotoren.elysian_language: "Mikrizon"
+ kanentaweron.elysian_language: "Basileion"
+ cattaraugus.elysian_language: "Augstiuan"
+ ahouenro.elysian_language: "Lestallum"
+ thahnawate.elysian_language: "Altissia"
+
+
+#--------------------------------------------------
+#Allegheny Area
+#Province Lycoming
+ susquehannock.elysian_language: "Akanthos"
+ lycoming.elysian_language: "Skambonidai"
+ tangasootack.elysian_language: "Bostra"
+ loyalsock.elysian_language: "Vedinum"
+ andastoerrhonon.elysian_language: "Ader"
+
+#Province Allegheny
+ loyalhanna.elysian_language: "Fidelium"
+ conemaugh.elysian_language: "Capreae"
+ quemahoning.elysian_language: "Oenipons"
+ allegheny.elysian_language: "Resapha"
+ youghiogheny.elysian_language: "Tudera"
+
+#Province Erie
+erie.elysian_language: "Emgas"
+saucunk.elysian_language: "Thespiaie"
+punxsutawney.elysian_language: "Solstitium"
+kittaning.elysian_language: "Arborvallis"
+shenango.elysian_language: "Viridilacus"
+tionesta.elysian_language: "Katharopotamos"
+
+
+#--------------------------------------------------
+#Pennsylvania Area
 #Province Delaware
  minguannan.elysian_language: "Methenai" #IMPORTANT CITY
  tappahanna.elysian_language: "Troizen"
@@ -92,13 +265,6 @@
  lehigh.elysian_language: "Lincium"
  paunacussing.elysian_language: "Germanicum"
 
-#Province Lycoming
- susquehannock.elysian_language: "Akanthos"
- lycoming.elysian_language: "Skambonidai"
- tangasootack.elysian_language: "Bostra"
- loyalsock.elysian_language: "Vedinum"
- andastoerrhonon.elysian_language: "Ader"
-
 #Province Wyoming
  lackawanna.elysian_language: "Parasemnos"
  atrakwaye.elysian_language: "Metrion"
@@ -116,13 +282,9 @@
  onojutta.elysian_language: "Haenna"
  massawomeck.elysian_language: "Ilerda"
 
-#Province Allegheny
- loyalhanna.elysian_language: "Fidelium"
- conemaugh.elysian_language: "Capreae"
- quemahoning.elysian_language: "Oenipons"
- allegheny.elysian_language: "Resapha"
- youghiogheny.elysian_language: "Tudera"
 
+#--------------------------------------------------
+#New Jersy Area
 #Province Kechemeche
  cohansey.elysian_language: "Kaisareia"
  amintonck.elysian_language: "Atlapolis"
@@ -135,109 +297,73 @@
  piscopeek.elysian_language: "Chryse"
  navisink.elysian_language: "Nysia"
 
-#Province Manhattan
-manhattan.elysian_language: "Nea Athenae" #IMPORTANT CITY
-nochpeem.elysian_language: "Pequana"
-tappan.elysian_language: "Tappanum"
+#Province Assupink
+assunpink.elysian_language: "Pēgalyma"
+muscotnetcong.elysian_language: "Sconetum"
+hopatcong.elysian_language: "Serenitas"
 
-#Province Montauk
- massapequa.elysian_language: "Terrapluvialis"
- unquachog.elysian_language: "Agronova"
- montauk.elysian_language: "Populivallis"
 
-#Province Muhhekantuck
- minisink.elysian_language: "Niralia"
- ponkhockie.elysian_language: "Ptloemais"
- poughkeepsie.elysian_language: "Confluensia"
- kitchawanc.elysian_language: "Esopium"
+#--------------------------------------------------
+#Maryland Area
+#Province Patapsco
+ patapsco.elysian_language: "Elyseia" #MOST IMPORTANT CITY #ELYSIAN ECUMENICAL PATRIARCH SEAT
+ wicontiss.elysian_language: "Cleopatriae"
+ nentego.elysian_language: "Nolia"
+ patuxent.elysian_language: "Patrinium"
+ 
+#Province Potomac
+ anacostia.elysian_language: "Nea Konstantinoupolis" #IMPORTANT CITY
+ potapoco.elysian_language: "Oea"
+ monocacy.elysian_language: "Doceia"
+ catoctin.elysian_language: "Cataphron"
 
-#Province Quinnipiac
- quinnipiac.elysian_language: "Neo Limani"
- rippowam.elysian_language: "Gelirippa"
- scatacook.elysian_language: "Petropolis"
+#Province Nanticoke
+ matapeake.elysian_language: "Nea Alexandreia" #IMPORTANT CITY
+ chicamacomico.elysian_language: "Thalrion"
+ wicomico.elysian_language: "Velthoras"
+ 
+#Province Wapocomo
+wapocomo.elysian_language: "Silvanum"
+cacapon.elysian_language: "Caponum"
+opequon.elysian_language: "Naekōn"
+antietam.elysian_language: "Antietamia"
 
-#Province Connecticut
- nehantuck.elysian_language: "Senithyre"
- siccanemos.elysian_language: "Siccanum"
- willimantic.elysian_language: "Hydromantia"
- saukiog.elysian_language: "Saucopia"
 
-#Province Narraganset
- woonsocket.elysian_language: "Rhosphylla"
- seekonk.elysian_language: "Sakonium"
- pawcatuck.elysian_language: "Pacathea"
+#--------------------------------------------------
+#Virginia Area
+#Province Chesapeake
+ nansemond.elysian_language: "Eiros" #IMPORTANT CITY
+ kiskiack.elysian_language: "Prosphorion"
+ weyanock.elysian_language: "Viatalis"
+ chesapeake.elysian_language: "Kepsoria"
+ acoomac.elysian_language: "Acrivelia"
 
-#Province Nauset
- assonet.elysian_language: "Agrinion"
- patuxet.elysian_language: "Patuxetia"
- nauset.elysian_language: "Marinova"
- nantucket.elysian_language: "Pelagopolis"
+#Province Powhatan
+ pamunkey.elysian_language: "Ioannike" #IMPORTANT CITY
+ powhatan.elysian_language: "Pygros"
+ appamatuck.elysian_language: "Appia Matikos"
+ waqua.elysian_language: "Quavelis"
+ cheroenhaka.elysian_language: "Kheronis"
 
-#Province Agawam
- agawam.elysian_language: "Thanyx"
- pocumtuck.elysian_language: "Ludium"
- poontoosuck.elysian_language: "Paludara"
- mahaiwe.elysian_language: "Monsmahaia"
+#Province Tsenacommacah/ Rappahannock
+ patawomeck.elysian_language: "Odessos" #IMPORTANT CITY
+ wicocomico.elysian_language: "Neriton"
+ nanzatico.elysian_language: "Namnetum"
+ rappahannock.elysian_language: "Potamyr"
+ werowocomoco.elysian_language: "Veroia"
 
-#Province Massachusetts
- assabet.elysian_language: "Nea Theodosia"
- weshacum.elysian_language: "Veria"
- quinsigamond.elysian_language: "Maiandros"
- shawmut.elysian_language: "Soldus"
- naumkeag.elysian_language: "Piscinaum"
+#Province Monacan
+ appomatox.elysian_language: "Ditaon"
+ massinack.elysian_language: "Alexandroupolis"
+ mowhemencho.elysian_language: "Eumencho"
+ rassawek.elysian_language: "Savaxis"
+ monahassanugh.elysian_language: "Assanor"
+ monasukapanough.elysian_language: "Skupaion"
 
-#Province Merrimac
- nashua.elysian_language: "Phoiene"
- amoskeag.elysian_language: "Phokaia"
- squamscott.elysian_language: "Scotura"
-
-#Province Pennacook
- pennacook.elysian_language: "Deinos"
- ossipee.elysian_language: "Pherox"
- pemigewasset.elysian_language: "Amphissa"
- umbagog.elysian_language: "Ambarnai"
-
-#Province Casco
- casco.elysian_language: "Kourion"
- kennenbunk.elysian_language: "Arenama"
- pequaket.elysian_language: "Pequaria"
- adroscoggin.elysian_language: "Tsakotis"
- ammoscongon.elysian_language: "Ammonium"
- anasagunticook.elysian_language: "Anastir"
-
-#Province Kennebec
- kennebec.elysian_language: "Kourion"
- sagadahoc.elysian_language: "Hyni"
- messalonskee.elysian_language: "Thessyr"
- norridgewock.elysian_language: "Gaion"
-
-#Province Penobscot
- passagassawkeag.elysian_language: "Breios"
- majabigwaduce.elysian_language: "Perseon"
- penobscot.elysian_language: "Mirhypophi" #IMPORTANT CITY
- piscataquis.elysian_language: "Bellereia"
- katahdin.elysian_language: "Altheon"
- millinocket.elysian_language: "Millia"
-
-#Province Passamaquoddy
- maatawamkeag.elysian_language: "Castrovia"
- nicatous.elysian_language: "Nicatium"
- machias.elysian_language: "Thalassara"
- passamaquoddy.elysian_language: "Rivathar"
-
-#Province Aroostook
- meduxnekeag.elysian_language: "Akissa"
- allagash.elysian_language: "Peria"
- aroostook.elysian_language: "Arorum"
-
-#Province Norridgewock
- kineo.elysian_language: "Pyronkion"
- mittaywanquam.elysian_language: "Mitri"
- caratunk.elysian_language: "Caranium"
- nanrantsouak.elysian_language: "Silvarion"
- kennebango.elysian_language: "Nemorium"
-
-#Region_East_Coast  #Appalacian Mountians
+#Province Doeg
+ doeg.elysian_language: "Detis"
+ manassas.elysian_language: "Akragas"
+ tegninateo.elysian_language: "Norikos"
 
 #Province Shenandoah
  onandagoa.elysian_language: "Platos" #IMPORTANT CITY
@@ -245,6 +371,28 @@ tappan.elysian_language: "Tappanum"
  massanutten.elysian_language: "Asanuthis"
  schinhandowi.elysian_language: "Handorion"
 
+#Province Saponi
+saponi.elysian_language: "Zaryns"
+nessoneick.elysian_language: "Aeolis"
+occaneechi.elysian_language: "Ocaneia"
+pintahae.elysian_language: "Pintaion"
+meherrin.elysian_language: "Chrysorheuma"
+
+#Province Tutelo
+tutelo.elysian_language: "Terrae"
+mahock.elysian_language: "Silvam"
+chiswell.elysian_language: "Chisvellum"
+torope.elysian_language: "Tropae Iulia"
+mondongachate.elysian_language: "Montivagus"
+
+#Province Mosopeleacipi
+tazewell.elysian_language: "Nyseria"
+mosopeleacipi.elysian_language: "Ventorum Vallis"
+bland.elysian_language: "Galene"
+kallamuckee.elysian_language: "Calmacum"
+
+#--------------------------------------------------
+#West Virginia Area
 #Province Kanawha
  mohetan.elysian_language: "Aithaia" #IMPORTANT CITY
  tsalagi.elysian_language: "Apeia"
@@ -256,7 +404,7 @@ tappan.elysian_language: "Tappanum"
  chinquetana.elysian_language: "Quentara"
  weotowe.elysian_language: "Veiotis"
 
-#Province Monogahela
+#Province Monongahela
  onimgohow.elysian_language: "Dinia"
  calicua.elysian_language: "Caesarea Caligula"
  wihlink.elysian_language: "Amorion"
@@ -268,3 +416,66 @@ tappan.elysian_language: "Tappanum"
  calicuas.elysian_language: "Calirium"
  ashby.elysian_language: "Anavio"
  conococheague.elysian_language: "Celsa"
+
+
+#--------------------------------------------------
+#North Carolina Area
+#Province Roanoke
+ roanoke.elysian_language: "Ikos" #IMPORTANT CITY
+ hatteras.elysian_language: "Mykena"
+ croatan.elysian_language: "Nea Dalmatia"
+ pocosin.elysian_language: "Piscispolis"
+ chowanoke.elysian_language: "Chyronis"
+ wiccacon.elysian_language: "Vicalon"
+
+#Province Gowtano
+gowtano.elysian_language: "Oinos"
+nooherooka.elysian_language: "Aperlai"
+kehaukee.elysian_language: "Eukarpia"
+cherohenaka.elysian_language: "Thermion"
+pamticough.elysian_language: "Pamikos"
+
+#Province Pamlico
+coree.elysian_language: "Rhogadia"
+pamlico.elysian_language: "Tyros"
+corani.elysian_language: "Koraneion"
+neuse.elysian_language: "Neusia"
+
+#Province Chicora
+dawhee.elysian_language: "Parion"
+chicora.elysian_language: "Neikos"
+woccon.elysian_language: "Voceanum"
+cohari.elysian_language: "Koharion"
+sapponah.elysian_language: "Sapphira"
+necoes.elysian_language: "Nekesion"
+
+#Province Waxhaw
+uwharrie.elysian_language: "Vuvara"
+adshusheer.elysian_language: "Aitherion"
+eno.elysian_language: "Enon"
+sissipahaw.elysian_language: "Sipavum"
+waxhaw.elysian_language: "Vaxava"
+
+#Province Yadkin
+keyauwee.elysian_language: "Patrei"
+saura.elysian_language: "Dyme"
+alamance.elysian_language: "Amalai"
+yadkin.elysian_language: "Kelainai"
+
+#Province Joara
+joara.elysian_language: "Chaeus"
+iswa.elysian_language: "Perinthos"
+guaquili.elysian_language: "Fukilion"
+eswapuddenah.elysian_language: "Esopodena"
+
+#Province Kituwa
+kituwa.elysian_language: "Gorgoneia"
+nikwasi.elysian_language: "Temenos"
+guaxule.elysian_language: "Lyfos"
+tahkeeosteh.elysian_language: "Tacheostum"
+italwa.elysian_language: "Livia"
+wattogee.elysian_language: "Bateigon"
+watauga.elysian_language: "Remita"
+
+
+#--------------------------------------------------
