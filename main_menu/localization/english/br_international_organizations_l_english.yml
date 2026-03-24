@@ -1,9 +1,12 @@
 ﻿l_english:
 
+ roman_world: "Oikoumenē"
+ roman_world_desc: "The Oikoumenē embodies the universal Roman claim to order and civilization under the Basileus. From Constantinople radiates a vision of rule that binds diverse lands and peoples into a single imperial sphere. Through the structures of Romaiokratía, this order is maintained, extending imperial authority across both subject realms and allied powers."
 
- roman_world: "Romaiokratía"
- roman_world_desc: "Romaiokratía is the system through which Roman supremacy is recognized and upheld. It encompasses all realms and authorities that acknowledge the Basileus as the ultimate source of legitimacy, whether directly ruled or bound by obligation. Each member strengthens imperial authority, while failure to honor duties weakens the cohesion of the Roman order."
+ #roman_world: "Romaiokratía"
+ #roman_world_desc: "Romaiokratía is the system through which Roman supremacy is recognized and upheld. It encompasses all realms and authorities that acknowledge the Basileus as the ultimate source of legitimacy, whether directly ruled or bound by obligation. Each member strengthens imperial authority, while failure to honor duties weakens the cohesion of the Roman order."
 
+ 
  #or
 
  #roman_world: "Oikoumenē"
@@ -21,7 +24,7 @@
  CURRENT_ROMAN_AUTHORITY: "Current Auctoritas"
  MODIFIER_TYPE_NAME_monthly_roman_authority: "Monthly Auctoritas"
  MODIFIER_TYPE_DESC_monthly_roman_authority: "Monthly Auctoritas"
- change_roman_authority_text: "Auctoritas"
+ #change_roman_authority_text: "Auctoritas"
 
  roman_authority: "Auctoritas" #or Oikoumenikón, Legitimitas, Caesarian, Imperial Authority, Imperium, Maiestas, Dominium, Exousía, Kýros
  roman_authority_DISPLAY: "Auctoritas"
@@ -63,3 +66,34 @@
  external_member_desc: "Peoples and rulers beyond the core of the Romaíoi, yet bound to the imperial order through diplomacy, alliance, and shared interest. Though not counted among the Romans, they partake in the wider oikoumenē shaped by imperial influence."
 
  br_roman_location_bonus_tt: "The [locations|e] of the [GetUniqueInternationalOrganization('roman_world').GetName] get the following modifiers:"
+
+ ADD_ROMAN_AUTHORITY: "Gains $VALUE|+$ #Y $roman_authority$#!"
+ FIRST_ADD_ROMAN_AUTHORITY: "The [international_organization|e] gains $VALUE|+$ #Y $roman_authority$#!"
+ THIRD_ADD_ROMAN_AUTHORITY: "[INTERNATIONAL_ORGANIZATION.GetName] gains $VALUE|+$ #Y $roman_authority$#!"
+ PAST_ADD_ROMAN_AUTHORITY: "Gained $VALUE|+$ #Y $roman_authority$#!"
+ FIRST_PAST_ADD_ROMAN_AUTHORITY: "The [international_organization|e] gained $VALUE|+$ #Y $roman_authority$#!"
+ THIRD_PAST_ADD_ROMAN_AUTHORITY: "[INTERNATIONAL_ORGANIZATION.GetName] gained $VALUE|+$ #Y $roman_authority$#!"
+ SUBTRACT_ROMAN_AUTHORITY: "Loses $VALUE|-$ #Y $roman_authority$#!"
+ FIRST_SUBTRACT_ROMAN_AUTHORITY: "The [international_organization|e] loses $VALUE|-$ #Y $roman_authority$#!"
+ THIRD_SUBTRACT_ROMAN_AUTHORITY: "[INTERNATIONAL_ORGANIZATION.GetName] loses $VALUE|-$ #Y $roman_authority$#!"
+ PAST_SUBTRACT_ROMAN_AUTHORITY: "Lost $VALUE|-$ #Y $roman_authority$#!"
+ FIRST_PAST_SUBTRACT_ROMAN_AUTHORITY: "The [international_organization|e] lost $VALUE|-$ #Y $roman_authority$#!"
+ THIRD_PAST_SUBTRACT_ROMAN_AUTHORITY: "[INTERNATIONAL_ORGANIZATION.GetName] lost $VALUE|-$ #Y $roman_authority$#!"
+
+ br_romaiokratia_law: "Romaiokratía"
+ br_romaiokratia_law_desc: "Romaiokratía defines the order through which the Basileus asserts authority across the Oikoumenē. Through it, lands and rulers are drawn into a hierarchy of obligation, service, and submission, binding the Roman world into a single imperial system of governance."
+
+ br_romaiokratia_weak_policy: "Nominal Supremacy"
+ br_romaiokratia_weak_policy_desc: "Imperial authority is acknowledged in name, but little binds the members of the Oikoumenē beyond custom and tradition. The Basileus holds prestige, yet his influence remains limited."
+
+ br_romaiokratia_low_policy: "Recognized Authority"
+ br_romaiokratia_low_policy_desc: "The authority of the Basileus is formally recognized among the realms of the Oikoumenē. While still largely autonomous, members increasingly look to Constantinople for legitimacy and guidance."
+
+ br_romaiokratia_medium_policy: "Imperial Arbitration"
+ br_romaiokratia_medium_policy_desc: "The Basileus stands as arbiter among the realms of the Oikoumenē, mediating disputes and asserting a growing role in their governance. Imperial authority extends beyond recognition into active oversight."
+
+ br_romaiokratia_high_policy: "Imperial Integration"
+ br_romaiokratia_high_policy_desc: "The structures of Romaiokratía bind the Oikoumenē ever closer to Constantinople. Administration, diplomacy, and authority increasingly flow through imperial institutions, strengthening unity under the Basileus."
+
+ br_romaiokratia_annex_policy: "Universal Dominion"
+ br_romaiokratia_annex_policy_desc: "The Oikoumenē stands unified under the undisputed authority of the Basileus. Distinctions between subject and ally fade as all are drawn fully into the imperial order, securing peace and supremacy across the Roman world."

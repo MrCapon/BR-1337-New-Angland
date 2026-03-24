@@ -61,7 +61,11 @@ br_romaiokratia_law = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
 			var:roman_authority > 50
-			leader_country ?= { government_power >= 25 }
+			leader_country ?= { 
+				"estate_power(estate_type:crown_estate)" >= 0.25
+				government_power >= 75
+				stability >= 75
+			}
 		}
 		on_pay_price = {
 			change_roman_authority = { value = -50 }
@@ -105,7 +109,11 @@ br_romaiokratia_law = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
 			var:roman_authority > 50
-			leader_country ?= { government_power >= 25 }
+			leader_country ?= { 
+				"estate_power(estate_type:crown_estate)" >= 0.35
+				government_power >= 85
+				stability >= 85
+			}
 		}
 		on_pay_price = {
 			change_roman_authority = { value = -50 }
@@ -150,7 +158,11 @@ br_romaiokratia_law = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
 			var:roman_authority > 50
-			leader_country ?= { government_power >= 25 }
+			leader_country ?= { 
+				"estate_power(estate_type:crown_estate)" >= 0.40
+				government_power >= 90
+				stability >= 90
+			}
 		}
 		on_pay_price = {
 			change_roman_authority = { value = -50 }
@@ -212,7 +224,11 @@ br_romaiokratia_law = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
 			var:roman_authority > 50
-			leader_country ?= { government_power >= 25 }
+			leader_country ?= { 
+				"estate_power(estate_type:crown_estate)" >= 0.50
+				government_power >= 95
+				stability >= 95
+			}
 		}
 		on_pay_price = {
 			change_roman_authority = { value = -50 }
