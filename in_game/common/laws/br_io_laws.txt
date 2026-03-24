@@ -20,6 +20,7 @@
 br_romaiokratia_law = {
 	law_category = centralization
 	type = international_organization
+	requires_vote = no
 	potential = {
 		international_organization_type = international_organization_type:roman_world
 	}
@@ -34,7 +35,7 @@ br_romaiokratia_law = {
 		allow = {
 			international_organization_has_law = law:br_romaiokratia_law
 		}
-		on_activate = {
+		on_pay_price = {
 		}
 		on_deactivate = {
 		}
@@ -45,37 +46,13 @@ br_romaiokratia_law = {
 			}
 			monthly_diplomats = 0.1
 			monthly_prestige = 0.05
-			#monthly_imperial_authority = monthly_imperial_authority_very_strong_penalty
+			monthly_roman_authority = 0.05
 		}
-		# How much the Emperor wants to propose a policy
-		wants_propose_policy = {
+		wants_this_policy_bias = {
 			subtract = {
 				desc = "POLICY_BIAS_LEADER_OPPOSES"
 				value = 10000 # Terrible reform for the emperor
 			}
-		}
-		# How much the princes want to vote for / against the policy
-		wants_this_policy_bias = {
-			if = {
-				limit = {
-					is_emperor = no
-				}
-				add = {
-					desc = "POLICY_BIAS_PRINCE_WANTS"
-					value = 100 # Princes love weakening the emperor
-				}
-				add = hre_default_policy_opinion
-			}
-			else = {
-				#oh hell no
-				subtract = {
-					desc = "POLICY_BIAS_LEADER_OPPOSES"
-					value = 10000 # Terrible reform for the emperor
-				}
-			}
-		}
-		wants_keep_policy = {
-			add = hre_default_keep_policy_opinion
 		}
 	}
 	br_romaiokratia_low_policy = {
@@ -83,11 +60,11 @@ br_romaiokratia_law = {
 		allow = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
-			var:roman_authority > 20
+			var:roman_authority > 50
 			leader_country ?= { government_power >= 25 }
 		}
-		on_activate = {
-			change_roman_authority = { value = -20 }
+		on_pay_price = {
+			change_roman_authority = { value = -50 }
 		}
 		international_organization_modifier = {
 		}
@@ -99,10 +76,10 @@ br_romaiokratia_law = {
 			monthly_diplomats = 0.2
 			monthly_prestige = 0.1
 			diplomatic_reputation = diplomatic_reputation_very_weak_bonus
-			#monthly_imperial_authority = monthly_imperial_authority_mild_bonus
+			monthly_roman_authority = 0.06
 		}
 		# How much the Emperor wants to propose a policy
-		wants_propose_policy = {
+		wants_this_policy_bias = {
 			if = {
 				limit = {
 					scope:recipient = {
@@ -120,18 +97,6 @@ br_romaiokratia_law = {
 					value = 1000
 				}
 			}
-			add = hre_default_emperor_policy_desire
-		}
-		# How much the princes want to vote for / against the policy
-		wants_this_policy_bias = {
-			add = {
-				desc = "POLICY_ANCIENT_TRADITION"
-				value = 25  # Baseline policy for this law
-			}
-			add = hre_default_policy_opinion
-		}
-		wants_keep_policy = {
-			add = hre_default_keep_policy_opinion
 		}
 	}
 	br_romaiokratia_medium_policy = {
@@ -139,11 +104,11 @@ br_romaiokratia_law = {
 		allow = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
-			var:roman_authority > 20
+			var:roman_authority > 50
 			leader_country ?= { government_power >= 25 }
 		}
-		on_activate = {
-			change_roman_authority = { value = -20 }
+		on_pay_price = {
+			change_roman_authority = { value = -50 }
 		}
 		country_modifier = {
 			potential_trigger = {
@@ -154,12 +119,12 @@ br_romaiokratia_law = {
 			subject_loyalty = 5
 			monthly_prestige = 0.1
 			diplomatic_reputation = diplomatic_reputation_very_weak_bonus
-			#monthly_imperial_authority = monthly_imperial_authority_mild_bonus
+			monthly_roman_authority = 0.08
 		}
 		international_organization_modifier = {
 		}
 		# How much the Emperor wants to propose a policy
-		wants_propose_policy = {
+		wants_this_policy_bias = {
 			if = {
 				limit = {
 					scope:recipient = {
@@ -177,18 +142,6 @@ br_romaiokratia_law = {
 					value = 1000
 				}
 			}
-			add = hre_default_emperor_policy_desire
-		}
-		# How much the princes want to vote for / against the policy
-		wants_this_policy_bias = {
-			add = {
-				desc = "POLICY_PRINCE_OPPOSES"
-				value = -100  # Princes dont like centralization
-			}
-			add = hre_default_policy_opinion
-		}
-		wants_keep_policy = {
-			add = hre_default_keep_policy_opinion
 		}
 	}
 	br_romaiokratia_high_policy = {
@@ -196,11 +149,11 @@ br_romaiokratia_law = {
 		allow = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
-			var:roman_authority > 20
+			var:roman_authority > 50
 			leader_country ?= { government_power >= 25 }
 		}
-		on_activate = {
-			change_roman_authority = { value = -20 }
+		on_pay_price = {
+			change_roman_authority = { value = -50 }
 			#leader_country ?= {
 			#	trigger_event_non_silently = { 
 			#		id = roman_world.100
@@ -210,7 +163,7 @@ br_romaiokratia_law = {
 		location_modifier = {
 			potential_trigger = {
 				custom_tooltip = {
-					text = hre_location_bonus_tt
+					text = br_roman_location_bonus_tt
 					is_owned_by_international_organization = international_organization:roman_world
 				}
 			}
@@ -225,14 +178,15 @@ br_romaiokratia_law = {
 			monthly_diplomats = 0.35
 			subject_loyalty = 10
 			monthly_prestige = 0.15
-			#monthly_imperial_authority = monthly_imperial_authority_very_strong_bonus
 			diplomatic_reputation = diplomatic_reputation_weak_bonus
+			monthly_roman_authority = 0.1
+			government_size = 1
 		}
 		international_organization_modifier = {
 
 		}
 		# How much the Emperor wants to propose a policy
-		wants_propose_policy = {
+		wants_this_policy_bias = {
 			if = {
 				limit = {
 					scope:recipient = {
@@ -250,43 +204,18 @@ br_romaiokratia_law = {
 					value = 1000
 				}
 			}
-			add = hre_default_emperor_policy_desire
-		}
-		# How much the princes want to vote for / against the policy
-		wants_this_policy_bias = {
-			add = {
-				desc = "POLICY_PRINCE_OPPOSES"
-				value = -150  # Princes dont like centralization
-			}
-			add = hre_default_policy_opinion
-			add = {
-				desc = "LEVEL_OF_EMPEROR_COMFORT_REFORMS"
-				value = 10
-				multiply = scope:recipient.modifier:hre_emperor_comfort_policies_counter
-				multiply = -1
-			}
-		}
-		wants_keep_policy = {
-			add = hre_default_keep_policy_opinion
 		}
 	}
 	br_romaiokratia_annex_policy = {
 		level = 5
 		allow = {
-			hre_allowed_emperor_reform_proposal = yes
-			international_organization_has_law = law:br_romaiokratia_law
-			hre_num_of_emperor_comfort_policies_active = { value = 5 }
-			hre_can_select_adjacent_reform_level = { law = law:br_romaiokratia_law policy = policy:br_romaiokratia_annex_policy }
-			has_currency_to_vote_for_law = { value = imperial_authority_rebellious_law }
-		}
-		allow = {
 			international_organization_has_law = law:br_romaiokratia_law
 			has_variable = roman_authority
-			var:roman_authority > 20
+			var:roman_authority > 50
 			leader_country ?= { government_power >= 25 }
 		}
-		on_activate = {
-			change_roman_authority = { value = -20 }
+		on_pay_price = {
+			change_roman_authority = { value = -50 }
 			#leader_country ?= {
 			#	trigger_event_non_silently = { 
 			#		id = roman_world.102
@@ -296,7 +225,7 @@ br_romaiokratia_law = {
 		location_modifier = {
 			potential_trigger = {
 				custom_tooltip = {
-					text = hre_location_bonus_tt
+					text = br_roman_location_bonus_tt
 					owner = { is_member_of_international_organization = international_organization:roman_world }
 				}
 			}
@@ -316,30 +245,17 @@ br_romaiokratia_law = {
 			subject_loyalty = 15
 			monthly_prestige = 0.2
 			diplomatic_reputation = diplomatic_reputation_mild_bonus
+			monthly_roman_authority = 0.15
+			government_size = 1
 		}
 		international_organization_modifier = {
 			enforced_internal_peace = yes
 		}
 		# How much the Emperor wants to propose a policy
-		wants_propose_policy = {
+		wants_this_policy_bias = {
 			add = {
 				desc = "POLICY_EMPEROR_WANTS"
 				value = 500 # Priority reform for the emperor to progress integration if possible to do
-			}
-			add = hre_default_emperor_policy_desire
-		}
-		# How much the princes want to vote for / against the policy
-		wants_this_policy_bias = {
-			add = {
-				desc = "POLICY_PRINCE_OPPOSES"
-				value = -150  # Princes dont like centralization
-			}
-			add = hre_default_policy_opinion
-			add = {
-				desc = "LEVEL_OF_EMPEROR_COMFORT_REFORMS"
-				value = 10
-				multiply = scope:recipient.modifier:hre_emperor_comfort_policies_counter
-				multiply = -1
 			}
 		}
 	}

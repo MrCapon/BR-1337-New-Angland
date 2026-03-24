@@ -19,6 +19,9 @@
  RW_LEADER: "Basileus"
  NUMBER_OF_ROMAN_MEMBERS: "Romaiokratía Members"
  CURRENT_ROMAN_AUTHORITY: "Current Auctoritas"
+ MODIFIER_TYPE_NAME_monthly_roman_authority: "Monthly Auctoritas"
+ MODIFIER_TYPE_DESC_monthly_roman_authority: "Monthly Auctoritas"
+ change_roman_authority_text: "Auctoritas"
 
  roman_authority: "Auctoritas" #or Oikoumenikón, Legitimitas, Caesarian, Imperial Authority, Imperium, Maiestas, Dominium, Exousía, Kýros
  roman_authority_DISPLAY: "Auctoritas"
@@ -58,3 +61,5 @@
 
  external_member: "Symmachoi of the Oikoumenē"
  external_member_desc: "Peoples and rulers beyond the core of the Romaíoi, yet bound to the imperial order through diplomacy, alliance, and shared interest. Though not counted among the Romans, they partake in the wider oikoumenē shaped by imperial influence."
+
+ br_roman_location_bonus_tt: "The [locations|e] of the [GetUniqueInternationalOrganization('roman_world').GetName] get the following modifiers:"
